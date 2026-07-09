@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap');
+
+:root { --ink:#16231c; --cream:#f4f1e8; --forest:#163f2e; --green:#286348; --lime:#d9ff77; --line:rgba(22,35,28,.14); }
+* { box-sizing:border-box; }
+html, body { margin:0; height:100%; overflow:hidden; }
+body { font-family:"DM Sans", sans-serif; color:var(--ink); background:#bdc8ac; }
+button, input { font:inherit; }
+button { color:inherit; }
+.app { position:relative; height:100dvh; overflow:hidden; background:#aab69a; }
+.topbar { position:absolute; z-index:30; top:0; left:0; right:0; height:76px; display:grid; grid-template-columns:260px minmax(280px,540px) 1fr; align-items:center; gap:28px; padding:0 28px; background:rgba(247,245,238,.9); backdrop-filter:blur(20px); border-bottom:1px solid rgba(19,37,27,.12); }
+.brand { border:0; background:none; display:flex; align-items:center; gap:11px; padding:0; font-family:"Manrope"; font-weight:700; letter-spacing:-.7px; font-size:19px; cursor:pointer; }
+.brand>span:last-child span { color:#6d7d73; font-weight:500; }
+.brand-mark { width:38px; height:38px; border-radius:50%; display:grid; place-items:center; color:white; background:var(--forest); }
+.search-wrap { height:45px; border-radius:24px; background:white; display:flex; align-items:center; gap:10px; padding:0 16px; box-shadow:0 6px 28px rgba(25,50,36,.08); border:1px solid rgba(22,35,28,.08); }
+.search-wrap input { width:100%; border:0; outline:0; background:none; color:var(--ink); }
+.search-wrap input::placeholder { color:#758078; }
+.search-wrap button { border:0; background:none; cursor:pointer; display:grid; }
+.top-actions { justify-self:end; display:flex; align-items:center; gap:10px; }
+.time-pill { height:38px; padding:0 15px; border-radius:20px; border:1px solid var(--line); background:rgba(255,255,255,.65); font-size:13px; cursor:pointer; }
+.live-dot { display:inline-block; width:7px; height:7px; background:#66a54a; border-radius:50%; margin-right:6px; box-shadow:0 0 0 3px rgba(102,165,74,.15); }
+.icon-button, .hero-actions button, .gallery-actions button { width:40px; height:40px; border-radius:50%; border:1px solid var(--line); background:rgba(255,255,255,.78); display:grid; place-items:center; cursor:pointer; backdrop-filter:blur(10px); }
+.campus-map { position:absolute; inset:76px 0 0; overflow:hidden; perspective:1000px; background:linear-gradient(145deg,#aebb9c,#c0c8ab 50%,#92a488); transition:filter .5s; }
+.cesium-campus { perspective:none; background:#13251c; }
+.cesium-container { position:absolute; inset:0; }
+.cesium-container .cesium-viewer,.cesium-container .cesium-viewer-cesiumWidgetContainer,.cesium-container .cesium-widget,.cesium-container canvas { width:100%; height:100%; }
+.cesium-container .cesium-viewer-toolbar { display:none; }
+.cesium-container .cesium-viewer-bottom { right:12px; left:auto; bottom:3px; max-width:55%; font-size:8px; opacity:.72; }
+.map-vignette { position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg,rgba(7,25,16,.2),transparent 24%,transparent 75%,rgba(7,25,16,.12)),linear-gradient(0deg,rgba(7,25,16,.2),transparent 25%); }
+.map-loading { position:absolute; inset:0; z-index:5; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:9px; color:white; background:#153326; }
+.map-loading span { width:35px; height:35px; border:2px solid rgba(255,255,255,.2); border-top-color:var(--lime); border-radius:50%; animation:map-spin .8s linear infinite; }
+.map-loading strong { margin-top:8px; font:600 16px "Manrope"; }.map-loading small { color:rgba(255,255,255,.6); }
+.map-error { background:#26372d; }.map-error svg { color:var(--lime); }
+@keyframes map-spin { to { transform:rotate(360deg); } }
+.map-canvas { position:absolute; width:120%; height:125%; left:-10%; top:-12%; transform:rotate(-6deg) scale(var(--zoom)); transition:transform 1.2s cubic-bezier(.2,.8,.2,1); background:repeating-linear-gradient(25deg,transparent 0 38px,rgba(255,255,255,.025) 39px); }
+.has-selection .map-canvas { transform:rotate(-8deg) scale(calc(var(--zoom) * 1.08)) translateX(-7%); }
+.road { position:absolute; background:#d8d6ca; box-shadow:inset 0 0 0 1px rgba(80,86,72,.1),0 0 0 7px rgba(177,176,157,.55); border-radius:40px; }
+.road-one { width:110%; height:14px; left:-5%; top:53%; transform:rotate(-3deg); }
+.road-two { width:14px; height:115%; left:64%; top:-10%; transform:rotate(7deg); }
+.road-three { width:12px; height:80%; left:29%; top:20%; transform:rotate(-13deg); }
+.river { position:absolute; width:80px; height:140%; left:3%; top:-20%; background:#819fa0; opacity:.55; transform:rotate(9deg); box-shadow:0 0 35px rgba(57,91,89,.35); }
+.the-green { position:absolute; left:43%; top:43%; width:24%; height:23%; border:3px solid rgba(228,224,201,.55); background:#839c67; display:grid; place-items:center; box-shadow:inset 0 0 50px rgba(43,82,46,.17); }
+.the-green span { font:600 11px "Manrope"; letter-spacing:5px; color:rgba(242,239,216,.65); transform:rotate(6deg); }
+.tree { position:absolute; width:18px; height:18px; border-radius:50%; background:#496c43; box-shadow:7px 5px 0 #5d8051,-5px 6px 0 #365d3d,1px 4px 5px rgba(23,52,31,.4); z-index:2; }
+.map-building { position:absolute; width:94px; height:58px; transform:translate(-50%,-50%) rotate(6deg) skewY(-2deg); background:#d9d0b9; border:5px solid #ece5d5; box-shadow:9px 12px 0 #8c806d,12px 18px 18px rgba(42,52,37,.32); z-index:3; }
+.building-0 { width:130px; height:82px; }.building-1 { width:105px; height:65px; background:#b9a894; }.building-2 { width:80px; height:68px; background:#d7cab4; }.building-3 { width:115px; height:66px; background:#ad8c75; }.building-4 { width:105px; height:52px; background:#eee9da; }.building-5 { width:145px; height:78px; background:#b5c0b4; }
+.door-marker { position:absolute; transform:translate(-50%,-50%) rotate(6deg); z-index:8; border:0; background:transparent; cursor:pointer; }
+.door-icon { position:relative; width:40px; height:40px; border-radius:50% 50% 50% 8px; transform:rotate(-45deg); color:var(--forest); background:var(--lime); border:3px solid rgba(255,255,255,.85); display:grid; place-items:center; box-shadow:0 5px 18px rgba(20,55,37,.38); transition:.25s; }
+.door-icon svg { transform:rotate(45deg); }
+.door-marker:hover .door-icon,.door-marker.selected .door-icon { transform:rotate(-45deg) scale(1.16); background:white; }
+.marker-pulse { position:absolute; width:40px; height:40px; border-radius:50%; left:0; top:0; background:rgba(217,255,119,.55); animation:pulse 2.5s infinite; }
+@keyframes pulse { 0%{transform:scale(.7);opacity:1} 100%{transform:scale(1.9);opacity:0} }
+.marker-label { position:absolute; left:48px; top:0; white-space:nowrap; text-align:left; background:rgba(19,42,30,.9); color:white; padding:7px 10px; border-radius:7px; box-shadow:0 4px 16px rgba(0,0,0,.18); opacity:0; transform:translateX(-5px); transition:.2s; pointer-events:none; }
+.marker-label strong,.marker-label small { display:block; }.marker-label strong { font-size:12px; }.marker-label small { color:#bdcbbf; font-size:10px; margin-top:2px; }
+.door-marker:hover .marker-label,.door-marker.selected .marker-label { opacity:1; transform:none; }
+.map-grain { position:absolute; inset:0; pointer-events:none; opacity:.22; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.16'/%3E%3C/svg%3E"); }
+.map-controls { position:absolute; left:24px; bottom:25px; display:flex; flex-direction:column; border-radius:10px; overflow:hidden; box-shadow:0 7px 20px rgba(40,52,42,.15); }
+.map-controls button { width:38px; height:38px; display:grid; place-items:center; border:0; border-bottom:1px solid var(--line); background:rgba(247,245,238,.9); cursor:pointer; }
+.north { position:absolute; right:29px; bottom:28px; width:35px; height:35px; border:1px solid rgba(255,255,255,.6); background:rgba(25,54,38,.75); color:white; display:grid; place-items:center; border-radius:50%; font:600 11px "Manrope"; }
+.north i { position:absolute; top:-5px; border-left:4px solid transparent; border-right:4px solid transparent; border-bottom:7px solid var(--lime); }
+.place-label { position:absolute; top:102px; left:28px; z-index:9; display:flex; flex-direction:column; color:white; text-shadow:0 2px 10px rgba(25,46,34,.45); }
+.place-label span { font:600 15px "Manrope"; }.place-label small { opacity:.7; margin-top:2px; }
+.explore-hint,.controls-button { position:absolute; z-index:10; border:1px solid rgba(255,255,255,.4); background:rgba(25,57,40,.88); color:white; height:40px; border-radius:22px; display:flex; align-items:center; gap:8px; padding:0 16px; cursor:pointer; box-shadow:0 8px 30px rgba(24,51,35,.25); backdrop-filter:blur(10px); }
+.explore-hint { left:50%; bottom:27px; transform:translateX(-50%); }.controls-button { right:24px; bottom:27px; }
+.browse-drawer { position:absolute; z-index:25; left:20px; top:96px; bottom:20px; width:420px; padding:25px; background:rgba(247,245,238,.95); backdrop-filter:blur(24px); border:1px solid rgba(255,255,255,.6); border-radius:20px; box-shadow:0 24px 70px rgba(24,46,32,.25); transform:translateX(calc(-100% - 30px)); transition:.55s cubic-bezier(.2,.8,.2,1); overflow:hidden; }
+.browse-drawer.open { transform:none; }
+.drawer-head { display:flex; align-items:flex-start; justify-content:space-between; gap:15px; }
+.eyebrow,.category-label { color:#60806d; letter-spacing:1.8px; font:600 10px "Manrope"; }
+.drawer-head h2 { font:600 27px/1.2 "Manrope"; letter-spacing:-1.1px; margin:6px 0 21px; }
+.categories { display:flex; gap:7px; overflow:auto; padding-bottom:15px; scrollbar-width:none; }
+.categories button,.season-grid button { white-space:nowrap; border:1px solid var(--line); background:transparent; border-radius:18px; padding:7px 12px; font-size:12px; cursor:pointer; }
+.categories button.active,.season-grid button.active { background:var(--forest); color:white; border-color:var(--forest); }
+.place-list { display:flex; flex-direction:column; gap:10px; overflow:auto; height:calc(100% - 122px); padding:2px 3px 25px 0; scrollbar-width:thin; }
+.place-card { position:relative; flex:0 0 auto; width:100%; border:1px solid rgba(22,35,28,.09); background:rgba(255,255,255,.62); border-radius:13px; padding:9px; display:grid; grid-template-columns:94px 1fr; gap:13px; text-align:left; cursor:pointer; transition:.2s; }
+.place-card:hover { background:white; transform:translateY(-2px); box-shadow:0 8px 22px rgba(25,50,36,.09); }
+.card-image { height:82px; border-radius:9px; display:grid; place-items:center; overflow:hidden; color:rgba(255,255,255,.9); font:600 18px "Manrope"; text-shadow:0 2px 8px rgba(0,0,0,.25); }
+.card-image span { width:46px; height:46px; display:grid; place-items:center; border:1px solid rgba(255,255,255,.4); background:rgba(25,48,33,.25); backdrop-filter:blur(5px); border-radius:50%; }
+.baker { background:linear-gradient(145deg,rgba(15,52,35,.15),rgba(13,38,25,.48)),linear-gradient(35deg,#7c9277,#c9b791 48%,#9b765b 49%,#d8cfb4); }
+.hop { background:linear-gradient(145deg,rgba(16,47,32,.1),rgba(15,40,27,.45)),linear-gradient(30deg,#78614e,#c4b6a1 50%,#697b62); }
+.collis { background:linear-gradient(145deg,rgba(15,52,35,.1),rgba(13,38,25,.45)),linear-gradient(25deg,#b9a782,#875f45 48%,#d4c49f); }
+.foco { background:linear-gradient(145deg,rgba(15,52,35,.05),rgba(13,38,25,.5)),linear-gradient(35deg,#76906b,#875d46 45%,#d5c2a1); }
+.dartmouth { background:linear-gradient(145deg,rgba(15,52,35,.05),rgba(13,38,25,.4)),linear-gradient(35deg,#7b9875,#e8e3d1 48%,#a49782); }
+.lsc { background:linear-gradient(145deg,rgba(15,52,35,.05),rgba(13,38,25,.5)),linear-gradient(35deg,#55786a,#b4c1b4 48%,#6c776f); }
+.place-card h3 { margin:4px 55px 3px 0; font:600 15px "Manrope"; letter-spacing:-.3px; }.place-card p { margin:0; color:#6e776f; font-size:11px; line-height:1.35; }
+.status { position:absolute; top:12px; right:10px; color:#a04f42; font-size:9px; text-transform:uppercase; letter-spacing:.7px; }.status.is-open { color:#4d8a58; }.status:before { content:""; display:inline-block; width:5px; height:5px; border-radius:50%; background:currentColor; margin-right:4px; }
+.environment-panel { position:absolute; z-index:26; right:20px; bottom:78px; width:340px; padding:23px; border-radius:18px; background:rgba(247,245,238,.96); box-shadow:0 20px 60px rgba(22,44,30,.22); transform:translateY(25px); opacity:0; pointer-events:none; transition:.3s; }
+.environment-panel.open { transform:none; opacity:1; pointer-events:auto; }.environment-panel h2 { font-size:22px; margin-bottom:23px; }.environment-panel label { display:flex; justify-content:space-between; font-size:13px; }.environment-panel input { width:100%; accent-color:var(--forest); margin-top:12px; }.time-labels { display:flex; justify-content:space-between; color:#8a918b; font-size:9px; }.season-title { margin:24px 0 10px; }.season-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:5px; }.season-grid button { padding:8px 2px; }
+.building-panel { position:absolute; z-index:28; right:0; top:76px; bottom:0; width:min(480px,100%); background:var(--cream); box-shadow:-20px 0 70px rgba(18,40,27,.25); animation:panel-in .55s cubic-bezier(.2,.8,.2,1); overflow:auto; }
+@keyframes panel-in { from { transform:translateX(100%); } }
+.hero-image { position:relative; height:300px; overflow:hidden; transition:background .4s; }.gallery-1 { filter:saturate(.8) brightness(1.12); }.gallery-2 { filter:saturate(1.2) contrast(1.05); }
+.streetview-image { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:1; animation:streetview-in .5s ease-out; }
+.imagery-source { position:absolute; z-index:2; right:18px; top:68px; padding:5px 8px; border-radius:4px; background:rgba(12,29,20,.72); color:rgba(255,255,255,.82); font-size:9px; letter-spacing:.7px; text-transform:uppercase; backdrop-filter:blur(8px); }
+@keyframes streetview-in { from { opacity:0; transform:scale(1.025); } }
+.hero-actions { position:absolute; z-index:2; top:18px; left:18px; right:18px; display:flex; justify-content:space-between; }.hero-actions button { border:0; }
+.gallery-caption { position:absolute; z-index:2; left:22px; bottom:22px; color:white; text-shadow:0 2px 10px rgba(0,0,0,.5); }.gallery-caption span,.gallery-caption strong { display:block; }.gallery-caption span { font:500 9px "Manrope"; letter-spacing:1.5px; margin-bottom:5px; }.gallery-caption strong { font:600 16px "Manrope"; }
+.gallery-actions { position:absolute; z-index:2; right:18px; bottom:18px; display:flex; gap:7px; }.gallery-actions button { width:36px; height:36px; border:0; }
+.panel-content { padding:32px 34px 42px; }.panel-content h1 { font:600 35px/1.08 "Manrope"; letter-spacing:-1.7px; margin:9px 0 15px; }
+.open-row { display:flex; align-items:center; gap:12px; font-size:12px; color:#657069; }.open-row>span { display:flex; align-items:center; gap:5px; }.open-tag,.closed-tag { border-radius:14px; padding:5px 9px; background:#e2eddf; color:#377146; font-weight:600; }.closed-tag { color:#914b42; background:#f0ded9; }
+.description { margin:25px 0 20px; color:#58645c; line-height:1.65; font-size:14px; }.feature-list { display:flex; flex-wrap:wrap; gap:7px; }.feature-list span { display:flex; align-items:center; gap:5px; background:#e7e5dc; padding:7px 9px; border-radius:6px; font-size:11px; }
+.panel-location { display:flex; align-items:center; gap:12px; margin:27px 0 20px; padding-top:22px; border-top:1px solid var(--line); }.panel-location div { display:flex; flex-direction:column; }.panel-location strong { font-size:13px; }.panel-location span { color:#7b837d; font-size:11px; margin-top:3px; }
+.entrance-list { margin:-8px 0 20px 30px; display:flex; flex-direction:column; gap:7px; }.entrance-list-title { margin-bottom:2px; color:#7b837d; font-size:9px; letter-spacing:1.4px; text-transform:uppercase; }.entrance-list>div { display:grid; grid-template-columns:8px 1fr auto; align-items:center; gap:8px; font-size:11px; }.entrance-list small { color:#8a918b; text-transform:capitalize; }.entrance-dot { width:7px; height:7px; border-radius:50%; background:var(--lime); }.entrance-dot.accessible { background:#6fcce5; }.entrance-dot.exit { background:#a8aea9; }
+.enter-button { width:100%; height:51px; border:0; border-radius:8px; background:var(--forest); color:white; display:flex; align-items:center; justify-content:center; gap:10px; cursor:pointer; font-weight:600; }.enter-button svg:last-child { margin-left:auto; margin-right:17px; }.enter-button svg:first-child { margin-left:17px; }.preview-note { text-align:center; color:#92978f; text-transform:uppercase; font-size:8px; letter-spacing:1.5px; }
+.night .campus-map { filter:brightness(.48) saturate(.75) hue-rotate(12deg); }.night .door-marker,.night .place-label,.night .map-controls,.night .north { filter:brightness(2); }.season-winter .campus-map { filter:saturate(.5) brightness(1.15); }.season-winter .tree { background:#e7ece4; box-shadow:5px 4px 0 #cbd3c9; }.season-spring .tree { background:#5f8c57; box-shadow:7px 5px 0 #86a66c,-5px 6px 0 #bd9fa9; }.season-summer .campus-map { filter:saturate(1.18); }
+.empty { text-align:center; color:#788179; margin-top:40px; }
+@media (max-width: 760px) {
+  .topbar { height:68px; grid-template-columns:auto 1fr auto; padding:0 14px; gap:10px; }.brand>span:last-child { display:none; }.brand-mark { width:37px; height:37px; }.time-pill { display:none; }.search-wrap { height:42px; }.campus-map { inset-top:68px; }.place-label { top:88px; left:17px; }.browse-drawer { left:0; top:auto; bottom:0; width:100%; height:72dvh; border-radius:22px 22px 0 0; transform:translateY(105%); }.browse-drawer.open { transform:none; }.building-panel { top:68px; }.hero-image { height:34dvh; min-height:230px; }.panel-content { padding:25px 23px 40px; }.panel-content h1 { font-size:29px; }.controls-button { right:14px; bottom:18px; font-size:0; width:42px; padding:0; justify-content:center; }.explore-hint { bottom:18px; }.map-controls,.north { display:none; }.environment-panel { left:12px; right:12px; bottom:72px; width:auto; }.door-marker .marker-label { display:none; }
+}
