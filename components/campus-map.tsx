@@ -20,6 +20,18 @@ type Props = {
   time: number;
 };
 
+type CampusModelManifest = {
+  campusModel: string;
+  status: "pending" | "ready";
+  units: string;
+  origin: {
+    longitude: number;
+    latitude: number;
+    heightMeters: number;
+  };
+  fallback: string;
+};
+
 type CesiumViewer = {
   camera: {
     flyTo: (options: unknown) => void;
@@ -150,6 +162,7 @@ const FUTURE_WORK = [
   { label: "Lab airflow optimization", coordinates: [-72.28578, 43.70887] as [number, number] },
   { label: "Dining heat recovery review", coordinates: [-72.29044, 43.70456] as [number, number] },
 ];
+const CAMPUS_MODEL_MANIFEST = "/models/dartmouth-campus/model-manifest.json";
 
 export function CampusMap({ buildings, selected, onSelect, layers, time }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -221,6 +234,7 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
       // The base globe is usable immediately. Dartmouth's OSM geometry streams
       // in without holding the interface behind the loading screen.
       void loadEnhancedGeometry(viewer, Cesium, () => cancelled);
+      void prepareCampusModelSlot(viewer, Cesium, () => cancelled);
     }).catch((error) => {
       console.error("Cesium failed to initialize", error);
       if (!cancelled) setStatus("error");
@@ -393,6 +407,31 @@ async function loadEnhancedGeometry(viewer: CesiumViewer, Cesium: CesiumApi, isC
     if (!isCancelled()) viewer.scene.primitives.add(osmBuildings);
   } catch (error) {
     console.warn("Dartmouth 3D buildings could not be loaded", error);
+  }
+}
+
+async function prepareCampusModelSlot(viewer: CesiumViewer, Cesium: CesiumApi, isCancelled: () => boolean) {
+  try {
+    const response = await fetch(CAMPUS_MODEL_MANIFEST, { cache: "no-store" });
+    if (!response.ok || isCancelled()) return;
+    const manifest = await response.json() as CampusModelManifest;
+    if (manifest.status !== "ready") {
+      console.info("Campus model placeholder active:", manifest.fallback);
+      return;
+    }
+    // Future drop-in point: load manifest.campusModel as a Cesium model once the
+    // optimized GLB is exported from Maya and the manifest status is set ready.
+    console.info("Campus model ready for loading", {
+      model: manifest.campusModel,
+      origin: Cesium.Cartesian3.fromDegrees(
+        manifest.origin.longitude,
+        manifest.origin.latitude,
+        manifest.origin.heightMeters,
+      ),
+      viewerReady: Boolean(viewer.scene),
+    });
+  } catch (error) {
+    console.warn("Campus model manifest unavailable; keeping fallback geometry.", error);
   }
 }
 

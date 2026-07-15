@@ -95,6 +95,27 @@ supabase/migrations/202607010001_mapwrld_core.sql
 
 Then add the Supabase project URL and anon key to `.env.local`. The app reads building data through `/api/buildings`, caches responses for five minutes, and automatically falls back to bundled data if Supabase is unavailable.
 
+## Model Import Workflow
+
+The app is prepared for a future custom Dartmouth campus model at:
+
+```text
+public/models/dartmouth-campus/dartmouth-campus.glb
+```
+
+Use this workflow when exporting from Maya:
+
+- Model and export in meters.
+- Keep the campus centered around the manifest origin in `public/models/dartmouth-campus/model-manifest.json`.
+- Export as binary glTF (`.glb`) for web delivery.
+- Keep geometry modular enough to optimize or replace buildings later.
+- Reduce unnecessary bevels, hidden faces, duplicate objects, and high-density trees before export.
+- Use baked/simple materials first; add detailed materials only after performance is acceptable.
+- Place the exported file at `public/models/dartmouth-campus/dartmouth-campus.glb`.
+- Change `status` in `model-manifest.json` from `pending` to `ready` after the file is in place.
+
+Until the GLB is ready, the app keeps using Cesium terrain, imagery, OSM buildings, and the energy overlays as the working fallback scene.
+
 ## Roadmap
 
 ### Phase 1: Campus Foundation

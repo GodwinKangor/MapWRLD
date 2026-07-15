@@ -1,0 +1,17 @@
+{
+  "campusModel": "/models/dartmouth-campus/dartmouth-campus.glb",
+  "status": "pending",
+  "units": "meters",
+  "origin": {
+    "longitude": -72.2884,
+    "latitude": 43.7037,
+    "heightMeters": 0
+  },
+  "recommendedExport": {
+    "format": "glb",
+    "upAxis": "Y",
+    "scale": 1,
+    "notes": "Export from Maya in meters, with the campus centered around the manifest origin."
+  },
+  "fallback": "Cesium terrain, imagery, and OSM buildings remain active until the GLB is available."
+}
