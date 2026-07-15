@@ -116,6 +116,12 @@ Use this workflow when exporting from Maya:
 
 Until the GLB is ready, the app keeps using Cesium terrain, imagery, OSM buildings, and the energy overlays as the working fallback scene.
 
+For the full GeoJSON -> Blender -> Maya -> GLB pipeline, use:
+
+```text
+public/models/dartmouth-campus/README.md
+```
+
 ## Roadmap
 
 ### Phase 1: Campus Foundation

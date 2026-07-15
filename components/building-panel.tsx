@@ -1,6 +1,6 @@
 "use client";
 
-import { Activity, ArrowLeft, ArrowRight, Building2, ClipboardList, Clock3, DoorOpen, Flame, Gauge, MapPin, Route, Share2, Sparkles, X, Zap } from "lucide-react";
+import { Activity, ArrowLeft, ArrowRight, Building2, ClipboardList, Clock3, Database, DoorOpen, Flame, Gauge, MapPin, Route, Share2, Sparkles, X, Zap } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { Building } from "@/data/buildings";
 
@@ -80,7 +80,9 @@ export function BuildingPanel({ building, onClose }: { building: Building | null
             <div className="inspector-list">
               <div><span>Primary system</span><strong>{building.energy.system}</strong></div>
               <div><span>Accessible entrances</span><strong>{accessibleEntrances || "Needs verification"}</strong></div>
-              <div><span>Model status</span><strong>Placeholder geometry</strong></div>
+              <div><span>Model status</span><strong>{building.assetStatus.modelStatus}</strong></div>
+              <div><span>Meter status</span><strong>{building.assetStatus.meterStatus}</strong></div>
+              <div><span>Data quality</span><strong>{building.assetStatus.dataQuality}</strong></div>
             </div>
             {building.entrances && building.entrances.length > 1 && (
               <div className="entrance-list">
@@ -95,6 +97,11 @@ export function BuildingPanel({ building, onClose }: { building: Building | null
 
         {tab === "retrofit" && (
           <section className="asset-section">
+            <div className={`asset-status-card priority-${building.assetStatus.priority.toLowerCase()}`}>
+              <div><Database size={16} /><span>{building.assetStatus.priority} priority</span></div>
+              <strong>{building.assetStatus.nextStep}</strong>
+              <small>Last inspection: {building.assetStatus.lastInspection}</small>
+            </div>
             <div className="retrofit-card">
               <span>{priority}</span>
               <h3>{building.energy.retrofit}</h3>

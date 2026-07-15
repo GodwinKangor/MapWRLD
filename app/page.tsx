@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { BuildingPanel } from "@/components/building-panel";
 import { CampusMap } from "@/components/campus-map";
-import { Compass, Menu, Search, SlidersHorizontal, Sparkles, X } from "lucide-react";
+import { CheckCircle2, Compass, Cuboid, Menu, Search, SlidersHorizontal, Sparkles, X } from "lucide-react";
 import { buildings, categories, type Building } from "@/data/buildings";
 
 export default function Home() {
@@ -42,6 +42,13 @@ export default function Home() {
     const matchesQuery = `${building.name} ${building.description} ${building.category}`.toLowerCase().includes(query.toLowerCase());
     return matchesQuery && (category === "All places" || building.category === category);
   }), [buildingData, query, category]);
+  const productionSummary = useMemo(() => {
+    const total = buildingData.length || 1;
+    const ready = buildingData.filter((building) => building.assetStatus.modelStatus === "Ready").length;
+    const active = buildingData.filter((building) => building.assetStatus.modelStatus === "In progress").length;
+    const highPriority = buildingData.filter((building) => building.assetStatus.priority === "High").length;
+    return { total, ready, active, highPriority, percent: Math.round((ready / total) * 100) };
+  }, [buildingData]);
 
   const selectBuilding = (building: Building) => {
     setSelected(building);
@@ -93,6 +100,7 @@ export default function Home() {
               <div className={`card-image ${building.imageClass}`}><span>{building.shortCode}</span></div>
               <div><span className="category-label">{building.category}</span><h3>{building.name}</h3><p>{building.subtitle}</p></div>
               <span className={`status ${building.open ? "is-open" : ""}`}>{building.open ? "Open" : "Closed"}</span>
+              <small className={`model-pill model-${slugStatus(building.assetStatus.modelStatus)}`}>{building.assetStatus.modelStatus}</small>
             </button>
           ))}
           {!filtered.length && <p className="empty">No places match that search. Try another path.</p>}
@@ -109,6 +117,18 @@ export default function Home() {
           <label><span>Carbon intensity</span><input type="checkbox" checked={layers.carbon} onChange={(e) => setLayers((current) => ({ ...current, carbon: e.target.checked }))} /></label>
           <label><span>Accessibility</span><input type="checkbox" checked={layers.accessibility} onChange={(e) => setLayers((current) => ({ ...current, accessibility: e.target.checked }))} /></label>
           <label><span>Future work</span><input type="checkbox" checked={layers.futureWork} onChange={(e) => setLayers((current) => ({ ...current, futureWork: e.target.checked }))} /></label>
+        </div>
+        <div className="readiness-card">
+          <div>
+            <span className="eyebrow">MODEL READINESS</span>
+            <strong>{productionSummary.percent}% ready</strong>
+          </div>
+          <i><b style={{ width: `${productionSummary.percent}%` }} /></i>
+          <div className="readiness-grid">
+            <span><CheckCircle2 size={14} /> {productionSummary.ready} ready</span>
+            <span><Cuboid size={14} /> {productionSummary.active} active</span>
+            <span>{productionSummary.highPriority} high priority</span>
+          </div>
         </div>
         <label><span>Time of day</span><strong>{formatTime(time)}</strong></label>
         <input type="range" min="0" max="23" value={time} onChange={(e) => setTime(Number(e.target.value))} />
@@ -127,4 +147,8 @@ export default function Home() {
 function formatTime(hour: number) {
   const h = hour % 12 || 12;
   return `${h}:00 ${hour >= 12 ? "PM" : "AM"}`;
+}
+
+function slugStatus(status: string) {
+  return status.toLowerCase().replace(/\s+/g, "-");
 }

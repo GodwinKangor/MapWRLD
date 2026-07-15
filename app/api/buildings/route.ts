@@ -32,6 +32,12 @@ type DatabaseBuilding = {
   gallery_labels: string[] | null;
   entrances: DatabaseEntrance[];
   building_media: DatabaseMedia[];
+  model_status?: Building["assetStatus"]["modelStatus"] | null;
+  meter_status?: Building["assetStatus"]["meterStatus"] | null;
+  data_quality?: Building["assetStatus"]["dataQuality"] | null;
+  asset_priority?: Building["assetStatus"]["priority"] | null;
+  last_inspection?: string | null;
+  next_step?: string | null;
 };
 
 export async function GET() {
@@ -93,6 +99,14 @@ function mapBuilding(row: DatabaseBuilding): Building | null {
       emissions: "Medium",
       retrofit: "Add energy metadata in Supabase",
       score: 0,
+    },
+    assetStatus: {
+      modelStatus: row.model_status ?? "Queued",
+      meterStatus: row.meter_status ?? "Missing",
+      dataQuality: row.data_quality ?? "Draft",
+      priority: row.asset_priority ?? "Medium",
+      lastInspection: row.last_inspection ?? "Needs visit",
+      nextStep: row.next_step ?? "Add model and meter metadata in Supabase",
     },
   };
 }
