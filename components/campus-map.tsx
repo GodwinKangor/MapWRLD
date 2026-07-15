@@ -9,8 +9,13 @@ type Props = {
   selected: Building | null;
   onSelect: (building: Building) => void;
   layers: {
+    accessibility: boolean;
     boundary: boolean;
+    carbon: boolean;
+    electric: boolean;
     energyNetwork: boolean;
+    futureWork: boolean;
+    heating: boolean;
   };
   time: number;
 };
@@ -122,7 +127,7 @@ const ENERGY_GRAPH = {
   northHub: [-72.2889, 43.7049],
   eastHub: [-72.2866, 43.7038],
 } satisfies Record<string, [number, number]>;
-const ENERGY_CONNECTIONS: Array<[[number, number], [number, number]]> = [
+const HEATING_CONNECTIONS: Array<[[number, number], [number, number]]> = [
   [ENERGY_GRAPH.hub, ENERGY_GRAPH.westHub],
   [ENERGY_GRAPH.westHub, ENERGY_GRAPH.northHub],
   [ENERGY_GRAPH.northHub, ENERGY_GRAPH.eastHub],
@@ -133,6 +138,17 @@ const ENERGY_CONNECTIONS: Array<[[number, number], [number, number]]> = [
   [ENERGY_GRAPH.hub, [-72.28858, 43.70187]],
   [ENERGY_GRAPH.eastHub, [-72.28658, 43.70371]],
   [ENERGY_GRAPH.eastHub, [-72.28578, 43.70887]],
+];
+const ELECTRIC_CONNECTIONS: Array<[[number, number], [number, number]]> = [
+  [[-72.2909, 43.7001], [-72.2886, 43.7016]],
+  [[-72.2886, 43.7016], [-72.2869, 43.7038]],
+  [[-72.2869, 43.7038], [-72.2858, 43.7089]],
+  [[-72.2886, 43.7016], [-72.2902, 43.7046]],
+];
+const FUTURE_WORK = [
+  { label: "Low-temp heat loop study", coordinates: [-72.2873, 43.7006] as [number, number] },
+  { label: "Lab airflow optimization", coordinates: [-72.28578, 43.70887] as [number, number] },
+  { label: "Dining heat recovery review", coordinates: [-72.29044, 43.70456] as [number, number] },
 ];
 
 export function CampusMap({ buildings, selected, onSelect, layers, time }: Props) {
@@ -398,10 +414,16 @@ async function loadAerialImagery(
 
 function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], selectedId?: string, layers?: Props["layers"]) {
   if (layers?.boundary ?? true) addCampusMask(viewer, Cesium);
-  if (layers?.energyNetwork ?? true) addEnergyGraph(viewer, Cesium);
+  if (layers?.energyNetwork ?? true) {
+    if (layers?.heating ?? true) addHeatingGraph(viewer, Cesium);
+    if (layers?.electric ?? true) addElectricGraph(viewer, Cesium);
+  }
+  if (layers?.carbon ?? false) addCarbonLayer(viewer, Cesium, buildings);
+  if (layers?.futureWork ?? false) addFutureWorkLayer(viewer, Cesium);
   buildings.forEach((building) => {
     const entrances = building.entrances ?? [building.entrance];
     entrances.forEach((entrance) => {
+      if (entrance.kind === "accessible" && layers?.accessibility === false) return;
       const isPrimary = entrance.kind === "main";
       const isSelected = building.id === selectedId;
       const entity = viewer.entities.add({
@@ -435,11 +457,11 @@ function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: 
   });
 }
 
-function addEnergyGraph(viewer: CesiumViewer, Cesium: CesiumApi) {
+function addHeatingGraph(viewer: CesiumViewer, Cesium: CesiumApi) {
   const trunkMaterial = new Cesium.Color(0.96, 0.35, 0.17, 0.88);
   const branchMaterial = new Cesium.Color(0.78, 1, 0.4, 0.82);
 
-  ENERGY_CONNECTIONS.forEach(([start, end], index) => {
+  HEATING_CONNECTIONS.forEach(([start, end], index) => {
     viewer.entities.add({
       allowPicking: false,
       polyline: {
@@ -459,6 +481,72 @@ function addEnergyGraph(viewer: CesiumViewer, Cesium: CesiumApi) {
         pixelSize: name === "hub" ? 15 : 11,
         color: new Cesium.Color(0.96, 0.35, 0.17, 0.95),
         outlineColor: new Cesium.Color(0.98, 1, 0.72, 0.95),
+        outlineWidth: 2,
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+        disableDepthTestDistance: 900,
+      },
+    });
+  });
+}
+
+function addElectricGraph(viewer: CesiumViewer, Cesium: CesiumApi) {
+  const electricMaterial = new Cesium.Color(0.32, 0.72, 1, 0.82);
+  ELECTRIC_CONNECTIONS.forEach(([start, end]) => {
+    viewer.entities.add({
+      allowPicking: false,
+      polyline: {
+        positions: Cesium.Cartesian3.fromDegreesArray([start[0], start[1], end[0], end[1]]),
+        width: 3,
+        material: electricMaterial,
+        clampToGround: true,
+      },
+    });
+  });
+}
+
+function addCarbonLayer(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[]) {
+  buildings.forEach((building) => {
+    const color = building.energy.emissions === "High"
+      ? new Cesium.Color(0.96, 0.22, 0.12, 0.72)
+      : building.energy.emissions === "Medium"
+        ? new Cesium.Color(1, 0.72, 0.18, 0.68)
+        : new Cesium.Color(0.34, 0.86, 0.44, 0.68);
+    viewer.entities.add({
+      allowPicking: false,
+      position: Cesium.Cartesian3.fromDegrees(building.coordinates[0], building.coordinates[1], 16),
+      point: {
+        pixelSize: Math.max(14, Math.min(34, building.energy.demandKw / 38)),
+        color,
+        outlineColor: Cesium.Color.WHITE,
+        outlineWidth: 2,
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+        disableDepthTestDistance: 900,
+      },
+    });
+  });
+}
+
+function addFutureWorkLayer(viewer: CesiumViewer, Cesium: CesiumApi) {
+  FUTURE_WORK.forEach((item) => {
+    viewer.entities.add({
+      allowPicking: false,
+      position: Cesium.Cartesian3.fromDegrees(item.coordinates[0], item.coordinates[1], 18),
+      label: {
+        text: item.label,
+        font: "600 11px Manrope, sans-serif",
+        fillColor: Cesium.Color.WHITE,
+        outlineColor: Cesium.Color.BLACK,
+        outlineWidth: 4,
+        pixelOffset: { x: 0, y: -42 },
+        showBackground: true,
+        backgroundColor: { red: 0.34, green: 0.12, blue: 0.42, alpha: 0.86 },
+        backgroundPadding: { x: 8, y: 5 },
+        disableDepthTestDistance: 900,
+      },
+      point: {
+        pixelSize: 12,
+        color: new Cesium.Color(0.86, 0.45, 1, 0.92),
+        outlineColor: Cesium.Color.WHITE,
         outlineWidth: 2,
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
         disableDepthTestDistance: 900,

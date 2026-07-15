@@ -13,7 +13,15 @@ export default function Home() {
   const [category, setCategory] = useState("All places");
   const [time, setTime] = useState(14);
   const [season, setSeason] = useState("Fall");
-  const [layers, setLayers] = useState({ boundary: true, energyNetwork: true });
+  const [layers, setLayers] = useState({
+    accessibility: true,
+    boundary: true,
+    carbon: false,
+    electric: true,
+    energyNetwork: true,
+    futureWork: false,
+    heating: true,
+  });
   const [browseOpen, setBrowseOpen] = useState(false);
   const [controlsOpen, setControlsOpen] = useState(false);
 
@@ -96,6 +104,11 @@ export default function Home() {
         <div className="layer-list">
           <label><span>Campus boundary</span><input type="checkbox" checked={layers.boundary} onChange={(e) => setLayers((current) => ({ ...current, boundary: e.target.checked }))} /></label>
           <label><span>Energy network</span><input type="checkbox" checked={layers.energyNetwork} onChange={(e) => setLayers((current) => ({ ...current, energyNetwork: e.target.checked }))} /></label>
+          <label><span>District heat</span><input type="checkbox" checked={layers.heating} onChange={(e) => setLayers((current) => ({ ...current, heating: e.target.checked }))} /></label>
+          <label><span>Electric</span><input type="checkbox" checked={layers.electric} onChange={(e) => setLayers((current) => ({ ...current, electric: e.target.checked }))} /></label>
+          <label><span>Carbon intensity</span><input type="checkbox" checked={layers.carbon} onChange={(e) => setLayers((current) => ({ ...current, carbon: e.target.checked }))} /></label>
+          <label><span>Accessibility</span><input type="checkbox" checked={layers.accessibility} onChange={(e) => setLayers((current) => ({ ...current, accessibility: e.target.checked }))} /></label>
+          <label><span>Future work</span><input type="checkbox" checked={layers.futureWork} onChange={(e) => setLayers((current) => ({ ...current, futureWork: e.target.checked }))} /></label>
         </div>
         <label><span>Time of day</span><strong>{formatTime(time)}</strong></label>
         <input type="range" min="0" max="23" value={time} onChange={(e) => setTime(Number(e.target.value))} />
