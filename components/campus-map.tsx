@@ -8,6 +8,10 @@ type Props = {
   buildings: Building[];
   selected: Building | null;
   onSelect: (building: Building) => void;
+  layers: {
+    boundary: boolean;
+    energyNetwork: boolean;
+  };
   time: number;
 };
 
@@ -131,7 +135,7 @@ const ENERGY_CONNECTIONS: Array<[[number, number], [number, number]]> = [
   [ENERGY_GRAPH.eastHub, [-72.28578, 43.70887]],
 ];
 
-export function CampusMap({ buildings, selected, onSelect, time }: Props) {
+export function CampusMap({ buildings, selected, onSelect, layers, time }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<CesiumViewer | null>(null);
   const clickHandlerRef = useRef<{ destroy: () => void } | null>(null);
@@ -181,7 +185,7 @@ export function CampusMap({ buildings, selected, onSelect, time }: Props) {
       viewer.scene.globe.enableLighting = false;
       cameraLimitsCleanupRef.current = installCampusCameraLimits(viewer, Cesium);
 
-      addBuildingMarkers(viewer, Cesium, buildingsRef.current);
+      addBuildingMarkers(viewer, Cesium, buildingsRef.current, undefined, layers);
       flyHome(viewer, Cesium);
 
       const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -222,8 +226,8 @@ export function CampusMap({ buildings, selected, onSelect, time }: Props) {
     const Cesium = window.Cesium;
     if (!viewer || !Cesium) return;
     viewer.entities.removeAll();
-    addBuildingMarkers(viewer, Cesium, buildings, selected?.id);
-  }, [buildings, selected?.id]);
+    addBuildingMarkers(viewer, Cesium, buildings, selected?.id, layers);
+  }, [buildings, layers, selected?.id]);
 
   useEffect(() => {
     const viewer = viewerRef.current;
@@ -392,9 +396,9 @@ async function loadAerialImagery(
   }
 }
 
-function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], selectedId?: string) {
-  addCampusMask(viewer, Cesium);
-  addEnergyGraph(viewer, Cesium);
+function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], selectedId?: string, layers?: Props["layers"]) {
+  if (layers?.boundary ?? true) addCampusMask(viewer, Cesium);
+  if (layers?.energyNetwork ?? true) addEnergyGraph(viewer, Cesium);
   buildings.forEach((building) => {
     const entrances = building.entrances ?? [building.entrance];
     entrances.forEach((entrance) => {

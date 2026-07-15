@@ -13,6 +13,7 @@ export default function Home() {
   const [category, setCategory] = useState("All places");
   const [time, setTime] = useState(14);
   const [season, setSeason] = useState("Fall");
+  const [layers, setLayers] = useState({ boundary: true, energyNetwork: true });
   const [browseOpen, setBrowseOpen] = useState(false);
   const [controlsOpen, setControlsOpen] = useState(false);
 
@@ -59,7 +60,7 @@ export default function Home() {
         </div>
       </header>
 
-      <CampusMap buildings={filtered} selected={selected} onSelect={selectBuilding} time={time} />
+      <CampusMap buildings={filtered} selected={selected} onSelect={selectBuilding} layers={layers} time={time} />
 
       <div className="place-label">
         <span>Dartmouth College</span>
@@ -91,7 +92,11 @@ export default function Home() {
       </section>
 
       <section className={`environment-panel ${controlsOpen ? "open" : ""}`}>
-        <div className="drawer-head"><div><span className="eyebrow">ENVIRONMENT</span><h2>Set the atmosphere</h2></div><button className="icon-button" onClick={() => setControlsOpen(false)}><X size={18} /></button></div>
+        <div className="drawer-head"><div><span className="eyebrow">DIGITAL TWIN</span><h2>Layers & atmosphere</h2></div><button className="icon-button" onClick={() => setControlsOpen(false)}><X size={18} /></button></div>
+        <div className="layer-list">
+          <label><span>Campus boundary</span><input type="checkbox" checked={layers.boundary} onChange={(e) => setLayers((current) => ({ ...current, boundary: e.target.checked }))} /></label>
+          <label><span>Energy network</span><input type="checkbox" checked={layers.energyNetwork} onChange={(e) => setLayers((current) => ({ ...current, energyNetwork: e.target.checked }))} /></label>
+        </div>
         <label><span>Time of day</span><strong>{formatTime(time)}</strong></label>
         <input type="range" min="0" max="23" value={time} onChange={(e) => setTime(Number(e.target.value))} />
         <div className="time-labels"><span>Midnight</span><span>Noon</span><span>Midnight</span></div>

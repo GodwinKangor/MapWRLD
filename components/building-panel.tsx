@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeft, ArrowRight, Clock3, DoorOpen, MapPin, Share2, Sparkles, X } from "lucide-react";
+import { Activity, ArrowLeft, ArrowRight, Clock3, DoorOpen, Flame, Gauge, MapPin, Share2, Sparkles, X, Zap } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { Building } from "@/data/buildings";
 
@@ -36,6 +36,19 @@ export function BuildingPanel({ building, onClose }: { building: Building | null
         <h1>{building.name}</h1>
         <div className="open-row"><span className={building.open ? "open-tag" : "closed-tag"}>{building.open ? "Open now" : "Closed"}</span><span><Clock3 size={15} /> {building.hours}</span></div>
         <p className="description">{building.description}</p>
+        <section className="energy-profile">
+          <div className="energy-head">
+            <span className="eyebrow">ENERGY PROFILE</span>
+            <strong>{building.energy.score ? `${building.energy.score}/100` : "Draft"}</strong>
+          </div>
+          <div className="energy-grid">
+            <div><Zap size={16} /><span>Peak demand</span><strong>{building.energy.demandKw || "TBD"}{building.energy.demandKw ? " kW" : ""}</strong></div>
+            <div><Activity size={16} /><span>Annual use</span><strong>{building.energy.annualMwh || "TBD"}{building.energy.annualMwh ? " MWh" : ""}</strong></div>
+            <div><Flame size={16} /><span>Emissions</span><strong>{building.energy.emissions}</strong></div>
+            <div><Gauge size={16} /><span>System</span><strong>{building.energy.system}</strong></div>
+          </div>
+          <p><strong>{building.energy.useType}</strong> · {building.energy.retrofit}</p>
+        </section>
         <div className="feature-list">{building.features.map((feature) => <span key={feature}><Sparkles size={13} /> {feature}</span>)}</div>
         <div className="panel-location"><MapPin size={18} /><div><strong>{building.entrance.label}</strong><span>Dartmouth College · Hanover, New Hampshire</span></div></div>
         {building.entrances && building.entrances.length > 1 && (
@@ -46,8 +59,8 @@ export function BuildingPanel({ building, onClose }: { building: Building | null
             ))}
           </div>
         )}
-        <button className="enter-button"><DoorOpen size={19} /> Step inside <ArrowRight size={18} /></button>
-        <p className="preview-note">Interior preview coming soon</p>
+        <button className="enter-button"><DoorOpen size={19} /> Inspect asset <ArrowRight size={18} /></button>
+        <p className="preview-note">Planning estimates until live energy data is connected</p>
       </div>
     </aside>
   );

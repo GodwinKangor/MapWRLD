@@ -85,6 +85,15 @@ function mapBuilding(row: DatabaseBuilding): Building | null {
     imageClass: row.image_class,
     features: row.features ?? [],
     gallery: media.length ? media.map((item) => item.caption) : (row.gallery_labels ?? []),
+    energy: {
+      useType: row.category,
+      system: "Planning estimate",
+      demandKw: 0,
+      annualMwh: 0,
+      emissions: "Medium",
+      retrofit: "Add energy metadata in Supabase",
+      score: 0,
+    },
   };
 }
 
