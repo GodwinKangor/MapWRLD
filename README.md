@@ -93,13 +93,22 @@ http://localhost:3000/reference-atlas
 
 It gives modelers front, side, and back Street View reference slots for each tracked campus building.
 
-To generate local modeling images for every tracked building, run:
+To generate local orientation images for every tracked building, run:
 
 ```bash
 npm run reference:images
 ```
 
 The images are written to `public/reference-atlas/images/` and are ignored by Git so the repository does not balloon. The atlas uses these local images first, then falls back to live Street View when a local image is missing.
+
+For actual modeling references across every OSM building inside the Dartmouth rectangle, generate facade candidates instead:
+
+```bash
+npm run reference:facades:test
+npm run reference:facades
+```
+
+The facade generator pulls building footprints from OpenStreetMap, selects the major walls, then saves tighter wall-facing Street View candidates like `facade-01.jpg`, `facade-02.jpg`, etc. Use the test command first because the full command can make many API requests.
 
 ## Supabase Setup
 
