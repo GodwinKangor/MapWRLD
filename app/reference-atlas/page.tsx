@@ -24,6 +24,9 @@ type AtlasView = {
   qualityScore?: number;
   reasons?: string[];
   flags?: string[];
+  faceId?: string;
+  heading?: number;
+  faceBearing?: number;
   fov?: number;
   wallLengthMeters?: number;
   panoramaDistanceMeters?: number;
@@ -60,6 +63,9 @@ type ReferenceManifest = {
       qualityScore?: number;
       reasons?: string[];
       flags?: string[];
+      faceId?: string;
+      heading?: number;
+      faceBearing?: number;
       width?: number;
       height?: number;
     }>;
@@ -109,6 +115,9 @@ export default function ReferenceAtlasPage() {
             qualityScore: view.qualityScore,
             reasons: view.reasons,
             flags: view.flags,
+            faceId: view.faceId,
+            heading: view.heading,
+            faceBearing: view.faceBearing,
             width: view.width,
             height: view.height,
           })),
@@ -280,7 +289,10 @@ function referenceMeta(view: AtlasView) {
   const details = [
     view.source ? view.source : null,
     view.width && view.height ? `${view.width}x${view.height}` : null,
+    view.faceId ? view.faceId : null,
     view.wallLengthMeters ? `${view.wallLengthMeters}m wall` : null,
+    view.faceBearing !== undefined ? `${view.faceBearing} deg face` : null,
+    view.heading !== undefined ? `${view.heading} deg camera` : null,
     view.panoramaDistanceMeters ? `${view.panoramaDistanceMeters}m camera` : null,
     view.fov ? `${view.fov} deg FOV` : null,
   ].filter(Boolean);

@@ -47,8 +47,31 @@ for (const building of buildings) {
     id: building.id,
     name: building.name,
     osmId: building.osmId,
+    rawName: building.rawName,
     category: "OSM building",
     shortCode: makeShortCode(building.name),
+    referenceGoal: "Capture each major building face from corner to corner with no trees, vehicles, or foreground obstruction.",
+    facePlan: facades.map((facade, index) => ({
+      id: facade.id,
+      label: `Face ${index + 1}`,
+      lengthMeters: Math.round(facade.lengthMeters),
+      bearing: Math.round(facade.bearing),
+      targetHeading: Math.round(normalizeHeading(facade.bearing + 90)),
+      midpoint: {
+        longitude: Number(facade.midpoint.longitude.toFixed(7)),
+        latitude: Number(facade.midpoint.latitude.toFixed(7)),
+      },
+      endpoints: {
+        start: {
+          longitude: Number(facade.start.longitude.toFixed(7)),
+          latitude: Number(facade.start.latitude.toFixed(7)),
+        },
+        end: {
+          longitude: Number(facade.end.longitude.toFixed(7)),
+          latitude: Number(facade.end.latitude.toFixed(7)),
+        },
+      },
+    })),
     views: {},
   };
 
@@ -88,12 +111,19 @@ for (const building of buildings) {
     const bytes = Buffer.from(await imageResponse.arrayBuffer());
     await writeFile(path.join(buildingDir, fileName), bytes);
     record.views[viewId] = {
-      label: `Facade ${index + 1}`,
+      label: `Face ${index + 1}`,
       path: `/reference-atlas/images/${building.id}/${fileName}`,
+      faceId: facade.id,
       heading: Math.round(heading),
+      faceBearing: Math.round(facade.bearing),
       fov,
       wallLengthMeters: Math.round(facade.lengthMeters),
       panoramaDistanceMeters: Math.round(distance),
+      qualityStatus: "needs-review",
+      flags: [
+        "Reject if trees are visible",
+        "Approve only if the full face is visible corner to corner",
+      ],
     };
     console.log(`Saved ${building.name} ${viewId}`);
   }
@@ -170,8 +200,11 @@ function pickFacadeEdges(coordinates) {
     const lengthMeters = distanceInMeters(start.latitude, start.longitude, end.latitude, end.longitude);
     if (lengthMeters < 4) continue;
     edges.push({
+      id: `face-${String(index + 1).padStart(2, "0")}`,
       lengthMeters,
       bearing: bearingInDegrees(start.latitude, start.longitude, end.latitude, end.longitude),
+      start,
+      end,
       midpoint: {
         latitude: (start.latitude + end.latitude) / 2,
         longitude: (start.longitude + end.longitude) / 2,
@@ -191,7 +224,7 @@ function pickFacadeEdges(coordinates) {
 function facadeFov(wallLengthMeters, distanceMeters) {
   if (!distanceMeters) return 55;
   const degrees = 2 * Math.atan((wallLengthMeters / 2) / distanceMeters) * 180 / Math.PI;
-  return Math.round(clamp(degrees + 18, 38, 100));
+  return Math.round(clamp(degrees + 24, 45, 120));
 }
 
 async function getStreetViewMetadata(latitude, longitude) {
