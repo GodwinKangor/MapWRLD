@@ -138,6 +138,8 @@ http://localhost:3000/reference-compositor
 
 The compositor reads the same generated manifest, stacks multiple candidate images for a building, and lets a modeler adjust visibility, opacity, scale, rotation, position, and blend mode. Export the result as a PNG reference sheet after aligning the clearest visible wall parts. This is a free/manual path for combining partial references before spending money on vision review or new image capture.
 
+Use the atlas review controls before compositing. Mark only images that show the full building face from corner to corner with no trees as approved. Reject any image with trees, partial walls, wrong buildings, or bad angles; rejected references are hidden from the compositor by default.
+
 ## Supabase Setup
 
 Run this migration in the Supabase SQL editor:

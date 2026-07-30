@@ -13,6 +13,18 @@ const VIEWS = [
 ];
 
 const STATUSES = ["Missing", "Found", "Approved", "Modeled"];
+const VERDICT_STORAGE_KEY = "dartmouth-reference-verdicts";
+const REJECT_REASONS = [
+  { id: "trees", label: "Trees" },
+  { id: "partial-face", label: "Partial face" },
+  { id: "wrong-building", label: "Wrong building" },
+  { id: "bad-angle", label: "Bad angle" },
+] as const;
+
+type ReferenceVerdict = {
+  status: "approved" | "rejected";
+  reason?: string;
+};
 
 type AtlasView = {
   id: string;
@@ -87,6 +99,8 @@ export default function ReferenceAtlasPage() {
   const [atlasBuildings, setAtlasBuildings] = useState<AtlasBuilding[]>(bundledBuildings);
   const [selectedId, setSelectedId] = useState(bundledBuildings[0]?.id ?? "");
   const [statusByBuilding, setStatusByBuilding] = useState<Record<string, string>>({});
+  const [verdicts, setVerdicts] = useState<Record<string, ReferenceVerdict>>({});
+  const [showRejected, setShowRejected] = useState(false);
   const selected = atlasBuildings.find((building) => building.id === selectedId) ?? atlasBuildings[0];
 
   useEffect(() => {
@@ -129,6 +143,18 @@ export default function ReferenceAtlasPage() {
     return () => { cancelled = true; };
   }, []);
 
+  useEffect(() => {
+    try {
+      setVerdicts(JSON.parse(localStorage.getItem(VERDICT_STORAGE_KEY) ?? "{}"));
+    } catch {
+      setVerdicts({});
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem(VERDICT_STORAGE_KEY, JSON.stringify(verdicts));
+  }, [verdicts]);
+
   const filtered = useMemo(() => atlasBuildings.filter((building) => {
     const haystack = `${building.name} ${building.shortCode} ${building.category}`.toLowerCase();
     return haystack.includes(query.toLowerCase());
@@ -145,8 +171,24 @@ export default function ReferenceAtlasPage() {
     if (!selected) return;
     setStatusByBuilding((current) => ({ ...current, [selected.id]: status }));
   };
+  const setReferenceVerdict = (viewId: string, verdict: ReferenceVerdict) => {
+    if (!selected) return;
+    setVerdicts((current) => ({ ...current, [referenceKey(selected.id, viewId)]: verdict }));
+  };
+  const clearReferenceVerdict = (viewId: string) => {
+    if (!selected) return;
+    setVerdicts((current) => {
+      const next = { ...current };
+      delete next[referenceKey(selected.id, viewId)];
+      return next;
+    });
+  };
 
   if (!selected) return null;
+  const views = selected.views?.length ? selected.views : VIEWS;
+  const visibleViews = showRejected
+    ? views
+    : views.filter((view) => verdicts[referenceKey(selected.id, view.id)]?.status !== "rejected");
 
   return (
     <main className="atlas-page">
@@ -200,6 +242,9 @@ export default function ReferenceAtlasPage() {
           </div>
           <div className="atlas-actions">
             <Link href="/reference-compositor" className="atlas-compositor-link"><Layers3 size={14} /> Composite</Link>
+            <button className={showRejected ? "atlas-compositor-link active" : "atlas-compositor-link"} onClick={() => setShowRejected((current) => !current)}>
+              {showRejected ? "Hide rejected" : "Show rejected"}
+            </button>
             <div className="atlas-status">
               {STATUSES.map((status) => (
                 <button
@@ -216,9 +261,24 @@ export default function ReferenceAtlasPage() {
         </header>
 
         <div className="reference-grid">
-          {(selected.views?.length ? selected.views : VIEWS).map((view) => (
-            <ReferenceImage buildingId={selected.id} buildingName={selected.name} key={view.id} view={view} />
+          {visibleViews.map((view) => (
+            <ReferenceImage
+              buildingId={selected.id}
+              buildingName={selected.name}
+              clearVerdict={() => clearReferenceVerdict(view.id)}
+              key={view.id}
+              setVerdict={(verdict) => setReferenceVerdict(view.id, verdict)}
+              verdict={verdicts[referenceKey(selected.id, view.id)]}
+              view={view}
+            />
           ))}
+          {!visibleViews.length && (
+            <div className="reference-empty">
+              <ImageOff size={24} />
+              <strong>All rejected references are hidden</strong>
+              <span>Turn on rejected references if you need to review or undo one.</span>
+            </div>
+          )}
         </div>
 
         <section className="atlas-notes">
@@ -246,10 +306,16 @@ export default function ReferenceAtlasPage() {
 function ReferenceImage({
   buildingId,
   buildingName,
+  clearVerdict,
+  setVerdict,
+  verdict,
   view,
 }: {
   buildingId: string;
   buildingName: string;
+  clearVerdict: () => void;
+  setVerdict: (verdict: ReferenceVerdict) => void;
+  verdict?: ReferenceVerdict;
   view: AtlasView;
 }) {
   const [source, setSource] = useState<"local" | "live" | "missing">("local");
@@ -259,7 +325,7 @@ function ReferenceImage({
     : `/api/streetview?building=${encodeURIComponent(buildingId)}&view=${view.id}`;
 
   return (
-    <figure className="reference-frame">
+    <figure className={verdict?.status === "rejected" ? "reference-frame rejected" : verdict?.status === "approved" ? "reference-frame approved" : "reference-frame"}>
       {source !== "missing" && (
         <img
           src={src}
@@ -278,6 +344,26 @@ function ReferenceImage({
           {view.flags?.slice(0, 2).map((flag) => <span key={flag}>{flag}</span>)}
           {view.reasons?.slice(0, 2).map((reason) => <span key={reason}>{reason}</span>)}
           {view.sourceUrl && <a href={view.sourceUrl} target="_blank" rel="noreferrer">Source</a>}
+        </div>
+      )}
+      <div className="reference-review">
+        <button className={verdict?.status === "approved" ? "active" : ""} onClick={() => setVerdict({ status: "approved" })}>
+          Full face, no trees
+        </button>
+        {REJECT_REASONS.map((reason) => (
+          <button
+            className={verdict?.status === "rejected" && verdict.reason === reason.id ? "reject active" : "reject"}
+            key={reason.id}
+            onClick={() => setVerdict({ status: "rejected", reason: reason.id })}
+          >
+            Reject: {reason.label}
+          </button>
+        ))}
+        {verdict && <button onClick={clearVerdict}>Clear</button>}
+      </div>
+      {verdict && (
+        <div className={verdict.status === "approved" ? "reference-verdict approved" : "reference-verdict rejected"}>
+          {verdict.status === "approved" ? "Approved modeling reference" : `Rejected: ${verdict.reason?.replace("-", " ") ?? "not usable"}`}
         </div>
       )}
       <div className="reference-fallback"><ImageOff size={22} /><span>No image configured</span></div>
@@ -310,4 +396,8 @@ function makeShortCode(name: string) {
 
 function titleCase(value: string) {
   return value.replace(/[-_]/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function referenceKey(buildingId: string, viewId: string) {
+  return `${buildingId}:${viewId}`;
 }

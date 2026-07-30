@@ -163,10 +163,14 @@ button { color:inherit; }
 .atlas-status button.active { background:var(--forest); border-color:var(--forest); color:white; }
 .atlas-actions { display:flex; flex-direction:column; align-items:flex-end; gap:9px; }
 .atlas-compositor-link,.compositor-export { height:35px; display:flex; align-items:center; gap:7px; padding:0 11px; border:1px solid rgba(22,35,28,.12); border-radius:7px; background:white; color:var(--forest); text-decoration:none; font-size:11px; font-weight:800; cursor:pointer; }
+.atlas-compositor-link.active { background:#e7ecd8; border-color:rgba(22,63,46,.28); }
 .compositor-export { border-color:var(--forest); background:var(--forest); color:white; }
 .compositor-export:disabled { opacity:.45; cursor:not-allowed; }
 .reference-grid { display:grid; grid-template-columns:repeat(2,minmax(260px,1fr)); gap:14px; }
 .reference-frame { position:relative; min-height:0; margin:0; overflow:hidden; border:1px solid rgba(22,35,28,.12); border-radius:8px; background:#d9d6cb; aspect-ratio:4/3; }
+.reference-frame.approved { border-color:rgba(54,119,69,.72); box-shadow:0 0 0 2px rgba(54,119,69,.18); }
+.reference-frame.rejected { border-color:rgba(151,58,48,.45); }
+.reference-frame.rejected img { filter:grayscale(1) brightness(.68); }
 .reference-frame img { position:absolute; inset:0; z-index:2; width:100%; height:100%; object-fit:cover; background:#d9d6cb; }
 .reference-frame figcaption { position:absolute; z-index:3; left:12px; right:12px; bottom:12px; display:flex; align-items:flex-end; justify-content:space-between; gap:12px; padding:9px 10px; border-radius:6px; background:rgba(12,28,20,.76); color:white; backdrop-filter:blur(10px); }
 .reference-frame figcaption span { font:800 13px "Manrope"; }.reference-frame figcaption small { color:rgba(255,255,255,.68); font-size:10px; }
@@ -174,7 +178,16 @@ button { color:inherit; }
 .reference-quality strong,.reference-quality span,.reference-quality a { padding:5px 7px; border-radius:5px; background:rgba(12,28,20,.76); color:white; font-size:9px; font-weight:800; text-decoration:none; backdrop-filter:blur(10px); }
 .reference-quality span { color:rgba(255,255,255,.76); font-weight:600; }
 .reference-quality a { background:rgba(217,255,119,.88); color:#16231c; }
+.reference-review { position:absolute; z-index:5; left:12px; right:12px; top:50px; display:flex; flex-wrap:wrap; gap:5px; pointer-events:none; opacity:0; transform:translateY(-4px); transition:.18s; }
+.reference-frame:hover .reference-review,.reference-frame.approved .reference-review,.reference-frame.rejected .reference-review { pointer-events:auto; opacity:1; transform:none; }
+.reference-review button { min-height:28px; border:1px solid rgba(255,255,255,.28); border-radius:5px; background:rgba(12,28,20,.82); color:white; padding:0 8px; font-size:10px; font-weight:800; cursor:pointer; backdrop-filter:blur(10px); }
+.reference-review button.active { background:#d9ff77; color:#16231c; }
+.reference-review button.reject.active { background:#f0c7bf; color:#702e27; }
+.reference-verdict { position:absolute; z-index:5; right:12px; top:12px; padding:6px 8px; border-radius:5px; color:white; font-size:10px; font-weight:900; text-transform:uppercase; letter-spacing:.6px; }
+.reference-verdict.approved { background:rgba(54,119,69,.9); }.reference-verdict.rejected { background:rgba(151,58,48,.9); }
 .reference-fallback { position:absolute; inset:0; z-index:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; color:#748078; font-size:12px; }
+.reference-empty { min-height:240px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; border:1px dashed rgba(22,35,28,.2); border-radius:8px; color:#748078; background:#f8f6ee; }
+.reference-empty strong { color:var(--ink); font:800 14px "Manrope"; }.reference-empty span { font-size:12px; }
 .atlas-notes { display:grid; grid-template-columns:1fr 2fr 1.3fr; gap:10px; }
 .atlas-notes div { min-height:82px; display:flex; flex-direction:column; justify-content:space-between; gap:7px; padding:14px; border:1px solid rgba(22,35,28,.1); border-radius:8px; background:#f8f6ee; }
 .atlas-notes svg { color:#b65335; }.atlas-notes span { color:#7b837d; font-size:10px; text-transform:uppercase; letter-spacing:.9px; }.atlas-notes strong { font:700 13px/1.25 "Manrope"; }

@@ -29,6 +29,11 @@ type ReferenceManifest = {
   buildings?: ManifestBuilding[];
 };
 
+type ReferenceVerdict = {
+  status: "approved" | "rejected";
+  reason?: string;
+};
+
 type CompositeLayer = {
   id: string;
   label: string;
@@ -65,30 +70,40 @@ const BLEND_MODES: Array<{ value: BlendMode; label: string }> = [
   { value: "screen", label: "Screen" },
   { value: "overlay", label: "Overlay" },
 ];
+const VERDICT_STORAGE_KEY = "dartmouth-reference-verdicts";
 
 export default function ReferenceCompositorPage() {
   const [manifest, setManifest] = useState<ReferenceManifest | null>(null);
   const [selectedBuildingId, setSelectedBuildingId] = useState("");
   const [selectedLayerId, setSelectedLayerId] = useState("");
   const [settingsByLayer, setSettingsByLayer] = useState<Record<string, LayerSettings>>({});
+  const [verdicts, setVerdicts] = useState<Record<string, ReferenceVerdict>>({});
 
   useEffect(() => {
     fetch("/reference-atlas/images/manifest.json", { cache: "no-store" })
       .then((response) => response.ok ? response.json() : Promise.reject(new Error("No manifest")))
       .then((nextManifest: ReferenceManifest) => {
         setManifest(nextManifest);
-        const first = nextManifest.buildings?.find((building) => Object.keys(building.views ?? {}).length);
+        const first = nextManifest.buildings?.find((building) => getLayers(building, verdicts).length);
         if (!first) return;
         setSelectedBuildingId(first.id);
-        const firstLayer = getLayers(first)[0];
+        const firstLayer = getLayers(first, verdicts)[0];
         if (firstLayer) setSelectedLayerId(firstLayer.id);
       })
       .catch(() => setManifest({ buildings: [] }));
+  }, [verdicts]);
+
+  useEffect(() => {
+    try {
+      setVerdicts(JSON.parse(localStorage.getItem(VERDICT_STORAGE_KEY) ?? "{}"));
+    } catch {
+      setVerdicts({});
+    }
   }, []);
 
   const buildings = manifest?.buildings ?? [];
   const selectedBuilding = buildings.find((building) => building.id === selectedBuildingId) ?? buildings[0];
-  const layers = useMemo(() => selectedBuilding ? getLayers(selectedBuilding) : [], [selectedBuilding]);
+  const layers = useMemo(() => selectedBuilding ? getLayers(selectedBuilding, verdicts) : [], [selectedBuilding, verdicts]);
   const selectedLayer = layers.find((layer) => layer.id === selectedLayerId) ?? layers[0];
   const selectedSettings = selectedLayer ? getLayerSettings(settingsByLayer, selectedLayer.id) : DEFAULT_LAYER;
 
@@ -101,7 +116,7 @@ export default function ReferenceCompositorPage() {
 
   const chooseBuilding = (buildingId: string) => {
     const nextBuilding = buildings.find((building) => building.id === buildingId);
-    const nextLayer = nextBuilding ? getLayers(nextBuilding)[0] : null;
+    const nextLayer = nextBuilding ? getLayers(nextBuilding, verdicts)[0] : null;
     setSelectedBuildingId(buildingId);
     setSelectedLayerId(nextLayer?.id ?? "");
   };
@@ -164,7 +179,7 @@ export default function ReferenceCompositorPage() {
         </div>
 
         <div className="compositor-building-list">
-          {buildings.filter((building) => getLayers(building).length).map((building) => (
+          {buildings.filter((building) => getLayers(building, verdicts).length).map((building) => (
             <button
               className={building.id === selectedBuilding?.id ? "active" : ""}
               key={building.id}
@@ -172,7 +187,7 @@ export default function ReferenceCompositorPage() {
             >
               <span>{building.shortCode ?? makeShortCode(building.name)}</span>
               <strong>{building.name}</strong>
-              <small>{getLayers(building).length} reference images</small>
+              <small>{getLayers(building, verdicts).length} usable images</small>
             </button>
           ))}
         </div>
@@ -183,7 +198,7 @@ export default function ReferenceCompositorPage() {
           <div>
             <span className="eyebrow">{selectedBuilding?.category ?? "Composite"}</span>
             <h2>{selectedBuilding?.name ?? "No references yet"}</h2>
-            <p>Stack useful free images, line up shared windows/edges, and export a modeling reference without paying for image generation.</p>
+            <p>Stack approved or unrejected building-only images, line up shared windows/edges, and export a modeling reference without paying for image generation.</p>
           </div>
           <button className="compositor-export" onClick={exportComposite} disabled={!layers.length}>
             <Download size={16} />
@@ -210,7 +225,7 @@ export default function ReferenceCompositorPage() {
                 />
               );
             }) : (
-              <div className="composite-empty"><ImageOff size={30} /><span>Generate reference candidates first</span></div>
+              <div className="composite-empty"><ImageOff size={30} /><span>No approved or unrejected references available</span></div>
             )}
           </div>
 
@@ -304,9 +319,14 @@ function Range({
   );
 }
 
-function getLayers(building: ManifestBuilding): CompositeLayer[] {
+function getLayers(building: ManifestBuilding, verdicts: Record<string, ReferenceVerdict>): CompositeLayer[] {
   return Object.entries(building.views ?? {})
-    .filter(([, view]) => Boolean(view.path))
+    .filter(([id, view]) => Boolean(view.path) && verdicts[referenceKey(building.id, id)]?.status !== "rejected")
+    .sort(([leftId], [rightId]) => {
+      const leftApproved = verdicts[referenceKey(building.id, leftId)]?.status === "approved" ? 0 : 1;
+      const rightApproved = verdicts[referenceKey(building.id, rightId)]?.status === "approved" ? 0 : 1;
+      return leftApproved - rightApproved;
+    })
     .map(([id, view]) => ({
       id,
       label: view.label ?? titleCase(id),
@@ -340,4 +360,8 @@ function makeShortCode(name: string) {
 
 function titleCase(value: string) {
   return value.replace(/[-_]/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function referenceKey(buildingId: string, viewId: string) {
+  return `${buildingId}:${viewId}`;
 }
