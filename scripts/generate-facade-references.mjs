@@ -121,6 +121,8 @@ for (const building of buildings) {
         candidateCamera: serializeCandidate(candidate),
         flags: [
           "Reject if trees are visible",
+          "If only a small area is blocked, mark as cleanup-candidate and remove only the obstruction from the original pixels",
+          "Do not generate a replacement building face from scratch",
           "Approve only if the full face is visible corner to corner",
         ],
       };

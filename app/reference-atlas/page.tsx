@@ -16,6 +16,7 @@ const STATUSES = ["Missing", "Found", "Approved", "Modeled"];
 const VERDICT_STORAGE_KEY = "dartmouth-reference-verdicts-v2";
 const REJECT_REASONS = [
   { id: "trees", label: "Trees" },
+  { id: "cleanup-candidate", label: "Small obstruction / cleanup" },
   { id: "partial-face", label: "Partial face" },
   { id: "wrong-building", label: "Wrong building" },
   { id: "bad-angle", label: "Bad angle" },

@@ -126,6 +126,8 @@ The Street View facade generator is the preferred four-view modeling pass. It pu
 
 The checker is intentionally conservative: it discards photos whose metadata suggests blocked walls, trees, branches, leaves, vegetation, vehicles, crowds, scaffolding, snow, night/low-light views, partial crops, or close-up details. Final approval still requires a human or a vision API to confirm that the actual pixels show the wall end-to-end without foreground obstruction.
 
+For small obstructions, use source-preserving cleanup only. Keep the original photo as the ground truth, mask only the tree/vehicle/foreground object, and repair that masked region from the surrounding real facade or overlapping approved views. Do not generate a whole new facade, change the roofline, invent window spacing, replace doors, or synthesize a full wall from scratch. If the obstruction covers a large or structurally important part of the face, mark the shot as a cleanup candidate and use another view, field capture, or map-derived guide instead.
+
 If every photo for a face has trees, generate map-derived guide sheets instead:
 
 ```bash
