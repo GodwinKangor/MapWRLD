@@ -114,13 +114,13 @@ npm run reference:facades:test
 npm run reference:facades
 ```
 
-Use the open-source generator first. It searches named OSM buildings against free/open image providers such as Wikimedia Commons, Openverse-indexed media, and the Library of Congress, then rejects obvious non-modeling images such as maps, aerials, interiors, logos, low-resolution files, and narrow crops. Saved candidates include provider, source link, license metadata, checker notes, and manual-review flags.
+Use the open-source generator first. It searches named OSM buildings against free/open image providers such as Wikimedia Commons, Openverse-indexed media, and the Library of Congress, then rejects obvious non-modeling images such as maps, aerials, interiors, logos, low-resolution files, narrow crops, construction scenes, and metadata-obstructed photos. Saved candidates include provider, source link, license metadata, checker notes, and manual-review flags.
 
 The Wikimedia-only generator is still available when you want a narrower source pass. It is useful for quick debugging because the results are usually easy to inspect and attribute.
 
 The Street View facade generator is a fallback. It pulls building footprints from OpenStreetMap, selects the major walls, then saves tighter wall-facing candidates like `facade-01.jpg`, `facade-02.jpg`, etc. Use the test commands first because Street View can make many paid API requests.
 
-The checker is intentionally conservative: it can reject obvious bad metadata, but final approval still requires a human or a vision API to confirm that the wall is visible end-to-end and not blocked by trees, vehicles, or foreground objects.
+The checker is intentionally conservative: it discards photos whose metadata suggests blocked walls, trees, vehicles, crowds, scaffolding, snow, night/low-light views, partial crops, or close-up details. Final approval still requires a human or a vision API to confirm that the actual pixels show the wall end-to-end without foreground obstruction.
 
 ## Supabase Setup
 

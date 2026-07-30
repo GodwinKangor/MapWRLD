@@ -222,9 +222,15 @@ function checkReferenceCandidate(candidate, buildingName) {
   const badWords = [
     "aerial", "air view", "bird", "map", "plan", "floorplan", "diagram", "interior", "room",
     "portrait", "people", "team", "logo", "seal", "plaque", "sign", "snow sculpture", "postcard",
+    "blocked", "blocking", "obscured", "obstructed", "covered", "hidden", "behind tree",
+    "behind trees", "tree in front", "trees in front", "foliage", "bush", "bushes",
+    "ivy covered", "scaffold", "scaffolding", "fence", "fenced", "construction",
+    "renovation", "vehicle", "vehicles", "car", "cars", "truck", "bus", "crowd",
+    "crowded", "snow", "night", "low light", "closeup", "close-up", "detail",
+    "partial", "corner", "entrance only", "doorway", "burning", "fire",
   ];
   for (const word of badWords) {
-    if (text.includes(word)) reasons.push(`Rejected by metadata keyword: ${word}`);
+    if (hasKeyword(text, word)) reasons.push(`Rejected by metadata keyword: ${word}`);
   }
 
   const goodWords = ["facade", "front", "elevation", "exterior", "building", "hall", "library", "center"];
@@ -288,4 +294,9 @@ function stripHtml(value) {
 
 function titleCase(value) {
   return value.replace(/[-_]/g, " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function hasKeyword(text, keyword) {
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\\ /g, "\\s+");
+  return new RegExp(`(^|[^a-z0-9])${escaped}($|[^a-z0-9])`, "i").test(text);
 }

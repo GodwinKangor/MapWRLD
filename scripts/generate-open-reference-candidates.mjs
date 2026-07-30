@@ -21,6 +21,47 @@ const GENERIC_NAME_TOKENS = new Set([
   "school",
   "library",
 ]);
+const OBSTRUCTION_WORDS = [
+  "blocked",
+  "blocking",
+  "obscured",
+  "obstructed",
+  "covered",
+  "hidden",
+  "behind tree",
+  "behind trees",
+  "tree in front",
+  "trees in front",
+  "foliage",
+  "bush",
+  "bushes",
+  "ivy covered",
+  "scaffold",
+  "scaffolding",
+  "fence",
+  "fenced",
+  "construction",
+  "renovation",
+  "vehicle",
+  "vehicles",
+  "car",
+  "cars",
+  "truck",
+  "bus",
+  "crowd",
+  "crowded",
+  "people",
+  "snow",
+  "night",
+  "low light",
+  "closeup",
+  "close-up",
+  "detail",
+  "partial",
+  "corner",
+  "entrance only",
+  "doorway",
+];
 const root = process.cwd();
 const outputRoot = path.join(root, "public", "reference-atlas", "images");
 const manifestPath = path.join(outputRoot, "manifest.json");
@@ -349,8 +390,8 @@ function checkReferenceCandidate(candidate, buildingName) {
     "portrait", "people", "team", "logo", "seal", "plaque", "sign", "snow sculpture", "postcard",
     "construction", "burning", "fire",
   ];
-  for (const word of badWords) {
-    if (text.includes(word)) reasons.push(`Rejected by metadata keyword: ${word}`);
+  for (const word of [...badWords, ...OBSTRUCTION_WORDS]) {
+    if (hasKeyword(text, word)) reasons.push(`Rejected by metadata keyword: ${word}`);
   }
 
   for (const word of ["facade", "façade", "front", "elevation", "exterior", "building", "hall", "library", "center"]) {
@@ -454,4 +495,9 @@ function titleCase(value) {
 
 function normalizeText(value) {
   return String(value).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function hasKeyword(text, keyword) {
+  const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\\ /g, "\\s+");
+  return new RegExp(`(^|[^a-z0-9])${escaped}($|[^a-z0-9])`, "i").test(text);
 }
