@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "reference:images": "node scripts/generate-reference-images.mjs",
     "start": "next start",
     "lint": "next lint"
   },

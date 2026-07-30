@@ -1,0 +1,32 @@
+[
+  {
+    "id": "baker-berry",
+    "name": "Baker-Berry Library",
+    "entrance": { "longitude": -72.28912, "latitude": 43.70491 }
+  },
+  {
+    "id": "hopkins",
+    "name": "Hopkins Center for the Arts",
+    "entrance": { "longitude": -72.28855, "latitude": 43.70212 }
+  },
+  {
+    "id": "collis",
+    "name": "Collis Center",
+    "entrance": { "longitude": -72.28995, "latitude": 43.70299 }
+  },
+  {
+    "id": "foco",
+    "name": "Class of 1953 Commons",
+    "entrance": { "longitude": -72.29003, "latitude": 43.70442 }
+  },
+  {
+    "id": "dartmouth-hall",
+    "name": "Dartmouth Hall",
+    "entrance": { "longitude": -72.28687, "latitude": 43.70371 }
+  },
+  {
+    "id": "life-sciences",
+    "name": "Class of 1978 Life Sciences",
+    "entrance": { "longitude": -72.28605, "latitude": 43.70854 }
+  }
+]

@@ -104,17 +104,7 @@ export default function ReferenceAtlasPage() {
 
         <div className="reference-grid">
           {VIEWS.map((view) => (
-            <figure className="reference-frame" key={view.id}>
-              <img
-                src={`/api/streetview?building=${encodeURIComponent(selected.id)}&view=${view.id}`}
-                alt={`${view.label} modeling reference for ${selected.name}`}
-              />
-              <figcaption>
-                <span>{view.label}</span>
-                <small>Street View heading reference</small>
-              </figcaption>
-              <div className="reference-fallback"><ImageOff size={22} /><span>No image configured</span></div>
-            </figure>
+            <ReferenceImage buildingId={selected.id} buildingName={selected.name} key={view.id} view={view} />
           ))}
         </div>
 
@@ -137,5 +127,37 @@ export default function ReferenceAtlasPage() {
         </section>
       </section>
     </main>
+  );
+}
+
+function ReferenceImage({
+  buildingId,
+  buildingName,
+  view,
+}: {
+  buildingId: string;
+  buildingName: string;
+  view: { id: string; label: string };
+}) {
+  const [source, setSource] = useState<"local" | "live" | "missing">("local");
+  const src = source === "local"
+    ? `/reference-atlas/images/${buildingId}/${view.id}.jpg`
+    : `/api/streetview?building=${encodeURIComponent(buildingId)}&view=${view.id}`;
+
+  return (
+    <figure className="reference-frame">
+      {source !== "missing" && (
+        <img
+          src={src}
+          alt={`${view.label} modeling reference for ${buildingName}`}
+          onError={() => setSource(source === "local" ? "live" : "missing")}
+        />
+      )}
+      <figcaption>
+        <span>{view.label}</span>
+        <small>{source === "local" ? "Generated local reference" : "Street View heading reference"}</small>
+      </figcaption>
+      <div className="reference-fallback"><ImageOff size={22} /><span>No image configured</span></div>
+    </figure>
   );
 }

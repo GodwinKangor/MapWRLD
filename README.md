@@ -93,6 +93,14 @@ http://localhost:3000/reference-atlas
 
 It gives modelers front, side, and back Street View reference slots for each tracked campus building.
 
+To generate local modeling images for every tracked building, run:
+
+```bash
+npm run reference:images
+```
+
+The images are written to `public/reference-atlas/images/` and are ignored by Git so the repository does not balloon. The atlas uses these local images first, then falls back to live Street View when a local image is missing.
+
 ## Supabase Setup
 
 Run this migration in the Supabase SQL editor:
