@@ -11,6 +11,7 @@
     "reference:facades:plan": "node scripts/generate-facade-references.mjs --plan-only",
     "reference:facades:plan:test": "node scripts/generate-facade-references.mjs --limit 3 --plan-only",
     "reference:facades:multi": "node scripts/generate-facade-references.mjs --shots-per-face 2",
+    "reference:facades:guides": "node scripts/generate-facade-guides.mjs",
     "reference:wikimedia": "node scripts/generate-wikimedia-candidates.mjs",
     "reference:wikimedia:test": "node scripts/generate-wikimedia-candidates.mjs --limit 10",
     "reference:wikimedia:dartmouth-hall": "node scripts/generate-wikimedia-candidates.mjs --only \"Dartmouth Hall\"",

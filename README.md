@@ -112,6 +112,7 @@ npm run reference:wikimedia:test
 npm run reference:wikimedia
 npm run reference:facades:plan:test
 npm run reference:facades:plan
+npm run reference:facades:guides
 npm run reference:facades:test
 npm run reference:facades:multi
 npm run reference:facades
@@ -124,6 +125,15 @@ The Wikimedia-only generator is still available when you want a narrower source 
 The Street View facade generator is a fallback. It pulls building footprints from OpenStreetMap, selects the major walls from the map geometry, records each face length and bearing, then samples multiple ground camera candidates on both sides of each face. It scores candidates by straight-on angle, useful distance, and full-face field of view before saving wall-facing images like `facade-01.jpg`, `facade-02.jpg`, etc. The goal for each candidate is one complete building face from corner to corner. Use `reference:facades:plan:test` first so you can inspect camera choices before downloading images; use `reference:facades:multi` only when you intentionally want two options per face.
 
 The checker is intentionally conservative: it discards photos whose metadata suggests blocked walls, trees, branches, leaves, vegetation, vehicles, crowds, scaffolding, snow, night/low-light views, partial crops, or close-up details. Final approval still requires a human or a vision API to confirm that the actual pixels show the wall end-to-end without foreground obstruction.
+
+If every photo for a face has trees, generate map-derived guide sheets instead:
+
+```bash
+npm run reference:facades:plan:test
+npm run reference:facades:guides
+```
+
+The guide sheets are written to `public/reference-atlas/guides/` and ignored by Git. They are tree-free dimension guides from the flat map: wall length, bearing, endpoints, and candidate camera positions. They are not photo references and should not be used to invent exact windows, doors, materials, trim, or roof details. Use them to model correct massing and to constrain any later AI cleanup/inpainting from approved photos.
 
 If an OSM building name is wrong or incomplete, add the correction in:
 
