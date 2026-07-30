@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { BuildingPanel } from "@/components/building-panel";
 import { CampusMap } from "@/components/campus-map";
@@ -70,6 +71,7 @@ export default function Home() {
         </div>
 
         <div className="top-actions">
+          <Link className="atlas-top-link" href="/reference-atlas">Reference Atlas</Link>
           <button className="time-pill" onClick={() => setControlsOpen(!controlsOpen)}><span className="live-dot" /> Live · {formatTime(time)}</button>
           <button className="icon-button" onClick={() => setBrowseOpen(!browseOpen)} aria-label="Browse places"><Menu size={20} /></button>
         </div>

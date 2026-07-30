@@ -5,6 +5,7 @@ export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
   const id = request.nextUrl.searchParams.get("building");
+  const view = request.nextUrl.searchParams.get("view") ?? "front";
   const building = buildings.find((item) => item.id === id);
   const apiKey = process.env.GOOGLE_MAPPLATFORM_APIKEY ?? process.env.GOOGLE_MAPS_API_KEY;
 
@@ -42,10 +43,11 @@ export async function GET(request: NextRequest) {
     // Street View headings must be measured from the panorama—not copied from
     // the 3D map camera—so the returned image actually faces the entrance.
     const heading = bearingInDegrees(metadata.location.lat, metadata.location.lng, latitude, longitude);
+    const adjustedHeading = normalizeHeading(heading + viewOffset(view));
     const params = new URLSearchParams({
     size: "640x640",
     pano: metadata.pano_id,
-    heading: String(Math.round(heading)),
+    heading: String(Math.round(adjustedHeading)),
     pitch: "4",
     fov: "82",
     return_error_code: "true",
@@ -67,6 +69,17 @@ export async function GET(request: NextRequest) {
   } catch {
     return NextResponse.json({ error: "Street View request failed" }, { status: 502 });
   }
+}
+
+function viewOffset(view: string) {
+  if (view === "left") return -90;
+  if (view === "right") return 90;
+  if (view === "back") return 180;
+  return 0;
+}
+
+function normalizeHeading(value: number) {
+  return (value % 360 + 360) % 360;
 }
 
 function bearingInDegrees(fromLat: number, fromLng: number, toLat: number, toLng: number) {

@@ -85,6 +85,14 @@ npm run dev
 
 Open http://localhost:3000.
 
+The modeling reference atlas is available at:
+
+```text
+http://localhost:3000/reference-atlas
+```
+
+It gives modelers front, side, and back Street View reference slots for each tracked campus building.
+
 ## Supabase Setup
 
 Run this migration in the Supabase SQL editor:

@@ -16,6 +16,7 @@ button { color:inherit; }
 .search-wrap input::placeholder { color:#758078; }
 .search-wrap button { border:0; background:none; cursor:pointer; display:grid; }
 .top-actions { justify-self:end; display:flex; align-items:center; gap:10px; }
+.atlas-top-link { height:38px; display:flex; align-items:center; padding:0 13px; border:1px solid var(--line); border-radius:20px; background:rgba(255,255,255,.65); color:#304237; text-decoration:none; font-size:12px; font-weight:800; }
 .time-pill { height:38px; padding:0 15px; border-radius:20px; border:1px solid var(--line); background:rgba(255,255,255,.65); font-size:13px; cursor:pointer; }
 .live-dot { display:inline-block; width:7px; height:7px; background:#66a54a; border-radius:50%; margin-right:6px; box-shadow:0 0 0 3px rgba(102,165,74,.15); }
 .icon-button, .hero-actions button, .gallery-actions button { width:40px; height:40px; border-radius:50%; border:1px solid var(--line); background:rgba(255,255,255,.78); display:grid; place-items:center; cursor:pointer; backdrop-filter:blur(10px); }
@@ -137,6 +138,39 @@ button { color:inherit; }
 .enter-button { width:100%; height:51px; border:0; border-radius:8px; background:var(--forest); color:white; display:flex; align-items:center; justify-content:center; gap:10px; cursor:pointer; font-weight:600; }.enter-button svg:last-child { margin-left:auto; margin-right:17px; }.enter-button svg:first-child { margin-left:17px; }.preview-note { text-align:center; color:#92978f; text-transform:uppercase; font-size:8px; letter-spacing:1.5px; }
 .night .campus-map { filter:brightness(.48) saturate(.75) hue-rotate(12deg); }.night .door-marker,.night .place-label,.night .map-controls,.night .north { filter:brightness(2); }.season-winter .campus-map { filter:saturate(.5) brightness(1.15); }.season-winter .tree { background:#e7ece4; box-shadow:5px 4px 0 #cbd3c9; }.season-spring .tree { background:#5f8c57; box-shadow:7px 5px 0 #86a66c,-5px 6px 0 #bd9fa9; }.season-summer .campus-map { filter:saturate(1.18); }
 .empty { text-align:center; color:#788179; margin-top:40px; }
+.atlas-page { height:100dvh; display:grid; grid-template-columns:360px 1fr; overflow:hidden; background:#ece9df; color:var(--ink); }
+.atlas-sidebar { min-width:0; display:flex; flex-direction:column; gap:18px; padding:24px; border-right:1px solid rgba(22,35,28,.12); background:#f7f5ee; }
+.atlas-back { width:max-content; display:flex; align-items:center; gap:7px; color:#52635a; text-decoration:none; font-size:12px; font-weight:700; }
+.atlas-title h1 { margin:8px 0 0; font:700 28px/1.05 "Manrope"; letter-spacing:-1px; }
+.atlas-search { height:42px; display:flex; align-items:center; gap:9px; padding:0 12px; border:1px solid rgba(22,35,28,.1); border-radius:8px; background:white; }
+.atlas-search input { width:100%; border:0; outline:0; background:none; }
+.atlas-summary { display:grid; grid-template-columns:repeat(4,1fr); gap:6px; }
+.atlas-summary div { min-width:0; padding:10px 6px; border:1px solid rgba(22,35,28,.08); border-radius:7px; background:white; text-align:center; }
+.atlas-summary strong { display:block; font:700 18px "Manrope"; color:var(--forest); }
+.atlas-summary span { display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#748078; font-size:9px; text-transform:uppercase; letter-spacing:.7px; }
+.atlas-building-list { display:flex; flex-direction:column; gap:7px; overflow:auto; padding-right:3px; scrollbar-width:thin; }
+.atlas-building-list button { width:100%; display:grid; grid-template-columns:42px 1fr; gap:10px; align-items:center; padding:9px; border:1px solid rgba(22,35,28,.08); border-radius:8px; background:rgba(255,255,255,.62); text-align:left; cursor:pointer; }
+.atlas-building-list button.active { border-color:rgba(22,63,46,.32); background:white; box-shadow:0 8px 20px rgba(22,45,31,.08); }
+.atlas-building-list button>span { width:42px; height:42px; display:grid; place-items:center; border-radius:7px; background:#dfe5d6; color:var(--forest); font:800 12px "Manrope"; }
+.atlas-building-list strong { display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font:700 13px "Manrope"; }
+.atlas-building-list small { display:block; margin-top:3px; color:#748078; font-size:10px; }
+.atlas-workspace { min-width:0; display:flex; flex-direction:column; gap:20px; padding:28px; overflow:auto; }
+.atlas-header { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; }
+.atlas-header h2 { margin:6px 0 6px; font:700 34px/1.04 "Manrope"; letter-spacing:-1.2px; }
+.atlas-header p { max-width:620px; margin:0; color:#68766d; font-size:13px; line-height:1.45; }
+.atlas-status { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:7px; }
+.atlas-status button { height:35px; display:flex; align-items:center; gap:6px; padding:0 10px; border:1px solid rgba(22,35,28,.12); border-radius:7px; background:#f8f6ee; color:#5d6b62; font-size:11px; font-weight:800; cursor:pointer; }
+.atlas-status button.active { background:var(--forest); border-color:var(--forest); color:white; }
+.reference-grid { display:grid; grid-template-columns:repeat(2,minmax(260px,1fr)); gap:14px; }
+.reference-frame { position:relative; min-height:0; margin:0; overflow:hidden; border:1px solid rgba(22,35,28,.12); border-radius:8px; background:#d9d6cb; aspect-ratio:4/3; }
+.reference-frame img { position:absolute; inset:0; z-index:2; width:100%; height:100%; object-fit:cover; background:#d9d6cb; }
+.reference-frame figcaption { position:absolute; z-index:3; left:12px; right:12px; bottom:12px; display:flex; align-items:flex-end; justify-content:space-between; gap:12px; padding:9px 10px; border-radius:6px; background:rgba(12,28,20,.76); color:white; backdrop-filter:blur(10px); }
+.reference-frame figcaption span { font:800 13px "Manrope"; }.reference-frame figcaption small { color:rgba(255,255,255,.68); font-size:10px; }
+.reference-fallback { position:absolute; inset:0; z-index:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:8px; color:#748078; font-size:12px; }
+.atlas-notes { display:grid; grid-template-columns:1fr 2fr 1.3fr; gap:10px; }
+.atlas-notes div { min-height:82px; display:flex; flex-direction:column; justify-content:space-between; gap:7px; padding:14px; border:1px solid rgba(22,35,28,.1); border-radius:8px; background:#f8f6ee; }
+.atlas-notes svg { color:#b65335; }.atlas-notes span { color:#7b837d; font-size:10px; text-transform:uppercase; letter-spacing:.9px; }.atlas-notes strong { font:700 13px/1.25 "Manrope"; }
 @media (max-width: 760px) {
-  .topbar { height:68px; grid-template-columns:auto 1fr auto; padding:0 14px; gap:10px; }.brand>span:last-child { display:none; }.brand-mark { width:37px; height:37px; }.time-pill { display:none; }.search-wrap { height:42px; }.campus-map { inset-top:68px; }.place-label { top:88px; left:17px; }.browse-drawer { left:0; top:auto; bottom:0; width:100%; height:72dvh; border-radius:22px 22px 0 0; transform:translateY(105%); }.browse-drawer.open { transform:none; }.building-panel { top:68px; }.hero-image { height:34dvh; min-height:230px; }.panel-content { padding:25px 23px 40px; }.panel-content h1 { font-size:29px; }.controls-button { right:14px; bottom:18px; font-size:0; width:42px; padding:0; justify-content:center; }.explore-hint { bottom:18px; }.map-controls,.north { display:none; }.environment-panel { left:12px; right:12px; bottom:72px; width:auto; }.door-marker .marker-label { display:none; }
+  .topbar { height:68px; grid-template-columns:auto 1fr auto; padding:0 14px; gap:10px; }.brand>span:last-child { display:none; }.brand-mark { width:37px; height:37px; }.time-pill,.atlas-top-link { display:none; }.search-wrap { height:42px; }.campus-map { inset-top:68px; }.place-label { top:88px; left:17px; }.browse-drawer { left:0; top:auto; bottom:0; width:100%; height:72dvh; border-radius:22px 22px 0 0; transform:translateY(105%); }.browse-drawer.open { transform:none; }.building-panel { top:68px; }.hero-image { height:34dvh; min-height:230px; }.panel-content { padding:25px 23px 40px; }.panel-content h1 { font-size:29px; }.controls-button { right:14px; bottom:18px; font-size:0; width:42px; padding:0; justify-content:center; }.explore-hint { bottom:18px; }.map-controls,.north { display:none; }.environment-panel { left:12px; right:12px; bottom:72px; width:auto; }.door-marker .marker-label { display:none; }
+  .atlas-page { grid-template-columns:1fr; overflow:auto; }.atlas-sidebar { max-height:none; border-right:0; border-bottom:1px solid rgba(22,35,28,.12); }.atlas-building-list { max-height:300px; }.atlas-workspace { padding:20px 14px; }.atlas-header { flex-direction:column; }.atlas-status { justify-content:flex-start; }.reference-grid,.atlas-notes { grid-template-columns:1fr; }
 }
