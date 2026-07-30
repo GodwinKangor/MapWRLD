@@ -161,7 +161,7 @@ export default function ReferenceCompositorPage() {
     context.font = "700 32px Arial";
     context.fillText(`${selectedBuilding.name} composite reference`, 82, 52);
     context.font = "20px Arial";
-    context.fillText("Layered from approved/candidate atlas images. Verify wall continuity before modeling.", 82, canvas.height - 32);
+    context.fillText("Layered from approved no-tree atlas images only. Verify wall continuity before modeling.", 82, canvas.height - 32);
 
     const link = document.createElement("a");
     link.download = `${selectedBuilding.id}-facade-composite.png`;
@@ -187,7 +187,7 @@ export default function ReferenceCompositorPage() {
             >
               <span>{building.shortCode ?? makeShortCode(building.name)}</span>
               <strong>{building.name}</strong>
-              <small>{getLayers(building, verdicts).length} usable images</small>
+              <small>{getLayers(building, verdicts).length} approved images</small>
             </button>
           ))}
         </div>
@@ -198,7 +198,7 @@ export default function ReferenceCompositorPage() {
           <div>
             <span className="eyebrow">{selectedBuilding?.category ?? "Composite"}</span>
             <h2>{selectedBuilding?.name ?? "No references yet"}</h2>
-            <p>Stack approved or unrejected building-only images, line up shared windows/edges, and export a modeling reference without paying for image generation.</p>
+            <p>Stack approved no-tree building-only images, line up shared windows/edges, and export a modeling reference without paying for image generation.</p>
           </div>
           <button className="compositor-export" onClick={exportComposite} disabled={!layers.length}>
             <Download size={16} />
@@ -225,7 +225,7 @@ export default function ReferenceCompositorPage() {
                 />
               );
             }) : (
-              <div className="composite-empty"><ImageOff size={30} /><span>No approved or unrejected references available</span></div>
+              <div className="composite-empty"><ImageOff size={30} /><span>No approved no-tree references available</span></div>
             )}
           </div>
 
@@ -321,7 +321,7 @@ function Range({
 
 function getLayers(building: ManifestBuilding, verdicts: Record<string, ReferenceVerdict>): CompositeLayer[] {
   return Object.entries(building.views ?? {})
-    .filter(([id, view]) => Boolean(view.path) && verdicts[referenceKey(building.id, id)]?.status !== "rejected")
+    .filter(([id, view]) => Boolean(view.path) && verdicts[referenceKey(building.id, id)]?.status === "approved")
     .sort(([leftId], [rightId]) => {
       const leftApproved = verdicts[referenceKey(building.id, leftId)]?.status === "approved" ? 0 : 1;
       const rightApproved = verdicts[referenceKey(building.id, rightId)]?.status === "approved" ? 0 : 1;

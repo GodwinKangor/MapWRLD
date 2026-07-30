@@ -100,7 +100,7 @@ export default function ReferenceAtlasPage() {
   const [selectedId, setSelectedId] = useState(bundledBuildings[0]?.id ?? "");
   const [statusByBuilding, setStatusByBuilding] = useState<Record<string, string>>({});
   const [verdicts, setVerdicts] = useState<Record<string, ReferenceVerdict>>({});
-  const [showRejected, setShowRejected] = useState(false);
+  const [showReviewQueue, setShowReviewQueue] = useState(false);
   const selected = atlasBuildings.find((building) => building.id === selectedId) ?? atlasBuildings[0];
 
   useEffect(() => {
@@ -186,9 +186,9 @@ export default function ReferenceAtlasPage() {
 
   if (!selected) return null;
   const views = selected.views?.length ? selected.views : VIEWS;
-  const visibleViews = showRejected
+  const visibleViews = showReviewQueue
     ? views
-    : views.filter((view) => verdicts[referenceKey(selected.id, view.id)]?.status !== "rejected");
+    : views.filter((view) => verdicts[referenceKey(selected.id, view.id)]?.status === "approved");
 
   return (
     <main className="atlas-page">
@@ -242,8 +242,8 @@ export default function ReferenceAtlasPage() {
           </div>
           <div className="atlas-actions">
             <Link href="/reference-compositor" className="atlas-compositor-link"><Layers3 size={14} /> Composite</Link>
-            <button className={showRejected ? "atlas-compositor-link active" : "atlas-compositor-link"} onClick={() => setShowRejected((current) => !current)}>
-              {showRejected ? "Hide rejected" : "Show rejected"}
+            <button className={showReviewQueue ? "atlas-compositor-link active" : "atlas-compositor-link"} onClick={() => setShowReviewQueue((current) => !current)}>
+              {showReviewQueue ? "Approved only" : "Review queue"}
             </button>
             <div className="atlas-status">
               {STATUSES.map((status) => (
@@ -275,8 +275,8 @@ export default function ReferenceAtlasPage() {
           {!visibleViews.length && (
             <div className="reference-empty">
               <ImageOff size={24} />
-              <strong>All rejected references are hidden</strong>
-              <span>Turn on rejected references if you need to review or undo one.</span>
+              <strong>No approved no-tree references yet</strong>
+              <span>Open the review queue only when you are ready to reject tree/partial images or approve a clean full face.</span>
             </div>
           )}
         </div>

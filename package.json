@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "reference:images": "node scripts/generate-reference-images.mjs",
+    "reference:images:clear": "node scripts/clear-reference-images.mjs --confirm",
     "reference:facades": "node scripts/generate-facade-references.mjs",
     "reference:facades:test": "node scripts/generate-facade-references.mjs --limit 5",
     "reference:facades:plan": "node scripts/generate-facade-references.mjs --plan-only",
