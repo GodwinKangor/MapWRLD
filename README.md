@@ -110,7 +110,10 @@ npm run reference:open
 npm run reference:wikimedia:dartmouth-hall
 npm run reference:wikimedia:test
 npm run reference:wikimedia
+npm run reference:facades:plan:test
+npm run reference:facades:plan
 npm run reference:facades:test
+npm run reference:facades:multi
 npm run reference:facades
 ```
 
@@ -118,7 +121,7 @@ Use the open-source generator first. It searches named OSM buildings against fre
 
 The Wikimedia-only generator is still available when you want a narrower source pass. It is useful for quick debugging because the results are usually easy to inspect and attribute.
 
-The Street View facade generator is a fallback. It pulls building footprints from OpenStreetMap, selects the major walls from the map geometry, records each face length and bearing, then saves wall-facing candidates like `facade-01.jpg`, `facade-02.jpg`, etc. The goal for each candidate is one complete building face from corner to corner. Use the test commands first because Street View can make many paid API requests.
+The Street View facade generator is a fallback. It pulls building footprints from OpenStreetMap, selects the major walls from the map geometry, records each face length and bearing, then samples multiple ground camera candidates on both sides of each face. It scores candidates by straight-on angle, useful distance, and full-face field of view before saving wall-facing images like `facade-01.jpg`, `facade-02.jpg`, etc. The goal for each candidate is one complete building face from corner to corner. Use `reference:facades:plan:test` first so you can inspect camera choices before downloading images; use `reference:facades:multi` only when you intentionally want two options per face.
 
 The checker is intentionally conservative: it discards photos whose metadata suggests blocked walls, trees, branches, leaves, vegetation, vehicles, crowds, scaffolding, snow, night/low-light views, partial crops, or close-up details. Final approval still requires a human or a vision API to confirm that the actual pixels show the wall end-to-end without foreground obstruction.
 

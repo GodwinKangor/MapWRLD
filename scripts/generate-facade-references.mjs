@@ -13,6 +13,8 @@ const root = process.cwd();
 const outputRoot = path.join(root, "public", "reference-atlas", "images");
 const manifestPath = path.join(outputRoot, "manifest.json");
 const requestLimit = Number(getArg("--limit") ?? 0);
+const shotsPerFace = Number(getArg("--shots-per-face") ?? 1);
+const planOnly = process.argv.includes("--plan-only");
 
 await loadLocalEnv();
 const key = process.env.GOOGLE_MAPPLATFORM_APIKEY ?? process.env.GOOGLE_MAPS_API_KEY;
@@ -71,61 +73,55 @@ for (const building of buildings) {
           latitude: Number(facade.end.latitude.toFixed(7)),
         },
       },
+      candidateCameras: [],
     })),
     views: {},
   };
 
   for (const [index, facade] of facades.entries()) {
-    const metadata = await getStreetViewMetadata(facade.midpoint.latitude, facade.midpoint.longitude);
-    const viewId = `facade-${String(index + 1).padStart(2, "0")}`;
-    if (!metadata?.pano_id || !metadata.location) {
-      console.warn(`No panorama for ${building.name} ${viewId}`);
+    const candidates = await findStreetViewCandidates(facade);
+    record.facePlan[index].candidateCameras = candidates.map(serializeCandidate);
+
+    if (!candidates.length) {
+      console.warn(`No usable camera candidate for ${building.name} ${facade.id}`);
       continue;
     }
 
-    const distance = distanceInMeters(
-      metadata.location.lat,
-      metadata.location.lng,
-      facade.midpoint.latitude,
-      facade.midpoint.longitude,
-    );
-    if (distance > 95) {
-      console.warn(`Skipping ${building.name} ${viewId}; panorama is ${Math.round(distance)}m from wall.`);
+    if (planOnly) {
+      console.log(`Planned ${building.name} ${facade.id}: ${candidates.length} camera candidates`);
       continue;
     }
 
-    const heading = bearingInDegrees(
-      metadata.location.lat,
-      metadata.location.lng,
-      facade.midpoint.latitude,
-      facade.midpoint.longitude,
-    );
-    const fov = facadeFov(facade.lengthMeters, distance);
-    const fileName = `${viewId}.jpg`;
-    const imageResponse = await fetchStreetViewImage(metadata.pano_id, heading, fov);
-    if (!imageResponse.ok || !imageResponse.body) {
-      console.warn(`Missing ${building.name} ${viewId}: ${imageResponse.status}`);
-      continue;
-    }
+    for (const [shotIndex, candidate] of candidates.slice(0, shotsPerFace || 1).entries()) {
+      const viewId = `facade-${String(index + 1).padStart(2, "0")}${shotsPerFace > 1 ? `-${String(shotIndex + 1).padStart(2, "0")}` : ""}`;
+      const fileName = `${viewId}.jpg`;
+      const imageResponse = await fetchStreetViewImage(candidate.panoId, candidate.heading, candidate.fov);
+      if (!imageResponse.ok || !imageResponse.body) {
+        console.warn(`Missing ${building.name} ${viewId}: ${imageResponse.status}`);
+        continue;
+      }
 
-    const bytes = Buffer.from(await imageResponse.arrayBuffer());
-    await writeFile(path.join(buildingDir, fileName), bytes);
-    record.views[viewId] = {
-      label: `Face ${index + 1}`,
-      path: `/reference-atlas/images/${building.id}/${fileName}`,
-      faceId: facade.id,
-      heading: Math.round(heading),
-      faceBearing: Math.round(facade.bearing),
-      fov,
-      wallLengthMeters: Math.round(facade.lengthMeters),
-      panoramaDistanceMeters: Math.round(distance),
-      qualityStatus: "needs-review",
-      flags: [
-        "Reject if trees are visible",
-        "Approve only if the full face is visible corner to corner",
-      ],
-    };
-    console.log(`Saved ${building.name} ${viewId}`);
+      const bytes = Buffer.from(await imageResponse.arrayBuffer());
+      await writeFile(path.join(buildingDir, fileName), bytes);
+      record.views[viewId] = {
+        label: `${facade.label}${shotsPerFace > 1 ? ` Shot ${shotIndex + 1}` : ""}`,
+        path: `/reference-atlas/images/${building.id}/${fileName}`,
+        faceId: facade.id,
+        heading: Math.round(candidate.heading),
+        faceBearing: Math.round(facade.bearing),
+        fov: candidate.fov,
+        wallLengthMeters: Math.round(facade.lengthMeters),
+        panoramaDistanceMeters: Math.round(candidate.distanceToFace),
+        qualityStatus: "needs-review",
+        qualityScore: candidate.score,
+        candidateCamera: serializeCandidate(candidate),
+        flags: [
+          "Reject if trees are visible",
+          "Approve only if the full face is visible corner to corner",
+        ],
+      };
+      console.log(`Saved ${building.name} ${viewId}`);
+    }
   }
 
   manifest.buildings.push(record);
@@ -201,6 +197,7 @@ function pickFacadeEdges(coordinates) {
     if (lengthMeters < 4) continue;
     edges.push({
       id: `face-${String(index + 1).padStart(2, "0")}`,
+      label: `Face ${index + 1}`,
       lengthMeters,
       bearing: bearingInDegrees(start.latitude, start.longitude, end.latitude, end.longitude),
       start,
@@ -219,6 +216,110 @@ function pickFacadeEdges(coordinates) {
     if (!tooSimilar) picked.push(edge);
   }
   return picked.length ? picked : edges.slice(0, 4);
+}
+
+async function findStreetViewCandidates(facade) {
+  const lookups = candidateLookupPoints(facade);
+  const candidates = [];
+  const seen = new Set();
+
+  for (const lookup of lookups) {
+    const metadata = await getStreetViewMetadata(lookup.latitude, lookup.longitude);
+    if (!metadata?.pano_id || !metadata.location) continue;
+
+    const distanceToFace = distanceInMeters(
+      metadata.location.lat,
+      metadata.location.lng,
+      facade.midpoint.latitude,
+      facade.midpoint.longitude,
+    );
+    if (distanceToFace > 130 || distanceToFace < 8) continue;
+
+    const heading = bearingInDegrees(
+      metadata.location.lat,
+      metadata.location.lng,
+      facade.midpoint.latitude,
+      facade.midpoint.longitude,
+    );
+    const fov = facadeFov(facade.lengthMeters, distanceToFace);
+    if (fov > 116) continue;
+
+    const faceNormalDelta = Math.min(
+      angleDelta(heading, normalizeHeading(facade.bearing + 90)),
+      angleDelta(heading, normalizeHeading(facade.bearing - 90)),
+    );
+    const key = `${metadata.pano_id}:${Math.round(heading / 5) * 5}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+
+    candidates.push({
+      panoId: metadata.pano_id,
+      lookup,
+      camera: {
+        latitude: metadata.location.lat,
+        longitude: metadata.location.lng,
+      },
+      heading,
+      fov,
+      distanceToFace,
+      faceNormalDelta,
+      score: scoreCandidate({ distanceToFace, faceNormalDelta, fov }),
+    });
+  }
+
+  return candidates.sort((a, b) => b.score - a.score);
+}
+
+function candidateLookupPoints(facade) {
+  const points = [];
+  const normals = [normalizeHeading(facade.bearing + 90), normalizeHeading(facade.bearing - 90)];
+  const fractions = [0.2, 0.5, 0.8];
+  const offsets = [18, 30, 45, 65];
+
+  for (const fraction of fractions) {
+    const alongPoint = interpolateCoordinate(facade.start, facade.end, fraction);
+    for (const normal of normals) {
+      for (const offsetMeters of offsets) {
+        points.push({
+          ...offsetCoordinate(alongPoint.latitude, alongPoint.longitude, normal, offsetMeters),
+          normal,
+          offsetMeters,
+          faceFraction: fraction,
+        });
+      }
+    }
+  }
+
+  return points;
+}
+
+function scoreCandidate({ distanceToFace, faceNormalDelta, fov }) {
+  const distanceScore = 100 - Math.min(Math.abs(distanceToFace - 36) * 1.7, 80);
+  const angleScore = 100 - Math.min(faceNormalDelta * 2.4, 85);
+  const fovScore = 100 - Math.max(fov - 72, 0) * 1.8;
+  return Math.round(distanceScore * 0.42 + angleScore * 0.38 + fovScore * 0.2);
+}
+
+function serializeCandidate(candidate) {
+  return {
+    score: candidate.score,
+    panoId: candidate.panoId,
+    heading: Math.round(candidate.heading),
+    fov: candidate.fov,
+    distanceToFaceMeters: Math.round(candidate.distanceToFace),
+    faceNormalDelta: Math.round(candidate.faceNormalDelta),
+    camera: {
+      longitude: Number(candidate.camera.longitude.toFixed(7)),
+      latitude: Number(candidate.camera.latitude.toFixed(7)),
+    },
+    lookup: {
+      longitude: Number(candidate.lookup.longitude.toFixed(7)),
+      latitude: Number(candidate.lookup.latitude.toFixed(7)),
+      offsetMeters: candidate.lookup.offsetMeters,
+      faceFraction: candidate.lookup.faceFraction,
+      normal: Math.round(candidate.lookup.normal),
+    },
+  };
 }
 
 function facadeFov(wallLengthMeters, distanceMeters) {
@@ -296,6 +397,33 @@ function distanceInMeters(fromLat, fromLng, toLat, toLng) {
   const phi2 = toRadians(toLat);
   const a = Math.sin(deltaPhi / 2) ** 2 + Math.cos(phi1) * Math.cos(phi2) * Math.sin(deltaLambda / 2) ** 2;
   return earthRadius * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function interpolateCoordinate(start, end, fraction) {
+  return {
+    latitude: start.latitude + (end.latitude - start.latitude) * fraction,
+    longitude: start.longitude + (end.longitude - start.longitude) * fraction,
+  };
+}
+
+function offsetCoordinate(latitude, longitude, heading, distanceMeters) {
+  const earthRadius = 6_371_000;
+  const angularDistance = distanceMeters / earthRadius;
+  const bearing = toRadians(heading);
+  const lat1 = toRadians(latitude);
+  const lon1 = toRadians(longitude);
+  const lat2 = Math.asin(
+    Math.sin(lat1) * Math.cos(angularDistance)
+    + Math.cos(lat1) * Math.sin(angularDistance) * Math.cos(bearing),
+  );
+  const lon2 = lon1 + Math.atan2(
+    Math.sin(bearing) * Math.sin(angularDistance) * Math.cos(lat1),
+    Math.cos(angularDistance) - Math.sin(lat1) * Math.sin(lat2),
+  );
+  return {
+    latitude: lat2 * 180 / Math.PI,
+    longitude: lon2 * 180 / Math.PI,
+  };
 }
 
 function angleDelta(a, b) {
