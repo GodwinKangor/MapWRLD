@@ -273,7 +273,7 @@ async function findStreetViewCandidates(facade) {
 function candidateLookupPoints(facade) {
   const points = [];
   const normals = [normalizeHeading(facade.bearing + 90), normalizeHeading(facade.bearing - 90)];
-  const fractions = [0.2, 0.5, 0.8];
+  const fractions = coverageFractionsBfs();
   const offsets = [18, 30, 45, 65];
 
   for (const fraction of fractions) {
@@ -291,6 +291,27 @@ function candidateLookupPoints(facade) {
   }
 
   return points;
+}
+
+function coverageFractionsBfs() {
+  const fractions = [];
+  const queue = [[0.05, 0.95]];
+  const seen = new Set();
+
+  while (queue.length && fractions.length < 17) {
+    const [start, end] = queue.shift();
+    const midpoint = Number(((start + end) / 2).toFixed(3));
+    const key = midpoint.toFixed(3);
+    if (!seen.has(key)) {
+      seen.add(key);
+      fractions.push(midpoint);
+    }
+
+    if (end - start < 0.12) continue;
+    queue.push([start, midpoint], [midpoint, end]);
+  }
+
+  return fractions;
 }
 
 function scoreCandidate({ distanceToFace, faceNormalDelta, fov }) {

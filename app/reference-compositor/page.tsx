@@ -32,6 +32,12 @@ type ReferenceManifest = {
 type ReferenceVerdict = {
   status: "approved" | "rejected";
   reason?: string;
+  checklist?: {
+    noTrees: boolean;
+    fullFace: boolean;
+    correctBuilding: boolean;
+  };
+  reviewedAt?: string;
 };
 
 type CompositeLayer = {
@@ -70,7 +76,7 @@ const BLEND_MODES: Array<{ value: BlendMode; label: string }> = [
   { value: "screen", label: "Screen" },
   { value: "overlay", label: "Overlay" },
 ];
-const VERDICT_STORAGE_KEY = "dartmouth-reference-verdicts";
+const VERDICT_STORAGE_KEY = "dartmouth-reference-verdicts-v2";
 
 export default function ReferenceCompositorPage() {
   const [manifest, setManifest] = useState<ReferenceManifest | null>(null);
@@ -321,10 +327,10 @@ function Range({
 
 function getLayers(building: ManifestBuilding, verdicts: Record<string, ReferenceVerdict>): CompositeLayer[] {
   return Object.entries(building.views ?? {})
-    .filter(([id, view]) => Boolean(view.path) && verdicts[referenceKey(building.id, id)]?.status === "approved")
+    .filter(([id, view]) => Boolean(view.path) && isStrictApproved(verdicts[referenceKey(building.id, id)]))
     .sort(([leftId], [rightId]) => {
-      const leftApproved = verdicts[referenceKey(building.id, leftId)]?.status === "approved" ? 0 : 1;
-      const rightApproved = verdicts[referenceKey(building.id, rightId)]?.status === "approved" ? 0 : 1;
+      const leftApproved = isStrictApproved(verdicts[referenceKey(building.id, leftId)]) ? 0 : 1;
+      const rightApproved = isStrictApproved(verdicts[referenceKey(building.id, rightId)]) ? 0 : 1;
       return leftApproved - rightApproved;
     })
     .map(([id, view]) => ({
@@ -364,4 +370,11 @@ function titleCase(value: string) {
 
 function referenceKey(buildingId: string, viewId: string) {
   return `${buildingId}:${viewId}`;
+}
+
+function isStrictApproved(verdict?: ReferenceVerdict) {
+  return verdict?.status === "approved"
+    && verdict.checklist?.noTrees === true
+    && verdict.checklist?.fullFace === true
+    && verdict.checklist?.correctBuilding === true;
 }

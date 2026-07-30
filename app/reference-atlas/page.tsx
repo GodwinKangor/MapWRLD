@@ -13,7 +13,7 @@ const VIEWS = [
 ];
 
 const STATUSES = ["Missing", "Found", "Approved", "Modeled"];
-const VERDICT_STORAGE_KEY = "dartmouth-reference-verdicts";
+const VERDICT_STORAGE_KEY = "dartmouth-reference-verdicts-v2";
 const REJECT_REASONS = [
   { id: "trees", label: "Trees" },
   { id: "partial-face", label: "Partial face" },
@@ -24,6 +24,12 @@ const REJECT_REASONS = [
 type ReferenceVerdict = {
   status: "approved" | "rejected";
   reason?: string;
+  checklist?: {
+    noTrees: boolean;
+    fullFace: boolean;
+    correctBuilding: boolean;
+  };
+  reviewedAt?: string;
 };
 
 type AtlasView = {
@@ -188,7 +194,7 @@ export default function ReferenceAtlasPage() {
   const views = selected.views?.length ? selected.views : VIEWS;
   const visibleViews = showReviewQueue
     ? views
-    : views.filter((view) => verdicts[referenceKey(selected.id, view.id)]?.status === "approved");
+    : views.filter((view) => isStrictApproved(verdicts[referenceKey(selected.id, view.id)]));
 
   return (
     <main className="atlas-page">
@@ -318,19 +324,20 @@ function ReferenceImage({
   verdict?: ReferenceVerdict;
   view: AtlasView;
 }) {
-  const [source, setSource] = useState<"local" | "live" | "missing">("local");
-  const localPath = view.path ?? `/reference-atlas/images/${buildingId}/${view.id}.jpg`;
+  const [source, setSource] = useState<"local" | "missing">(view.path ? "local" : "missing");
+  const localPath = view.path ?? "";
   const src = source === "local"
     ? localPath
-    : `/api/streetview?building=${encodeURIComponent(buildingId)}&view=${view.id}`;
+    : "";
+  const approved = isStrictApproved(verdict);
 
   return (
-    <figure className={verdict?.status === "rejected" ? "reference-frame rejected" : verdict?.status === "approved" ? "reference-frame approved" : "reference-frame"}>
+    <figure className={verdict?.status === "rejected" ? "reference-frame rejected" : approved ? "reference-frame approved" : "reference-frame"}>
       {source !== "missing" && (
         <img
           src={src}
           alt={`${view.label} modeling reference for ${buildingName}`}
-          onError={() => setSource(source === "local" ? "live" : "missing")}
+          onError={() => setSource("missing")}
         />
       )}
       <figcaption>
@@ -347,14 +354,25 @@ function ReferenceImage({
         </div>
       )}
       <div className="reference-review">
-        <button className={verdict?.status === "approved" ? "active" : ""} onClick={() => setVerdict({ status: "approved" })}>
-          Full face, no trees
+        <button
+          className={approved ? "active" : ""}
+          onClick={() => setVerdict({
+            status: "approved",
+            checklist: {
+              noTrees: true,
+              fullFace: true,
+              correctBuilding: true,
+            },
+            reviewedAt: new Date().toISOString(),
+          })}
+        >
+          Approve: full face, no trees
         </button>
         {REJECT_REASONS.map((reason) => (
           <button
             className={verdict?.status === "rejected" && verdict.reason === reason.id ? "reject active" : "reject"}
             key={reason.id}
-            onClick={() => setVerdict({ status: "rejected", reason: reason.id })}
+            onClick={() => setVerdict({ status: "rejected", reason: reason.id, reviewedAt: new Date().toISOString() })}
           >
             Reject: {reason.label}
           </button>
@@ -362,8 +380,8 @@ function ReferenceImage({
         {verdict && <button onClick={clearVerdict}>Clear</button>}
       </div>
       {verdict && (
-        <div className={verdict.status === "approved" ? "reference-verdict approved" : "reference-verdict rejected"}>
-          {verdict.status === "approved" ? "Approved modeling reference" : `Rejected: ${verdict.reason?.replace("-", " ") ?? "not usable"}`}
+        <div className={approved ? "reference-verdict approved" : "reference-verdict rejected"}>
+          {approved ? "Approved no-tree full face" : `Rejected: ${verdict.reason?.replace("-", " ") ?? "not usable"}`}
         </div>
       )}
       <div className="reference-fallback"><ImageOff size={22} /><span>No image configured</span></div>
@@ -400,4 +418,11 @@ function titleCase(value: string) {
 
 function referenceKey(buildingId: string, viewId: string) {
   return `${buildingId}:${viewId}`;
+}
+
+function isStrictApproved(verdict?: ReferenceVerdict) {
+  return verdict?.status === "approved"
+    && verdict.checklist?.noTrees === true
+    && verdict.checklist?.fullFace === true
+    && verdict.checklist?.correctBuilding === true;
 }
