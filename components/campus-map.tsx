@@ -54,7 +54,7 @@ type CesiumViewer = {
   resolutionScale: number;
   scene: {
     canvas: HTMLCanvasElement;
-    globe: { enableLighting: boolean; show: boolean };
+    globe: { cartographicLimitRectangle?: unknown; enableLighting: boolean; show: boolean };
     maximumRenderTimeChange?: number;
     primitives: { add: (primitive: unknown) => unknown; remove: (primitive: unknown) => boolean };
     requestRenderMode?: boolean;
@@ -101,11 +101,9 @@ const CAMPUS_BOUNDS = {
   east: -72.2785,
   north: 43.7108,
 };
-const MASK_BOUNDS = {
-  west: -72.62,
-  south: 43.48,
-  east: -71.98,
-  north: 43.92,
+const CAMPUS_EDGE_HEIGHT = {
+  bottom: 36,
+  top: 162,
 };
 // Saved for a later campus-shaped mask pass. The live MVP uses the rectangular
 // frame so the boundary reads like the reference map while modeling continues.
@@ -212,6 +210,7 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
       // Keep satellite imagery legible. The app's atmosphere layer handles
       // day/night; Cesium globe lighting can black out imagery at local night.
       viewer.scene.globe.enableLighting = false;
+      restrictGlobeToCampus(viewer, Cesium);
       cameraLimitsCleanupRef.current = installCampusCameraLimits(viewer, Cesium);
 
       addBuildingMarkers(viewer, Cesium, buildingsRef.current, undefined, layers);
@@ -231,9 +230,9 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
       // has permission for Cesium's Bing Maps Aerial asset (ID 2).
       void loadAerialImagery(viewer, Cesium, visibleBaseLayer, () => cancelled);
 
-      // The base globe is usable immediately. Dartmouth's OSM geometry streams
-      // in without holding the interface behind the loading screen.
-      void loadEnhancedGeometry(viewer, Cesium, () => cancelled);
+      // Keep the working scene physically constrained to the Dartmouth tile.
+      // Global OSM building tiles are intentionally off in this mode because
+      // they keep rendering buildings outside the campus rectangle.
       void prepareCampusModelSlot(viewer, Cesium, () => cancelled);
     }).catch((error) => {
       console.error("Cesium failed to initialize", error);
@@ -310,8 +309,8 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
 
 function flyHome(viewer: CesiumViewer, Cesium: CesiumApi) {
   viewer.camera.flyTo({
-    destination: Cesium.Cartesian3.fromDegrees(DARTMOUTH_HOME.longitude, DARTMOUTH_HOME.latitude - 0.0005, DARTMOUTH_HOME.height),
-    orientation: { heading: Cesium.Math.toRadians(1), pitch: Cesium.Math.toRadians(-70), roll: 0 },
+    destination: Cesium.Cartesian3.fromDegrees(DARTMOUTH_HOME.longitude, DARTMOUTH_HOME.latitude - 0.00035, 2320),
+    orientation: { heading: Cesium.Math.toRadians(1), pitch: Cesium.Math.toRadians(-76), roll: 0 },
     duration: 1.8,
   });
 }
@@ -364,6 +363,21 @@ function installCampusCameraLimits(viewer: CesiumViewer, Cesium: CesiumApi) {
 
   viewer.camera.moveEnd?.addEventListener(clampCamera);
   return () => viewer.camera.moveEnd?.removeEventListener(clampCamera);
+}
+
+function restrictGlobeToCampus(viewer: CesiumViewer, Cesium: CesiumApi) {
+  viewer.scene.globe.cartographicLimitRectangle = Cesium.Rectangle.fromDegrees(
+    CAMPUS_BOUNDS.west,
+    CAMPUS_BOUNDS.south,
+    CAMPUS_BOUNDS.east,
+    CAMPUS_BOUNDS.north,
+  );
+  const scene = viewer.scene as unknown as {
+    backgroundColor?: unknown;
+    skyAtmosphere?: { show: boolean };
+  };
+  scene.backgroundColor = new Cesium.Color(0.06, 0.075, 0.065, 1);
+  if (scene.skyAtmosphere) scene.skyAtmosphere.show = false;
 }
 
 function clamp(value: number, min: number, max: number) {
@@ -595,20 +609,25 @@ function addFutureWorkLayer(viewer: CesiumViewer, Cesium: CesiumApi) {
 }
 
 function addCampusMask(viewer: CesiumViewer, Cesium: CesiumApi) {
-  const mutedMaterial = new Cesium.Color(0.13, 0.145, 0.14, 0.72);
-  const maskStrips = [
-    [MASK_BOUNDS.west, CAMPUS_BOUNDS.north, MASK_BOUNDS.east, MASK_BOUNDS.north],
-    [MASK_BOUNDS.west, MASK_BOUNDS.south, MASK_BOUNDS.east, CAMPUS_BOUNDS.south],
-    [MASK_BOUNDS.west, CAMPUS_BOUNDS.south, CAMPUS_BOUNDS.west, CAMPUS_BOUNDS.north],
-    [CAMPUS_BOUNDS.east, CAMPUS_BOUNDS.south, MASK_BOUNDS.east, CAMPUS_BOUNDS.north],
+  const liftedEdgeMaterial = new Cesium.Color(0.08, 0.095, 0.085, 0.92);
+  const campusEdges = [
+    [CAMPUS_BOUNDS.west, CAMPUS_BOUNDS.south, CAMPUS_BOUNDS.east, CAMPUS_BOUNDS.south],
+    [CAMPUS_BOUNDS.east, CAMPUS_BOUNDS.south, CAMPUS_BOUNDS.east, CAMPUS_BOUNDS.north],
+    [CAMPUS_BOUNDS.east, CAMPUS_BOUNDS.north, CAMPUS_BOUNDS.west, CAMPUS_BOUNDS.north],
+    [CAMPUS_BOUNDS.west, CAMPUS_BOUNDS.north, CAMPUS_BOUNDS.west, CAMPUS_BOUNDS.south],
   ];
 
-  maskStrips.forEach(([west, south, east, north]) => {
+  campusEdges.forEach(([startLongitude, startLatitude, endLongitude, endLatitude]) => {
     viewer.entities.add({
       allowPicking: false,
-      rectangle: {
-        coordinates: Cesium.Rectangle.fromDegrees(west, south, east, north),
-        material: mutedMaterial,
+      wall: {
+        positions: Cesium.Cartesian3.fromDegreesArray([
+          startLongitude, startLatitude,
+          endLongitude, endLatitude,
+        ]),
+        minimumHeights: [CAMPUS_EDGE_HEIGHT.bottom, CAMPUS_EDGE_HEIGHT.bottom],
+        maximumHeights: [CAMPUS_EDGE_HEIGHT.top, CAMPUS_EDGE_HEIGHT.top],
+        material: liftedEdgeMaterial,
       },
     });
   });
