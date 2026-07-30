@@ -1,4 +1,4 @@
-import { access, mkdir, writeFile } from "node:fs/promises";
+import { access, mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { getCampusBuildingName } from "./campus-building-names.mjs";
@@ -93,6 +93,12 @@ const manifest = {
     status: "metadata-first",
     note: "Rejects obvious bad references before saving. Final approval still requires confirming the full wall is visible end-to-end and unobscured.",
   },
+  summary: {
+    buildingsWithImages: 0,
+    buildingsWithoutImages: 0,
+    savedImages: 0,
+  },
+  missingReferences: [],
   buildings: [],
 };
 
@@ -100,7 +106,6 @@ console.log(`Searching open reference candidates for ${buildings.length} buildin
 
 for (const building of buildings) {
   const buildingDir = path.join(outputRoot, building.id);
-  await mkdir(buildingDir, { recursive: true });
 
   const record = {
     id: building.id,
@@ -130,6 +135,7 @@ for (const building of buildings) {
     const extension = extensionFromUrl(candidate.imageUrl) ?? "jpg";
     const fileName = `${viewId}-${slugify(candidate.title).slice(0, 72) || "reference"}.${extension}`;
     const filePath = path.join(buildingDir, fileName);
+    await mkdir(buildingDir, { recursive: true });
     const download = await downloadImage(candidate.imageUrl, filePath);
 
     if (!download.ok) {
@@ -160,6 +166,22 @@ for (const building of buildings) {
       flags: check.flags,
     };
     console.log(`${download.reused ? "Reused" : "Saved"} ${building.name}: ${candidate.providerLabel} / ${candidate.title}`);
+  }
+
+  const savedCount = Object.keys(record.views).length;
+  manifest.summary.savedImages += savedCount;
+  if (savedCount) {
+    manifest.summary.buildingsWithImages += 1;
+  } else {
+    manifest.summary.buildingsWithoutImages += 1;
+    manifest.missingReferences.push({
+      id: building.id,
+      name: building.name,
+      osmId: building.osmId,
+      rejectedCandidates: record.rejected.length,
+      nextStep: "Use Street View facade planning, a field photo, or manual web search. Open providers did not return a usable full-face candidate.",
+    });
+    await rm(buildingDir, { recursive: true, force: true });
   }
 
   manifest.buildings.push(record);
@@ -201,6 +223,10 @@ function sleep(ms) {
 
 await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 console.log(`Wrote ${path.relative(root, manifestPath)}`);
+console.log(`Saved ${manifest.summary.savedImages} images for ${manifest.summary.buildingsWithImages}/${buildings.length} buildings.`);
+if (manifest.summary.buildingsWithoutImages) {
+  console.log(`${manifest.summary.buildingsWithoutImages} buildings had no usable open-image candidates; see manifest.missingReferences.`);
+}
 
 async function collectCandidates(buildingName) {
   const providerResults = await Promise.allSettled([
