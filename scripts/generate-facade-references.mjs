@@ -44,7 +44,7 @@ console.log(`Preparing facade references for ${buildings.length} buildings.`);
 for (const building of buildings) {
   const buildingDir = path.join(outputRoot, building.id);
   await mkdir(buildingDir, { recursive: true });
-  const facades = pickFacadeEdges(building.coordinates);
+  const facades = assignModelingViewSlots(pickFacadeEdges(building.coordinates), building.coordinates);
   const record = {
     id: building.id,
     name: building.name,
@@ -53,12 +53,14 @@ for (const building of buildings) {
     category: "OSM building",
     shortCode: makeShortCode(building.name),
     referenceGoal: "Capture each major building face from corner to corner with no trees, vehicles, or foreground obstruction.",
-    facePlan: facades.map((facade, index) => ({
+    facePlan: facades.map((facade) => ({
       id: facade.id,
-      label: `Face ${index + 1}`,
+      viewSlot: facade.viewSlot,
+      label: facade.label,
       lengthMeters: Math.round(facade.lengthMeters),
       bearing: Math.round(facade.bearing),
-      targetHeading: Math.round(normalizeHeading(facade.bearing + 90)),
+      outwardBearing: Math.round(facade.outwardBearing),
+      targetHeading: Math.round(facade.outwardBearing),
       midpoint: {
         longitude: Number(facade.midpoint.longitude.toFixed(7)),
         latitude: Number(facade.midpoint.latitude.toFixed(7)),
@@ -93,7 +95,7 @@ for (const building of buildings) {
     }
 
     for (const [shotIndex, candidate] of candidates.slice(0, shotsPerFace || 1).entries()) {
-      const viewId = `facade-${String(index + 1).padStart(2, "0")}${shotsPerFace > 1 ? `-${String(shotIndex + 1).padStart(2, "0")}` : ""}`;
+      const viewId = `${facade.viewSlot}${shotsPerFace > 1 ? `-${String(shotIndex + 1).padStart(2, "0")}` : ""}`;
       const fileName = `${viewId}.jpg`;
       const imageResponse = await fetchStreetViewImage(candidate.panoId, candidate.heading, candidate.fov);
       if (!imageResponse.ok || !imageResponse.body) {
@@ -106,9 +108,11 @@ for (const building of buildings) {
       record.views[viewId] = {
         label: `${facade.label}${shotsPerFace > 1 ? ` Shot ${shotIndex + 1}` : ""}`,
         path: `/reference-atlas/images/${building.id}/${fileName}`,
+        viewSlot: facade.viewSlot,
         faceId: facade.id,
         heading: Math.round(candidate.heading),
         faceBearing: Math.round(facade.bearing),
+        outwardBearing: Math.round(facade.outwardBearing),
         fov: candidate.fov,
         wallLengthMeters: Math.round(facade.lengthMeters),
         panoramaDistanceMeters: Math.round(candidate.distanceToFace),
@@ -216,6 +220,53 @@ function pickFacadeEdges(coordinates) {
     if (!tooSimilar) picked.push(edge);
   }
   return picked.length ? picked : edges.slice(0, 4);
+}
+
+function assignModelingViewSlots(facades, coordinates) {
+  const centroid = footprintCentroid(coordinates);
+  const withOutward = facades.map((facade) => ({
+    ...facade,
+    outwardBearing: bearingInDegrees(
+      centroid.latitude,
+      centroid.longitude,
+      facade.midpoint.latitude,
+      facade.midpoint.longitude,
+    ),
+  }));
+  const slots = [
+    { id: "front", label: "Front", targetBearing: 180 },
+    { id: "right", label: "Right Side", targetBearing: 90 },
+    { id: "back", label: "Back", targetBearing: 0 },
+    { id: "left", label: "Left Side", targetBearing: 270 },
+  ];
+  const assigned = [];
+  const available = [...withOutward];
+
+  for (const slot of slots) {
+    if (!available.length) break;
+    available.sort((a, b) => {
+      const angleScore = angleDelta(a.outwardBearing, slot.targetBearing) - angleDelta(b.outwardBearing, slot.targetBearing);
+      return angleScore || b.lengthMeters - a.lengthMeters;
+    });
+    const facade = available.shift();
+    assigned.push({
+      ...facade,
+      viewSlot: slot.id,
+      label: slot.label,
+    });
+  }
+
+  return assigned;
+}
+
+function footprintCentroid(coordinates) {
+  const open = sameCoordinate(coordinates[0], coordinates[coordinates.length - 1])
+    ? coordinates.slice(0, -1)
+    : coordinates;
+  return {
+    latitude: open.reduce((sum, coordinate) => sum + coordinate.latitude, 0) / open.length,
+    longitude: open.reduce((sum, coordinate) => sum + coordinate.longitude, 0) / open.length,
+  };
 }
 
 async function findStreetViewCandidates(facade) {
