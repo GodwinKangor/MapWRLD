@@ -11,6 +11,9 @@
     "reference:wikimedia": "node scripts/generate-wikimedia-candidates.mjs",
     "reference:wikimedia:test": "node scripts/generate-wikimedia-candidates.mjs --limit 10",
     "reference:wikimedia:dartmouth-hall": "node scripts/generate-wikimedia-candidates.mjs --only \"Dartmouth Hall\"",
+    "reference:open": "node scripts/generate-open-reference-candidates.mjs",
+    "reference:open:test": "node scripts/generate-open-reference-candidates.mjs --limit 10",
+    "reference:open:dartmouth-hall": "node scripts/generate-open-reference-candidates.mjs --only \"Dartmouth Hall\"",
     "start": "next start",
     "lint": "next lint"
   },
