@@ -354,17 +354,31 @@ async function fetchCampusBuildings() {
     );
     out body;
   `;
-  const response = await fetch("https://overpass-api.de/api/interpreter", {
-    method: "POST",
-    headers: {
-      "Accept": "application/json, text/plain, */*",
-      "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
-      "User-Agent": "DartmouthEnergyTwin/0.1",
-    },
-    body: new URLSearchParams({ data: query.trim() }),
-  });
-  if (!response.ok) throw new Error(`Overpass returned ${response.status}`);
-  return response.json();
+  const endpoints = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.openstreetmap.ru/api/interpreter",
+  ];
+
+  for (const endpoint of endpoints) {
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+          "User-Agent": "DartmouthEnergyTwin/0.1",
+        },
+        body: new URLSearchParams({ data: query.trim() }),
+      });
+      if (response.ok) return response.json();
+      console.warn(`${endpoint} returned ${response.status}`);
+    } catch (error) {
+      console.warn(`${endpoint} failed: ${error instanceof Error ? error.message : String(error)}`);
+    }
+  }
+
+  throw new Error("All Overpass endpoints rejected the campus building query.");
 }
 
 function extractBuildingFootprints(osm) {

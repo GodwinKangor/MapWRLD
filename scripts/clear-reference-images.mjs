@@ -1,4 +1,4 @@
-import { rm } from "node:fs/promises";
+import { mkdir, rm } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
@@ -12,4 +12,5 @@ if (!process.argv.includes("--confirm")) {
 }
 
 await rm(target, { recursive: true, force: true });
+await mkdir(target, { recursive: true });
 console.log(`Removed ${path.relative(root, target)}`);
