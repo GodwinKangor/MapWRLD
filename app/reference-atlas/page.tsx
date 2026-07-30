@@ -18,9 +18,17 @@ type AtlasView = {
   id: string;
   label: string;
   path?: string;
+  source?: string;
+  sourceUrl?: string;
+  qualityStatus?: string;
+  qualityScore?: number;
+  reasons?: string[];
+  flags?: string[];
   fov?: number;
   wallLengthMeters?: number;
   panoramaDistanceMeters?: number;
+  width?: number;
+  height?: number;
 };
 
 type AtlasBuilding = {
@@ -46,6 +54,14 @@ type ReferenceManifest = {
       fov?: number;
       wallLengthMeters?: number;
       panoramaDistanceMeters?: number;
+      source?: string;
+      sourceUrl?: string;
+      qualityStatus?: string;
+      qualityScore?: number;
+      reasons?: string[];
+      flags?: string[];
+      width?: number;
+      height?: number;
     }>;
   }>;
 };
@@ -87,6 +103,14 @@ export default function ReferenceAtlasPage() {
             fov: view.fov,
             wallLengthMeters: view.wallLengthMeters,
             panoramaDistanceMeters: view.panoramaDistanceMeters,
+            source: view.source,
+            sourceUrl: view.sourceUrl,
+            qualityStatus: view.qualityStatus,
+            qualityScore: view.qualityScore,
+            reasons: view.reasons,
+            flags: view.flags,
+            width: view.width,
+            height: view.height,
           })),
         }));
         setAtlasBuildings(generated);
@@ -233,15 +257,26 @@ function ReferenceImage({
       )}
       <figcaption>
         <span>{view.label}</span>
-        <small>{facadeMeta(view) ?? (source === "local" ? "Generated local reference" : "Street View heading reference")}</small>
+        <small>{referenceMeta(view) ?? (source === "local" ? "Generated local reference" : "Street View heading reference")}</small>
       </figcaption>
+      {(view.qualityStatus || view.flags?.length || view.reasons?.length) && (
+        <div className="reference-quality">
+          <strong>{view.qualityStatus ?? "needs-review"}</strong>
+          {view.qualityScore !== undefined && <span>score {view.qualityScore}</span>}
+          {view.flags?.slice(0, 2).map((flag) => <span key={flag}>{flag}</span>)}
+          {view.reasons?.slice(0, 2).map((reason) => <span key={reason}>{reason}</span>)}
+          {view.sourceUrl && <a href={view.sourceUrl} target="_blank" rel="noreferrer">Source</a>}
+        </div>
+      )}
       <div className="reference-fallback"><ImageOff size={22} /><span>No image configured</span></div>
     </figure>
   );
 }
 
-function facadeMeta(view: { fov?: number; wallLengthMeters?: number; panoramaDistanceMeters?: number }) {
+function referenceMeta(view: AtlasView) {
   const details = [
+    view.source ? view.source : null,
+    view.width && view.height ? `${view.width}x${view.height}` : null,
     view.wallLengthMeters ? `${view.wallLengthMeters}m wall` : null,
     view.panoramaDistanceMeters ? `${view.panoramaDistanceMeters}m camera` : null,
     view.fov ? `${view.fov} deg FOV` : null,

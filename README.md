@@ -104,11 +104,18 @@ The images are written to `public/reference-atlas/images/` and are ignored by Gi
 For actual modeling references across every OSM building inside the Dartmouth rectangle, generate facade candidates instead:
 
 ```bash
+npm run reference:wikimedia:dartmouth-hall
+npm run reference:wikimedia:test
+npm run reference:wikimedia
 npm run reference:facades:test
 npm run reference:facades
 ```
 
-The facade generator pulls building footprints from OpenStreetMap, selects the major walls, then saves tighter wall-facing Street View candidates like `facade-01.jpg`, `facade-02.jpg`, etc. Use the test command first because the full command can make many API requests.
+Use Wikimedia first because it is more likely to contain clean, building-focused photographs. The Wikimedia generator searches named OSM buildings, rejects obvious non-modeling images such as maps, aerials, interiors, logos, low-resolution files, and narrow crops, then saves candidate facade references with source links and checker notes.
+
+The Street View facade generator is a fallback. It pulls building footprints from OpenStreetMap, selects the major walls, then saves tighter wall-facing candidates like `facade-01.jpg`, `facade-02.jpg`, etc. Use the test commands first because Street View can make many paid API requests.
+
+The checker is intentionally conservative: it can reject obvious bad metadata, but final approval still requires a human or a vision API to confirm that the wall is visible end-to-end and not blocked by trees, vehicles, or foreground objects.
 
 ## Supabase Setup
 
