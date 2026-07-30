@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { ArrowLeft, BadgeCheck, Building2, CheckCircle2, ClipboardList, ImageOff, Search } from "lucide-react";
+import { ArrowLeft, BadgeCheck, Building2, CheckCircle2, ClipboardList, ImageOff, Layers3, Search } from "lucide-react";
 import { buildings } from "@/data/buildings";
 
 const VIEWS = [
@@ -189,17 +189,20 @@ export default function ReferenceAtlasPage() {
             <h2>{selected.name}</h2>
             <p>{selected.nextStep}</p>
           </div>
-          <div className="atlas-status">
-            {STATUSES.map((status) => (
-              <button
-                className={(statusByBuilding[selected.id] ?? "Missing") === status ? "active" : ""}
-                key={status}
-                onClick={() => setStatus(status)}
-              >
-                {status === "Modeled" ? <BadgeCheck size={14} /> : <CheckCircle2 size={14} />}
-                {status}
-              </button>
-            ))}
+          <div className="atlas-actions">
+            <Link href="/reference-compositor" className="atlas-compositor-link"><Layers3 size={14} /> Composite</Link>
+            <div className="atlas-status">
+              {STATUSES.map((status) => (
+                <button
+                  className={(statusByBuilding[selected.id] ?? "Missing") === status ? "active" : ""}
+                  key={status}
+                  onClick={() => setStatus(status)}
+                >
+                  {status === "Modeled" ? <BadgeCheck size={14} /> : <CheckCircle2 size={14} />}
+                  {status}
+                </button>
+              ))}
+            </div>
           </div>
         </header>
 

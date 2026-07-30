@@ -122,6 +122,14 @@ The Street View facade generator is a fallback. It pulls building footprints fro
 
 The checker is intentionally conservative: it discards photos whose metadata suggests blocked walls, trees, vehicles, crowds, scaffolding, snow, night/low-light views, partial crops, or close-up details. Final approval still requires a human or a vision API to confirm that the actual pixels show the wall end-to-end without foreground obstruction.
 
+When the free images are useful but each one has small blocked areas, open:
+
+```text
+http://localhost:3000/reference-compositor
+```
+
+The compositor reads the same generated manifest, stacks multiple candidate images for a building, and lets a modeler adjust visibility, opacity, scale, rotation, position, and blend mode. Export the result as a PNG reference sheet after aligning the clearest visible wall parts. This is a free/manual path for combining partial references before spending money on vision review or new image capture.
+
 ## Supabase Setup
 
 Run this migration in the Supabase SQL editor:
