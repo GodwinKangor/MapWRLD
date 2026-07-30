@@ -88,7 +88,7 @@ export const buildings: Building[] = [
     assetStatus: { modelStatus: "In progress", meterStatus: "Estimated", dataQuality: "Field check", priority: "High", lastInspection: "2026-07-14", nextStep: "Preserve front facade proportions in GLB export" }
   },
   {
-    id: "life-sciences", name: "Class of 1978 Life Sciences", shortCode: "LSC", category: "Study", subtitle: "Research inspired by the natural world",
+    id: "life-sciences", name: "Class of 1978 Life Sciences Center", shortCode: "LSC", category: "Study", subtitle: "Research inspired by the natural world",
     description: "A modern, high-performance research building with expansive lab spaces and a greenhouse overlooking the north campus.",
     coordinates: [-72.28578, 43.70887], entrance: { id: "main", coordinates: [-72.28605, 43.70854], approach: [-72.28632, 43.70814], heading: 34, label: "South atrium entrance", kind: "main" }, open: true, hours: "Open until 10:00 PM", imageClass: "lsc", features: ["LEED Platinum", "Accessible entrance", "Greenhouse", "Study nooks"], gallery: ["Atrium", "Greenhouse", "Teaching Lab"],
     energy: { useType: "Laboratory / research", system: "High-performance lab systems", demandKw: 1220, annualMwh: 5400, emissions: "Medium", retrofit: "Lab airflow optimization", score: 79 },

@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
+import { getCampusBuildingName } from "./campus-building-names.mjs";
 
 const CAMPUS_BOUNDS = {
   west: -72.2972,
@@ -149,12 +150,13 @@ function extractBuildingFootprints(osm) {
     const closed = sameCoordinate(coordinates[0], coordinates[coordinates.length - 1])
       ? coordinates
       : [...coordinates, coordinates[0]];
-    const address = [way.tags?.["addr:housenumber"], way.tags?.["addr:street"]].filter(Boolean).join(" ");
-    const name = way.tags?.name ?? way.tags?.["addr:housename"] ?? (address || `Building ${way.id}`);
+    const naming = getCampusBuildingName(way.tags, way.id);
     return [{
-      id: slugify(`${name}-${way.id}`),
+      id: slugify(`${naming.name}-${way.id}`),
       osmId: `way/${way.id}`,
-      name,
+      name: naming.name,
+      rawName: naming.rawName,
+      nameSource: naming.hasRealName ? "osm-name" : naming.isAddressOnly ? "address" : "generated",
       coordinates: closed,
     }];
   });

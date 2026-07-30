@@ -122,6 +122,14 @@ The Street View facade generator is a fallback. It pulls building footprints fro
 
 The checker is intentionally conservative: it discards photos whose metadata suggests blocked walls, trees, vehicles, crowds, scaffolding, snow, night/low-light views, partial crops, or close-up details. Final approval still requires a human or a vision API to confirm that the actual pixels show the wall end-to-end without foreground obstruction.
 
+If an OSM building name is wrong or incomplete, add the correction in:
+
+```text
+scripts/campus-building-names.mjs
+```
+
+The open-source, Wikimedia, and Street View facade generators all use this shared naming helper before writing atlas manifests.
+
 When the free images are useful but each one has small blocked areas, open:
 
 ```text
