@@ -1,0 +1,45 @@
+{
+  "sourceBlend": "public/models/dartmouth-energy-twin/dartmouth-energy-twin.blend",
+  "query": "dartmouth-hall",
+  "strict": true,
+  "laws": [
+    "clean-geometry",
+    "roof-supported-and-reference-declared",
+    "tower-and-details-stay-on-wall-footprint",
+    "no-unnecessary-gaps-between-supported-objects",
+    "no-floating-window-door-panels",
+    "follow-approved-exterior-references"
+  ],
+  "targets": [
+    {
+      "building": "building__dartmouth-hall__way_48784540",
+      "displayName": "Dartmouth Hall",
+      "osmId": "way/48784540",
+      "rules": "public/models/dartmouth-energy-twin/renders/buildings/building__dartmouth-hall__way_48784540/references/modeling-rules.json",
+      "objectsAudited": 28,
+      "findings": [
+        {
+          "severity": "warn",
+          "law": "clean-geometry",
+          "object": "building__dartmouth-hall__way_48784540",
+          "message": "Possible T-junctions found.",
+          "stats": {
+            "vertices": 756,
+            "edges": 1339,
+            "faces": 595,
+            "triangles": 0,
+            "quads": 595,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 298,
+            "nonManifoldEdges": 298,
+            "tJunctionSuspects": 10
+          }
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true
+}

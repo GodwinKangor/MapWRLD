@@ -1,0 +1,6893 @@
+{
+  "generatedAt": "2026-08-19T16:56:33.979Z",
+  "layers": {
+    "buildings": {
+      "source": "/Users/godwinkangor/Downloads/darrtmouth buildings.geojson",
+      "features": 729,
+      "named": 240,
+      "addressed": 670
+    },
+    "roads": {
+      "source": "/Users/godwinkangor/Downloads/roads and paths.geojson",
+      "features": 1468,
+      "named": 156,
+      "addressed": 0
+    },
+    "sports": {
+      "source": "/Users/godwinkangor/Downloads/sports and field.geojson",
+      "features": 34,
+      "named": 8,
+      "addressed": 7
+    }
+  },
+  "comparisons": {
+    "buildings": {
+      "missingFromFetchedOsm": [],
+      "missingFromManifest": [],
+      "meaningfulLabelDifferences": [],
+      "genericLabelDifferences": [
+        {
+          "id": "way/48467879",
+          "geojson": "yes",
+          "fetched": "Building 48467879"
+        },
+        {
+          "id": "way/265142412",
+          "geojson": "yes",
+          "fetched": "Building 265142412"
+        },
+        {
+          "id": "way/308650268",
+          "geojson": "shed",
+          "fetched": "Building 308650268"
+        },
+        {
+          "id": "way/547813919",
+          "geojson": "commercial",
+          "fetched": "Building 547813919"
+        },
+        {
+          "id": "way/548896483",
+          "geojson": "commercial",
+          "fetched": "Building 548896483"
+        },
+        {
+          "id": "way/548921800",
+          "geojson": "commercial",
+          "fetched": "Building 548921800"
+        },
+        {
+          "id": "way/616919970",
+          "geojson": "yes",
+          "fetched": "Building 616919970"
+        },
+        {
+          "id": "way/621646980",
+          "geojson": "apartments",
+          "fetched": "Building 621646980"
+        },
+        {
+          "id": "way/621646981",
+          "geojson": "yes",
+          "fetched": "Building 621646981"
+        },
+        {
+          "id": "way/621646986",
+          "geojson": "garages",
+          "fetched": "Building 621646986"
+        },
+        {
+          "id": "way/645101989",
+          "geojson": "yes",
+          "fetched": "Building 645101989"
+        },
+        {
+          "id": "way/648551752",
+          "geojson": "yes",
+          "fetched": "Building 648551752"
+        },
+        {
+          "id": "way/675559488",
+          "geojson": "parking",
+          "fetched": "Building 675559488"
+        },
+        {
+          "id": "way/734295490",
+          "geojson": "house",
+          "fetched": "Building 734295490"
+        },
+        {
+          "id": "way/783709301",
+          "geojson": "garage",
+          "fetched": "Building 783709301"
+        },
+        {
+          "id": "way/837183229",
+          "geojson": "roof",
+          "fetched": "Building 837183229"
+        },
+        {
+          "id": "way/837183237",
+          "geojson": "university",
+          "fetched": "Building 837183237"
+        },
+        {
+          "id": "way/837183238",
+          "geojson": "university",
+          "fetched": "Building 837183238"
+        },
+        {
+          "id": "way/873165773",
+          "geojson": "garage",
+          "fetched": "Building 873165773"
+        },
+        {
+          "id": "way/874153675",
+          "geojson": "yes",
+          "fetched": "Building 874153675"
+        },
+        {
+          "id": "way/874487238",
+          "geojson": "roof",
+          "fetched": "Building 874487238"
+        },
+        {
+          "id": "way/874520372",
+          "geojson": "garage",
+          "fetched": "Building 874520372"
+        },
+        {
+          "id": "way/898107520",
+          "geojson": "yes",
+          "fetched": "Building 898107520"
+        },
+        {
+          "id": "way/898107521",
+          "geojson": "yes",
+          "fetched": "Building 898107521"
+        },
+        {
+          "id": "way/898107522",
+          "geojson": "yes",
+          "fetched": "Building 898107522"
+        },
+        {
+          "id": "way/898107523",
+          "geojson": "yes",
+          "fetched": "Building 898107523"
+        },
+        {
+          "id": "way/898107524",
+          "geojson": "yes",
+          "fetched": "Building 898107524"
+        },
+        {
+          "id": "way/898107525",
+          "geojson": "yes",
+          "fetched": "Building 898107525"
+        },
+        {
+          "id": "way/898107526",
+          "geojson": "yes",
+          "fetched": "Building 898107526"
+        },
+        {
+          "id": "way/898107527",
+          "geojson": "yes",
+          "fetched": "Building 898107527"
+        },
+        {
+          "id": "way/898107528",
+          "geojson": "yes",
+          "fetched": "Building 898107528"
+        },
+        {
+          "id": "way/898107530",
+          "geojson": "yes",
+          "fetched": "Building 898107530"
+        },
+        {
+          "id": "way/898107531",
+          "geojson": "yes",
+          "fetched": "Building 898107531"
+        },
+        {
+          "id": "way/898107533",
+          "geojson": "yes",
+          "fetched": "Building 898107533"
+        },
+        {
+          "id": "way/898107534",
+          "geojson": "yes",
+          "fetched": "Building 898107534"
+        },
+        {
+          "id": "way/898107535",
+          "geojson": "yes",
+          "fetched": "Building 898107535"
+        },
+        {
+          "id": "way/898107536",
+          "geojson": "yes",
+          "fetched": "Building 898107536"
+        },
+        {
+          "id": "way/898107537",
+          "geojson": "yes",
+          "fetched": "Building 898107537"
+        },
+        {
+          "id": "way/898107539",
+          "geojson": "yes",
+          "fetched": "Building 898107539"
+        },
+        {
+          "id": "way/898107540",
+          "geojson": "yes",
+          "fetched": "Building 898107540"
+        },
+        {
+          "id": "way/898107541",
+          "geojson": "yes",
+          "fetched": "Building 898107541"
+        },
+        {
+          "id": "way/898107542",
+          "geojson": "yes",
+          "fetched": "Building 898107542"
+        },
+        {
+          "id": "way/1130905265",
+          "geojson": "yes",
+          "fetched": "Building 1130905265"
+        },
+        {
+          "id": "way/1130905272",
+          "geojson": "house",
+          "fetched": "Building 1130905272"
+        },
+        {
+          "id": "way/1237319357",
+          "geojson": "yes",
+          "fetched": "Building 1237319357"
+        },
+        {
+          "id": "way/1237319365",
+          "geojson": "yes",
+          "fetched": "Building 1237319365"
+        },
+        {
+          "id": "way/1347559304",
+          "geojson": "yes",
+          "fetched": "Building 1347559304"
+        },
+        {
+          "id": "way/1347560510",
+          "geojson": "yes",
+          "fetched": "Building 1347560510"
+        },
+        {
+          "id": "way/1347560671",
+          "geojson": "yes",
+          "fetched": "Building 1347560671"
+        },
+        {
+          "id": "way/1347560676",
+          "geojson": "yes",
+          "fetched": "Building 1347560676"
+        },
+        {
+          "id": "way/1347560677",
+          "geojson": "yes",
+          "fetched": "Building 1347560677"
+        }
+      ]
+    },
+    "roads": {
+      "missingFromFetchedOsm": [],
+      "missingFromManifest": [],
+      "meaningfulLabelDifferences": [],
+      "genericLabelDifferences": [
+        {
+          "id": "way/783709295",
+          "geojson": "pedestrian",
+          "fetched": "Pedestrian 783709295"
+        },
+        {
+          "id": "way/874153677",
+          "geojson": "pedestrian",
+          "fetched": "Pedestrian 874153677"
+        },
+        {
+          "id": "way/874487235",
+          "geojson": "pedestrian",
+          "fetched": "Pedestrian 874487235"
+        },
+        {
+          "id": "way/879497985",
+          "geojson": "pedestrian",
+          "fetched": "Pedestrian 879497985"
+        },
+        {
+          "id": "way/18836491",
+          "geojson": "service",
+          "fetched": "Service 18836491"
+        },
+        {
+          "id": "way/18836519",
+          "geojson": "service",
+          "fetched": "Service Driveway 18836519"
+        },
+        {
+          "id": "way/18837009",
+          "geojson": "service",
+          "fetched": "Service Driveway 18837009"
+        },
+        {
+          "id": "way/18837014",
+          "geojson": "service",
+          "fetched": "Service 18837014"
+        },
+        {
+          "id": "way/18837286",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 18837286"
+        },
+        {
+          "id": "way/18839368",
+          "geojson": "footway",
+          "fetched": "Footway 18839368"
+        },
+        {
+          "id": "way/18840211",
+          "geojson": "service",
+          "fetched": "Service 18840211"
+        },
+        {
+          "id": "way/18841603",
+          "geojson": "service",
+          "fetched": "Service 18841603"
+        },
+        {
+          "id": "way/18843818",
+          "geojson": "service",
+          "fetched": "Service 18843818"
+        },
+        {
+          "id": "way/18847972",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 18847972"
+        },
+        {
+          "id": "way/28636972",
+          "geojson": "footway",
+          "fetched": "Footway 28636972"
+        },
+        {
+          "id": "way/28637111",
+          "geojson": "footway",
+          "fetched": "Footway 28637111"
+        },
+        {
+          "id": "way/28637119",
+          "geojson": "footway",
+          "fetched": "Footway 28637119"
+        },
+        {
+          "id": "way/28637120",
+          "geojson": "footway",
+          "fetched": "Footway 28637120"
+        },
+        {
+          "id": "way/192280772",
+          "geojson": "service",
+          "fetched": "Service 192280772"
+        },
+        {
+          "id": "way/192281732",
+          "geojson": "footway",
+          "fetched": "Footway 192281732"
+        },
+        {
+          "id": "way/192281862",
+          "geojson": "service",
+          "fetched": "Service 192281862"
+        },
+        {
+          "id": "way/192282347",
+          "geojson": "footway",
+          "fetched": "Footway 192282347"
+        },
+        {
+          "id": "way/229625122",
+          "geojson": "footway",
+          "fetched": "Footway 229625122"
+        },
+        {
+          "id": "way/231749602",
+          "geojson": "service",
+          "fetched": "Service 231749602"
+        },
+        {
+          "id": "way/231749753",
+          "geojson": "service",
+          "fetched": "Service 231749753"
+        },
+        {
+          "id": "way/245210703",
+          "geojson": "footway",
+          "fetched": "Footway 245210703"
+        },
+        {
+          "id": "way/265142413",
+          "geojson": "footway",
+          "fetched": "Footway 265142413"
+        },
+        {
+          "id": "way/265142414",
+          "geojson": "service",
+          "fetched": "Service 265142414"
+        },
+        {
+          "id": "way/265142415",
+          "geojson": "service",
+          "fetched": "Service 265142415"
+        },
+        {
+          "id": "way/265142416",
+          "geojson": "service",
+          "fetched": "Service 265142416"
+        },
+        {
+          "id": "way/294234142",
+          "geojson": "service",
+          "fetched": "Service Driveway 294234142"
+        },
+        {
+          "id": "way/325092107",
+          "geojson": "footway",
+          "fetched": "Footway 325092107"
+        },
+        {
+          "id": "way/335911100",
+          "geojson": "footway",
+          "fetched": "Footway 335911100"
+        },
+        {
+          "id": "way/335911106",
+          "geojson": "footway",
+          "fetched": "Footway 335911106"
+        },
+        {
+          "id": "way/335911108",
+          "geojson": "footway",
+          "fetched": "Footway 335911108"
+        },
+        {
+          "id": "way/335911110",
+          "geojson": "footway",
+          "fetched": "Footway 335911110"
+        },
+        {
+          "id": "way/335911111",
+          "geojson": "footway",
+          "fetched": "Footway 335911111"
+        },
+        {
+          "id": "way/335911113",
+          "geojson": "footway",
+          "fetched": "Footway 335911113"
+        },
+        {
+          "id": "way/335911115",
+          "geojson": "footway",
+          "fetched": "Footway 335911115"
+        },
+        {
+          "id": "way/335911116",
+          "geojson": "footway",
+          "fetched": "Footway 335911116"
+        },
+        {
+          "id": "way/335911118",
+          "geojson": "footway",
+          "fetched": "Footway 335911118"
+        },
+        {
+          "id": "way/335911123",
+          "geojson": "footway",
+          "fetched": "Footway 335911123"
+        },
+        {
+          "id": "way/372920408",
+          "geojson": "footway",
+          "fetched": "Footway 372920408"
+        },
+        {
+          "id": "way/372920411",
+          "geojson": "footway",
+          "fetched": "Footway 372920411"
+        },
+        {
+          "id": "way/372920412",
+          "geojson": "footway",
+          "fetched": "Footway 372920412"
+        },
+        {
+          "id": "way/372920413",
+          "geojson": "footway",
+          "fetched": "Footway 372920413"
+        },
+        {
+          "id": "way/372920414",
+          "geojson": "footway",
+          "fetched": "Footway 372920414"
+        },
+        {
+          "id": "way/372920415",
+          "geojson": "footway",
+          "fetched": "Footway 372920415"
+        },
+        {
+          "id": "way/372920416",
+          "geojson": "footway",
+          "fetched": "Footway 372920416"
+        },
+        {
+          "id": "way/372920417",
+          "geojson": "footway",
+          "fetched": "Footway 372920417"
+        },
+        {
+          "id": "way/372920418",
+          "geojson": "footway",
+          "fetched": "Footway 372920418"
+        },
+        {
+          "id": "way/372920419",
+          "geojson": "footway",
+          "fetched": "Footway 372920419"
+        },
+        {
+          "id": "way/372920420",
+          "geojson": "footway",
+          "fetched": "Footway 372920420"
+        },
+        {
+          "id": "way/372920421",
+          "geojson": "footway",
+          "fetched": "Footway 372920421"
+        },
+        {
+          "id": "way/372920423",
+          "geojson": "footway",
+          "fetched": "Footway 372920423"
+        },
+        {
+          "id": "way/372920425",
+          "geojson": "footway",
+          "fetched": "Footway 372920425"
+        },
+        {
+          "id": "way/372920427",
+          "geojson": "footway",
+          "fetched": "Footway 372920427"
+        },
+        {
+          "id": "way/372920428",
+          "geojson": "footway",
+          "fetched": "Footway 372920428"
+        },
+        {
+          "id": "way/372920429",
+          "geojson": "footway",
+          "fetched": "Footway 372920429"
+        },
+        {
+          "id": "way/372920430",
+          "geojson": "footway",
+          "fetched": "Footway 372920430"
+        },
+        {
+          "id": "way/372920431",
+          "geojson": "footway",
+          "fetched": "Footway 372920431"
+        },
+        {
+          "id": "way/372920433",
+          "geojson": "footway",
+          "fetched": "Footway 372920433"
+        },
+        {
+          "id": "way/377743439",
+          "geojson": "footway",
+          "fetched": "Footway 377743439"
+        },
+        {
+          "id": "way/377743440",
+          "geojson": "footway",
+          "fetched": "Footway 377743440"
+        },
+        {
+          "id": "way/377743441",
+          "geojson": "footway",
+          "fetched": "Footway 377743441"
+        },
+        {
+          "id": "way/377743442",
+          "geojson": "footway",
+          "fetched": "Footway 377743442"
+        },
+        {
+          "id": "way/377743443",
+          "geojson": "footway",
+          "fetched": "Footway 377743443"
+        },
+        {
+          "id": "way/377743444",
+          "geojson": "footway",
+          "fetched": "Footway 377743444"
+        },
+        {
+          "id": "way/377743445",
+          "geojson": "footway",
+          "fetched": "Footway 377743445"
+        },
+        {
+          "id": "way/377743446",
+          "geojson": "footway",
+          "fetched": "Footway 377743446"
+        },
+        {
+          "id": "way/377743447",
+          "geojson": "footway",
+          "fetched": "Footway 377743447"
+        },
+        {
+          "id": "way/377743449",
+          "geojson": "footway",
+          "fetched": "Footway 377743449"
+        },
+        {
+          "id": "way/377743451",
+          "geojson": "footway",
+          "fetched": "Footway 377743451"
+        },
+        {
+          "id": "way/377743452",
+          "geojson": "footway",
+          "fetched": "Footway 377743452"
+        },
+        {
+          "id": "way/377743453",
+          "geojson": "footway",
+          "fetched": "Footway 377743453"
+        },
+        {
+          "id": "way/377743454",
+          "geojson": "footway",
+          "fetched": "Footway 377743454"
+        },
+        {
+          "id": "way/377743455",
+          "geojson": "footway",
+          "fetched": "Footway 377743455"
+        },
+        {
+          "id": "way/377743456",
+          "geojson": "footway",
+          "fetched": "Footway 377743456"
+        },
+        {
+          "id": "way/377743457",
+          "geojson": "footway",
+          "fetched": "Footway 377743457"
+        },
+        {
+          "id": "way/377743458",
+          "geojson": "footway",
+          "fetched": "Footway 377743458"
+        },
+        {
+          "id": "way/377743459",
+          "geojson": "footway",
+          "fetched": "Footway 377743459"
+        },
+        {
+          "id": "way/378066678",
+          "geojson": "footway",
+          "fetched": "Footway 378066678"
+        },
+        {
+          "id": "way/460139135",
+          "geojson": "footway",
+          "fetched": "Footway 460139135"
+        },
+        {
+          "id": "way/496367021",
+          "geojson": "path",
+          "fetched": "Path 496367021"
+        },
+        {
+          "id": "way/496367024",
+          "geojson": "path",
+          "fetched": "Path 496367024"
+        },
+        {
+          "id": "way/544797130",
+          "geojson": "tertiary",
+          "fetched": "Tertiary 544797130"
+        },
+        {
+          "id": "way/544797133",
+          "geojson": "footway",
+          "fetched": "Footway 544797133"
+        },
+        {
+          "id": "way/544797135",
+          "geojson": "footway",
+          "fetched": "Footway 544797135"
+        },
+        {
+          "id": "way/544797136",
+          "geojson": "path",
+          "fetched": "Path 544797136"
+        },
+        {
+          "id": "way/544797141",
+          "geojson": "path",
+          "fetched": "Path 544797141"
+        },
+        {
+          "id": "way/548208303",
+          "geojson": "service",
+          "fetched": "Service 548208303"
+        },
+        {
+          "id": "way/548210638",
+          "geojson": "service",
+          "fetched": "Service 548210638"
+        },
+        {
+          "id": "way/548210639",
+          "geojson": "footway",
+          "fetched": "Footway 548210639"
+        },
+        {
+          "id": "way/548210640",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548210640"
+        },
+        {
+          "id": "way/548210641",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548210641"
+        },
+        {
+          "id": "way/548210642",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548210642"
+        },
+        {
+          "id": "way/548210643",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548210643"
+        },
+        {
+          "id": "way/548210644",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548210644"
+        },
+        {
+          "id": "way/548210645",
+          "geojson": "service",
+          "fetched": "Service 548210645"
+        },
+        {
+          "id": "way/548599938",
+          "geojson": "footway",
+          "fetched": "Footway 548599938"
+        },
+        {
+          "id": "way/548599939",
+          "geojson": "service",
+          "fetched": "Service Driveway 548599939"
+        },
+        {
+          "id": "way/548599941",
+          "geojson": "service",
+          "fetched": "Service Driveway 548599941"
+        },
+        {
+          "id": "way/548599945",
+          "geojson": "service",
+          "fetched": "Service Driveway 548599945"
+        },
+        {
+          "id": "way/548599947",
+          "geojson": "service",
+          "fetched": "Service Driveway 548599947"
+        },
+        {
+          "id": "way/548599948",
+          "geojson": "service",
+          "fetched": "Service Driveway 548599948"
+        },
+        {
+          "id": "way/548599950",
+          "geojson": "service",
+          "fetched": "Service Driveway 548599950"
+        },
+        {
+          "id": "way/548896475",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548896475"
+        },
+        {
+          "id": "way/548896476",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548896476"
+        },
+        {
+          "id": "way/548896477",
+          "geojson": "service",
+          "fetched": "Service 548896477"
+        },
+        {
+          "id": "way/548896478",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548896478"
+        },
+        {
+          "id": "way/548896479",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548896479"
+        },
+        {
+          "id": "way/548896480",
+          "geojson": "footway",
+          "fetched": "Footway 548896480"
+        },
+        {
+          "id": "way/548896481",
+          "geojson": "service",
+          "fetched": "Service 548896481"
+        },
+        {
+          "id": "way/548896484",
+          "geojson": "service",
+          "fetched": "Service 548896484"
+        },
+        {
+          "id": "way/548896485",
+          "geojson": "service",
+          "fetched": "Service 548896485"
+        },
+        {
+          "id": "way/548904590",
+          "geojson": "footway",
+          "fetched": "Footway 548904590"
+        },
+        {
+          "id": "way/548904594",
+          "geojson": "service",
+          "fetched": "Service 548904594"
+        },
+        {
+          "id": "way/548904595",
+          "geojson": "service",
+          "fetched": "Service 548904595"
+        },
+        {
+          "id": "way/548904596",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548904596"
+        },
+        {
+          "id": "way/548904597",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548904597"
+        },
+        {
+          "id": "way/548904602",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548904602"
+        },
+        {
+          "id": "way/548904603",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548904603"
+        },
+        {
+          "id": "way/548904608",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548904608"
+        },
+        {
+          "id": "way/548904609",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548904609"
+        },
+        {
+          "id": "way/548904611",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 548904611"
+        },
+        {
+          "id": "way/548904613",
+          "geojson": "service",
+          "fetched": "Service 548904613"
+        },
+        {
+          "id": "way/584967676",
+          "geojson": "footway",
+          "fetched": "Footway 584967676"
+        },
+        {
+          "id": "way/584967677",
+          "geojson": "footway",
+          "fetched": "Footway 584967677"
+        },
+        {
+          "id": "way/584969326",
+          "geojson": "footway",
+          "fetched": "Footway 584969326"
+        },
+        {
+          "id": "way/584971064",
+          "geojson": "footway",
+          "fetched": "Footway 584971064"
+        },
+        {
+          "id": "way/584971068",
+          "geojson": "footway",
+          "fetched": "Footway 584971068"
+        },
+        {
+          "id": "way/606165141",
+          "geojson": "service",
+          "fetched": "Service Driveway 606165141"
+        },
+        {
+          "id": "way/606165142",
+          "geojson": "service",
+          "fetched": "Service Driveway 606165142"
+        },
+        {
+          "id": "way/614563854",
+          "geojson": "footway",
+          "fetched": "Footway 614563854"
+        },
+        {
+          "id": "way/614563855",
+          "geojson": "footway",
+          "fetched": "Footway 614563855"
+        },
+        {
+          "id": "way/616919972",
+          "geojson": "service",
+          "fetched": "Service Driveway 616919972"
+        },
+        {
+          "id": "way/625190623",
+          "geojson": "footway",
+          "fetched": "Footway 625190623"
+        },
+        {
+          "id": "way/625190627",
+          "geojson": "footway",
+          "fetched": "Footway 625190627"
+        },
+        {
+          "id": "way/625190629",
+          "geojson": "footway",
+          "fetched": "Footway 625190629"
+        },
+        {
+          "id": "way/625190634",
+          "geojson": "footway",
+          "fetched": "Footway 625190634"
+        },
+        {
+          "id": "way/625190636",
+          "geojson": "footway",
+          "fetched": "Footway 625190636"
+        },
+        {
+          "id": "way/625190638",
+          "geojson": "footway",
+          "fetched": "Footway 625190638"
+        },
+        {
+          "id": "way/625190640",
+          "geojson": "footway",
+          "fetched": "Footway 625190640"
+        },
+        {
+          "id": "way/625190644",
+          "geojson": "footway",
+          "fetched": "Footway 625190644"
+        },
+        {
+          "id": "way/625190646",
+          "geojson": "footway",
+          "fetched": "Footway 625190646"
+        },
+        {
+          "id": "way/625190648",
+          "geojson": "footway",
+          "fetched": "Footway 625190648"
+        },
+        {
+          "id": "way/625190651",
+          "geojson": "footway",
+          "fetched": "Footway 625190651"
+        },
+        {
+          "id": "way/625190652",
+          "geojson": "footway",
+          "fetched": "Footway 625190652"
+        },
+        {
+          "id": "way/625190654",
+          "geojson": "footway",
+          "fetched": "Footway 625190654"
+        },
+        {
+          "id": "way/625190656",
+          "geojson": "footway",
+          "fetched": "Footway 625190656"
+        },
+        {
+          "id": "way/625190658",
+          "geojson": "footway",
+          "fetched": "Footway 625190658"
+        },
+        {
+          "id": "way/625190659",
+          "geojson": "footway",
+          "fetched": "Footway 625190659"
+        },
+        {
+          "id": "way/625190660",
+          "geojson": "footway",
+          "fetched": "Footway 625190660"
+        },
+        {
+          "id": "way/625190661",
+          "geojson": "footway",
+          "fetched": "Footway 625190661"
+        },
+        {
+          "id": "way/625190662",
+          "geojson": "footway",
+          "fetched": "Footway 625190662"
+        },
+        {
+          "id": "way/625190663",
+          "geojson": "footway",
+          "fetched": "Footway 625190663"
+        },
+        {
+          "id": "way/625190664",
+          "geojson": "footway",
+          "fetched": "Footway 625190664"
+        },
+        {
+          "id": "way/625190665",
+          "geojson": "footway",
+          "fetched": "Footway 625190665"
+        },
+        {
+          "id": "way/625190666",
+          "geojson": "footway",
+          "fetched": "Footway 625190666"
+        },
+        {
+          "id": "way/625190667",
+          "geojson": "footway",
+          "fetched": "Footway 625190667"
+        },
+        {
+          "id": "way/625190668",
+          "geojson": "footway",
+          "fetched": "Footway 625190668"
+        },
+        {
+          "id": "way/625190669",
+          "geojson": "footway",
+          "fetched": "Footway 625190669"
+        },
+        {
+          "id": "way/625190670",
+          "geojson": "footway",
+          "fetched": "Footway 625190670"
+        },
+        {
+          "id": "way/625190671",
+          "geojson": "footway",
+          "fetched": "Footway 625190671"
+        },
+        {
+          "id": "way/625190672",
+          "geojson": "footway",
+          "fetched": "Footway 625190672"
+        },
+        {
+          "id": "way/625190673",
+          "geojson": "footway",
+          "fetched": "Footway 625190673"
+        },
+        {
+          "id": "way/625190674",
+          "geojson": "footway",
+          "fetched": "Footway 625190674"
+        },
+        {
+          "id": "way/625190675",
+          "geojson": "footway",
+          "fetched": "Footway 625190675"
+        },
+        {
+          "id": "way/625190676",
+          "geojson": "footway",
+          "fetched": "Footway 625190676"
+        },
+        {
+          "id": "way/625346572",
+          "geojson": "footway",
+          "fetched": "Footway 625346572"
+        },
+        {
+          "id": "way/625346573",
+          "geojson": "footway",
+          "fetched": "Footway 625346573"
+        },
+        {
+          "id": "way/625346574",
+          "geojson": "footway",
+          "fetched": "Footway 625346574"
+        },
+        {
+          "id": "way/625348014",
+          "geojson": "service",
+          "fetched": "Service 625348014"
+        },
+        {
+          "id": "way/625348018",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 625348018"
+        },
+        {
+          "id": "way/625350094",
+          "geojson": "footway",
+          "fetched": "Footway 625350094"
+        },
+        {
+          "id": "way/625350095",
+          "geojson": "footway",
+          "fetched": "Footway 625350095"
+        },
+        {
+          "id": "way/625350097",
+          "geojson": "footway",
+          "fetched": "Footway 625350097"
+        },
+        {
+          "id": "way/625350098",
+          "geojson": "footway",
+          "fetched": "Footway 625350098"
+        },
+        {
+          "id": "way/625350099",
+          "geojson": "footway",
+          "fetched": "Footway 625350099"
+        },
+        {
+          "id": "way/625350100",
+          "geojson": "footway",
+          "fetched": "Footway 625350100"
+        },
+        {
+          "id": "way/625350101",
+          "geojson": "footway",
+          "fetched": "Footway 625350101"
+        },
+        {
+          "id": "way/625350102",
+          "geojson": "footway",
+          "fetched": "Footway 625350102"
+        },
+        {
+          "id": "way/625350103",
+          "geojson": "footway",
+          "fetched": "Footway 625350103"
+        },
+        {
+          "id": "way/625350104",
+          "geojson": "footway",
+          "fetched": "Footway 625350104"
+        },
+        {
+          "id": "way/627467261",
+          "geojson": "footway",
+          "fetched": "Footway 627467261"
+        },
+        {
+          "id": "way/627467262",
+          "geojson": "footway",
+          "fetched": "Footway 627467262"
+        },
+        {
+          "id": "way/627467263",
+          "geojson": "footway",
+          "fetched": "Footway 627467263"
+        },
+        {
+          "id": "way/627467264",
+          "geojson": "footway",
+          "fetched": "Footway 627467264"
+        },
+        {
+          "id": "way/627467402",
+          "geojson": "footway",
+          "fetched": "Footway 627467402"
+        },
+        {
+          "id": "way/627467403",
+          "geojson": "footway",
+          "fetched": "Footway 627467403"
+        },
+        {
+          "id": "way/627467404",
+          "geojson": "footway",
+          "fetched": "Footway 627467404"
+        },
+        {
+          "id": "way/627467405",
+          "geojson": "footway",
+          "fetched": "Footway 627467405"
+        },
+        {
+          "id": "way/627467406",
+          "geojson": "footway",
+          "fetched": "Footway 627467406"
+        },
+        {
+          "id": "way/627467407",
+          "geojson": "footway",
+          "fetched": "Footway 627467407"
+        },
+        {
+          "id": "way/627467408",
+          "geojson": "footway",
+          "fetched": "Footway 627467408"
+        },
+        {
+          "id": "way/627467409",
+          "geojson": "footway",
+          "fetched": "Footway 627467409"
+        },
+        {
+          "id": "way/627467410",
+          "geojson": "footway",
+          "fetched": "Footway 627467410"
+        },
+        {
+          "id": "way/627467411",
+          "geojson": "footway",
+          "fetched": "Footway 627467411"
+        },
+        {
+          "id": "way/627467413",
+          "geojson": "footway",
+          "fetched": "Footway 627467413"
+        },
+        {
+          "id": "way/627467414",
+          "geojson": "footway",
+          "fetched": "Footway 627467414"
+        },
+        {
+          "id": "way/627467415",
+          "geojson": "footway",
+          "fetched": "Footway 627467415"
+        },
+        {
+          "id": "way/627467416",
+          "geojson": "footway",
+          "fetched": "Footway 627467416"
+        },
+        {
+          "id": "way/627467417",
+          "geojson": "footway",
+          "fetched": "Footway 627467417"
+        },
+        {
+          "id": "way/627467418",
+          "geojson": "footway",
+          "fetched": "Footway 627467418"
+        },
+        {
+          "id": "way/627468113",
+          "geojson": "footway",
+          "fetched": "Footway 627468113"
+        },
+        {
+          "id": "way/627468114",
+          "geojson": "footway",
+          "fetched": "Footway 627468114"
+        },
+        {
+          "id": "way/627468115",
+          "geojson": "footway",
+          "fetched": "Footway 627468115"
+        },
+        {
+          "id": "way/627468116",
+          "geojson": "footway",
+          "fetched": "Footway 627468116"
+        },
+        {
+          "id": "way/627468117",
+          "geojson": "footway",
+          "fetched": "Footway 627468117"
+        },
+        {
+          "id": "way/627468118",
+          "geojson": "footway",
+          "fetched": "Footway 627468118"
+        },
+        {
+          "id": "way/627468119",
+          "geojson": "path",
+          "fetched": "Path 627468119"
+        },
+        {
+          "id": "way/627468120",
+          "geojson": "path",
+          "fetched": "Path 627468120"
+        },
+        {
+          "id": "way/627638201",
+          "geojson": "footway",
+          "fetched": "Footway 627638201"
+        },
+        {
+          "id": "way/627638202",
+          "geojson": "footway",
+          "fetched": "Footway 627638202"
+        },
+        {
+          "id": "way/627638203",
+          "geojson": "footway",
+          "fetched": "Footway 627638203"
+        },
+        {
+          "id": "way/627638204",
+          "geojson": "steps",
+          "fetched": "Steps 627638204"
+        },
+        {
+          "id": "way/627638205",
+          "geojson": "footway",
+          "fetched": "Footway 627638205"
+        },
+        {
+          "id": "way/627638206",
+          "geojson": "footway",
+          "fetched": "Footway 627638206"
+        },
+        {
+          "id": "way/627638207",
+          "geojson": "footway",
+          "fetched": "Footway 627638207"
+        },
+        {
+          "id": "way/627638209",
+          "geojson": "footway",
+          "fetched": "Footway 627638209"
+        },
+        {
+          "id": "way/627638210",
+          "geojson": "footway",
+          "fetched": "Footway 627638210"
+        },
+        {
+          "id": "way/627638212",
+          "geojson": "footway",
+          "fetched": "Footway 627638212"
+        },
+        {
+          "id": "way/627638213",
+          "geojson": "footway",
+          "fetched": "Footway 627638213"
+        },
+        {
+          "id": "way/627638214",
+          "geojson": "footway",
+          "fetched": "Footway 627638214"
+        },
+        {
+          "id": "way/627638215",
+          "geojson": "footway",
+          "fetched": "Footway 627638215"
+        },
+        {
+          "id": "way/627638216",
+          "geojson": "footway",
+          "fetched": "Footway 627638216"
+        },
+        {
+          "id": "way/627638217",
+          "geojson": "footway",
+          "fetched": "Footway 627638217"
+        },
+        {
+          "id": "way/627638218",
+          "geojson": "footway",
+          "fetched": "Footway 627638218"
+        },
+        {
+          "id": "way/627638219",
+          "geojson": "footway",
+          "fetched": "Footway 627638219"
+        },
+        {
+          "id": "way/627638220",
+          "geojson": "footway",
+          "fetched": "Footway 627638220"
+        },
+        {
+          "id": "way/639859757",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859757"
+        },
+        {
+          "id": "way/639859759",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859759"
+        },
+        {
+          "id": "way/639859760",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859760"
+        },
+        {
+          "id": "way/639859762",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859762"
+        },
+        {
+          "id": "way/639859763",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859763"
+        },
+        {
+          "id": "way/639859766",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859766"
+        },
+        {
+          "id": "way/639859769",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859769"
+        },
+        {
+          "id": "way/639859774",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859774"
+        },
+        {
+          "id": "way/639859775",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859775"
+        },
+        {
+          "id": "way/639859779",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859779"
+        },
+        {
+          "id": "way/639859780",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859780"
+        },
+        {
+          "id": "way/639859783",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859783"
+        },
+        {
+          "id": "way/639859784",
+          "geojson": "service",
+          "fetched": "Service Driveway 639859784"
+        },
+        {
+          "id": "way/641413534",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413534"
+        },
+        {
+          "id": "way/641413537",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413537"
+        },
+        {
+          "id": "way/641413539",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413539"
+        },
+        {
+          "id": "way/641413542",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413542"
+        },
+        {
+          "id": "way/641413543",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413543"
+        },
+        {
+          "id": "way/641413544",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413544"
+        },
+        {
+          "id": "way/641413545",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413545"
+        },
+        {
+          "id": "way/641413546",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413546"
+        },
+        {
+          "id": "way/641413547",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413547"
+        },
+        {
+          "id": "way/641413548",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413548"
+        },
+        {
+          "id": "way/641413553",
+          "geojson": "service",
+          "fetched": "Service Driveway 641413553"
+        },
+        {
+          "id": "way/642843754",
+          "geojson": "service",
+          "fetched": "Service Driveway 642843754"
+        },
+        {
+          "id": "way/642843760",
+          "geojson": "service",
+          "fetched": "Service Driveway 642843760"
+        },
+        {
+          "id": "way/643091505",
+          "geojson": "service",
+          "fetched": "Service Driveway 643091505"
+        },
+        {
+          "id": "way/643091506",
+          "geojson": "service",
+          "fetched": "Service Driveway 643091506"
+        },
+        {
+          "id": "way/643091509",
+          "geojson": "service",
+          "fetched": "Service Driveway 643091509"
+        },
+        {
+          "id": "way/643833266",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833266"
+        },
+        {
+          "id": "way/643833267",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833267"
+        },
+        {
+          "id": "way/643833268",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833268"
+        },
+        {
+          "id": "way/643833269",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833269"
+        },
+        {
+          "id": "way/643833270",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833270"
+        },
+        {
+          "id": "way/643833271",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833271"
+        },
+        {
+          "id": "way/643833272",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833272"
+        },
+        {
+          "id": "way/643833273",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833273"
+        },
+        {
+          "id": "way/643833274",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833274"
+        },
+        {
+          "id": "way/643833275",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833275"
+        },
+        {
+          "id": "way/643833276",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833276"
+        },
+        {
+          "id": "way/643833277",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833277"
+        },
+        {
+          "id": "way/643833278",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833278"
+        },
+        {
+          "id": "way/643833279",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833279"
+        },
+        {
+          "id": "way/643833280",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833280"
+        },
+        {
+          "id": "way/643833281",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833281"
+        },
+        {
+          "id": "way/643833282",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833282"
+        },
+        {
+          "id": "way/643833283",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833283"
+        },
+        {
+          "id": "way/643833284",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833284"
+        },
+        {
+          "id": "way/643833285",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833285"
+        },
+        {
+          "id": "way/643833286",
+          "geojson": "service",
+          "fetched": "Service Driveway 643833286"
+        },
+        {
+          "id": "way/644376629",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 644376629"
+        },
+        {
+          "id": "way/645101986",
+          "geojson": "service",
+          "fetched": "Service Driveway 645101986"
+        },
+        {
+          "id": "way/645101987",
+          "geojson": "service",
+          "fetched": "Service Driveway 645101987"
+        },
+        {
+          "id": "way/645506929",
+          "geojson": "service",
+          "fetched": "Service Driveway 645506929"
+        },
+        {
+          "id": "way/645606286",
+          "geojson": "service",
+          "fetched": "Service Driveway 645606286"
+        },
+        {
+          "id": "way/645606296",
+          "geojson": "service",
+          "fetched": "Service Driveway 645606296"
+        },
+        {
+          "id": "way/645797716",
+          "geojson": "service",
+          "fetched": "Service Driveway 645797716"
+        },
+        {
+          "id": "way/645797724",
+          "geojson": "service",
+          "fetched": "Service Driveway 645797724"
+        },
+        {
+          "id": "way/647089443",
+          "geojson": "service",
+          "fetched": "Service Driveway 647089443"
+        },
+        {
+          "id": "way/647089445",
+          "geojson": "service",
+          "fetched": "Service Driveway 647089445"
+        },
+        {
+          "id": "way/647089447",
+          "geojson": "service",
+          "fetched": "Service Driveway 647089447"
+        },
+        {
+          "id": "way/647089459",
+          "geojson": "service",
+          "fetched": "Service Driveway 647089459"
+        },
+        {
+          "id": "way/647089460",
+          "geojson": "service",
+          "fetched": "Service Driveway 647089460"
+        },
+        {
+          "id": "way/647756204",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756204"
+        },
+        {
+          "id": "way/647756205",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756205"
+        },
+        {
+          "id": "way/647756206",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756206"
+        },
+        {
+          "id": "way/647756207",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756207"
+        },
+        {
+          "id": "way/647756208",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756208"
+        },
+        {
+          "id": "way/647756209",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756209"
+        },
+        {
+          "id": "way/647756214",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756214"
+        },
+        {
+          "id": "way/647756215",
+          "geojson": "service",
+          "fetched": "Service Driveway 647756215"
+        },
+        {
+          "id": "way/648189936",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189936"
+        },
+        {
+          "id": "way/648189937",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189937"
+        },
+        {
+          "id": "way/648189938",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189938"
+        },
+        {
+          "id": "way/648189939",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189939"
+        },
+        {
+          "id": "way/648189940",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189940"
+        },
+        {
+          "id": "way/648189941",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189941"
+        },
+        {
+          "id": "way/648189942",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189942"
+        },
+        {
+          "id": "way/648189943",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189943"
+        },
+        {
+          "id": "way/648189947",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189947"
+        },
+        {
+          "id": "way/648189949",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189949"
+        },
+        {
+          "id": "way/648189951",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189951"
+        },
+        {
+          "id": "way/648189953",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189953"
+        },
+        {
+          "id": "way/648189954",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189954"
+        },
+        {
+          "id": "way/648189955",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189955"
+        },
+        {
+          "id": "way/648189956",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189956"
+        },
+        {
+          "id": "way/648189957",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189957"
+        },
+        {
+          "id": "way/648189958",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189958"
+        },
+        {
+          "id": "way/648189961",
+          "geojson": "service",
+          "fetched": "Service Driveway 648189961"
+        },
+        {
+          "id": "way/648280409",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280409"
+        },
+        {
+          "id": "way/648280411",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280411"
+        },
+        {
+          "id": "way/648280417",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280417"
+        },
+        {
+          "id": "way/648280436",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280436"
+        },
+        {
+          "id": "way/648280445",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280445"
+        },
+        {
+          "id": "way/648280448",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280448"
+        },
+        {
+          "id": "way/648280459",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280459"
+        },
+        {
+          "id": "way/648280460",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280460"
+        },
+        {
+          "id": "way/648280463",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280463"
+        },
+        {
+          "id": "way/648280465",
+          "geojson": "service",
+          "fetched": "Service Driveway 648280465"
+        },
+        {
+          "id": "way/648551744",
+          "geojson": "service",
+          "fetched": "Service Driveway 648551744"
+        },
+        {
+          "id": "way/648551745",
+          "geojson": "service",
+          "fetched": "Service Driveway 648551745"
+        },
+        {
+          "id": "way/648551746",
+          "geojson": "service",
+          "fetched": "Service Driveway 648551746"
+        },
+        {
+          "id": "way/648551748",
+          "geojson": "service",
+          "fetched": "Service Driveway 648551748"
+        },
+        {
+          "id": "way/648551755",
+          "geojson": "service",
+          "fetched": "Service Driveway 648551755"
+        },
+        {
+          "id": "way/648551756",
+          "geojson": "service",
+          "fetched": "Service Driveway 648551756"
+        },
+        {
+          "id": "way/648551758",
+          "geojson": "service",
+          "fetched": "Service Driveway 648551758"
+        },
+        {
+          "id": "way/649347144",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347144"
+        },
+        {
+          "id": "way/649347145",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347145"
+        },
+        {
+          "id": "way/649347147",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347147"
+        },
+        {
+          "id": "way/649347148",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347148"
+        },
+        {
+          "id": "way/649347149",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347149"
+        },
+        {
+          "id": "way/649347152",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347152"
+        },
+        {
+          "id": "way/649347154",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347154"
+        },
+        {
+          "id": "way/649347155",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347155"
+        },
+        {
+          "id": "way/649347156",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347156"
+        },
+        {
+          "id": "way/649347157",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347157"
+        },
+        {
+          "id": "way/649347159",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347159"
+        },
+        {
+          "id": "way/649347160",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347160"
+        },
+        {
+          "id": "way/649347162",
+          "geojson": "service",
+          "fetched": "Service Driveway 649347162"
+        },
+        {
+          "id": "way/651775436",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775436"
+        },
+        {
+          "id": "way/651775437",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775437"
+        },
+        {
+          "id": "way/651775438",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775438"
+        },
+        {
+          "id": "way/651775439",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775439"
+        },
+        {
+          "id": "way/651775440",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775440"
+        },
+        {
+          "id": "way/651775441",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775441"
+        },
+        {
+          "id": "way/651775442",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775442"
+        },
+        {
+          "id": "way/651775443",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775443"
+        },
+        {
+          "id": "way/651775444",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775444"
+        },
+        {
+          "id": "way/651775445",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775445"
+        },
+        {
+          "id": "way/651775446",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775446"
+        },
+        {
+          "id": "way/651775447",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775447"
+        },
+        {
+          "id": "way/651775448",
+          "geojson": "service",
+          "fetched": "Service Driveway 651775448"
+        },
+        {
+          "id": "way/671114513",
+          "geojson": "footway",
+          "fetched": "Footway 671114513"
+        },
+        {
+          "id": "way/671114514",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 671114514"
+        },
+        {
+          "id": "way/671114515",
+          "geojson": "footway",
+          "fetched": "Footway 671114515"
+        },
+        {
+          "id": "way/671114516",
+          "geojson": "footway",
+          "fetched": "Footway 671114516"
+        },
+        {
+          "id": "way/671114518",
+          "geojson": "footway",
+          "fetched": "Footway 671114518"
+        },
+        {
+          "id": "way/671114519",
+          "geojson": "footway",
+          "fetched": "Footway 671114519"
+        },
+        {
+          "id": "way/671114521",
+          "geojson": "footway",
+          "fetched": "Footway 671114521"
+        },
+        {
+          "id": "way/671114522",
+          "geojson": "service",
+          "fetched": "Service 671114522"
+        },
+        {
+          "id": "way/671114523",
+          "geojson": "service",
+          "fetched": "Service 671114523"
+        },
+        {
+          "id": "way/671114524",
+          "geojson": "service",
+          "fetched": "Service 671114524"
+        },
+        {
+          "id": "way/671114525",
+          "geojson": "footway",
+          "fetched": "Footway 671114525"
+        },
+        {
+          "id": "way/671114526",
+          "geojson": "footway",
+          "fetched": "Footway 671114526"
+        },
+        {
+          "id": "way/671114527",
+          "geojson": "footway",
+          "fetched": "Footway 671114527"
+        },
+        {
+          "id": "way/671114528",
+          "geojson": "footway",
+          "fetched": "Footway 671114528"
+        },
+        {
+          "id": "way/671114529",
+          "geojson": "service",
+          "fetched": "Service Driveway 671114529"
+        },
+        {
+          "id": "way/671114530",
+          "geojson": "footway",
+          "fetched": "Footway 671114530"
+        },
+        {
+          "id": "way/671114531",
+          "geojson": "footway",
+          "fetched": "Footway 671114531"
+        },
+        {
+          "id": "way/671114532",
+          "geojson": "service",
+          "fetched": "Service Driveway 671114532"
+        },
+        {
+          "id": "way/671114533",
+          "geojson": "service",
+          "fetched": "Service Driveway 671114533"
+        },
+        {
+          "id": "way/671114534",
+          "geojson": "service",
+          "fetched": "Service Driveway 671114534"
+        },
+        {
+          "id": "way/671114535",
+          "geojson": "service",
+          "fetched": "Service Driveway 671114535"
+        },
+        {
+          "id": "way/671114536",
+          "geojson": "service",
+          "fetched": "Service Driveway 671114536"
+        },
+        {
+          "id": "way/671114537",
+          "geojson": "footway",
+          "fetched": "Footway 671114537"
+        },
+        {
+          "id": "way/671114538",
+          "geojson": "service",
+          "fetched": "Service Driveway 671114538"
+        },
+        {
+          "id": "way/671114540",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 671114540"
+        },
+        {
+          "id": "way/671114541",
+          "geojson": "footway",
+          "fetched": "Footway 671114541"
+        },
+        {
+          "id": "way/671114542",
+          "geojson": "footway",
+          "fetched": "Footway 671114542"
+        },
+        {
+          "id": "way/671114543",
+          "geojson": "footway",
+          "fetched": "Footway 671114543"
+        },
+        {
+          "id": "way/671114544",
+          "geojson": "footway",
+          "fetched": "Footway 671114544"
+        },
+        {
+          "id": "way/671114545",
+          "geojson": "footway",
+          "fetched": "Footway 671114545"
+        },
+        {
+          "id": "way/671114620",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 671114620"
+        },
+        {
+          "id": "way/671114621",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 671114621"
+        },
+        {
+          "id": "way/671948624",
+          "geojson": "footway",
+          "fetched": "Footway 671948624"
+        },
+        {
+          "id": "way/671948625",
+          "geojson": "footway",
+          "fetched": "Footway 671948625"
+        },
+        {
+          "id": "way/671948626",
+          "geojson": "service",
+          "fetched": "Service 671948626"
+        },
+        {
+          "id": "way/671948627",
+          "geojson": "footway",
+          "fetched": "Footway 671948627"
+        },
+        {
+          "id": "way/671948628",
+          "geojson": "footway",
+          "fetched": "Footway 671948628"
+        },
+        {
+          "id": "way/671948629",
+          "geojson": "footway",
+          "fetched": "Footway 671948629"
+        },
+        {
+          "id": "way/671948631",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 671948631"
+        },
+        {
+          "id": "way/671948632",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 671948632"
+        },
+        {
+          "id": "way/671948633",
+          "geojson": "footway",
+          "fetched": "Footway 671948633"
+        },
+        {
+          "id": "way/671948634",
+          "geojson": "footway",
+          "fetched": "Footway 671948634"
+        },
+        {
+          "id": "way/671948635",
+          "geojson": "service",
+          "fetched": "Service 671948635"
+        },
+        {
+          "id": "way/671948636",
+          "geojson": "footway",
+          "fetched": "Footway 671948636"
+        },
+        {
+          "id": "way/671948637",
+          "geojson": "footway",
+          "fetched": "Footway 671948637"
+        },
+        {
+          "id": "way/671948638",
+          "geojson": "footway",
+          "fetched": "Footway 671948638"
+        },
+        {
+          "id": "way/671948639",
+          "geojson": "footway",
+          "fetched": "Footway 671948639"
+        },
+        {
+          "id": "way/671949108",
+          "geojson": "service",
+          "fetched": "Service 671949108"
+        },
+        {
+          "id": "way/671949110",
+          "geojson": "footway",
+          "fetched": "Footway 671949110"
+        },
+        {
+          "id": "way/671949111",
+          "geojson": "footway",
+          "fetched": "Footway 671949111"
+        },
+        {
+          "id": "way/671949112",
+          "geojson": "footway",
+          "fetched": "Footway 671949112"
+        },
+        {
+          "id": "way/671949113",
+          "geojson": "footway",
+          "fetched": "Footway 671949113"
+        },
+        {
+          "id": "way/671949114",
+          "geojson": "footway",
+          "fetched": "Footway 671949114"
+        },
+        {
+          "id": "way/675531029",
+          "geojson": "footway",
+          "fetched": "Footway 675531029"
+        },
+        {
+          "id": "way/675531030",
+          "geojson": "footway",
+          "fetched": "Footway 675531030"
+        },
+        {
+          "id": "way/675531031",
+          "geojson": "footway",
+          "fetched": "Footway 675531031"
+        },
+        {
+          "id": "way/675531032",
+          "geojson": "footway",
+          "fetched": "Footway 675531032"
+        },
+        {
+          "id": "way/675531034",
+          "geojson": "service",
+          "fetched": "Service 675531034"
+        },
+        {
+          "id": "way/675534707",
+          "geojson": "footway",
+          "fetched": "Footway 675534707"
+        },
+        {
+          "id": "way/675534708",
+          "geojson": "footway",
+          "fetched": "Footway 675534708"
+        },
+        {
+          "id": "way/675534709",
+          "geojson": "footway",
+          "fetched": "Footway 675534709"
+        },
+        {
+          "id": "way/675534710",
+          "geojson": "footway",
+          "fetched": "Footway 675534710"
+        },
+        {
+          "id": "way/675534711",
+          "geojson": "footway",
+          "fetched": "Footway 675534711"
+        },
+        {
+          "id": "way/675534712",
+          "geojson": "footway",
+          "fetched": "Footway 675534712"
+        },
+        {
+          "id": "way/675534713",
+          "geojson": "footway",
+          "fetched": "Footway 675534713"
+        },
+        {
+          "id": "way/675534714",
+          "geojson": "footway",
+          "fetched": "Footway 675534714"
+        },
+        {
+          "id": "way/675534715",
+          "geojson": "footway",
+          "fetched": "Footway 675534715"
+        },
+        {
+          "id": "way/675534716",
+          "geojson": "footway",
+          "fetched": "Footway 675534716"
+        },
+        {
+          "id": "way/675534717",
+          "geojson": "footway",
+          "fetched": "Footway 675534717"
+        },
+        {
+          "id": "way/675534718",
+          "geojson": "footway",
+          "fetched": "Footway 675534718"
+        },
+        {
+          "id": "way/675534719",
+          "geojson": "steps",
+          "fetched": "Steps 675534719"
+        },
+        {
+          "id": "way/675539912",
+          "geojson": "footway",
+          "fetched": "Footway 675539912"
+        },
+        {
+          "id": "way/675539914",
+          "geojson": "footway",
+          "fetched": "Footway 675539914"
+        },
+        {
+          "id": "way/675539916",
+          "geojson": "footway",
+          "fetched": "Footway 675539916"
+        },
+        {
+          "id": "way/675539918",
+          "geojson": "footway",
+          "fetched": "Footway 675539918"
+        },
+        {
+          "id": "way/675539921",
+          "geojson": "footway",
+          "fetched": "Footway 675539921"
+        },
+        {
+          "id": "way/675539922",
+          "geojson": "footway",
+          "fetched": "Footway 675539922"
+        },
+        {
+          "id": "way/675539923",
+          "geojson": "footway",
+          "fetched": "Footway 675539923"
+        },
+        {
+          "id": "way/675539924",
+          "geojson": "footway",
+          "fetched": "Footway 675539924"
+        },
+        {
+          "id": "way/675539925",
+          "geojson": "footway",
+          "fetched": "Footway 675539925"
+        },
+        {
+          "id": "way/675539926",
+          "geojson": "footway",
+          "fetched": "Footway 675539926"
+        },
+        {
+          "id": "way/675539927",
+          "geojson": "footway",
+          "fetched": "Footway 675539927"
+        },
+        {
+          "id": "way/675539928",
+          "geojson": "footway",
+          "fetched": "Footway 675539928"
+        },
+        {
+          "id": "way/675539929",
+          "geojson": "footway",
+          "fetched": "Footway 675539929"
+        },
+        {
+          "id": "way/675539930",
+          "geojson": "footway",
+          "fetched": "Footway 675539930"
+        },
+        {
+          "id": "way/675539931",
+          "geojson": "footway",
+          "fetched": "Footway 675539931"
+        },
+        {
+          "id": "way/675539932",
+          "geojson": "footway",
+          "fetched": "Footway 675539932"
+        },
+        {
+          "id": "way/675539933",
+          "geojson": "footway",
+          "fetched": "Footway 675539933"
+        },
+        {
+          "id": "way/675539934",
+          "geojson": "steps",
+          "fetched": "Steps 675539934"
+        },
+        {
+          "id": "way/675539935",
+          "geojson": "footway",
+          "fetched": "Footway 675539935"
+        },
+        {
+          "id": "way/675539938",
+          "geojson": "footway",
+          "fetched": "Footway 675539938"
+        },
+        {
+          "id": "way/675539940",
+          "geojson": "footway",
+          "fetched": "Footway 675539940"
+        },
+        {
+          "id": "way/675544309",
+          "geojson": "footway",
+          "fetched": "Footway 675544309"
+        },
+        {
+          "id": "way/675544310",
+          "geojson": "footway",
+          "fetched": "Footway 675544310"
+        },
+        {
+          "id": "way/675544311",
+          "geojson": "footway",
+          "fetched": "Footway 675544311"
+        },
+        {
+          "id": "way/675544312",
+          "geojson": "footway",
+          "fetched": "Footway 675544312"
+        },
+        {
+          "id": "way/675544313",
+          "geojson": "footway",
+          "fetched": "Footway 675544313"
+        },
+        {
+          "id": "way/675544314",
+          "geojson": "service",
+          "fetched": "Service Driveway 675544314"
+        },
+        {
+          "id": "way/675544315",
+          "geojson": "footway",
+          "fetched": "Footway 675544315"
+        },
+        {
+          "id": "way/675544316",
+          "geojson": "footway",
+          "fetched": "Footway 675544316"
+        },
+        {
+          "id": "way/675544317",
+          "geojson": "footway",
+          "fetched": "Footway 675544317"
+        },
+        {
+          "id": "way/675544318",
+          "geojson": "footway",
+          "fetched": "Footway 675544318"
+        },
+        {
+          "id": "way/675544319",
+          "geojson": "footway",
+          "fetched": "Footway 675544319"
+        },
+        {
+          "id": "way/675544320",
+          "geojson": "footway",
+          "fetched": "Footway 675544320"
+        },
+        {
+          "id": "way/675544321",
+          "geojson": "footway",
+          "fetched": "Footway 675544321"
+        },
+        {
+          "id": "way/675544322",
+          "geojson": "footway",
+          "fetched": "Footway 675544322"
+        },
+        {
+          "id": "way/675544323",
+          "geojson": "footway",
+          "fetched": "Footway 675544323"
+        },
+        {
+          "id": "way/675544324",
+          "geojson": "footway",
+          "fetched": "Footway 675544324"
+        },
+        {
+          "id": "way/675544325",
+          "geojson": "footway",
+          "fetched": "Footway 675544325"
+        },
+        {
+          "id": "way/675544326",
+          "geojson": "footway",
+          "fetched": "Footway 675544326"
+        },
+        {
+          "id": "way/675544813",
+          "geojson": "service",
+          "fetched": "Service 675544813"
+        },
+        {
+          "id": "way/675544814",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 675544814"
+        },
+        {
+          "id": "way/675548855",
+          "geojson": "footway",
+          "fetched": "Footway 675548855"
+        },
+        {
+          "id": "way/675548856",
+          "geojson": "footway",
+          "fetched": "Footway 675548856"
+        },
+        {
+          "id": "way/675548857",
+          "geojson": "footway",
+          "fetched": "Footway 675548857"
+        },
+        {
+          "id": "way/675548858",
+          "geojson": "cycleway",
+          "fetched": "Cycleway 675548858"
+        },
+        {
+          "id": "way/675548859",
+          "geojson": "footway",
+          "fetched": "Footway 675548859"
+        },
+        {
+          "id": "way/675548860",
+          "geojson": "footway",
+          "fetched": "Footway 675548860"
+        },
+        {
+          "id": "way/675548861",
+          "geojson": "footway",
+          "fetched": "Footway 675548861"
+        },
+        {
+          "id": "way/675548862",
+          "geojson": "footway",
+          "fetched": "Footway 675548862"
+        },
+        {
+          "id": "way/675548863",
+          "geojson": "footway",
+          "fetched": "Footway 675548863"
+        },
+        {
+          "id": "way/675548864",
+          "geojson": "service",
+          "fetched": "Service Driveway 675548864"
+        },
+        {
+          "id": "way/675553449",
+          "geojson": "footway",
+          "fetched": "Footway 675553449"
+        },
+        {
+          "id": "way/675553450",
+          "geojson": "footway",
+          "fetched": "Footway 675553450"
+        },
+        {
+          "id": "way/675553451",
+          "geojson": "footway",
+          "fetched": "Footway 675553451"
+        },
+        {
+          "id": "way/675553452",
+          "geojson": "footway",
+          "fetched": "Footway 675553452"
+        },
+        {
+          "id": "way/675553453",
+          "geojson": "footway",
+          "fetched": "Footway 675553453"
+        },
+        {
+          "id": "way/675553454",
+          "geojson": "footway",
+          "fetched": "Footway 675553454"
+        },
+        {
+          "id": "way/675553455",
+          "geojson": "footway",
+          "fetched": "Footway 675553455"
+        },
+        {
+          "id": "way/675553456",
+          "geojson": "footway",
+          "fetched": "Footway 675553456"
+        },
+        {
+          "id": "way/675553457",
+          "geojson": "footway",
+          "fetched": "Footway 675553457"
+        },
+        {
+          "id": "way/675553458",
+          "geojson": "footway",
+          "fetched": "Footway 675553458"
+        },
+        {
+          "id": "way/675553459",
+          "geojson": "footway",
+          "fetched": "Footway 675553459"
+        },
+        {
+          "id": "way/675553460",
+          "geojson": "footway",
+          "fetched": "Footway 675553460"
+        },
+        {
+          "id": "way/677111224",
+          "geojson": "service",
+          "fetched": "Service Driveway 677111224"
+        },
+        {
+          "id": "way/677111226",
+          "geojson": "service",
+          "fetched": "Service Driveway 677111226"
+        },
+        {
+          "id": "way/677111227",
+          "geojson": "footway",
+          "fetched": "Footway 677111227"
+        },
+        {
+          "id": "way/677111228",
+          "geojson": "footway",
+          "fetched": "Footway 677111228"
+        },
+        {
+          "id": "way/677133044",
+          "geojson": "footway",
+          "fetched": "Footway 677133044"
+        },
+        {
+          "id": "way/677133046",
+          "geojson": "footway",
+          "fetched": "Footway 677133046"
+        },
+        {
+          "id": "way/677133047",
+          "geojson": "footway",
+          "fetched": "Footway 677133047"
+        },
+        {
+          "id": "way/677133048",
+          "geojson": "footway",
+          "fetched": "Footway 677133048"
+        },
+        {
+          "id": "way/677133051",
+          "geojson": "footway",
+          "fetched": "Footway 677133051"
+        },
+        {
+          "id": "way/677133052",
+          "geojson": "footway",
+          "fetched": "Footway 677133052"
+        },
+        {
+          "id": "way/677133053",
+          "geojson": "footway",
+          "fetched": "Footway 677133053"
+        },
+        {
+          "id": "way/677133054",
+          "geojson": "footway",
+          "fetched": "Footway 677133054"
+        },
+        {
+          "id": "way/677133055",
+          "geojson": "footway",
+          "fetched": "Footway 677133055"
+        },
+        {
+          "id": "way/677133056",
+          "geojson": "footway",
+          "fetched": "Footway 677133056"
+        },
+        {
+          "id": "way/677133057",
+          "geojson": "footway",
+          "fetched": "Footway 677133057"
+        },
+        {
+          "id": "way/677133058",
+          "geojson": "footway",
+          "fetched": "Footway 677133058"
+        },
+        {
+          "id": "way/677133059",
+          "geojson": "footway",
+          "fetched": "Footway 677133059"
+        },
+        {
+          "id": "way/677133060",
+          "geojson": "footway",
+          "fetched": "Footway 677133060"
+        },
+        {
+          "id": "way/677133061",
+          "geojson": "footway",
+          "fetched": "Footway 677133061"
+        },
+        {
+          "id": "way/677137529",
+          "geojson": "footway",
+          "fetched": "Footway 677137529"
+        },
+        {
+          "id": "way/677137530",
+          "geojson": "footway",
+          "fetched": "Footway 677137530"
+        },
+        {
+          "id": "way/691322798",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 691322798"
+        },
+        {
+          "id": "way/691322799",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 691322799"
+        },
+        {
+          "id": "way/691322800",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 691322800"
+        },
+        {
+          "id": "way/693048943",
+          "geojson": "footway",
+          "fetched": "Footway 693048943"
+        },
+        {
+          "id": "way/693048944",
+          "geojson": "footway",
+          "fetched": "Footway 693048944"
+        },
+        {
+          "id": "way/693114389",
+          "geojson": "service",
+          "fetched": "Service 693114389"
+        },
+        {
+          "id": "way/693114390",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 693114390"
+        },
+        {
+          "id": "way/693123243",
+          "geojson": "service",
+          "fetched": "Service 693123243"
+        },
+        {
+          "id": "way/694202817",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 694202817"
+        },
+        {
+          "id": "way/694202818",
+          "geojson": "footway",
+          "fetched": "Footway 694202818"
+        },
+        {
+          "id": "way/694202819",
+          "geojson": "service",
+          "fetched": "Service 694202819"
+        },
+        {
+          "id": "way/694202820",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 694202820"
+        },
+        {
+          "id": "way/694202821",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 694202821"
+        },
+        {
+          "id": "way/694202823",
+          "geojson": "steps",
+          "fetched": "Steps 694202823"
+        },
+        {
+          "id": "way/694202824",
+          "geojson": "footway",
+          "fetched": "Footway 694202824"
+        },
+        {
+          "id": "way/694202825",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 694202825"
+        },
+        {
+          "id": "way/694202826",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 694202826"
+        },
+        {
+          "id": "way/694202827",
+          "geojson": "service",
+          "fetched": "Service 694202827"
+        },
+        {
+          "id": "way/694202828",
+          "geojson": "service",
+          "fetched": "Service 694202828"
+        },
+        {
+          "id": "way/694202829",
+          "geojson": "service",
+          "fetched": "Service 694202829"
+        },
+        {
+          "id": "way/694202830",
+          "geojson": "footway",
+          "fetched": "Footway 694202830"
+        },
+        {
+          "id": "way/694204828",
+          "geojson": "service",
+          "fetched": "Service 694204828"
+        },
+        {
+          "id": "way/694207161",
+          "geojson": "service",
+          "fetched": "Service 694207161"
+        },
+        {
+          "id": "way/694207162",
+          "geojson": "footway",
+          "fetched": "Footway 694207162"
+        },
+        {
+          "id": "way/694207163",
+          "geojson": "footway",
+          "fetched": "Footway 694207163"
+        },
+        {
+          "id": "way/694207164",
+          "geojson": "footway",
+          "fetched": "Footway 694207164"
+        },
+        {
+          "id": "way/694207165",
+          "geojson": "footway",
+          "fetched": "Footway 694207165"
+        },
+        {
+          "id": "way/694207166",
+          "geojson": "footway",
+          "fetched": "Footway 694207166"
+        },
+        {
+          "id": "way/694207170",
+          "geojson": "footway",
+          "fetched": "Footway 694207170"
+        },
+        {
+          "id": "way/694207171",
+          "geojson": "footway",
+          "fetched": "Footway 694207171"
+        },
+        {
+          "id": "way/694207172",
+          "geojson": "footway",
+          "fetched": "Footway 694207172"
+        },
+        {
+          "id": "way/694207173",
+          "geojson": "footway",
+          "fetched": "Footway 694207173"
+        },
+        {
+          "id": "way/694207174",
+          "geojson": "footway",
+          "fetched": "Footway 694207174"
+        },
+        {
+          "id": "way/694207178",
+          "geojson": "service",
+          "fetched": "Service 694207178"
+        },
+        {
+          "id": "way/694207179",
+          "geojson": "service",
+          "fetched": "Service 694207179"
+        },
+        {
+          "id": "way/694207180",
+          "geojson": "footway",
+          "fetched": "Footway 694207180"
+        },
+        {
+          "id": "way/694207181",
+          "geojson": "footway",
+          "fetched": "Footway 694207181"
+        },
+        {
+          "id": "way/694207603",
+          "geojson": "footway",
+          "fetched": "Footway 694207603"
+        },
+        {
+          "id": "way/694207604",
+          "geojson": "service",
+          "fetched": "Service 694207604"
+        },
+        {
+          "id": "way/702167406",
+          "geojson": "footway",
+          "fetched": "Footway 702167406"
+        },
+        {
+          "id": "way/702167407",
+          "geojson": "footway",
+          "fetched": "Footway 702167407"
+        },
+        {
+          "id": "way/702167408",
+          "geojson": "footway",
+          "fetched": "Footway 702167408"
+        },
+        {
+          "id": "way/702167409",
+          "geojson": "footway",
+          "fetched": "Footway 702167409"
+        },
+        {
+          "id": "way/702167410",
+          "geojson": "footway",
+          "fetched": "Footway 702167410"
+        },
+        {
+          "id": "way/702167411",
+          "geojson": "footway",
+          "fetched": "Footway 702167411"
+        },
+        {
+          "id": "way/702167412",
+          "geojson": "footway",
+          "fetched": "Footway 702167412"
+        },
+        {
+          "id": "way/702167413",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 702167413"
+        },
+        {
+          "id": "way/702167414",
+          "geojson": "footway",
+          "fetched": "Footway 702167414"
+        },
+        {
+          "id": "way/702167415",
+          "geojson": "footway",
+          "fetched": "Footway 702167415"
+        },
+        {
+          "id": "way/702167416",
+          "geojson": "footway",
+          "fetched": "Footway 702167416"
+        },
+        {
+          "id": "way/702167417",
+          "geojson": "footway",
+          "fetched": "Footway 702167417"
+        },
+        {
+          "id": "way/702167418",
+          "geojson": "footway",
+          "fetched": "Footway 702167418"
+        },
+        {
+          "id": "way/702167419",
+          "geojson": "footway",
+          "fetched": "Footway 702167419"
+        },
+        {
+          "id": "way/702167420",
+          "geojson": "footway",
+          "fetched": "Footway 702167420"
+        },
+        {
+          "id": "way/702167421",
+          "geojson": "footway",
+          "fetched": "Footway 702167421"
+        },
+        {
+          "id": "way/702167422",
+          "geojson": "footway",
+          "fetched": "Footway 702167422"
+        },
+        {
+          "id": "way/702167423",
+          "geojson": "footway",
+          "fetched": "Footway 702167423"
+        },
+        {
+          "id": "way/702167424",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 702167424"
+        },
+        {
+          "id": "way/702167425",
+          "geojson": "service",
+          "fetched": "Service 702167425"
+        },
+        {
+          "id": "way/702167426",
+          "geojson": "service",
+          "fetched": "Service Drive Through 702167426"
+        },
+        {
+          "id": "way/702167427",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 702167427"
+        },
+        {
+          "id": "way/702167428",
+          "geojson": "footway",
+          "fetched": "Footway 702167428"
+        },
+        {
+          "id": "way/702167429",
+          "geojson": "footway",
+          "fetched": "Footway 702167429"
+        },
+        {
+          "id": "way/702167430",
+          "geojson": "footway",
+          "fetched": "Footway 702167430"
+        },
+        {
+          "id": "way/702167431",
+          "geojson": "footway",
+          "fetched": "Footway 702167431"
+        },
+        {
+          "id": "way/702167432",
+          "geojson": "footway",
+          "fetched": "Footway 702167432"
+        },
+        {
+          "id": "way/702167433",
+          "geojson": "footway",
+          "fetched": "Footway 702167433"
+        },
+        {
+          "id": "way/702167434",
+          "geojson": "footway",
+          "fetched": "Footway 702167434"
+        },
+        {
+          "id": "way/702167435",
+          "geojson": "footway",
+          "fetched": "Footway 702167435"
+        },
+        {
+          "id": "way/702167436",
+          "geojson": "footway",
+          "fetched": "Footway 702167436"
+        },
+        {
+          "id": "way/702167437",
+          "geojson": "footway",
+          "fetched": "Footway 702167437"
+        },
+        {
+          "id": "way/702167438",
+          "geojson": "footway",
+          "fetched": "Footway 702167438"
+        },
+        {
+          "id": "way/702167439",
+          "geojson": "footway",
+          "fetched": "Footway 702167439"
+        },
+        {
+          "id": "way/702167440",
+          "geojson": "footway",
+          "fetched": "Footway 702167440"
+        },
+        {
+          "id": "way/702167441",
+          "geojson": "footway",
+          "fetched": "Footway 702167441"
+        },
+        {
+          "id": "way/702167442",
+          "geojson": "footway",
+          "fetched": "Footway 702167442"
+        },
+        {
+          "id": "way/702167443",
+          "geojson": "footway",
+          "fetched": "Footway 702167443"
+        },
+        {
+          "id": "way/702167444",
+          "geojson": "footway",
+          "fetched": "Footway 702167444"
+        },
+        {
+          "id": "way/702167449",
+          "geojson": "footway",
+          "fetched": "Footway 702167449"
+        },
+        {
+          "id": "way/702167450",
+          "geojson": "footway",
+          "fetched": "Footway 702167450"
+        },
+        {
+          "id": "way/702167451",
+          "geojson": "footway",
+          "fetched": "Footway 702167451"
+        },
+        {
+          "id": "way/702167452",
+          "geojson": "footway",
+          "fetched": "Footway 702167452"
+        },
+        {
+          "id": "way/702167453",
+          "geojson": "footway",
+          "fetched": "Footway 702167453"
+        },
+        {
+          "id": "way/702167454",
+          "geojson": "footway",
+          "fetched": "Footway 702167454"
+        },
+        {
+          "id": "way/702167455",
+          "geojson": "footway",
+          "fetched": "Footway 702167455"
+        },
+        {
+          "id": "way/702167456",
+          "geojson": "footway",
+          "fetched": "Footway 702167456"
+        },
+        {
+          "id": "way/702167457",
+          "geojson": "footway",
+          "fetched": "Footway 702167457"
+        },
+        {
+          "id": "way/702167458",
+          "geojson": "footway",
+          "fetched": "Footway 702167458"
+        },
+        {
+          "id": "way/702167459",
+          "geojson": "footway",
+          "fetched": "Footway 702167459"
+        },
+        {
+          "id": "way/702167460",
+          "geojson": "footway",
+          "fetched": "Footway 702167460"
+        },
+        {
+          "id": "way/702167461",
+          "geojson": "footway",
+          "fetched": "Footway 702167461"
+        },
+        {
+          "id": "way/702167462",
+          "geojson": "footway",
+          "fetched": "Footway 702167462"
+        },
+        {
+          "id": "way/702167463",
+          "geojson": "footway",
+          "fetched": "Footway 702167463"
+        },
+        {
+          "id": "way/702167464",
+          "geojson": "footway",
+          "fetched": "Footway 702167464"
+        },
+        {
+          "id": "way/702167465",
+          "geojson": "footway",
+          "fetched": "Footway 702167465"
+        },
+        {
+          "id": "way/702167466",
+          "geojson": "footway",
+          "fetched": "Footway 702167466"
+        },
+        {
+          "id": "way/702167467",
+          "geojson": "footway",
+          "fetched": "Footway 702167467"
+        },
+        {
+          "id": "way/702167468",
+          "geojson": "footway",
+          "fetched": "Footway 702167468"
+        },
+        {
+          "id": "way/702167469",
+          "geojson": "footway",
+          "fetched": "Footway 702167469"
+        },
+        {
+          "id": "way/702167470",
+          "geojson": "footway",
+          "fetched": "Footway 702167470"
+        },
+        {
+          "id": "way/702167471",
+          "geojson": "footway",
+          "fetched": "Footway 702167471"
+        },
+        {
+          "id": "way/702167472",
+          "geojson": "footway",
+          "fetched": "Footway 702167472"
+        },
+        {
+          "id": "way/702167473",
+          "geojson": "footway",
+          "fetched": "Footway 702167473"
+        },
+        {
+          "id": "way/702167474",
+          "geojson": "footway",
+          "fetched": "Footway 702167474"
+        },
+        {
+          "id": "way/702167475",
+          "geojson": "footway",
+          "fetched": "Footway 702167475"
+        },
+        {
+          "id": "way/702167476",
+          "geojson": "footway",
+          "fetched": "Footway 702167476"
+        },
+        {
+          "id": "way/702167477",
+          "geojson": "footway",
+          "fetched": "Footway 702167477"
+        },
+        {
+          "id": "way/702167478",
+          "geojson": "footway",
+          "fetched": "Footway 702167478"
+        },
+        {
+          "id": "way/702167479",
+          "geojson": "footway",
+          "fetched": "Footway 702167479"
+        },
+        {
+          "id": "way/702167480",
+          "geojson": "footway",
+          "fetched": "Footway 702167480"
+        },
+        {
+          "id": "way/702167481",
+          "geojson": "footway",
+          "fetched": "Footway 702167481"
+        },
+        {
+          "id": "way/702167482",
+          "geojson": "footway",
+          "fetched": "Footway 702167482"
+        },
+        {
+          "id": "way/702167483",
+          "geojson": "footway",
+          "fetched": "Footway 702167483"
+        },
+        {
+          "id": "way/702167484",
+          "geojson": "footway",
+          "fetched": "Footway 702167484"
+        },
+        {
+          "id": "way/702167485",
+          "geojson": "footway",
+          "fetched": "Footway 702167485"
+        },
+        {
+          "id": "way/714794614",
+          "geojson": "service",
+          "fetched": "Service 714794614"
+        },
+        {
+          "id": "way/714798547",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 714798547"
+        },
+        {
+          "id": "way/714798548",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798548"
+        },
+        {
+          "id": "way/714798549",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798549"
+        },
+        {
+          "id": "way/714798550",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798550"
+        },
+        {
+          "id": "way/714798551",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798551"
+        },
+        {
+          "id": "way/714798552",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798552"
+        },
+        {
+          "id": "way/714798553",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798553"
+        },
+        {
+          "id": "way/714798554",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798554"
+        },
+        {
+          "id": "way/714798555",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798555"
+        },
+        {
+          "id": "way/714798556",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798556"
+        },
+        {
+          "id": "way/714798557",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798557"
+        },
+        {
+          "id": "way/714798558",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798558"
+        },
+        {
+          "id": "way/714798559",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798559"
+        },
+        {
+          "id": "way/714798562",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798562"
+        },
+        {
+          "id": "way/714798563",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798563"
+        },
+        {
+          "id": "way/714798564",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798564"
+        },
+        {
+          "id": "way/714798565",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798565"
+        },
+        {
+          "id": "way/714798566",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798566"
+        },
+        {
+          "id": "way/714798567",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798567"
+        },
+        {
+          "id": "way/714798568",
+          "geojson": "footway",
+          "fetched": "Footway 714798568"
+        },
+        {
+          "id": "way/714798569",
+          "geojson": "footway",
+          "fetched": "Footway 714798569"
+        },
+        {
+          "id": "way/714798570",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798570"
+        },
+        {
+          "id": "way/714798571",
+          "geojson": "footway",
+          "fetched": "Footway 714798571"
+        },
+        {
+          "id": "way/714798572",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798572"
+        },
+        {
+          "id": "way/714798573",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798573"
+        },
+        {
+          "id": "way/714798574",
+          "geojson": "footway",
+          "fetched": "Footway 714798574"
+        },
+        {
+          "id": "way/714798575",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798575"
+        },
+        {
+          "id": "way/714798576",
+          "geojson": "footway",
+          "fetched": "Footway 714798576"
+        },
+        {
+          "id": "way/714798577",
+          "geojson": "footway",
+          "fetched": "Footway 714798577"
+        },
+        {
+          "id": "way/714798578",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798578"
+        },
+        {
+          "id": "way/714798579",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798579"
+        },
+        {
+          "id": "way/714798580",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798580"
+        },
+        {
+          "id": "way/714798581",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798581"
+        },
+        {
+          "id": "way/714798582",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798582"
+        },
+        {
+          "id": "way/714798583",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798583"
+        },
+        {
+          "id": "way/714798584",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798584"
+        },
+        {
+          "id": "way/714798585",
+          "geojson": "service",
+          "fetched": "Service Driveway 714798585"
+        },
+        {
+          "id": "way/715178943",
+          "geojson": "service",
+          "fetched": "Service Driveway 715178943"
+        },
+        {
+          "id": "way/715178945",
+          "geojson": "service",
+          "fetched": "Service Driveway 715178945"
+        },
+        {
+          "id": "way/715901636",
+          "geojson": "footway",
+          "fetched": "Footway 715901636"
+        },
+        {
+          "id": "way/715901637",
+          "geojson": "footway",
+          "fetched": "Footway 715901637"
+        },
+        {
+          "id": "way/715901641",
+          "geojson": "footway",
+          "fetched": "Footway 715901641"
+        },
+        {
+          "id": "way/715901643",
+          "geojson": "footway",
+          "fetched": "Footway 715901643"
+        },
+        {
+          "id": "way/715901644",
+          "geojson": "footway",
+          "fetched": "Footway 715901644"
+        },
+        {
+          "id": "way/715901645",
+          "geojson": "footway",
+          "fetched": "Footway 715901645"
+        },
+        {
+          "id": "way/715901646",
+          "geojson": "footway",
+          "fetched": "Footway 715901646"
+        },
+        {
+          "id": "way/715901647",
+          "geojson": "footway",
+          "fetched": "Footway 715901647"
+        },
+        {
+          "id": "way/715901648",
+          "geojson": "footway",
+          "fetched": "Footway 715901648"
+        },
+        {
+          "id": "way/715901649",
+          "geojson": "footway",
+          "fetched": "Footway 715901649"
+        },
+        {
+          "id": "way/715901650",
+          "geojson": "footway",
+          "fetched": "Footway 715901650"
+        },
+        {
+          "id": "way/715901651",
+          "geojson": "footway",
+          "fetched": "Footway 715901651"
+        },
+        {
+          "id": "way/715901653",
+          "geojson": "footway",
+          "fetched": "Footway 715901653"
+        },
+        {
+          "id": "way/715901654",
+          "geojson": "footway",
+          "fetched": "Footway 715901654"
+        },
+        {
+          "id": "way/715901655",
+          "geojson": "footway",
+          "fetched": "Footway 715901655"
+        },
+        {
+          "id": "way/715901656",
+          "geojson": "footway",
+          "fetched": "Footway 715901656"
+        },
+        {
+          "id": "way/715901657",
+          "geojson": "footway",
+          "fetched": "Footway 715901657"
+        },
+        {
+          "id": "way/715901658",
+          "geojson": "footway",
+          "fetched": "Footway 715901658"
+        },
+        {
+          "id": "way/715901659",
+          "geojson": "service",
+          "fetched": "Service Drive Through 715901659"
+        },
+        {
+          "id": "way/715901660",
+          "geojson": "footway",
+          "fetched": "Footway 715901660"
+        },
+        {
+          "id": "way/715901661",
+          "geojson": "footway",
+          "fetched": "Footway 715901661"
+        },
+        {
+          "id": "way/715901662",
+          "geojson": "service",
+          "fetched": "Service 715901662"
+        },
+        {
+          "id": "way/715901663",
+          "geojson": "service",
+          "fetched": "Service 715901663"
+        },
+        {
+          "id": "way/715901664",
+          "geojson": "service",
+          "fetched": "Service 715901664"
+        },
+        {
+          "id": "way/715910309",
+          "geojson": "footway",
+          "fetched": "Footway 715910309"
+        },
+        {
+          "id": "way/715910310",
+          "geojson": "footway",
+          "fetched": "Footway 715910310"
+        },
+        {
+          "id": "way/715910311",
+          "geojson": "footway",
+          "fetched": "Footway 715910311"
+        },
+        {
+          "id": "way/715910312",
+          "geojson": "footway",
+          "fetched": "Footway 715910312"
+        },
+        {
+          "id": "way/715910313",
+          "geojson": "footway",
+          "fetched": "Footway 715910313"
+        },
+        {
+          "id": "way/715910314",
+          "geojson": "footway",
+          "fetched": "Footway 715910314"
+        },
+        {
+          "id": "way/715910315",
+          "geojson": "footway",
+          "fetched": "Footway 715910315"
+        },
+        {
+          "id": "way/715910316",
+          "geojson": "footway",
+          "fetched": "Footway 715910316"
+        },
+        {
+          "id": "way/715910317",
+          "geojson": "footway",
+          "fetched": "Footway 715910317"
+        },
+        {
+          "id": "way/715910318",
+          "geojson": "footway",
+          "fetched": "Footway 715910318"
+        },
+        {
+          "id": "way/715910319",
+          "geojson": "footway",
+          "fetched": "Footway 715910319"
+        },
+        {
+          "id": "way/715910320",
+          "geojson": "footway",
+          "fetched": "Footway 715910320"
+        },
+        {
+          "id": "way/715910321",
+          "geojson": "footway",
+          "fetched": "Footway 715910321"
+        },
+        {
+          "id": "way/715910322",
+          "geojson": "footway",
+          "fetched": "Footway 715910322"
+        },
+        {
+          "id": "way/715910323",
+          "geojson": "footway",
+          "fetched": "Footway 715910323"
+        },
+        {
+          "id": "way/715910324",
+          "geojson": "footway",
+          "fetched": "Footway 715910324"
+        },
+        {
+          "id": "way/715910325",
+          "geojson": "footway",
+          "fetched": "Footway 715910325"
+        },
+        {
+          "id": "way/715910326",
+          "geojson": "footway",
+          "fetched": "Footway 715910326"
+        },
+        {
+          "id": "way/715910327",
+          "geojson": "footway",
+          "fetched": "Footway 715910327"
+        },
+        {
+          "id": "way/715910328",
+          "geojson": "footway",
+          "fetched": "Footway 715910328"
+        },
+        {
+          "id": "way/715910329",
+          "geojson": "service",
+          "fetched": "Service Driveway 715910329"
+        },
+        {
+          "id": "way/715910330",
+          "geojson": "footway",
+          "fetched": "Footway 715910330"
+        },
+        {
+          "id": "way/715910331",
+          "geojson": "footway",
+          "fetched": "Footway 715910331"
+        },
+        {
+          "id": "way/715910332",
+          "geojson": "footway",
+          "fetched": "Footway 715910332"
+        },
+        {
+          "id": "way/715910333",
+          "geojson": "footway",
+          "fetched": "Footway 715910333"
+        },
+        {
+          "id": "way/715910334",
+          "geojson": "footway",
+          "fetched": "Footway 715910334"
+        },
+        {
+          "id": "way/715910335",
+          "geojson": "footway",
+          "fetched": "Footway 715910335"
+        },
+        {
+          "id": "way/715910336",
+          "geojson": "footway",
+          "fetched": "Footway 715910336"
+        },
+        {
+          "id": "way/715910337",
+          "geojson": "footway",
+          "fetched": "Footway 715910337"
+        },
+        {
+          "id": "way/715910339",
+          "geojson": "footway",
+          "fetched": "Footway 715910339"
+        },
+        {
+          "id": "way/715910340",
+          "geojson": "footway",
+          "fetched": "Footway 715910340"
+        },
+        {
+          "id": "way/715910341",
+          "geojson": "footway",
+          "fetched": "Footway 715910341"
+        },
+        {
+          "id": "way/715910342",
+          "geojson": "service",
+          "fetched": "Service 715910342"
+        },
+        {
+          "id": "way/719086481",
+          "geojson": "footway",
+          "fetched": "Footway 719086481"
+        },
+        {
+          "id": "way/719086482",
+          "geojson": "footway",
+          "fetched": "Footway 719086482"
+        },
+        {
+          "id": "way/719086483",
+          "geojson": "footway",
+          "fetched": "Footway 719086483"
+        },
+        {
+          "id": "way/719086484",
+          "geojson": "footway",
+          "fetched": "Footway 719086484"
+        },
+        {
+          "id": "way/719086485",
+          "geojson": "footway",
+          "fetched": "Footway 719086485"
+        },
+        {
+          "id": "way/719086486",
+          "geojson": "footway",
+          "fetched": "Footway 719086486"
+        },
+        {
+          "id": "way/722275680",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275680"
+        },
+        {
+          "id": "way/722275681",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275681"
+        },
+        {
+          "id": "way/722275682",
+          "geojson": "service",
+          "fetched": "Service 722275682"
+        },
+        {
+          "id": "way/722275684",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275684"
+        },
+        {
+          "id": "way/722275685",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275685"
+        },
+        {
+          "id": "way/722275686",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275686"
+        },
+        {
+          "id": "way/722275687",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275687"
+        },
+        {
+          "id": "way/722275688",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275688"
+        },
+        {
+          "id": "way/722275690",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275690"
+        },
+        {
+          "id": "way/722275691",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275691"
+        },
+        {
+          "id": "way/722275692",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275692"
+        },
+        {
+          "id": "way/722275693",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275693"
+        },
+        {
+          "id": "way/722275694",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275694"
+        },
+        {
+          "id": "way/722275695",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275695"
+        },
+        {
+          "id": "way/722275696",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275696"
+        },
+        {
+          "id": "way/722275697",
+          "geojson": "footway",
+          "fetched": "Footway 722275697"
+        },
+        {
+          "id": "way/722275698",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275698"
+        },
+        {
+          "id": "way/722275699",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275699"
+        },
+        {
+          "id": "way/722275700",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275700"
+        },
+        {
+          "id": "way/722275701",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275701"
+        },
+        {
+          "id": "way/722275702",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275702"
+        },
+        {
+          "id": "way/722275703",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275703"
+        },
+        {
+          "id": "way/722275704",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275704"
+        },
+        {
+          "id": "way/722275705",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275705"
+        },
+        {
+          "id": "way/722275706",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 722275706"
+        },
+        {
+          "id": "way/722354932",
+          "geojson": "footway",
+          "fetched": "Footway 722354932"
+        },
+        {
+          "id": "way/722354933",
+          "geojson": "footway",
+          "fetched": "Footway 722354933"
+        },
+        {
+          "id": "way/722354934",
+          "geojson": "steps",
+          "fetched": "Steps 722354934"
+        },
+        {
+          "id": "way/722354935",
+          "geojson": "steps",
+          "fetched": "Steps 722354935"
+        },
+        {
+          "id": "way/722354936",
+          "geojson": "footway",
+          "fetched": "Footway 722354936"
+        },
+        {
+          "id": "way/722354937",
+          "geojson": "footway",
+          "fetched": "Footway 722354937"
+        },
+        {
+          "id": "way/722354938",
+          "geojson": "footway",
+          "fetched": "Footway 722354938"
+        },
+        {
+          "id": "way/722354939",
+          "geojson": "footway",
+          "fetched": "Footway 722354939"
+        },
+        {
+          "id": "way/722354940",
+          "geojson": "footway",
+          "fetched": "Footway 722354940"
+        },
+        {
+          "id": "way/722354941",
+          "geojson": "footway",
+          "fetched": "Footway 722354941"
+        },
+        {
+          "id": "way/722354942",
+          "geojson": "footway",
+          "fetched": "Footway 722354942"
+        },
+        {
+          "id": "way/722354943",
+          "geojson": "footway",
+          "fetched": "Footway 722354943"
+        },
+        {
+          "id": "way/722354944",
+          "geojson": "footway",
+          "fetched": "Footway 722354944"
+        },
+        {
+          "id": "way/722354945",
+          "geojson": "footway",
+          "fetched": "Footway 722354945"
+        },
+        {
+          "id": "way/722354946",
+          "geojson": "footway",
+          "fetched": "Footway 722354946"
+        },
+        {
+          "id": "way/722354947",
+          "geojson": "footway",
+          "fetched": "Footway 722354947"
+        },
+        {
+          "id": "way/722354948",
+          "geojson": "steps",
+          "fetched": "Steps 722354948"
+        },
+        {
+          "id": "way/722354949",
+          "geojson": "footway",
+          "fetched": "Footway 722354949"
+        },
+        {
+          "id": "way/728138686",
+          "geojson": "footway",
+          "fetched": "Footway 728138686"
+        },
+        {
+          "id": "way/728162829",
+          "geojson": "footway",
+          "fetched": "Footway 728162829"
+        },
+        {
+          "id": "way/728162830",
+          "geojson": "footway",
+          "fetched": "Footway 728162830"
+        },
+        {
+          "id": "way/728162831",
+          "geojson": "footway",
+          "fetched": "Footway 728162831"
+        },
+        {
+          "id": "way/728162832",
+          "geojson": "service",
+          "fetched": "Service 728162832"
+        },
+        {
+          "id": "way/728162834",
+          "geojson": "footway",
+          "fetched": "Footway 728162834"
+        },
+        {
+          "id": "way/728162836",
+          "geojson": "footway",
+          "fetched": "Footway 728162836"
+        },
+        {
+          "id": "way/728162837",
+          "geojson": "footway",
+          "fetched": "Footway 728162837"
+        },
+        {
+          "id": "way/728188527",
+          "geojson": "footway",
+          "fetched": "Footway 728188527"
+        },
+        {
+          "id": "way/728255736",
+          "geojson": "steps",
+          "fetched": "Steps 728255736"
+        },
+        {
+          "id": "way/728255737",
+          "geojson": "footway",
+          "fetched": "Footway 728255737"
+        },
+        {
+          "id": "way/733800316",
+          "geojson": "service",
+          "fetched": "Service 733800316"
+        },
+        {
+          "id": "way/733800317",
+          "geojson": "service",
+          "fetched": "Service 733800317"
+        },
+        {
+          "id": "way/733800318",
+          "geojson": "service",
+          "fetched": "Service 733800318"
+        },
+        {
+          "id": "way/734086516",
+          "geojson": "service",
+          "fetched": "Service Drive Through 734086516"
+        },
+        {
+          "id": "way/734086517",
+          "geojson": "service",
+          "fetched": "Service Drive Through 734086517"
+        },
+        {
+          "id": "way/734086518",
+          "geojson": "service",
+          "fetched": "Service 734086518"
+        },
+        {
+          "id": "way/734086519",
+          "geojson": "service",
+          "fetched": "Service 734086519"
+        },
+        {
+          "id": "way/734086520",
+          "geojson": "service",
+          "fetched": "Service 734086520"
+        },
+        {
+          "id": "way/734086521",
+          "geojson": "service",
+          "fetched": "Service 734086521"
+        },
+        {
+          "id": "way/734240896",
+          "geojson": "service",
+          "fetched": "Service 734240896"
+        },
+        {
+          "id": "way/734240897",
+          "geojson": "service",
+          "fetched": "Service 734240897"
+        },
+        {
+          "id": "way/734295455",
+          "geojson": "footway",
+          "fetched": "Footway 734295455"
+        },
+        {
+          "id": "way/734295456",
+          "geojson": "footway",
+          "fetched": "Footway 734295456"
+        },
+        {
+          "id": "way/734295457",
+          "geojson": "footway",
+          "fetched": "Footway 734295457"
+        },
+        {
+          "id": "way/734295458",
+          "geojson": "footway",
+          "fetched": "Footway 734295458"
+        },
+        {
+          "id": "way/734295459",
+          "geojson": "footway",
+          "fetched": "Footway 734295459"
+        },
+        {
+          "id": "way/734295460",
+          "geojson": "footway",
+          "fetched": "Footway 734295460"
+        },
+        {
+          "id": "way/734295462",
+          "geojson": "footway",
+          "fetched": "Footway 734295462"
+        },
+        {
+          "id": "way/734295463",
+          "geojson": "footway",
+          "fetched": "Footway 734295463"
+        },
+        {
+          "id": "way/734295465",
+          "geojson": "residential",
+          "fetched": "Residential 734295465"
+        },
+        {
+          "id": "way/734295470",
+          "geojson": "footway",
+          "fetched": "Footway 734295470"
+        },
+        {
+          "id": "way/734295471",
+          "geojson": "footway",
+          "fetched": "Footway 734295471"
+        },
+        {
+          "id": "way/734295472",
+          "geojson": "footway",
+          "fetched": "Footway 734295472"
+        },
+        {
+          "id": "way/734295473",
+          "geojson": "footway",
+          "fetched": "Footway 734295473"
+        },
+        {
+          "id": "way/734295475",
+          "geojson": "footway",
+          "fetched": "Footway 734295475"
+        },
+        {
+          "id": "way/734295476",
+          "geojson": "footway",
+          "fetched": "Footway 734295476"
+        },
+        {
+          "id": "way/734295477",
+          "geojson": "footway",
+          "fetched": "Footway 734295477"
+        },
+        {
+          "id": "way/734295478",
+          "geojson": "footway",
+          "fetched": "Footway 734295478"
+        },
+        {
+          "id": "way/734295479",
+          "geojson": "footway",
+          "fetched": "Footway 734295479"
+        },
+        {
+          "id": "way/734295480",
+          "geojson": "footway",
+          "fetched": "Footway 734295480"
+        },
+        {
+          "id": "way/734295482",
+          "geojson": "footway",
+          "fetched": "Footway 734295482"
+        },
+        {
+          "id": "way/734295483",
+          "geojson": "footway",
+          "fetched": "Footway 734295483"
+        },
+        {
+          "id": "way/734295484",
+          "geojson": "footway",
+          "fetched": "Footway 734295484"
+        },
+        {
+          "id": "way/734295486",
+          "geojson": "footway",
+          "fetched": "Footway 734295486"
+        },
+        {
+          "id": "way/734295487",
+          "geojson": "footway",
+          "fetched": "Footway 734295487"
+        },
+        {
+          "id": "way/734295488",
+          "geojson": "footway",
+          "fetched": "Footway 734295488"
+        },
+        {
+          "id": "way/734295489",
+          "geojson": "service",
+          "fetched": "Service Driveway 734295489"
+        },
+        {
+          "id": "way/734295491",
+          "geojson": "footway",
+          "fetched": "Footway 734295491"
+        },
+        {
+          "id": "way/734295492",
+          "geojson": "footway",
+          "fetched": "Footway 734295492"
+        },
+        {
+          "id": "way/734295493",
+          "geojson": "footway",
+          "fetched": "Footway 734295493"
+        },
+        {
+          "id": "way/734295494",
+          "geojson": "footway",
+          "fetched": "Footway 734295494"
+        },
+        {
+          "id": "way/734295496",
+          "geojson": "footway",
+          "fetched": "Footway 734295496"
+        },
+        {
+          "id": "way/734295497",
+          "geojson": "footway",
+          "fetched": "Footway 734295497"
+        },
+        {
+          "id": "way/734295498",
+          "geojson": "service",
+          "fetched": "Service Driveway 734295498"
+        },
+        {
+          "id": "way/734295499",
+          "geojson": "service",
+          "fetched": "Service Driveway 734295499"
+        },
+        {
+          "id": "way/734295500",
+          "geojson": "service",
+          "fetched": "Service Driveway 734295500"
+        },
+        {
+          "id": "way/734295501",
+          "geojson": "footway",
+          "fetched": "Footway 734295501"
+        },
+        {
+          "id": "way/734295502",
+          "geojson": "footway",
+          "fetched": "Footway 734295502"
+        },
+        {
+          "id": "way/734295503",
+          "geojson": "footway",
+          "fetched": "Footway 734295503"
+        },
+        {
+          "id": "way/734295504",
+          "geojson": "footway",
+          "fetched": "Footway 734295504"
+        },
+        {
+          "id": "way/734295505",
+          "geojson": "footway",
+          "fetched": "Footway 734295505"
+        },
+        {
+          "id": "way/736268211",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268211"
+        },
+        {
+          "id": "way/736268212",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268212"
+        },
+        {
+          "id": "way/736268213",
+          "geojson": "service",
+          "fetched": "Service 736268213"
+        },
+        {
+          "id": "way/736268214",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268214"
+        },
+        {
+          "id": "way/736268215",
+          "geojson": "service",
+          "fetched": "Service 736268215"
+        },
+        {
+          "id": "way/736268216",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268216"
+        },
+        {
+          "id": "way/736268217",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268217"
+        },
+        {
+          "id": "way/736268218",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268218"
+        },
+        {
+          "id": "way/736268219",
+          "geojson": "service",
+          "fetched": "Service 736268219"
+        },
+        {
+          "id": "way/736268220",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268220"
+        },
+        {
+          "id": "way/736268221",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268221"
+        },
+        {
+          "id": "way/736268222",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268222"
+        },
+        {
+          "id": "way/736268223",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268223"
+        },
+        {
+          "id": "way/736268224",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268224"
+        },
+        {
+          "id": "way/736268225",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268225"
+        },
+        {
+          "id": "way/736268226",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268226"
+        },
+        {
+          "id": "way/736268227",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268227"
+        },
+        {
+          "id": "way/736268228",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 736268228"
+        },
+        {
+          "id": "way/736268232",
+          "geojson": "footway",
+          "fetched": "Footway 736268232"
+        },
+        {
+          "id": "way/736268233",
+          "geojson": "footway",
+          "fetched": "Footway 736268233"
+        },
+        {
+          "id": "way/736268234",
+          "geojson": "footway",
+          "fetched": "Footway 736268234"
+        },
+        {
+          "id": "way/736268235",
+          "geojson": "service",
+          "fetched": "Service 736268235"
+        },
+        {
+          "id": "way/736268239",
+          "geojson": "footway",
+          "fetched": "Footway 736268239"
+        },
+        {
+          "id": "way/741083897",
+          "geojson": "footway",
+          "fetched": "Footway 741083897"
+        },
+        {
+          "id": "way/741083898",
+          "geojson": "footway",
+          "fetched": "Footway 741083898"
+        },
+        {
+          "id": "way/741083899",
+          "geojson": "footway",
+          "fetched": "Footway 741083899"
+        },
+        {
+          "id": "way/741083900",
+          "geojson": "footway",
+          "fetched": "Footway 741083900"
+        },
+        {
+          "id": "way/741083901",
+          "geojson": "footway",
+          "fetched": "Footway 741083901"
+        },
+        {
+          "id": "way/741083902",
+          "geojson": "footway",
+          "fetched": "Footway 741083902"
+        },
+        {
+          "id": "way/741083903",
+          "geojson": "footway",
+          "fetched": "Footway 741083903"
+        },
+        {
+          "id": "way/741083905",
+          "geojson": "footway",
+          "fetched": "Footway 741083905"
+        },
+        {
+          "id": "way/741083906",
+          "geojson": "footway",
+          "fetched": "Footway 741083906"
+        },
+        {
+          "id": "way/746514952",
+          "geojson": "footway",
+          "fetched": "Footway 746514952"
+        },
+        {
+          "id": "way/757708035",
+          "geojson": "footway",
+          "fetched": "Footway 757708035"
+        },
+        {
+          "id": "way/757708036",
+          "geojson": "footway",
+          "fetched": "Footway 757708036"
+        },
+        {
+          "id": "way/757718097",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 757718097"
+        },
+        {
+          "id": "way/757718100",
+          "geojson": "footway",
+          "fetched": "Footway 757718100"
+        },
+        {
+          "id": "way/761287182",
+          "geojson": "footway",
+          "fetched": "Footway 761287182"
+        },
+        {
+          "id": "way/761287183",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 761287183"
+        },
+        {
+          "id": "way/761310169",
+          "geojson": "footway",
+          "fetched": "Footway 761310169"
+        },
+        {
+          "id": "way/765576564",
+          "geojson": "service",
+          "fetched": "Service 765576564"
+        },
+        {
+          "id": "way/768312937",
+          "geojson": "footway",
+          "fetched": "Footway 768312937"
+        },
+        {
+          "id": "way/768929262",
+          "geojson": "footway",
+          "fetched": "Footway 768929262"
+        },
+        {
+          "id": "way/770926139",
+          "geojson": "footway",
+          "fetched": "Footway 770926139"
+        },
+        {
+          "id": "way/770926140",
+          "geojson": "footway",
+          "fetched": "Footway 770926140"
+        },
+        {
+          "id": "way/772786042",
+          "geojson": "service",
+          "fetched": "Service 772786042"
+        },
+        {
+          "id": "way/772786043",
+          "geojson": "footway",
+          "fetched": "Footway 772786043"
+        },
+        {
+          "id": "way/772786044",
+          "geojson": "footway",
+          "fetched": "Footway 772786044"
+        },
+        {
+          "id": "way/772786045",
+          "geojson": "footway",
+          "fetched": "Footway 772786045"
+        },
+        {
+          "id": "way/772786046",
+          "geojson": "footway",
+          "fetched": "Footway 772786046"
+        },
+        {
+          "id": "way/772786047",
+          "geojson": "footway",
+          "fetched": "Footway 772786047"
+        },
+        {
+          "id": "way/772786049",
+          "geojson": "footway",
+          "fetched": "Footway 772786049"
+        },
+        {
+          "id": "way/772786050",
+          "geojson": "footway",
+          "fetched": "Footway 772786050"
+        },
+        {
+          "id": "way/772786051",
+          "geojson": "footway",
+          "fetched": "Footway 772786051"
+        },
+        {
+          "id": "way/772786052",
+          "geojson": "footway",
+          "fetched": "Footway 772786052"
+        },
+        {
+          "id": "way/772786053",
+          "geojson": "footway",
+          "fetched": "Footway 772786053"
+        },
+        {
+          "id": "way/772786054",
+          "geojson": "footway",
+          "fetched": "Footway 772786054"
+        },
+        {
+          "id": "way/783691413",
+          "geojson": "footway",
+          "fetched": "Footway 783691413"
+        },
+        {
+          "id": "way/783691415",
+          "geojson": "footway",
+          "fetched": "Footway 783691415"
+        },
+        {
+          "id": "way/783691416",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691416"
+        },
+        {
+          "id": "way/783691418",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691418"
+        },
+        {
+          "id": "way/783691419",
+          "geojson": "footway",
+          "fetched": "Footway 783691419"
+        },
+        {
+          "id": "way/783691421",
+          "geojson": "footway",
+          "fetched": "Footway 783691421"
+        },
+        {
+          "id": "way/783691422",
+          "geojson": "steps",
+          "fetched": "Steps 783691422"
+        },
+        {
+          "id": "way/783691423",
+          "geojson": "footway",
+          "fetched": "Footway 783691423"
+        },
+        {
+          "id": "way/783691425",
+          "geojson": "footway",
+          "fetched": "Footway 783691425"
+        },
+        {
+          "id": "way/783691426",
+          "geojson": "footway",
+          "fetched": "Footway 783691426"
+        },
+        {
+          "id": "way/783691428",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691428"
+        },
+        {
+          "id": "way/783691429",
+          "geojson": "steps",
+          "fetched": "Steps 783691429"
+        },
+        {
+          "id": "way/783691430",
+          "geojson": "footway",
+          "fetched": "Footway 783691430"
+        },
+        {
+          "id": "way/783691431",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691431"
+        },
+        {
+          "id": "way/783691435",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691435"
+        },
+        {
+          "id": "way/783691436",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691436"
+        },
+        {
+          "id": "way/783691438",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691438"
+        },
+        {
+          "id": "way/783691440",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691440"
+        },
+        {
+          "id": "way/783691441",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691441"
+        },
+        {
+          "id": "way/783691444",
+          "geojson": "footway",
+          "fetched": "Footway 783691444"
+        },
+        {
+          "id": "way/783691445",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691445"
+        },
+        {
+          "id": "way/783691446",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691446"
+        },
+        {
+          "id": "way/783691448",
+          "geojson": "footway",
+          "fetched": "Footway 783691448"
+        },
+        {
+          "id": "way/783691449",
+          "geojson": "footway",
+          "fetched": "Footway 783691449"
+        },
+        {
+          "id": "way/783691450",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691450"
+        },
+        {
+          "id": "way/783691452",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691452"
+        },
+        {
+          "id": "way/783691454",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691454"
+        },
+        {
+          "id": "way/783691455",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691455"
+        },
+        {
+          "id": "way/783691456",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691456"
+        },
+        {
+          "id": "way/783691457",
+          "geojson": "service",
+          "fetched": "Service Driveway 783691457"
+        },
+        {
+          "id": "way/783709281",
+          "geojson": "service",
+          "fetched": "Service 783709281"
+        },
+        {
+          "id": "way/783709282",
+          "geojson": "service",
+          "fetched": "Service 783709282"
+        },
+        {
+          "id": "way/783709283",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 783709283"
+        },
+        {
+          "id": "way/783709285",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 783709285"
+        },
+        {
+          "id": "way/783709287",
+          "geojson": "service",
+          "fetched": "Service Driveway 783709287"
+        },
+        {
+          "id": "way/783709289",
+          "geojson": "path",
+          "fetched": "Path 783709289"
+        },
+        {
+          "id": "way/783709291",
+          "geojson": "service",
+          "fetched": "Service 783709291"
+        },
+        {
+          "id": "way/783709292",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 783709292"
+        },
+        {
+          "id": "way/783709296",
+          "geojson": "service",
+          "fetched": "Service 783709296"
+        },
+        {
+          "id": "way/783709297",
+          "geojson": "service",
+          "fetched": "Service 783709297"
+        },
+        {
+          "id": "way/783709298",
+          "geojson": "footway",
+          "fetched": "Footway 783709298"
+        },
+        {
+          "id": "way/783709302",
+          "geojson": "service",
+          "fetched": "Service 783709302"
+        },
+        {
+          "id": "way/783717745",
+          "geojson": "service",
+          "fetched": "Service 783717745"
+        },
+        {
+          "id": "way/783717752",
+          "geojson": "footway",
+          "fetched": "Footway 783717752"
+        },
+        {
+          "id": "way/783717753",
+          "geojson": "service",
+          "fetched": "Service Driveway 783717753"
+        },
+        {
+          "id": "way/783717754",
+          "geojson": "service",
+          "fetched": "Service Driveway 783717754"
+        },
+        {
+          "id": "way/783717757",
+          "geojson": "footway",
+          "fetched": "Footway 783717757"
+        },
+        {
+          "id": "way/783717758",
+          "geojson": "footway",
+          "fetched": "Footway 783717758"
+        },
+        {
+          "id": "way/783717759",
+          "geojson": "footway",
+          "fetched": "Footway 783717759"
+        },
+        {
+          "id": "way/784097656",
+          "geojson": "footway",
+          "fetched": "Footway 784097656"
+        },
+        {
+          "id": "way/784097657",
+          "geojson": "footway",
+          "fetched": "Footway 784097657"
+        },
+        {
+          "id": "way/784097658",
+          "geojson": "footway",
+          "fetched": "Footway 784097658"
+        },
+        {
+          "id": "way/784097660",
+          "geojson": "service",
+          "fetched": "Service Driveway 784097660"
+        },
+        {
+          "id": "way/784097661",
+          "geojson": "service",
+          "fetched": "Service Driveway 784097661"
+        },
+        {
+          "id": "way/784097662",
+          "geojson": "footway",
+          "fetched": "Footway 784097662"
+        },
+        {
+          "id": "way/784097663",
+          "geojson": "service",
+          "fetched": "Service Driveway 784097663"
+        },
+        {
+          "id": "way/784097664",
+          "geojson": "footway",
+          "fetched": "Footway 784097664"
+        },
+        {
+          "id": "way/785657750",
+          "geojson": "service",
+          "fetched": "Service Driveway 785657750"
+        },
+        {
+          "id": "way/785657752",
+          "geojson": "service",
+          "fetched": "Service Driveway 785657752"
+        },
+        {
+          "id": "way/785657764",
+          "geojson": "service",
+          "fetched": "Service Driveway 785657764"
+        },
+        {
+          "id": "way/785657768",
+          "geojson": "footway",
+          "fetched": "Footway 785657768"
+        },
+        {
+          "id": "way/785657770",
+          "geojson": "footway",
+          "fetched": "Footway 785657770"
+        },
+        {
+          "id": "way/791960370",
+          "geojson": "footway",
+          "fetched": "Footway 791960370"
+        },
+        {
+          "id": "way/791961252",
+          "geojson": "footway",
+          "fetched": "Footway 791961252"
+        },
+        {
+          "id": "way/800769256",
+          "geojson": "footway",
+          "fetched": "Footway 800769256"
+        },
+        {
+          "id": "way/828523352",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 828523352"
+        },
+        {
+          "id": "way/828523353",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 828523353"
+        },
+        {
+          "id": "way/828523354",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 828523354"
+        },
+        {
+          "id": "way/831396145",
+          "geojson": "footway",
+          "fetched": "Footway 831396145"
+        },
+        {
+          "id": "way/837183233",
+          "geojson": "footway",
+          "fetched": "Footway 837183233"
+        },
+        {
+          "id": "way/837183234",
+          "geojson": "footway",
+          "fetched": "Footway 837183234"
+        },
+        {
+          "id": "way/837183235",
+          "geojson": "footway",
+          "fetched": "Footway 837183235"
+        },
+        {
+          "id": "way/837183236",
+          "geojson": "footway",
+          "fetched": "Footway 837183236"
+        },
+        {
+          "id": "way/837183241",
+          "geojson": "service",
+          "fetched": "Service 837183241"
+        },
+        {
+          "id": "way/837183242",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 837183242"
+        },
+        {
+          "id": "way/837183243",
+          "geojson": "footway",
+          "fetched": "Footway 837183243"
+        },
+        {
+          "id": "way/837183244",
+          "geojson": "footway",
+          "fetched": "Footway 837183244"
+        },
+        {
+          "id": "way/837183245",
+          "geojson": "footway",
+          "fetched": "Footway 837183245"
+        },
+        {
+          "id": "way/837183246",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 837183246"
+        },
+        {
+          "id": "way/837183247",
+          "geojson": "service",
+          "fetched": "Service 837183247"
+        },
+        {
+          "id": "way/837183248",
+          "geojson": "service",
+          "fetched": "Service Drive Through 837183248"
+        },
+        {
+          "id": "way/837183249",
+          "geojson": "service",
+          "fetched": "Service Drive Through 837183249"
+        },
+        {
+          "id": "way/837183250",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 837183250"
+        },
+        {
+          "id": "way/838851882",
+          "geojson": "footway",
+          "fetched": "Footway 838851882"
+        },
+        {
+          "id": "way/838851883",
+          "geojson": "footway",
+          "fetched": "Footway 838851883"
+        },
+        {
+          "id": "way/838851886",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 838851886"
+        },
+        {
+          "id": "way/838851887",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 838851887"
+        },
+        {
+          "id": "way/838851888",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 838851888"
+        },
+        {
+          "id": "way/838868527",
+          "geojson": "footway",
+          "fetched": "Footway 838868527"
+        },
+        {
+          "id": "way/871956153",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 871956153"
+        },
+        {
+          "id": "way/872843307",
+          "geojson": "steps",
+          "fetched": "Steps 872843307"
+        },
+        {
+          "id": "way/873165762",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165762"
+        },
+        {
+          "id": "way/873165764",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165764"
+        },
+        {
+          "id": "way/873165767",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165767"
+        },
+        {
+          "id": "way/873165784",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165784"
+        },
+        {
+          "id": "way/873165795",
+          "geojson": "footway",
+          "fetched": "Footway 873165795"
+        },
+        {
+          "id": "way/873165796",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165796"
+        },
+        {
+          "id": "way/873165797",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165797"
+        },
+        {
+          "id": "way/873165798",
+          "geojson": "footway",
+          "fetched": "Footway 873165798"
+        },
+        {
+          "id": "way/873165799",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165799"
+        },
+        {
+          "id": "way/873165801",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165801"
+        },
+        {
+          "id": "way/873165803",
+          "geojson": "footway",
+          "fetched": "Footway 873165803"
+        },
+        {
+          "id": "way/873165804",
+          "geojson": "service",
+          "fetched": "Service Driveway 873165804"
+        },
+        {
+          "id": "way/873165808",
+          "geojson": "footway",
+          "fetched": "Footway 873165808"
+        },
+        {
+          "id": "way/874153676",
+          "geojson": "service",
+          "fetched": "Service 874153676"
+        },
+        {
+          "id": "way/874487226",
+          "geojson": "service",
+          "fetched": "Service 874487226"
+        },
+        {
+          "id": "way/874487227",
+          "geojson": "service",
+          "fetched": "Service 874487227"
+        },
+        {
+          "id": "way/874487228",
+          "geojson": "service",
+          "fetched": "Service 874487228"
+        },
+        {
+          "id": "way/874487229",
+          "geojson": "service",
+          "fetched": "Service 874487229"
+        },
+        {
+          "id": "way/874487230",
+          "geojson": "footway",
+          "fetched": "Footway 874487230"
+        },
+        {
+          "id": "way/874487231",
+          "geojson": "footway",
+          "fetched": "Footway 874487231"
+        },
+        {
+          "id": "way/874487232",
+          "geojson": "footway",
+          "fetched": "Footway 874487232"
+        },
+        {
+          "id": "way/874487233",
+          "geojson": "service",
+          "fetched": "Service 874487233"
+        },
+        {
+          "id": "way/874487234",
+          "geojson": "service",
+          "fetched": "Service 874487234"
+        },
+        {
+          "id": "way/874487236",
+          "geojson": "service",
+          "fetched": "Service 874487236"
+        },
+        {
+          "id": "way/874487237",
+          "geojson": "footway",
+          "fetched": "Footway 874487237"
+        },
+        {
+          "id": "way/874487240",
+          "geojson": "steps",
+          "fetched": "Steps 874487240"
+        },
+        {
+          "id": "way/874487241",
+          "geojson": "footway",
+          "fetched": "Footway 874487241"
+        },
+        {
+          "id": "way/874520305",
+          "geojson": "footway",
+          "fetched": "Footway 874520305"
+        },
+        {
+          "id": "way/874520366",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520366"
+        },
+        {
+          "id": "way/874520371",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520371"
+        },
+        {
+          "id": "way/874520373",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520373"
+        },
+        {
+          "id": "way/874520376",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520376"
+        },
+        {
+          "id": "way/874520378",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520378"
+        },
+        {
+          "id": "way/874520380",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520380"
+        },
+        {
+          "id": "way/874520381",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520381"
+        },
+        {
+          "id": "way/874520383",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520383"
+        },
+        {
+          "id": "way/874520385",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520385"
+        },
+        {
+          "id": "way/874520389",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520389"
+        },
+        {
+          "id": "way/874520391",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520391"
+        },
+        {
+          "id": "way/874520396",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520396"
+        },
+        {
+          "id": "way/874520397",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520397"
+        },
+        {
+          "id": "way/874520405",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520405"
+        },
+        {
+          "id": "way/874520406",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520406"
+        },
+        {
+          "id": "way/874520413",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520413"
+        },
+        {
+          "id": "way/874520414",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520414"
+        },
+        {
+          "id": "way/874520415",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520415"
+        },
+        {
+          "id": "way/874520417",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520417"
+        },
+        {
+          "id": "way/874520419",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520419"
+        },
+        {
+          "id": "way/874520420",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520420"
+        },
+        {
+          "id": "way/874520421",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520421"
+        },
+        {
+          "id": "way/874520424",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520424"
+        },
+        {
+          "id": "way/874520425",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520425"
+        },
+        {
+          "id": "way/874520426",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520426"
+        },
+        {
+          "id": "way/874520443",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520443"
+        },
+        {
+          "id": "way/874520444",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520444"
+        },
+        {
+          "id": "way/874520445",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520445"
+        },
+        {
+          "id": "way/874520462",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520462"
+        },
+        {
+          "id": "way/874520465",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520465"
+        },
+        {
+          "id": "way/874520467",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520467"
+        },
+        {
+          "id": "way/874520473",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520473"
+        },
+        {
+          "id": "way/874520475",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520475"
+        },
+        {
+          "id": "way/874520476",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520476"
+        },
+        {
+          "id": "way/874520479",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520479"
+        },
+        {
+          "id": "way/874520483",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520483"
+        },
+        {
+          "id": "way/874520488",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520488"
+        },
+        {
+          "id": "way/874520490",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520490"
+        },
+        {
+          "id": "way/874520491",
+          "geojson": "service",
+          "fetched": "Service Driveway 874520491"
+        },
+        {
+          "id": "way/874770863",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770863"
+        },
+        {
+          "id": "way/874770865",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770865"
+        },
+        {
+          "id": "way/874770867",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770867"
+        },
+        {
+          "id": "way/874770868",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770868"
+        },
+        {
+          "id": "way/874770869",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770869"
+        },
+        {
+          "id": "way/874770872",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770872"
+        },
+        {
+          "id": "way/874770875",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770875"
+        },
+        {
+          "id": "way/874770877",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770877"
+        },
+        {
+          "id": "way/874770880",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770880"
+        },
+        {
+          "id": "way/874770882",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770882"
+        },
+        {
+          "id": "way/874770884",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770884"
+        },
+        {
+          "id": "way/874770886",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770886"
+        },
+        {
+          "id": "way/874770887",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770887"
+        },
+        {
+          "id": "way/874770890",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770890"
+        },
+        {
+          "id": "way/874770892",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770892"
+        },
+        {
+          "id": "way/874770893",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770893"
+        },
+        {
+          "id": "way/874770896",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770896"
+        },
+        {
+          "id": "way/874770898",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770898"
+        },
+        {
+          "id": "way/874770900",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770900"
+        },
+        {
+          "id": "way/874770901",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770901"
+        },
+        {
+          "id": "way/874770903",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770903"
+        },
+        {
+          "id": "way/874770904",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770904"
+        },
+        {
+          "id": "way/874770908",
+          "geojson": "service",
+          "fetched": "Service Driveway 874770908"
+        },
+        {
+          "id": "way/874809872",
+          "geojson": "footway",
+          "fetched": "Footway 874809872"
+        },
+        {
+          "id": "way/874809875",
+          "geojson": "footway",
+          "fetched": "Footway 874809875"
+        },
+        {
+          "id": "way/874809882",
+          "geojson": "footway",
+          "fetched": "Footway 874809882"
+        },
+        {
+          "id": "way/874809883",
+          "geojson": "footway",
+          "fetched": "Footway 874809883"
+        },
+        {
+          "id": "way/874809884",
+          "geojson": "footway",
+          "fetched": "Footway 874809884"
+        },
+        {
+          "id": "way/875253426",
+          "geojson": "service",
+          "fetched": "Service Driveway 875253426"
+        },
+        {
+          "id": "way/875253427",
+          "geojson": "service",
+          "fetched": "Service Driveway 875253427"
+        },
+        {
+          "id": "way/875253428",
+          "geojson": "service",
+          "fetched": "Service Driveway 875253428"
+        },
+        {
+          "id": "way/879497975",
+          "geojson": "service",
+          "fetched": "Service 879497975"
+        },
+        {
+          "id": "way/879497976",
+          "geojson": "footway",
+          "fetched": "Footway 879497976"
+        },
+        {
+          "id": "way/879497977",
+          "geojson": "footway",
+          "fetched": "Footway 879497977"
+        },
+        {
+          "id": "way/879497978",
+          "geojson": "service",
+          "fetched": "Service 879497978"
+        },
+        {
+          "id": "way/879497979",
+          "geojson": "service",
+          "fetched": "Service 879497979"
+        },
+        {
+          "id": "way/879497981",
+          "geojson": "footway",
+          "fetched": "Footway 879497981"
+        },
+        {
+          "id": "way/879497982",
+          "geojson": "footway",
+          "fetched": "Footway 879497982"
+        },
+        {
+          "id": "way/879497983",
+          "geojson": "footway",
+          "fetched": "Footway 879497983"
+        },
+        {
+          "id": "way/879497984",
+          "geojson": "footway",
+          "fetched": "Footway 879497984"
+        },
+        {
+          "id": "way/879497986",
+          "geojson": "footway",
+          "fetched": "Footway 879497986"
+        },
+        {
+          "id": "way/879497987",
+          "geojson": "footway",
+          "fetched": "Footway 879497987"
+        },
+        {
+          "id": "way/879497988",
+          "geojson": "footway",
+          "fetched": "Footway 879497988"
+        },
+        {
+          "id": "way/879497989",
+          "geojson": "footway",
+          "fetched": "Footway 879497989"
+        },
+        {
+          "id": "way/879497990",
+          "geojson": "footway",
+          "fetched": "Footway 879497990"
+        },
+        {
+          "id": "way/879497991",
+          "geojson": "footway",
+          "fetched": "Footway 879497991"
+        },
+        {
+          "id": "way/879497992",
+          "geojson": "steps",
+          "fetched": "Steps 879497992"
+        },
+        {
+          "id": "way/879497993",
+          "geojson": "footway",
+          "fetched": "Footway 879497993"
+        },
+        {
+          "id": "way/879497994",
+          "geojson": "footway",
+          "fetched": "Footway 879497994"
+        },
+        {
+          "id": "way/879497995",
+          "geojson": "steps",
+          "fetched": "Steps 879497995"
+        },
+        {
+          "id": "way/879497996",
+          "geojson": "footway",
+          "fetched": "Footway 879497996"
+        },
+        {
+          "id": "way/879497997",
+          "geojson": "footway",
+          "fetched": "Footway 879497997"
+        },
+        {
+          "id": "way/879497998",
+          "geojson": "footway",
+          "fetched": "Footway 879497998"
+        },
+        {
+          "id": "way/879497999",
+          "geojson": "footway",
+          "fetched": "Footway 879497999"
+        },
+        {
+          "id": "way/879498000",
+          "geojson": "footway",
+          "fetched": "Footway 879498000"
+        },
+        {
+          "id": "way/879498001",
+          "geojson": "service",
+          "fetched": "Service 879498001"
+        },
+        {
+          "id": "way/879498002",
+          "geojson": "footway",
+          "fetched": "Footway 879498002"
+        },
+        {
+          "id": "way/879498003",
+          "geojson": "footway",
+          "fetched": "Footway 879498003"
+        },
+        {
+          "id": "way/879498004",
+          "geojson": "service",
+          "fetched": "Service Driveway 879498004"
+        },
+        {
+          "id": "way/879498005",
+          "geojson": "service",
+          "fetched": "Service Driveway 879498005"
+        },
+        {
+          "id": "way/880461802",
+          "geojson": "service",
+          "fetched": "Service 880461802"
+        },
+        {
+          "id": "way/880461805",
+          "geojson": "footway",
+          "fetched": "Footway 880461805"
+        },
+        {
+          "id": "way/880461806",
+          "geojson": "footway",
+          "fetched": "Footway 880461806"
+        },
+        {
+          "id": "way/881674836",
+          "geojson": "service",
+          "fetched": "Service 881674836"
+        },
+        {
+          "id": "way/881674837",
+          "geojson": "service",
+          "fetched": "Service 881674837"
+        },
+        {
+          "id": "way/881674838",
+          "geojson": "service",
+          "fetched": "Service 881674838"
+        },
+        {
+          "id": "way/881674839",
+          "geojson": "service",
+          "fetched": "Service 881674839"
+        },
+        {
+          "id": "way/898105711",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 898105711"
+        },
+        {
+          "id": "way/898106880",
+          "geojson": "service",
+          "fetched": "Service 898106880"
+        },
+        {
+          "id": "way/898106881",
+          "geojson": "service",
+          "fetched": "Service 898106881"
+        },
+        {
+          "id": "way/961998565",
+          "geojson": "service",
+          "fetched": "Service 961998565"
+        },
+        {
+          "id": "way/961998566",
+          "geojson": "service",
+          "fetched": "Service Driveway 961998566"
+        },
+        {
+          "id": "way/963680987",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 963680987"
+        },
+        {
+          "id": "way/963680988",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 963680988"
+        },
+        {
+          "id": "way/963680999",
+          "geojson": "track",
+          "fetched": "Track 963680999"
+        },
+        {
+          "id": "way/963681003",
+          "geojson": "track",
+          "fetched": "Track 963681003"
+        },
+        {
+          "id": "way/963681008",
+          "geojson": "track",
+          "fetched": "Track 963681008"
+        },
+        {
+          "id": "way/963743928",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 963743928"
+        },
+        {
+          "id": "way/963743929",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 963743929"
+        },
+        {
+          "id": "way/970253474",
+          "geojson": "path",
+          "fetched": "Path 970253474"
+        },
+        {
+          "id": "way/970253475",
+          "geojson": "path",
+          "fetched": "Path 970253475"
+        },
+        {
+          "id": "way/975706498",
+          "geojson": "footway",
+          "fetched": "Footway 975706498"
+        },
+        {
+          "id": "way/975706499",
+          "geojson": "footway",
+          "fetched": "Footway 975706499"
+        },
+        {
+          "id": "way/975706500",
+          "geojson": "footway",
+          "fetched": "Footway 975706500"
+        },
+        {
+          "id": "way/975706501",
+          "geojson": "footway",
+          "fetched": "Footway 975706501"
+        },
+        {
+          "id": "way/975706502",
+          "geojson": "footway",
+          "fetched": "Footway 975706502"
+        },
+        {
+          "id": "way/975706503",
+          "geojson": "service",
+          "fetched": "Service 975706503"
+        },
+        {
+          "id": "way/975706504",
+          "geojson": "footway",
+          "fetched": "Footway 975706504"
+        },
+        {
+          "id": "way/975706505",
+          "geojson": "footway",
+          "fetched": "Footway 975706505"
+        },
+        {
+          "id": "way/975706506",
+          "geojson": "footway",
+          "fetched": "Footway 975706506"
+        },
+        {
+          "id": "way/995926774",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 995926774"
+        },
+        {
+          "id": "way/995926775",
+          "geojson": "footway",
+          "fetched": "Footway 995926775"
+        },
+        {
+          "id": "way/995926776",
+          "geojson": "service",
+          "fetched": "Service 995926776"
+        },
+        {
+          "id": "way/995926777",
+          "geojson": "footway",
+          "fetched": "Footway 995926777"
+        },
+        {
+          "id": "way/995926778",
+          "geojson": "footway",
+          "fetched": "Footway 995926778"
+        },
+        {
+          "id": "way/995926779",
+          "geojson": "footway",
+          "fetched": "Footway 995926779"
+        },
+        {
+          "id": "way/995926780",
+          "geojson": "footway",
+          "fetched": "Footway 995926780"
+        },
+        {
+          "id": "way/995926781",
+          "geojson": "footway",
+          "fetched": "Footway 995926781"
+        },
+        {
+          "id": "way/995926783",
+          "geojson": "footway",
+          "fetched": "Footway 995926783"
+        },
+        {
+          "id": "way/995926784",
+          "geojson": "footway",
+          "fetched": "Footway 995926784"
+        },
+        {
+          "id": "way/995926785",
+          "geojson": "footway",
+          "fetched": "Footway 995926785"
+        },
+        {
+          "id": "way/995926786",
+          "geojson": "footway",
+          "fetched": "Footway 995926786"
+        },
+        {
+          "id": "way/995926787",
+          "geojson": "footway",
+          "fetched": "Footway 995926787"
+        },
+        {
+          "id": "way/995926788",
+          "geojson": "footway",
+          "fetched": "Footway 995926788"
+        },
+        {
+          "id": "way/995926789",
+          "geojson": "footway",
+          "fetched": "Footway 995926789"
+        },
+        {
+          "id": "way/995926790",
+          "geojson": "footway",
+          "fetched": "Footway 995926790"
+        },
+        {
+          "id": "way/995926791",
+          "geojson": "footway",
+          "fetched": "Footway 995926791"
+        },
+        {
+          "id": "way/995926792",
+          "geojson": "service",
+          "fetched": "Service 995926792"
+        },
+        {
+          "id": "way/995926793",
+          "geojson": "service",
+          "fetched": "Service 995926793"
+        },
+        {
+          "id": "way/995926794",
+          "geojson": "footway",
+          "fetched": "Footway 995926794"
+        },
+        {
+          "id": "way/995926795",
+          "geojson": "footway",
+          "fetched": "Footway 995926795"
+        },
+        {
+          "id": "way/995926796",
+          "geojson": "footway",
+          "fetched": "Footway 995926796"
+        },
+        {
+          "id": "way/995926797",
+          "geojson": "footway",
+          "fetched": "Footway 995926797"
+        },
+        {
+          "id": "way/995926798",
+          "geojson": "footway",
+          "fetched": "Footway 995926798"
+        },
+        {
+          "id": "way/995926799",
+          "geojson": "footway",
+          "fetched": "Footway 995926799"
+        },
+        {
+          "id": "way/995926800",
+          "geojson": "footway",
+          "fetched": "Footway 995926800"
+        },
+        {
+          "id": "way/995926801",
+          "geojson": "footway",
+          "fetched": "Footway 995926801"
+        },
+        {
+          "id": "way/995926802",
+          "geojson": "footway",
+          "fetched": "Footway 995926802"
+        },
+        {
+          "id": "way/1041711780",
+          "geojson": "path",
+          "fetched": "Path 1041711780"
+        },
+        {
+          "id": "way/1049334989",
+          "geojson": "footway",
+          "fetched": "Footway 1049334989"
+        },
+        {
+          "id": "way/1057418070",
+          "geojson": "footway",
+          "fetched": "Footway 1057418070"
+        },
+        {
+          "id": "way/1057418071",
+          "geojson": "steps",
+          "fetched": "Steps 1057418071"
+        },
+        {
+          "id": "way/1057418072",
+          "geojson": "footway",
+          "fetched": "Footway 1057418072"
+        },
+        {
+          "id": "way/1098675085",
+          "geojson": "footway",
+          "fetched": "Footway 1098675085"
+        },
+        {
+          "id": "way/1098675086",
+          "geojson": "footway",
+          "fetched": "Footway 1098675086"
+        },
+        {
+          "id": "way/1098675087",
+          "geojson": "footway",
+          "fetched": "Footway 1098675087"
+        },
+        {
+          "id": "way/1098675088",
+          "geojson": "footway",
+          "fetched": "Footway 1098675088"
+        },
+        {
+          "id": "way/1098675089",
+          "geojson": "footway",
+          "fetched": "Footway 1098675089"
+        },
+        {
+          "id": "way/1098675090",
+          "geojson": "footway",
+          "fetched": "Footway 1098675090"
+        },
+        {
+          "id": "way/1098675091",
+          "geojson": "footway",
+          "fetched": "Footway 1098675091"
+        },
+        {
+          "id": "way/1098675092",
+          "geojson": "footway",
+          "fetched": "Footway 1098675092"
+        },
+        {
+          "id": "way/1098675093",
+          "geojson": "footway",
+          "fetched": "Footway 1098675093"
+        },
+        {
+          "id": "way/1098675094",
+          "geojson": "footway",
+          "fetched": "Footway 1098675094"
+        },
+        {
+          "id": "way/1106607736",
+          "geojson": "steps",
+          "fetched": "Steps 1106607736"
+        },
+        {
+          "id": "way/1106607737",
+          "geojson": "footway",
+          "fetched": "Footway 1106607737"
+        },
+        {
+          "id": "way/1106607738",
+          "geojson": "service",
+          "fetched": "Service 1106607738"
+        },
+        {
+          "id": "way/1106607739",
+          "geojson": "footway",
+          "fetched": "Footway 1106607739"
+        },
+        {
+          "id": "way/1106607740",
+          "geojson": "footway",
+          "fetched": "Footway 1106607740"
+        },
+        {
+          "id": "way/1106607741",
+          "geojson": "footway",
+          "fetched": "Footway 1106607741"
+        },
+        {
+          "id": "way/1106607742",
+          "geojson": "footway",
+          "fetched": "Footway 1106607742"
+        },
+        {
+          "id": "way/1106607746",
+          "geojson": "footway",
+          "fetched": "Footway 1106607746"
+        },
+        {
+          "id": "way/1106607747",
+          "geojson": "footway",
+          "fetched": "Footway 1106607747"
+        },
+        {
+          "id": "way/1106607748",
+          "geojson": "footway",
+          "fetched": "Footway 1106607748"
+        },
+        {
+          "id": "way/1106607749",
+          "geojson": "footway",
+          "fetched": "Footway 1106607749"
+        },
+        {
+          "id": "way/1106607751",
+          "geojson": "footway",
+          "fetched": "Footway 1106607751"
+        },
+        {
+          "id": "way/1106607752",
+          "geojson": "footway",
+          "fetched": "Footway 1106607752"
+        },
+        {
+          "id": "way/1106607753",
+          "geojson": "footway",
+          "fetched": "Footway 1106607753"
+        },
+        {
+          "id": "way/1106607754",
+          "geojson": "footway",
+          "fetched": "Footway 1106607754"
+        },
+        {
+          "id": "way/1106607755",
+          "geojson": "footway",
+          "fetched": "Footway 1106607755"
+        },
+        {
+          "id": "way/1106607756",
+          "geojson": "footway",
+          "fetched": "Footway 1106607756"
+        },
+        {
+          "id": "way/1106607757",
+          "geojson": "footway",
+          "fetched": "Footway 1106607757"
+        },
+        {
+          "id": "way/1106607758",
+          "geojson": "footway",
+          "fetched": "Footway 1106607758"
+        },
+        {
+          "id": "way/1106607759",
+          "geojson": "footway",
+          "fetched": "Footway 1106607759"
+        },
+        {
+          "id": "way/1106607760",
+          "geojson": "footway",
+          "fetched": "Footway 1106607760"
+        },
+        {
+          "id": "way/1106607761",
+          "geojson": "footway",
+          "fetched": "Footway 1106607761"
+        },
+        {
+          "id": "way/1106607762",
+          "geojson": "footway",
+          "fetched": "Footway 1106607762"
+        },
+        {
+          "id": "way/1106607763",
+          "geojson": "footway",
+          "fetched": "Footway 1106607763"
+        },
+        {
+          "id": "way/1106607766",
+          "geojson": "footway",
+          "fetched": "Footway 1106607766"
+        },
+        {
+          "id": "way/1106607767",
+          "geojson": "steps",
+          "fetched": "Steps 1106607767"
+        },
+        {
+          "id": "way/1106607768",
+          "geojson": "steps",
+          "fetched": "Steps 1106607768"
+        },
+        {
+          "id": "way/1106607772",
+          "geojson": "footway",
+          "fetched": "Footway 1106607772"
+        },
+        {
+          "id": "way/1106607775",
+          "geojson": "footway",
+          "fetched": "Footway 1106607775"
+        },
+        {
+          "id": "way/1106607778",
+          "geojson": "footway",
+          "fetched": "Footway 1106607778"
+        },
+        {
+          "id": "way/1120645249",
+          "geojson": "footway",
+          "fetched": "Footway 1120645249"
+        },
+        {
+          "id": "way/1120645250",
+          "geojson": "footway",
+          "fetched": "Footway 1120645250"
+        },
+        {
+          "id": "way/1130905257",
+          "geojson": "footway",
+          "fetched": "Footway 1130905257"
+        },
+        {
+          "id": "way/1130905258",
+          "geojson": "footway",
+          "fetched": "Footway 1130905258"
+        },
+        {
+          "id": "way/1130905260",
+          "geojson": "service",
+          "fetched": "Service Alley 1130905260"
+        },
+        {
+          "id": "way/1130905261",
+          "geojson": "footway",
+          "fetched": "Footway 1130905261"
+        },
+        {
+          "id": "way/1130905262",
+          "geojson": "steps",
+          "fetched": "Steps 1130905262"
+        },
+        {
+          "id": "way/1130905263",
+          "geojson": "footway",
+          "fetched": "Footway 1130905263"
+        },
+        {
+          "id": "way/1130905264",
+          "geojson": "footway",
+          "fetched": "Footway 1130905264"
+        },
+        {
+          "id": "way/1156944618",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 1156944618"
+        },
+        {
+          "id": "way/1156944619",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 1156944619"
+        },
+        {
+          "id": "way/1156944620",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 1156944620"
+        },
+        {
+          "id": "way/1177864688",
+          "geojson": "service",
+          "fetched": "Service 1177864688"
+        },
+        {
+          "id": "way/1177864689",
+          "geojson": "service",
+          "fetched": "Service 1177864689"
+        },
+        {
+          "id": "way/1177864690",
+          "geojson": "service",
+          "fetched": "Service 1177864690"
+        },
+        {
+          "id": "way/1186038833",
+          "geojson": "footway",
+          "fetched": "Footway 1186038833"
+        },
+        {
+          "id": "way/1186970806",
+          "geojson": "footway",
+          "fetched": "Footway 1186970806"
+        },
+        {
+          "id": "way/1187500799",
+          "geojson": "footway",
+          "fetched": "Footway 1187500799"
+        },
+        {
+          "id": "way/1187510348",
+          "geojson": "steps",
+          "fetched": "Steps 1187510348"
+        },
+        {
+          "id": "way/1187510349",
+          "geojson": "footway",
+          "fetched": "Footway 1187510349"
+        },
+        {
+          "id": "way/1187741916",
+          "geojson": "steps",
+          "fetched": "Steps 1187741916"
+        },
+        {
+          "id": "way/1236637191",
+          "geojson": "footway",
+          "fetched": "Footway 1236637191"
+        },
+        {
+          "id": "way/1236637192",
+          "geojson": "footway",
+          "fetched": "Footway 1236637192"
+        },
+        {
+          "id": "way/1236637193",
+          "geojson": "footway",
+          "fetched": "Footway 1236637193"
+        },
+        {
+          "id": "way/1236637194",
+          "geojson": "footway",
+          "fetched": "Footway 1236637194"
+        },
+        {
+          "id": "way/1236637195",
+          "geojson": "footway",
+          "fetched": "Footway 1236637195"
+        },
+        {
+          "id": "way/1236637196",
+          "geojson": "footway",
+          "fetched": "Footway 1236637196"
+        },
+        {
+          "id": "way/1236637197",
+          "geojson": "footway",
+          "fetched": "Footway 1236637197"
+        },
+        {
+          "id": "way/1236637198",
+          "geojson": "footway",
+          "fetched": "Footway 1236637198"
+        },
+        {
+          "id": "way/1236637199",
+          "geojson": "footway",
+          "fetched": "Footway 1236637199"
+        },
+        {
+          "id": "way/1236637200",
+          "geojson": "footway",
+          "fetched": "Footway 1236637200"
+        },
+        {
+          "id": "way/1236637201",
+          "geojson": "footway",
+          "fetched": "Footway 1236637201"
+        },
+        {
+          "id": "way/1236637202",
+          "geojson": "footway",
+          "fetched": "Footway 1236637202"
+        },
+        {
+          "id": "way/1236637203",
+          "geojson": "footway",
+          "fetched": "Footway 1236637203"
+        },
+        {
+          "id": "way/1236637204",
+          "geojson": "footway",
+          "fetched": "Footway 1236637204"
+        },
+        {
+          "id": "way/1236637205",
+          "geojson": "footway",
+          "fetched": "Footway 1236637205"
+        },
+        {
+          "id": "way/1236637206",
+          "geojson": "footway",
+          "fetched": "Footway 1236637206"
+        },
+        {
+          "id": "way/1237319348",
+          "geojson": "footway",
+          "fetched": "Footway 1237319348"
+        },
+        {
+          "id": "way/1237319349",
+          "geojson": "footway",
+          "fetched": "Footway 1237319349"
+        },
+        {
+          "id": "way/1237319350",
+          "geojson": "footway",
+          "fetched": "Footway 1237319350"
+        },
+        {
+          "id": "way/1237319353",
+          "geojson": "footway",
+          "fetched": "Footway 1237319353"
+        },
+        {
+          "id": "way/1237319358",
+          "geojson": "service",
+          "fetched": "Service Driveway 1237319358"
+        },
+        {
+          "id": "way/1237319359",
+          "geojson": "footway",
+          "fetched": "Footway 1237319359"
+        },
+        {
+          "id": "way/1237319360",
+          "geojson": "footway",
+          "fetched": "Footway 1237319360"
+        },
+        {
+          "id": "way/1237319361",
+          "geojson": "footway",
+          "fetched": "Footway 1237319361"
+        },
+        {
+          "id": "way/1237319362",
+          "geojson": "footway",
+          "fetched": "Footway 1237319362"
+        },
+        {
+          "id": "way/1237319363",
+          "geojson": "footway",
+          "fetched": "Footway 1237319363"
+        },
+        {
+          "id": "way/1237319364",
+          "geojson": "service",
+          "fetched": "Service Driveway 1237319364"
+        },
+        {
+          "id": "way/1238678867",
+          "geojson": "footway",
+          "fetched": "Footway 1238678867"
+        },
+        {
+          "id": "way/1238684616",
+          "geojson": "service",
+          "fetched": "Service 1238684616"
+        },
+        {
+          "id": "way/1239118551",
+          "geojson": "service",
+          "fetched": "Service 1239118551"
+        },
+        {
+          "id": "way/1283681298",
+          "geojson": "footway",
+          "fetched": "Footway 1283681298"
+        },
+        {
+          "id": "way/1304370500",
+          "geojson": "path",
+          "fetched": "Path 1304370500"
+        },
+        {
+          "id": "way/1307503826",
+          "geojson": "footway",
+          "fetched": "Footway 1307503826"
+        },
+        {
+          "id": "way/1307503827",
+          "geojson": "footway",
+          "fetched": "Footway 1307503827"
+        },
+        {
+          "id": "way/1307503833",
+          "geojson": "footway",
+          "fetched": "Footway 1307503833"
+        },
+        {
+          "id": "way/1327127869",
+          "geojson": "service",
+          "fetched": "Service Driveway 1327127869"
+        },
+        {
+          "id": "way/1327127870",
+          "geojson": "service",
+          "fetched": "Service Driveway 1327127870"
+        },
+        {
+          "id": "way/1417317544",
+          "geojson": "track",
+          "fetched": "Track 1417317544"
+        },
+        {
+          "id": "way/1417332270",
+          "geojson": "footway",
+          "fetched": "Footway 1417332270"
+        },
+        {
+          "id": "way/1482459853",
+          "geojson": "service",
+          "fetched": "Service 1482459853"
+        },
+        {
+          "id": "way/1482697966",
+          "geojson": "footway",
+          "fetched": "Footway 1482697966"
+        },
+        {
+          "id": "way/1484185629",
+          "geojson": "footway",
+          "fetched": "Footway 1484185629"
+        },
+        {
+          "id": "way/1484185630",
+          "geojson": "footway",
+          "fetched": "Footway 1484185630"
+        },
+        {
+          "id": "way/1484188916",
+          "geojson": "footway",
+          "fetched": "Footway 1484188916"
+        },
+        {
+          "id": "way/1484189849",
+          "geojson": "footway",
+          "fetched": "Footway 1484189849"
+        },
+        {
+          "id": "way/1484189850",
+          "geojson": "footway",
+          "fetched": "Footway 1484189850"
+        },
+        {
+          "id": "way/1484189851",
+          "geojson": "footway",
+          "fetched": "Footway 1484189851"
+        },
+        {
+          "id": "way/1484189852",
+          "geojson": "footway",
+          "fetched": "Footway 1484189852"
+        },
+        {
+          "id": "way/1484189853",
+          "geojson": "footway",
+          "fetched": "Footway 1484189853"
+        },
+        {
+          "id": "way/1484189854",
+          "geojson": "footway",
+          "fetched": "Footway 1484189854"
+        },
+        {
+          "id": "way/1499348500",
+          "geojson": "footway",
+          "fetched": "Footway 1499348500"
+        },
+        {
+          "id": "way/1499349685",
+          "geojson": "service",
+          "fetched": "Service Parking Aisle 1499349685"
+        },
+        {
+          "id": "way/1499349937",
+          "geojson": "footway",
+          "fetched": "Footway 1499349937"
+        },
+        {
+          "id": "way/1499498240",
+          "geojson": "footway",
+          "fetched": "Footway 1499498240"
+        },
+        {
+          "id": "way/1499498241",
+          "geojson": "steps",
+          "fetched": "Steps 1499498241"
+        },
+        {
+          "id": "way/1499498242",
+          "geojson": "footway",
+          "fetched": "Footway 1499498242"
+        },
+        {
+          "id": "way/1529298332",
+          "geojson": "footway",
+          "fetched": "Footway 1529298332"
+        },
+        {
+          "id": "way/1529298333",
+          "geojson": "footway",
+          "fetched": "Footway 1529298333"
+        },
+        {
+          "id": "way/1529298334",
+          "geojson": "footway",
+          "fetched": "Footway 1529298334"
+        },
+        {
+          "id": "way/1529298335",
+          "geojson": "footway",
+          "fetched": "Footway 1529298335"
+        },
+        {
+          "id": "way/1529298336",
+          "geojson": "footway",
+          "fetched": "Footway 1529298336"
+        },
+        {
+          "id": "way/1529298337",
+          "geojson": "footway",
+          "fetched": "Footway 1529298337"
+        },
+        {
+          "id": "way/1529298338",
+          "geojson": "footway",
+          "fetched": "Footway 1529298338"
+        },
+        {
+          "id": "way/1529298339",
+          "geojson": "footway",
+          "fetched": "Footway 1529298339"
+        },
+        {
+          "id": "way/1529298340",
+          "geojson": "footway",
+          "fetched": "Footway 1529298340"
+        },
+        {
+          "id": "way/1529298341",
+          "geojson": "footway",
+          "fetched": "Footway 1529298341"
+        },
+        {
+          "id": "way/1529298342",
+          "geojson": "footway",
+          "fetched": "Footway 1529298342"
+        },
+        {
+          "id": "way/1529298343",
+          "geojson": "footway",
+          "fetched": "Footway 1529298343"
+        },
+        {
+          "id": "way/1529298344",
+          "geojson": "footway",
+          "fetched": "Footway 1529298344"
+        },
+        {
+          "id": "way/1529298345",
+          "geojson": "footway",
+          "fetched": "Footway 1529298345"
+        },
+        {
+          "id": "way/1529298346",
+          "geojson": "footway",
+          "fetched": "Footway 1529298346"
+        },
+        {
+          "id": "way/1529298347",
+          "geojson": "footway",
+          "fetched": "Footway 1529298347"
+        },
+        {
+          "id": "way/1537984819",
+          "geojson": "footway",
+          "fetched": "Footway 1537984819"
+        }
+      ]
+    }
+  },
+  "sportsLayer": {
+    "note": "Sports and field features are checked as a separate reference layer; they are not part of the current buildings/roads export contract.",
+    "featureIds": [
+      "relation/7334221",
+      "relation/7348534",
+      "relation/15261103",
+      "way/48465831",
+      "way/264995621",
+      "way/264995622",
+      "way/264995626",
+      "way/265142408",
+      "way/282348691",
+      "way/282348692",
+      "way/282348693",
+      "way/282348695",
+      "way/282353849",
+      "way/282353851",
+      "way/282353852",
+      "way/282353854",
+      "way/295888778",
+      "way/295888779",
+      "way/295888780",
+      "way/296375897",
+      "way/880766422",
+      "way/880766423",
+      "way/880766424",
+      "way/946633841",
+      "way/1106607743",
+      "way/1130905268",
+      "way/1159769278",
+      "way/1159769279",
+      "way/1159769280",
+      "way/1159769281",
+      "way/1159769282",
+      "way/1159769283",
+      "way/264995619",
+      "way/264995620"
+    ]
+  }
+}

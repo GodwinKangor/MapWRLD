@@ -1,0 +1,106 @@
+{
+  "building": "building__dartmouth-hall__way_48784540",
+  "displayName": "Dartmouth Hall",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "sourceReset": {
+    "required": true,
+    "sourceObject": "Areas.046"
+  },
+  "windowsAndDoors": {
+    "mustBeIntegratedWallFaces": true,
+    "mustHaveEdgeLoops": true,
+    "noFloatingPanels": true,
+    "noBlindOpenings": true,
+    "countsMustMatchReferencePerWall": true,
+    "approvedWallSources": ["wall-04", "wall-05", "wall-08", "north", "east", "south", "west"],
+    "blockedWallSources": [],
+    "wallOpeningPlans": {
+      "west-south-wing": {
+        "reference": "references/west.jpg",
+        "quality": "partially occluded but usable",
+        "windows": 9,
+        "doors": 1,
+        "doorPositions": [0.9],
+        "notes": "Front west left/south wing visible through tree; three floors of sash windows plus side entry."
+      },
+      "west-center-entry": {
+        "reference": "references/walls/wall-05.jpg",
+        "quality": "approved close facade reference",
+        "windows": 6,
+        "doors": 1,
+        "doorPositions": [0.5],
+        "notes": "Central entry bay: main door, flanking/upper window rhythm from close reference and west context."
+      },
+      "west-north-wing": {
+        "reference": "references/west.jpg",
+        "quality": "approved broad facade reference",
+        "windows": 12,
+        "doors": 1,
+        "doorPositions": [0.9],
+        "notes": "Front west right/north wing: four columns over three floors plus visible side entry/ramp zone."
+      },
+      "north-main": {
+        "reference": "references/north.jpg",
+        "quality": "approved close wall reference",
+        "windows": 18,
+        "doors": 0,
+        "notes": "Six visible window columns over three floors; basement vents are not modeled as doors/windows."
+      },
+      "south-main": {
+        "reference": "references/south.jpg",
+        "quality": "approved close wall reference",
+        "windows": 15,
+        "doors": 0,
+        "notes": "Five visible window columns over three floors; basement vents are not modeled as doors/windows."
+      },
+      "east-south-wing": {
+        "reference": "references/east.jpg",
+        "quality": "partial tree/car occlusion",
+        "windows": 9,
+        "doors": 0,
+        "notes": "Visible side wing rhythm from east context; keep conservative until a cleaner wall-specific image is approved."
+      },
+      "east-center-bay": {
+        "reference": "references/east.jpg",
+        "quality": "partial tree/car occlusion",
+        "windows": 6,
+        "doors": 0,
+        "notes": "Center/recessed east bay uses conservative two-column, three-floor rhythm."
+      },
+      "east-north-wing": {
+        "reference": "references/east.jpg",
+        "quality": "partial tree/car occlusion",
+        "windows": 9,
+        "doors": 0,
+        "notes": "Visible side wing rhythm from east context; no door modeled without a cleaner door reference."
+      }
+    }
+  },
+  "roof": {
+    "mustUseRoofSatelliteReference": true,
+    "type": "hip",
+    "allowFlatRoofZones": false,
+    "allowPrismRoofZones": false,
+    "allowHipRoofZones": true,
+    "noSingleBlanketRoofSlab": true,
+    "noRoofOverlapIntoUnsupportedSpace": true,
+    "requiredDetailKinds": ["roof", "roof_dormer", "chimney"],
+    "dormersRequireApprovedRoofPlane": true,
+    "approvedDormerZones": [],
+    "referenceSource": "references/roof-satellite.jpg"
+  },
+  "tower": {
+    "mustHaveProperTowerReferences": true,
+    "referenceManifest": "references/tower/tower-references.json",
+    "approvedTowerSources": [
+      "references/tower/tower-front-context.jpg",
+      "references/tower/tower-roof-satellite-context.jpg"
+    ],
+    "mustSitOnSupportedRoofOrWall": true,
+    "mustBeCenteredFromRoofReference": true,
+    "noGenericStackedBoxes": true,
+    "requiredDetailKinds": ["front_pediment", "cupola_base", "cupola_lantern", "cupola_post", "cupola_rail", "cupola_cap", "spire", "weathervane"],
+    "clockAndFineOrnamentBlockedUntilFaceReference": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "building": "building__baker-library__way_295888783",
+  "displayName": "Baker Library",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "sourceReset": {
+    "required": true,
+    "sourceObject": "Areas.222"
+  },
+  "windowsAndDoors": {
+    "mustBeIntegratedWallFaces": true,
+    "mustHaveEdgeLoops": true,
+    "noFloatingPanels": true,
+    "noBlindOpenings": true,
+    "approvedWallSources": ["wall-02", "wall-03", "wall-14"],
+    "blockedWallSources": ["wall-05", "wall-08", "wall-10", "wall-11", "wall-12"]
+  },
+  "roof": {
+    "mustUseRoofSatelliteReference": true,
+    "allowFlatRoofZones": true,
+    "allowPrismRoofZones": true,
+    "prismZonesRequireExplicitReferenceBounds": true,
+    "approvedPrismZones": [],
+    "noSingleBlanketRoofSlab": true,
+    "noRoofOverlapIntoTowerShaft": true,
+    "requiredMaterials": [
+      "mwrld_baker_reference_flat_roof"
+    ],
+    "referenceSource": "references/roof-satellite.jpg"
+  },
+  "tower": {
+    "mustSitOnSupportedWallShaft": true,
+    "supportWallAtLeastTowerBaseWidth": true,
+    "clockAndSpireRequired": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sourceBlend": "public/models/dartmouth-energy-twin/dartmouth-energy-twin.blend",
+  "recipeSource": "public/models/dartmouth-energy-twin/reports/building-detail-recipes.json",
+  "targets": [
+    {
+      "target": "building__baker-library__way_295888783",
+      "displayName": "Baker Library",
+      "osmId": "way/295888783",
+      "detailCount": 21,
+      "counts": {
+        "tower": 5,
+        "clock": 2,
+        "louver": 12,
+        "spire": 2
+      }
+    }
+  ],
+  "skipped": []
+}

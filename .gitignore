@@ -5,3 +5,8 @@ node_modules
 npm-debug.log*
 public/reference-atlas/images/
 public/reference-atlas/guides/
+scripts/__pycache__/
+*.blend1
+*.bad-edits-*.blend
+*.before-download-blend-*.blend
+public/models/dartmouth-energy-twin/renders/parts-manifest.partial.json

@@ -1,0 +1,85 @@
+{
+  "defaults": {
+    "style": "campus_masonry",
+    "roof": {
+      "type": "hip",
+      "heightRatio": 0.18,
+      "overhang": 1.2,
+      "parapet": true
+    },
+    "facades": {
+      "north": {
+        "windows": { "floors": "auto", "columns": "auto", "width": 2.2, "height": 2.8 },
+        "doors": 0
+      },
+      "south": {
+        "windows": { "floors": "auto", "columns": "auto", "width": 2.2, "height": 2.8 },
+        "doors": 1
+      },
+      "east": {
+        "windows": { "floors": "auto", "columns": "auto", "width": 2.0, "height": 2.6 },
+        "doors": 0
+      },
+      "west": {
+        "windows": { "floors": "auto", "columns": "auto", "width": 2.0, "height": 2.6 },
+        "doors": 0
+      }
+    },
+    "chimneys": 0
+  },
+  "buildings": {
+    "baker-library": {
+      "style": "library_masonry",
+      "roof": {
+        "type": "none",
+        "parapet": false
+      },
+      "tower": {
+        "enabled": true,
+        "baseWidthRatio": 0.18,
+        "baseDepthRatio": 0.2,
+        "heightRatio": 2.45,
+        "clockFaces": ["north", "south"],
+        "spire": true
+      },
+      "facades": {
+        "north": { "windows": { "floors": 0, "columns": 0, "width": 2.15, "height": 2.6 }, "doors": 0 },
+        "south": { "windows": { "floors": 0, "columns": 0, "width": 2.15, "height": 2.6 }, "doors": 0 },
+        "east": { "windows": { "floors": 0, "columns": 0, "width": 2.0, "height": 2.5 }, "doors": 0 },
+        "west": { "windows": { "floors": 0, "columns": 0, "width": 2.0, "height": 2.5 }, "doors": 0 }
+      },
+      "chimneys": 0
+    },
+    "berry-library": {
+      "roof": { "type": "flat", "parapet": true },
+      "facades": {
+        "north": { "windows": { "floors": 3, "columns": 9, "width": 2.4, "height": 2.8 }, "doors": 0 },
+        "south": { "windows": { "floors": 3, "columns": 9, "width": 2.4, "height": 2.8 }, "doors": 1 },
+        "east": { "windows": { "floors": 3, "columns": 5, "width": 2.2, "height": 2.6 }, "doors": 0 },
+        "west": { "windows": { "floors": 3, "columns": 5, "width": 2.2, "height": 2.6 }, "doors": 0 }
+      },
+      "chimneys": 0
+    },
+    "collis-student-center": {
+      "roof": { "type": "flat", "parapet": true },
+      "facades": {
+        "north": { "windows": { "floors": 2, "columns": 7, "width": 2.3, "height": 2.3 }, "doors": 0 },
+        "south": { "windows": { "floors": 2, "columns": 7, "width": 2.3, "height": 2.3 }, "doors": 2 },
+        "east": { "windows": { "floors": 2, "columns": 6, "width": 2.2, "height": 2.3 }, "doors": 0 },
+        "west": { "windows": { "floors": 2, "columns": 6, "width": 2.2, "height": 2.3 }, "doors": 0 }
+      },
+      "chimneys": 0
+    },
+    "heating-electric-plant": {
+      "style": "utility",
+      "roof": { "type": "flat", "parapet": true },
+      "facades": {
+        "north": { "windows": { "floors": 2, "columns": 6, "width": 1.7, "height": 2.2 }, "doors": 0 },
+        "south": { "windows": { "floors": 2, "columns": 6, "width": 1.7, "height": 2.2 }, "doors": 1 },
+        "east": { "windows": { "floors": 2, "columns": 4, "width": 1.7, "height": 2.2 }, "doors": 0 },
+        "west": { "windows": { "floors": 2, "columns": 4, "width": 1.7, "height": 2.2 }, "doors": 0 }
+      },
+      "chimneys": 3
+    }
+  }
+}

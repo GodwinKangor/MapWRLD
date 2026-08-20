@@ -1,0 +1,861 @@
+{
+  "sourceBlend": "public/models/dartmouth-energy-twin/dartmouth-energy-twin.blend",
+  "mode": "cleanup",
+  "mergeDistance": 0.001,
+  "targets": [
+    {
+      "building": "backup__baker-library__01__building__baker-library__way_295888783",
+      "displayName": "Baker Library",
+      "osmId": "way/295888783",
+      "objects": [
+        {
+          "name": "backup__baker-library__01__building__baker-library__way_295888783",
+          "kind": "building",
+          "before": {
+            "vertices": 60,
+            "edges": 90,
+            "faces": 30,
+            "triangles": 0,
+            "quads": 30,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 60,
+            "nonManifoldEdges": 60,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 60,
+            "edges": 90,
+            "faces": 30,
+            "triangles": 0,
+            "quads": 30,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 60,
+            "nonManifoldEdges": 60,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__belfry",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_base",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_north",
+          "kind": "clock",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_south",
+          "kind": "clock",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_stage",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__cupola",
+          "kind": "roof",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__lantern",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_east_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_north_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_south_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_west_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__spire_mast",
+          "kind": "spire",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__weathervane_cross",
+          "kind": "spire",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        }
+      ]
+    },
+    {
+      "building": "building__baker-library__way_295888783",
+      "displayName": "Baker Library",
+      "osmId": "way/295888783",
+      "objects": [
+        {
+          "name": "building__baker-library__way_295888783",
+          "kind": "building",
+          "before": {
+            "vertices": 88,
+            "edges": 132,
+            "faces": 66,
+            "triangles": 0,
+            "quads": 66,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 88,
+            "edges": 132,
+            "faces": 66,
+            "triangles": 0,
+            "quads": 66,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__belfry",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_base",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_north",
+          "kind": "clock",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_south",
+          "kind": "clock",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__clock_stage",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__cupola",
+          "kind": "roof",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__lantern",
+          "kind": "tower",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_east_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_north_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_south_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__louver_west_upper",
+          "kind": "louver",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__spire_mast",
+          "kind": "spire",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        },
+        {
+          "name": "mwrld_detail__baker-library__weathervane_cross",
+          "kind": "spire",
+          "before": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          },
+          "after": {
+            "vertices": 8,
+            "edges": 12,
+            "faces": 6,
+            "triangles": 0,
+            "quads": 6,
+            "ngons": 0,
+            "looseVertices": 0,
+            "looseEdges": 0,
+            "boundaryEdges": 0,
+            "nonManifoldEdges": 0,
+            "tJunctionSuspects": 0
+          }
+        }
+      ]
+    }
+  ]
+}

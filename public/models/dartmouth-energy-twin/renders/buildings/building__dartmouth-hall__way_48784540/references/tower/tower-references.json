@@ -1,0 +1,35 @@
+{
+  "building": "building__dartmouth-hall__way_48784540",
+  "displayName": "Dartmouth Hall",
+  "scope": "exterior tower/cupola only",
+  "references": [
+    {
+      "id": "tower-front-context",
+      "file": "tower-front-context.jpg",
+      "source": "Google Street View Static API",
+      "represents": ["front facade tower silhouette", "cupola vertical stack", "tower relationship to main entry"],
+      "allowedUses": ["tower height proportion", "front face alignment", "cupola placement"]
+    },
+    {
+      "id": "tower-roof-satellite-context",
+      "file": "tower-roof-satellite-context.jpg",
+      "source": "Google Maps Static API satellite",
+      "represents": ["roof footprint", "cupola XY placement", "hip roof context"],
+      "allowedUses": ["tower footprint placement", "roof/tower support check"]
+    },
+    {
+      "id": "tower-aerial-cupola",
+      "file": "tower-aerial-cupola.webp",
+      "source": "Dartmouth home aerial campus image",
+      "sourceUrl": "https://home.dartmouth.edu/sites/home/files/styles/3_2_lg/public/2021-11/20211027_drone_rg_058.jpeg.webp?h=02fd1b3e&itok=X26E_Nb9",
+      "represents": ["general campus cupola construction context"],
+      "allowedUses": ["context only"],
+      "notApprovedFor": ["Dartmouth Hall tower shape", "Dartmouth Hall dome color", "Dartmouth Hall tower proportions"]
+    }
+  ],
+  "modelingNotes": [
+    "Use tower-front-context.jpg for Dartmouth Hall tower silhouette and proportions.",
+    "Use tower-roof-satellite-context.jpg for Dartmouth Hall tower XY placement.",
+    "Do not use tower-aerial-cupola.webp as a shape reference for Dartmouth Hall."
+  ]
+}

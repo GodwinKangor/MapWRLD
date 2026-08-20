@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-08-19T16:54:09.725Z",
+  "overrides": [
+    {
+      "layer": "buildings",
+      "osmId": "way/294234145",
+      "from": "South Main Street Parking Garage",
+      "to": "63 South Main Street Parking Deck",
+      "source": "/Users/godwinkangor/Downloads/darrtmouth buildings.geojson"
+    },
+    {
+      "layer": "buildings",
+      "osmId": "way/295888783",
+      "from": "Baker-Berry Library",
+      "to": "Baker Library",
+      "source": "/Users/godwinkangor/Downloads/darrtmouth buildings.geojson"
+    },
+    {
+      "layer": "buildings",
+      "osmId": "way/295888784",
+      "from": "Baker-Berry Library",
+      "to": "Berry Library",
+      "source": "/Users/godwinkangor/Downloads/darrtmouth buildings.geojson"
+    }
+  ]
+}

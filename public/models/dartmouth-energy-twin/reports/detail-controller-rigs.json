@@ -1,0 +1,120 @@
+{
+  "rigs": [
+    {
+      "sourceBlend": "public/models/dartmouth-energy-twin/dartmouth-energy-twin.blend",
+      "target": "building__baker-library__way_295888783",
+      "displayName": "Baker Library",
+      "osmId": "way/295888783",
+      "controllers": [
+        {
+          "controller": "ctrl__detail__baker-library__edge_roof_east",
+          "component": "edge_roof_east",
+          "kind": "edge",
+          "vertexCount": 7
+        },
+        {
+          "controller": "ctrl__detail__baker-library__edge_roof_north",
+          "component": "edge_roof_north",
+          "kind": "edge",
+          "vertexCount": 2
+        },
+        {
+          "controller": "ctrl__detail__baker-library__edge_roof_south",
+          "component": "edge_roof_south",
+          "kind": "edge",
+          "vertexCount": 7
+        },
+        {
+          "controller": "ctrl__detail__baker-library__edge_roof_west",
+          "component": "edge_roof_west",
+          "kind": "edge",
+          "vertexCount": 7
+        },
+        {
+          "controller": "ctrl__detail__baker-library__face_base",
+          "component": "face_base",
+          "kind": "face",
+          "vertexCount": 30
+        },
+        {
+          "controller": "ctrl__detail__baker-library__face_east",
+          "component": "face_east",
+          "kind": "face",
+          "vertexCount": 14
+        },
+        {
+          "controller": "ctrl__detail__baker-library__face_north",
+          "component": "face_north",
+          "kind": "face",
+          "vertexCount": 4
+        },
+        {
+          "controller": "ctrl__detail__baker-library__face_roof",
+          "component": "face_roof",
+          "kind": "face",
+          "vertexCount": 30
+        },
+        {
+          "controller": "ctrl__detail__baker-library__face_south",
+          "component": "face_south",
+          "kind": "face",
+          "vertexCount": 14
+        },
+        {
+          "controller": "ctrl__detail__baker-library__face_west",
+          "component": "face_west",
+          "kind": "face",
+          "vertexCount": 14
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_bottom_ne",
+          "component": "vertex_bottom_ne",
+          "kind": "vertex",
+          "vertexCount": 1
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_bottom_nw",
+          "component": "vertex_bottom_nw",
+          "kind": "vertex",
+          "vertexCount": 1
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_bottom_se",
+          "component": "vertex_bottom_se",
+          "kind": "vertex",
+          "vertexCount": 1
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_bottom_sw",
+          "component": "vertex_bottom_sw",
+          "kind": "vertex",
+          "vertexCount": 1
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_roof_ne",
+          "component": "vertex_roof_ne",
+          "kind": "vertex",
+          "vertexCount": 1
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_roof_nw",
+          "component": "vertex_roof_nw",
+          "kind": "vertex",
+          "vertexCount": 1
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_roof_se",
+          "component": "vertex_roof_se",
+          "kind": "vertex",
+          "vertexCount": 1
+        },
+        {
+          "controller": "ctrl__detail__baker-library__vertex_roof_sw",
+          "component": "vertex_roof_sw",
+          "kind": "vertex",
+          "vertexCount": 1
+        }
+      ]
+    }
+  ]
+}
