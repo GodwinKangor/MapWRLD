@@ -1,0 +1,36 @@
+# secrets and local state
+.env*
+!.env.example
+.vercel
+.vscode
+.DS_Store
+node_modules
+.next
+*.tsbuildinfo
+*.log
+__pycache__
+*.py[cod]
+
+# modeling sources and offline pipelines (assets are generated before deploying)
+*.blend
+*.blend1
+public/models/figure/*.blend
+public/models/dartmouth-energy-twin/*.blend*
+public/models/dartmouth-energy-twin/scene-report.md
+assets/
+energy_v2/
+dartmouth_energy_scrape/
+dartmouth_energy_scrape.zip
+DartmouthENGTwin.md
+docs/
+scripts/
+supabase/
+
+# campus-model intermediates the standalone scene does not load
+public/models/dartmouth-campus/dartmouth-campus.glb
+public/models/dartmouth-campus/dartmouth-evidence.glb
+public/models/dartmouth-campus/dartmouth-evidence-styled.glb
+public/models/dartmouth-campus/terrain-anchors.json
+public/models/dartmouth-campus/assembly-report.json
+public/models/dartmouth-campus/georeference-report.json
+public/models/dartmouth-campus/building-color-report.json

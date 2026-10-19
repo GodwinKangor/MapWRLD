@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "check:assets": "node scripts/check-deploy-assets.mjs",
     "model:dartmouth:combine": "python3 scripts/blender/combine-campus-glbs.py",
     "model:figure": "/Applications/Blender.app/Contents/MacOS/Blender --background --factory-startup --python scripts/blender/blender-figure.py",
     "model:figure:open": "open public/models/figure/figure.blend",
