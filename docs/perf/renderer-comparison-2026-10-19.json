@@ -1,0 +1,30 @@
+{
+  "cesium": {
+    "runs": 3,
+    "loadMs": 8051,
+    "requests": 1728,
+    "megabytes": 11.86,
+    "overviewCalls": 1155,
+    "overviewTriangles": 1388420,
+    "groundCalls": 403,
+    "groundTriangles": 1417951,
+    "dragFrameP50": 16.7,
+    "dragFrameP95": 50,
+    "dragFramesOver33ms": 70,
+    "heapMB": 172.3
+  },
+  "three": {
+    "runs": 3,
+    "loadMs": 1006,
+    "requests": 32,
+    "megabytes": 5.25,
+    "overviewCalls": 7,
+    "overviewTriangles": 564260,
+    "groundCalls": 7,
+    "groundTriangles": 564260,
+    "dragFrameP50": 16.7,
+    "dragFrameP95": 16.7,
+    "dragFramesOver33ms": 0,
+    "heapMB": 42.3
+  }
+}
