@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-10-19T20:35:38.663638+00:00",
+  "bounds": {
+    "west": -72.2972,
+    "south": 43.6961,
+    "east": -72.2785,
+    "north": 43.7108
+  },
+  "frame": {
+    "description": "campus GLB local meters: x east, y up (elevation - baseElevation), z south",
+    "origin": {
+      "longitude": -72.28761824817417,
+      "latitude": 43.70342049977081,
+      "heightMeters": 168
+    },
+    "georeference": {
+      "longitudePerMeter": 1.2437812605066111e-05,
+      "latitudePerMeter": 9.00900885562946e-06
+    }
+  },
+  "grid": {
+    "cols": 753,
+    "rows": 817,
+    "rowOrder": "north-to-south",
+    "encoding": "uint16 little-endian centimeters above baseElevation",
+    "baseElevation": 116.0,
+    "minElevation": 116.84,
+    "maxElevation": 186.09,
+    "spacingMeters": [
+      1.999,
+      2.0
+    ]
+  },
+  "imagery": {
+    "file": "campus-imagery.jpg",
+    "mobileFile": "campus-imagery-2048.jpg",
+    "width": 4000,
+    "height": 3144
+  },
+  "files": {
+    "campus-terrain.bin": "ba03ff21aef55bd1",
+    "campus-imagery.jpg": "f22f3af3c1d4f19f",
+    "campus-imagery-2048.jpg": "e86490a9bc15a556",
+    "building-ground.json": "24f73cbbe34fd2bb"
+  },
+  "attribution": [
+    {
+      "layer": "terrain",
+      "text": "Elevation: USGS 3D Elevation Program (3DEP)",
+      "license": "U.S. public domain",
+      "service": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+      "copyright": null
+    },
+    {
+      "layer": "imagery",
+      "text": "Imagery: USGS The National Map Orthoimagery (USDA NAIP)",
+      "license": "U.S. public domain",
+      "service": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer"
+    }
+  ],
+  "approximations": [
+    "Terrain is bare earth (3DEP DEM, NAVD88), resampled bilinearly to a ~2 m grid; building heights come from the separate NH GRANIT nDSM.",
+    "Buildings are rigid and sit on the lowest ground under their footprint, so on slopes the uphill side is partly embedded.",
+    "Imagery is the National Map's cached orthoimagery (refreshed June 2024) and shows conditions at capture time and includes building roofs and tree crowns that the 3D layers also draw.",
+    "Vertical datum is NAVD88 orthometric height; the scene stores heights relative to baseElevation."
+  ]
+}
