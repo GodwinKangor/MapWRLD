@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-14",
+  "status_note": "Statuses reflect directory labels on date checked, not independent verification of construction completion.",
+  "source": "https://campus-services.dartmouth.edu/construction-campus/projects-glance",
+  "projects": [
+    {"name":"Crosby Street","category":"Energy Transition","directory_status":"current","buildings":[],"infrastructure":["district distribution piping"],"verification":"directory_only"},
+    {"name":"Lewinstein Athletic Center","category":"Energy Transition","directory_status":"current","buildings":["Lewinstein Athletic Center"],"verification":"directory_only"},
+    {"name":"Thompson Arena","category":"Energy Transition","directory_status":"current","buildings":["Thompson Arena"],"verification":"directory_only"},
+    {"name":"Berry Sports Center","category":"Energy Transition","directory_status":"recently_completed","buildings":["Berry Sports Center"],"verification":"directory_only"},
+    {"name":"Corey Ford Rugby Clubhouse","category":"Energy Transition","directory_status":"recently_completed","buildings":["Corey Ford Rugby Clubhouse"],"verification":"directory_only"},
+    {"name":"Leverone Field House","category":"Energy Transition","directory_status":"recently_completed","buildings":["Leverone Field House"],"verification":"directory_only"},
+    {"name":"Thayer Drive","category":"Energy Transition","directory_status":"recently_completed","buildings":[],"infrastructure":["district distribution piping"],"verification":"directory_only"},
+    {"name":"Fayerweather Hall","category":"Housing","directory_status":"current","buildings":["Fayerweather Hall"],"verification":"directory_only"},
+    {"name":"Russo Hall","category":"Housing","directory_status":"current","buildings":["Russo Hall"],"verification":"directory_only"},
+    {"name":"East Wheelock Renewal","category":"Undergraduate Housing","directory_status":"recently_completed","buildings":[],"verification":"directory_only"}
+  ]
+}

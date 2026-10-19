@@ -1,0 +1,414 @@
+{
+  "original_html_records": 35,
+  "v2_html_records": 315,
+  "combined_unique_html_urls": 335,
+  "pdf_records": 3,
+  "pdfs_with_text": 3,
+  "pdfs_without_text": [],
+  "v2_errors": 26,
+  "crawl_state": {
+    "fetched_this_run": 170,
+    "duplicates_skipped": 153,
+    "sitemap_urls_found": 15881,
+    "limit_reached": false,
+    "remaining_queue": [],
+    "max_pages": 400,
+    "max_depth": 4,
+    "min_score": 3
+  },
+  "verification": "Unreviewed sources and keyword candidates; not an exhaustive inventory.",
+  "areas": [
+    {
+      "area": "Energy Transition",
+      "coverage": "partial",
+      "keyword_candidate_sources": 97,
+      "captured": "Goals, funding, technologies, plans and progress statements appear in collected pages.",
+      "missing": "Complete progress-report series and milestone history are not established.",
+      "sample_sources": [
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition",
+          "title": "Energy Transition | Climate Collaborative",
+          "excerpt": "Energy Transition Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Dartmouth Energy Renewal: Building Long-Term Resilience Dartmouth’s campus is a laboratory for developing and implementing solutions to ensure the long-term resilience of Dartmouth and surrounding commu"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance",
+          "title": "Projects-at-a-Glance | Campus Services",
+          "excerpt": "Projects-at-a-Glance Below is an overview of projects currently in progress and categorized by Energy Transition, Housing, and Renewal & Renovation. We've also included a summary of recently completed projects. Click on the links to learn more. Construction on Campus Additional navigation Close Project Management Projects-at-a-Glance 37-39 West Wheelock Berry Sports Center Connected & Secure Campus Corey Ford Rugby Clubhouse Courtyard Café in the Hopkins Cen"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/project-overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "Project Overview Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs An Energy Transition for a More Resilient Campus In 2024, Dartmouth committed to accelerated infrastructure renewal and deferred maintenance that will keep our campus functioning efficiently year-round. Part of this commitment includes continuing the transition from steam- t"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/steam-hot-water-transition",
+          "title": "Steam to Hot Water Transition | Climate Collaborative",
+          "excerpt": "Steam to Hot Water Transition Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Upgrading Our Campus Energy Network Much of the energy used to run Dartmouth’s campus goes toward heating and cooling our buildings. Updating this system will help reduce energy consumption and ensure the long-term resilience of Dartmouth and surrounding communities. A campu"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/strategy",
+          "title": "Strategy | Climate Collaborative",
+          "excerpt": "Strategy Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Four Principles of Energy Resiliency Dartmouth’s energy strategy centers around four main principles. We are drastically reducing our energy consumption, changing the way we distribute heat to buildings, implementing new geo-exchange and solar thermal technologies, and trans"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/technologies",
+          "title": "Technologies | Climate Collaborative",
+          "excerpt": "Technologies Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Energy Transition Program Components To reach that goal, we are utilizing a complex system of innovative technologies. These components will work together to efficiently meet energy needs, provide necessary backups, and ensure our buildings and systems run efficiently for ye"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/faqs",
+          "title": "FAQs | Climate Collaborative",
+          "excerpt": "FAQs Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs FAQs How do we currently heat and cool the Dartmouth campus? Dartmouth currently uses fossil fuels to heat and cool our buildings. When we say we want to reduce Scope 1 and 2 greenhouse gas emissions, what does that mean? The internationally recognized Greenhouse Gas Protoco"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "Project Overview Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs An Energy Transition for a More Resilient Campus In 2024, Dartmouth committed to accelerated infrastructure renewal and deferred maintenance that will keep our campus functioning efficiently year-round. Part of this commitment includes continuing the transition from steam- t"
+        }
+      ]
+    },
+    {
+      "area": "Ongoing projects",
+      "coverage": "partial",
+      "keyword_candidate_sources": 45,
+      "captured": "Project pages contain descriptions, goals, work updates and some timing statements.",
+      "missing": "Affected buildings, phases and estimated completion have not been consistently extracted or verified.",
+      "sample_sources": [
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition",
+          "title": "Energy Transition | Climate Collaborative",
+          "excerpt": "tly. Learn More Learn More Steam to Hot Water Transition Learn how updated distribution piping, now in progress, will improve heating and cooling throughout campus. Learn More Learn More FAQs Find quick answers to questions about construction, and what to expect during Dartmouth’s energy transition. Learn More Learn More Construction on Campus See where energy improvements are taking place on campus so that you can plan your routes and travel. See Updates S"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance",
+          "title": "Projects-at-a-Glance | Campus Services",
+          "excerpt": "Projects-at-a-Glance Below is an overview of projects currently in progress and categorized by Energy Transition, Housing, and Renewal & Renovation. We've also included a summary of recently completed projects. Click on the links to learn more. Construction on Campus Additional navigation Close Project Management Projects-at-a-Glance 37-39 West Wheelock Berry Sports Center Connected & Secure Campus Corey Ford Rugby Clubho"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/project-overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "g demand and distribution ahead of supply might be a better approach. Read More Here Read More Here In Progress: Distribution Piping & Building Conversions Dartmouth’s priority is our steam to hot water transition, and to achieve this we must start with these two projects. Steam distribution piping is being replaced with new, highly efficient hot water piping. Buildings will be updated to receive hot water distribution."
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/steam-hot-water-transition",
+          "title": "Steam to Hot Water Transition | Climate Collaborative",
+          "excerpt": "ecovery and geo-exchange help meet the baseload heating demand of the campus. More Resilient Future in Progress Switching to hot water will ensure our long-term resiliency, but it isn’t easy. That network of distribution piping throughout our campus is used to carry steam and will need to be replaced to instead move hot water, which requires different types of piping. That means you can expect to see some new holes across campus — all of those steam pipes a"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "g demand and distribution ahead of supply might be a better approach. Read More Here Read More Here In Progress: Distribution Piping & Building Conversions Dartmouth’s priority is our steam to hot water transition, and to achieve this we must start with these two projects. Steam distribution piping is being replaced with new, highly efficient hot water piping. Buildings will be updated to receive hot water distribution."
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/alumnae-hall-class-1989-hall-and-shonda-rhimes-hall",
+          "title": "Alumnae Hall, Class of 1989 Hall and Shonda Rhimes Hall | Campus Services",
+          "excerpt": "mpletion in fall of 2028. Project Completion Construction completion target is fall of 2028. What's Currently Happening Construction team began the installation of the necessary support systems for safely excavating in order to install the building foundations. This work will continue through October 2026. More specific activities and impacts include: Concrete placement for west building. Waterproofing for west building. Underground utilities being installed across"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/berry-sports-center",
+          "title": "Berry Sports Center | Campus Services",
+          "excerpt": "aking the final connections to convert Berry Sports Center to the campus-wide energy system. WHAT'S CURRENTLY HAPPENING Title IX updates in the squash locker rooms are nearing completion, with final finishes and punch list items underway. Mechanical system work is underway related to building climate control (air-conditioning). Project Team Project Manager: Caroline Shannon Architect: JMZ Architects Engineer: KFI Engineers Construction Manager: Lee Kennedy Company "
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/connected-secure-campus",
+          "title": "Connected & Secure Campus | Campus Services",
+          "excerpt": "e full Connected & Secure Campus project is expected to take two to three years to complete. What's Currently Happening Connected & Secure Campus upgrades for the new ID system are being completed in the following three phases: Phase 1—Re-Cabling: Our crews will pull new wire from existing readers and new reader locations through existing low-voltage cable pathways. This work is minimally invasive and typically takes a few days to complete. Phase 2—Reader Install: "
+        }
+      ]
+    },
+    {
+      "area": "Completed projects",
+      "coverage": "partial",
+      "keyword_candidate_sources": 61,
+      "captured": "Collected pages include completion statements and historical construction summaries.",
+      "missing": "Actual completion dates, installed technologies and measured outcomes need project-by-project review.",
+      "sample_sources": [
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance",
+          "title": "Projects-at-a-Glance | Campus Services",
+          "excerpt": " by Energy Transition, Housing, and Renewal & Renovation. We've also included a summary of recently completed projects. Click on the links to learn more. Construction on Campus Additional navigation Close Project Management Projects-at-a-Glance 37-39 West Wheelock Berry Sports Center Connected & Secure Campus Corey Ford Rugby Clubhouse Courtyard Café in the Hopkins Center Crosby Street Fayerweather Hall Lewinstein Athletic Center Native American House Rus"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/project-management",
+          "title": "Project Management | Campus Services",
+          "excerpt": "utside of planned work hours. To learn more, visit our Projects-at-a-Glance page to see current and completed projects."
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/alumnae-hall-class-1989-hall-and-shonda-rhimes-hall",
+          "title": "Alumnae Hall, Class of 1989 Hall and Shonda Rhimes Hall | Campus Services",
+          "excerpt": "beds for juniors and seniors. Project Timing Initial site work is underway with construction target completion in fall of 2028. Project Completion Construction completion target is fall of 2028. What's Currently Happening Construction team began the installation of the necessary support systems for safely excavating in order to install the building foundations. This work will continue through October 2026. More specific activities and impacts include: Conc"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/berry-sports-center",
+          "title": "Berry Sports Center | Campus Services",
+          "excerpt": ", as well as installing new mechanical systems to support the hot water conversion. The project was completed in mid-August 2025. The entire building (including Leede Arena) was closed from April 2025 – mid-August 2025 due to work on critical systems. Phase 2 involved making the final connections to convert Berry Sports Center to the campus-wide energy system. WHAT'S CURRENTLY HAPPENING Title IX updates in the squash locker rooms are nearing completion, w"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/connected-secure-campus",
+          "title": "Connected & Secure Campus | Campus Services",
+          "excerpt": "lete. What's Currently Happening Connected & Secure Campus upgrades for the new ID system are being completed in the following three phases: Phase 1—Re-Cabling: Our crews will pull new wire from existing readers and new reader locations through existing low-voltage cable pathways. This work is minimally invasive and typically takes a few days to complete. Phase 2—Reader Install: Once all the new cables have been pulled and tested for functionality with th"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/corey-ford-rugby-clubhouse",
+          "title": "Corey Ford Rugby Clubhouse | Campus Services",
+          "excerpt": " varsity team needs Project Timing Construction began in early March 2025, and is anticipated to be completed by June 2026. Construction will be divided into two major phases: Phase 1 focuses primarily on the addition of visiting locker rooms, public restrooms, an office, and a new mechanical room. The anticipated completion date is December 2025. The existing building will remain open for use during Phase 1. Phase 2 focuses on the existing building renov"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/native-american-house",
+          "title": "Native American House | Campus Services",
+          "excerpt": " millwork Project Timing The Native American House closed in June 2026 for renovations. Anticipated completion date is fall 2027 What’s Currently Happening Construction is underway. Project Team Project Manager: Jenna Gibbons Architect: Black River Design Construction Manager: Engelberth Contact: Project.Management@dartmouth.edu Related Links Native American House Russo, Fayerweather On Track to Open This Year"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/russo-hall",
+          "title": "Russo Hall | Campus Services",
+          "excerpt": "ew beds for juniors and seniors. Project Timing Russo Hall construction is in the final stages with completion in the fall of 2026. Move in for students to commence for the fall of 2026 semester. What's Currently Happening Exterior Earthwork and Landscape will continue until the completion of the project. The sidewalk in front of Russo Hall is now open to pedestrians. Typical working hours will be between 7 a.m. and 8 p.m., Monday to Friday. Saturday worki"
+        }
+      ]
+    },
+    {
+      "area": "Planned projects",
+      "coverage": "partial",
+      "keyword_candidate_sources": 170,
+      "captured": "Future work and anticipated timing are described in project and energy pages.",
+      "missing": "A complete inventory of planned conversions and expansions is not established.",
+      "sample_sources": [
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/project-overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "astructure won’t happen overnight. To minimize major disruptions to campus, Dartmouth has carefully planned project phases that bring small parts of the system online at a time. Our planning is iterative and adjusts as conditions change.Our original planning scheduled geo-exchange borefield installation by 2028 but, as we dove deeper and spoke to peers, we adjusted our immediate focus on installing new pipe carrying hot and chilled water in order to add"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/steam-hot-water-transition",
+          "title": "Steam to Hot Water Transition | Climate Collaborative",
+          "excerpt": " heat recovery and geo-exchange help meet the baseload heating demand of the campus. More Resilient Future in Progress Switching to hot water will ensure our long-term resiliency, but it isn’t easy. That network of distribution piping throughout our campus is used to carry steam and will need to be replaced to instead move hot water, which requires different types of piping. That means you can expect to see some new holes across campus — all of those s"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/technologies",
+          "title": "Technologies | Climate Collaborative",
+          "excerpt": " will improve efficiency and reduce energy waste. Heating Plant Upgrades Heating plant upgrades are planned at Dartmouth to replace old steam equipment with ultra-efficient heat pumps. Electrical Resilience Dartmouth’s electrical grid needs updates in order to support our new heat pump equipment powered by electricity. Thermal Storage Building thermal storage allows us to store some of the unused heat we have collected with the heat pump and solar therm"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/faqs",
+          "title": "FAQs | Climate Collaborative",
+          "excerpt": "ly improve the quality of life for our community. Dartmouth takes reports of disruptions outside of planned work hours seriously and will work to rectify the situation. If you are experiencing a disturbance, contact Facilities Customer Service Center at any time of the day at 603-646-2508. How can I get updates on construction? There are several places you can check to stay informed on construction updates. Current active projects are listed on the Camp"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "astructure won’t happen overnight. To minimize major disruptions to campus, Dartmouth has carefully planned project phases that bring small parts of the system online at a time. Our planning is iterative and adjusts as conditions change.Our original planning scheduled geo-exchange borefield installation by 2028 but, as we dove deeper and spoke to peers, we adjusted our immediate focus on installing new pipe carrying hot and chilled water in order to add"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/technologies",
+          "title": "Technologies | Climate Collaborative",
+          "excerpt": " will improve efficiency and reduce energy waste. Heating Plant Upgrades Heating plant upgrades are planned at Dartmouth to replace old steam equipment with ultra-efficient heat pumps. Electrical Resilience Dartmouth’s electrical grid needs updates in order to support our new heat pump equipment powered by electricity. Thermal Storage Building thermal storage allows us to store some of the unused heat we have collected with the heat pump and solar therm"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/faqs",
+          "title": "FAQs | Climate Collaborative",
+          "excerpt": "ly improve the quality of life for our community. Dartmouth takes reports of disruptions outside of planned work hours seriously and will work to rectify the situation. If you are experiencing a disturbance, contact Facilities Customer Service Center at any time of the day at 603-646-2508. How can I get updates on construction? There are several places you can check to stay informed on construction updates. Current active projects are listed on the Camp"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/project-management",
+          "title": "Project Management | Campus Services",
+          "excerpt": "ampus The construction projects you see around campus represent exciting investments in Dartmouth's future and are taking place in the following three categories: Energy Transition: Dartmouth is modernizing the systems that heat, cool, and power its campus. This includes enhancements to energy efficiency, the ongoing transition from steam to hot water heating, and the installation of modern distribution infrastructure that will support renewable energy"
+        }
+      ]
+    },
+    {
+      "area": "Campus buildings",
+      "coverage": "partial",
+      "keyword_candidate_sources": 231,
+      "captured": "Building names and selected energy-system improvements appear in source text.",
+      "missing": "No complete building inventory, coordinates or current heating/cooling system register was produced.",
+      "sample_sources": [
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition",
+          "title": "Energy Transition | Climate Collaborative",
+          "excerpt": "Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Dartmouth Energy Renewal: Building Long-Term Resilience Dartmouth’s campus is a laboratory for developing and implementing solutions to ensure the long-term resilience of Dartmouth and surrounding communities, including the modernization of its energy sources. Use this website to learn about energy renewal on campus, access maps, and review schedules that show the scope of our plan"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance",
+          "title": "Projects-at-a-Glance | Campus Services",
+          "excerpt": "e Campus Corey Ford Rugby Clubhouse Courtyard Café in the Hopkins Center Crosby Street Fayerweather Hall Lewinstein Athletic Center Native American House Russo Hall Sugarwood Circle Thayer Drive Thompson Ice Hockey Arena Tuck Mall 2026 Move-In FAQs for Students and Families Undergraduate Housing Construction FAQs Construction Map Current Projects by Category Energy Transition Housing Renewal & Renovation Crosby Street Undergraduate Housing Classroom "
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/project-overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "s areas where steam pipe was at end of life and at risk of failure. We also learned from peers that building demand and distribution ahead of supply might be a better approach. Read More Here Read More Here In Progress: Distribution Piping & Building Conversions Dartmouth’s priority is our steam to hot water transition, and to achieve this we must start with these two projects. Steam distribution piping is being replaced with new, highly efficient hot wa"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/steam-hot-water-transition",
+          "title": "Steam to Hot Water Transition | Climate Collaborative",
+          "excerpt": "nergy Network Much of the energy used to run Dartmouth’s campus goes toward heating and cooling our buildings. Updating this system will help reduce energy consumption and ensure the long-term resilience of Dartmouth and surrounding communities. A campus heating and cooling system works similarly to/resembles the circulatory system of the human body. At the heart is an energy plant, which generates heat (steam) and cooling (chilled water). The plant push"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/strategy",
+          "title": "Strategy | Climate Collaborative",
+          "excerpt": "nciples. We are drastically reducing our energy consumption, changing the way we distribute heat to buildings, implementing new geo-exchange and solar thermal technologies, and transitioning to low-emission electricity sources. We will also upgrade campus electrical systems and back-up generators to make the whole system resilient against shocks in the grid. 1. Reduce Energy Demand We are continuously reducing energy use in buildings through a wide array"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/technologies",
+          "title": "Technologies | Climate Collaborative",
+          "excerpt": "ents will work together to efficiently meet energy needs, provide necessary backups, and ensure our buildings and systems run efficiently for years to come. Geo-Exchange Borefields Geo-exchange borefields are a collection of 800-foot-deep 6” boreholes. The holes are filled with water in a closed loop that is connected to a geo-exchange plant. Geo-Exchange Plants New power plants will be built using ground source heat pump technology. This equipment redis"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/faqs",
+          "title": "FAQs | Climate Collaborative",
+          "excerpt": "ntly heat and cool the Dartmouth campus? Dartmouth currently uses fossil fuels to heat and cool our buildings. When we say we want to reduce Scope 1 and 2 greenhouse gas emissions, what does that mean? The internationally recognized Greenhouse Gas Protocol divides emissions into three scopes: Scope 1: Emissions generated from sources owned or controlled by Dartmouth. Scope 1 emissions are burned on-site and are considered direct emissions. At Dartmouth, "
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "s areas where steam pipe was at end of life and at risk of failure. We also learned from peers that building demand and distribution ahead of supply might be a better approach. Read More Here Read More Here In Progress: Distribution Piping & Building Conversions Dartmouth’s priority is our steam to hot water transition, and to achieve this we must start with these two projects. Steam distribution piping is being replaced with new, highly efficient hot wa"
+        }
+      ]
+    },
+    {
+      "area": "Infrastructure",
+      "coverage": "partial",
+      "keyword_candidate_sources": 106,
+      "captured": "Network and technology descriptions were collected.",
+      "missing": "Locations, installed-versus-planned status and network geometry remain incomplete.",
+      "sample_sources": [
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition",
+          "title": "Energy Transition | Climate Collaborative",
+          "excerpt": "ransition Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Dartmouth Energy Renewal: Building Long-Term Resilience Dartmouth’s campus is a laboratory for developing and implementing solutions to ensure the long-term resilience of Dartmouth and surrounding communities, including the modernization of its energy sources. Use this website to learn about energ"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/project-overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": " Overview Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs An Energy Transition for a More Resilient Campus In 2024, Dartmouth committed to accelerated infrastructure renewal and deferred maintenance that will keep our campus functioning efficiently year-round. Part of this commitment includes continuing the transition from steam- to hot-water heating. Da"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/steam-hot-water-transition",
+          "title": "Steam to Hot Water Transition | Climate Collaborative",
+          "excerpt": "Steam to Hot Water Transition Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Upgrading Our Campus Energy Network Much of the energy used to run Dartmouth’s campus goes toward heating and cooling our buildings. Updating this system will help reduce energy "
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/strategy",
+          "title": "Strategy | Climate Collaborative",
+          "excerpt": "Strategy Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Four Principles of Energy Resiliency Dartmouth’s energy strategy centers around four main principles. We are drastically reducing our energy consumption, changing the way we distribute heat to buildings, implementing new geo-exchange and solar thermal technologies, and transitioning to low-emissio"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/technologies",
+          "title": "Technologies | Climate Collaborative",
+          "excerpt": "hnologies Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Energy Transition Program Components To reach that goal, we are utilizing a complex system of innovative technologies. These components will work together to efficiently meet energy needs, provide necessary backups, and ensure our buildings and systems run efficiently for years to come. Geo-Exchan"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/faqs",
+          "title": "FAQs | Climate Collaborative",
+          "excerpt": "FAQs Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs FAQs How do we currently heat and cool the Dartmouth campus? Dartmouth currently uses fossil fuels to heat and cool our buildings. When we say we want to reduce Scope 1 and 2 greenhouse gas emissions, what does that mean? The internationally recognized Greenhouse Gas Protocol divides emissions int"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": " Overview Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs An Energy Transition for a More Resilient Campus In 2024, Dartmouth committed to accelerated infrastructure renewal and deferred maintenance that will keep our campus functioning efficiently year-round. Part of this commitment includes continuing the transition from steam- to hot-water heating. Da"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/strategy",
+          "title": "Strategy | Climate Collaborative",
+          "excerpt": "Strategy Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Four Principles of Energy Resiliency Dartmouth’s energy strategy centers around four main principles. We are drastically reducing our energy consumption, changing the way we distribute heat to buildings, implementing new geo-exchange and solar thermal technologies, and transitioning to low-emissio"
+        }
+      ]
+    },
+    {
+      "area": "Historical records",
+      "coverage": "partial",
+      "keyword_candidate_sources": 199,
+      "captured": "Linked news articles and historical summaries extend the original two-domain crawl.",
+      "missing": "Archives, sitemaps and historical progress-report series were not exhaustively searched.",
+      "sample_sources": [
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/other-capital-projects",
+          "title": "Other Capital Projects | Campus Services",
+          "excerpt": "Other Capital Projects Hood Museum of Art (2019) The Hood Museum of Art reopened in January 2019 after a multi-year renovation and expansion project that increased the museum's capacity to study, teach from, and view its collections. The $50 million redesign by Tod Williams and Billie Tsien increased the Hood's floor size by 50 percent to 62,400 square feet, and included construction of three s"
+        },
+        {
+          "url": "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+          "title": "Progress Continues on Dartmouth's Energy Transition | Dartmouth",
+          "excerpt": "h took place over spring break to minimize disruptions to residents. Brace Commons reopened in fall 2024 after a renovation that renewed the East Wheelock house center as well as Zimmerman and Andres Halls. Dartmouth is also installing efficient lighting upgrades throughout campus and has invested in a new central energy management system that provides a diagnostic metering tool that allows Campus Services engineers to analyze building data in real t"
+        },
+        {
+          "url": "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+          "title": "Progress Continues on Renewal of Undergraduate Housing | Dartmouth",
+          "excerpt": " behind Dartmouth Hall in the heart of campus, was built 120 years ago. (Photo by Robert Gill) 6/13/2024 More Reading Construction of Geo-Exchange System to Begin in June Body Dartmouth’s plan to renew the majority of undergraduate residence halls over the next 15 years is entering a new phase this summer as the renovation of Zimmerman Hall and Brace Commons nears completion and work on a major overhaul of Fayerweather Hall begins. At her Inauguratio"
+        },
+        {
+          "url": "https://student-affairs.dartmouth.edu/news/2024/06/dartmouth-buys-four-properties-west-wheelock-street",
+          "title": "Dartmouth Buys Four Properties on West Wheelock Street | Undergraduate Student Affairs",
+          "excerpt": "t Wheelock Street The purchases will help develop more housing near the heart of campus. Image 6/21/2024 More Reading Apartment-Style Housing Planned for West Wheelock Street Dartmouth has purchased four properties on West Wheelock Street with the plan to substantially increase undergraduate housing on and within walking distance of campus—part of President Sian Leah Beilock's pledge to add 1,000 new beds for students, faculty, and staff over the nex"
+        },
+        {
+          "url": "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+          "title": "Construction to Close Crosby Street to Traffic | Dartmouth",
+          "excerpt": "during the project, which is expected to take at least a year. (Map by Cookson Communications) 6/10/2025 Body C rosby Street will be closed to motor vehicles beginning Wednesday, June 18, as Dartmouth prepares to install an underground distribution piping vault as part of its conversion from steam to a more efficient hot water distribution system for campus heating and cooling. The street will continue to be accessible to pedestrians via some marked "
+        },
+        {
+          "url": "https://home.dartmouth.edu/news/2025/02/class-1989-commits-30-million-new-residence-hall",
+          "title": "Class of 1989 Commits $30 Million for New Residence Hall | Dartmouth",
+          "excerpt": "t commitment, with more than 600 classmates participating. (Photo courtesy of Alumni Relations) 2/6/2025 More Reading Dartmouth Details Expansive Vision for Undergrad Housing Body Following an intensive, grassroots fundraising effort, members of the Class of 1989 have pledged $30 million toward the construction of a new residence hall, a major step forward in Dartmouth’s 10-year commitment to transform student housing across campus. This is the secon"
+        },
+        {
+          "url": "https://home.dartmouth.edu/news/2025/09/historic-gift-shonda-rhimes-91-names-residence-hall",
+          "title": "Historic Gift From Shonda Rhimes '91 Names Residence Hall | Dartmouth",
+          "excerpt": "n West Wheelock Street. (Rendering by Elkus Manfredi Architects; Photo courtesy of Shondaland) 9/22/2025 More Reading Class of 1989 Commits $30 Million for New Residence Hall Body It’s no secret that Grey’s Anatomy creator and Shondaland CEO Shonda Rhimes ’91 is a fan of Dartmouth. The celebrated showrunner, producer, screenwriter, and author made her affection clear in her viral 2014 Commencement address , and she continues to demonstrate it in her "
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/news/2021/02/snohetta-lead-expansion-and-redesign-hopkins-center",
+          "title": "Snøhetta to Lead Expansion and Redesign of Hopkins Center | Campus Services",
+          "excerpt": "w milestone in Dartmouth's $180 million Arts District investment. Image Photo by Rob Strong '04 2/9/2021 Dartmouth today announced that it has selected the renowned design practice Snøhetta to lead the expansion and redesign of the Hopkins Center for the Arts . Since its opening in 1962 as the first major university-based center in the U.S. to unite the arts under a single roof, the Hop has been recognized for its groundbreaking approach to arts educ"
+        }
+      ]
+    },
+    {
+      "area": "Documentation",
+      "coverage": "partial",
+      "keyword_candidate_sources": 335,
+      "captured": "HTML text, source links and fetched PDFs are saved; available PDF text is extracted.",
+      "missing": "Photographs and diagrams were not downloaded. Interactive maps were not extracted. PDF discovery is bounded.",
+      "sample_sources": [
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition",
+          "title": "Energy Transition | Climate Collaborative",
+          "excerpt": "Energy Transition Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Dartmouth Energy Renewal: Building Long-Term Resilience Dartmouth’s campus is a laboratory for developing and implementing solutions to ensure the long-term resilience of Dartmouth and s"
+        },
+        {
+          "url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance",
+          "title": "Projects-at-a-Glance | Campus Services",
+          "excerpt": "Projects-at-a-Glance Below is an overview of projects currently in progress and categorized by Energy Transition, Housing, and Renewal & Renovation. We've also included a summary of recently completed projects. Click on the links to learn more. Construction on Campus Additional navigation Close Project Management Projects-at-a-Glance 37-39 West Whee"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/project-overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "Project Overview Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs An Energy Transition for a More Resilient Campus In 2024, Dartmouth committed to accelerated infrastructure renewal and deferred maintenance that will keep our campus functioning efficien"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/steam-hot-water-transition",
+          "title": "Steam to Hot Water Transition | Climate Collaborative",
+          "excerpt": "Steam to Hot Water Transition Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Upgrading Our Campus Energy Network Much of the energy used to run Dartmouth’s campus goes toward heating and cooling our buildings. Updating this system will help reduce ene"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/strategy",
+          "title": "Strategy | Climate Collaborative",
+          "excerpt": "Strategy Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Four Principles of Energy Resiliency Dartmouth’s energy strategy centers around four main principles. We are drastically reducing our energy consumption, changing the way we distribute heat to bu"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/technologies",
+          "title": "Technologies | Climate Collaborative",
+          "excerpt": "Technologies Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs Energy Transition Program Components To reach that goal, we are utilizing a complex system of innovative technologies. These components will work together to efficiently meet energy needs, pr"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/operational-goals/energy-transition/faqs",
+          "title": "FAQs | Climate Collaborative",
+          "excerpt": "FAQs Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs FAQs How do we currently heat and cool the Dartmouth campus? Dartmouth currently uses fossil fuels to heat and cool our buildings. When we say we want to reduce Scope 1 and 2 greenhouse gas emissions"
+        },
+        {
+          "url": "https://climate.dartmouth.edu/stewardship/energy-transition/overview",
+          "title": "Project Overview | Climate Collaborative",
+          "excerpt": "Project Overview Operational Goals Additional navigation Close Overview Energy Transition Project Overview Steam to Hot Water Transition Strategy Technologies FAQs An Energy Transition for a More Resilient Campus In 2024, Dartmouth committed to accelerated infrastructure renewal and deferred maintenance that will keep our campus functioning efficien"
+        }
+      ]
+    }
+  ]
+}

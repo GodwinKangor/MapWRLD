@@ -1,0 +1,51 @@
+[
+  {
+    "project_id": "project-berry-sports-center",
+    "building_id": "building-berry-sports-center",
+    "relationship": "listed_building",
+    "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/berry-sports-center",
+    "verification": "seed_mapping_needs_review"
+  },
+  {
+    "project_id": "project-corey-ford-rugby-clubhouse",
+    "building_id": "building-corey-ford-rugby-clubhouse",
+    "relationship": "listed_building",
+    "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/corey-ford-rugby-clubhouse",
+    "verification": "seed_mapping_needs_review"
+  },
+  {
+    "project_id": "project-fayerweather-hall",
+    "building_id": "building-fayerweather-hall",
+    "relationship": "listed_building",
+    "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall",
+    "verification": "seed_mapping_needs_review"
+  },
+  {
+    "project_id": "project-lewinstein-athletic-center",
+    "building_id": "building-lewinstein-athletic-center",
+    "relationship": "listed_building",
+    "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/lewinstein-athletic-center",
+    "verification": "seed_mapping_needs_review"
+  },
+  {
+    "project_id": "project-russo-hall",
+    "building_id": "building-russo-hall",
+    "relationship": "listed_building",
+    "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/russo-hall",
+    "verification": "seed_mapping_needs_review"
+  },
+  {
+    "project_id": "project-thompson-ice-hockey-arena",
+    "building_id": "building-thompson-arena",
+    "relationship": "listed_building",
+    "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena",
+    "verification": "seed_mapping_needs_review"
+  },
+  {
+    "project_id": "project-leverone-field-house",
+    "building_id": "building-leverone-field-house",
+    "relationship": "listed_building",
+    "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/leverone-field-house",
+    "verification": "seed_mapping_needs_review"
+  }
+]

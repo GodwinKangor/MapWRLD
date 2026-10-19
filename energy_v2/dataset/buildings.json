@@ -1,0 +1,72 @@
+[
+  {
+    "id": "building-berry-sports-center",
+    "name": "Berry Sports Center",
+    "coordinates": null,
+    "energy_system": null,
+    "verification": "mentioned_in_seed_directory",
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/berry-sports-center"
+    ]
+  },
+  {
+    "id": "building-corey-ford-rugby-clubhouse",
+    "name": "Corey Ford Rugby Clubhouse",
+    "coordinates": null,
+    "energy_system": null,
+    "verification": "mentioned_in_seed_directory",
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/corey-ford-rugby-clubhouse"
+    ]
+  },
+  {
+    "id": "building-fayerweather-hall",
+    "name": "Fayerweather Hall",
+    "coordinates": null,
+    "energy_system": null,
+    "verification": "mentioned_in_seed_directory",
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall"
+    ]
+  },
+  {
+    "id": "building-lewinstein-athletic-center",
+    "name": "Lewinstein Athletic Center",
+    "coordinates": null,
+    "energy_system": null,
+    "verification": "mentioned_in_seed_directory",
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/lewinstein-athletic-center"
+    ]
+  },
+  {
+    "id": "building-russo-hall",
+    "name": "Russo Hall",
+    "coordinates": null,
+    "energy_system": null,
+    "verification": "mentioned_in_seed_directory",
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/russo-hall"
+    ]
+  },
+  {
+    "id": "building-thompson-arena",
+    "name": "Thompson Arena",
+    "coordinates": null,
+    "energy_system": null,
+    "verification": "mentioned_in_seed_directory",
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena"
+    ]
+  },
+  {
+    "id": "building-leverone-field-house",
+    "name": "Leverone Field House",
+    "coordinates": null,
+    "energy_system": null,
+    "verification": "mentioned_in_seed_directory",
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/leverone-field-house"
+    ]
+  }
+]

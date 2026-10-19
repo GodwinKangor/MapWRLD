@@ -1,0 +1,3426 @@
+[
+  {
+    "app_id": "hopkins",
+    "osm_id": "way/262924499",
+    "twin_object": "building__hopkins-center-for-the-arts__way_262924499",
+    "name": "Hopkins Center for the Arts",
+    "centroid": {
+      "longitude": -72.28806055849056,
+      "latitude": 43.701775001886794
+    },
+    "candidate_count": 40,
+    "technologies": {
+      "lighting": 2,
+      "emissions": 2,
+      "steam_to_hot_water": 1,
+      "hvac": 1
+    },
+    "project_ids": [
+      "project-courtyard-caf-in-the-hopkins-center",
+      "project-leverone-field-house"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/2026-move-faqs-students-and-families",
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/hopkins-center-renovation-and-expansion",
+      "https://campus-services.dartmouth.edu/hopkins-center-renovation-and-expansion",
+      "https://campus-services.dartmouth.edu/news/2012/04/tod-williams-billie-tsien-architects-design-hood-museums-expansion-and-renovation",
+      "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+      "https://campus-services.dartmouth.edu/news/2016/09/green-blue-plan-campus-west-end",
+      "https://campus-services.dartmouth.edu/news/2021/02/snohetta-lead-expansion-and-redesign-hopkins-center",
+      "https://campus-services.dartmouth.edu/news/2022/11/hop-celebrates-60-events-prior-renovations",
+      "https://home.dartmouth.edu/news/2012/11/architect-chosen-hop-renovation-and-reimagination-planning-process",
+      "https://home.dartmouth.edu/news/2013/02/renovations-spark-creativity-hops-laboratory",
+      "https://home.dartmouth.edu/news/2023/07/hopkins-center-expansion-schedule",
+      "https://home.dartmouth.edu/news/2024/02/hop-celebrates-construction-milestone",
+      "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month",
+      "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction",
+      "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+      "https://hop.dartmouth.edu/about/your-new-hop",
+      "https://hop.dartmouth.edu/about/your-new-hop/hop-project-faq",
+      "https://hop.dartmouth.edu/about/your-new-hop/hop-spaces-venues"
+    ],
+    "date_mentions": [
+      "1962",
+      "1985",
+      "2012",
+      "2013",
+      "2023",
+      "2024",
+      "2025",
+      "November 2023",
+      "September 2012",
+      "winter 2023"
+    ],
+    "twin_objects": [
+      "building__hopkins-center-for-the-arts__way_262924499"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Sustainability is a key aspect of the Hop project, which includes the following sustainability strategies: eliminate steam units from the building and replace with highly efficient air handling units, which will reduce energy use intensity and carbon emissions reuse existing building materials, and use sustainable materials, including local and Forest Stewardship Council (FSC)-certified materials with low VOCs use energy-efficient LED lighting, including smart lighting systems with occupancy and vacancy sensors How can I stay informed?",
+        "source_url": "https://hop.dartmouth.edu/about/your-new-hop/hop-project-faq",
+        "published": null,
+        "technologies": [
+          "steam_to_hot_water",
+          "hvac",
+          "lighting",
+          "emissions"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "In line with the college's Sustainable Energy Project , the Hop project focuses on strategies to reduce energy use intensity and carbon emissions, reuse existing building materials, and use energy-efficient lighting systems.",
+        "source_url": "https://hop.dartmouth.edu/about/your-new-hop",
+        "published": null,
+        "technologies": [
+          "lighting",
+          "emissions"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Renewal & Renovation: The expanded and reimagined Hopkins Center for the Arts held its grand opening last October, and the latest phase of renovations on the Courtyard Cafe, located at the Hop, will wrap up this fall.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/2026-move-faqs-students-and-families",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Hopkins Center Renovation and Expansion The newly installed sign outside of the Daryl and Steven Roth Wing.",
+        "source_url": "https://campus-services.dartmouth.edu/hopkins-center-renovation-and-expansion",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "HOP Project FAQ HOP Project FAQ The HOP Reimagined The HOP Reimagined Hopkins Center for the Arts Hopkins Center for the Arts Project Goals Incorporation of state-of-the-art technologies that will allow the Hop to document, share, and broadcast Dartmouth-originated works across the world Enhancements to community, social, and study spaces, including the Top of the Hop Enhancements to acoustics, flow, and wayfinding throughout the building Substantive upgrades to rehearsal rooms Improvements to accessibility Addressing infrastructure and deferred maintenance for mechanical, electrical, and life safety systems.",
+        "source_url": "https://campus-services.dartmouth.edu/hopkins-center-renovation-and-expansion",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "north-fayerweather-hall-262924494",
+    "osm_id": "way/262924494",
+    "twin_object": "building__north-fayerweather-hall__way_262924494",
+    "name": "North Fayerweather Hall",
+    "centroid": {
+      "longitude": -72.28635087777778,
+      "latitude": 43.7040614
+    },
+    "candidate_count": 26,
+    "technologies": {
+      "steam_to_hot_water": 3,
+      "chilled_water": 1,
+      "geoexchange": 1,
+      "electrical": 1
+    },
+    "project_ids": [
+      "project-crosby-street",
+      "project-fayerweather-hall",
+      "project-native-american-house",
+      "project-russo-hall"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/2026-move-faqs-students-and-families",
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall",
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/native-american-house",
+      "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+      "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction",
+      "https://home.dartmouth.edu/news/2024/11/fayerweather-construction-underway",
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+      "https://home.dartmouth.edu/news/2025/09/historic-gift-shonda-rhimes-91-names-residence-hall",
+      "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals",
+      "https://student-affairs.dartmouth.edu/news/2024/06/dartmouth-buys-four-properties-west-wheelock-street"
+    ],
+    "date_mentions": [
+      "2024",
+      "2026",
+      "2028",
+      "June 2024",
+      "March 2026",
+      "fall 2026"
+    ],
+    "twin_objects": [
+      "building__north-fayerweather-hall__way_262924494"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Image Image An aerial view in March shows work on installing an underground distribution piping vault at East Wheelock and Crosby streets as part of the conversion to a more efficient hot water distribution system for campus heating and cooling. (Photo by Robert Gill) 4/13/2026 More Reading Construction to Close Crosby Street to Traffic Body When the renewed Fayerweather Hall reopens in June , it will be connected to a new hot water and chilled water distribution system that is creating a modern and efficient network for campus heating and cooling and replacing the outdated and costly steam system that in places is more than a century old.",
+        "source_url": "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+        "published": "2026-04",
+        "technologies": [
+          "steam_to_hot_water",
+          "chilled_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Fayerweather Hall, which will reopen this summer, is connected to the new heating and cooling system. (Photo by Sophia Scull ’25) The initial energy transition plan called for developing the geoexchange supply system and the distribution system simultaneously.",
+        "source_url": "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+        "published": "2026-04",
+        "technologies": [
+          "geoexchange"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "As of June, excavation for the hot water conversion loop is mostly complete, and Fayerweather Hill Road has reopened to traffic, with access to Richardson Hall and Observatory Road, though Observatory Road will be closed for the duration of construction in order to install new sewage lines.",
+        "source_url": "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+        "published": "2025-06",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Image A drone photo from early September shows a renovated and expanded Fayerweather Hall behind Dartmouth Hall in the heart of campus. (Photo by Robert Gill) 9/9/2026 More Reading Progress Continues on Dartmouth’s Energy Transition Body As students move into Russo Hall and Fayerweather Hall and site work continues for other new residential halls on West Wheelock Street, construction crews are also making progress on several other projects around campus related to everything from energy efficiency to upgrades at athletics facilities.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Project Goals Installation of elevators and accessible entrances Addition of 35 student beds Increased energy efficiency through building and utility infrastructure upgrades LEED certification Creation of new indoor and outdoor student spaces Addition of a new sidewalk along Observatory Road Project Timing Construction began in June 2024.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall",
+        "published": null,
+        "technologies": [
+          "electrical"
+        ],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "project_page"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "middle-fayerweather-hall-49791103",
+    "osm_id": "way/49791103",
+    "twin_object": "building__middle-fayerweather-hall__way_49791103",
+    "name": "Middle Fayerweather Hall",
+    "centroid": {
+      "longitude": -72.28639333636364,
+      "latitude": 43.70378259090909
+    },
+    "candidate_count": 26,
+    "technologies": {
+      "steam_to_hot_water": 3,
+      "chilled_water": 1,
+      "geoexchange": 1,
+      "electrical": 1
+    },
+    "project_ids": [
+      "project-crosby-street",
+      "project-fayerweather-hall",
+      "project-native-american-house",
+      "project-russo-hall"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/2026-move-faqs-students-and-families",
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall",
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/native-american-house",
+      "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+      "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction",
+      "https://home.dartmouth.edu/news/2024/11/fayerweather-construction-underway",
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+      "https://home.dartmouth.edu/news/2025/09/historic-gift-shonda-rhimes-91-names-residence-hall",
+      "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals",
+      "https://student-affairs.dartmouth.edu/news/2024/06/dartmouth-buys-four-properties-west-wheelock-street"
+    ],
+    "date_mentions": [
+      "2024",
+      "2026",
+      "2028",
+      "June 2024",
+      "March 2026",
+      "fall 2026"
+    ],
+    "twin_objects": [
+      "building__middle-fayerweather-hall__way_49791103"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Image Image An aerial view in March shows work on installing an underground distribution piping vault at East Wheelock and Crosby streets as part of the conversion to a more efficient hot water distribution system for campus heating and cooling. (Photo by Robert Gill) 4/13/2026 More Reading Construction to Close Crosby Street to Traffic Body When the renewed Fayerweather Hall reopens in June , it will be connected to a new hot water and chilled water distribution system that is creating a modern and efficient network for campus heating and cooling and replacing the outdated and costly steam system that in places is more than a century old.",
+        "source_url": "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+        "published": "2026-04",
+        "technologies": [
+          "steam_to_hot_water",
+          "chilled_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Fayerweather Hall, which will reopen this summer, is connected to the new heating and cooling system. (Photo by Sophia Scull ’25) The initial energy transition plan called for developing the geoexchange supply system and the distribution system simultaneously.",
+        "source_url": "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+        "published": "2026-04",
+        "technologies": [
+          "geoexchange"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "As of June, excavation for the hot water conversion loop is mostly complete, and Fayerweather Hill Road has reopened to traffic, with access to Richardson Hall and Observatory Road, though Observatory Road will be closed for the duration of construction in order to install new sewage lines.",
+        "source_url": "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+        "published": "2025-06",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Image A drone photo from early September shows a renovated and expanded Fayerweather Hall behind Dartmouth Hall in the heart of campus. (Photo by Robert Gill) 9/9/2026 More Reading Progress Continues on Dartmouth’s Energy Transition Body As students move into Russo Hall and Fayerweather Hall and site work continues for other new residential halls on West Wheelock Street, construction crews are also making progress on several other projects around campus related to everything from energy efficiency to upgrades at athletics facilities.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Project Goals Installation of elevators and accessible entrances Addition of 35 student beds Increased energy efficiency through building and utility infrastructure upgrades LEED certification Creation of new indoor and outdoor student spaces Addition of a new sidewalk along Observatory Road Project Timing Construction began in June 2024.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall",
+        "published": null,
+        "technologies": [
+          "electrical"
+        ],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "project_page"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "south-fayerweather-hall-298417216",
+    "osm_id": "way/298417216",
+    "twin_object": "building__south-fayerweather-hall__way_298417216",
+    "name": "South Fayerweather Hall",
+    "centroid": {
+      "longitude": -72.28635310909091,
+      "latitude": 43.70342233636364
+    },
+    "candidate_count": 26,
+    "technologies": {
+      "steam_to_hot_water": 3,
+      "chilled_water": 1,
+      "geoexchange": 1,
+      "electrical": 1
+    },
+    "project_ids": [
+      "project-crosby-street",
+      "project-fayerweather-hall",
+      "project-native-american-house",
+      "project-russo-hall"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/2026-move-faqs-students-and-families",
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall",
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/native-american-house",
+      "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+      "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction",
+      "https://home.dartmouth.edu/news/2024/11/fayerweather-construction-underway",
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+      "https://home.dartmouth.edu/news/2025/09/historic-gift-shonda-rhimes-91-names-residence-hall",
+      "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals",
+      "https://student-affairs.dartmouth.edu/news/2024/06/dartmouth-buys-four-properties-west-wheelock-street"
+    ],
+    "date_mentions": [
+      "2024",
+      "2026",
+      "2028",
+      "June 2024",
+      "March 2026",
+      "fall 2026"
+    ],
+    "twin_objects": [
+      "building__south-fayerweather-hall__way_298417216"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Image Image An aerial view in March shows work on installing an underground distribution piping vault at East Wheelock and Crosby streets as part of the conversion to a more efficient hot water distribution system for campus heating and cooling. (Photo by Robert Gill) 4/13/2026 More Reading Construction to Close Crosby Street to Traffic Body When the renewed Fayerweather Hall reopens in June , it will be connected to a new hot water and chilled water distribution system that is creating a modern and efficient network for campus heating and cooling and replacing the outdated and costly steam system that in places is more than a century old.",
+        "source_url": "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+        "published": "2026-04",
+        "technologies": [
+          "steam_to_hot_water",
+          "chilled_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Fayerweather Hall, which will reopen this summer, is connected to the new heating and cooling system. (Photo by Sophia Scull ’25) The initial energy transition plan called for developing the geoexchange supply system and the distribution system simultaneously.",
+        "source_url": "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition",
+        "published": "2026-04",
+        "technologies": [
+          "geoexchange"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "As of June, excavation for the hot water conversion loop is mostly complete, and Fayerweather Hill Road has reopened to traffic, with access to Richardson Hall and Observatory Road, though Observatory Road will be closed for the duration of construction in order to install new sewage lines.",
+        "source_url": "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+        "published": "2025-06",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Image A drone photo from early September shows a renovated and expanded Fayerweather Hall behind Dartmouth Hall in the heart of campus. (Photo by Robert Gill) 9/9/2026 More Reading Progress Continues on Dartmouth’s Energy Transition Body As students move into Russo Hall and Fayerweather Hall and site work continues for other new residential halls on West Wheelock Street, construction crews are also making progress on several other projects around campus related to everything from energy efficiency to upgrades at athletics facilities.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Project Goals Installation of elevators and accessible entrances Addition of 35 student beds Increased energy efficiency through building and utility infrastructure upgrades LEED certification Creation of new indoor and outdoor student spaces Addition of a new sidewalk along Observatory Road Project Timing Construction began in June 2024.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/fayerweather-hall",
+        "published": null,
+        "technologies": [
+          "electrical"
+        ],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "project_page"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "collis",
+    "osm_id": "way/261796580",
+    "twin_object": "building__collis-student-center__way_261796580",
+    "name": "Collis Student Center",
+    "centroid": {
+      "longitude": -72.28991155238096,
+      "latitude": 43.702778395238106
+    },
+    "candidate_count": 17,
+    "technologies": {
+      "emissions": 1,
+      "lighting": 1
+    },
+    "project_ids": [
+      "project-collis-front-porch"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/collis-front-porch",
+      "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+      "https://campus-services.dartmouth.edu/news/2022/11/hop-celebrates-60-events-prior-renovations",
+      "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month",
+      "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction"
+    ],
+    "date_mentions": [
+      "1901",
+      "2024"
+    ],
+    "twin_objects": [
+      "building__collis-student-center__way_261796580"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The infrastructure for the snow melt system, including electric boilers, will be housed in the Collis basement and will be compatible with Dartmouth’s transition to low-carbon energy systems .",
+        "source_url": "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month",
+        "published": "2024-05",
+        "technologies": [
+          "emissions"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The plan also allows for the future installation of LED lighting to colorfully illuminate the Collis Center facade during moments of community celebration. “What’s most exciting about this project is how it helps connect the inside of the building with the outside and expands the capacity of the Collis Center to host all kinds of flexible programming,” says Joe Castelot , director of the Collis Center.",
+        "source_url": "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month",
+        "published": "2024-05",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Collis Front Porch A rendering of the Collis Student Center porch renovation, which includes accessibility improvements and structural repairs. (Courtesy of Sasaki) About the Project The Collis Center for Student Involvement has been a cornerstone of campus life at Dartmouth since 1901.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/collis-front-porch",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "What's Currently Happening Granite stairs are being set in place Soil and trees in the south end are being installed Snow melt tubing for both ramps and the Robinson steps are being added Project Team Project Manager: Geoff Griffin Architect: Sasaki Construction Manager: DEW Contact: Project.Management.Services@dartmouth.edu Related Links Renovation to Collis Center Porch Starts Next Month - May 15, 2024 Early 1900s.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/collis-front-porch",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The building, known today as Collis Center, replaced the A.P.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/collis-front-porch",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "heating-electric-plant-262948873",
+    "osm_id": "way/262948873",
+    "twin_object": "building__heating-electric-plant__way_262948873",
+    "name": "Heating & Electric Plant",
+    "centroid": {
+      "longitude": -72.28652268095237,
+      "latitude": 43.70194426666666
+    },
+    "candidate_count": 14,
+    "technologies": {
+      "steam_to_hot_water": 8,
+      "fuel_oil": 4,
+      "emissions": 4,
+      "biomass": 2,
+      "electrical": 1,
+      "solar": 1,
+      "geoexchange": 1,
+      "heat_pump": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+      "https://campus-services.dartmouth.edu/news/2019/01/new-biomass-plant-will-increase-dartmouths-sustainability",
+      "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+      "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+      "https://climate.dartmouth.edu/operational-goals/energy-transition/strategy",
+      "https://climate.dartmouth.edu/stewardship/energy-transition/strategy",
+      "https://home.dartmouth.edu/news/2019/07/public-forums-set-sites-proposed-biomass-facility",
+      "https://home.dartmouth.edu/news/2019/10/college-moves-forward-green-energy-project",
+      "https://home.dartmouth.edu/news/2023/07/underground-utility-mapping-taking-place-across-campus",
+      "https://home.dartmouth.edu/news/2024/08/residents-get-update-dartmouth-decarbonization-program",
+      "https://home.dartmouth.edu/news/2026/04/progress-continues-dartmouths-energy-transition"
+    ],
+    "date_mentions": [
+      "2024",
+      "December 2018",
+      "Fall 2018",
+      "July 2016",
+      "Summer 2018",
+      "Winter 2018",
+      "Winter 2019"
+    ],
+    "twin_objects": [
+      "building__heating-electric-plant__way_262948873"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Hood Timeline July 2016–December 2018 Construction in progress Winter 2018–Summer 2018 Acclimatization to ready museum for art to be returned to the building Summer–Fall 2018 Art returns to the finished building Winter 2019 Grand reopening This first stage of the renovation includes building an underground duct bank from behind the Visual Arts Center into the Maffei Arts Plaza; prepping a new base for the Shapiro sculpture, which will be moved closer to the west entrance of the Visual Arts Center on July 11; and constructing of underground utility paths from the heating plant to Wilson Hall.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+        "published": "2016-07",
+        "technologies": [
+          "electrical"
+        ],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The College has investigated construction of a wood biomass plant and, while biomass is still an option, project officials are broadening their review to include a deeper analysis of increased use of technologies that are already in use on campus, including solar, heat pumps, and geothermal energy generation, as well as switching to biofuels in the existing oil-fired heating plant.",
+        "source_url": "https://home.dartmouth.edu/news/2019/10/college-moves-forward-green-energy-project",
+        "published": "2019-10",
+        "technologies": [
+          "solar",
+          "geoexchange",
+          "heat_pump",
+          "biomass"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The rest of the heating energy could come from high-efficiency hot-water boilers that would replace the existing steam boilers in the heating plant and would use more efficient No. 2 heating oil or biodiesel fuel, resulting in lower emissions than the No. 6 fuel oil now used in the steam system.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+        "published": "2020-12",
+        "technologies": [
+          "steam_to_hot_water",
+          "fuel_oil",
+          "emissions"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Image Rosi Kerr ’97 speaking to residents at the decarbonization meeting that took place Aug. 14 in the Hanover RWB Community Center. 8/16/2024 Body Hanover residents heard an update on Dartmouth’s decarbonization program at a community meeting this week at which program officials explained the electricity-driven, low-carbon energy system that will replace the institution’s aging fossil-fuel-powered steam-heating plant.",
+        "source_url": "https://home.dartmouth.edu/news/2024/08/residents-get-update-dartmouth-decarbonization-program",
+        "published": "2024-08",
+        "technologies": [
+          "steam_to_hot_water",
+          "emissions"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The heat removed from the water is redirected to the heating system, effectively reducing the building's steam consumption by 82%. \"This will result in a reduction of approximately 37,800 gallons (900 barrels) per year of #6 fuel oil burned at the campus heating plant,\" says Energy Program Manager Scott Hening .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+        "published": "2023-02",
+        "technologies": [
+          "steam_to_hot_water",
+          "fuel_oil"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "hood-museum-of-art-837183231",
+    "osm_id": "way/837183231",
+    "twin_object": "building__hood-museum-of-art__way_837183231",
+    "name": "Hood Museum of Art",
+    "centroid": {
+      "longitude": -72.28738158157893,
+      "latitude": 43.70177970263157
+    },
+    "candidate_count": 14,
+    "technologies": {
+      "lighting": 2
+    },
+    "project_ids": [
+      "project-other-capital-projects"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/other-capital-projects",
+      "https://campus-services.dartmouth.edu/news/2012/04/tod-williams-billie-tsien-architects-design-hood-museums-expansion-and-renovation",
+      "https://campus-services.dartmouth.edu/news/2012/09/architects-discuss-hood-museum-art-renovation-and-expansion-project",
+      "https://campus-services.dartmouth.edu/news/2015/12/hood-fully-engaged-throughout-construction",
+      "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+      "https://campus-services.dartmouth.edu/news/2016/09/green-blue-plan-campus-west-end",
+      "https://home.dartmouth.edu/news/2012/06/librarys-orozco-room-closed-summer-renovation",
+      "https://home.dartmouth.edu/news/2012/10/after-renovations-dartmouth-can-see-orozcos-mural-new-light",
+      "https://home.dartmouth.edu/news/2017/11/trustees-discuss-diversity-enrollment-growth-construction",
+      "https://home.dartmouth.edu/news/2023/07/hopkins-center-expansion-schedule",
+      "https://home.dartmouth.edu/news/2024/02/hop-celebrates-construction-milestone"
+    ],
+    "date_mentions": [
+      "1938",
+      "1985",
+      "2012",
+      "2015",
+      "2016",
+      "2017",
+      "2019",
+      "Autumn 2012",
+      "January 2019"
+    ],
+    "twin_objects": [
+      "building__hood-museum-of-art__way_837183231"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Image A new lighting system has been installed in the Orozco Room in Baker-Berry Library, improving the display of José Clemente Orozco’s “The Epic of American Civilization.” (photo by Eli Burakian ’00) The renovation will be celebrated on October 5 with the Manton Foundation Orozco Lecture by Wellesley College Latin American art scholar Jay Oles, titled “Mexican Pyramids on American Walls: Revivals, Restorations, Reinventions.” The lecture will be held in the Hood Museum of Art Auditorium (formerly the Loew Auditorium beneath the Hood) at 5:30 p.m., followed by a reception in the Baker Library Main Hall at 6:30 p.m.",
+        "source_url": "https://home.dartmouth.edu/news/2012/10/after-renovations-dartmouth-can-see-orozcos-mural-new-light",
+        "published": "2012-10",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [
+          "completed",
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The renovation project is funded by a Manton Foundation grant. “We are grateful to the Manton Foundation for making the Orozco mural re-lighting project possible,” says Michael Taylor , director of the Hood Museum of Art . “The murals are one of the greatest treasures of the College and this new lighting scheme will enhance and enrich the experience of viewing this magnificent fresco cycle.” The renovation project was scheduled for the summer, when student traffic is lighter.",
+        "source_url": "https://home.dartmouth.edu/news/2012/06/librarys-orozco-room-closed-summer-renovation",
+        "published": "2012-06",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Other Capital Projects Hood Museum of Art (2019) The Hood Museum of Art reopened in January 2019 after a multi-year renovation and expansion project that increased the museum's capacity to study, teach from, and view its collections.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/other-capital-projects",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Related Links: Todd Williams and Billie Tsien Talk About the New Hood Museum of Art , Dartmouth News, Feb. 2019 At the Hood's Reopening, See a Brand-New Museum , Dartmouth News, Jan. 2019 A renovated and Expanded Hood Museum Opens its Doors , Dartmouth News, Jan. 2019 Hood Museum of Art Prepares to Expand , Dartmouth News, Dec. 2015 Moosilauke Ravine Lodge (2017) Built in 1938 as a ski resort, the original Moosilauke Ravine Lodge hosted most incoming Dartmouth classes as part of First-Year Trips and served as home base for many excursions and events.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/other-capital-projects",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Supporters of the Hop, institutional leaders, and representatives of the project’s design and construction teams signed their names on a steel beam with Sharpie markers and gathered outside to witness workers skillfully secure it—to an accompanying flourish of trumpets and horns—atop the new wing that will soon house a state-of-the-art recital hall and performance lab . “I’m beyond excited today,” said Hopkins Center Board of Advisors Chair Laurel Richie ’81, speaking to participants in the Russo Atrium of the Hood Museum of Art , which adjoins the Hop. “People will say that it’s a cloudy day and a rainy day, and for me it is a bright sunny day, because this is a day that we have been dreaming about literally for years,” Richie said, recalling the lessons of leadership, teamwork, and friendship she learned by participating in Hop-based theater productions as a student.",
+        "source_url": "https://home.dartmouth.edu/news/2024/02/hop-celebrates-construction-milestone",
+        "published": "2024-02",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "dartmouth-hall",
+    "osm_id": "way/48784540",
+    "twin_object": "building__dartmouth-hall__way_48784540",
+    "name": "Dartmouth Hall",
+    "centroid": {
+      "longitude": -72.28706460769232,
+      "latitude": 43.70377573846153
+    },
+    "candidate_count": 13,
+    "technologies": {
+      "lighting": 2
+    },
+    "project_ids": [
+      "project-fayerweather-hall",
+      "project-russo-hall"
+    ],
+    "source_urls": [
+      "https://admissions.dartmouth.edu/news/2023/05/west-end-building-earns-top-sustainability-certification",
+      "https://alumni.dartmouth.edu/stories-news/women-honor-alumnae-residence-hall-and-riverfront-park",
+      "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+      "https://campus-services.dartmouth.edu/news/2021/10/dartmouth-taking-comprehensive-steps-address-climate-crisis",
+      "https://home.dartmouth.edu/news/2022/11/celebrating-50-years-coeducation-dartmouth",
+      "https://home.dartmouth.edu/news/2024/11/fayerweather-construction-underway",
+      "https://home.dartmouth.edu/news/2025/02/class-1989-commits-30-million-new-residence-hall",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus"
+    ],
+    "date_mentions": [
+      "2018",
+      "2021",
+      "2022",
+      "2026"
+    ],
+    "twin_objects": [
+      "building__dartmouth-hall__way_48784540"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Irving Institute for Energy and Society, Dartmouth Hall, and the current renovations to the Andres and Zimmerman residence halls are currently awaiting certification.",
+        "source_url": "https://admissions.dartmouth.edu/news/2023/05/west-end-building-earns-top-sustainability-certification",
+        "published": "2023-05",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image Image A drone photo from early September shows a renovated and expanded Fayerweather Hall behind Dartmouth Hall in the heart of campus. (Photo by Robert Gill) 9/9/2026 More Reading Progress Continues on Dartmouth’s Energy Transition Body As students move into Russo Hall and Fayerweather Hall and site work continues for other new residential halls on West Wheelock Street, construction crews are also making progress on several other projects around campus related to everything from energy efficiency to upgrades at athletics facilities.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Renovation of Dartmouth Hall was made possible by an alumnae-led campaign that recognized donors at any gift level.",
+        "source_url": "https://alumni.dartmouth.edu/stories-news/women-honor-alumnae-residence-hall-and-riverfront-park",
+        "published": null,
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Dartmouth Hall—one of the most iconic buildings on campus—reopened last month following extensive renovations made possible by the largest alumnae-led fundraising effort in Dartmouth’s history. “We are thrilled to be able to gather together to commemorate these landmark events,” says President Philip J.",
+        "source_url": "https://home.dartmouth.edu/news/2022/11/celebrating-50-years-coeducation-dartmouth",
+        "published": "2022-11",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Group giving, often involving hundreds of donors, has made multiple projects possible in recent years, including the renovation of Dartmouth Hall , construction of the new Moosilauke Ravine Lodge , the Class of 1982 Engineering and Computer Science Center , and the expansion of need-blind admissions to all four-year undergraduates, including international students.",
+        "source_url": "https://home.dartmouth.edu/news/2025/02/class-1989-commits-30-million-new-residence-hall",
+        "published": "2025-02",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "irving-institute-910299376",
+    "osm_id": "way/910299376",
+    "twin_object": "building__irving-institute__way_910299376",
+    "name": "Irving Institute",
+    "centroid": {
+      "longitude": -72.29479999,
+      "latitude": 43.70507214
+    },
+    "candidate_count": 12,
+    "technologies": {
+      "steam_to_hot_water": 1,
+      "biomass": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://admissions.dartmouth.edu/news/2023/05/west-end-building-earns-top-sustainability-certification",
+      "https://campus-services.dartmouth.edu/news/2019/04/coming-soon-updates-dartmouths-master-planning-process",
+      "https://campus-services.dartmouth.edu/news/2020/10/construction-landmark-dartmouths-energy-institute",
+      "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+      "https://campus-services.dartmouth.edu/news/2021/12/dartmouth-dedicates-new-home-global-energy-institute",
+      "https://home.dartmouth.edu/news/2016/09/gathering-celebrates-launch-irving-institute?page=2",
+      "https://home.dartmouth.edu/news/2019/03/improving-energy-use-and-access-us-and-abroad",
+      "https://home.dartmouth.edu/news/2019/09/thayer-irving-us-army-develop-arctic-energy-systems",
+      "https://home.dartmouth.edu/news/2021/04/irving-institute-hold-major-symposium-energy-future"
+    ],
+    "date_mentions": [
+      "2021"
+    ],
+    "twin_objects": [
+      "building__irving-institute__way_910299376"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Irving Institute for Energy and Society, Dartmouth Hall, and the current renovations to the Andres and Zimmerman residence halls are currently awaiting certification.",
+        "source_url": "https://admissions.dartmouth.edu/news/2023/05/west-end-building-earns-top-sustainability-certification",
+        "published": "2023-05",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Ann McLane Kuster ’78, who has participated in multiple institute events, said Dartmouth is positioned to focus its educational strengths on improving the well-being of societies through changes in the energy sphere. “With the establishment of the Irving Institute, and now with the dedication of a brand new, state-of-the-art building to house the institute’s many exciting activities, Dartmouth will be a key player in driving critical conversations around our clean energy future.” The philanthropic investment for the building and the institute’s endowment for research and programming is $160 million.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2021/12/dartmouth-dedicates-new-home-global-energy-institute",
+        "published": "2021-12",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Finding Common Ground Berzolla and Swett met only recently, when they presented their projects at an Irving Institute event and discovered that their interests in access to energy and other resources overlapped. “In the future,” Swett says, “Irving will have its own building where people like Zach and I will meet much earlier in our research processes, and perhaps learn a lot from each other.” After graduation, Swett will work in New York City for the U.S. subsidiary of Mizuho, a large Japanese bank, helping companies finance energy-infrastructure development.",
+        "source_url": "https://home.dartmouth.edu/news/2019/03/improving-energy-use-and-access-us-and-abroad",
+        "published": "2019-03",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Jeanne Shaheen (D-N.H.), as a senior member of the Senate Appropriations and Armed Services Committees, helped facilitate funding of the work. “I’m very pleased to see the Irving Institute at Dartmouth be selected for such an important research opportunity, continuing New Hampshire’s legacy as a leader in scientific innovation and discovery,” said Shaheen. “As our climate continues to change and more areas such as the Arctic become accessible, it’s critical that we have the information necessary to adapt and respond, especially when it comes to safeguarding our military installations and ensuring they can meet their energy needs.” The project’s objective is to extend the Army’s mission capabilities by up to 30 percent while testing new technologies that will lead to the next generation of energy-delivery and storage systems for extremely cold regions.",
+        "source_url": "https://home.dartmouth.edu/news/2019/09/thayer-irving-us-army-develop-arctic-energy-systems",
+        "published": "2019-09",
+        "technologies": [],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Sarah Irving spoke warmly about her father, “a man whose vision for his company is always one of doing the right thing—taking care of our people, protecting the natural environment and making this world a better place.” Arthur Irving, she said, “is passionate about life, and being here today to celebrate that and the opportunities this institute will present for generations to come is very special.” The Irving Institute will be housed in an energy-efficient building that will be located between Thayer School of Engineering and the Tuck School of Business, placing it in proximity to innovative activities at the two schools and creating a point of convergence for faculty and students from around campus.",
+        "source_url": "https://home.dartmouth.edu/news/2016/09/gathering-celebrates-launch-irving-institute?page=2",
+        "published": "2016-09",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "berry-sports-center-48465836",
+    "osm_id": "way/48465836",
+    "twin_object": "building__berry-sports-center__way_48465836",
+    "name": "Berry Sports Center",
+    "centroid": {
+      "longitude": -72.28299071538461,
+      "latitude": 43.70297106153846
+    },
+    "candidate_count": 11,
+    "technologies": {
+      "solar": 4,
+      "steam_to_hot_water": 2,
+      "chilled_water": 1
+    },
+    "project_ids": [
+      "project-berry-sports-center"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/berry-sports-center",
+      "https://campus-services.dartmouth.edu/news/2011/06/ahead-field-dartmouths-commitment-athletics-facilities-continues",
+      "https://campus-services.dartmouth.edu/news/2017/10/new-solar-panels-help-reduce-reliance-fossil-fuels",
+      "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus"
+    ],
+    "date_mentions": [
+      "2017",
+      "2018",
+      "March of 2025"
+    ],
+    "twin_objects": [
+      "building__berry-sports-center__way_48465836"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Articles New Solar Panels Help Reduce Reliance on Fossil Fuels Berry Sports Center is one of three campus buildings with new rooftop arrays.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2017/10/new-solar-panels-help-reduce-reliance-fossil-fuels",
+        "published": "2017-10",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image An aerial view of the new solar panels on the roof of Berry Sports Center (Photo by Robert Gill) 10/25/2017 In a few weeks, over 400 photovoltaic panels atop Berry Sports Center will start harnessing energy from the sun.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2017/10/new-solar-panels-help-reduce-reliance-fossil-fuels",
+        "published": "2017-10",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image An aerial view of the new solar panels on the roof of Berry Sports Center (Photo by Robert Gill) 4/20/2018 Solar panels are scheduled to be installed this summer on eight College buildings, adding to Dartmouth’s ability to reduce its dependence on fossil fuels and also allowing the institution to purchase electricity at a discounted rate.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer",
+        "published": "2018-04",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The planned installations follow the installation last October of solar panels on Davis Varsity House, MacLean Engineering Sciences Center, and Berry Sports Center.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer",
+        "published": "2018-04",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "This project at Berry Sports Center incorporates both architectural renovations and energy upgrades as part of the College's Energy Transition Program.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/berry-sports-center",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "black-family-visual-arts-center-262924500",
+    "osm_id": "way/262924500",
+    "twin_object": "building__black-family-visual-arts-center__way_262924500",
+    "name": "Black Family Visual Arts Center",
+    "centroid": {
+      "longitude": -72.28691044285715,
+      "latitude": 43.7014448
+    },
+    "candidate_count": 9,
+    "technologies": {
+      "steam_to_hot_water": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2012/04/tod-williams-billie-tsien-architects-design-hood-museums-expansion-and-renovation",
+      "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+      "https://campus-services.dartmouth.edu/news/2021/02/snohetta-lead-expansion-and-redesign-hopkins-center",
+      "https://home.dartmouth.edu/news/2012/11/architect-chosen-hop-renovation-and-reimagination-planning-process",
+      "https://home.dartmouth.edu/news/2013/02/renovations-spark-creativity-hops-laboratory",
+      "https://home.dartmouth.edu/news/2016/04/earth-day-working-toward-sustainable-campus-and-world",
+      "https://hop.dartmouth.edu/about/your-new-hop/hop-project-faq"
+    ],
+    "date_mentions": [
+      "1985",
+      "2012",
+      "2013",
+      "2019",
+      "September 2012"
+    ],
+    "twin_objects": [
+      "building__black-family-visual-arts-center__way_262924500"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "New Systems Offer Efficiency and Adaptability The College currently produces steam heat in a plant located on about one acre of land in the heart of campus, behind the Black Family Visual Arts Center.",
+        "source_url": "https://home.dartmouth.edu/news/2016/04/earth-day-working-toward-sustainable-campus-and-world",
+        "published": "2016-04",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "It includes the Hood Museum of Art, redesigned by Tod Williams and Billie Tsien Architects in 2019 and the Black Family Visual Arts Center, completed in 2012 by Machado Silvetti, and the academic arts departments.",
+        "source_url": "https://hop.dartmouth.edu/about/your-new-hop/hop-project-faq",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Harrison, the Hop lives within the Arts District at the heart of Dartmouth's thriving academic community, which includes the Hood Museum of Art , redesigned by Tod Williams and Billie Tsien Architects in 2019, and the Black Family Visual Arts Center, completed in 2012 by Machado Silvetti.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2021/02/snohetta-lead-expansion-and-redesign-hopkins-center",
+        "published": "2021-02",
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The Hop project follows Dartmouth's $55 million investment in the Black Family Visual Arts Center and $50 million for the redesign and expansion of the Hood Museum of Art. \"We aspire for every Dartmouth graduate to be an imaginative thinker and creative leader.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2021/02/snohetta-lead-expansion-and-redesign-hopkins-center",
+        "published": "2021-02",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "During construction, there will no longer be parking for bikes in the northwest corner of the Black Family Visual Arts Center, and only a few spaces for vehicles in the green tag lot behind New Hampshire Hall.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+        "published": "2016-07",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "baker-berry",
+    "osm_id": "way/295888783",
+    "twin_object": "building__baker-library__way_295888783",
+    "name": "Baker Library",
+    "centroid": {
+      "longitude": -72.2886985935484,
+      "latitude": 43.705112435483876
+    },
+    "candidate_count": 9,
+    "technologies": {
+      "lighting": 2
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2014/05/design-firm-outline-plan-undergraduate-communities",
+      "https://campus-services.dartmouth.edu/news/2021/12/dartmouth-dedicates-new-home-global-energy-institute",
+      "https://home.dartmouth.edu/news/2012/06/librarys-orozco-room-closed-summer-renovation",
+      "https://home.dartmouth.edu/news/2012/10/after-renovations-dartmouth-can-see-orozcos-mural-new-light"
+    ],
+    "date_mentions": [
+      "2012"
+    ],
+    "twin_objects": [
+      "building__baker-library__way_295888783",
+      "building__berry-library__way_295888784"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Hanlon ’77 to prepare Dartmouth students to engage with one of the most important issues of the coming decades. (Photo By Dave Cowley) Located on the West End of campus at the intersection of the Tuck School of Business and the Thayer School of Engineering, and with an expansive view east to Baker Library, the 55,000-square-foot building will be a meeting place where students from across campus and energy experts from around the world gather to develop a deeper understanding of how energy production and consumption affect all facets of society.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2021/12/dartmouth-dedicates-new-home-global-energy-institute",
+        "published": "2021-12",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image A new lighting system has been installed in the Orozco Room in Baker-Berry Library, improving the display of José Clemente Orozco’s “The Epic of American Civilization.” (photo by Eli Burakian ’00) The renovation will be celebrated on October 5 with the Manton Foundation Orozco Lecture by Wellesley College Latin American art scholar Jay Oles, titled “Mexican Pyramids on American Walls: Revivals, Restorations, Reinventions.” The lecture will be held in the Hood Museum of Art Auditorium (formerly the Loew Auditorium beneath the Hood) at 5:30 p.m., followed by a reception in the Baker Library Main Hall at 6:30 p.m.",
+        "source_url": "https://home.dartmouth.edu/news/2012/10/after-renovations-dartmouth-can-see-orozcos-mural-new-light",
+        "published": "2012-10",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [
+          "completed",
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image A new lighting system has been installed in the Orozco Room in Baker-Berry Library, improving the display of José Clemente Orozco’s “The Epic of American Civilization.” (photo by Eli Burakian ’00) The renovation will be celebrated on October 5 with the Manton Foundation Orozco Lecture by Wellesley College Latin American art scholar Jay Oles, titled “Mexican Pyramids on American Walls: Revivals, Restorations, Reinventions.” The lecture will be held in the Hood Museum of Art Auditorium (formerly the Loew Auditorium beneath the Hood) at 5:30 p.m., followed by a reception in the Baker Library Main Hall at 6:30 p.m.",
+        "source_url": "https://home.dartmouth.edu/news/2012/10/after-renovations-dartmouth-can-see-orozcos-mural-new-light",
+        "published": "2012-10",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [
+          "completed",
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The company worked on the Baker-Berry Library renovation and addition.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2014/05/design-firm-outline-plan-undergraduate-communities",
+        "published": "2014-05",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The company worked on the Baker-Berry Library renovation and addition.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2014/05/design-firm-outline-plan-undergraduate-communities",
+        "published": "2014-05",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "thompson-arena-48465832",
+    "osm_id": "way/48465832",
+    "twin_object": "building__thompson-arena__way_48465832",
+    "name": "Thompson Arena",
+    "centroid": {
+      "longitude": -72.28060187857143,
+      "latitude": 43.701041714285715
+    },
+    "candidate_count": 8,
+    "technologies": {
+      "steam_to_hot_water": 2,
+      "emissions": 1,
+      "hvac": 1
+    },
+    "project_ids": [
+      "project-thompson-ice-hockey-arena"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena",
+      "https://campus-services.dartmouth.edu/news/2011/06/ahead-field-dartmouths-commitment-athletics-facilities-continues",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals"
+    ],
+    "date_mentions": [
+      "1975",
+      "2030",
+      "2050"
+    ],
+    "twin_objects": [
+      "building__thompson-arena__way_48465832"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Additionally, the project includes a mechanical systems upgrade—transitioning from steam to hot water heating systems—in both Thompson Arena and the nearby Graham Indoor Practice Facility (IPF).",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena",
+        "published": null,
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "This transition is part of Dartmouth's energy transition effort, which aims to reduce campus emissions by 60% by 2030 and 100% by 2050.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena",
+        "published": null,
+        "technologies": [
+          "emissions"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "project_page"
+      },
+      {
+        "evidence": "Create mechanical space required for the hot water conversion by relocating Smoyer Lounge.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena",
+        "published": null,
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "project_page"
+      },
+      {
+        "evidence": "Thompson Arena renewal Renovations this summer at Thompson Arena will reduce energy costs and update the building’s major mechanical systems—most of which are original to the arena’s opening in 1975—including dehumidification systems, locker room heating and ventilation, and fire protection.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2011/06/ahead-field-dartmouths-commitment-athletics-facilities-continues",
+        "published": "2011-06",
+        "technologies": [
+          "hvac"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "As a result of this initiative, the project includes the addition of approximately 11,050 square feet on the eastern side of the arena, as well as approximately 12,100 square feet of interior renovations to the existing Thompson Arena.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "zimmerman-hall-48466718",
+    "osm_id": "way/48466718",
+    "twin_object": "building__zimmerman-hall__way_48466718",
+    "name": "Zimmerman Hall",
+    "centroid": {
+      "longitude": -72.28389125999999,
+      "latitude": 43.70440681
+    },
+    "candidate_count": 8,
+    "technologies": {},
+    "project_ids": [
+      "project-east-wheelock-housing-renewal",
+      "project-fayerweather-hall"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/east-wheelock-housing-renewal",
+      "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction",
+      "https://home.dartmouth.edu/news/2024/11/fayerweather-construction-underway",
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://home.dartmouth.edu/news/2025/02/dartmouth-help-build-more-employee-housing",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals",
+      "https://student-affairs.dartmouth.edu/news/2024/06/dartmouth-buys-four-properties-west-wheelock-street"
+    ],
+    "date_mentions": [
+      "fall 2026"
+    ],
+    "twin_objects": [
+      "building__zimmerman-hall__way_48466718"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "East Wheelock Housing Renewal (Photo By Sasaki) About the Project As part of Dartmouth's initiative to supply additional beds to the undergraduate housing portfolio, the East Wheelock housing cluster comprising Andres Hall, Zimmerman Hall, and Brace Commons is undergoing major renovation.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/east-wheelock-housing-renewal",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The second phase is underway, with construction at Zimmerman Hall and Brace Commons.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/east-wheelock-housing-renewal",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Zimmerman Hall and Brace Commons are being completely renovated and will reopen in time for fall term, while work is beginning this summer on a major overhaul of Fayerweather Hall, which is expected to be ready for occupancy in fall 2026.",
+        "source_url": "https://student-affairs.dartmouth.edu/news/2024/06/dartmouth-buys-four-properties-west-wheelock-street",
+        "published": "2024-06",
+        "technologies": [],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "To date, work has been completed on the renewal of Zimmerman Hall, Andres Hall, and Brace Commons in East Wheelock House.",
+        "source_url": "https://home.dartmouth.edu/news/2025/02/dartmouth-help-build-more-employee-housing",
+        "published": "2025-02",
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The renovation of Zimmerman Hall and the Brace Commons social space, both of which are in the East Wheelock house community, is wrapping up soon, and a major overhaul of 120-year-old Fayerweather Hall is underway.",
+        "source_url": "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction",
+        "published": "2024-08",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "leverone-field-house-48465833",
+    "osm_id": "way/48465833",
+    "twin_object": "building__leverone-field-house__way_48465833",
+    "name": "Leverone Field House",
+    "centroid": {
+      "longitude": -72.283055225,
+      "latitude": 43.701002
+    },
+    "candidate_count": 7,
+    "technologies": {
+      "steam_to_hot_water": 3
+    },
+    "project_ids": [
+      "project-leverone-field-house"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/leverone-field-house",
+      "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month",
+      "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic"
+    ],
+    "date_mentions": [
+      "2024"
+    ],
+    "twin_objects": [
+      "building__leverone-field-house__way_48465833"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Leverone Field House will be closed through September to complete roof replacement and convert the mechanical systems from steam to hot water.",
+        "source_url": "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+        "published": "2025-06",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Convert the heating system from steam to hot water.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/leverone-field-house",
+        "published": null,
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "project_page"
+      },
+      {
+        "evidence": "Construction progress is underway for phase 2 of the North-facing roof replacement and the steam to hot water upgrades.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/leverone-field-house",
+        "published": null,
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "project_page"
+      },
+      {
+        "evidence": "Leverone Field House Phase one of construction began in early 2024.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/leverone-field-house",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Photos by Todd Thompson About the Project The Leverone Field House is currently undergoing a replacement of the building's roof and a renewal of its mechanical, electrical, and fire protection systems.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/leverone-field-house",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "webster-hall-48784527",
+    "osm_id": "way/48784527",
+    "twin_object": "building__webster-hall__way_48784527",
+    "name": "Webster Hall",
+    "centroid": {
+      "longitude": -72.28817463076925,
+      "latitude": 43.70449655384615
+    },
+    "candidate_count": 7,
+    "technologies": {
+      "steam_to_hot_water": 2,
+      "emissions": 1,
+      "geoexchange": 1
+    },
+    "project_ids": [
+      "project-leverone-field-house"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+      "https://home.dartmouth.edu/news/2019/11/geoexchange-testing-set-green-dewey-lot",
+      "https://home.dartmouth.edu/news/2023/03/making-montgomery-house-more-energy-efficient",
+      "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month"
+    ],
+    "date_mentions": [
+      "2022",
+      "2023"
+    ],
+    "twin_objects": [
+      "building__webster-hall__way_48784527"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The Rauner Special Collections Library is getting some major efficiency upgrades while also keeping its valuable material in a protective climate. (Photo By Kevin Yang) The switch from steam heat to hot water in buildings across campus serves to improve energy efficiency as Dartmouth pivots from its central heating plant and steam-heating system toward newer energy technologies that will significantly reduce the College's carbon footprint. \"The Rauner conversion is one of more than 100 buildings on campus that we will transition to high-efficiency hot-water heat.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+        "published": "2023-02",
+        "technologies": [
+          "steam_to_hot_water",
+          "emissions"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Image Dave Hosford of Vermont Heating and Ventilating works on the Rauner project. (Photo By Eli Burakian '00) 2/3/2023 More Reading https://home.dartmouth.edu/news/2022/03/dartmouth-heating-system-upgrades-draw-… As part of Dartmouth's ongoing energy transition, the Rauner Special Collections Library is in the midst of changing the building's heating system away from campus steam to hot water, which is significantly more efficient.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+        "published": "2023-02",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Current projections are that a geoexchange system of about 26 wells installed on or near the Green could provide up to 75 percent of the heating and 95 percent of the cooling for the Dartmouth Library’s Rauner Special Collections Library.",
+        "source_url": "https://home.dartmouth.edu/news/2019/11/geoexchange-testing-set-green-dewey-lot",
+        "published": "2019-11",
+        "technologies": [
+          "geoexchange"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Articles Sustainability Renovations Underway at Rauner Library Chiller system powered by electricity to provide most heat and cooling.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+        "published": "2023-02",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The Rauner Library uses a lot of energy because of the environmental control that needs to be constantly maintained to preserve the valuable artifacts in the building, which range from Daniel Webster's copy of the first edition of John James Audubon's Birds of America to cuneiform tablets dating from the 20th century BCE. \"The places I work in tend to be energy intensive,\" says Satterfield.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+        "published": "2023-02",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "wheelock-house-548904598",
+    "osm_id": "way/548904598",
+    "twin_object": "building__wheelock-house__way_548904598",
+    "name": "Wheelock House",
+    "centroid": {
+      "longitude": -72.29039479473684,
+      "latitude": 43.70218559473684
+    },
+    "candidate_count": 7,
+    "technologies": {
+      "lighting": 1
+    },
+    "project_ids": [
+      "project-leverone-field-house"
+    ],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month",
+      "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://home.dartmouth.edu/news/2025/02/dartmouth-help-build-more-employee-housing",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals"
+    ],
+    "date_mentions": [
+      "2024",
+      "fall 2023"
+    ],
+    "twin_objects": [
+      "building__wheelock-house__way_548904598"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The residence hall will be updated and renovated, and improvements include air conditioning and all-gender, single-user bathrooms for increased privacy. (Photo by Robert Gill) The renovation of Brace Commons—the central social space for East Wheelock House—has dramatically improved that building’s accessibility, natural lighting, and outdoor landscaping.",
+        "source_url": "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+        "published": "2024-06",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The projects follow the renovation of Andres Hall, which is also part of East Wheelock House and reopened in fall 2023.",
+        "source_url": "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+        "published": "2024-06",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "To date, work has been completed on the renewal of Zimmerman Hall, Andres Hall, and Brace Commons in East Wheelock House.",
+        "source_url": "https://home.dartmouth.edu/news/2025/02/dartmouth-help-build-more-employee-housing",
+        "published": "2025-02",
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Other ongoing construction projects on campus this summer include the continued expansion of the Hopkins Center for the Arts, the restoration of the exterior Dartmouth Library’s Rauner Special Collections Library, and renewal of Leverone Field House and residence halls in East Wheelock House.",
+        "source_url": "https://home.dartmouth.edu/news/2024/05/renovation-collis-center-porch-starts-next-month",
+        "published": "2024-05",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image Image From left, Kennedy Wiehle ’25, Kirsten Thundercloud ’25, and Marietta Hamill ’25 walk through Brace Commons. (Photo by Sophia Scull ’25) 11/6/2024 More Reading Dartmouth Details Expansive Vision for Undergrad Housing Body After more than two years of a major renovation, undergraduates are once again living in all the residence halls in East Wheelock House, which now offer light-filled study and social spaces, air conditioning, private bathrooms, and elevators, among other amenities.",
+        "source_url": "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+        "published": "2024-11",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "steele-hall-49796549",
+    "osm_id": "way/49796549",
+    "twin_object": "building__steele-hall__way_49796549",
+    "name": "Steele Hall",
+    "centroid": {
+      "longitude": -72.28673496470587,
+      "latitude": 43.705702364705886
+    },
+    "candidate_count": 6,
+    "technologies": {
+      "steam_to_hot_water": 1,
+      "hvac": 1,
+      "emissions": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2018/07/steele-hall-undergoes-major-renovation-during-summer-term",
+      "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library"
+    ],
+    "date_mentions": [
+      "2018",
+      "2025",
+      "2030",
+      "2050"
+    ],
+    "twin_objects": [
+      "building__steele-hall__way_49796549"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The project’s goals include a 50 percent reduction in greenhouse gas emissions by 2025, a 20 percent improvement in the efficiency of the campus energy-distribution system by 2030, and obtaining 100 percent of Dartmouth’s energy supply from renewables by 2050. “One of the basic principles of the sustainability project is for the College to pursue these goals in a fiscally prudent way,” Roberts says. “So, when we began planning for necessary repairs to the heating, ventilation, and air conditioning systems in Steele Hall, we saw that it was an opportunity to convert the old steam system, upgrade energy efficiencies, and support a classroom renovation by ITC at the same time.” Work began on June 4, after the end of spring term, and is expected to be completed before fall classes begin on Sept. 12.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/07/steele-hall-undergoes-major-renovation-during-summer-term",
+        "published": "2018-07",
+        "technologies": [
+          "steam_to_hot_water",
+          "hvac",
+          "emissions"
+        ],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Articles Steele Hall Undergoes Major Renovation During Summer Term Efficiency upgrades are projected to save $190,000 a year in energy costs.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/07/steele-hall-undergoes-major-renovation-during-summer-term",
+        "published": "2018-07",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image Steele Hall, closed for the summer as it undergoes renovations and an energy-efficiency overhaul, is scheduled to reopen before the start of fall term classes. (Photo by Eli Burakian ’00) 7/3/2018 Steele Hall , home to the chemistry, Earth sciences, environmental studies, and geography departments, is closed this summer for renovations that include a major energy-efficiency upgrade.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/07/steele-hall-undergoes-major-renovation-during-summer-term",
+        "published": "2018-07",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The project is scheduled to be completed before the start of classes in the fall. “The project is an investment in the infrastructure of the labs and classrooms that will allow the important instructional and research work based in Steele Hall to continue for the next 20 years,” says Frank Roberts , associate vice president of Facilities Operations and Management. “We are able to do this by using newer technology that will lead to energy saving on the order of $190,000 a year.” A major portion of the work will involve replacing the air-control valves that serve the building’s lab areas.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/07/steele-hall-undergoes-major-renovation-during-summer-term",
+        "published": "2018-07",
+        "technologies": [],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The rare books in Rauner had some temporary protection as work on the project began. (Photo By Harini Barath) Similar efficiency upgrades were executed during the course of a summer term at Steele Hall , because it could be closed down completely.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2023/02/sustainability-renovations-underway-rauner-library",
+        "published": "2023-02",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "life-sciences",
+    "osm_id": "way/262950856",
+    "twin_object": "building__class-of-1978-life-sciences-center__way_262950856",
+    "name": "Class of 1978 Life Sciences Center",
+    "centroid": {
+      "longitude": -72.28390166511629,
+      "latitude": 43.70903082093023
+    },
+    "candidate_count": 6,
+    "technologies": {
+      "fuel_oil": 2,
+      "lighting": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2010/06/update-campus-construction-projects",
+      "https://campus-services.dartmouth.edu/news/2010/08/class-1978-life-sciences-center-aims-set-sustainability-standard",
+      "https://campus-services.dartmouth.edu/news/2016/08/task-force-seeks-reduce-campus-carbon-footprint",
+      "https://campus-services.dartmouth.edu/news/2016/09/green-blue-plan-campus-west-end",
+      "https://home.dartmouth.edu/news/2012/03/dartmouths-life-sciences-center-wins-platinum-award-green-building-practices",
+      "https://home.dartmouth.edu/news/2016/04/earth-day-working-toward-sustainable-campus-and-world"
+    ],
+    "date_mentions": [
+      "2010",
+      "2011",
+      "2016"
+    ],
+    "twin_objects": [
+      "building__class-of-1978-life-sciences-center__way_262950856"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "One of the newest structures on campus, the Class of 1978 Life Sciences Center is rated as a LEED platinum building, the highest certification in the benchmarking system designating resource efficient “green” buildings. (Photo by John Sherman) Hogarty says energy efficiency accomplishments to date include: Since 2011, Dartmouth has added 300,000 square feet of building space while reducing campus consumption of fuel oil by close to one third, in part through an energy conservation program that has installed more efficient equipment, lighting, and recommissioned heating and ventilating systems.",
+        "source_url": "https://home.dartmouth.edu/news/2016/04/earth-day-working-toward-sustainable-campus-and-world",
+        "published": "2016-04",
+        "technologies": [
+          "lighting",
+          "fuel_oil"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image One of the newest structures on campus, the Class of 1978 Life Sciences Center is rated as a LEED platinum building, the highest certification in the benchmarking system designating resource-efficient “green” buildings. (Photo by John Sherman) 8/8/2016 Over the last five years, Dartmouth has added 300,000 square feet of building space while reducing campus consumption of fuel oil by close to one third.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/08/task-force-seeks-reduce-campus-carbon-footprint",
+        "published": "2016-08",
+        "technologies": [
+          "fuel_oil"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Sustainability is a core value that we bring to all of our work in capital projects and operations,” says Linda Snyder, vice president for Campus Planning and Facilities. “It is deeply gratifying to know that the Life Sciences Center is providing a platform for our academic programs in the environmental and life sciences.” LEED is an internationally recognized mark of excellence that provides “a framework for identifying and implementing practical and measurable green building design, construction, operations and maintenance solutions,” according to the USGBC. “This is a great accomplishment for Dartmouth and the design team,” says Professor Thomas Jack , chair of the Department of Biological Sciences , which is housed in the new building.",
+        "source_url": "https://home.dartmouth.edu/news/2012/03/dartmouths-life-sciences-center-wins-platinum-award-green-building-practices",
+        "published": "2012-03",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Work is well under way on both the Class of 1978 Life Sciences Center and the Visual Arts Center .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2010/06/update-campus-construction-projects",
+        "published": "2010-06",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Articles Class of 1978 Life Sciences Center Aims to Set Sustainability Standard 8/10/2010 Listen to the podcast with Joe Broemel and David Andronico Joe Broemel (seated, left), Dartmouth senior project manager, and David Andronico, project engineer with general contractor Bond Brothers. (Photo by Joseph Mehling ’69) In this podcast, Joe Broemel, Dartmouth senior project manager, and David Andronico, project engineer with general contractor Bond Brothers , discuss the construction of the Class of 1978 Life Sciences Center .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2010/08/class-1978-life-sciences-center-aims-set-sustainability-standard",
+        "published": "2010-08",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "wilson-hall-262924497",
+    "osm_id": "way/262924497",
+    "twin_object": "building__wilson-hall__way_262924497",
+    "name": "Wilson Hall",
+    "centroid": {
+      "longitude": -72.28739892692307,
+      "latitude": 43.70231428846153
+    },
+    "candidate_count": 6,
+    "technologies": {
+      "electrical": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/2026-move-faqs-students-and-families",
+      "https://campus-services.dartmouth.edu/news/2012/04/tod-williams-billie-tsien-architects-design-hood-museums-expansion-and-renovation",
+      "https://campus-services.dartmouth.edu/news/2012/09/architects-discuss-hood-museum-art-renovation-and-expansion-project",
+      "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins"
+    ],
+    "date_mentions": [
+      "1985",
+      "December 2018",
+      "Fall 2018",
+      "July 2016",
+      "Summer 2018",
+      "Winter 2018",
+      "Winter 2019"
+    ],
+    "twin_objects": [
+      "building__wilson-hall__way_262924497"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Hood Timeline July 2016–December 2018 Construction in progress Winter 2018–Summer 2018 Acclimatization to ready museum for art to be returned to the building Summer–Fall 2018 Art returns to the finished building Winter 2019 Grand reopening This first stage of the renovation includes building an underground duct bank from behind the Visual Arts Center into the Maffei Arts Plaza; prepping a new base for the Shapiro sculpture, which will be moved closer to the west entrance of the Visual Arts Center on July 11; and constructing of underground utility paths from the heating plant to Wilson Hall.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+        "published": "2016-07",
+        "technologies": [
+          "electrical"
+        ],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Following pipe installation between Reed/Bartlett halls, Topliff/New Hampshire halls, and around Wilson Hall, the team is implementing enhanced restoration in those areas, including improving the landscaping, walkways, and more.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/2026-move-faqs-students-and-families",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "While construction is underway, the facilities surrounding the Hood will remain open, including the Hopkins Center, the Visual Arts Center, New Hampshire Hall, and Wilson Hall.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+        "published": "2016-07",
+        "technologies": [],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The project will include the renovation of Wilson Hall. “We want to release it to its original grandeur—the turrets themselves are amazing spaces,” says Tod Williams. (photo © Bruce M.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2012/09/architects-discuss-hood-museum-art-renovation-and-expansion-project",
+        "published": "2012-09",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The goal of the project, which encompasses the renovation of the adjacent Wilson Hall and an addition to the 1985 Hood Museum of Art building, is to significantly increase the museum’s gallery space and classrooms, and feature new entrance facilities and amenities.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2012/04/tod-williams-billie-tsien-architects-design-hood-museums-expansion-and-renovation",
+        "published": "2012-04",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "foco",
+    "osm_id": "way/262912597",
+    "twin_object": "building__class-of-1953-commons__way_262912597",
+    "name": "Class of 1953 Commons",
+    "centroid": {
+      "longitude": -72.2909753142857,
+      "latitude": 43.70308790000001
+    },
+    "candidate_count": 6,
+    "technologies": {
+      "solar": 1,
+      "steam_to_hot_water": 1
+    },
+    "project_ids": [
+      "project-thayer-drive"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2010/06/update-campus-construction-projects",
+      "https://campus-services.dartmouth.edu/news/2016/09/green-blue-plan-campus-west-end",
+      "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer",
+      "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+      "https://home.dartmouth.edu/news/2016/04/earth-day-working-toward-sustainable-campus-and-world"
+    ],
+    "date_mentions": [
+      "2011",
+      "May 2011"
+    ],
+    "twin_objects": [
+      "building__class-of-1953-commons__way_262912597"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The buildings slated to get rooftop solar systems are Fahey-McLane, Kemeny-Haldeman, McLaughlin, Moore, Russel Sage, Silsby, Sudikoff, and the Class of 1953 Commons.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer",
+        "published": "2018-04",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The life sciences building is three times as large as Gilman Hall (previously used for life sciences), and uses one-tenth of the energy, says Hogarty. (LEED stands for Leadership in Energy and Environmental Design.) The renovation of the Class of 1953 Commons dining facility, which in 2011 was switched from steam to hot water heat, has resulted in fuel savings of about $173,000 a year, a 50 percent reduction in the cost to heat the building.",
+        "source_url": "https://home.dartmouth.edu/news/2016/04/earth-day-working-toward-sustainable-campus-and-world",
+        "published": "2016-04",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The renovation of Thayer dining hall, newly renamed the Class of 1953 Commons , begins in June.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2010/06/update-campus-construction-projects",
+        "published": "2010-06",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Major support: A $40 million commitment from the Class of 1978 Estimated completion: May 2011 Class of 1953 Commons (photo by Joseph Mehling ’69) At a May 25 dedication ceremony , Thayer Hall, Dartmouth’s main dining facility, was renamed the Class of 1953 Commons.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2010/06/update-campus-construction-projects",
+        "published": "2010-06",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Conversions have been completed in a number of buildings, including Burke, Carson, Collis, Sudikoff, the Class of 1953 Commons, Wilson, and the Dartmouth Library's Baker-Berry Library.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+        "published": "2020-12",
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "andres-hall-48466719",
+    "osm_id": "way/48466719",
+    "twin_object": "building__andres-hall__way_48466719",
+    "name": "Andres Hall",
+    "centroid": {
+      "longitude": -72.28428117777779,
+      "latitude": 43.704154922222216
+    },
+    "candidate_count": 6,
+    "technologies": {},
+    "project_ids": [
+      "project-east-wheelock-housing-renewal"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/east-wheelock-housing-renewal",
+      "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://home.dartmouth.edu/news/2025/02/dartmouth-help-build-more-employee-housing",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals"
+    ],
+    "date_mentions": [
+      "2017",
+      "fall 2023",
+      "fall of 2023"
+    ],
+    "twin_objects": [
+      "building__andres-hall__way_48466719"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The first phase, now complete, focused on Andres Hall and resulted in 12 additional beds, new study spaces, and increased accessibility and energy efficiency.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/east-wheelock-housing-renewal",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "East Wheelock Housing Renewal (Photo By Sasaki) About the Project As part of Dartmouth's initiative to supply additional beds to the undergraduate housing portfolio, the East Wheelock housing cluster comprising Andres Hall, Zimmerman Hall, and Brace Commons is undergoing major renovation.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/east-wheelock-housing-renewal",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The projects follow the renovation of Andres Hall, which is also part of East Wheelock House and reopened in fall 2023.",
+        "source_url": "https://home.dartmouth.edu/news/2024/06/progress-continues-renewal-undergraduate-housing",
+        "published": "2024-06",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "To date, work has been completed on the renewal of Zimmerman Hall, Andres Hall, and Brace Commons in East Wheelock House.",
+        "source_url": "https://home.dartmouth.edu/news/2025/02/dartmouth-help-build-more-employee-housing",
+        "published": "2025-02",
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Everyone seems very impressed with the renovations and excited to begin using them.” The upgrades follow the reopening of East Wheelock’s Andres Hall in the fall of 2023 and Morton Hall in 2017.",
+        "source_url": "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+        "published": "2024-11",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "west-stands-48465834",
+    "osm_id": "way/48465834",
+    "twin_object": "building__west-stands__way_48465834",
+    "name": "West Stands",
+    "centroid": {
+      "longitude": -72.28494864,
+      "latitude": 43.70129148
+    },
+    "candidate_count": 6,
+    "technologies": {},
+    "project_ids": [
+      "project-crosby-street"
+    ],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2014/12/work-continues-memorial-field-renovation-project",
+      "https://home.dartmouth.edu/news/2015/01/video-time-lapse-west-stands-construction",
+      "https://home.dartmouth.edu/news/2015/09/west-stands-renovation-all-set-big-green-home-opener",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus"
+    ],
+    "date_mentions": [
+      "1923",
+      "2014",
+      "2015"
+    ],
+    "twin_objects": [
+      "building__west-stands__way_48465834"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "At the West Stands at Buddy Teevens Stadium at Memorial Field, part of the grassy area and hardscape have been restored; work continues on Crosby Street.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "More news Articles West Stands Renovation All Set for Big Green Home Opener 9/23/2015 Body Fresh off a season premiere win at Georgetown last week, Dartmouth football returns to Hanover for Saturday’s home opener against Sacred Heart under the lights of the newly renovated Memorial Field.",
+        "source_url": "https://home.dartmouth.edu/news/2015/09/west-stands-renovation-all-set-big-green-home-opener",
+        "published": "2015-09",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The West Stands were originally completed in 1923, and the structure had been deemed by engineers to be nearing the end of its useful life.",
+        "source_url": "https://home.dartmouth.edu/news/2015/09/west-stands-renovation-all-set-big-green-home-opener",
+        "published": "2015-09",
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "More news Articles Video: Time-Lapse of West Stands Construction 1/29/2015 Body The West Stands at Dartmouth’s Memorial Field stood for 91 years, from 1923 to 2014.",
+        "source_url": "https://home.dartmouth.edu/news/2015/01/video-time-lapse-west-stands-construction",
+        "published": "2015-01",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image A view of the demolition of West Stands. (Photo by Eli Burakian ’00) Construction is scheduled to finish in time for the new stands to welcome crowds when football season kicks off next fall.",
+        "source_url": "https://home.dartmouth.edu/news/2015/01/video-time-lapse-west-stands-construction",
+        "published": "2015-01",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "anonymous-hall-262950853",
+    "osm_id": "way/262950853",
+    "twin_object": "building__anonymous-hall__way_262950853",
+    "name": "Anonymous Hall",
+    "centroid": {
+      "longitude": -72.28497456250001,
+      "latitude": 43.7081264
+    },
+    "candidate_count": 5,
+    "technologies": {
+      "steam_to_hot_water": 2,
+      "solar": 2
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+      "https://campus-services.dartmouth.edu/news/2021/10/dartmouth-taking-comprehensive-steps-address-climate-crisis"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__anonymous-hall__way_262950853"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The solar photovoltaic installation can be see on the roof of Anonymous Hall, in the bottom center of the photo. (Photo by Robert Gill) Using low-temperature hot water to provide heat to buildings is estimated to be 20% more efficient than the current steam system.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+        "published": "2020-12",
+        "technologies": [
+          "steam_to_hot_water",
+          "solar"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "In preparation for the future hot-water heating network, low-temperature hot-water systems have been installed in Anonymous Hall , the Indoor Practice Facility , and Reed Hall .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+        "published": "2020-12",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "completed",
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Other examples of recent energy-efficiency and green energy work: Installation of rooftop solar photovoltaic systems on three buildings—the Friends of Dartmouth Rowing Boathouse , Anonymous Hall, and the Indoor Practice Facility.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+        "published": "2020-12",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "New facilities and major renovations, including Anonymous Hall, the Center for Engineering and Computer Science , the Arthur L.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+        "published": "2020-12",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Other current or recently completed high-performance building projects include Anonymous Hall , the Center for Engineering and Computer Science , and the renovations to Dartmouth Hall .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2021/10/dartmouth-taking-comprehensive-steps-address-climate-crisis",
+        "published": "2021-10",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "maclean-engineering-sciences-center-262950527",
+    "osm_id": "way/262950527",
+    "twin_object": "building__maclean-engineering-sciences-center__way_262950527",
+    "name": "MacLean Engineering Sciences Center",
+    "centroid": {
+      "longitude": -72.29477100454545,
+      "latitude": 43.70424524545454
+    },
+    "candidate_count": 5,
+    "technologies": {
+      "solar": 2,
+      "chilled_water": 1
+    },
+    "project_ids": [
+      "project-berry-sports-center",
+      "project-thayer-drive"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thayer-drive",
+      "https://campus-services.dartmouth.edu/news/2016/05/25-million-gift-propels-expansion-dartmouth-engineering",
+      "https://campus-services.dartmouth.edu/news/2016/09/green-blue-plan-campus-west-end",
+      "https://campus-services.dartmouth.edu/news/2017/10/new-solar-panels-help-reduce-reliance-fossil-fuels",
+      "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer"
+    ],
+    "date_mentions": [
+      "2016"
+    ],
+    "twin_objects": [
+      "building__maclean-engineering-sciences-center__way_262950527"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Project Goals To bring hot and chilled water piping from an existing source in MacLean Engineering Sciences Center down Thayer Drive to service area residence halls.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thayer-drive",
+        "published": null,
+        "technologies": [
+          "chilled_water"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Davis Varsity House and the MacLean Engineering Sciences Center also have solar arrays under the same contract with ReVision.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2017/10/new-solar-panels-help-reduce-reliance-fossil-fuels",
+        "published": "2017-10",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The planned installations follow the installation last October of solar panels on Davis Varsity House, MacLean Engineering Sciences Center, and Berry Sports Center.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer",
+        "published": "2018-04",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Articles $25 Million Gift Propels Expansion of Dartmouth Engineering Image The MacLean Engineering Sciences Center at Thayer School of Engineering was named for lead donors Barry and Mary Ann MacLean. (Photo by Robert Gill) 5/16/2016 In the 55 years since he graduated from Dartmouth’s Thayer School of Engineering , Barry MacLean ’60, Thayer ’61, has notched an unparalleled record of service to the school and to Dartmouth.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/05/25-million-gift-propels-expansion-dartmouth-engineering",
+        "published": "2016-05",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Early thinking about the future for the west end includes building expansion opportunities for Thayer School of Engineering, the Department of Computer Science, and the Tuck School of Business; potential construction of a parking garage; safety improvements to the intersection of West Wheelock Street and Thayer Drive; traffic flow modifications; enhancement of outdoor spaces to connect the campus to the riverfront; and development of a pedestrian/cyclist bridge over the town-owned cemetery located between the Class of 1953 Commons and the MacLean Engineering Sciences Center.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/09/green-blue-plan-campus-west-end",
+        "published": "2016-09",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "class-of-1982-engineering-and-computer-science-center-693100230",
+    "osm_id": "way/693100230",
+    "twin_object": "building__class-of-1982-engineering-and-computer-science-center__way_693100230",
+    "name": "Class of 1982 Engineering and Computer Science Center",
+    "centroid": {
+      "longitude": -72.29459907272727,
+      "latitude": 43.70363615454546
+    },
+    "candidate_count": 4,
+    "technologies": {
+      "solar": 2,
+      "insulation": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://admissions.dartmouth.edu/news/2023/05/west-end-building-earns-top-sustainability-certification",
+      "https://home.dartmouth.edu/news/2024/02/apartment-style-housing-planned-west-wheelock-street",
+      "https://home.dartmouth.edu/news/2025/02/class-1989-commits-30-million-new-residence-hall"
+    ],
+    "date_mentions": [
+      "2024"
+    ],
+    "twin_objects": [
+      "building__class-of-1982-engineering-and-computer-science-center__way_693100230"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Image The Class of 1982 Engineering and Computer Science Center opened last spring in the West End of campus and has won recognition for its sustainability features, including solar power. (Photo by Eli Burakian ’00) Designed with a high-insulation, energy-efficient envelope, the building encloses a mix of classrooms, research and teaching labs, and an expansive central atrium that is both naturally skylit and ventilated.",
+        "source_url": "https://admissions.dartmouth.edu/news/2023/05/west-end-building-earns-top-sustainability-certification",
+        "published": "2023-05",
+        "technologies": [
+          "solar",
+          "insulation"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image Image The solar panels on the roof were one factor in helping the Class of 1982 Engineering and Computer Science Center win Leadership in Energy and Environmental Design Platinum certification. (Photo by Eli Burakian ’00) Body The Class of 1982 Engineering and Computer Science Center was recently awarded a Leadership in Energy and Environmental Design Platinum certification, the U.S.",
+        "source_url": "https://admissions.dartmouth.edu/news/2023/05/west-end-building-earns-top-sustainability-certification",
+        "published": "2023-05",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Group giving, often involving hundreds of donors, has made multiple projects possible in recent years, including the renovation of Dartmouth Hall , construction of the new Moosilauke Ravine Lodge , the Class of 1982 Engineering and Computer Science Center , and the expansion of need-blind admissions to all four-year undergraduates, including international students.",
+        "source_url": "https://home.dartmouth.edu/news/2025/02/class-1989-commits-30-million-new-residence-hall",
+        "published": "2025-02",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image Image The Class of 1982 Engineering and Computer Science Center sits on a hill above vacant buildings at 25-27 West Wheelock Street, which Dartmouth plans to replace with apartment-style housing in one building. (Photo by Katie Lenhart) 2/20/2024 More Reading A New Plan for Undergraduate Housing on West Wheelock Body Dartmouth will talk with town planning officials next month about plans to build apartment-style housing on the West End of campus at 25-27 West Wheelock Street, the first new project in President Sian Leah Beilock’s pledge to add 1,000 new beds for students, faculty, and staff over the next decade.",
+        "source_url": "https://home.dartmouth.edu/news/2024/02/apartment-style-housing-planned-west-wheelock-street",
+        "published": "2024-02",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "new-hampshire-hall-262924496",
+    "osm_id": "way/262924496",
+    "twin_object": "building__new-hampshire-hall__way_262924496",
+    "name": "New Hampshire Hall",
+    "centroid": {
+      "longitude": -72.28681121000001,
+      "latitude": 43.70251958
+    },
+    "candidate_count": 4,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+      "https://home.dartmouth.edu/news/2024/05/construction-geo-exchange-system-begin-june",
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__new-hampshire-hall__way_262924496"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The New Hampshire Hall side of East Wheelock Street, where the first vault will be installed.",
+        "source_url": "https://home.dartmouth.edu/news/2024/05/construction-geo-exchange-system-begin-june",
+        "published": "2024-05",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "During construction, there will no longer be parking for bikes in the northwest corner of the Black Family Visual Arts Center, and only a few spaces for vehicles in the green tag lot behind New Hampshire Hall.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+        "published": "2016-07",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "While construction is underway, the facilities surrounding the Hood will remain open, including the Hopkins Center, the Visual Arts Center, New Hampshire Hall, and Wilson Hall.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2016/07/hard-hat-zone-construction-hood-begins",
+        "published": "2016-07",
+        "technologies": [],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Construction related to the vault and piping system will extend into next year in areas near Topliff and New Hampshire Hall, with some substantial work taking place next summer.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "alumni-gymnasium-48467159",
+    "osm_id": "way/48467159",
+    "twin_object": "building__alumni-gymnasium__way_48467159",
+    "name": "Alumni Gymnasium",
+    "centroid": {
+      "longitude": -72.28388177037037,
+      "latitude": 43.70271656296296
+    },
+    "candidate_count": 4,
+    "technologies": {},
+    "project_ids": [
+      "project-crosby-street",
+      "project-fayerweather-hall"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2015/12/construction-set-begin-house-communities-structures",
+      "https://campus-services.dartmouth.edu/news/2018/07/friends-dartmouth-rowing-boathouse-expansion-begin",
+      "https://home.dartmouth.edu/news/2024/05/construction-geo-exchange-system-begin-june",
+      "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction"
+    ],
+    "date_mentions": [
+      "fall 2019"
+    ],
+    "twin_objects": [
+      "building__alumni-gymnasium__way_48467159"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Over the summer, piping and conduit work will follow East Wheelock Street to Crosby Street and cross over to the south side of East Wheelock in front of the tennis courts and Alumni Gym.",
+        "source_url": "https://home.dartmouth.edu/news/2024/05/construction-geo-exchange-system-begin-june",
+        "published": "2024-05",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "Work on the second temporary house center, to be built on the south tennis court next to Alumni Gym, is scheduled to begin in March.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2015/12/construction-set-begin-house-communities-structures",
+        "published": "2015-12",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      },
+      {
+        "evidence": "The upgraded facility, which is scheduled to be ready for use in fall 2019 under the current building timetable, would include state-of-the-art moving-water rowing tanks to better simulate rowing on the river, an improvement over the existing still-water tanks in Alumni Gymnasium. “This facility would help us recruit and also overcome some of the challenges in gaining water time,” says Wyatt Allen, coach of men’s heavyweight rowing .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/07/friends-dartmouth-rowing-boathouse-expansion-begin",
+        "published": "2018-07",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Areas currently under construction include regions surrounding East Wheelock Street, Fayerweather Hall, Ivy Lane, and south of Alumni Gym.",
+        "source_url": "https://home.dartmouth.edu/news/2024/08/back-school-progress-report-campus-construction",
+        "published": "2024-08",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "reed-hall-48784525",
+    "osm_id": "way/48784525",
+    "twin_object": "building__reed-hall__way_48784525",
+    "name": "Reed Hall",
+    "centroid": {
+      "longitude": -72.2874288125,
+      "latitude": 43.7031027625
+    },
+    "candidate_count": 3,
+    "technologies": {
+      "steam_to_hot_water": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2019/12/faculty-staff-moving-out-reed-hall-during-renovation",
+      "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project"
+    ],
+    "date_mentions": [
+      "2019"
+    ],
+    "twin_objects": [
+      "building__reed-hall__way_48784525"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "In preparation for the future hot-water heating network, low-temperature hot-water systems have been installed in Anonymous Hall , the Indoor Practice Facility , and Reed Hall .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2020/12/work-continues-green-energy-project",
+        "published": "2020-12",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "completed",
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Articles Faculty, Staff Moving Out of Reed Hall During Renovation Work will continue through summer, with the building expected to be in use for fall term.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2019/12/faculty-staff-moving-out-reed-hall-during-renovation",
+        "published": "2019-12",
+        "technologies": [],
+        "status_hints": [
+          "in_progress",
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image (Photo by Eli Burakian ’00) 12/18/2019 Faculty and staff who work in Reed Hall have been moving out of the building this week so that renovation work can begin on the 179-year-old building.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2019/12/faculty-staff-moving-out-reed-hall-during-renovation",
+        "published": "2019-12",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "native-american-house-721286482",
+    "osm_id": "way/721286482",
+    "twin_object": "building__native-american-house__way_721286482",
+    "name": "Native American House",
+    "centroid": {
+      "longitude": -72.28862500588234,
+      "latitude": 43.70728107058823
+    },
+    "candidate_count": 3,
+    "technologies": {
+      "lighting": 1
+    },
+    "project_ids": [
+      "project-native-american-house",
+      "project-russo-hall"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/native-american-house",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals"
+    ],
+    "date_mentions": [
+      "1995",
+      "June 2026"
+    ],
+    "twin_objects": [
+      "building__native-american-house__way_721286482"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Project Goals To create additional gathering space, more bedrooms and bathrooms for residents To upgrade the building’s heating and cooling systems Improve the existing structure with new flooring, paint, lighting and plumbing fixtures, kitchen appliances and millwork Project Timing The Native American House closed in June 2026 for renovations.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/native-american-house",
+        "published": null,
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Project Team Project Manager: Jenna Gibbons Architect: Black River Design Construction Manager: Engelberth Contact: Project.Management@dartmouth.edu Related Links Native American House Russo, Fayerweather On Track to Open This Year",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/native-american-house",
+        "published": null,
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image Alma Batista ’27 unpacks in her new Russo Hall apartment-style residence. (Photo by Sophia Scull ’25) This summer, work began at 35 North Main St. on the Native American House , a living learning community that has served as a crucial social and cultural hub for Native American and Indigenous students since 1995.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "morton-hall-48466717",
+    "osm_id": "way/48466717",
+    "twin_object": "building__morton-hall__way_48466717",
+    "name": "Morton Hall",
+    "centroid": {
+      "longitude": -72.28351246999999,
+      "latitude": 43.70406257999999
+    },
+    "candidate_count": 3,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals"
+    ],
+    "date_mentions": [
+      "2017",
+      "fall of 2023"
+    ],
+    "twin_objects": [
+      "building__morton-hall__way_48466717"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Work also continues on a dynamic new rooftop plaza, with space for outdoor performances, events, and hanging out. “Having Brace Commons has definitely helped revamp the feeling of an East Wheelock community,” says Jessica Jiang ’25, an East Wheelock House undergraduate adviser who lives in Morton Hall. “It’s nice to have a space to hang out with friends, watch a movie, or study without having to walk elsewhere on campus.",
+        "source_url": "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+        "published": "2024-11",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Everyone seems very impressed with the renovations and excited to begin using them.” The upgrades follow the reopening of East Wheelock’s Andres Hall in the fall of 2023 and Morton Hall in 2017.",
+        "source_url": "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+        "published": "2024-11",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Renewals have already been completed in East Wheelock House’s Zimmerman Hall, Andres Hall, Morton Hall, and Brace Commons .",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/russo-hall-opening-marks-progress-housing-goals",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [
+          "completed"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "sudikoff-hall-49796201",
+    "osm_id": "way/49796201",
+    "twin_object": "building__sudikoff-hall__way_49796201",
+    "name": "Sudikoff Hall",
+    "centroid": {
+      "longitude": -72.28697040571427,
+      "latitude": 43.70674477428571
+    },
+    "candidate_count": 2,
+    "technologies": {
+      "electrical": 1
+    },
+    "project_ids": [
+      "project-crosby-street"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/crosby-street",
+      "https://campus-services.dartmouth.edu/news/2022/11/hop-celebrates-60-events-prior-renovations"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__sudikoff-hall__way_49796201"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "This work is already underway with piping having been installed during the North to West Utilities project (distribution piping from Sudikoff Hall to west campus), and now it's time to begin the next phase by starting to connect the pipes.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/crosby-street",
+        "published": null,
+        "technologies": [
+          "electrical"
+        ],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "And surprises are also in store. \"Be on the lookout for arts activities in pop-up venues and innovative creation spaces around campus,\" Aleskie says. \"In short, we're not closing—we're everywhere.\" During the renovations, the music and theater departments will find a home in Sudikoff Hall, which includes room for collaboration, practice, and rehearsals.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2022/11/hop-celebrates-60-events-prior-renovations",
+        "published": "2022-11",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "hanover-high-school-264225521",
+    "osm_id": "way/264225521",
+    "twin_object": "building__hanover-high-school__way_264225521",
+    "name": "Hanover High School",
+    "centroid": {
+      "longitude": -72.28340464142859,
+      "latitude": 43.698664474285714
+    },
+    "candidate_count": 2,
+    "technologies": {
+      "biomass": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2019/01/new-biomass-plant-will-increase-dartmouths-sustainability",
+      "https://campus-services.dartmouth.edu/news/2022/11/outdoor-center-planned-oak-hill-storrs-pond-area"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__hanover-high-school__way_264225521"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Hanover High School and the Richmond Middle School, also in Hanover, both burn biomass to heat their facilities.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2019/01/new-biomass-plant-will-increase-dartmouths-sustainability",
+        "published": "2019-01",
+        "technologies": [
+          "biomass"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "In addition to upgrading the home of Dartmouth's Nordic teams, the improvements will enable extended use of the area for recreational skiers, the Ford Sayre Ski Program, Hanover High School, and regional club teams, as well as off-season use by mountain bikers, runners, and hikers.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2022/11/outdoor-center-planned-oak-hill-storrs-pond-area",
+        "published": "2022-11",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "davis-varsity-house-48467160",
+    "osm_id": "way/48467160",
+    "twin_object": "building__davis-varsity-house__way_48467160",
+    "name": "Davis Varsity House",
+    "centroid": {
+      "longitude": -72.284592425,
+      "latitude": 43.70231846666667
+    },
+    "candidate_count": 2,
+    "technologies": {
+      "solar": 2
+    },
+    "project_ids": [
+      "project-berry-sports-center"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2017/10/new-solar-panels-help-reduce-reliance-fossil-fuels",
+      "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__davis-varsity-house__way_48467160"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Davis Varsity House and the MacLean Engineering Sciences Center also have solar arrays under the same contract with ReVision.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2017/10/new-solar-panels-help-reduce-reliance-fossil-fuels",
+        "published": "2017-10",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "The planned installations follow the installation last October of solar panels on Davis Varsity House, MacLean Engineering Sciences Center, and Berry Sports Center.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2018/04/more-solar-panels-be-installed-campus-summer",
+        "published": "2018-04",
+        "technologies": [
+          "solar"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "president-s-house-49797498",
+    "osm_id": "way/49797498",
+    "twin_object": "building__president-s-house__way_49797498",
+    "name": "President's House",
+    "centroid": {
+      "longitude": -72.29307539411764,
+      "latitude": 43.70620478823529
+    },
+    "candidate_count": 2,
+    "technologies": {
+      "emissions": 2
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://climate.dartmouth.edu/news/2024/12/students-assess-co2-emissions-presidents-house-lawn"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__president-s-house__way_49797498"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "The undergraduates measured carbon dioxide emissions from the lawn of the President's House as part of an independent study project—research supported by President Sian Leah Beilock .",
+        "source_url": "https://climate.dartmouth.edu/news/2024/12/students-assess-co2-emissions-presidents-house-lawn",
+        "published": "2024-12",
+        "technologies": [
+          "emissions"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Anneliese Henrich '28 connects a vacuum hose to a metal soil probe as she and fellow students measured carbon dioxide emissions from the lawn of the President's House in November. (Photo By Robert Gill) Students recommended reducing the amount of fertilizer used on the lawn, and they also suggested looking at transforming it into a \"microbial fuel cell—a system that generates electricity by harnessing the metabolic activity of microorganisms\" and could potentially power soil moisture sensors to optimize how and when the lawn is irrigated, Renshaw said.",
+        "source_url": "https://climate.dartmouth.edu/news/2024/12/students-assess-co2-emissions-presidents-house-lawn",
+        "published": "2024-12",
+        "technologies": [
+          "emissions"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "montgomery-house-642362809",
+    "osm_id": "way/642362809",
+    "twin_object": "building__montgomery-house__way_642362809",
+    "name": "Montgomery House",
+    "centroid": {
+      "longitude": -72.28687658888889,
+      "latitude": 43.71006407777778
+    },
+    "candidate_count": 2,
+    "technologies": {
+      "insulation": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2023/03/making-montgomery-house-more-energy-efficient"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__montgomery-house__way_642362809"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Image Nathaniel Roe ’23, Adelina Sederman ’23, Kaulana Kanno ’23, and Sophie Edelman ’22 outside of Montgomery House in late October when they were doing an energy audit. (Photo by Katie Lenhart) The team found, for instance, that a lot of warm air is escaping through the chimneys. “Sealing up the chimney flues stood out to us as a way of reducing the amount of air that is leaking and easily improve the envelope of the house,” says Edelman.",
+        "source_url": "https://home.dartmouth.edu/news/2023/03/making-montgomery-house-more-energy-efficient",
+        "published": "2023-03",
+        "technologies": [
+          "insulation"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Image Image Nathaniel Roe ’23, Adelina Sederman ’23, Kaulana Kanno ’23, and Sophie Edelman ’22 look at the meter on a vacuum-sealed door that Michael Goetinck of Snowdog Construction had applied during an energy audit of Montgomery House.",
+        "source_url": "https://home.dartmouth.edu/news/2023/03/making-montgomery-house-more-energy-efficient",
+        "published": "2023-03",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "north-massachusetts-hall-262913680",
+    "osm_id": "way/262913680",
+    "twin_object": "building__north-massachusetts-hall__way_262913680",
+    "name": "North Massachusetts Hall",
+    "centroid": {
+      "longitude": -72.29060168181819,
+      "latitude": 43.70410718181818
+    },
+    "candidate_count": 2,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+      "https://www.sustainability.dartmouth.edu/single-post/this-week-in-sustainability-august-26th-september-1st-2026"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__north-massachusetts-hall__way_262913680"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Waste Diversion Interns | 5-10 hrs/week Interns will work in the Free Market, an on-campus thrift store in North Massachusetts Hall in which clothing is sorted and stored and where, during open hours, students are welcome to come take what they need free of charge.",
+        "source_url": "https://www.sustainability.dartmouth.edu/single-post/this-week-in-sustainability-august-26th-september-1st-2026",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      },
+      {
+        "evidence": "Next up in the renewal program is Mass Row, which is currently in the schematic design phase.",
+        "source_url": "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+        "published": "2024-11",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "graham-indoor-practice-facility-783709299",
+    "osm_id": "way/783709299",
+    "twin_object": "building__graham-indoor-practice-facility__way_783709299",
+    "name": "Graham Indoor Practice Facility",
+    "centroid": {
+      "longitude": -72.27834783333334,
+      "latitude": 43.701055633333326
+    },
+    "candidate_count": 1,
+    "technologies": {
+      "steam_to_hot_water": 1
+    },
+    "project_ids": [
+      "project-thompson-ice-hockey-arena"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__graham-indoor-practice-facility__way_783709299"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Additionally, the project includes a mechanical systems upgrade—transitioning from steam to hot water heating systems—in both Thompson Arena and the nearby Graham Indoor Practice Facility (IPF).",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thompson-ice-hockey-arena",
+        "published": null,
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "richardson-hall-49791107",
+    "osm_id": "way/49791107",
+    "twin_object": "building__richardson-hall__way_49791107",
+    "name": "Richardson Hall",
+    "centroid": {
+      "longitude": -72.28665694,
+      "latitude": 43.704750000000004
+    },
+    "candidate_count": 1,
+    "technologies": {
+      "steam_to_hot_water": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__richardson-hall__way_49791107"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "As of June, excavation for the hot water conversion loop is mostly complete, and Fayerweather Hill Road has reopened to traffic, with access to Richardson Hall and Observatory Road, though Observatory Road will be closed for the duration of construction in order to install new sewage lines.",
+        "source_url": "https://home.dartmouth.edu/news/2025/06/construction-close-crosby-street-traffic",
+        "published": "2025-06",
+        "technologies": [
+          "steam_to_hot_water"
+        ],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "high",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "murdough-center-262950532",
+    "osm_id": "way/262950532",
+    "twin_object": "building__murdough-center__way_262950532",
+    "name": "Murdough Center",
+    "centroid": {
+      "longitude": -72.29507880769232,
+      "latitude": 43.70505643076923
+    },
+    "candidate_count": 1,
+    "technologies": {
+      "lighting": 1
+    },
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2021/12/dartmouth-dedicates-new-home-global-energy-institute"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__murdough-center__way_262950532"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "As part of the construction work, crews installed new heating/cooling, lighting, fire alarm, and sprinkler systems for the attached Murdough Center, Feldberg Library, and Cook Auditorium.",
+        "source_url": "https://campus-services.dartmouth.edu/news/2021/12/dartmouth-dedicates-new-home-global-energy-institute",
+        "published": "2021-12",
+        "technologies": [
+          "lighting"
+        ],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "channing-cox-hall-549364455",
+    "osm_id": "way/549364455",
+    "twin_object": "building__channing-cox-hall__way_549364455",
+    "name": "Channing Cox Hall",
+    "centroid": {
+      "longitude": -72.29612356363636,
+      "latitude": 43.70364011818181
+    },
+    "candidate_count": 1,
+    "technologies": {},
+    "project_ids": [
+      "project-thayer-drive"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thayer-drive"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__channing-cox-hall__way_549364455"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "What's Currently Happening Construction team has installed fencing around the Channing Cox Hall and Maxwell Hall to support construction privacy to install new sidewalks connecting Channing Cox Lot to ECSC.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thayer-drive",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "maxwell-hall-549364456",
+    "osm_id": "way/549364456",
+    "twin_object": "building__maxwell-hall__way_549364456",
+    "name": "Maxwell Hall",
+    "centroid": {
+      "longitude": -72.29554306206897,
+      "latitude": 43.70376874827586
+    },
+    "candidate_count": 1,
+    "technologies": {},
+    "project_ids": [
+      "project-thayer-drive"
+    ],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thayer-drive"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__maxwell-hall__way_549364456"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "What's Currently Happening Construction team has installed fencing around the Channing Cox Hall and Maxwell Hall to support construction privacy to install new sidewalks connecting Channing Cox Lot to ECSC.",
+        "source_url": "https://campus-services.dartmouth.edu/construction-campus/projects-glance/thayer-drive",
+        "published": null,
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "hanover-inn-dartmouth-548896471",
+    "osm_id": "way/548896471",
+    "twin_object": "building__hanover-inn-dartmouth__way_548896471",
+    "name": "Hanover Inn Dartmouth",
+    "centroid": {
+      "longitude": -72.2887222257143,
+      "latitude": 43.70209125142858
+    },
+    "candidate_count": 1,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://campus-services.dartmouth.edu/news/2012/04/hanover-inn-schedule-open-commencement-following-transformational-renovation"
+    ],
+    "date_mentions": [
+      "2012"
+    ],
+    "twin_objects": [
+      "building__hanover-inn-dartmouth__way_548896471"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Articles Hanover Inn on Schedule to Open for Commencement Following Transformational Renovation 4/23/2012 The newly transformed Hanover Inn at Dartmouth —featuring modern conference facilities, beautifully appointed guest rooms and amenities, and world-class dining—will reopen in June, in time for Commencement and Reunions .",
+        "source_url": "https://campus-services.dartmouth.edu/news/2012/04/hanover-inn-schedule-open-commencement-following-transformational-renovation",
+        "published": "2012-04",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "floren-varsity-house-295951349",
+    "osm_id": "way/295951349",
+    "twin_object": "building__floren-varsity-house__way_295951349",
+    "name": "Floren Varsity House",
+    "centroid": {
+      "longitude": -72.2834651090909,
+      "latitude": 43.70163179090909
+    },
+    "candidate_count": 1,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__floren-varsity-house__way_295951349"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Similarly, at Floren Varsity House , the building is open for regular use, with some punch list work, after improvements to the football locker room, equipment room, a classroom, and strength and conditioning spaces.",
+        "source_url": "https://home.dartmouth.edu/news/2026/09/construction-projects-continue-across-campus",
+        "published": "2026-09",
+        "technologies": [],
+        "status_hints": [],
+        "link_confidence": "medium",
+        "match_reason": "exact_name"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "fairchild-physical-sciences-center-49795632",
+    "osm_id": "way/49795632",
+    "twin_object": "building__fairchild-physical-sciences-center__way_49795632",
+    "name": "Fairchild Physical Sciences Center",
+    "centroid": {
+      "longitude": -72.28632279230769,
+      "latitude": 43.70573510384616
+    },
+    "candidate_count": 1,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2019/02/irving-energy-institute-funds-first-research-projects"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__fairchild-physical-sciences-center__way_49795632"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "A third interest might be in energy policy and rural regions of the United States.” In addition to Adams and Sosin, the grant recipients are: Mary Albert , professor of engineering at Thayer School of Engineering, for partnering with citizens of Qaanaaq, Greenland, on promoting Sustainable Energy for Remote and Underserved Communities Ian Baker , the Sherman Fairchild Professor of Engineering at Thayer School of Engineering , for developing High Performance Nickel-Iron Permanent Magnetics for Electric Motors and Turbines Junyang Cui ’21 and Harish Tekriwal ’21, for “ Constructing Effective Demand Response Programs in New Hampshire’s Electric Market ” Amro Farid , associate professor of engineering at Thayer School of Engineering, whose team will develop for Lebanon, N.H., a Transactive Energy Blockchain Prototype to enhance the sustainability of the city’s electric grid.",
+        "source_url": "https://home.dartmouth.edu/news/2019/02/irving-energy-institute-funds-first-research-projects",
+        "published": "2019-02",
+        "technologies": [],
+        "status_hints": [
+          "planned"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "middle-massachusetts-hall-262913307",
+    "osm_id": "way/262913307",
+    "twin_object": "building__middle-massachusetts-hall__way_262913307",
+    "name": "Middle Massachusetts Hall",
+    "centroid": {
+      "longitude": -72.29049493846153,
+      "latitude": 43.70380411538462
+    },
+    "candidate_count": 1,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__middle-massachusetts-hall__way_262913307"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Next up in the renewal program is Mass Row, which is currently in the schematic design phase.",
+        "source_url": "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+        "published": "2024-11",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  },
+  {
+    "app_id": "south-massachusetts-hall-262913209",
+    "osm_id": "way/262913209",
+    "twin_object": "building__south-massachusetts-hall__way_262913209",
+    "name": "South Massachusetts Hall",
+    "centroid": {
+      "longitude": -72.29054014375,
+      "latitude": 43.703447025
+    },
+    "candidate_count": 1,
+    "technologies": {},
+    "project_ids": [],
+    "source_urls": [
+      "https://home.dartmouth.edu/news/2024/11/housing-renewal"
+    ],
+    "date_mentions": [],
+    "twin_objects": [
+      "building__south-massachusetts-hall__way_262913209"
+    ],
+    "top_evidence": [
+      {
+        "evidence": "Next up in the renewal program is Mass Row, which is currently in the schematic design phase.",
+        "source_url": "https://home.dartmouth.edu/news/2024/11/housing-renewal",
+        "published": "2024-11",
+        "technologies": [],
+        "status_hints": [
+          "in_progress"
+        ],
+        "link_confidence": "medium",
+        "match_reason": "alias"
+      }
+    ],
+    "verification": "unreviewed"
+  }
+]

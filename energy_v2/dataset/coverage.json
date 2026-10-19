@@ -1,0 +1,14 @@
+{
+  "pages_scraped": 35,
+  "project_records": 21,
+  "buildings_seeded": 7,
+  "links_discovered": 526,
+  "relevant_uncrawled_dartmouth_links": 20,
+  "limitations": [
+    "No fresh website requests performed in this pass",
+    "Project dates and actual status not verified",
+    "Technology mentions are keyword matches, not confirmed installations",
+    "Building list is incomplete",
+    "PDFs and images not extracted"
+  ]
+}
