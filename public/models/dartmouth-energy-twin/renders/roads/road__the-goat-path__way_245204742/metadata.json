@@ -1,0 +1,50 @@
+{
+  "name": "road__the-goat-path__way_245204742",
+  "displayName": "The Goat Path",
+  "osmId": "way/245204742",
+  "originalName": "Ways.347",
+  "type": "roads",
+  "dimensions": {
+    "x": 23.460724,
+    "y": 23.787354,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 6,
+  "edges": 5,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 6,
+    "looseEdges": 5,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 5
+  },
+  "topologyByObject": [
+    {
+      "name": "road__the-goat-path__way_245204742",
+      "kind": "base",
+      "vertices": 6,
+      "edges": 5,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 6,
+      "looseEdges": 5,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 5
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__the-goat-path__way_245204742.glb",
+  "fbx": "road__the-goat-path__way_245204742.fbx"
+}

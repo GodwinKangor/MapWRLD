@@ -1,0 +1,50 @@
+{
+  "name": "building__shattuck-observatory__way_49796726",
+  "displayName": "Shattuck Observatory",
+  "osmId": "way/49796726",
+  "originalName": "Areas.062",
+  "type": "buildings",
+  "dimensions": {
+    "x": 16.859879,
+    "y": 17.615707,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 28,
+  "edges": 42,
+  "faces": 15,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 14,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 14,
+    "nonManifoldEdges": 14
+  },
+  "topologyByObject": [
+    {
+      "name": "building__shattuck-observatory__way_49796726",
+      "kind": "base",
+      "vertices": 28,
+      "edges": 42,
+      "faces": 15,
+      "triangles": 0,
+      "quads": 14,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 14,
+      "nonManifoldEdges": 14
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Shattuck Observatory.glb",
+  "fbx": "Shattuck Observatory.fbx"
+}

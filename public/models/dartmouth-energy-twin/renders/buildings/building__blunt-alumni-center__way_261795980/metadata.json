@@ -1,0 +1,50 @@
+{
+  "name": "building__blunt-alumni-center__way_261795980",
+  "displayName": "Blunt Alumni Center",
+  "osmId": "way/261795980",
+  "originalName": "Areas.092",
+  "type": "buildings",
+  "dimensions": {
+    "x": 43.134598,
+    "y": 35.553299,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 38,
+  "edges": 57,
+  "faces": 20,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 19,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 19,
+    "nonManifoldEdges": 19
+  },
+  "topologyByObject": [
+    {
+      "name": "building__blunt-alumni-center__way_261795980",
+      "kind": "base",
+      "vertices": 38,
+      "edges": 57,
+      "faces": 20,
+      "triangles": 0,
+      "quads": 19,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 19,
+      "nonManifoldEdges": 19
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Blunt Alumni Center.glb",
+  "fbx": "Blunt Alumni Center.fbx"
+}

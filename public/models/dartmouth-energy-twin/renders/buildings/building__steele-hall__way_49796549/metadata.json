@@ -1,0 +1,50 @@
+{
+  "name": "building__steele-hall__way_49796549",
+  "displayName": "Steele Hall",
+  "osmId": "way/49796549",
+  "originalName": "Areas.059",
+  "type": "buildings",
+  "dimensions": {
+    "x": 54.671993,
+    "y": 43.511978,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 32,
+  "edges": 48,
+  "faces": 17,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 16,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 16,
+    "nonManifoldEdges": 16
+  },
+  "topologyByObject": [
+    {
+      "name": "building__steele-hall__way_49796549",
+      "kind": "base",
+      "vertices": 32,
+      "edges": 48,
+      "faces": 17,
+      "triangles": 0,
+      "quads": 16,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 16,
+      "nonManifoldEdges": 16
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Steele Hall.glb",
+  "fbx": "Steele Hall.fbx"
+}

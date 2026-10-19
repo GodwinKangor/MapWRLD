@@ -1,2246 +1,2939 @@
 # Dartmouth Energy Twin Scene Report
 
 Source: `/Users/godwinkangor/MapWRLD/MapWRLD/public/models/dartmouth-energy-twin/dartmouth-energy-twin.blend`
-Objects: 2231
-Mesh objects: 2226
-Materials: 2
-Collections: 5
+Objects: 2920
+Mesh objects: 2918
+Materials: 20
+Collections: 6
 Bounds min: (-792.161, -831.412, -1.000)
-Bounds max: (792.161, 831.412, 21.640)
+Bounds max: (792.161, 831.412, 66.200)
 
 ## Collections
 
-- Buildings and Field: 758 direct objects
+- Baker Library Integrated Details: 11 direct objects
+- Baker Library Reference Details: 0 direct objects
+- Buildings and Field: 2910 direct objects
 - Collection: 3 direct objects
-- Collection 4: 0 direct objects
-- Collection 5: 0 direct objects
-- Roads and Paths: 1470 direct objects
+- Dartmouth Hall Integrated Details: 683 direct objects
+- Roads and Paths: 0 direct objects
 
 ## Mesh Objects
 
-- Areas: dims=(52.57, 95.72, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.001: dims=(103.55, 57.85, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.002: dims=(123.52, 101.66, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.003: dims=(47.79, 115.00, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.004: dims=(50.83, 47.44, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.005: dims=(83.21, 86.27, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.006: dims=(43.75, 130.87, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.007: dims=(44.24, 36.05, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.008: dims=(48.42, 61.03, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.009: dims=(24.00, 20.25, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.010: dims=(23.49, 24.79, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.011: dims=(15.85, 15.60, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.012: dims=(10.87, 9.98, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.013: dims=(13.02, 9.01, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.014: dims=(9.54, 25.32, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.015: dims=(10.82, 15.08, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.016: dims=(8.60, 8.56, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.017: dims=(15.12, 9.80, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.018: dims=(14.50, 13.31, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.019: dims=(13.76, 9.06, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.020: dims=(7.96, 5.43, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.021: dims=(6.09, 4.51, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.022: dims=(7.45, 5.48, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.023: dims=(27.78, 44.94, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.024: dims=(41.82, 33.63, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.025: dims=(30.77, 37.48, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.026: dims=(38.34, 49.18, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.027: dims=(24.90, 17.60, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.028: dims=(8.11, 6.01, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.029: dims=(127.88, 95.97, 20.00), verts=52, faces=27, mats=MWRLD_building_clay
-- Areas.030: dims=(34.52, 28.38, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.031: dims=(12.31, 17.52, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.032: dims=(13.55, 20.61, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.033: dims=(13.43, 20.25, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.034: dims=(12.76, 19.85, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.035: dims=(20.01, 10.97, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.036: dims=(13.89, 17.69, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.037: dims=(25.38, 15.21, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.038: dims=(18.90, 16.47, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.039: dims=(18.25, 20.24, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.040: dims=(15.27, 21.20, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.041: dims=(23.84, 17.77, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.042: dims=(19.12, 33.87, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.043: dims=(26.85, 20.14, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.044: dims=(27.87, 42.32, 20.00), verts=50, faces=26, mats=MWRLD_building_clay
-- Areas.045: dims=(23.00, 17.33, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.046: dims=(23.62, 48.14, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.047: dims=(25.73, 37.86, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.048: dims=(12.70, 15.56, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.049: dims=(20.52, 10.61, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.050: dims=(14.67, 14.29, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.051: dims=(17.75, 31.10, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.052: dims=(41.67, 69.23, 20.00), verts=50, faces=26, mats=MWRLD_building_clay
-- Areas.053: dims=(31.20, 32.82, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.054: dims=(60.36, 51.20, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.055: dims=(17.54, 17.63, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.056: dims=(24.79, 18.18, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.057: dims=(75.04, 73.43, 20.00), verts=68, faces=35, mats=MWRLD_building_clay
-- Areas.058: dims=(67.01, 59.97, 20.00), verts=52, faces=27, mats=MWRLD_building_clay
-- Areas.059: dims=(54.67, 43.51, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.060: dims=(55.71, 60.23, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.061: dims=(43.80, 23.62, 12.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.062: dims=(16.86, 17.62, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.063: dims=(77.25, 28.26, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.064: dims=(33.59, 43.13, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.065: dims=(21.79, 16.03, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.066: dims=(35.83, 18.41, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.067: dims=(25.05, 19.33, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.068: dims=(25.45, 19.55, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.069: dims=(29.67, 19.17, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.070: dims=(37.72, 22.38, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.071: dims=(29.67, 19.59, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.072: dims=(25.38, 22.48, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.073: dims=(22.65, 26.48, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.074: dims=(21.60, 28.30, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.075: dims=(18.78, 15.31, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.076: dims=(23.57, 27.79, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.077: dims=(12.44, 30.45, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.078: dims=(35.28, 28.04, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.079: dims=(17.04, 13.44, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.080: dims=(18.71, 26.21, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.081: dims=(10.34, 9.36, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.082: dims=(12.41, 12.51, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.083: dims=(17.59, 26.33, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.084: dims=(20.87, 15.53, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.085: dims=(18.66, 12.05, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.086: dims=(19.12, 25.35, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.087: dims=(20.95, 16.26, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.088: dims=(43.47, 58.00, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.089: dims=(24.59, 13.44, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.090: dims=(33.17, 32.86, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.091: dims=(34.23, 29.26, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.092: dims=(43.13, 35.55, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.093: dims=(25.77, 15.63, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.094: dims=(44.31, 46.25, 6.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.095: dims=(32.33, 26.96, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.096: dims=(88.36, 30.95, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.097: dims=(15.82, 17.52, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.098: dims=(12.45, 23.02, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.099: dims=(26.82, 32.25, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.100: dims=(20.44, 38.55, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.101: dims=(26.63, 31.15, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.102: dims=(19.71, 23.62, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.103: dims=(18.83, 28.18, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.104: dims=(30.71, 31.09, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.105: dims=(37.73, 31.22, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.106: dims=(34.31, 13.00, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.107: dims=(23.83, 31.08, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.108: dims=(39.48, 37.68, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.109: dims=(61.55, 22.77, 20.00), verts=56, faces=29, mats=MWRLD_building_clay
-- Areas.110: dims=(32.60, 32.47, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.111: dims=(38.95, 19.75, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.112: dims=(37.02, 14.36, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.113: dims=(54.41, 45.14, 20.00), verts=46, faces=24, mats=MWRLD_building_clay
-- Areas.114: dims=(26.75, 20.96, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.115: dims=(23.81, 23.34, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.116: dims=(25.98, 21.58, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.117: dims=(30.62, 23.68, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.118: dims=(22.29, 28.11, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.119: dims=(16.96, 28.11, 20.00), verts=62, faces=32, mats=MWRLD_building_clay
-- Areas.120: dims=(64.63, 48.33, 20.00), verts=70, faces=36, mats=MWRLD_building_clay
-- Areas.121: dims=(37.80, 41.56, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.122: dims=(29.72, 29.98, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.123: dims=(39.04, 29.19, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.124: dims=(28.32, 29.70, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.125: dims=(28.76, 30.98, 9.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.126: dims=(26.82, 27.48, 6.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.127: dims=(28.35, 29.26, 9.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.128: dims=(19.98, 46.22, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.129: dims=(13.56, 15.15, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.130: dims=(21.11, 17.55, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.131: dims=(24.71, 29.37, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.132: dims=(27.40, 26.00, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.133: dims=(28.54, 29.89, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.134: dims=(47.64, 35.71, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.135: dims=(25.71, 39.62, 20.00), verts=50, faces=26, mats=MWRLD_building_clay
-- Areas.136: dims=(81.32, 123.21, 20.00), verts=104, faces=53, mats=MWRLD_building_clay
-- Areas.137: dims=(60.87, 55.38, 9.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.138: dims=(36.73, 32.50, 6.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.139: dims=(30.86, 22.32, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.140: dims=(18.03, 30.69, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.141: dims=(23.14, 35.03, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.142: dims=(34.48, 21.64, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.143: dims=(22.25, 33.09, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.144: dims=(27.18, 23.12, 20.00), verts=46, faces=24, mats=MWRLD_building_clay
-- Areas.145: dims=(52.11, 37.40, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.146: dims=(53.46, 68.38, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.147: dims=(26.19, 18.33, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.148: dims=(62.62, 37.03, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.149: dims=(23.50, 38.42, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.150: dims=(32.62, 58.20, 9.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.151: dims=(23.60, 26.28, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.152: dims=(17.64, 19.20, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.153: dims=(30.64, 40.33, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.154: dims=(20.52, 13.71, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.155: dims=(32.25, 23.37, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.156: dims=(70.05, 48.25, 20.00), verts=50, faces=26, mats=MWRLD_building_clay
-- Areas.157: dims=(63.27, 36.44, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.158: dims=(48.36, 45.43, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.159: dims=(29.60, 33.11, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.160: dims=(24.33, 41.88, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.161: dims=(48.48, 37.73, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.162: dims=(56.34, 54.39, 20.00), verts=50, faces=26, mats=MWRLD_building_clay
-- Areas.163: dims=(42.09, 36.47, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.164: dims=(24.71, 20.12, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.165: dims=(19.34, 30.80, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.166: dims=(37.77, 32.94, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.167: dims=(22.88, 32.53, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.168: dims=(64.03, 27.43, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.169: dims=(41.41, 50.48, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.170: dims=(35.75, 32.82, 12.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.171: dims=(40.02, 31.70, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.172: dims=(32.56, 33.93, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.173: dims=(38.01, 37.74, 20.00), verts=46, faces=24, mats=MWRLD_building_clay
-- Areas.174: dims=(32.06, 35.49, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.175: dims=(36.58, 38.12, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.176: dims=(90.61, 69.40, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.177: dims=(46.25, 53.89, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.178: dims=(106.87, 122.69, 20.00), verts=84, faces=43, mats=MWRLD_building_clay
-- Areas.179: dims=(42.35, 57.36, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.180: dims=(48.30, 45.05, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.181: dims=(27.24, 34.02, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.182: dims=(204.76, 142.54, 6.00), verts=138, faces=70, mats=MWRLD_building_clay
-- Areas.183: dims=(92.50, 39.44, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.184: dims=(24.27, 38.31, 6.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.185: dims=(27.18, 42.01, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.186: dims=(53.14, 24.49, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.187: dims=(18.33, 25.95, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.188: dims=(22.72, 28.38, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.189: dims=(126.16, 120.96, 0.00), verts=12, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.190: dims=(73.32, 120.32, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.191: dims=(50.64, 47.54, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.192: dims=(120.13, 142.08, 0.00), verts=15, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.193: dims=(55.36, 28.34, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.194: dims=(17.67, 25.84, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.195: dims=(11.98, 20.08, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.196: dims=(10.28, 25.51, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.197: dims=(14.74, 16.04, 9.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.198: dims=(13.43, 13.32, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.199: dims=(120.76, 131.96, 0.00), verts=6, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.200: dims=(14.45, 18.39, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.201: dims=(17.61, 15.35, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.202: dims=(118.49, 92.15, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.203: dims=(107.62, 78.16, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.204: dims=(100.57, 133.02, 0.00), verts=6, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.205: dims=(104.02, 111.55, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.206: dims=(18.85, 26.33, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.207: dims=(18.62, 26.57, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.208: dims=(18.66, 25.89, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.209: dims=(18.82, 26.27, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.210: dims=(20.10, 13.79, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.211: dims=(29.34, 15.75, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.212: dims=(13.57, 13.79, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.213: dims=(45.36, 23.71, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.214: dims=(16.18, 17.07, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.215: dims=(22.48, 30.84, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.216: dims=(22.42, 26.33, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.217: dims=(30.11, 28.24, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.218: dims=(42.20, 54.27, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.219: dims=(18.32, 26.35, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.220: dims=(18.25, 26.17, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.221: dims=(18.32, 25.99, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.222: dims=(77.07, 73.56, 20.00), verts=60, faces=31, mats=MWRLD_building_clay
-- Areas.223: dims=(67.96, 41.62, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.224: dims=(39.89, 33.16, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.225: dims=(37.96, 17.70, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.226: dims=(31.61, 82.97, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.227: dims=(23.54, 14.56, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.228: dims=(9.86, 9.98, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.229: dims=(16.63, 17.50, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.230: dims=(24.21, 28.46, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.231: dims=(28.50, 30.44, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.232: dims=(19.29, 25.30, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.233: dims=(26.32, 31.99, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.234: dims=(20.28, 16.11, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.235: dims=(20.28, 16.11, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.236: dims=(27.52, 28.80, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.237: dims=(29.09, 31.50, 12.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.238: dims=(38.13, 35.15, 12.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.239: dims=(6.72, 6.17, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.240: dims=(15.10, 14.42, 3.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.241: dims=(21.98, 22.31, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.242: dims=(20.37, 35.84, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.243: dims=(37.64, 16.89, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.244: dims=(30.43, 47.13, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.245: dims=(40.56, 34.40, 9.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.246: dims=(13.60, 13.46, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.247: dims=(25.89, 20.37, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.248: dims=(28.98, 30.51, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.249: dims=(17.41, 17.34, 6.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.250: dims=(37.52, 25.93, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.251: dims=(29.44, 12.57, 9.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.252: dims=(30.42, 44.40, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.253: dims=(24.67, 18.73, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.254: dims=(27.46, 21.84, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.255: dims=(13.97, 33.10, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.256: dims=(21.23, 20.05, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.257: dims=(29.31, 18.93, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.258: dims=(15.08, 14.51, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.259: dims=(25.46, 32.86, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.260: dims=(25.50, 25.30, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.261: dims=(34.78, 42.93, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.262: dims=(36.35, 22.07, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.263: dims=(18.33, 6.99, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.264: dims=(21.24, 7.02, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.265: dims=(19.12, 26.70, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.266: dims=(17.86, 15.11, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.267: dims=(7.88, 7.53, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.268: dims=(3.92, 2.90, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.269: dims=(22.27, 19.74, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.270: dims=(25.28, 24.14, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.271: dims=(68.71, 78.27, 15.00), verts=68, faces=35, mats=MWRLD_building_clay
-- Areas.272: dims=(23.10, 26.94, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.273: dims=(17.61, 17.62, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.274: dims=(17.21, 18.80, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.275: dims=(16.02, 27.01, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.276: dims=(16.49, 19.67, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.277: dims=(24.90, 23.19, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.278: dims=(18.94, 36.35, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.279: dims=(31.85, 18.76, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.280: dims=(27.08, 16.17, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.281: dims=(19.37, 30.98, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.282: dims=(17.90, 18.40, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.283: dims=(66.68, 30.19, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.284: dims=(56.68, 46.59, 20.00), verts=56, faces=29, mats=MWRLD_building_clay
-- Areas.285: dims=(40.44, 43.90, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.286: dims=(36.89, 42.45, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.287: dims=(21.72, 24.69, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.288: dims=(26.75, 22.89, 6.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.289: dims=(23.38, 27.23, 12.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.290: dims=(11.10, 17.88, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.291: dims=(13.32, 16.75, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.292: dims=(9.84, 18.97, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.293: dims=(13.78, 10.57, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.294: dims=(4.66, 7.63, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.295: dims=(18.13, 23.75, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.296: dims=(17.08, 9.78, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.297: dims=(15.67, 18.66, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.298: dims=(22.91, 11.95, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.299: dims=(20.09, 28.64, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.300: dims=(13.50, 14.17, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.301: dims=(12.30, 11.74, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.302: dims=(19.62, 17.53, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.303: dims=(11.72, 11.64, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.304: dims=(34.48, 17.24, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.305: dims=(9.73, 19.03, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.306: dims=(15.58, 22.98, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.307: dims=(8.58, 12.47, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.308: dims=(12.94, 16.67, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.309: dims=(17.78, 16.61, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.310: dims=(19.03, 7.80, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.311: dims=(19.16, 8.37, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.312: dims=(14.34, 30.40, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.313: dims=(8.79, 13.23, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.314: dims=(16.46, 19.04, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.315: dims=(34.18, 12.52, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.316: dims=(17.38, 15.16, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.317: dims=(11.24, 14.89, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.318: dims=(14.24, 21.11, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.319: dims=(12.99, 12.20, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.320: dims=(13.43, 11.19, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.321: dims=(15.98, 20.50, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.322: dims=(21.79, 18.26, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.323: dims=(28.91, 16.77, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.324: dims=(18.70, 21.91, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.325: dims=(11.53, 29.13, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.326: dims=(11.46, 18.00, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.327: dims=(23.10, 12.99, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.328: dims=(18.95, 26.05, 20.00), verts=48, faces=25, mats=MWRLD_building_clay
-- Areas.329: dims=(17.38, 15.01, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.330: dims=(19.79, 13.76, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.331: dims=(18.04, 32.33, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.332: dims=(8.26, 12.74, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.333: dims=(10.20, 16.02, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.334: dims=(12.79, 17.99, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.335: dims=(9.49, 14.84, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.336: dims=(7.64, 30.90, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.337: dims=(10.79, 13.43, 6.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.338: dims=(10.53, 11.72, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.339: dims=(7.35, 4.83, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.340: dims=(18.58, 11.91, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.341: dims=(12.42, 17.37, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.342: dims=(18.62, 13.25, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.343: dims=(13.02, 13.10, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.344: dims=(15.66, 20.51, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.345: dims=(12.29, 12.21, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.346: dims=(26.53, 42.69, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.347: dims=(25.45, 31.46, 20.00), verts=46, faces=24, mats=MWRLD_building_clay
-- Areas.348: dims=(28.77, 28.83, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.349: dims=(10.18, 10.17, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.350: dims=(22.29, 20.83, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.351: dims=(11.86, 11.95, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.352: dims=(18.99, 19.52, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.353: dims=(9.78, 9.55, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.354: dims=(28.33, 28.12, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.355: dims=(22.48, 20.71, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.356: dims=(18.59, 23.11, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.357: dims=(19.91, 22.09, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.358: dims=(20.78, 22.34, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.359: dims=(19.46, 27.14, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.360: dims=(29.92, 24.80, 20.00), verts=62, faces=32, mats=MWRLD_building_clay
-- Areas.361: dims=(19.92, 21.79, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.362: dims=(18.85, 17.07, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.363: dims=(17.37, 18.32, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.364: dims=(21.98, 21.17, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.365: dims=(16.50, 20.22, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.366: dims=(8.01, 7.67, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.367: dims=(18.24, 16.77, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.368: dims=(8.14, 9.30, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.369: dims=(15.90, 16.01, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.370: dims=(21.88, 16.13, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.371: dims=(16.40, 16.39, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.372: dims=(13.16, 15.46, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.373: dims=(18.94, 18.91, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.374: dims=(19.71, 32.31, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.375: dims=(30.09, 23.28, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.376: dims=(21.01, 21.19, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.377: dims=(16.99, 18.08, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.378: dims=(13.15, 13.30, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.379: dims=(26.31, 25.79, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.380: dims=(27.85, 23.28, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.381: dims=(23.29, 20.07, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.382: dims=(22.24, 28.48, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.383: dims=(11.96, 11.63, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.384: dims=(20.84, 27.64, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.385: dims=(24.42, 25.89, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.386: dims=(32.20, 26.20, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.387: dims=(23.40, 20.97, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.388: dims=(23.04, 27.79, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.389: dims=(23.01, 30.58, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.390: dims=(11.51, 10.79, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.391: dims=(18.77, 21.08, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.392: dims=(11.15, 10.70, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.393: dims=(38.12, 27.71, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.394: dims=(21.44, 29.27, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.395: dims=(20.14, 18.93, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.396: dims=(34.91, 34.99, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.397: dims=(11.88, 10.29, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.398: dims=(13.60, 16.43, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.399: dims=(22.73, 18.18, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.400: dims=(16.43, 10.52, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.401: dims=(15.18, 17.09, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.402: dims=(7.09, 4.53, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.403: dims=(33.21, 48.86, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.404: dims=(22.01, 29.90, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.405: dims=(18.95, 19.91, 3.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.406: dims=(39.55, 27.78, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.407: dims=(62.21, 51.88, 20.00), verts=72, faces=37, mats=MWRLD_building_clay
-- Areas.408: dims=(10.78, 19.84, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.409: dims=(18.76, 22.50, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.410: dims=(12.89, 13.82, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.411: dims=(19.30, 20.08, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.412: dims=(13.37, 18.96, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.413: dims=(17.82, 13.68, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.414: dims=(18.03, 9.98, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.415: dims=(14.50, 9.07, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.416: dims=(11.96, 16.08, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.417: dims=(13.08, 13.80, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.418: dims=(13.81, 13.72, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.419: dims=(6.99, 4.76, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.420: dims=(9.53, 11.97, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.421: dims=(18.60, 13.82, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.422: dims=(16.70, 9.99, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.423: dims=(7.01, 5.01, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.424: dims=(14.93, 18.80, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.425: dims=(11.42, 9.04, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.426: dims=(15.90, 18.99, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.427: dims=(14.93, 23.30, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.428: dims=(17.74, 21.70, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.429: dims=(15.36, 24.39, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.430: dims=(20.08, 12.24, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.431: dims=(22.58, 17.85, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.432: dims=(22.18, 19.38, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.433: dims=(17.24, 23.08, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.434: dims=(16.41, 18.65, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.435: dims=(6.73, 4.96, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.436: dims=(4.37, 6.24, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.437: dims=(18.31, 17.22, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.438: dims=(16.01, 13.01, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.439: dims=(9.38, 12.71, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.440: dims=(3.40, 4.56, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.441: dims=(8.62, 12.38, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.442: dims=(12.45, 17.56, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.443: dims=(4.22, 6.79, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.444: dims=(14.09, 17.33, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.445: dims=(17.38, 19.72, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.446: dims=(18.29, 19.30, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.447: dims=(17.52, 21.19, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.448: dims=(19.47, 17.36, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.449: dims=(25.63, 57.66, 20.00), verts=56, faces=29, mats=MWRLD_building_clay
-- Areas.450: dims=(16.72, 29.50, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.451: dims=(21.39, 13.81, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.452: dims=(30.91, 13.91, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.453: dims=(10.93, 24.21, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.454: dims=(16.54, 19.09, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.455: dims=(11.27, 19.98, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.456: dims=(16.22, 15.52, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.457: dims=(12.61, 20.36, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.458: dims=(18.48, 19.91, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.459: dims=(15.32, 20.90, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.460: dims=(15.40, 11.48, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.461: dims=(22.69, 13.33, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.462: dims=(15.95, 15.54, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.463: dims=(8.39, 6.74, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.464: dims=(16.10, 11.22, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.465: dims=(17.53, 17.06, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.466: dims=(14.13, 18.08, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.467: dims=(6.42, 15.01, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.468: dims=(9.92, 32.27, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.469: dims=(9.13, 23.95, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.470: dims=(18.01, 32.84, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.471: dims=(15.46, 16.84, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.472: dims=(17.83, 12.41, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.473: dims=(14.66, 17.43, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.474: dims=(7.20, 7.17, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.475: dims=(18.89, 17.76, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.476: dims=(12.51, 19.00, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.477: dims=(20.66, 19.35, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.478: dims=(15.40, 37.84, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.479: dims=(21.86, 13.38, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.480: dims=(18.38, 15.17, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.481: dims=(22.73, 12.15, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.482: dims=(12.49, 9.27, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.483: dims=(24.87, 11.30, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.484: dims=(24.97, 29.48, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.485: dims=(24.90, 19.75, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.486: dims=(20.57, 12.74, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.487: dims=(25.68, 14.05, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.488: dims=(29.39, 18.81, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.489: dims=(10.02, 9.60, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.490: dims=(13.16, 17.68, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.491: dims=(19.38, 28.16, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.492: dims=(26.29, 30.15, 20.00), verts=48, faces=25, mats=MWRLD_building_clay
-- Areas.493: dims=(25.82, 18.33, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.494: dims=(25.93, 23.78, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.495: dims=(20.44, 25.02, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.496: dims=(24.92, 25.89, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.497: dims=(61.13, 76.73, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.498: dims=(37.28, 45.33, 20.00), verts=98, faces=50, mats=MWRLD_building_clay
-- Areas.499: dims=(15.50, 15.80, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.500: dims=(14.25, 14.26, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.501: dims=(29.79, 23.31, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.502: dims=(14.66, 14.59, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.503: dims=(45.92, 70.88, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.504: dims=(14.79, 13.23, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.505: dims=(17.62, 22.87, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.506: dims=(17.97, 15.54, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.507: dims=(59.62, 58.15, 3.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.508: dims=(34.97, 29.55, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.509: dims=(22.08, 25.75, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.510: dims=(54.96, 20.73, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.511: dims=(19.83, 28.89, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.512: dims=(23.31, 16.02, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.513: dims=(19.99, 16.29, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.514: dims=(18.19, 28.07, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.515: dims=(17.70, 15.85, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.516: dims=(17.78, 17.45, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.517: dims=(12.30, 17.52, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.518: dims=(21.29, 21.25, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.519: dims=(11.42, 15.67, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.520: dims=(21.65, 16.55, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.521: dims=(67.99, 69.59, 20.00), verts=56, faces=29, mats=MWRLD_building_clay
-- Areas.522: dims=(5.44, 11.23, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.523: dims=(6.87, 22.06, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.524: dims=(19.55, 20.63, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.525: dims=(14.03, 14.24, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.526: dims=(14.30, 14.61, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.527: dims=(13.73, 9.98, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.528: dims=(15.10, 11.04, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.529: dims=(14.93, 12.20, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.530: dims=(8.60, 9.06, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.531: dims=(15.29, 15.31, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.532: dims=(19.53, 25.50, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.533: dims=(22.28, 21.76, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.534: dims=(15.44, 16.57, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.535: dims=(17.43, 21.42, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.536: dims=(14.22, 17.08, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.537: dims=(10.70, 21.97, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.538: dims=(12.35, 14.23, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.539: dims=(19.23, 16.61, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.540: dims=(18.23, 16.59, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.541: dims=(21.62, 10.32, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.542: dims=(10.15, 17.36, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.543: dims=(21.97, 27.39, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.544: dims=(13.15, 15.85, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.545: dims=(15.05, 18.78, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.546: dims=(34.20, 51.17, 20.00), verts=68, faces=35, mats=MWRLD_building_clay
-- Areas.547: dims=(73.31, 88.97, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.548: dims=(7.96, 6.23, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.549: dims=(16.50, 18.28, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.550: dims=(55.18, 42.11, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.551: dims=(15.51, 22.22, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.552: dims=(11.19, 15.38, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.553: dims=(24.00, 22.34, 6.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.554: dims=(14.80, 9.98, 9.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.555: dims=(13.35, 14.94, 6.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.556: dims=(15.40, 24.65, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.557: dims=(23.07, 22.51, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.558: dims=(20.60, 26.26, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.559: dims=(20.90, 14.80, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.560: dims=(20.28, 22.58, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.561: dims=(25.16, 15.83, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.562: dims=(16.01, 25.99, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.563: dims=(23.40, 21.53, 20.00), verts=52, faces=27, mats=MWRLD_building_clay
-- Areas.564: dims=(17.91, 23.90, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.565: dims=(24.18, 21.10, 20.00), verts=46, faces=24, mats=MWRLD_building_clay
-- Areas.566: dims=(16.67, 23.35, 20.00), verts=42, faces=22, mats=MWRLD_building_clay
-- Areas.567: dims=(25.13, 14.72, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.568: dims=(26.31, 22.04, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.569: dims=(13.30, 14.76, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.570: dims=(11.62, 11.91, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.571: dims=(11.95, 8.61, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.572: dims=(7.68, 6.54, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.573: dims=(28.82, 25.62, 20.00), verts=44, faces=23, mats=MWRLD_building_clay
-- Areas.574: dims=(17.79, 23.15, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.575: dims=(14.09, 15.53, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.576: dims=(16.20, 27.08, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.577: dims=(12.39, 11.11, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.578: dims=(12.27, 13.95, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.579: dims=(13.49, 16.54, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.580: dims=(21.62, 13.80, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.581: dims=(17.40, 8.74, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.582: dims=(15.36, 18.43, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.583: dims=(21.06, 13.46, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.584: dims=(17.89, 10.31, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.585: dims=(14.31, 13.51, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.586: dims=(11.29, 11.02, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.587: dims=(6.60, 7.48, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.588: dims=(7.17, 33.12, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.589: dims=(6.83, 8.84, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.590: dims=(70.85, 65.98, 20.00), verts=74, faces=38, mats=MWRLD_building_clay
-- Areas.591: dims=(8.11, 8.10, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.592: dims=(8.11, 8.09, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.593: dims=(23.83, 16.15, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.594: dims=(35.59, 37.64, 9.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.595: dims=(12.76, 21.13, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.596: dims=(22.94, 13.55, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.597: dims=(9.87, 6.95, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.598: dims=(14.04, 18.39, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.599: dims=(6.58, 5.34, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.600: dims=(6.19, 4.43, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.601: dims=(3.65, 5.73, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.602: dims=(20.47, 34.83, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.603: dims=(18.20, 25.22, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.604: dims=(18.97, 20.45, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.605: dims=(13.92, 22.83, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.606: dims=(15.85, 19.71, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.607: dims=(12.61, 5.29, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.608: dims=(13.79, 19.13, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.609: dims=(22.87, 19.23, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.610: dims=(7.85, 5.78, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.611: dims=(16.86, 18.41, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.612: dims=(7.40, 5.42, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.613: dims=(27.39, 20.82, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.614: dims=(20.28, 19.65, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.615: dims=(27.22, 19.14, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.616: dims=(34.72, 24.50, 20.00), verts=46, faces=24, mats=MWRLD_building_clay
-- Areas.617: dims=(18.68, 24.54, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.618: dims=(25.28, 16.01, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.619: dims=(21.11, 10.28, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.620: dims=(31.78, 31.12, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.621: dims=(20.79, 24.98, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.622: dims=(14.21, 17.95, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.623: dims=(27.14, 18.26, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.624: dims=(30.84, 16.81, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.625: dims=(18.92, 20.39, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.626: dims=(7.77, 7.81, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.627: dims=(10.52, 9.01, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.628: dims=(19.27, 14.49, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.629: dims=(29.91, 13.89, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.630: dims=(24.61, 15.42, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.631: dims=(20.14, 16.28, 20.00), verts=40, faces=21, mats=MWRLD_building_clay
-- Areas.632: dims=(27.61, 19.67, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.633: dims=(19.26, 15.85, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.634: dims=(32.85, 19.11, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.635: dims=(18.63, 10.99, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.636: dims=(5.76, 7.53, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.637: dims=(11.91, 2.92, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.638: dims=(7.60, 15.18, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.639: dims=(18.73, 13.95, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.640: dims=(26.91, 15.82, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.641: dims=(15.58, 12.74, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.642: dims=(15.97, 12.32, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.643: dims=(12.10, 11.24, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.644: dims=(16.47, 14.77, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.645: dims=(20.44, 11.75, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.646: dims=(20.04, 17.50, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.647: dims=(21.32, 13.61, 20.00), verts=14, faces=8, mats=MWRLD_building_clay
-- Areas.648: dims=(21.82, 11.58, 20.00), verts=34, faces=18, mats=MWRLD_building_clay
-- Areas.649: dims=(19.74, 18.50, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.650: dims=(16.69, 20.96, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.651: dims=(11.91, 21.09, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.652: dims=(12.86, 15.04, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.653: dims=(19.89, 15.67, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.654: dims=(11.08, 11.09, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.655: dims=(5.66, 4.87, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.656: dims=(15.90, 13.39, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.657: dims=(12.04, 12.05, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.658: dims=(12.50, 12.81, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.659: dims=(8.41, 7.78, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.660: dims=(7.32, 6.97, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.661: dims=(20.50, 14.82, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.662: dims=(19.14, 12.91, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.663: dims=(17.35, 17.25, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.664: dims=(18.84, 21.00, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.665: dims=(16.51, 18.68, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.666: dims=(7.48, 6.35, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.667: dims=(17.89, 15.06, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.668: dims=(18.91, 21.06, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.669: dims=(16.13, 14.03, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.670: dims=(12.96, 12.39, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.671: dims=(26.28, 15.91, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.672: dims=(19.23, 16.92, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.673: dims=(19.00, 14.20, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.674: dims=(20.88, 24.45, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.675: dims=(16.34, 23.27, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.676: dims=(5.98, 6.88, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.677: dims=(14.90, 14.30, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.678: dims=(6.21, 7.81, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.679: dims=(14.42, 19.14, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.680: dims=(22.87, 22.76, 20.00), verts=36, faces=19, mats=MWRLD_building_clay
-- Areas.681: dims=(11.11, 10.21, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.682: dims=(18.68, 12.82, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.683: dims=(18.23, 24.75, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.684: dims=(21.18, 12.63, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.685: dims=(16.57, 21.96, 20.00), verts=22, faces=12, mats=MWRLD_building_clay
-- Areas.686: dims=(22.99, 10.39, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.687: dims=(25.99, 32.03, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.688: dims=(16.87, 18.26, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.689: dims=(10.04, 9.96, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.690: dims=(19.40, 23.43, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.691: dims=(24.40, 18.54, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.692: dims=(19.24, 24.20, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.693: dims=(21.96, 17.45, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.694: dims=(12.85, 12.49, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.695: dims=(18.09, 21.06, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.696: dims=(15.85, 14.54, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.697: dims=(30.16, 32.76, 20.00), verts=46, faces=24, mats=MWRLD_building_clay
-- Areas.698: dims=(14.31, 35.79, 20.00), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.699: dims=(16.80, 21.82, 20.00), verts=26, faces=14, mats=MWRLD_building_clay
-- Areas.700: dims=(23.10, 22.11, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.701: dims=(22.07, 19.85, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.702: dims=(16.10, 28.29, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.703: dims=(20.60, 33.28, 20.00), verts=32, faces=17, mats=MWRLD_building_clay
-- Areas.704: dims=(9.39, 23.74, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.705: dims=(11.29, 11.65, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.706: dims=(8.55, 10.00, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.707: dims=(11.29, 13.76, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.708: dims=(10.42, 8.86, 20.00), verts=10, faces=6, mats=MWRLD_building_clay
-- Areas.709: dims=(9.07, 14.67, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.710: dims=(10.28, 14.03, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.711: dims=(40.48, 28.35, 20.00), verts=30, faces=16, mats=MWRLD_building_clay
-- Areas.712: dims=(31.27, 28.21, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.713: dims=(4.85, 4.84, 21.64), verts=38, faces=20, mats=MWRLD_building_clay
-- Areas.714: dims=(12.06, 15.43, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.715: dims=(19.86, 15.87, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.716: dims=(9.09, 13.65, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.717: dims=(11.90, 10.43, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.718: dims=(21.55, 17.43, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.719: dims=(19.22, 21.98, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.720: dims=(24.84, 24.64, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.721: dims=(24.36, 16.54, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.722: dims=(13.43, 15.10, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.723: dims=(17.29, 21.31, 20.00), verts=20, faces=11, mats=MWRLD_building_clay
-- Areas.724: dims=(23.48, 21.31, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.725: dims=(14.47, 21.98, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.726: dims=(13.27, 12.99, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.727: dims=(16.40, 16.43, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.728: dims=(18.17, 17.09, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.729: dims=(10.13, 8.77, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.730: dims=(14.07, 11.88, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.731: dims=(17.85, 23.42, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.732: dims=(7.88, 11.54, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.733: dims=(19.62, 15.43, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.734: dims=(11.50, 27.08, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.735: dims=(44.04, 42.04, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Areas.736: dims=(9.09, 7.50, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.737: dims=(10.39, 17.38, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.738: dims=(16.02, 14.65, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.739: dims=(6.59, 5.04, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.740: dims=(39.13, 35.75, 20.00), verts=28, faces=15, mats=MWRLD_building_clay
-- Areas.741: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.742: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.743: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.744: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.745: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.746: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=MWRLD_roads_paths_dark
-- Areas.747: dims=(10.33, 4.85, 3.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.748: dims=(6.82, 13.92, 3.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.749: dims=(9.28, 13.89, 20.00), verts=12, faces=7, mats=MWRLD_building_clay
-- Areas.750: dims=(13.18, 13.36, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.751: dims=(29.09, 14.87, 20.00), verts=24, faces=13, mats=MWRLD_building_clay
-- Areas.752: dims=(12.22, 9.89, 20.00), verts=8, faces=5, mats=MWRLD_building_clay
-- Areas.753: dims=(23.32, 17.40, 20.00), verts=16, faces=9, mats=MWRLD_building_clay
-- Areas.754: dims=(24.25, 25.45, 20.00), verts=18, faces=10, mats=MWRLD_building_clay
-- Cube: dims=(2.00, 2.00, 2.00), verts=8, faces=6, mats=MWRLD_building_clay
-- Ways: dims=(914.81, 623.80, 0.00), verts=52, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.001: dims=(8.58, 187.32, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.002: dims=(35.70, 30.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.003: dims=(40.04, 34.74, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.004: dims=(35.42, 34.73, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.005: dims=(35.13, 77.07, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.006: dims=(218.14, 131.50, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.007: dims=(139.78, 13.12, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.008: dims=(32.42, 81.16, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.009: dims=(107.70, 39.22, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.010: dims=(16.82, 140.76, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.011: dims=(67.92, 95.90, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.012: dims=(1.79, 35.56, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.013: dims=(79.35, 74.36, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.014: dims=(121.04, 275.55, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.015: dims=(5.95, 118.94, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.016: dims=(1.25, 50.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.017: dims=(6.59, 22.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.018: dims=(12.38, 12.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.019: dims=(2.74, 69.91, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.020: dims=(80.60, 447.22, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.021: dims=(28.46, 171.94, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.022: dims=(189.88, 12.95, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.023: dims=(33.93, 118.40, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.024: dims=(127.98, 1.04, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.025: dims=(115.78, 110.33, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.026: dims=(146.04, 60.42, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.027: dims=(2.15, 54.79, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.028: dims=(148.98, 26.95, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.029: dims=(143.26, 98.95, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.030: dims=(24.97, 72.34, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.031: dims=(67.97, 17.04, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.032: dims=(44.53, 275.69, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.033: dims=(43.81, 140.95, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.034: dims=(212.59, 252.62, 0.00), verts=26, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.035: dims=(258.78, 237.65, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.036: dims=(21.87, 53.50, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.037: dims=(111.51, 12.29, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.038: dims=(21.38, 1.20, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.039: dims=(161.07, 15.63, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.040: dims=(155.64, 52.56, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.041: dims=(139.25, 75.92, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.042: dims=(121.47, 74.24, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.043: dims=(114.30, 172.82, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.044: dims=(201.42, 198.12, 0.00), verts=37, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.045: dims=(115.88, 144.30, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.046: dims=(384.93, 15.63, 0.00), verts=29, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.047: dims=(49.38, 70.23, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.048: dims=(116.87, 4.97, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.049: dims=(44.63, 217.55, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.050: dims=(124.68, 106.32, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.051: dims=(6.51, 50.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.052: dims=(36.79, 2.09, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.053: dims=(43.46, 277.20, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.054: dims=(61.80, 24.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.055: dims=(12.24, 455.79, 0.00), verts=36, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.056: dims=(39.80, 230.69, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.057: dims=(6.92, 56.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.058: dims=(107.33, 144.86, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.059: dims=(169.37, 113.52, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.060: dims=(24.84, 156.84, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.061: dims=(140.64, 71.37, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.062: dims=(57.03, 215.67, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.063: dims=(133.71, 47.80, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.064: dims=(322.54, 486.25, 0.00), verts=26, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.065: dims=(376.02, 439.26, 0.00), verts=21, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.066: dims=(118.24, 9.95, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.067: dims=(129.45, 4.27, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.068: dims=(36.26, 152.92, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.069: dims=(3.78, 16.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.070: dims=(59.34, 350.74, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.071: dims=(194.65, 226.77, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.072: dims=(1998.94, 748.47, 0.00), verts=74, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.073: dims=(49.70, 135.20, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.074: dims=(116.74, 169.18, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.075: dims=(212.75, 131.10, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.076: dims=(4.02, 81.47, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.077: dims=(138.86, 49.00, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.078: dims=(134.70, 81.16, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.079: dims=(12.52, 127.28, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.080: dims=(94.26, 142.18, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.081: dims=(334.63, 103.59, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.082: dims=(946.57, 1447.63, 0.00), verts=79, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.083: dims=(8.57, 85.38, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.084: dims=(147.64, 52.56, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.085: dims=(87.30, 422.12, 0.00), verts=26, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.086: dims=(159.79, 11.10, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.087: dims=(78.72, 72.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.088: dims=(5.98, 175.89, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.089: dims=(115.30, 160.35, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.090: dims=(111.39, 85.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.091: dims=(108.52, 168.85, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.092: dims=(132.33, 4.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.093: dims=(4.88, 127.28, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.094: dims=(3.90, 74.96, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.095: dims=(0.61, 26.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.096: dims=(109.07, 132.33, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.097: dims=(24.06, 66.34, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.098: dims=(8.34, 139.65, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.099: dims=(155.01, 55.18, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.100: dims=(126.36, 113.82, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1000: dims=(66.85, 16.71, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1001: dims=(7.88, 51.73, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1002: dims=(4.99, 6.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1003: dims=(10.13, 1.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1004: dims=(5.37, 7.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1005: dims=(9.37, 10.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1006: dims=(4.54, 10.45, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1007: dims=(6.52, 13.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1008: dims=(10.76, 0.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1009: dims=(9.66, 1.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.101: dims=(35.06, 90.20, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1010: dims=(4.71, 18.44, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1011: dims=(0.14, 21.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1012: dims=(4.35, 17.48, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1013: dims=(14.53, 33.18, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1014: dims=(15.07, 30.87, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1015: dims=(0.14, 17.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1016: dims=(0.22, 8.36, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1017: dims=(0.05, 1.66, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1018: dims=(0.00, 6.99, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1019: dims=(2.59, 16.72, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.102: dims=(88.78, 38.74, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1020: dims=(68.36, 65.88, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1021: dims=(2.22, 14.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1022: dims=(0.42, 2.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1023: dims=(1.17, 5.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1024: dims=(9.54, 17.78, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1025: dims=(12.68, 11.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1026: dims=(36.81, 17.24, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1027: dims=(12.93, 16.06, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1028: dims=(20.98, 37.38, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1029: dims=(4.12, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.103: dims=(48.35, 9.86, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1030: dims=(6.20, 15.00, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1031: dims=(4.71, 10.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1032: dims=(18.59, 4.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1033: dims=(3.76, 8.62, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1034: dims=(4.90, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1035: dims=(16.72, 3.65, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1036: dims=(14.62, 9.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1037: dims=(26.12, 4.20, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1038: dims=(12.93, 24.24, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1039: dims=(23.65, 1.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.104: dims=(506.96, 233.68, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1040: dims=(19.21, 1.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1041: dims=(73.16, 26.68, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1042: dims=(47.58, 21.36, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1043: dims=(24.45, 47.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1044: dims=(2.56, 26.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1045: dims=(30.99, 4.50, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1046: dims=(1.59, 19.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1047: dims=(13.43, 184.60, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1048: dims=(78.78, 22.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1049: dims=(46.24, 39.42, 0.00), verts=27, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.105: dims=(27.09, 101.25, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1050: dims=(38.66, 73.45, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1051: dims=(39.36, 1.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1052: dims=(1.73, 106.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1053: dims=(56.79, 3.91, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1054: dims=(27.26, 32.50, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1055: dims=(5.79, 5.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1056: dims=(37.76, 28.27, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1057: dims=(5.74, 12.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1058: dims=(4.57, 5.76, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1059: dims=(6.46, 6.38, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.106: dims=(4.64, 15.95, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1060: dims=(3.95, 4.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1061: dims=(100.09, 15.86, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1062: dims=(10.75, 7.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1063: dims=(135.55, 22.93, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1064: dims=(54.26, 8.47, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1065: dims=(56.92, 14.66, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1066: dims=(15.29, 2.60, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1067: dims=(47.85, 13.45, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1068: dims=(15.60, 2.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1069: dims=(18.93, 30.01, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.107: dims=(11.06, 156.40, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1070: dims=(6.87, 16.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1071: dims=(19.79, 1.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1072: dims=(17.52, 227.75, 0.00), verts=28, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1073: dims=(12.00, 5.83, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1074: dims=(32.47, 39.24, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1075: dims=(6.94, 11.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1076: dims=(10.84, 2.97, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1077: dims=(47.60, 29.25, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1078: dims=(55.71, 11.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1079: dims=(2.97, 83.44, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.108: dims=(3.04, 37.60, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1080: dims=(21.14, 4.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1081: dims=(146.60, 12.58, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1082: dims=(68.89, 7.48, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1083: dims=(303.09, 43.40, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1084: dims=(359.25, 35.54, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1085: dims=(7.05, 65.81, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1086: dims=(0.06, 11.80, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1087: dims=(0.75, 23.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1088: dims=(0.23, 11.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1089: dims=(32.99, 58.61, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.109: dims=(885.14, 1073.37, 0.00), verts=83, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1090: dims=(29.06, 76.58, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1091: dims=(91.83, 34.78, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1092: dims=(4.52, 12.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1093: dims=(92.23, 184.95, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1094: dims=(45.17, 42.08, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1095: dims=(10.60, 29.33, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1096: dims=(0.77, 5.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1097: dims=(7.19, 8.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1098: dims=(15.30, 1.79, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1099: dims=(23.65, 39.21, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.110: dims=(721.79, 661.47, 0.00), verts=103, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1100: dims=(2.66, 1.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1101: dims=(82.45, 81.68, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1102: dims=(2.63, 121.42, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1103: dims=(5.55, 117.47, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1104: dims=(19.48, 77.94, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1105: dims=(20.90, 3.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1106: dims=(17.52, 15.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1107: dims=(52.59, 25.22, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1108: dims=(22.83, 4.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1109: dims=(29.45, 6.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.111: dims=(0.25, 11.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1110: dims=(22.29, 3.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1111: dims=(3.98, 32.75, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1112: dims=(17.38, 3.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1113: dims=(41.08, 13.76, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1114: dims=(52.90, 8.08, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1115: dims=(22.44, 4.25, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1116: dims=(55.95, 9.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1117: dims=(44.58, 18.56, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1118: dims=(22.13, 2.86, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1119: dims=(7.70, 8.46, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.112: dims=(56.06, 71.60, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1120: dims=(16.43, 2.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1121: dims=(33.00, 16.31, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1122: dims=(1.20, 10.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1123: dims=(82.34, 52.70, 0.00), verts=39, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1124: dims=(18.16, 35.53, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1125: dims=(12.17, 1.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1126: dims=(11.99, 1.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1127: dims=(1.95, 25.02, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1128: dims=(1.15, 13.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1129: dims=(87.00, 9.68, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.113: dims=(100.13, 2.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1130: dims=(12.18, 1.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1131: dims=(8.72, 1.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1132: dims=(5.78, 8.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1133: dims=(17.90, 19.46, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1134: dims=(31.75, 12.05, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1135: dims=(13.23, 11.92, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1136: dims=(2.30, 0.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1137: dims=(3.94, 8.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1138: dims=(17.28, 1.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1139: dims=(19.17, 1.37, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.114: dims=(23.03, 155.77, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1140: dims=(3.63, 14.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1141: dims=(44.22, 16.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1142: dims=(22.39, 6.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1143: dims=(13.19, 16.05, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1144: dims=(4.47, 12.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1145: dims=(7.26, 20.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1146: dims=(5.82, 16.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1147: dims=(4.06, 16.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1148: dims=(5.59, 16.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1149: dims=(29.19, 7.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.115: dims=(119.72, 102.05, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1150: dims=(9.38, 10.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1151: dims=(19.28, 2.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1152: dims=(27.34, 12.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1153: dims=(19.78, 12.33, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1154: dims=(8.28, 20.66, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1155: dims=(8.82, 22.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1156: dims=(6.73, 23.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1157: dims=(7.25, 17.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1158: dims=(42.33, 60.57, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1159: dims=(3.63, 11.49, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.116: dims=(26.03, 27.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1160: dims=(83.50, 25.52, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1161: dims=(43.67, 15.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1162: dims=(50.18, 19.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1163: dims=(15.74, 10.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1164: dims=(8.58, 22.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1165: dims=(14.95, 5.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1166: dims=(7.86, 22.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1167: dims=(29.97, 13.99, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1168: dims=(14.89, 5.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1169: dims=(10.28, 24.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.117: dims=(57.40, 2.00, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1170: dims=(12.96, 25.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1171: dims=(5.93, 16.59, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1172: dims=(8.15, 2.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1173: dims=(5.70, 28.93, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1174: dims=(7.83, 21.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1175: dims=(5.62, 14.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1176: dims=(5.23, 13.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1177: dims=(0.96, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1178: dims=(11.10, 14.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1179: dims=(16.26, 22.10, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.118: dims=(194.65, 360.27, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1180: dims=(0.04, 23.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1181: dims=(9.91, 19.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1182: dims=(5.04, 6.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1183: dims=(10.52, 18.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1184: dims=(42.58, 17.89, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1185: dims=(4.77, 73.37, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1186: dims=(16.19, 4.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1187: dims=(15.85, 17.11, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1188: dims=(17.89, 12.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1189: dims=(24.94, 9.56, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.119: dims=(118.58, 11.60, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1190: dims=(15.22, 16.37, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1191: dims=(8.90, 6.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1192: dims=(7.34, 8.42, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1193: dims=(11.51, 14.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1194: dims=(15.76, 2.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1195: dims=(18.48, 2.26, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1196: dims=(19.85, 8.20, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1197: dims=(109.83, 34.49, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1198: dims=(11.04, 55.46, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1199: dims=(13.68, 1.74, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.120: dims=(53.07, 103.94, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1200: dims=(28.63, 6.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1201: dims=(250.86, 61.70, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1202: dims=(259.43, 34.73, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1203: dims=(174.95, 21.69, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1204: dims=(1.89, 0.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1205: dims=(1.63, 60.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1206: dims=(13.47, 0.28, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1207: dims=(27.12, 3.72, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1208: dims=(31.77, 2.49, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1209: dims=(30.42, 0.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.121: dims=(32.40, 22.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1210: dims=(30.47, 134.75, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1211: dims=(23.35, 90.48, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1212: dims=(21.59, 28.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1213: dims=(20.61, 25.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1214: dims=(68.77, 24.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1215: dims=(27.83, 11.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1216: dims=(81.31, 20.37, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1217: dims=(5.11, 14.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1218: dims=(11.92, 12.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1219: dims=(11.52, 37.51, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.122: dims=(7.03, 9.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1220: dims=(46.98, 27.02, 0.00), verts=34, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1221: dims=(1.20, 4.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1222: dims=(0.10, 4.36, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1223: dims=(12.99, 39.80, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1224: dims=(4.25, 12.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1225: dims=(44.44, 14.33, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1226: dims=(0.12, 2.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1227: dims=(7.51, 3.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1228: dims=(32.67, 12.74, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1229: dims=(21.28, 0.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.123: dims=(8.05, 7.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1230: dims=(7.66, 0.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1231: dims=(3.97, 11.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1232: dims=(8.61, 27.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1233: dims=(1.80, 31.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1234: dims=(0.86, 8.42, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1235: dims=(49.00, 32.00, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1236: dims=(2.19, 16.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1237: dims=(38.40, 9.88, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1238: dims=(0.20, 15.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1239: dims=(39.33, 48.04, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.124: dims=(7.58, 6.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1240: dims=(14.73, 29.95, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1241: dims=(37.09, 1.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1242: dims=(10.58, 0.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1243: dims=(27.75, 1.29, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1244: dims=(5.70, 7.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1245: dims=(52.53, 31.39, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1246: dims=(22.29, 23.63, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1247: dims=(10.40, 2.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1248: dims=(26.19, 5.42, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1249: dims=(3.99, 14.20, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.125: dims=(19.96, 28.29, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1250: dims=(1.28, 14.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1251: dims=(4.72, 4.75, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1252: dims=(29.23, 8.64, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1253: dims=(34.05, 0.71, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1254: dims=(39.40, 8.57, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1255: dims=(6.39, 45.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1256: dims=(13.19, 100.18, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1257: dims=(107.17, 20.54, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1258: dims=(47.73, 26.58, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1259: dims=(13.86, 21.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.126: dims=(12.53, 16.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1260: dims=(5.19, 8.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1261: dims=(68.35, 13.00, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1262: dims=(6.56, 1.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1263: dims=(43.37, 4.70, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1264: dims=(43.35, 4.84, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1265: dims=(46.89, 45.44, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1266: dims=(16.65, 38.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1267: dims=(148.72, 112.07, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1268: dims=(96.63, 158.69, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1269: dims=(20.24, 15.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.127: dims=(31.15, 13.58, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1270: dims=(121.33, 117.29, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1271: dims=(98.91, 64.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1272: dims=(7.75, 27.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1273: dims=(35.77, 72.82, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1274: dims=(161.21, 107.57, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1275: dims=(18.11, 48.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1276: dims=(16.18, 5.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1277: dims=(15.09, 43.58, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1278: dims=(13.26, 3.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1279: dims=(4.28, 0.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.128: dims=(7.49, 23.64, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1280: dims=(10.96, 21.60, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1281: dims=(37.43, 11.26, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1282: dims=(3.05, 7.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1283: dims=(37.43, 48.84, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1284: dims=(51.06, 5.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1285: dims=(13.29, 23.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1286: dims=(6.38, 5.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1287: dims=(9.20, 11.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1288: dims=(5.33, 14.46, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1289: dims=(5.88, 6.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.129: dims=(18.54, 2.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1290: dims=(11.88, 14.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1291: dims=(62.04, 25.77, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1292: dims=(54.38, 34.61, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1293: dims=(9.85, 5.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1294: dims=(38.99, 21.17, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1295: dims=(28.83, 17.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1296: dims=(33.59, 18.84, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1297: dims=(3.32, 7.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1298: dims=(24.39, 38.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1299: dims=(3.59, 5.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.130: dims=(22.90, 0.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1300: dims=(9.93, 6.13, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1301: dims=(21.30, 13.18, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1302: dims=(71.11, 88.80, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1303: dims=(21.06, 34.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1304: dims=(5.02, 15.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1305: dims=(12.04, 7.40, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1306: dims=(15.40, 13.64, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1307: dims=(5.04, 7.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1308: dims=(7.76, 5.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1309: dims=(11.06, 17.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.131: dims=(16.17, 17.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1310: dims=(5.62, 9.61, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1311: dims=(13.74, 14.20, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1312: dims=(78.95, 94.82, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1313: dims=(212.46, 319.52, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1314: dims=(86.04, 30.13, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1315: dims=(7.02, 0.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1316: dims=(18.81, 0.12, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1317: dims=(15.01, 0.74, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1318: dims=(12.86, 288.11, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1319: dims=(2.55, 77.36, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.132: dims=(19.62, 15.28, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1320: dims=(1.96, 39.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1321: dims=(29.82, 26.65, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1322: dims=(24.85, 25.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1323: dims=(35.63, 14.47, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1324: dims=(13.80, 13.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1325: dims=(11.19, 3.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1326: dims=(0.68, 4.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1327: dims=(17.17, 45.03, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1328: dims=(45.88, 7.13, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1329: dims=(7.78, 1.63, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.133: dims=(26.74, 30.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1330: dims=(9.88, 1.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1331: dims=(0.39, 10.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1332: dims=(0.10, 8.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1333: dims=(7.98, 60.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1334: dims=(5.60, 0.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1335: dims=(12.37, 68.43, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1336: dims=(14.39, 6.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1337: dims=(37.65, 32.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1338: dims=(8.86, 9.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1339: dims=(7.61, 16.97, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.134: dims=(10.56, 28.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1340: dims=(16.03, 0.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1341: dims=(59.79, 3.74, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1342: dims=(0.56, 24.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1343: dims=(0.14, 9.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1344: dims=(0.31, 5.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1345: dims=(6.95, 6.46, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1346: dims=(14.20, 16.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1347: dims=(22.64, 10.12, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1348: dims=(24.40, 18.39, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1349: dims=(7.34, 0.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.135: dims=(1.68, 52.18, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1350: dims=(1.42, 22.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1351: dims=(3.92, 10.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1352: dims=(10.10, 10.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1353: dims=(0.05, 2.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1354: dims=(99.13, 22.53, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1355: dims=(6.62, 0.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1356: dims=(4.33, 0.34, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1357: dims=(7.35, 6.63, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1358: dims=(196.01, 232.12, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1359: dims=(373.77, 104.80, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.136: dims=(117.10, 45.62, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1360: dims=(86.94, 347.49, 0.00), verts=41, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1361: dims=(36.00, 54.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1362: dims=(8404.26, 2327.39, 0.00), verts=461, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1363: dims=(29.80, 7.94, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1364: dims=(24.72, 42.99, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1365: dims=(41.65, 0.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1366: dims=(26.40, 13.51, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1367: dims=(33.99, 21.81, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1368: dims=(22.98, 28.88, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1369: dims=(4.26, 0.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.137: dims=(9.15, 10.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1370: dims=(2.27, 3.82, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1371: dims=(0.10, 8.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1372: dims=(33.20, 27.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1373: dims=(26.53, 29.96, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1374: dims=(17.37, 14.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1375: dims=(27.82, 10.88, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1376: dims=(20.98, 0.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1377: dims=(1.04, 32.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1378: dims=(36.49, 62.36, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1379: dims=(27.40, 5.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.138: dims=(40.75, 52.40, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1380: dims=(19.33, 6.35, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1381: dims=(13.07, 71.44, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1382: dims=(66.03, 17.40, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1383: dims=(52.85, 24.74, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1384: dims=(41.42, 71.48, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1385: dims=(0.33, 14.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1386: dims=(16.14, 12.86, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1387: dims=(1.56, 57.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1388: dims=(0.30, 10.67, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1389: dims=(6.59, 11.89, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.139: dims=(36.01, 1.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1390: dims=(6.93, 14.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1391: dims=(2.24, 11.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1392: dims=(4.75, 90.62, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1393: dims=(0.28, 8.51, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1394: dims=(28.19, 0.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1395: dims=(5.64, 9.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1396: dims=(11.64, 4.96, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1397: dims=(0.08, 8.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1398: dims=(55.11, 5.62, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1399: dims=(5.77, 3.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.140: dims=(111.71, 74.68, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1400: dims=(19.03, 3.52, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1401: dims=(10.37, 10.35, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1402: dims=(6.99, 0.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1403: dims=(7.79, 2.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1404: dims=(27.70, 51.37, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1405: dims=(3.96, 4.33, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1406: dims=(57.03, 37.01, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1407: dims=(4.10, 1.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1408: dims=(6.14, 16.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1409: dims=(1.25, 1.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.141: dims=(7.25, 162.71, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1410: dims=(1.26, 1.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1411: dims=(2.90, 6.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1412: dims=(7.47, 19.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1413: dims=(125.81, 44.43, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1414: dims=(9.97, 20.44, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1415: dims=(3.12, 50.13, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1416: dims=(7.19, 6.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1417: dims=(147.09, 263.75, 0.00), verts=36, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1418: dims=(85.59, 300.17, 0.00), verts=53, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1419: dims=(76.65, 66.39, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.142: dims=(89.24, 3.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1420: dims=(47.88, 50.95, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1421: dims=(201.78, 7.49, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1422: dims=(4.61, 6.52, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1423: dims=(16.18, 47.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1424: dims=(14.66, 8.76, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1425: dims=(17.58, 61.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1426: dims=(40.63, 44.42, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1427: dims=(123.13, 41.90, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1428: dims=(1.65, 42.57, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1429: dims=(0.77, 22.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.143: dims=(0.65, 9.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1430: dims=(78.80, 9.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1431: dims=(120.89, 143.33, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1432: dims=(6.10, 29.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1433: dims=(4.56, 4.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1434: dims=(10.15, 19.65, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1435: dims=(11.65, 1.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1436: dims=(11.68, 1.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1437: dims=(1.57, 14.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1438: dims=(5.60, 0.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1439: dims=(6.58, 1.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.144: dims=(36.01, 43.26, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1440: dims=(7.28, 176.16, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1441: dims=(20.75, 148.20, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1442: dims=(125.93, 160.72, 0.00), verts=51, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1443: dims=(24.26, 31.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1444: dims=(1.62, 15.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1445: dims=(9.42, 0.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1446: dims=(29.81, 1.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1447: dims=(20.16, 1.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1448: dims=(13.11, 24.39, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1449: dims=(66.88, 62.32, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.145: dims=(108.20, 47.14, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1450: dims=(3.83, 4.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1451: dims=(0.81, 0.88, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1452: dims=(13.92, 3.41, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1453: dims=(48.22, 1.75, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1454: dims=(12.34, 5.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1455: dims=(38.32, 27.08, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1456: dims=(1.49, 0.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1457: dims=(5.31, 3.00, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1458: dims=(5.15, 0.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1459: dims=(1.94, 0.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.146: dims=(106.31, 67.78, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1460: dims=(8.95, 12.65, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1461: dims=(0.65, 5.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1462: dims=(48.47, 33.26, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1463: dims=(24.19, 0.42, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1464: dims=(2.73, 0.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1465: dims=(5.03, 0.00, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1466: dims=(100.90, 29.39, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1467: dims=(7.67, 5.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1468: dims=(54.52, 49.21, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.1469: dims=(44.67, 38.63, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.147: dims=(17.51, 19.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.148: dims=(77.75, 131.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.149: dims=(39.44, 113.80, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.150: dims=(34.97, 70.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.151: dims=(57.89, 46.39, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.152: dims=(12.74, 11.97, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.153: dims=(3.33, 12.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.154: dims=(17.90, 1.65, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.155: dims=(8.48, 3.29, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.156: dims=(5.45, 11.29, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.157: dims=(20.41, 25.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.158: dims=(96.39, 33.18, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.159: dims=(40.18, 37.21, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.160: dims=(42.27, 47.13, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.161: dims=(114.91, 22.54, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.162: dims=(32.78, 26.04, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.163: dims=(50.22, 171.75, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.164: dims=(252.95, 94.59, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.165: dims=(11.37, 28.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.166: dims=(50.19, 43.02, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.167: dims=(5.15, 59.43, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.168: dims=(42.58, 25.29, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.169: dims=(398.34, 275.54, 0.00), verts=33, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.170: dims=(64.34, 26.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.171: dims=(188.48, 108.76, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.172: dims=(61.67, 37.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.173: dims=(3.55, 6.78, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.174: dims=(437.92, 153.07, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.175: dims=(147.40, 130.79, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.176: dims=(74.47, 437.32, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.177: dims=(19.51, 14.02, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.178: dims=(16.99, 50.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.179: dims=(28.01, 79.43, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.180: dims=(109.09, 41.44, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.181: dims=(10.96, 10.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.182: dims=(67.02, 0.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.183: dims=(57.35, 17.87, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.184: dims=(6.10, 40.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.185: dims=(7.69, 61.59, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.186: dims=(7.09, 46.44, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.187: dims=(41.62, 23.43, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.188: dims=(42.21, 7.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.189: dims=(44.94, 18.24, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.190: dims=(61.93, 14.89, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.191: dims=(2.81, 7.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.192: dims=(7.45, 3.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.193: dims=(13.15, 13.06, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.194: dims=(21.85, 21.58, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.195: dims=(7.90, 51.42, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.196: dims=(7.95, 1.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.197: dims=(17.37, 18.84, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.198: dims=(1.21, 21.92, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.199: dims=(14.78, 0.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.200: dims=(29.16, 98.62, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.201: dims=(12.23, 17.15, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.202: dims=(13.31, 2.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.203: dims=(24.23, 0.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.204: dims=(10.00, 9.99, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.205: dims=(0.57, 33.17, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.206: dims=(21.88, 5.96, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.207: dims=(40.51, 1.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.208: dims=(40.82, 3.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.209: dims=(11.55, 0.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.210: dims=(1.10, 40.51, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.211: dims=(0.42, 27.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.212: dims=(19.02, 4.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.213: dims=(15.92, 17.79, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.214: dims=(28.66, 0.14, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.215: dims=(17.66, 24.23, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.216: dims=(45.39, 16.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.217: dims=(21.04, 0.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.218: dims=(16.26, 25.02, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.219: dims=(57.90, 18.18, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.220: dims=(106.43, 84.42, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.221: dims=(55.44, 291.53, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.222: dims=(435.88, 36.14, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.223: dims=(364.32, 198.50, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.224: dims=(149.67, 6.26, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.225: dims=(34.27, 4.10, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.226: dims=(17.54, 1.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.227: dims=(75.54, 2.70, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.228: dims=(28.65, 18.80, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.229: dims=(47.33, 13.23, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.230: dims=(19.72, 44.40, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.231: dims=(12.84, 11.89, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.232: dims=(10.31, 9.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.233: dims=(31.09, 26.44, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.234: dims=(52.49, 66.39, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.235: dims=(21.48, 14.65, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.236: dims=(9.54, 9.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.237: dims=(28.33, 17.49, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.238: dims=(29.32, 30.48, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.239: dims=(37.67, 42.46, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.240: dims=(28.27, 0.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.241: dims=(20.73, 34.04, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.242: dims=(31.70, 6.88, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.243: dims=(24.51, 59.20, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.244: dims=(3.51, 53.39, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.245: dims=(44.20, 22.47, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.246: dims=(152.61, 172.76, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.247: dims=(38.32, 16.88, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.248: dims=(38.13, 33.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.249: dims=(37.32, 0.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.250: dims=(35.29, 16.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.251: dims=(35.29, 0.99, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.252: dims=(66.95, 15.36, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.253: dims=(5.31, 2.82, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.254: dims=(16.28, 15.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.255: dims=(7.90, 4.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.256: dims=(14.44, 14.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.257: dims=(21.39, 9.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.258: dims=(41.17, 12.95, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.259: dims=(6.62, 2.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.260: dims=(12.12, 0.39, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.261: dims=(14.75, 30.16, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.262: dims=(47.26, 69.02, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.263: dims=(10.51, 1.47, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.264: dims=(42.19, 0.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.265: dims=(12.57, 32.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.266: dims=(62.79, 12.03, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.267: dims=(69.80, 9.24, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.268: dims=(52.68, 7.71, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.269: dims=(88.65, 130.40, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.270: dims=(60.71, 36.75, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.271: dims=(64.27, 2.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.272: dims=(12.04, 20.21, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.273: dims=(2.14, 0.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.274: dims=(13.05, 41.25, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.275: dims=(2.16, 0.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.276: dims=(64.34, 2.18, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.277: dims=(63.82, 37.72, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.278: dims=(34.79, 28.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.279: dims=(60.72, 1.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.280: dims=(13.78, 34.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.281: dims=(15.90, 9.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.282: dims=(65.77, 29.74, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.283: dims=(11.32, 11.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.284: dims=(7.01, 0.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.285: dims=(65.94, 2.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.286: dims=(65.50, 1.72, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.287: dims=(0.39, 17.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.288: dims=(23.81, 18.80, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.289: dims=(21.32, 16.87, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.290: dims=(60.08, 1.44, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.291: dims=(59.85, 4.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.292: dims=(7.01, 16.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.293: dims=(19.90, 15.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.294: dims=(18.60, 9.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.295: dims=(41.12, 0.59, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.296: dims=(53.84, 1.84, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.297: dims=(30.60, 15.31, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.298: dims=(0.02, 6.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.299: dims=(10.20, 20.57, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.300: dims=(13.27, 17.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.301: dims=(40.55, 11.74, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.302: dims=(14.63, 25.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.303: dims=(6.66, 3.83, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.304: dims=(6.78, 2.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.305: dims=(17.51, 14.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.306: dims=(9.54, 8.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.307: dims=(49.73, 199.64, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.308: dims=(37.68, 88.82, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.309: dims=(1.25, 11.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.310: dims=(52.47, 15.80, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.311: dims=(28.73, 15.64, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.312: dims=(9.58, 4.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.313: dims=(13.23, 14.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.314: dims=(26.14, 68.56, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.315: dims=(4.70, 1.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.316: dims=(7.53, 3.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.317: dims=(6.53, 24.59, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.318: dims=(47.17, 54.83, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.319: dims=(10.76, 9.16, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.320: dims=(160.88, 312.09, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.321: dims=(33.96, 32.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.322: dims=(22.05, 29.05, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.323: dims=(0.82, 0.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.324: dims=(11.26, 11.39, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.325: dims=(7.86, 8.05, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.326: dims=(3.59, 3.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.327: dims=(11.79, 17.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.328: dims=(15.53, 12.25, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.329: dims=(18.55, 16.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.330: dims=(23.45, 15.31, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.331: dims=(35.97, 30.06, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.332: dims=(24.35, 42.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.333: dims=(24.39, 37.81, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.334: dims=(16.78, 27.54, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.335: dims=(19.87, 31.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.336: dims=(7.86, 17.93, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.337: dims=(23.65, 28.39, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.338: dims=(9.37, 23.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.339: dims=(10.90, 6.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.340: dims=(11.54, 17.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.341: dims=(22.39, 38.25, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.342: dims=(23.61, 18.03, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.343: dims=(20.93, 13.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.344: dims=(55.77, 32.62, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.345: dims=(57.08, 29.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.346: dims=(14.25, 8.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.347: dims=(23.46, 23.79, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.348: dims=(17.88, 11.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.349: dims=(46.46, 36.91, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.350: dims=(64.88, 60.24, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.351: dims=(51.17, 31.18, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.352: dims=(29.35, 18.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.353: dims=(22.82, 1.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.354: dims=(38.33, 6.89, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.355: dims=(8.72, 0.98, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.356: dims=(12.71, 1.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.357: dims=(16.72, 2.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.358: dims=(13.00, 0.88, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.359: dims=(11.25, 0.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.360: dims=(14.29, 0.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.361: dims=(8.54, 1.10, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.362: dims=(40.96, 16.78, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.363: dims=(17.54, 1.10, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.364: dims=(8.18, 0.10, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.365: dims=(25.62, 0.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.366: dims=(0.00, 14.13, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.367: dims=(0.31, 18.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.368: dims=(13.52, 7.44, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.369: dims=(23.44, 17.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.370: dims=(22.00, 13.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.371: dims=(1.08, 14.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.372: dims=(0.75, 15.83, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.373: dims=(0.22, 18.44, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.374: dims=(11.54, 18.46, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.375: dims=(0.86, 19.56, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.376: dims=(0.97, 18.39, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.377: dims=(35.03, 23.57, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.378: dims=(16.13, 3.86, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.379: dims=(3.67, 42.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.380: dims=(10.07, 0.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.381: dims=(13.22, 1.29, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.382: dims=(20.54, 6.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.383: dims=(17.42, 2.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.384: dims=(13.02, 1.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.385: dims=(17.63, 3.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.386: dims=(15.47, 2.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.387: dims=(18.90, 0.97, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.388: dims=(13.92, 3.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.389: dims=(22.21, 5.11, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.390: dims=(1.07, 56.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.391: dims=(0.96, 18.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.392: dims=(0.97, 33.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.393: dims=(12.56, 11.13, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.394: dims=(4.41, 14.95, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.395: dims=(11.67, 0.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.396: dims=(0.70, 7.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.397: dims=(0.22, 8.34, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.398: dims=(3.56, 29.22, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.399: dims=(0.43, 37.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.400: dims=(6.68, 46.07, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.401: dims=(8.72, 64.67, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.402: dims=(11.30, 13.58, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.403: dims=(15.53, 0.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.404: dims=(50.85, 1.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.405: dims=(52.24, 1.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.406: dims=(16.86, 1.42, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.407: dims=(29.88, 1.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.408: dims=(50.57, 8.04, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.409: dims=(14.50, 0.42, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.410: dims=(13.07, 41.03, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.411: dims=(41.86, 3.32, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.412: dims=(17.82, 1.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.413: dims=(21.18, 2.70, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.414: dims=(15.84, 2.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.415: dims=(22.01, 29.71, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.416: dims=(1.62, 15.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.417: dims=(1.24, 19.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.418: dims=(0.17, 18.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.419: dims=(14.08, 0.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.420: dims=(16.76, 1.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.421: dims=(16.63, 1.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.422: dims=(1.00, 19.89, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.423: dims=(26.93, 9.24, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.424: dims=(2.65, 15.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.425: dims=(4.48, 0.20, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.426: dims=(20.43, 6.45, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.427: dims=(13.05, 14.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.428: dims=(11.01, 1.37, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.429: dims=(0.06, 16.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.430: dims=(15.31, 50.32, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.431: dims=(22.49, 11.30, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.432: dims=(12.33, 13.80, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.433: dims=(0.33, 18.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.434: dims=(1.21, 25.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.435: dims=(1.09, 23.44, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.436: dims=(0.98, 20.47, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.437: dims=(15.43, 59.67, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.438: dims=(0.39, 17.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.439: dims=(0.45, 11.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.440: dims=(0.01, 21.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.441: dims=(0.22, 16.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.442: dims=(18.06, 1.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.443: dims=(26.79, 19.30, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.444: dims=(9.86, 7.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.445: dims=(16.63, 12.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.446: dims=(51.77, 29.53, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.447: dims=(75.07, 49.52, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.448: dims=(2.16, 18.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.449: dims=(2.32, 23.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.450: dims=(3.55, 16.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.451: dims=(19.74, 34.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.452: dims=(12.51, 36.47, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.453: dims=(3.67, 27.03, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.454: dims=(15.12, 0.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.455: dims=(8.07, 54.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.456: dims=(3.16, 50.24, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.457: dims=(41.29, 61.02, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.458: dims=(2.40, 43.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.459: dims=(165.65, 1.73, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.460: dims=(61.07, 345.61, 0.00), verts=40, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.461: dims=(9.12, 21.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.462: dims=(23.34, 22.51, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.463: dims=(170.88, 315.26, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.464: dims=(4.56, 12.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.465: dims=(28.28, 39.92, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.466: dims=(17.82, 18.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.467: dims=(62.90, 25.22, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.468: dims=(9.30, 41.31, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.469: dims=(13.56, 47.83, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.470: dims=(6.30, 35.80, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.471: dims=(42.35, 15.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.472: dims=(11.14, 43.71, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.473: dims=(6.59, 2.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.474: dims=(4.99, 21.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.475: dims=(143.38, 53.22, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.476: dims=(5.52, 15.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.477: dims=(30.80, 25.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.478: dims=(15.85, 18.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.479: dims=(20.30, 48.33, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.480: dims=(32.73, 25.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.481: dims=(34.43, 31.22, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.482: dims=(14.87, 4.75, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.483: dims=(24.26, 24.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.484: dims=(29.14, 62.69, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.485: dims=(36.87, 25.57, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.486: dims=(25.68, 77.14, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.487: dims=(6.13, 24.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.488: dims=(13.56, 4.82, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.489: dims=(5.37, 17.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.490: dims=(106.15, 94.78, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.491: dims=(5.76, 27.73, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.492: dims=(20.23, 10.47, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.493: dims=(10.67, 22.37, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.494: dims=(26.89, 37.97, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.495: dims=(14.87, 16.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.496: dims=(16.89, 2.43, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.497: dims=(26.68, 18.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.498: dims=(133.80, 221.62, 0.00), verts=44, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.499: dims=(58.15, 26.48, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.500: dims=(1.90, 13.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.501: dims=(56.83, 15.96, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.502: dims=(24.16, 13.46, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.503: dims=(27.45, 33.59, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.504: dims=(71.26, 44.71, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.505: dims=(32.12, 35.76, 0.00), verts=38, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.506: dims=(11.95, 10.02, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.507: dims=(19.72, 7.05, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.508: dims=(0.35, 39.90, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.509: dims=(19.93, 0.52, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.510: dims=(57.34, 2.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.511: dims=(4.57, 0.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.512: dims=(16.58, 5.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.513: dims=(16.44, 2.01, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.514: dims=(8.68, 4.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.515: dims=(264.13, 124.30, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.516: dims=(4.70, 13.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.517: dims=(5.29, 14.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.518: dims=(15.30, 40.93, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.519: dims=(320.18, 518.21, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.520: dims=(12.27, 13.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.521: dims=(151.03, 85.87, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.522: dims=(10.44, 16.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.523: dims=(8.33, 30.29, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.524: dims=(1.96, 6.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.525: dims=(4.76, 3.33, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.526: dims=(6.95, 3.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.527: dims=(6.75, 9.46, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.528: dims=(36.31, 16.06, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.529: dims=(5.70, 3.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.530: dims=(2.27, 1.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.531: dims=(2.76, 1.70, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.532: dims=(115.70, 9.55, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.533: dims=(0.39, 26.12, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.534: dims=(15.20, 22.39, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.535: dims=(0.21, 5.79, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.536: dims=(8.28, 7.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.537: dims=(139.99, 27.20, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.538: dims=(5.97, 10.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.539: dims=(0.64, 12.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.540: dims=(0.23, 3.20, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.541: dims=(0.18, 3.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.542: dims=(0.10, 4.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.543: dims=(47.39, 4.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.544: dims=(1.13, 33.52, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.545: dims=(18.20, 11.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.546: dims=(10.81, 7.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.547: dims=(23.48, 20.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.548: dims=(45.25, 9.73, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.549: dims=(0.26, 10.79, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.550: dims=(0.00, 3.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.551: dims=(9.13, 9.09, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.552: dims=(18.59, 12.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.553: dims=(326.42, 101.38, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.554: dims=(6.01, 18.16, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.555: dims=(11.76, 21.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.556: dims=(2.93, 8.28, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.557: dims=(9.36, 12.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.558: dims=(21.98, 66.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.559: dims=(14.25, 14.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.560: dims=(5.39, 22.01, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.561: dims=(2.83, 20.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.562: dims=(4.85, 20.45, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.563: dims=(5.48, 17.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.564: dims=(13.58, 9.24, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.565: dims=(3.63, 11.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.566: dims=(4.82, 13.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.567: dims=(45.55, 20.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.568: dims=(4.33, 11.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.569: dims=(3.88, 10.35, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.570: dims=(6.58, 15.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.571: dims=(95.28, 88.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.572: dims=(55.64, 34.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.573: dims=(17.93, 60.89, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.574: dims=(3.84, 19.95, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.575: dims=(30.69, 27.45, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.576: dims=(587.20, 1072.75, 0.00), verts=44, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.577: dims=(24.92, 3.13, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.578: dims=(204.00, 156.60, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.579: dims=(2.07, 10.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.580: dims=(29.97, 5.98, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.581: dims=(3.27, 16.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.582: dims=(13.59, 10.84, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.583: dims=(17.08, 17.35, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.584: dims=(3.32, 17.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.585: dims=(14.56, 4.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.586: dims=(0.48, 13.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.587: dims=(15.48, 0.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.588: dims=(15.00, 0.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.589: dims=(16.88, 0.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.590: dims=(0.27, 21.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.591: dims=(60.40, 118.27, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.592: dims=(25.42, 0.95, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.593: dims=(8.68, 18.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.594: dims=(2.47, 19.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.595: dims=(34.38, 0.71, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.596: dims=(14.97, 7.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.597: dims=(3.11, 6.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.598: dims=(7.00, 4.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.599: dims=(54.89, 6.59, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.600: dims=(8.88, 1.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.601: dims=(9.77, 1.17, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.602: dims=(15.05, 7.04, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.603: dims=(9.21, 69.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.604: dims=(17.92, 10.26, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.605: dims=(20.28, 11.03, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.606: dims=(2.27, 18.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.607: dims=(19.61, 10.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.608: dims=(146.30, 96.31, 0.00), verts=21, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.609: dims=(1.70, 17.48, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.610: dims=(10.24, 84.09, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.611: dims=(14.72, 34.52, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.612: dims=(14.05, 29.84, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.613: dims=(18.95, 4.48, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.614: dims=(40.92, 1.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.615: dims=(6.59, 83.43, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.616: dims=(176.78, 45.47, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.617: dims=(2.50, 53.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.618: dims=(172.73, 1.50, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.619: dims=(1.31, 5.56, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.620: dims=(21.35, 21.35, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.621: dims=(1.76, 28.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.622: dims=(56.10, 5.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.623: dims=(22.37, 48.71, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.624: dims=(64.54, 56.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.625: dims=(63.90, 59.39, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.626: dims=(89.40, 51.66, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.627: dims=(44.58, 21.02, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.628: dims=(26.09, 4.53, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.629: dims=(11.21, 12.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.630: dims=(11.06, 25.41, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.631: dims=(46.66, 47.00, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.632: dims=(134.42, 80.95, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.633: dims=(8.62, 24.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.634: dims=(31.93, 37.74, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.635: dims=(38.83, 8.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.636: dims=(3.02, 11.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.637: dims=(48.30, 53.88, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.638: dims=(17.62, 21.52, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.639: dims=(5.68, 9.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.640: dims=(11.78, 11.78, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.641: dims=(191.40, 170.21, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.642: dims=(3.55, 12.34, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.643: dims=(3.62, 13.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.644: dims=(3.59, 13.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.645: dims=(4.66, 5.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.646: dims=(57.91, 51.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.647: dims=(5.02, 11.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.648: dims=(4.16, 14.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.649: dims=(53.79, 60.45, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.650: dims=(16.22, 13.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.651: dims=(3.39, 22.88, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.652: dims=(90.60, 63.28, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.653: dims=(174.48, 350.07, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.654: dims=(22.83, 30.92, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.655: dims=(12.86, 0.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.656: dims=(317.76, 78.10, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.657: dims=(0.73, 16.77, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.658: dims=(3.30, 84.89, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.659: dims=(12.04, 0.12, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.660: dims=(73.46, 0.63, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.661: dims=(76.44, 5.76, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.662: dims=(23.36, 45.22, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.663: dims=(20.29, 1.40, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.664: dims=(6.59, 0.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.665: dims=(0.13, 7.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.666: dims=(2.91, 27.98, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.667: dims=(15.28, 0.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.668: dims=(14.61, 1.52, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.669: dims=(35.73, 19.65, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.670: dims=(0.25, 10.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.671: dims=(149.29, 1.82, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.672: dims=(5.00, 34.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.673: dims=(34.85, 9.17, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.674: dims=(1.07, 13.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.675: dims=(2.11, 1.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.676: dims=(15.86, 28.12, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.677: dims=(31.69, 32.81, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.678: dims=(59.19, 147.60, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.679: dims=(28.84, 0.59, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.680: dims=(48.47, 1.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.681: dims=(1.33, 8.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.682: dims=(1.84, 14.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.683: dims=(1.83, 23.67, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.684: dims=(5.57, 31.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.685: dims=(0.72, 11.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.686: dims=(18.14, 2.82, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.687: dims=(1.53, 12.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.688: dims=(37.24, 53.52, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.689: dims=(10.57, 0.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.690: dims=(5.60, 0.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.691: dims=(1.13, 1.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.692: dims=(1.25, 9.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.693: dims=(72.90, 9.58, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.694: dims=(1.01, 10.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.695: dims=(4.69, 155.96, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.696: dims=(11.45, 0.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.697: dims=(41.72, 3.65, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.698: dims=(139.80, 219.61, 0.00), verts=21, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.699: dims=(78.91, 53.71, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.700: dims=(12.12, 1.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.701: dims=(0.43, 11.20, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.702: dims=(13.81, 1.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.703: dims=(152.84, 40.00, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.704: dims=(2.74, 18.87, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.705: dims=(0.87, 9.04, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.706: dims=(2.82, 10.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.707: dims=(9.15, 1.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.708: dims=(5.35, 114.89, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.709: dims=(0.11, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.710: dims=(0.06, 10.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.711: dims=(0.54, 14.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.712: dims=(0.65, 14.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.713: dims=(15.98, 56.93, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.714: dims=(2.15, 15.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.715: dims=(10.77, 79.85, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.716: dims=(1.15, 11.37, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.717: dims=(10.32, 0.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.718: dims=(0.31, 9.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.719: dims=(21.41, 1.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.720: dims=(15.17, 0.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.721: dims=(132.06, 4.33, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.722: dims=(12.45, 0.28, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.723: dims=(33.33, 264.17, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.724: dims=(23.77, 0.42, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.725: dims=(74.51, 22.54, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.726: dims=(185.76, 142.46, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.727: dims=(133.54, 120.88, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.728: dims=(6.27, 67.55, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.729: dims=(0.06, 4.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.730: dims=(0.08, 7.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.731: dims=(140.30, 273.06, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.732: dims=(26.01, 12.55, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.733: dims=(39.93, 49.96, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.734: dims=(236.88, 210.11, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.735: dims=(43.96, 20.99, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.736: dims=(0.80, 25.54, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.737: dims=(42.77, 8.17, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.738: dims=(46.79, 7.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.739: dims=(8.47, 49.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.740: dims=(3.70, 29.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.741: dims=(4.14, 26.10, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.742: dims=(0.72, 30.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.743: dims=(2.58, 26.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.744: dims=(4.33, 13.79, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.745: dims=(14.25, 8.66, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.746: dims=(2.81, 14.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.747: dims=(46.02, 13.32, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.748: dims=(65.74, 35.03, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.749: dims=(39.26, 9.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.750: dims=(25.39, 5.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.751: dims=(47.09, 9.10, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.752: dims=(25.61, 7.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.753: dims=(33.77, 6.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.754: dims=(56.67, 335.15, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.755: dims=(20.79, 1.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.756: dims=(26.11, 2.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.757: dims=(12.10, 1.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.758: dims=(25.82, 4.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.759: dims=(36.99, 4.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.760: dims=(20.39, 3.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.761: dims=(27.10, 4.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.762: dims=(7.45, 7.65, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.763: dims=(10.37, 1.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.764: dims=(36.18, 6.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.765: dims=(16.18, 20.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.766: dims=(14.38, 0.55, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.767: dims=(6.61, 14.99, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.768: dims=(9.92, 7.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.769: dims=(8.73, 9.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.770: dims=(19.42, 14.50, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.771: dims=(9.03, 10.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.772: dims=(155.41, 219.11, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.773: dims=(50.25, 13.48, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.774: dims=(10.68, 2.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.775: dims=(8.35, 16.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.776: dims=(10.89, 12.00, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.777: dims=(1100.59, 608.59, 0.00), verts=70, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.778: dims=(31.89, 8.00, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.779: dims=(5.33, 25.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.780: dims=(14.42, 86.69, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.781: dims=(1.79, 12.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.782: dims=(11.30, 1.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.783: dims=(28.34, 169.02, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.784: dims=(1.84, 10.70, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.785: dims=(132.49, 471.26, 0.00), verts=27, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.786: dims=(14.99, 2.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.787: dims=(22.43, 153.12, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.788: dims=(19.92, 104.10, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.789: dims=(13.76, 72.65, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.790: dims=(10.19, 7.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.791: dims=(2.36, 12.32, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.792: dims=(120.10, 72.38, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.793: dims=(97.23, 88.11, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.794: dims=(11.32, 33.12, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.795: dims=(26.56, 159.61, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.796: dims=(184.32, 7.96, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.797: dims=(19.50, 30.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.798: dims=(10.32, 5.39, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.799: dims=(14.50, 5.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.800: dims=(9.25, 3.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.801: dims=(82.48, 33.49, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.802: dims=(26.46, 114.60, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.803: dims=(3.96, 20.14, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.804: dims=(20.74, 8.74, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.805: dims=(21.31, 7.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.806: dims=(3.38, 19.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.807: dims=(7.50, 16.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.808: dims=(16.62, 5.54, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.809: dims=(59.22, 266.60, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.810: dims=(149.80, 133.36, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.811: dims=(8.46, 7.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.812: dims=(12.31, 12.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.813: dims=(44.16, 37.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.814: dims=(30.69, 73.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.815: dims=(19.16, 17.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.816: dims=(11.85, 59.15, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.817: dims=(69.23, 62.58, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.818: dims=(5.34, 4.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.819: dims=(10.52, 12.05, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.820: dims=(19.44, 15.88, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.821: dims=(47.02, 19.81, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.822: dims=(7.77, 37.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.823: dims=(29.47, 3.73, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.824: dims=(8.62, 7.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.825: dims=(11.52, 11.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.826: dims=(18.36, 70.58, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.827: dims=(6.74, 8.44, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.828: dims=(139.25, 41.03, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.829: dims=(148.50, 8.99, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.830: dims=(10.69, 1.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.831: dims=(78.62, 9.82, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.832: dims=(20.49, 12.10, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.833: dims=(17.93, 10.87, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.834: dims=(42.48, 44.34, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.835: dims=(15.53, 51.24, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.836: dims=(130.01, 318.77, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.837: dims=(18.71, 75.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.838: dims=(2.94, 63.29, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.839: dims=(94.55, 190.14, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.840: dims=(37.61, 2.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.841: dims=(46.05, 20.40, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.842: dims=(49.59, 2.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.843: dims=(18.25, 14.61, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.844: dims=(32.58, 2.38, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.845: dims=(6.10, 48.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.846: dims=(14.20, 1.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.847: dims=(14.32, 1.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.848: dims=(14.68, 1.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.849: dims=(0.12, 17.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.850: dims=(32.80, 16.11, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.851: dims=(1.10, 39.80, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.852: dims=(1.43, 40.18, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.853: dims=(52.87, 22.01, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.854: dims=(58.20, 21.12, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.855: dims=(1.56, 7.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.856: dims=(19.04, 7.51, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.857: dims=(0.18, 10.48, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.858: dims=(12.00, 0.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.859: dims=(0.14, 15.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.860: dims=(0.24, 19.94, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.861: dims=(0.09, 4.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.862: dims=(0.23, 10.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.863: dims=(0.35, 18.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.864: dims=(0.43, 19.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.865: dims=(29.93, 53.37, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.866: dims=(13.18, 4.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.867: dims=(11.64, 10.89, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.868: dims=(10.64, 9.50, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.869: dims=(15.77, 45.78, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.870: dims=(2.87, 8.71, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.871: dims=(35.24, 13.35, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.872: dims=(15.36, 6.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.873: dims=(22.90, 13.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.874: dims=(9.32, 25.44, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.875: dims=(5.23, 22.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.876: dims=(26.84, 28.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.877: dims=(25.85, 77.69, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.878: dims=(59.70, 30.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.879: dims=(16.26, 23.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.880: dims=(26.93, 27.15, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.881: dims=(3.82, 11.48, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.882: dims=(30.62, 4.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.883: dims=(372.00, 98.98, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.884: dims=(38.54, 35.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.885: dims=(10.47, 3.04, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.886: dims=(33.22, 53.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.887: dims=(2.85, 5.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.888: dims=(31.40, 30.08, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.889: dims=(20.72, 11.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.890: dims=(16.25, 35.49, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.891: dims=(7.26, 1.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.892: dims=(62.11, 79.68, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.893: dims=(9.72, 0.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.894: dims=(14.33, 51.87, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.895: dims=(41.61, 34.85, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.896: dims=(67.61, 43.23, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.897: dims=(22.21, 27.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.898: dims=(14.73, 11.97, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.899: dims=(2.65, 5.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.900: dims=(7.70, 0.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.901: dims=(19.36, 16.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.902: dims=(9.69, 0.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.903: dims=(7.68, 11.79, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.904: dims=(73.91, 786.25, 0.00), verts=35, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.905: dims=(20.47, 56.12, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.906: dims=(13.15, 12.28, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.907: dims=(12.46, 7.57, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.908: dims=(21.49, 12.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.909: dims=(14.29, 39.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.910: dims=(133.81, 151.63, 0.00), verts=28, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.911: dims=(143.49, 19.50, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.912: dims=(9.84, 1.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.913: dims=(8.92, 1.68, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.914: dims=(13.19, 21.68, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.915: dims=(37.90, 7.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.916: dims=(16.38, 18.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.917: dims=(19.26, 3.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.918: dims=(14.71, 8.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.919: dims=(6.41, 3.67, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.920: dims=(1.88, 7.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.921: dims=(9.04, 1.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.922: dims=(10.03, 1.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.923: dims=(0.10, 8.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.924: dims=(0.15, 11.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.925: dims=(12.82, 2.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.926: dims=(9.96, 1.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.927: dims=(9.84, 2.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.928: dims=(12.08, 2.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.929: dims=(2.59, 14.53, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.930: dims=(7.90, 1.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.931: dims=(12.08, 41.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.932: dims=(20.60, 4.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.933: dims=(9.06, 1.71, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.934: dims=(11.58, 2.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.935: dims=(11.87, 2.39, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.936: dims=(22.17, 9.01, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.937: dims=(0.14, 10.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.938: dims=(3.76, 11.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.939: dims=(12.88, 12.83, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.940: dims=(4.37, 15.07, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.941: dims=(2.89, 16.37, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.942: dims=(13.48, 7.80, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.943: dims=(10.48, 4.85, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.944: dims=(2.77, 8.65, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.945: dims=(5.25, 6.70, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.946: dims=(13.24, 2.56, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.947: dims=(50.78, 48.07, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.948: dims=(16.15, 27.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.949: dims=(90.50, 111.65, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.950: dims=(19.65, 11.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.951: dims=(16.26, 12.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.952: dims=(35.81, 46.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.953: dims=(65.07, 91.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.954: dims=(202.06, 252.36, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.955: dims=(66.75, 19.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.956: dims=(65.19, 95.89, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.957: dims=(139.00, 83.99, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.958: dims=(63.40, 28.17, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.959: dims=(37.34, 52.37, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.960: dims=(92.74, 64.40, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.961: dims=(33.48, 135.50, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.962: dims=(55.32, 64.54, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.963: dims=(14.45, 93.78, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.964: dims=(14.42, 85.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.965: dims=(10.44, 3.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.966: dims=(44.20, 27.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.967: dims=(5.46, 8.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.968: dims=(52.10, 66.57, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.969: dims=(97.69, 66.21, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.970: dims=(124.63, 77.71, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.971: dims=(5.82, 3.61, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.972: dims=(14.78, 0.70, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.973: dims=(68.57, 175.19, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.974: dims=(120.76, 83.51, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.975: dims=(8.74, 13.48, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.976: dims=(16.31, 1.51, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.977: dims=(17.68, 0.44, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.978: dims=(41.57, 32.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.979: dims=(60.39, 34.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.980: dims=(71.23, 2.97, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.981: dims=(9.35, 33.70, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.982: dims=(59.83, 6.48, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.983: dims=(27.03, 6.59, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.984: dims=(37.74, 3.44, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.985: dims=(18.26, 7.89, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.986: dims=(2.33, 42.42, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.987: dims=(25.38, 28.60, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.988: dims=(2.07, 29.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.989: dims=(85.35, 16.25, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.990: dims=(13.20, 9.14, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.991: dims=(12.30, 2.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.992: dims=(4.45, 35.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.993: dims=(52.55, 71.20, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.994: dims=(0.99, 12.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.995: dims=(44.84, 0.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.996: dims=(57.55, 408.52, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.997: dims=(7.93, 2.72, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.998: dims=(466.70, 227.58, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
-- Ways.999: dims=(101.16, 81.00, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- Areas.183: dims=(92.50, 39.44, 0.00), verts=4, faces=1, mats=no material
+- Areas.187: dims=(18.33, 25.95, 0.00), verts=4, faces=1, mats=no material
+- Areas.188: dims=(22.72, 28.38, 0.00), verts=4, faces=1, mats=no material
+- Areas.189: dims=(126.16, 120.96, 0.00), verts=12, faces=1, mats=no material
+- Areas.190: dims=(73.32, 120.32, 0.00), verts=4, faces=1, mats=no material
+- Areas.192: dims=(120.13, 142.08, 0.00), verts=15, faces=1, mats=no material
+- Areas.199: dims=(120.76, 131.96, 0.00), verts=6, faces=1, mats=no material
+- Areas.202: dims=(118.49, 92.15, 0.00), verts=4, faces=1, mats=no material
+- Areas.203: dims=(107.62, 78.16, 0.00), verts=4, faces=1, mats=no material
+- Areas.204: dims=(100.57, 133.02, 0.00), verts=6, faces=1, mats=no material
+- Areas.205: dims=(104.02, 111.55, 0.00), verts=4, faces=1, mats=no material
+- Areas.206: dims=(18.85, 26.33, 0.00), verts=4, faces=1, mats=no material
+- Areas.207: dims=(18.62, 26.57, 0.00), verts=4, faces=1, mats=no material
+- Areas.208: dims=(18.66, 25.89, 0.00), verts=4, faces=1, mats=no material
+- Areas.209: dims=(18.82, 26.27, 0.00), verts=4, faces=1, mats=no material
+- Areas.219: dims=(18.32, 26.35, 0.00), verts=4, faces=1, mats=no material
+- Areas.220: dims=(18.25, 26.17, 0.00), verts=4, faces=1, mats=no material
+- Areas.221: dims=(18.32, 25.99, 0.00), verts=4, faces=1, mats=no material
+- Areas.230: dims=(24.21, 28.46, 0.00), verts=4, faces=1, mats=no material
+- Areas.738: dims=(16.02, 14.65, 0.00), verts=4, faces=1, mats=no material
+- Areas.741: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=no material
+- Areas.742: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=no material
+- Areas.743: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=no material
+- Areas.744: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=no material
+- Areas.745: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=no material
+- Areas.746: dims=(11.73, 24.04, 0.00), verts=4, faces=1, mats=no material
+- building__1-allen-lane__way_648280461: dims=(15.40, 37.84, 20.00), verts=40, faces=21, mats=no material
+- building__1-austin-avenue__way_48466706: dims=(21.55, 17.43, 20.00), verts=20, faces=11, mats=no material
+- building__1-barrymore-road__way_874520408: dims=(17.97, 15.54, 20.00), verts=8, faces=5, mats=no material
+- building__1-brockway-road__way_874520477: dims=(12.96, 12.39, 20.00), verts=12, faces=7, mats=no material
+- building__1-buell-street__way_874770914: dims=(11.29, 13.76, 20.00), verts=24, faces=13, mats=no material
+- building__1-buell-street__way_874770915: dims=(10.42, 8.86, 20.00), verts=10, faces=6, mats=no material
+- building__1-dana-road__way_48466712: dims=(5.76, 7.53, 20.00), verts=8, faces=5, mats=no material
+- building__1-dana-road__way_48466713: dims=(13.76, 9.06, 20.00), verts=8, faces=5, mats=no material
+- building__1-holiday-drive__way_1415647781: dims=(7.32, 6.97, 20.00), verts=8, faces=5, mats=no material
+- building__1-huntley-road__way_785657748: dims=(13.30, 14.76, 20.00), verts=12, faces=7, mats=no material
+- building__1-huntley-road__way_785657749: dims=(11.62, 11.91, 20.00), verts=8, faces=5, mats=no material
+- building__1-ivy-pointe-way__way_784097654: dims=(17.91, 23.90, 20.00), verts=40, faces=21, mats=no material
+- building__1-maple-street__way_648280468: dims=(24.87, 11.30, 20.00), verts=16, faces=9, mats=no material
+- building__1-maple-street__way_842819162: dims=(9.87, 6.95, 20.00), verts=8, faces=5, mats=no material
+- building__1-north-balch-street__way_715178942: dims=(34.97, 29.55, 20.00), verts=36, faces=19, mats=no material
+- building__1-north-park-street__way_49797508: dims=(35.28, 28.04, 20.00), verts=32, faces=17, mats=no material
+- building__1-park-way__way_873165786: dims=(31.78, 31.12, 20.00), verts=40, faces=21, mats=no material
+- building__1-read-road__way_645797718: dims=(15.90, 18.99, 20.00), verts=8, faces=5, mats=no material
+- building__1-ripley-road__way_783691420: dims=(13.73, 9.98, 20.00), verts=30, faces=16, mats=no material
+- building__1-rope-ferry-road__way_295888763: dims=(22.48, 30.84, 20.00), verts=26, faces=14, mats=no material
+- building__1-sanborn-road__way_783717749: dims=(13.35, 14.94, 6.00), verts=16, faces=9, mats=no material
+- building__1-sargent-street__way_645606292: dims=(16.70, 9.99, 20.00), verts=20, faces=11, mats=no material
+- building__1-sargent-street__way_645606293: dims=(7.01, 5.01, 20.00), verts=8, faces=5, mats=no material
+- building__1-south-balch-street__way_48467534: dims=(6.09, 4.51, 20.00), verts=8, faces=5, mats=no material
+- building__1-south-park-street__way_734295467: dims=(18.19, 28.07, 20.00), verts=34, faces=18, mats=no material
+- building__1-weatherby-road__way_648551747: dims=(24.90, 19.75, 20.00), verts=24, faces=13, mats=no material
+- building__1-weatherby-terrace__way_648551751: dims=(29.39, 18.81, 20.00), verts=32, faces=17, mats=no material
+- building__1-webster-terrace__way_641064106: dims=(16.40, 16.39, 20.00), verts=16, faces=9, mats=no material
+- building__10-5-sargent-street__way_621725239: dims=(10.53, 11.72, 20.00), verts=12, faces=7, mats=no material
+- building__10-barrymore-road__way_874520481: dims=(18.91, 21.06, 20.00), verts=22, faces=12, mats=no material
+- building__10-buell-street__way_874770906: dims=(16.10, 28.29, 20.00), verts=28, faces=15, mats=no material
+- building__10-hovey-lane__way_874770889: dims=(18.09, 21.06, 20.00), verts=16, faces=9, mats=no material
+- building__10-ledyard-lane__way_874770879: dims=(19.40, 23.43, 20.00), verts=30, faces=16, mats=no material
+- building__10-maple-street__way_601077330: dims=(11.10, 17.88, 20.00), verts=12, faces=7, mats=no material
+- building__10-north-balch-street__way_873165772: dims=(18.97, 20.45, 20.00), verts=30, faces=16, mats=no material
+- building__10-north-park-street__way_49797519: dims=(17.59, 26.33, 20.00), verts=24, faces=13, mats=no material
+- building__10-occom-ridge__way_639042021: dims=(22.29, 20.83, 20.00), verts=20, faces=11, mats=no material
+- building__10-occom-ridge__way_639042024: dims=(11.86, 11.95, 20.00), verts=8, faces=5, mats=no material
+- building__10-park-way__way_873165785: dims=(16.67, 23.35, 20.00), verts=42, faces=22, mats=no material
+- building__10-pleasant-street__way_647756217: dims=(30.91, 13.91, 20.00), verts=16, faces=9, mats=no material
+- building__10-prospect-street__way_648280413: dims=(16.10, 11.22, 20.00), verts=16, faces=9, mats=no material
+- building__10-river-ridge-road__way_647089458: dims=(17.38, 19.72, 20.00), verts=20, faces=11, mats=no material
+- building__10-rope-ferry-road__way_642362808: dims=(24.42, 25.89, 20.00), verts=40, faces=21, mats=no material
+- building__10-sargent-street__way_621725241: dims=(7.35, 4.83, 20.00), verts=8, faces=5, mats=no material
+- building__10-sargent-street__way_643091507: dims=(15.18, 17.09, 20.00), verts=20, faces=11, mats=no material
+- building__10-sargent-street__way_643091508: dims=(7.09, 4.53, 20.00), verts=8, faces=5, mats=no material
+- building__11-allen-street__way_621647002: dims=(23.10, 12.99, 20.00), verts=24, faces=13, mats=no material
+- building__11-barrymore-road__way_874520418: dims=(20.50, 14.82, 20.00), verts=30, faces=16, mats=no material
+- building__11-brockway-road__way_874520466: dims=(17.89, 15.06, 20.00), verts=20, faces=11, mats=no material
+- building__11-currier-place__way_783691447: dims=(14.22, 17.08, 20.00), verts=20, faces=11, mats=no material
+- building__11-ledyard-lane__way_874770894: dims=(30.16, 32.76, 20.00), verts=46, faces=24, mats=no material
+- building__11-maple-street__way_648280419: dims=(14.13, 18.08, 20.00), verts=20, faces=11, mats=no material
+- building__11-maple-street__way_648280422: dims=(6.42, 15.01, 20.00), verts=8, faces=5, mats=no material
+- building__11-north-balch-street__way_873165777: dims=(20.28, 19.65, 20.00), verts=32, faces=17, mats=no material
+- building__11-north-park-street__way_873165809: dims=(29.91, 13.89, 20.00), verts=26, faces=14, mats=no material
+- building__11-north-park-street__way_873165810: dims=(32.85, 19.11, 20.00), verts=34, faces=18, mats=no material
+- building__11-pleasant-street__way_601077332: dims=(9.84, 18.97, 20.00), verts=12, faces=7, mats=no material
+- building__11-river-ridge-road__way_648551743: dims=(24.97, 29.48, 20.00), verts=20, faces=11, mats=no material
+- building__11-rope-ferry-road__way_295888764: dims=(22.42, 26.33, 20.00), verts=28, faces=15, mats=no material
+- building__11-sargent-street__way_621725227: dims=(12.79, 17.99, 20.00), verts=12, faces=7, mats=no material
+- building__11-school-street__way_648280466: dims=(22.73, 12.15, 20.00), verts=20, faces=11, mats=no material
+- building__11-south-park-street__way_48466709: dims=(22.94, 13.55, 20.00), verts=22, faces=12, mats=no material
+- building__11-south-park-street__way_838868528: dims=(8.60, 8.56, 20.00), verts=10, faces=6, mats=no material
+- building__12-buell-street__way_874770905: dims=(22.07, 19.85, 20.00), verts=12, faces=7, mats=no material
+- building__12-ledyard-lane__way_874770871: dims=(25.99, 32.03, 20.00), verts=24, faces=13, mats=no material
+- building__12-maple-street__way_601077331: dims=(13.32, 16.75, 20.00), verts=24, faces=13, mats=no material
+- building__12-north-balch-street__way_873165774: dims=(22.87, 19.23, 20.00), verts=24, faces=13, mats=no material
+- building__12-north-park-street__way_49797518: dims=(12.41, 12.51, 20.00), verts=12, faces=7, mats=no material
+- building__12-occom-ridge__way_639042026: dims=(18.99, 19.52, 20.00), verts=38, faces=20, mats=no material
+- building__12-occom-ridge__way_639042028: dims=(9.78, 9.55, 20.00), verts=8, faces=5, mats=no material
+- building__12-sargent-street__way_643091504: dims=(16.43, 10.52, 20.00), verts=20, faces=11, mats=no material
+- building__13-allen-street__way_621647003: dims=(18.95, 26.05, 20.00), verts=48, faces=25, mats=no material
+- building__13-choate-road__way_262922786: dims=(24.71, 29.37, 20.00), verts=32, faces=17, mats=no material
+- building__13-east-wheelock-street__way_262926522: dims=(18.03, 30.69, 20.00), verts=32, faces=17, mats=no material
+- building__13-lebanon-street__way_265141856: dims=(11.98, 20.08, 20.00), verts=16, faces=9, mats=no material
+- building__13-maple-street__way_648280415: dims=(17.53, 17.06, 20.00), verts=28, faces=15, mats=no material
+- building__13-north-balch-street__way_49797527: dims=(18.66, 12.05, 20.00), verts=8, faces=5, mats=no material
+- building__13-north-park-street__way_873165794: dims=(19.27, 14.49, 20.00), verts=32, faces=17, mats=no material
+- building__13-rope-ferry-road__way_642843755: dims=(23.01, 30.58, 20.00), verts=32, faces=17, mats=no material
+- building__13-school-street__way_648280467: dims=(12.49, 9.27, 20.00), verts=16, faces=9, mats=no material
+- building__14-allen-street__way_648280462: dims=(21.86, 13.38, 20.00), verts=28, faces=15, mats=no material
+- building__14-ledyard-lane__way_874770870: dims=(22.99, 10.39, 20.00), verts=30, faces=16, mats=no material
+- building__14-maple-street__way_647756221: dims=(11.27, 19.98, 20.00), verts=16, faces=9, mats=no material
+- building__14-north-balch-street__way_873165775: dims=(7.40, 5.42, 20.00), verts=10, faces=6, mats=no material
+- building__14-north-balch-street__way_873165776: dims=(16.86, 18.41, 20.00), verts=30, faces=16, mats=no material
+- building__14-north-park-street__way_49797517: dims=(10.34, 9.36, 20.00), verts=12, faces=7, mats=no material
+- building__14-occom-ridge__way_640393061: dims=(17.37, 18.32, 20.00), verts=24, faces=13, mats=no material
+- building__14-rope-ferry-road__way_642362810: dims=(23.40, 20.97, 20.00), verts=32, faces=17, mats=no material
+- building__14-sargent-street__way_643091503: dims=(22.73, 18.18, 20.00), verts=20, faces=11, mats=no material
+- building__14-school-street__way_649347151: dims=(25.82, 18.33, 20.00), verts=24, faces=13, mats=no material
+- building__14-west-wheelock-street__way_621646999: dims=(18.70, 21.91, 20.00), verts=20, faces=11, mats=no material
+- building__143-river-road__way_616919968: dims=(13.50, 14.17, 20.00), verts=8, faces=5, mats=no material
+- building__147-river-road__way_616919969: dims=(12.30, 11.74, 20.00), verts=12, faces=7, mats=no material
+- building__15-allen-street__way_621647004: dims=(17.38, 15.01, 20.00), verts=20, faces=11, mats=no material
+- building__15-barrymore-road__way_874520422: dims=(19.14, 12.91, 20.00), verts=20, faces=11, mats=no material
+- building__15-currier-place__way_783691443: dims=(17.43, 21.42, 20.00), verts=28, faces=15, mats=no material
+- building__15-north-balch-street__way_873165779: dims=(34.72, 24.50, 20.00), verts=46, faces=24, mats=no material
+- building__15-north-park-street__way_873165792: dims=(10.52, 9.01, 20.00), verts=8, faces=5, mats=no material
+- building__15-north-park-street__way_873165793: dims=(7.77, 7.81, 20.00), verts=10, faces=6, mats=no material
+- building__15-rope-ferry-road__way_642843756: dims=(11.51, 10.79, 20.00), verts=8, faces=5, mats=no material
+- building__15-rope-ferry-road__way_642843757: dims=(18.77, 21.08, 20.00), verts=20, faces=11, mats=no material
+- building__154-river-road__way_616919971: dims=(11.72, 11.64, 20.00), verts=8, faces=5, mats=no material
+- building__16-allen-street__way_648280464: dims=(18.38, 15.17, 20.00), verts=20, faces=11, mats=no material
+- building__16-choate-road__way_639859756: dims=(22.48, 20.71, 20.00), verts=16, faces=9, mats=no material
+- building__16-ledyard-lane__way_874770866: dims=(16.57, 21.96, 20.00), verts=22, faces=12, mats=no material
+- building__16-maple-street__way_647756218: dims=(10.93, 24.21, 20.00), verts=20, faces=11, mats=no material
+- building__16-north-balch-street__way_873165780: dims=(27.39, 20.82, 20.00), verts=40, faces=21, mats=no material
+- building__16-north-park-street__way_49797515: dims=(18.71, 26.21, 20.00), verts=24, faces=13, mats=no material
+- building__16-occom-ridge__way_640393062: dims=(21.98, 21.17, 20.00), verts=28, faces=15, mats=no material
+- building__16-rope-ferry-road__way_642362811: dims=(23.04, 27.79, 20.00), verts=24, faces=13, mats=no material
+- building__16-west-wheelock-street__way_621646998: dims=(28.91, 16.77, 20.00), verts=32, faces=17, mats=no material
+- building__164-river-road__way_631418834: dims=(13.02, 13.10, 20.00), verts=8, faces=5, mats=no material
+- building__17-allen-street__way_621647005: dims=(19.79, 13.76, 20.00), verts=40, faces=21, mats=no material
+- building__17-choate-road__way_641064110: dims=(30.09, 23.28, 20.00), verts=32, faces=17, mats=no material
+- building__17-lebanon-street__way_265141858: dims=(14.74, 16.04, 9.00), verts=12, faces=7, mats=no material
+- building__17-north-balch-street__way_784097659: dims=(26.31, 22.04, 20.00), verts=28, faces=15, mats=no material
+- building__17-north-park-street__way_873165789: dims=(30.84, 16.81, 20.00), verts=22, faces=12, mats=no material
+- building__17-rope-ferry-road__way_642843758: dims=(11.15, 10.70, 20.00), verts=8, faces=5, mats=no material
+- building__17-rope-ferry-road__way_642843759: dims=(38.12, 27.71, 20.00), verts=42, faces=22, mats=no material
+- building__17-school-street__way_601077339: dims=(20.09, 28.64, 20.00), verts=24, faces=13, mats=no material
+- building__17-south-park-street__way_48466705: dims=(9.54, 25.32, 20.00), verts=8, faces=5, mats=no material
+- building__17-valley-road__way_48467878: dims=(20.01, 10.97, 20.00), verts=8, faces=5, mats=no material
+- building__17-west-wheelock-street__way_621646997: dims=(21.79, 18.26, 20.00), verts=16, faces=9, mats=no material
+- building__170-river-road__way_631418840: dims=(12.29, 12.21, 20.00), verts=8, faces=5, mats=no material
+- building__18-allen-lane__way_648280441: dims=(7.20, 7.17, 20.00), verts=8, faces=5, mats=no material
+- building__18-maple-street__way_647756219: dims=(16.54, 19.09, 20.00), verts=28, faces=15, mats=no material
+- building__18-north-park-street__way_298244785: dims=(20.28, 16.11, 20.00), verts=24, faces=13, mats=no material
+- building__18-occom-ridge__way_640393063: dims=(16.50, 20.22, 20.00), verts=28, faces=15, mats=no material
+- building__18-west-street__way_648189959: dims=(15.95, 15.54, 20.00), verts=24, faces=13, mats=no material
+- building__18-west-wheelock-street__way_621646994: dims=(12.99, 12.20, 20.00), verts=12, faces=7, mats=no material
+- building__182-river-road__way_631418837: dims=(15.66, 20.51, 20.00), verts=16, faces=9, mats=no material
+- building__19-allen-street__way_621647007: dims=(8.26, 12.74, 20.00), verts=8, faces=5, mats=no material
+- building__19-currier-place__way_783691439: dims=(15.44, 16.57, 20.00), verts=24, faces=13, mats=no material
+- building__19-east-wheelock-street__way_48466721: dims=(24.90, 17.60, 20.00), verts=18, faces=10, mats=no material
+- building__19-maple-street__way_648189944: dims=(16.22, 15.52, 20.00), verts=24, faces=13, mats=no material
+- building__19-sargent-street__way_621725248: dims=(18.62, 13.25, 20.00), verts=20, faces=11, mats=no material
+- building__19-school-street__way_601077338: dims=(22.91, 11.95, 20.00), verts=24, faces=13, mats=no material
+- building__19-west-wheelock-street__way_621646996: dims=(15.98, 20.50, 20.00), verts=20, faces=11, mats=no material
+- building__2-allen-lane__way_648280458: dims=(20.66, 19.35, 20.00), verts=36, faces=19, mats=no material
+- building__2-barrymore-road__way_874520486: dims=(5.98, 6.88, 20.00), verts=8, faces=5, mats=no material
+- building__2-barrymore-road__way_874520487: dims=(14.90, 14.30, 20.00), verts=16, faces=9, mats=no material
+- building__2-brockway-road__way_874520474: dims=(16.69, 20.96, 20.00), verts=20, faces=11, mats=no material
+- building__2-carter-street__way_874520379: dims=(20.44, 11.75, 20.00), verts=18, faces=10, mats=no material
+- building__2-dana-road__way_48466710: dims=(15.12, 9.80, 20.00), verts=8, faces=5, mats=no material
+- building__2-dana-road__way_48466722: dims=(8.11, 6.01, 20.00), verts=8, faces=5, mats=no material
+- building__2-ivy-pointe-way__way_784097652: dims=(24.18, 21.10, 20.00), verts=46, faces=24, mats=no material
+- building__2-ledyard-lane__way_874770888: dims=(12.85, 12.49, 20.00), verts=8, faces=5, mats=no material
+- building__2-lewin-road__way_786103727: dims=(7.17, 33.12, 20.00), verts=8, faces=5, mats=no material
+- building__2-park-way__way_873165787: dims=(14.21, 17.95, 20.00), verts=20, faces=11, mats=no material
+- building__2-pleasant-street__way_785657772: dims=(21.06, 13.46, 20.00), verts=28, faces=15, mats=no material
+- building__2-prospect-street__way_648280434: dims=(17.83, 12.41, 20.00), verts=24, faces=13, mats=no material
+- building__2-read-road__way_647089457: dims=(14.09, 17.33, 20.00), verts=20, faces=11, mats=no material
+- building__2-sanborn-road__way_783717744: dims=(15.51, 22.22, 20.00), verts=28, faces=15, mats=no material
+- building__2-sargent-street__way_645601577: dims=(18.03, 9.98, 20.00), verts=20, faces=11, mats=no material
+- building__2-weatherby-terrace__way_648551753: dims=(13.16, 17.68, 20.00), verts=24, faces=13, mats=no material
+- building__2-webster-terrace__way_641064107: dims=(13.16, 15.46, 20.00), verts=24, faces=13, mats=no material
+- building__2-west-wheelock-street__way_548904589: dims=(17.21, 18.80, 20.00), verts=28, faces=15, mats=no material
+- building__2-woodrow-road__way_874520423: dims=(17.35, 17.25, 20.00), verts=12, faces=7, mats=no material
+- building__20-5-west-wheelock-street__way_621646995: dims=(13.43, 11.19, 20.00), verts=8, faces=5, mats=no material
+- building__20-ledyard-lane__way_874770864: dims=(21.18, 12.63, 20.00), verts=22, faces=12, mats=no material
+- building__20-north-park-street__way_49797531: dims=(20.95, 16.26, 20.00), verts=16, faces=9, mats=no material
+- building__20-occom-ridge__way_641064111: dims=(21.01, 21.19, 20.00), verts=16, faces=9, mats=no material
+- building__20-school-street__way_785657774: dims=(14.31, 13.51, 20.00), verts=12, faces=7, mats=no material
+- building__20-south-main-street__way_548896473: dims=(23.10, 26.94, 20.00), verts=22, faces=12, mats=no material
+- building__20-west-wheelock-street__way_266280213: dims=(17.61, 15.35, 20.00), verts=16, faces=9, mats=no material
+- building__21-ledyard-lane__way_874770891: dims=(15.85, 14.54, 20.00), verts=24, faces=13, mats=no material
+- building__21-maple-street__way_645606295: dims=(11.42, 9.04, 20.00), verts=8, faces=5, mats=no material
+- building__21-rope-ferry-road__way_642843761: dims=(21.44, 29.27, 20.00), verts=44, faces=23, mats=no material
+- building__21-school-street__way_785657767: dims=(21.62, 13.80, 20.00), verts=24, faces=13, mats=no material
+- building__21-webster-avenue__way_641064108: dims=(18.94, 18.91, 20.00), verts=8, faces=5, mats=no material
+- building__21-west-wheelock-street__way_621646988: dims=(8.79, 13.23, 20.00), verts=8, faces=5, mats=no material
+- building__21-west-wheelock-street__way_621646989: dims=(16.46, 19.04, 20.00), verts=28, faces=15, mats=no material
+- building__22-east-wheelock-street__way_734295474: dims=(23.60, 26.28, 20.00), verts=34, faces=18, mats=no material
+- building__22-ledyard-lane__way_874770862: dims=(18.23, 24.75, 20.00), verts=30, faces=16, mats=no material
+- building__22-north-park-street__way_49797530: dims=(19.12, 25.35, 20.00), verts=24, faces=13, mats=no material
+- building__22-occom-ridge__way_641064112: dims=(16.99, 18.08, 20.00), verts=20, faces=11, mats=no material
+- building__22-school-street__way_785657775: dims=(11.29, 11.02, 20.00), verts=24, faces=13, mats=no material
+- building__22-school-street__way_785657776: dims=(6.60, 7.48, 20.00), verts=8, faces=5, mats=no material
+- building__22-west-wheelock-street__way_621646993: dims=(14.24, 21.11, 20.00), verts=16, faces=9, mats=no material
+- building__22a-school-street__way_785657773: dims=(17.89, 10.31, 20.00), verts=24, faces=13, mats=no material
+- building__23-maple-street__way_645606294: dims=(14.93, 18.80, 20.00), verts=16, faces=9, mats=no material
+- building__23-rope-ferry-road__way_642843762: dims=(20.14, 18.93, 20.00), verts=16, faces=9, mats=no material
+- building__23-school-street__way_785657769: dims=(17.40, 8.74, 20.00), verts=22, faces=12, mats=no material
+- building__23-west-wheelock-street__way_621646985: dims=(19.03, 7.80, 20.00), verts=8, faces=5, mats=no material
+- building__23-west-wheelock-street__way_621646987: dims=(14.34, 30.40, 20.00), verts=24, faces=13, mats=no material
+- building__24-north-park-street__way_298244786: dims=(20.28, 16.11, 20.00), verts=24, faces=13, mats=no material
+- building__24-occom-ridge__way_641064113: dims=(13.15, 13.30, 20.00), verts=8, faces=5, mats=no material
+- building__24-occom-ridge__way_641064114: dims=(26.31, 25.79, 20.00), verts=30, faces=16, mats=no material
+- building__24-school-street__way_548208295: dims=(34.78, 42.93, 20.00), verts=40, faces=21, mats=no material
+- building__24-school-street__way_783691410: dims=(5.44, 11.23, 20.00), verts=8, faces=5, mats=no material
+- building__24-school-street__way_783691411: dims=(6.87, 22.06, 20.00), verts=8, faces=5, mats=no material
+- building__24-west-wheelock-street__way_621646992: dims=(11.24, 14.89, 20.00), verts=12, faces=7, mats=no material
+- building__25-5-school-street__way_785657766: dims=(13.49, 16.54, 20.00), verts=12, faces=7, mats=no material
+- building__25-east-wheelock-street__way_873165758: dims=(21.29, 21.25, 20.00), verts=20, faces=11, mats=no material
+- building__25-east-wheelock-street__way_873165759: dims=(14.04, 18.39, 20.00), verts=28, faces=15, mats=no material
+- building__25-east-wheelock-street__way_873165760: dims=(6.58, 5.34, 20.00), verts=8, faces=5, mats=no material
+- building__25-east-wheelock-street__way_873165761: dims=(6.19, 4.43, 20.00), verts=8, faces=5, mats=no material
+- building__25-lebanon-street__way_783717750: dims=(15.40, 24.65, 20.00), verts=16, faces=9, mats=no material
+- building__25-maple-street__way_645601579: dims=(14.50, 9.07, 20.00), verts=24, faces=13, mats=no material
+- building__25-rope-ferry-road__way_642843763: dims=(34.91, 34.99, 20.00), verts=36, faces=19, mats=no material
+- building__25-school-street__way_785657765: dims=(12.27, 13.95, 20.00), verts=16, faces=9, mats=no material
+- building__26-east-wheelock-street__way_48467881: dims=(13.89, 17.69, 20.00), verts=14, faces=8, mats=no material
+- building__26-maple-street__way_647089449: dims=(6.73, 4.96, 20.00), verts=8, faces=5, mats=no material
+- building__26-maple-street__way_647089450: dims=(4.37, 6.24, 20.00), verts=8, faces=5, mats=no material
+- building__26-west-wheelock-street__way_621646991: dims=(17.38, 15.16, 20.00), verts=24, faces=13, mats=no material
+- building__27-east-wheelock-street__way_715178944: dims=(22.08, 25.75, 20.00), verts=38, faces=20, mats=no material
+- building__27-rope-ferry-road__way_642913800: dims=(11.88, 10.29, 20.00), verts=8, faces=5, mats=no material
+- building__27-rope-ferry-road__way_642913803: dims=(13.60, 16.43, 20.00), verts=16, faces=9, mats=no material
+- building__27-school-street__way_785657763: dims=(12.39, 11.11, 20.00), verts=8, faces=5, mats=no material
+- building__28-5-maple-street__way_647089448: dims=(16.01, 13.01, 20.00), verts=24, faces=13, mats=no material
+- building__28-5-maple-street__way_647089452: dims=(9.38, 12.71, 20.00), verts=16, faces=9, mats=no material
+- building__28-east-wheelock-street__way_734295485: dims=(25.38, 15.21, 20.00), verts=12, faces=7, mats=no material
+- building__28-maple-street__way_647089451: dims=(18.31, 17.22, 20.00), verts=28, faces=15, mats=no material
+- building__28-west-wheelock-street__way_621646990: dims=(34.18, 12.52, 20.00), verts=20, faces=11, mats=no material
+- building__3-barrymore-road__way_874520409: dims=(14.42, 19.14, 20.00), verts=28, faces=15, mats=no material
+- building__3-barrymore-road__way_874520412: dims=(5.66, 4.87, 20.00), verts=8, faces=5, mats=no material
+- building__3-carter-street__way_874520387: dims=(11.91, 21.09, 20.00), verts=18, faces=10, mats=no material
+- building__3-choate-road__way_639859782: dims=(18.85, 17.07, 20.00), verts=22, faces=12, mats=no material
+- building__3-clement-road__way_641413536: dims=(23.29, 20.07, 20.00), verts=24, faces=13, mats=no material
+- building__3-dana-road__way_48467883: dims=(18.25, 20.24, 20.00), verts=20, faces=11, mats=no material
+- building__3-dorrance-place__way_783691424: dims=(15.10, 11.04, 20.00), verts=26, faces=14, mats=no material
+- building__3-hovey-lane__way_874770907: dims=(20.60, 33.28, 20.00), verts=32, faces=17, mats=no material
+- building__3-ivy-pointe-way__way_784097653: dims=(23.40, 21.53, 20.00), verts=52, faces=27, mats=no material
+- building__3-lewin-road__way_647089446: dims=(16.41, 18.65, 20.00), verts=30, faces=16, mats=no material
+- building__3-north-balch-street__way_873165769: dims=(15.85, 19.71, 20.00), verts=34, faces=18, mats=no material
+- building__3-north-balch-street__way_873165770: dims=(12.61, 5.29, 20.00), verts=14, faces=8, mats=no material
+- building__3-north-park-street__way_873165800: dims=(17.78, 17.45, 20.00), verts=20, faces=11, mats=no material
+- building__3-park-way__way_873165790: dims=(25.28, 16.01, 20.00), verts=18, faces=10, mats=no material
+- building__3-park-way__way_873165791: dims=(18.92, 20.39, 20.00), verts=20, faces=11, mats=no material
+- building__3-pleasant-street__way_601077337: dims=(15.67, 18.66, 20.00), verts=12, faces=7, mats=no material
+- building__3-prospect-street__way_648189950: dims=(15.40, 11.48, 20.00), verts=28, faces=15, mats=no material
+- building__3-prospect-street__way_648189960: dims=(8.39, 6.74, 20.00), verts=8, faces=5, mats=no material
+- building__3-read-road__way_645797720: dims=(14.93, 23.30, 20.00), verts=28, faces=15, mats=no material
+- building__3-ripley-road__way_783691417: dims=(14.30, 14.61, 20.00), verts=32, faces=17, mats=no material
+- building__3-rope-ferry-road__way_295888765: dims=(30.11, 28.24, 20.00), verts=42, faces=22, mats=no material
+- building__3-sanborn-road__way_783717748: dims=(14.80, 9.98, 9.00), verts=16, faces=9, mats=no material
+- building__3-sargent-street__way_645606291: dims=(18.60, 13.82, 20.00), verts=20, faces=11, mats=no material
+- building__3-school-street__way_621647001: dims=(11.46, 18.00, 20.00), verts=12, faces=7, mats=no material
+- building__3-south-park-street__way_734295469: dims=(17.70, 15.85, 20.00), verts=14, faces=8, mats=no material
+- building__3-summer-street__way_898107529: dims=(17.29, 21.31, 20.00), verts=20, faces=11, mats=no material
+- building__3-valley-road__way_734295464: dims=(19.99, 16.29, 20.00), verts=20, faces=11, mats=no material
+- building__3-weatherby-road__way_648551749: dims=(20.57, 12.74, 20.00), verts=20, faces=11, mats=no material
+- building__3-webster-terrace__way_641064105: dims=(21.88, 16.13, 20.00), verts=28, faces=15, mats=no material
+- building__30-east-wheelock-street__way_48467880: dims=(7.96, 5.43, 20.00), verts=8, faces=5, mats=no material
+- building__30-lebanon-street__way_783717751: dims=(23.07, 22.51, 20.00), verts=30, faces=16, mats=no material
+- building__30-maple-street__way_647089453: dims=(3.40, 4.56, 20.00), verts=8, faces=5, mats=no material
+- building__30-maple-street__way_647089454: dims=(8.62, 12.38, 20.00), verts=8, faces=5, mats=no material
+- building__30-maple-street__way_647089455: dims=(12.45, 17.56, 20.00), verts=26, faces=14, mats=no material
+- building__30-maple-street__way_647089456: dims=(4.22, 6.79, 20.00), verts=8, faces=5, mats=no material
+- building__30-west-wheelock-street__way_621646979: dims=(15.58, 22.98, 20.00), verts=8, faces=5, mats=no material
+- building__31-school-street__way_785657762: dims=(16.20, 27.08, 20.00), verts=30, faces=16, mats=no material
+- building__32-lebanon-street__way_783717743: dims=(55.18, 42.11, 20.00), verts=34, faces=18, mats=no material
+- building__32-west-wheelock-street__way_621646978: dims=(9.73, 19.03, 20.00), verts=12, faces=7, mats=no material
+- building__33-east-wheelock-street__way_548599946: dims=(22.27, 19.74, 20.00), verts=22, faces=12, mats=no material
+- building__33-maple-street__way_645601581: dims=(11.96, 16.08, 20.00), verts=24, faces=13, mats=no material
+- building__33-school-street__way_785657761: dims=(14.09, 15.53, 20.00), verts=32, faces=17, mats=no material
+- building__33-south-park-street__way_783709286: dims=(15.05, 18.78, 20.00), verts=18, faces=10, mats=no material
+- building__34-east-wheelock-street__way_548599949: dims=(25.28, 24.14, 20.00), verts=26, faces=14, mats=no material
+- building__34-lebanon-street__way_783717755: dims=(20.60, 26.26, 20.00), verts=22, faces=12, mats=no material
+- building__34-west-wheelock-street__way_621646975: dims=(12.42, 17.37, 20.00), verts=12, faces=7, mats=no material
+- building__35-east-wheelock-street__way_548599936: dims=(19.12, 26.70, 20.00), verts=40, faces=21, mats=no material
+- building__35-school-street__way_785657760: dims=(17.79, 23.15, 20.00), verts=24, faces=13, mats=no material
+- building__36-lebanon-street__way_783717756: dims=(20.90, 14.80, 20.00), verts=22, faces=12, mats=no material
+- building__36-west-wheelock-street__way_621646974: dims=(34.48, 17.24, 20.00), verts=8, faces=5, mats=no material
+- building__37-dewey-field-road__way_262951153: dims=(48.30, 45.05, 20.00), verts=44, faces=23, mats=no material
+- building__37-school-street__way_785657759: dims=(28.82, 25.62, 20.00), verts=44, faces=23, mats=no material
+- building__37-south-park-street__way_783709279: dims=(10.15, 17.36, 20.00), verts=8, faces=5, mats=no material
+- building__38-maple-street__way_645101988: dims=(18.76, 22.50, 20.00), verts=28, faces=15, mats=no material
+- building__38-south-main-street__way_547814927: dims=(29.44, 12.57, 9.00), verts=20, faces=11, mats=no material
+- building__39-south-park-street__way_644376630: dims=(22.01, 29.90, 20.00), verts=8, faces=5, mats=no material
+- building__4-austin-avenue__way_48466708: dims=(10.82, 15.08, 20.00), verts=8, faces=5, mats=no material
+- building__4-barrymore-road__way_874520484: dims=(19.23, 16.92, 20.00), verts=20, faces=11, mats=no material
+- building__4-barrymore-road__way_874520485: dims=(16.34, 23.27, 20.00), verts=26, faces=14, mats=no material
+- building__4-carter-street__way_874520382: dims=(18.73, 13.95, 20.00), verts=18, faces=10, mats=no material
+- building__4-clement-road__way_639859771: dims=(20.78, 22.34, 20.00), verts=12, faces=7, mats=no material
+- building__4-currier-place__way_262948878: dims=(32.62, 58.20, 9.00), verts=38, faces=20, mats=no material
+- building__4-dorrance-place__way_783691427: dims=(14.93, 12.20, 20.00), verts=22, faces=12, mats=no material
+- building__4-hovey-lane__way_874770899: dims=(23.10, 22.11, 20.00), verts=30, faces=16, mats=no material
+- building__4-ivy-pointe-way__way_784097651: dims=(20.79, 24.98, 20.00), verts=32, faces=17, mats=no material
+- building__4-ledyard-lane__way_874770885: dims=(21.96, 17.45, 20.00), verts=24, faces=13, mats=no material
+- building__4-north-balch-street__way_873165763: dims=(3.65, 5.73, 20.00), verts=8, faces=5, mats=no material
+- building__4-o-leary-avenue__way_874520392: dims=(19.74, 18.50, 20.00), verts=22, faces=12, mats=no material
+- building__4-occom-ridge__way_639042012: dims=(26.53, 42.69, 20.00), verts=36, faces=19, mats=no material
+- building__4-park-way__way_873165788: dims=(27.14, 18.26, 20.00), verts=38, faces=20, mats=no material
+- building__4-prospect-street__way_648280438: dims=(14.66, 17.43, 20.00), verts=24, faces=13, mats=no material
+- building__4-read-road__way_647089461: dims=(18.29, 19.30, 20.00), verts=8, faces=5, mats=no material
+- building__4-rope-ferry-road__way_641413538: dims=(22.24, 28.48, 20.00), verts=36, faces=19, mats=no material
+- building__4-sargent-street__way_645601575: dims=(17.82, 13.68, 20.00), verts=24, faces=13, mats=no material
+- building__4-weatherby-terrace__way_648551754: dims=(19.38, 28.16, 20.00), verts=24, faces=13, mats=no material
+- building__4-webster-terrace__way_641064103: dims=(8.14, 9.30, 20.00), verts=12, faces=7, mats=no material
+- building__4-webster-terrace__way_641064104: dims=(15.90, 16.01, 20.00), verts=16, faces=9, mats=no material
+- building__4-woodrow-road__way_874520427: dims=(18.84, 21.00, 20.00), verts=24, faces=13, mats=no material
+- building__40-lebanon-street__way_644376633: dims=(18.95, 19.91, 3.00), verts=12, faces=7, mats=no material
+- building__45-47-lebanon-street__way_544797126: dims=(17.41, 17.34, 6.00), verts=8, faces=5, mats=no material
+- building__47-dewey-field-road__way_297469038: dims=(26.32, 31.99, 20.00), verts=8, faces=5, mats=no material
+- building__49-lebanon-street__way_874520402: dims=(12.86, 15.04, 20.00), verts=16, faces=9, mats=no material
+- building__5-barrymore-road__way_874520410: dims=(12.04, 12.05, 20.00), verts=8, faces=5, mats=no material
+- building__5-barrymore-road__way_874520411: dims=(12.50, 12.81, 20.00), verts=16, faces=9, mats=no material
+- building__5-brockway-road__way_874520478: dims=(6.21, 7.81, 20.00), verts=8, faces=5, mats=no material
+- building__5-carter-street__way_874520388: dims=(21.82, 11.58, 20.00), verts=34, faces=18, mats=no material
+- building__5-choate-road__way_639859781: dims=(19.92, 21.79, 20.00), verts=26, faces=14, mats=no material
+- building__5-clement-road__way_641413535: dims=(27.85, 23.28, 20.00), verts=36, faces=19, mats=no material
+- building__5-dana-road__way_48466714: dims=(15.27, 21.20, 20.00), verts=16, faces=9, mats=no material
+- building__5-dana-road__way_48467884: dims=(6.82, 13.92, 3.00), verts=8, faces=5, mats=no material
+- building__5-dorrance-place__way_783691434: dims=(19.53, 25.50, 20.00), verts=28, faces=15, mats=no material
+- building__5-hovey-lane__way_874770897: dims=(16.80, 21.82, 20.00), verts=26, faces=14, mats=no material
+- building__5-huntley-road__way_785657751: dims=(11.95, 8.61, 20.00), verts=18, faces=10, mats=no material
+- building__5-ivy-pointe-way__way_784097650: dims=(16.01, 25.99, 20.00), verts=32, faces=17, mats=no material
+- building__5-lewin-road__way_647089444: dims=(17.24, 23.08, 20.00), verts=40, faces=21, mats=no material
+- building__5-maple-street__way_648280429: dims=(18.01, 32.84, 20.00), verts=44, faces=23, mats=no material
+- building__5-north-balch-street__way_873165771: dims=(13.79, 19.13, 20.00), verts=26, faces=14, mats=no material
+- building__5-north-park-street__way_873165805: dims=(20.14, 16.28, 20.00), verts=40, faces=21, mats=no material
+- building__5-park-way__way_873165782: dims=(18.68, 24.54, 20.00), verts=26, faces=14, mats=no material
+- building__5-prospect-street__way_648189948: dims=(15.32, 20.90, 20.00), verts=24, faces=13, mats=no material
+- building__5-read-road__way_645797722: dims=(17.74, 21.70, 20.00), verts=24, faces=13, mats=no material
+- building__5-ripley-road__way_783691414: dims=(14.03, 14.24, 20.00), verts=34, faces=18, mats=no material
+- building__5-sargent-street__way_645606289: dims=(6.99, 4.76, 20.00), verts=8, faces=5, mats=no material
+- building__5-sargent-street__way_645606290: dims=(9.53, 11.97, 20.00), verts=8, faces=5, mats=no material
+- building__5-south-balch-street__way_48467533: dims=(7.45, 5.48, 20.00), verts=8, faces=5, mats=no material
+- building__5-south-park-street__way_734295461: dims=(23.31, 16.02, 20.00), verts=18, faces=10, mats=no material
+- building__5-teagan-avenue__way_48466704: dims=(15.85, 15.60, 20.00), verts=8, faces=5, mats=no material
+- building__5-valley-road__way_734295495: dims=(12.31, 17.52, 20.00), verts=32, faces=17, mats=no material
+- building__5-weatherby-terrace__way_648551750: dims=(25.68, 14.05, 20.00), verts=32, faces=17, mats=no material
+- building__5-webster-terrace__way_641064101: dims=(8.01, 7.67, 20.00), verts=8, faces=5, mats=no material
+- building__5-webster-terrace__way_641064102: dims=(18.24, 16.77, 20.00), verts=16, faces=9, mats=no material
+- building__5-west-street__way_621725243: dims=(17.78, 16.61, 20.00), verts=24, faces=13, mats=no material
+- building__5-west-street__way_621725245: dims=(18.58, 11.91, 20.00), verts=24, faces=13, mats=no material
+- building__51-lebanon-street__way_874520403: dims=(19.89, 15.67, 20.00), verts=16, faces=9, mats=no material
+- building__51-south-park-street__way_694204827: dims=(17.62, 22.87, 20.00), verts=18, faces=10, mats=no material
+- building__52-5-lebanon-street__way_874520374: dims=(26.91, 15.82, 20.00), verts=16, faces=9, mats=no material
+- building__53-lebanon-street__way_874520404: dims=(11.08, 11.09, 20.00), verts=8, faces=5, mats=no material
+- building__53-lebanon-street__way_874520407: dims=(15.90, 13.39, 20.00), verts=16, faces=9, mats=no material
+- building__54-lebanon-street__way_874520375: dims=(15.97, 12.32, 20.00), verts=8, faces=5, mats=no material
+- building__55-lebanon-street__way_874520489: dims=(15.58, 12.74, 20.00), verts=20, faces=11, mats=no material
+- building__55-lebanon-street__way_874520492: dims=(26.28, 15.91, 20.00), verts=18, faces=10, mats=no material
+- building__56-lebanon-street__way_874520377: dims=(12.10, 11.24, 20.00), verts=8, faces=5, mats=no material
+- building__58-lebanon-street__way_874520400: dims=(21.32, 13.61, 20.00), verts=14, faces=8, mats=no material
+- building__6-barrymore-road__way_874520482: dims=(20.88, 24.45, 20.00), verts=22, faces=12, mats=no material
+- building__6-brockway-road__way_874520472: dims=(16.13, 14.03, 20.00), verts=12, faces=7, mats=no material
+- building__6-carter-street__way_874520370: dims=(11.11, 10.21, 20.00), verts=10, faces=6, mats=no material
+- building__6-clement-road__way_639859768: dims=(19.91, 22.09, 20.00), verts=12, faces=7, mats=no material
+- building__6-crowley-terrace__way_874520401: dims=(24.25, 25.45, 20.00), verts=18, faces=10, mats=no material
+- building__6-dorrance-place__way_783691432: dims=(8.60, 9.06, 20.00), verts=8, faces=5, mats=no material
+- building__6-dorrance-place__way_783691433: dims=(15.29, 15.31, 20.00), verts=28, faces=15, mats=no material
+- building__6-hovey-lane__way_874770895: dims=(14.31, 35.79, 20.00), verts=38, faces=20, mats=no material
+- building__6-ivy-pointe-way__way_784097649: dims=(25.16, 15.83, 20.00), verts=40, faces=21, mats=no material
+- building__6-ledyard-lane__way_874770883: dims=(19.24, 24.20, 20.00), verts=18, faces=10, mats=no material
+- building__6-north-balch-street__way_873165765: dims=(20.47, 34.83, 20.00), verts=38, faces=20, mats=no material
+- building__6-occom-ridge__way_639042015: dims=(25.45, 31.46, 20.00), verts=46, faces=24, mats=no material
+- building__6-park-way__way_784097655: dims=(25.13, 14.72, 20.00), verts=20, faces=11, mats=no material
+- building__6-pleasant-street__way_785657771: dims=(15.36, 18.43, 20.00), verts=24, faces=13, mats=no material
+- building__6-prospect-street__way_648280443: dims=(18.89, 17.76, 20.00), verts=24, faces=13, mats=no material
+- building__6-read-road__way_647089462: dims=(17.52, 21.19, 20.00), verts=28, faces=15, mats=no material
+- building__6-rope-ferry-road__way_641413540: dims=(11.96, 11.63, 20.00), verts=8, faces=5, mats=no material
+- building__6-rope-ferry-road__way_641413541: dims=(20.84, 27.64, 20.00), verts=28, faces=15, mats=no material
+- building__6-sargent-street__way_645506930: dims=(13.37, 18.96, 20.00), verts=14, faces=8, mats=no material
+- building__6-tyler-road__way_294234141: dims=(13.57, 13.79, 20.00), verts=8, faces=5, mats=no material
+- building__6-weatherby-road__way_647089440: dims=(20.08, 12.24, 20.00), verts=24, faces=13, mats=no material
+- building__6-woodrow-road__way_874520428: dims=(16.51, 18.68, 20.00), verts=26, faces=14, mats=no material
+- building__6-woodrow-road__way_874520429: dims=(7.48, 6.35, 20.00), verts=8, faces=5, mats=no material
+- building__63-south-main-street-parking-deck__way_294234145: dims=(45.36, 23.71, 20.00), verts=18, faces=10, mats=no material
+- building__63-south-main-street__way_265141480: dims=(55.36, 28.34, 20.00), verts=40, faces=21, mats=no material
+- building__7-austin-avenue__way_48466707: dims=(11.50, 27.08, 20.00), verts=8, faces=5, mats=no material
+- building__7-barrymore-road__way_874520416: dims=(8.41, 7.78, 20.00), verts=10, faces=6, mats=no material
+- building__7-choate-road__way_639859777: dims=(29.92, 24.80, 20.00), verts=62, faces=32, mats=no material
+- building__7-dana-road__way_48466711: dims=(23.32, 17.40, 20.00), verts=16, faces=9, mats=no material
+- building__7-dana-road__way_48466715: dims=(14.50, 13.31, 20.00), verts=8, faces=5, mats=no material
+- building__7-ivy-lane__way_49797510: dims=(17.04, 13.44, 20.00), verts=8, faces=5, mats=no material
+- building__7-ivy-pointe-way__way_784097648: dims=(20.28, 22.58, 20.00), verts=38, faces=20, mats=no material
+- building__7-lebanon-street__way_295888771: dims=(42.20, 54.27, 20.00), verts=36, faces=19, mats=no material
+- building__7-lewin-road__way_647089442: dims=(22.18, 19.38, 20.00), verts=20, faces=11, mats=no material
+- building__7-maple-street__way_648280426: dims=(9.13, 23.95, 20.00), verts=16, faces=9, mats=no material
+- building__7-north-balch-street__way_873165768: dims=(13.92, 22.83, 20.00), verts=20, faces=11, mats=no material
+- building__7-north-park-street__way_873165806: dims=(27.61, 19.67, 20.00), verts=30, faces=16, mats=no material
+- building__7-pleasant-street__way_601077335: dims=(18.13, 23.75, 20.00), verts=16, faces=9, mats=no material
+- building__7-prospect-street__way_648189946: dims=(18.48, 19.91, 20.00), verts=24, faces=13, mats=no material
+- building__7-read-road__way_645797726: dims=(15.36, 24.39, 20.00), verts=40, faces=21, mats=no material
+- building__7-ripley-road__way_783691412: dims=(19.55, 20.63, 20.00), verts=42, faces=22, mats=no material
+- building__7-sargent-street__way_645606288: dims=(13.81, 13.72, 20.00), verts=20, faces=11, mats=no material
+- building__7-weatherby-road__way_648551757: dims=(26.29, 30.15, 20.00), verts=48, faces=25, mats=no material
+- building__7-west-street__way_621725229: dims=(9.49, 14.84, 20.00), verts=8, faces=5, mats=no material
+- building__7-west-street__way_621725231: dims=(7.64, 30.90, 20.00), verts=8, faces=5, mats=no material
+- building__73-south-main-street__way_543425010: dims=(13.60, 13.46, 20.00), verts=8, faces=5, mats=no material
+- building__73-south-main-street__way_543425011: dims=(25.89, 20.37, 20.00), verts=16, faces=9, mats=no material
+- building__8-5-pleasant-street__way_647756212: dims=(16.72, 29.50, 20.00), verts=24, faces=13, mats=no material
+- building__8-carter-street__way_874520384: dims=(20.04, 17.50, 20.00), verts=26, faces=14, mats=no material
+- building__8-clement-road__way_639859765: dims=(18.59, 23.11, 20.00), verts=28, faces=15, mats=no material
+- building__8-currier-place__way_874770873: dims=(16.87, 18.26, 20.00), verts=20, faces=11, mats=no material
+- building__8-currier-place__way_874770874: dims=(10.04, 9.96, 20.00), verts=10, faces=6, mats=no material
+- building__8-dorrance-place__way_783691437: dims=(22.28, 21.76, 20.00), verts=18, faces=10, mats=no material
+- building__8-hovey-lane__way_450923168: dims=(20.37, 35.84, 20.00), verts=30, faces=16, mats=no material
+- building__8-ledyard-lane__way_874770881: dims=(24.40, 18.54, 20.00), verts=16, faces=9, mats=no material
+- building__8-lewin-road__way_647756210: dims=(19.47, 17.36, 20.00), verts=20, faces=11, mats=no material
+- building__8-maple-street__way_601077336: dims=(17.08, 9.78, 20.00), verts=16, faces=9, mats=no material
+- building__8-north-balch-street__way_873165766: dims=(18.20, 25.22, 20.00), verts=34, faces=18, mats=no material
+- building__8-north-park-street__way_49797520: dims=(20.87, 15.53, 20.00), verts=16, faces=9, mats=no material
+- building__8-occom-ridge__way_639042017: dims=(28.77, 28.83, 20.00), verts=34, faces=18, mats=no material
+- building__8-occom-ridge__way_639042020: dims=(10.18, 10.17, 20.00), verts=8, faces=5, mats=no material
+- building__8-park-way__way_873165783: dims=(21.11, 10.28, 20.00), verts=34, faces=18, mats=no material
+- building__8-pleasant-street__way_647756216: dims=(21.39, 13.81, 20.00), verts=12, faces=7, mats=no material
+- building__8-prospect-street__way_648280450: dims=(12.51, 19.00, 20.00), verts=16, faces=9, mats=no material
+- building__8-river-ridge-road__way_645101985: dims=(10.78, 19.84, 20.00), verts=16, faces=9, mats=no material
+- building__8-sargent-street__way_645506928: dims=(19.30, 20.08, 20.00), verts=24, faces=13, mats=no material
+- building__8-school-street__way_548054963: dims=(15.08, 14.51, 20.00), verts=20, faces=11, mats=no material
+- building__8-smith-road__way_548599942: dims=(7.88, 7.53, 20.00), verts=8, faces=5, mats=no material
+- building__8-smith-road__way_548599943: dims=(17.86, 15.11, 20.00), verts=16, faces=9, mats=no material
+- building__8-smith-road__way_548599944: dims=(3.92, 2.90, 20.00), verts=8, faces=5, mats=no material
+- building__8-south-balch-street__way_48467531: dims=(11.42, 15.67, 20.00), verts=16, faces=9, mats=no material
+- building__8-south-balch-street__way_734295481: dims=(12.30, 17.52, 20.00), verts=28, faces=15, mats=no material
+- building__8-summer-street__way_644376634: dims=(39.55, 27.78, 20.00), verts=8, faces=5, mats=no material
+- building__8-weatherby-road__way_647089441: dims=(22.58, 17.85, 20.00), verts=28, faces=15, mats=no material
+- building__8-west-street__way_621647008: dims=(10.20, 16.02, 20.00), verts=8, faces=5, mats=no material
+- building__80-south-main-street__way_543424040: dims=(40.56, 34.40, 9.00), verts=8, faces=5, mats=no material
+- building__84-south-main-street__way_783691453: dims=(12.35, 14.23, 20.00), verts=26, faces=14, mats=no material
+- building__85-south-main-street__way_548208297: dims=(36.35, 22.07, 20.00), verts=24, faces=13, mats=no material
+- building__85-south-main-street__way_548208301: dims=(18.33, 6.99, 20.00), verts=8, faces=5, mats=no material
+- building__85-south-main-street__way_548208302: dims=(21.24, 7.02, 20.00), verts=8, faces=5, mats=no material
+- building__86-south-main-street__way_783691458: dims=(19.23, 16.61, 20.00), verts=24, faces=13, mats=no material
+- building__88-south-main-street__way_783691459: dims=(18.23, 16.59, 20.00), verts=30, faces=16, mats=no material
+- building__9-brockway-road__way_874520480: dims=(19.00, 14.20, 20.00), verts=18, faces=10, mats=no material
+- building__9-buell-street__way_874770911: dims=(9.39, 23.74, 20.00), verts=16, faces=9, mats=no material
+- building__9-buell-street__way_874770912: dims=(11.29, 11.65, 20.00), verts=8, faces=5, mats=no material
+- building__9-buell-street__way_874770913: dims=(8.55, 10.00, 20.00), verts=8, faces=5, mats=no material
+- building__9-currier-place__way_783691451: dims=(10.70, 21.97, 20.00), verts=24, faces=13, mats=no material
+- building__9-huntley-road__way_785657755: dims=(7.68, 6.54, 20.00), verts=8, faces=5, mats=no material
+- building__9-ivy-lane__way_49797507: dims=(12.44, 30.45, 20.00), verts=8, faces=5, mats=no material
+- building__9-maple-street__way_648280424: dims=(9.92, 32.27, 20.00), verts=36, faces=19, mats=no material
+- building__9-north-balch-street__way_873165778: dims=(27.22, 19.14, 20.00), verts=30, faces=16, mats=no material
+- building__9-north-park-street__way_873165807: dims=(19.26, 15.85, 20.00), verts=20, faces=11, mats=no material
+- building__9-occom-ridge__way_639859755: dims=(28.33, 28.12, 20.00), verts=24, faces=13, mats=no material
+- building__9-pleasant-street__way_601077333: dims=(13.78, 10.57, 20.00), verts=8, faces=5, mats=no material
+- building__9-pleasant-street__way_601077334: dims=(4.66, 7.63, 20.00), verts=8, faces=5, mats=no material
+- building__9-prospect-street__way_648189945: dims=(12.61, 20.36, 20.00), verts=20, faces=11, mats=no material
+- building__9-sargent-street__way_645606287: dims=(13.08, 13.80, 20.00), verts=16, faces=9, mats=no material
+- building__9-south-balch-street__way_48467532: dims=(13.55, 20.61, 20.00), verts=8, faces=5, mats=no material
+- building__9-south-street__way_675558521: dims=(25.93, 23.78, 20.00), verts=16, faces=9, mats=no material
+- building__90-south-main-street__way_783691460: dims=(21.62, 10.32, 20.00), verts=14, faces=8, mats=no material
+- building__95-south-main-street__way_875253425: dims=(9.07, 14.67, 20.00), verts=16, faces=9, mats=no material
+- building__97-south-main-street__way_875253429: dims=(10.28, 14.03, 20.00), verts=20, faces=11, mats=no material
+- building__achtmeyer-hall__way_262950528: dims=(48.36, 45.43, 20.00), verts=36, faces=19, mats=no material
+- building__alexis-boss-tennis-center__way_48465831: dims=(52.57, 95.72, 20.00), verts=40, faces=21, mats=no material
+- building__allen-faculty-house__way_548054960: dims=(13.97, 33.10, 20.00), verts=20, faces=11, mats=no material
+- building__alpha-chi-alpha__way_262922771: dims=(22.29, 28.11, 20.00), verts=30, faces=16, mats=no material
+- building__alpha-delta__way_48466703: dims=(23.49, 24.79, 20.00), verts=18, faces=10, mats=no material
+- building__alpha-phi__way_584967836: dims=(23.38, 27.23, 12.00), verts=16, faces=9, mats=no material
+- building__alpha-theta__way_262922788: dims=(27.40, 26.00, 20.00), verts=32, faces=17, mats=no material
+- building__alpha-xi-delta__way_262948860: dims=(27.18, 23.12, 20.00), verts=46, faces=24, mats=no material
+- building__alumni-gymnasium__way_48467159: dims=(127.88, 95.97, 20.00), verts=52, faces=27, mats=no material
+- building__amarna__way_262948883: dims=(17.64, 19.20, 20.00), verts=32, faces=17, mats=no material
+- building__andres-hall__way_48466719: dims=(30.77, 37.48, 20.00), verts=16, faces=9, mats=no material
+- building__anonymous-hall__way_262950853: dims=(36.58, 38.12, 20.00), verts=14, faces=8, mats=no material
+- building__aquinas-house-catholic-student-center__way_262922773: dims=(64.63, 48.33, 20.00), verts=70, faces=36, mats=no material
+- building__averte__way_648189952: dims=(22.69, 13.33, 20.00), verts=32, faces=17, mats=no material
+- building__baker-library__way_295888783: dims=(77.07, 73.56, 20.00), verts=1036, faces=767, mats=mwrld_baker_reference_brick, mwrld_baker_reference_dark_window, mwrld_baker_reference_white_door, mwrld_baker_reference_flat_roof, +1 more
+- building__bartlett-hall__way_48784526: dims=(26.85, 20.14, 20.00), verts=30, faces=16, mats=no material
+- building__bartlett-tower__way_882026018: dims=(18.63, 10.99, 20.00), verts=14, faces=8, mats=no material
+- building__berry-hall__way_262950847: dims=(35.75, 32.82, 12.00), verts=44, faces=23, mats=no material
+- building__berry-library__way_295888784: dims=(67.96, 41.62, 20.00), verts=40, faces=21, mats=no material
+- building__berry-sports-center__way_48465836: dims=(83.21, 86.27, 20.00), verts=24, faces=13, mats=no material
+- building__beta-alpha-omega__way_49797497: dims=(29.67, 19.17, 20.00), verts=30, faces=16, mats=no material
+- building__bildner-hall__way_298417217: dims=(29.09, 31.50, 12.00), verts=28, faces=15, mats=no material
+- building__bissell-cohen-lounge__way_262922777: dims=(39.04, 29.19, 20.00), verts=34, faces=18, mats=no material
+- building__bissell-hall__way_262922778: dims=(28.32, 29.70, 20.00), verts=20, faces=11, mats=no material
+- building__black-family-visual-arts-center__way_262924500: dims=(60.87, 55.38, 9.00), verts=26, faces=14, mats=no material
+- building__blunt-alumni-center__way_261795980: dims=(43.13, 35.55, 20.00), verts=38, faces=20, mats=no material
+- building__bones-gate__way_49797496: dims=(25.45, 19.55, 20.00), verts=28, faces=15, mats=no material
+- building__borealis-ventures__way_548921802: dims=(17.90, 18.40, 20.00), verts=18, faces=10, mats=no material
+- building__bridgman-block__way_881069397: dims=(31.27, 28.21, 20.00), verts=20, faces=11, mats=no material
+- building__brown-hall__way_262922781: dims=(28.35, 29.26, 9.00), verts=20, faces=11, mats=no material
+- building__brown-little-lounge__way_262922780: dims=(26.82, 27.48, 6.00), verts=36, faces=19, mats=no material
+- building__buchanan-hall__way_262950538: dims=(64.03, 27.43, 20.00), verts=26, faces=14, mats=no material
+- building__building-1130905265__way_1130905265: dims=(6.59, 5.04, 20.00), verts=8, faces=5, mats=no material
+- building__building-1130905272__way_1130905272: dims=(4.85, 4.84, 21.64), verts=38, faces=20, mats=no material
+- building__building-1237319357__way_1237319357: dims=(39.13, 35.75, 20.00), verts=28, faces=15, mats=no material
+- building__building-1237319365__way_1237319365: dims=(10.33, 4.85, 3.00), verts=8, faces=5, mats=no material
+- building__building-1347559304__way_1347559304: dims=(9.28, 13.89, 20.00), verts=12, faces=7, mats=no material
+- building__building-1347560510__way_1347560510: dims=(13.18, 13.36, 20.00), verts=8, faces=5, mats=no material
+- building__building-1347560671__way_1347560671: dims=(29.09, 14.87, 20.00), verts=24, faces=13, mats=no material
+- building__building-1347560676__way_1347560676: dims=(14.07, 11.88, 20.00), verts=8, faces=5, mats=no material
+- building__building-1347560677__way_1347560677: dims=(21.65, 16.55, 20.00), verts=18, faces=10, mats=no material
+- building__building-265142412__way_265142412: dims=(14.45, 18.39, 20.00), verts=14, faces=8, mats=no material
+- building__building-308650268__way_308650268: dims=(6.72, 6.17, 20.00), verts=8, faces=5, mats=no material
+- building__building-48467879__way_48467879: dims=(12.76, 19.85, 20.00), verts=8, faces=5, mats=no material
+- building__building-547813919__way_547813919: dims=(37.52, 25.93, 20.00), verts=20, faces=11, mats=no material
+- building__building-548896483__way_548896483: dims=(17.61, 17.62, 20.00), verts=18, faces=10, mats=no material
+- building__building-548921800__way_548921800: dims=(27.08, 16.17, 20.00), verts=18, faces=10, mats=no material
+- building__building-616919970__way_616919970: dims=(19.62, 17.53, 20.00), verts=20, faces=11, mats=no material
+- building__building-621646980__way_621646980: dims=(8.58, 12.47, 20.00), verts=12, faces=7, mats=no material
+- building__building-621646981__way_621646981: dims=(12.94, 16.67, 20.00), verts=8, faces=5, mats=no material
+- building__building-621646986__way_621646986: dims=(19.16, 8.37, 20.00), verts=8, faces=5, mats=no material
+- building__building-645101989__way_645101989: dims=(12.89, 13.82, 20.00), verts=8, faces=5, mats=no material
+- building__building-648551752__way_648551752: dims=(10.02, 9.60, 20.00), verts=8, faces=5, mats=no material
+- building__building-675559488__way_675559488: dims=(24.92, 25.89, 20.00), verts=20, faces=11, mats=no material
+- building__building-734295490__way_734295490: dims=(13.43, 20.25, 20.00), verts=8, faces=5, mats=no material
+- building__building-783709301__way_783709301: dims=(16.50, 18.28, 20.00), verts=24, faces=13, mats=no material
+- building__building-837183229__way_837183229: dims=(6.83, 8.84, 20.00), verts=8, faces=5, mats=no material
+- building__building-837183237__way_837183237: dims=(8.11, 8.10, 20.00), verts=38, faces=20, mats=no material
+- building__building-837183238__way_837183238: dims=(23.54, 14.56, 20.00), verts=8, faces=5, mats=no material
+- building__building-873165773__way_873165773: dims=(7.85, 5.78, 20.00), verts=8, faces=5, mats=no material
+- building__building-874153675__way_874153675: dims=(11.91, 2.92, 20.00), verts=8, faces=5, mats=no material
+- building__building-874487238__way_874487238: dims=(7.60, 15.18, 20.00), verts=20, faces=11, mats=no material
+- building__building-874520372__way_874520372: dims=(16.47, 14.77, 20.00), verts=32, faces=17, mats=no material
+- building__building-898107520__way_898107520: dims=(12.06, 15.43, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107521__way_898107521: dims=(19.86, 15.87, 20.00), verts=16, faces=9, mats=no material
+- building__building-898107522__way_898107522: dims=(9.09, 13.65, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107523__way_898107523: dims=(11.90, 10.43, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107524__way_898107524: dims=(13.02, 9.01, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107525__way_898107525: dims=(10.87, 9.98, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107526__way_898107526: dims=(19.22, 21.98, 20.00), verts=12, faces=7, mats=no material
+- building__building-898107527__way_898107527: dims=(24.36, 16.54, 20.00), verts=20, faces=11, mats=no material
+- building__building-898107528__way_898107528: dims=(13.43, 15.10, 20.00), verts=12, faces=7, mats=no material
+- building__building-898107530__way_898107530: dims=(23.48, 21.31, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107531__way_898107531: dims=(14.47, 21.98, 20.00), verts=12, faces=7, mats=no material
+- building__building-898107533__way_898107533: dims=(13.27, 12.99, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107534__way_898107534: dims=(16.40, 16.43, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107535__way_898107535: dims=(18.17, 17.09, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107536__way_898107536: dims=(10.13, 8.77, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107537__way_898107537: dims=(12.22, 9.89, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107539__way_898107539: dims=(17.85, 23.42, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107540__way_898107540: dims=(7.88, 11.54, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107541__way_898107541: dims=(19.62, 15.43, 20.00), verts=8, faces=5, mats=no material
+- building__building-898107542__way_898107542: dims=(24.84, 24.64, 20.00), verts=16, faces=9, mats=no material
+- building__burke-laboratory__way_49796547: dims=(67.01, 59.97, 20.00), verts=52, faces=27, mats=no material
+- building__buskey-alley__way_548904605: dims=(18.94, 36.35, 20.00), verts=24, faces=13, mats=no material
+- building__butterfield-hall__way_262918555: dims=(38.95, 19.75, 20.00), verts=22, faces=12, mats=no material
+- building__byrne-dining-hall__way_262950533: dims=(42.09, 36.47, 20.00), verts=38, faces=20, mats=no material
+- building__byrne-ii-hall__way_262950850: dims=(38.01, 37.74, 20.00), verts=46, faces=24, mats=no material
+- building__carpenter-hall__way_295888785: dims=(39.89, 33.16, 20.00), verts=24, faces=13, mats=no material
+- building__carson-hall__way_295888786: dims=(37.96, 17.70, 20.00), verts=20, faces=11, mats=no material
+- building__casque-gauntlet-senior-society__way_261796568: dims=(25.77, 15.63, 20.00), verts=24, faces=13, mats=no material
+- building__chabad-at-dartmouth__way_621647006: dims=(18.04, 32.33, 20.00), verts=32, faces=17, mats=no material
+- building__channing-cox-hall__way_549364455: dims=(66.68, 30.19, 20.00), verts=42, faces=22, mats=no material
+- building__chase-hall__way_262950535: dims=(19.34, 30.80, 20.00), verts=26, faces=14, mats=no material
+- building__chi-delta__way_548057945: dims=(25.50, 25.30, 20.00), verts=36, faces=19, mats=no material
+- building__chi-gamma-epsilon__way_49797500: dims=(29.67, 19.59, 20.00), verts=26, faces=14, mats=no material
+- building__chi-heorot__way_262926521: dims=(30.86, 22.32, 20.00), verts=32, faces=17, mats=no material
+- building__chilcott-auditorium__way_296375896: dims=(16.63, 17.50, 20.00), verts=8, faces=5, mats=no material
+- building__chinese-language-house__way_49797503: dims=(21.60, 28.30, 20.00), verts=16, faces=9, mats=no material
+- building__choate-house__way_262922785: dims=(21.11, 17.55, 20.00), verts=24, faces=13, mats=no material
+- building__class-of-1953-commons__way_262912597: dims=(88.36, 30.95, 20.00), verts=26, faces=14, mats=no material
+- building__class-of-1978-life-sciences-center__way_262950856: dims=(106.87, 122.69, 20.00), verts=84, faces=43, mats=no material
+- building__class-of-1982-engineering-and-computer-science-center__way_693100230: dims=(61.13, 76.73, 20.00), verts=20, faces=11, mats=no material
+- building__co-op-food-stores-hanover__way_694202831: dims=(45.92, 70.88, 20.00), verts=38, faces=20, mats=no material
+- building__co-op-service-center__way_694204826: dims=(22.87, 22.76, 20.00), verts=36, faces=19, mats=no material
+- building__cohen-hall__way_262922776: dims=(29.72, 29.98, 20.00), verts=22, faces=12, mats=no material
+- building__coldwell-banker__way_548904600: dims=(16.49, 19.67, 20.00), verts=16, faces=9, mats=no material
+- building__collis-student-center__way_261796580: dims=(44.31, 46.25, 6.00), verts=40, faces=21, mats=no material
+- building__consolidated-communications__way_548054962: dims=(29.31, 18.93, 20.00), verts=16, faces=9, mats=no material
+- building__cummings-hall__way_262950526: dims=(70.05, 48.25, 20.00), verts=50, faces=26, mats=no material
+- building__currier-block__way_547976611: dims=(30.42, 44.40, 20.00), verts=44, faces=23, mats=no material
+- building__cvs-pharmacy__way_543423594: dims=(30.43, 47.13, 20.00), verts=18, faces=10, mats=no material
+- building__dartmouth-campus-safety__way_262951154: dims=(27.24, 34.02, 20.00), verts=40, faces=21, mats=no material
+- building__dartmouth-computer-store__way_693114391: dims=(29.79, 23.31, 20.00), verts=30, faces=16, mats=no material
+- building__dartmouth-hall__way_48784540: dims=(23.62, 48.14, 20.00), verts=992, faces=807, mats=mwrld_dartmouth_hall_white_brick, mwrld_dartmouth_hall_granite_base, mwrld_dartmouth_hall_dark_window, mwrld_dartmouth_hall_black_door
+- building__davis-varsity-house__way_48467160: dims=(34.52, 28.38, 20.00), verts=22, faces=12, mats=no material
+- building__davison-block__way_881069396: dims=(40.48, 28.35, 20.00), verts=30, faces=16, mats=no material
+- building__dick-s-house__way_262950539: dims=(41.41, 50.48, 20.00), verts=40, faces=21, mats=no material
+- building__dragon-secret-society__way_584967679: dims=(21.72, 24.69, 20.00), verts=24, faces=13, mats=no material
+- building__east-stands__way_48465837: dims=(43.75, 130.87, 20.00), verts=10, faces=6, mats=no material
+- building__edgerton-house__way_548054961: dims=(21.23, 20.05, 20.00), verts=20, faces=11, mats=no material
+- building__epsilon-kappa-theta__way_262922772: dims=(16.96, 28.11, 20.00), verts=62, faces=32, mats=no material
+- building__facilities-operations-management-warehouse__way_262948866: dims=(23.83, 16.15, 20.00), verts=22, faces=12, mats=no material
+- building__fahey-hall__way_262918557: dims=(37.02, 14.36, 20.00), verts=28, faces=15, mats=no material
+- building__fairchild-physical-sciences-center__way_49795632: dims=(41.67, 69.23, 20.00), verts=50, faces=26, mats=no material
+- building__first-church-of-christ-scientist__way_621647000: dims=(11.53, 29.13, 20.00), verts=12, faces=7, mats=no material
+- building__floren-varsity-house__way_295951349: dims=(31.61, 82.97, 20.00), verts=20, faces=11, mats=no material
+- building__foley-house__way_262948891: dims=(20.52, 13.71, 20.00), verts=26, faces=14, mats=no material
+- building__four-seasons-sotheby-s__way_265141857: dims=(13.43, 13.32, 20.00), verts=8, faces=5, mats=no material
+- building__frassati-house__way_874770861: dims=(18.68, 12.82, 20.00), verts=8, faces=5, mats=no material
+- building__french-hall__way_549364457: dims=(40.44, 43.90, 20.00), verts=40, faces=21, mats=no material
+- building__fuller-boathouse__way_296382922: dims=(28.50, 30.44, 20.00), verts=16, faces=9, mats=no material
+- building__gamma-delta-chi__way_49797492: dims=(21.79, 16.03, 20.00), verts=22, faces=12, mats=no material
+- building__gilberte-interiors__way_548921801: dims=(19.37, 30.98, 20.00), verts=18, faces=10, mats=no material
+- building__gile-hall__way_262913688: dims=(37.73, 31.22, 20.00), verts=26, faces=14, mats=no material
+- building__gitsis-block__way_719086480: dims=(54.96, 20.73, 20.00), verts=32, faces=17, mats=no material
+- building__goldstein-hall__way_262950849: dims=(32.56, 33.93, 20.00), verts=30, faces=16, mats=no material
+- building__graham-indoor-practice-facility__way_783709299: dims=(73.31, 88.97, 20.00), verts=16, faces=9, mats=no material
+- building__gramma-s__way_945793218: dims=(10.39, 17.38, 20.00), verts=8, faces=5, mats=no material
+- building__grounds-labor-building__way_262950857: dims=(42.35, 57.36, 20.00), verts=10, faces=6, mats=no material
+- building__guarini-institute-for-international-education__way_49796200: dims=(24.79, 18.18, 20.00), verts=16, faces=9, mats=no material
+- building__haldeman-center__way_49797073: dims=(33.59, 43.13, 20.00), verts=38, faces=20, mats=no material
+- building__hallgarten-hall__way_295768758: dims=(16.18, 17.07, 20.00), verts=16, faces=9, mats=no material
+- building__hanover-court__way_647756211: dims=(25.63, 57.66, 20.00), verts=56, faces=29, mats=no material
+- building__hanover-friends-meeting__way_398846559: dims=(21.98, 22.31, 20.00), verts=28, faces=15, mats=no material
+- building__hanover-high-school__way_264225521: dims=(204.76, 142.54, 6.00), verts=138, faces=70, mats=no material
+- building__hanover-inn-dartmouth__way_548896471: dims=(68.71, 78.27, 15.00), verts=68, faces=35, mats=no material
+- building__hanover-park__way_264994646: dims=(24.27, 38.31, 6.00), verts=26, faces=14, mats=no material
+- building__hanover-post-office__way_264994650: dims=(27.18, 42.01, 20.00), verts=42, faces=22, mats=no material
+- building__hanover-public-parking-garage__way_231749754: dims=(43.47, 58.00, 20.00), verts=38, faces=20, mats=no material
+- building__hanover-town-hall__way_247325745: dims=(24.59, 13.44, 20.00), verts=10, faces=6, mats=no material
+- building__heating-electric-plant__way_262948873: dims=(62.62, 37.03, 20.00), verts=40, faces=21, mats=no material
+- building__hitchcock-hall__way_262913686: dims=(30.71, 31.09, 20.00), verts=18, faces=10, mats=no material
+- building__hood-museum-of-art__way_837183231: dims=(70.85, 65.98, 20.00), verts=74, faces=38, mats=no material
+- building__hopkins-center-for-the-arts__way_262924499: dims=(81.32, 123.21, 20.00), verts=104, faces=53, mats=no material
+- building__house-center-a__way_543822430: dims=(28.98, 30.51, 20.00), verts=8, faces=5, mats=no material
+- building__house-center-b__way_584967697: dims=(26.75, 22.89, 6.00), verts=18, faces=10, mats=no material
+- building__howe-library__way_264995623: dims=(50.64, 47.54, 20.00), verts=32, faces=17, mats=no material
+- building__hyphen-lounge__way_838851884: dims=(12.76, 21.13, 20.00), verts=16, faces=9, mats=no material
+- building__irving-institute__way_910299376: dims=(56.34, 54.39, 20.00), verts=50, faces=26, mats=no material
+- building__jewel-of-india__way_265141709: dims=(17.67, 25.84, 20.00), verts=8, faces=5, mats=no material
+- building__judge-hall__way_549364458: dims=(36.89, 42.45, 20.00), verts=40, faces=21, mats=no material
+- building__kappa-delta-epsilon__way_262918565: dims=(25.98, 21.58, 20.00), verts=30, faces=16, mats=no material
+- building__kappa-delta__way_548057944: dims=(25.46, 32.86, 20.00), verts=36, faces=19, mats=no material
+- building__kappa-kappa-gamma__way_262948881: dims=(18.90, 16.47, 20.00), verts=14, faces=8, mats=no material
+- building__kappa-pi-kappa__way_49797493: dims=(35.83, 18.41, 20.00), verts=44, faces=23, mats=no material
+- building__kellogg-hall__way_262950851: dims=(32.06, 35.49, 20.00), verts=18, faces=10, mats=no material
+- building__kemeny-hall__way_49797072: dims=(77.25, 28.26, 20.00), verts=42, faces=22, mats=no material
+- building__la-casa__way_49791106: dims=(14.67, 14.29, 20.00), verts=16, faces=9, mats=no material
+- building__latin-american-latino-a-and-caribbean-house__way_49797505: dims=(23.57, 27.79, 20.00), verts=16, faces=9, mats=no material
+- building__ledyard-canoe-club__way_296382924: dims=(19.29, 25.30, 20.00), verts=12, faces=7, mats=no material
+- building__ledyard-financial-advisors__way_675559487: dims=(20.44, 25.02, 20.00), verts=28, faces=15, mats=no material
+- building__ledyard-national-bank__way_694204131: dims=(14.79, 13.23, 20.00), verts=20, faces=11, mats=no material
+- building__leverone-field-house__way_48465833: dims=(123.52, 101.66, 20.00), verts=14, faces=8, mats=no material
+- building__little-hall__way_262922779: dims=(28.76, 30.98, 9.00), verts=20, faces=11, mats=no material
+- building__little-havana__way_265141855: dims=(10.28, 25.51, 20.00), verts=12, faces=7, mats=no material
+- building__living-learning-faculty-house__way_639859772: dims=(19.46, 27.14, 20.00), verts=24, faces=13, mats=no material
+- building__lord-hall__way_262915141: dims=(23.83, 31.08, 20.00), verts=18, faces=10, mats=no material
+- building__maclean-engineering-sciences-center__way_262950527: dims=(63.27, 36.44, 20.00), verts=42, faces=22, mats=no material
+- building__maxwell-hall__way_549364456: dims=(56.68, 46.59, 20.00), verts=56, faces=29, mats=no material
+- building__maynard-house__way_783717746: dims=(11.19, 15.38, 20.00), verts=16, faces=9, mats=no material
+- building__mcculloch-hall__way_48466720: dims=(38.34, 49.18, 20.00), verts=28, faces=15, mats=no material
+- building__mckenzie-emergency-diesel-generator__way_295951352: dims=(9.86, 9.98, 20.00), verts=8, faces=5, mats=no material
+- building__mckenzie-fuel-oil-facility__way_837183240: dims=(8.11, 8.09, 20.00), verts=38, faces=20, mats=no material
+- building__mckenzie-hall__way_262948868: dims=(26.19, 18.33, 20.00), verts=18, faces=10, mats=no material
+- building__mckenzie-shops__way_262948864: dims=(52.11, 37.40, 20.00), verts=16, faces=9, mats=no material
+- building__mckenzie-substation__way_295951351: dims=(53.46, 68.38, 20.00), verts=16, faces=9, mats=no material
+- building__mclane-hall__way_262918559: dims=(54.41, 45.14, 20.00), verts=46, faces=24, mats=no material
+- building__mcnutt-hall__way_261793901: dims=(33.17, 32.86, 20.00), verts=18, faces=10, mats=no material
+- building__middle-fayerweather-hall__way_49791103: dims=(25.73, 37.86, 20.00), verts=20, faces=11, mats=no material
+- building__middle-massachusetts-hall__way_262913307: dims=(20.44, 38.55, 20.00), verts=24, faces=13, mats=no material
+- building__montgomery-house__way_642362809: dims=(32.20, 26.20, 20.00), verts=16, faces=9, mats=no material
+- building__moore-psychology-building__way_48465839: dims=(48.42, 61.03, 20.00), verts=30, faces=16, mats=no material
+- building__morton-hall__way_48466717: dims=(27.78, 44.94, 20.00), verts=18, faces=10, mats=no material
+- building__murdough-center__way_262950532: dims=(44.04, 42.04, 20.00), verts=18, faces=10, mats=no material
+- building__musgrove-block__way_548921799: dims=(31.85, 18.76, 20.00), verts=8, faces=5, mats=no material
+- building__native-american-house__way_721286482: dims=(19.83, 28.89, 20.00), verts=32, faces=17, mats=no material
+- building__new-hampshire-hall__way_262924496: dims=(47.64, 35.71, 20.00), verts=18, faces=10, mats=no material
+- building__north-fairbanks-hall__way_262913683: dims=(18.83, 28.18, 20.00), verts=32, faces=17, mats=no material
+- building__north-fayerweather-hall__way_262924494: dims=(28.54, 29.89, 20.00), verts=16, faces=9, mats=no material
+- building__north-hall__way_49797504: dims=(18.78, 15.31, 20.00), verts=10, faces=6, mats=no material
+- building__north-massachusetts-hall__way_262913680: dims=(26.63, 31.15, 20.00), verts=20, faces=11, mats=no material
+- building__north-park-faculty-house__way_873165802: dims=(24.61, 15.42, 20.00), verts=22, faces=12, mats=no material
+- building__nugget-arcade__way_757708033: dims=(67.99, 69.59, 20.00), verts=56, faces=29, mats=no material
+- building__our-savior-lutheran-church__way_644376635: dims=(62.21, 51.88, 20.00), verts=72, faces=37, mats=no material
+- building__panarchy__way_548054957: dims=(27.46, 21.84, 20.00), verts=24, faces=13, mats=no material
+- building__parker-house__way_49796198: dims=(17.54, 17.63, 20.00), verts=24, faces=13, mats=no material
+- building__parkhurst-hall__way_261795166: dims=(34.23, 29.26, 20.00), verts=26, faces=14, mats=no material
+- building__paul-decker-d-d-s-janice-pilon-d-d-s__way_783709303: dims=(7.96, 6.23, 20.00), verts=8, faces=5, mats=no material
+- building__phi-delta-alpha__way_49797501: dims=(25.38, 22.48, 20.00), verts=18, faces=10, mats=no material
+- building__phi-tau__way_49797502: dims=(22.65, 26.48, 20.00), verts=24, faces=13, mats=no material
+- building__pineau-valencienne-hall__way_262950530: dims=(24.33, 41.88, 20.00), verts=32, faces=17, mats=no material
+- building__president-s-house__way_49797498: dims=(37.72, 22.38, 20.00), verts=32, faces=17, mats=no material
+- building__psi-upsilon__way_262912844: dims=(15.82, 17.52, 20.00), verts=12, faces=7, mats=no material
+- building__raether-hall__way_262950529: dims=(29.60, 33.11, 20.00), verts=32, faces=17, mats=no material
+- building__rand-wilson-funeral-home__way_648280431: dims=(15.46, 16.84, 20.00), verts=24, faces=13, mats=no material
+- building__rauner-hall__way_298417218: dims=(38.13, 35.15, 12.00), verts=36, faces=19, mats=no material
+- building__red-kite-candy__way_693114392: dims=(14.66, 14.59, 20.00), verts=12, faces=7, mats=no material
+- building__reed-hall__way_48784525: dims=(19.12, 33.87, 20.00), verts=14, faces=8, mats=no material
+- building__reilly-pavilion__way_783709294: dims=(34.20, 51.17, 20.00), verts=68, faces=35, mats=no material
+- building__remsen-medical-sciences-building__way_262950854: dims=(90.61, 69.40, 20.00), verts=44, faces=23, mats=no material
+- building__richard-w-black-community-center__way_644376627: dims=(33.21, 48.86, 20.00), verts=16, faces=9, mats=no material
+- building__richardson-hall__way_49791107: dims=(17.75, 31.10, 20.00), verts=8, faces=5, mats=no material
+- building__ripley-hall__way_262926523: dims=(23.14, 35.03, 20.00), verts=16, faces=9, mats=no material
+- building__robinson-hall__way_262912562: dims=(32.33, 26.96, 20.00), verts=22, faces=12, mats=no material
+- building__rockefeller-center__way_262915144: dims=(61.55, 22.77, 20.00), verts=56, faces=29, mats=no material
+- building__rollins-chapel__way_48465838: dims=(44.24, 36.05, 20.00), verts=44, faces=23, mats=no material
+- building__roth-center-for-jewish-life__way_262922775: dims=(37.80, 41.56, 20.00), verts=16, faces=9, mats=no material
+- building__russell-sage-hall__way_262915146: dims=(32.60, 32.47, 20.00), verts=18, faces=10, mats=no material
+- building__saint-denis-catholic-church__way_262948875: dims=(23.50, 38.42, 20.00), verts=24, faces=13, mats=no material
+- building__saint-thomas-episcopal-church__way_293472006: dims=(29.34, 15.75, 20.00), verts=8, faces=5, mats=no material
+- building__sanborn-house__way_262950521: dims=(32.25, 23.37, 20.00), verts=20, faces=11, mats=no material
+- building__sarner-underground__way_464030136: dims=(37.64, 16.89, 20.00), verts=8, faces=5, mats=no material
+- building__school-administrative-unit-70__way_694210581: dims=(59.62, 58.15, 3.00), verts=26, faces=14, mats=no material
+- building__school-faculty-house__way_548054953: dims=(24.67, 18.73, 20.00), verts=28, faces=15, mats=no material
+- building__seven-allen__way_548904604: dims=(24.90, 23.19, 20.00), verts=34, faces=18, mats=no material
+- building__shabazz-hall__way_262922782: dims=(19.98, 46.22, 20.00), verts=40, faces=21, mats=no material
+- building__shattuck-observatory__way_49796726: dims=(16.86, 17.62, 20.00), verts=28, faces=15, mats=no material
+- building__sherman-house__way_48465840: dims=(24.00, 20.25, 20.00), verts=28, faces=15, mats=no material
+- building__sigma-alpha-epsilon__way_49791105: dims=(20.52, 10.61, 20.00), verts=10, faces=6, mats=no material
+- building__sigma-delta__way_293468158: dims=(20.10, 13.79, 20.00), verts=8, faces=5, mats=no material
+- building__sigma-nu-delta-beta__way_49797495: dims=(25.05, 19.33, 20.00), verts=10, faces=6, mats=no material
+- building__sigma-phi-epsilon__way_262918567: dims=(30.62, 23.68, 20.00), verts=10, faces=6, mats=no material
+- building__silsby-hall__way_262915142: dims=(39.48, 37.68, 20.00), verts=20, faces=11, mats=no material
+- building__six-south-street-hotel__way_264994810: dims=(53.14, 24.49, 20.00), verts=8, faces=5, mats=no material
+- building__smith-hall__way_262926525: dims=(22.25, 33.09, 20.00), verts=12, faces=7, mats=no material
+- building__south-block__way_693114384: dims=(37.28, 45.33, 20.00), verts=98, faces=50, mats=no material
+- building__south-faculty-house__way_783717747: dims=(24.00, 22.34, 6.00), verts=36, faces=19, mats=no material
+- building__south-fairbanks-hall__way_262913681: dims=(19.71, 23.62, 20.00), verts=34, faces=18, mats=no material
+- building__south-fayerweather-hall__way_298417216: dims=(27.52, 28.80, 20.00), verts=20, faces=11, mats=no material
+- building__south-massachusetts-hall__way_262913209: dims=(26.82, 32.25, 20.00), verts=30, faces=16, mats=no material
+- building__sphinx-secret-society__way_49791104: dims=(12.70, 15.56, 20.00), verts=8, faces=5, mats=no material
+- building__steele-hall__way_49796549: dims=(54.67, 43.51, 20.00), verts=32, faces=17, mats=no material
+- building__stell-hall__way_262950534: dims=(24.71, 20.12, 20.00), verts=24, faces=13, mats=no material
+- building__streeter-hall__way_262915140: dims=(34.31, 13.00, 20.00), verts=18, faces=10, mats=no material
+- building__sudikoff-hall__way_49796201: dims=(75.04, 73.43, 20.00), verts=68, faces=35, mats=no material
+- building__summer-court-dental__way_783709284: dims=(13.15, 15.85, 20.00), verts=16, faces=9, mats=no material
+- building__summer-park-residences__way_837200308: dims=(35.59, 37.64, 9.00), verts=32, faces=17, mats=no material
+- building__the-church-of-christ-at-dartmouth-college__way_49796197: dims=(60.36, 51.20, 20.00), verts=24, faces=13, mats=no material
+- building__the-lodge__way_262924501: dims=(36.73, 32.50, 6.00), verts=32, faces=17, mats=no material
+- building__the-pebble__way_945793217: dims=(9.09, 7.50, 20.00), verts=8, faces=5, mats=no material
+- building__the-rock__way_621725233: dims=(10.79, 13.43, 6.00), verts=12, faces=7, mats=no material
+- building__the-tabard__way_262918563: dims=(23.81, 23.34, 20.00), verts=22, faces=12, mats=no material
+- building__theta-delta-chi__way_262912960: dims=(12.45, 23.02, 20.00), verts=18, faces=10, mats=no material
+- building__thomas-hall__way_262950848: dims=(40.02, 31.70, 20.00), verts=20, faces=11, mats=no material
+- building__thompson-arena__way_48465832: dims=(103.55, 57.85, 20.00), verts=26, faces=14, mats=no material
+- building__thornton-hall__way_48784524: dims=(23.84, 17.77, 20.00), verts=10, faces=6, mats=no material
+- building__tom-dent-cabin__way_390623563: dims=(15.10, 14.42, 3.00), verts=8, faces=5, mats=no material
+- building__topliff-hall__way_48465835: dims=(50.83, 47.44, 20.00), verts=20, faces=11, mats=no material
+- building__triangle-house__way_262948886: dims=(30.64, 40.33, 20.00), verts=16, faces=9, mats=no material
+- building__tuck-hall__way_262950536: dims=(37.77, 32.94, 20.00), verts=34, faces=18, mats=no material
+- building__umpleby-s-bakehouse__way_693114387: dims=(14.25, 14.26, 20.00), verts=32, faces=17, mats=no material
+- building__umpleby-s-bakery-caf__way_693114386: dims=(15.50, 15.80, 20.00), verts=30, faces=16, mats=no material
+- building__upper-valley-esthetic-dentistry__way_783709280: dims=(21.97, 27.39, 20.00), verts=20, faces=11, mats=no material
+- building__vail-medical-sciences-building__way_262950855: dims=(46.25, 53.89, 20.00), verts=26, faces=14, mats=no material
+- building__webster-cottage__way_262922783: dims=(13.56, 15.15, 20.00), verts=8, faces=5, mats=no material
+- building__webster-hall__way_48784527: dims=(27.87, 42.32, 20.00), verts=50, faces=26, mats=no material
+- building__wentworth-hall__way_48784528: dims=(23.00, 17.33, 20.00), verts=8, faces=5, mats=no material
+- building__west-faculty-house__way_641064109: dims=(19.71, 32.31, 20.00), verts=20, faces=11, mats=no material
+- building__west-stands__way_48465834: dims=(47.79, 115.00, 20.00), verts=8, faces=5, mats=no material
+- building__wheeler-hall__way_49796725: dims=(43.80, 23.62, 12.00), verts=12, faces=7, mats=no material
+- building__wheelock-house__way_548904598: dims=(16.02, 27.01, 20.00), verts=36, faces=19, mats=no material
+- building__whittemore-hall__way_262950531: dims=(48.48, 37.73, 20.00), verts=38, faces=20, mats=no material
+- building__wilder-hall__way_49796550: dims=(55.71, 60.23, 20.00), verts=30, faces=16, mats=no material
+- building__wilson-hall__way_262924497: dims=(25.71, 39.62, 20.00), verts=50, faces=26, mats=no material
+- building__winfred-raven-house__way_49795634: dims=(31.20, 32.82, 20.00), verts=24, faces=13, mats=no material
+- building__woodbury-hall__way_262950537: dims=(22.88, 32.53, 20.00), verts=28, faces=15, mats=no material
+- building__woodward-hall__way_262926524: dims=(34.48, 21.64, 20.00), verts=12, faces=7, mats=no material
+- building__zeta-psi__way_262918561: dims=(26.75, 20.96, 20.00), verts=40, faces=21, mats=no material
+- building__zimmerman-hall__way_48466718: dims=(41.82, 33.63, 20.00), verts=18, faces=10, mats=no material
+- Cube: dims=(2.00, 2.00, 2.00), verts=8, faces=6, mats=Material
+- mwrld_dartmouth_hall__chimney_front_south: dims=(0.95, 0.95, 2.20), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__chimney_rear_north: dims=(0.95, 0.95, 2.20), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__cupola_base: dims=(2.95, 2.95, 0.76), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_cap: dims=(1.80, 1.80, 0.72), verts=32, faces=16, mats=mwrld_dartmouth_hall_green_cupola_cap
+- mwrld_dartmouth_hall__cupola_lantern: dims=(1.82, 1.82, 1.40), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_lantern_opening_east: dims=(0.04, 0.82, 1.05), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_window
+- mwrld_dartmouth_hall__cupola_lantern_opening_north: dims=(0.82, 0.04, 1.05), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_window
+- mwrld_dartmouth_hall__cupola_lantern_opening_south: dims=(0.82, 0.04, 1.05), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_window
+- mwrld_dartmouth_hall__cupola_lantern_opening_west: dims=(0.04, 0.82, 1.05), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_window
+- mwrld_dartmouth_hall__cupola_lower_plinth: dims=(2.35, 2.35, 0.32), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_post_01: dims=(0.12, 0.12, 1.50), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_post_02: dims=(0.12, 0.12, 1.50), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_post_03: dims=(0.12, 0.12, 1.50), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_post_04: dims=(0.12, 0.12, 1.50), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_rail_east: dims=(0.08, 1.32, 0.12), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_rail_north: dims=(1.32, 0.08, 0.12), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_rail_south: dims=(1.32, 0.08, 0.12), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_rail_west: dims=(0.08, 1.32, 0.12), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__cupola_upper_plinth: dims=(1.42, 1.42, 0.32), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__F01: dims=(0.14, 0.18, 20.00), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__east-center-bay__W01_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W01_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W01_trim_bottom: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W01_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W01_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W01_trim_top: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W02_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W02_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W02_trim_bottom: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W02_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W02_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W02_trim_top: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W03_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W03_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W03_trim_bottom: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W03_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W03_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W03_trim_top: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W04_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W04_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W04_trim_bottom: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W04_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W04_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W04_trim_top: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W05_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W05_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W05_trim_bottom: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W05_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W05_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W05_trim_top: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W06_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W06_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-center-bay__W06_trim_bottom: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W06_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W06_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-center-bay__W06_trim_top: dims=(0.09, 0.78, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__D01_door_surround_left: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__D01_door_surround_right: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__D01_door_surround_top: dims=(0.09, 1.34, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__D01_threshold: dims=(0.32, 1.40, 0.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__east-north-wing__F01: dims=(0.14, 2.08, 0.79), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__east-north-wing__S01: dims=(0.34, 1.89, 0.50), verts=8, faces=6, mats=mwrld_dartmouth_hall_stair_stone
+- mwrld_dartmouth_hall__east-north-wing__W01_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W01_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W01_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W01_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W01_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W01_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W02_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W02_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W02_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W02_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W02_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W02_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W03_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W03_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W03_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W03_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W03_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W03_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W04_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W04_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W04_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W04_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W04_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W04_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W05_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W05_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W05_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W05_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W05_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W05_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W06_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W06_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W06_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W06_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W06_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W06_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W07_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W07_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W07_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W07_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W07_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W07_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W08_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W08_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-north-wing__W08_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W08_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W08_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-north-wing__W08_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__D01_door_surround_left: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__D01_door_surround_right: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__D01_door_surround_top: dims=(0.09, 1.34, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__D01_threshold: dims=(0.32, 1.40, 0.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__east-south-wing__F01: dims=(0.14, 2.08, 0.79), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__east-south-wing__S01: dims=(0.34, 1.89, 0.50), verts=8, faces=6, mats=mwrld_dartmouth_hall_stair_stone
+- mwrld_dartmouth_hall__east-south-wing__W01_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W01_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W01_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W01_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W01_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W01_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W02_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W02_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W02_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W02_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W02_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W02_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W03_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W03_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W03_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W03_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W03_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W03_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W04_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W04_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W04_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W04_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W04_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W04_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W05_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W05_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W05_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W05_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W05_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W05_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W06_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W06_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W06_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W06_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W06_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W06_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W07_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W07_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W07_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W07_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W07_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W07_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W08_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W08_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__east-south-wing__W08_trim_bottom: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W08_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W08_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__east-south-wing__W08_trim_top: dims=(0.09, 1.17, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__front_gable_pediment: dims=(0.00, 7.80, 4.55), verts=5, faces=2, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__hip_roof: dims=(23.62, 48.14, 3.30), verts=6, faces=4, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__north-main__F01: dims=(1.10, 0.14, 0.93), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__north-main__F02: dims=(1.10, 0.14, 0.93), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__north-main__W01_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W01_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W01_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W01_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W01_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W01_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W02_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W02_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W02_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W02_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W02_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W02_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W03_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W03_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W03_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W03_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W03_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W03_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W04_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W04_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W04_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W04_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W04_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W04_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W05_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W05_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W05_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W05_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W05_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W05_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W06_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W06_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W06_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W06_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W06_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W06_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W07_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W07_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W07_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W07_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W07_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W07_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W08_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W08_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W08_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W08_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W08_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W08_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W09_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W09_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W09_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W09_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W09_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W09_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W10_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W10_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W10_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W10_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W10_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W10_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W11_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W11_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W11_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W11_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W11_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W11_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W12_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W12_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W12_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W12_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W12_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W12_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W13_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W13_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W13_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W13_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W13_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W13_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W14_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W14_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W14_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W14_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W14_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W14_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W15_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W15_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W15_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W15_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W15_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W15_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W16_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W16_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W16_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W16_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W16_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W16_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W17_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W17_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W17_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W17_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W17_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W17_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W18_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W18_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__north-main__W18_trim_bottom: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W18_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W18_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__north-main__W18_trim_top: dims=(1.23, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__roof_dormer_front_north: dims=(1.55, 1.05, 0.90), verts=8, faces=6, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__roof_dormer_front_south: dims=(1.55, 1.05, 0.90), verts=8, faces=6, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__roof_dormer_rear_north: dims=(1.55, 1.05, 0.90), verts=8, faces=6, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__roof_dormer_rear_south: dims=(1.55, 1.05, 0.90), verts=8, faces=6, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__roof_zone_r02: dims=(5.67, 6.74, 0.00), verts=3, faces=1, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__roof_zone_r03: dims=(8.98, 7.22, 0.00), verts=6, faces=4, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__roof_zone_r04: dims=(10.39, 8.18, 0.00), verts=4, faces=2, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__roof_zone_r05: dims=(4.96, 31.77, 0.00), verts=6, faces=4, mats=mwrld_dartmouth_hall_slate_hip_roof
+- mwrld_dartmouth_hall__roof_zone_r06: dims=(2.60, 5.30, 0.00), verts=4, faces=2, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__F01: dims=(1.09, 0.14, 0.93), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__south-main__F02: dims=(1.09, 0.14, 0.93), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__south-main__W01_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W01_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W01_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W01_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W01_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W01_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W02_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W02_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W02_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W02_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W02_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W02_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W03_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W03_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W03_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W03_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W03_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W03_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W04_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W04_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W04_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W04_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W04_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W04_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W05_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W05_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W05_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W05_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W05_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W05_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W06_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W06_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W06_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W06_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W06_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W06_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W07_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W07_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W07_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W07_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W07_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W07_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W08_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W08_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W08_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W08_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W08_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W08_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W09_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W09_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W09_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W09_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W09_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W09_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W10_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W10_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W10_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W10_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W10_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W10_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W11_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W11_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W11_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W11_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W11_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W11_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W12_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W12_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W12_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W12_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W12_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W12_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W13_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W13_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W13_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W13_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W13_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W13_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W14_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W14_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W14_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W14_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W14_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W14_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W15_left_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W15_right_shutter: dims=(0.34, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__south-main__W15_trim_bottom: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W15_trim_left: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W15_trim_right: dims=(0.08, 0.09, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__south-main__W15_trim_top: dims=(1.22, 0.09, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__spire: dims=(0.11, 0.11, 1.42), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__weathervane: dims=(0.90, 0.05, 0.05), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__D01_door_surround_left: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D01_door_surround_right: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D01_door_surround_top: dims=(0.09, 0.95, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D01_threshold: dims=(0.32, 1.01, 0.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__west-center-entry__D02_door_surround_left: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D02_door_surround_right: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D02_door_surround_top: dims=(0.09, 0.95, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D02_threshold: dims=(0.32, 1.01, 0.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__west-center-entry__D03_door_surround_left: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D03_door_surround_right: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D03_door_surround_top: dims=(0.09, 0.95, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__D03_threshold: dims=(0.32, 1.01, 0.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__west-center-entry__F01: dims=(0.14, 2.90, 5.93), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__west-center-entry__F02: dims=(0.14, 2.40, 0.79), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__west-center-entry__F03: dims=(0.14, 1.64, 1.79), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__west-center-entry__F04: dims=(0.14, 11.57, 0.31), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__west-center-entry__F05: dims=(0.14, 0.18, 20.00), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__west-center-entry__F06: dims=(0.14, 0.18, 20.00), verts=8, faces=6, mats=mwrld_dartmouth_hall_wall_feature
+- mwrld_dartmouth_hall__west-center-entry__S01: dims=(0.34, 3.12, 0.64), verts=8, faces=6, mats=mwrld_dartmouth_hall_stair_stone
+- mwrld_dartmouth_hall__west-center-entry__S02: dims=(0.34, 3.50, 1.07), verts=8, faces=6, mats=mwrld_dartmouth_hall_stair_stone
+- mwrld_dartmouth_hall__west-center-entry__W01_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W01_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W01_trim_bottom: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W01_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W01_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W01_trim_top: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W02_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W02_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W02_trim_bottom: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W02_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W02_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W02_trim_top: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W03_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W03_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W03_trim_bottom: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W03_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W03_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W03_trim_top: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W04_left_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W04_right_shutter: dims=(0.09, 0.20, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W04_trim_bottom: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W04_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W04_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W04_trim_top: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W05_left_shutter: dims=(0.09, 0.20, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W05_right_shutter: dims=(0.09, 0.20, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W05_trim_bottom: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W05_trim_left: dims=(0.09, 0.08, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W05_trim_right: dims=(0.09, 0.08, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W05_trim_top: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W06_left_shutter: dims=(0.09, 0.20, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W06_right_shutter: dims=(0.09, 0.20, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-center-entry__W06_trim_bottom: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W06_trim_left: dims=(0.09, 0.08, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W06_trim_right: dims=(0.09, 0.08, 3.21), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-center-entry__W06_trim_top: dims=(0.09, 0.80, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__D01_door_surround_left: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__D01_door_surround_right: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__D01_door_surround_top: dims=(0.09, 1.31, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__D01_threshold: dims=(0.32, 1.37, 0.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__west-north-wing__W01_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W01_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W01_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W01_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W01_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W01_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W02_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W02_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W02_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W02_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W02_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W02_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W03_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W03_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W03_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W03_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W03_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W03_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W04_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W04_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W04_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W04_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W04_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W04_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W05_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W05_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W05_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W05_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W05_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W05_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W06_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W06_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W06_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W06_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W06_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W06_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W07_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W07_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W07_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W07_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W07_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W07_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W08_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W08_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W08_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W08_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W08_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W08_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W09_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W09_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W09_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W09_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W09_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W09_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W10_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W10_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W10_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W10_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W10_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W10_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W11_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W11_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W11_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W11_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W11_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W11_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W12_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W12_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W12_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W12_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W12_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W12_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W13_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W13_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W13_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W13_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W13_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W13_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W14_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W14_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W14_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W14_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W14_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W14_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W15_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W15_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W15_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W15_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W15_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W15_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W16_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W16_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W16_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W16_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W16_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W16_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W17_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W17_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W17_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W17_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W17_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W17_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W18_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W18_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W18_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W18_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W18_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W18_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W19_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W19_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W19_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W19_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W19_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W19_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W20_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W20_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-north-wing__W20_trim_bottom: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W20_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W20_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-north-wing__W20_trim_top: dims=(0.09, 1.14, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__D01_door_surround_left: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__D01_door_surround_right: dims=(0.09, 0.08, 4.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__D01_door_surround_top: dims=(0.09, 1.35, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__D01_threshold: dims=(0.32, 1.41, 0.16), verts=8, faces=6, mats=mwrld_dartmouth_hall_granite_base
+- mwrld_dartmouth_hall__west-south-wing__W01_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W01_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W01_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W01_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W01_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W01_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W02_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W02_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W02_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W02_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W02_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W02_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W03_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W03_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W03_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W03_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W03_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W03_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W04_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W04_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W04_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W04_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W04_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W04_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W05_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W05_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W05_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W05_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W05_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W05_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W06_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W06_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W06_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W06_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W06_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W06_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W07_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W07_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W07_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W07_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W07_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W07_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W08_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W08_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W08_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W08_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W08_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W08_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W09_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W09_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W09_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W09_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W09_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W09_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W10_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W10_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W10_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W10_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W10_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W10_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W11_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W11_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W11_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W11_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W11_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W11_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W12_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W12_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W12_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W12_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W12_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W12_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W13_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W13_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W13_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W13_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W13_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W13_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W14_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W14_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W14_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W14_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W14_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W14_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W15_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W15_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W15_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W15_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W15_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W15_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W16_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W16_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W16_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W16_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W16_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W16_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W17_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W17_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W17_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W17_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W17_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W17_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W18_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W18_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W18_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W18_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W18_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W18_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W19_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W19_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W19_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W19_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W19_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W19_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W20_left_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W20_right_shutter: dims=(0.09, 0.32, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_dark_metal
+- mwrld_dartmouth_hall__west-south-wing__W20_trim_bottom: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W20_trim_left: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W20_trim_right: dims=(0.09, 0.08, 3.23), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_dartmouth_hall__west-south-wing__W20_trim_top: dims=(0.09, 1.18, 0.08), verts=8, faces=6, mats=mwrld_dartmouth_hall_white_trim
+- mwrld_tower__baker-library__belfry_stage: dims=(8.27, 7.62, 8.00), verts=8, faces=6, mats=mwrld_baker_reference_limestone
+- mwrld_tower__baker-library__brick_base: dims=(12.07, 11.12, 12.00), verts=8, faces=6, mats=mwrld_baker_reference_brick
+- mwrld_tower__baker-library__clock_east: dims=(0.08, 3.50, 3.50), verts=8, faces=6, mats=mwrld_baker_reference_clock_face
+- mwrld_tower__baker-library__clock_north: dims=(3.80, 0.08, 3.80), verts=8, faces=6, mats=mwrld_baker_reference_clock_face
+- mwrld_tower__baker-library__clock_south: dims=(3.80, 0.08, 3.80), verts=8, faces=6, mats=mwrld_baker_reference_clock_face
+- mwrld_tower__baker-library__clock_stage: dims=(10.50, 9.68, 7.00), verts=8, faces=6, mats=mwrld_baker_reference_limestone
+- mwrld_tower__baker-library__clock_west: dims=(0.08, 3.50, 3.50), verts=8, faces=6, mats=mwrld_baker_reference_clock_face
+- mwrld_tower__baker-library__green_cupola: dims=(6.48, 5.97, 3.20), verts=8, faces=6, mats=mwrld_baker_reference_green_roof
+- mwrld_tower__baker-library__lantern: dims=(3.80, 3.50, 4.00), verts=8, faces=6, mats=mwrld_baker_reference_limestone
+- mwrld_tower__baker-library__spire_mast: dims=(0.38, 0.38, 12.00), verts=8, faces=6, mats=mwrld_baker_reference_black_metal
+- mwrld_tower__baker-library__weathervane_hint: dims=(5.14, 0.08, 0.08), verts=8, faces=6, mats=mwrld_baker_reference_black_metal
+- road__allen-lane__way_18848502: dims=(16.99, 50.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__allen-street__way_18842714: dims=(56.06, 71.60, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__allen-street__way_651843970: dims=(15.84, 2.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__appalachian-trail__way_1108107614: dims=(7.67, 5.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__austin-avenue__way_18853878: dims=(54.38, 34.61, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__barrymore-road__way_18849250: dims=(2.55, 77.36, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__boathouse-road__way_963681016: dims=(47.33, 13.23, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__brockway-road__way_18851915: dims=(6.62, 0.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__buell-street__way_18848821: dims=(11.45, 0.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__buell-street__way_966622843: dims=(46.66, 47.00, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__carter-street__way_18845742: dims=(11.65, 1.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__cemetery-lane__way_18843605: dims=(62.79, 12.03, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__cemetery-lane__way_879498006: dims=(5.29, 14.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__cemetery-lane__way_879498007: dims=(14.87, 16.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__cemetery-lane__way_879498008: dims=(32.73, 25.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__choate-road__way_18846295: dims=(55.77, 32.62, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__clement-road__way_18851792: dims=(11.79, 17.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__clement-road__way_18851794: dims=(6.75, 9.46, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__college-street__way_1493294690: dims=(25.82, 4.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__college-street__way_23543852: dims=(27.10, 4.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__college-street__way_35557987: dims=(12.00, 0.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__college-street__way_497539292: dims=(4.71, 18.44, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__college-street__way_757496483: dims=(22.29, 3.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__college-street__way_757496484: dims=(0.06, 11.80, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__crosby-street__way_18848419: dims=(0.99, 12.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__currier-place__way_1493294355: dims=(120.10, 72.38, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__currier-place__way_18851201: dims=(5.57, 31.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__cycleway-675548858__way_675548858: dims=(48.47, 33.26, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__dana-road__way_18841920: dims=(16.18, 47.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__dana-road__way_18842691: dims=(120.89, 143.33, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__dewey-field-road__way_18837017: dims=(5.23, 13.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__dewey-field-road__way_880461803: dims=(23.65, 39.21, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__dewey-field-road__way_880461804: dims=(16.43, 2.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__dorrance-place__way_18845814: dims=(53.79, 60.45, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__east-wheelock-street__way_1098733777: dims=(15.17, 0.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__east-wheelock-street__way_1098733778: dims=(10.37, 1.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__east-wheelock-street__way_18845533: dims=(21.35, 21.35, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__east-wheelock-street__way_18851207: dims=(100.90, 29.39, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__east-wheelock-street__way_497539290: dims=(0.14, 17.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__east-wheelock-street__way_605386870: dims=(0.13, 7.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__east-wheelock-street__way_605386871: dims=(22.83, 30.92, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__engineering-drive__way_295888777: dims=(17.54, 1.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__fahey-path__way_35555046: dims=(13.23, 14.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__fayerweather-hill-road__way_18846297: dims=(10.64, 9.50, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__foot-path-to-boathouse__way_1187741915: dims=(64.34, 2.18, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1049334989__way_1049334989: dims=(5.59, 16.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1057418070__way_1057418070: dims=(0.06, 4.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1057418072__way_1057418072: dims=(1.79, 12.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675085__way_1098675085: dims=(115.70, 9.55, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675086__way_1098675086: dims=(4.85, 20.45, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675087__way_1098675087: dims=(1.31, 5.56, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675088__way_1098675088: dims=(66.85, 16.71, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675089__way_1098675089: dims=(7.75, 27.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675090__way_1098675090: dims=(3.05, 7.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675091__way_1098675091: dims=(11.19, 3.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675092__way_1098675092: dims=(13.80, 13.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675093__way_1098675093: dims=(7.98, 60.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1098675094__way_1098675094: dims=(20.98, 0.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607737__way_1106607737: dims=(22.21, 5.11, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607739__way_1106607739: dims=(26.89, 37.97, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607740__way_1106607740: dims=(8.72, 64.67, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607741__way_1106607741: dims=(4.41, 14.95, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607742__way_1106607742: dims=(8.18, 0.10, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607746__way_1106607746: dims=(10.28, 24.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607747__way_1106607747: dims=(3.99, 14.20, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607748__way_1106607748: dims=(236.88, 210.11, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607749__way_1106607749: dims=(5.97, 10.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607751__way_1106607751: dims=(26.68, 18.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607752__way_1106607752: dims=(1.25, 11.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607753__way_1106607753: dims=(37.68, 88.82, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607754__way_1106607754: dims=(12.12, 0.39, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607755__way_1106607755: dims=(3.67, 27.03, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607756__way_1106607756: dims=(17.82, 18.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607757__way_1106607757: dims=(4.99, 21.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607758__way_1106607758: dims=(56.83, 15.96, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607759__way_1106607759: dims=(3.55, 16.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607760__way_1106607760: dims=(75.07, 49.52, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607761__way_1106607761: dims=(51.77, 29.53, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607762__way_1106607762: dims=(15.12, 0.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607763__way_1106607763: dims=(143.38, 53.22, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607766__way_1106607766: dims=(3.32, 17.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607772__way_1106607772: dims=(12.57, 32.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607775__way_1106607775: dims=(17.51, 19.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1106607778__way_1106607778: dims=(1.83, 23.67, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1120645249__way_1120645249: dims=(14.50, 0.42, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1120645250__way_1120645250: dims=(6.68, 46.07, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1130905257__way_1130905257: dims=(48.35, 9.86, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1130905258__way_1130905258: dims=(22.00, 13.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1130905261__way_1130905261: dims=(22.01, 29.71, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1130905263__way_1130905263: dims=(0.06, 16.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1130905264__way_1130905264: dims=(11.01, 1.37, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1186038833__way_1186038833: dims=(28.65, 18.80, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1186970806__way_1186970806: dims=(4.56, 12.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1187500799__way_1187500799: dims=(3.70, 29.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1187510349__way_1187510349: dims=(5.98, 175.89, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637191__way_1236637191: dims=(10.44, 16.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637192__way_1236637192: dims=(6.95, 3.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637193__way_1236637193: dims=(1.13, 33.52, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637194__way_1236637194: dims=(47.39, 4.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637195__way_1236637195: dims=(0.35, 39.90, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637196__way_1236637196: dims=(11.14, 43.71, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637197__way_1236637197: dims=(13.56, 47.83, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637198__way_1236637198: dims=(5.70, 3.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637199__way_1236637199: dims=(326.42, 101.38, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637200__way_1236637200: dims=(2.94, 63.29, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637201__way_1236637201: dims=(4.33, 11.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637202__way_1236637202: dims=(17.93, 60.89, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637203__way_1236637203: dims=(3.84, 19.95, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637204__way_1236637204: dims=(3.27, 16.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637205__way_1236637205: dims=(12.45, 0.28, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1236637206__way_1236637206: dims=(151.03, 85.87, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319348__way_1237319348: dims=(7.53, 3.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319349__way_1237319349: dims=(0.39, 17.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319350__way_1237319350: dims=(65.94, 2.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319353__way_1237319353: dims=(3.33, 12.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319359__way_1237319359: dims=(23.61, 18.03, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319360__way_1237319360: dims=(9.12, 21.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319361__way_1237319361: dims=(46.46, 36.91, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319362__way_1237319362: dims=(51.17, 31.18, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1237319363__way_1237319363: dims=(170.88, 315.26, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1238678867__way_1238678867: dims=(18.81, 0.12, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1283681298__way_1283681298: dims=(0.05, 1.66, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1307503826__way_1307503826: dims=(35.29, 16.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1307503827__way_1307503827: dims=(117.10, 45.62, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1307503833__way_1307503833: dims=(35.29, 0.99, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1417332270__way_1417332270: dims=(1.63, 60.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1482697966__way_1482697966: dims=(19.48, 77.94, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484185629__way_1484185629: dims=(73.46, 0.63, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484185630__way_1484185630: dims=(2.83, 20.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484188916__way_1484188916: dims=(49.38, 70.23, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484189849__way_1484189849: dims=(8.58, 187.32, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484189850__way_1484189850: dims=(2.15, 54.79, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484189851__way_1484189851: dims=(132.33, 4.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484189852__way_1484189852: dims=(108.52, 168.85, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484189853__way_1484189853: dims=(21.38, 1.20, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1484189854__way_1484189854: dims=(111.39, 85.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1499348500__way_1499348500: dims=(8.92, 1.68, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1499349937__way_1499349937: dims=(0.10, 4.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1499498240__way_1499498240: dims=(59.22, 266.60, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1499498242__way_1499498242: dims=(0.08, 7.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298332__way_1529298332: dims=(3.55, 6.78, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298333__way_1529298333: dims=(40.18, 37.21, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298334__way_1529298334: dims=(96.39, 33.18, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298335__way_1529298335: dims=(50.22, 171.75, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298336__way_1529298336: dims=(10.56, 28.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298337__way_1529298337: dims=(77.75, 131.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298338__way_1529298338: dims=(36.01, 43.26, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298339__way_1529298339: dims=(108.20, 47.14, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298340__way_1529298340: dims=(89.24, 3.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298341__way_1529298341: dims=(26.74, 30.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298342__way_1529298342: dims=(115.88, 144.30, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298343__way_1529298343: dims=(3.90, 74.96, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298344__way_1529298344: dims=(61.80, 24.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298345__way_1529298345: dims=(7.25, 162.71, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298346__way_1529298346: dims=(16.17, 17.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1529298347__way_1529298347: dims=(19.62, 15.28, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-1537984819__way_1537984819: dims=(13.47, 0.28, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-18839368__way_18839368: dims=(2.40, 43.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-192281732__way_192281732: dims=(82.34, 52.70, 0.00), verts=39, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-192282347__way_192282347: dims=(13.20, 9.14, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-229625122__way_229625122: dims=(132.49, 471.26, 0.00), verts=27, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-245210703__way_245210703: dims=(41.29, 61.02, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-265142413__way_265142413: dims=(5.60, 0.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-28636972__way_28636972: dims=(35.73, 19.65, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-28637111__way_28637111: dims=(1.33, 8.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-28637119__way_28637119: dims=(12.12, 1.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-28637120__way_28637120: dims=(0.31, 9.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-325092107__way_325092107: dims=(46.98, 27.02, 0.00), verts=34, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911100__way_335911100: dims=(55.11, 5.62, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911106__way_335911106: dims=(4.12, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911108__way_335911108: dims=(30.99, 4.50, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911110__way_335911110: dims=(12.93, 24.24, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911111__way_335911111: dims=(4.71, 10.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911113__way_335911113: dims=(12.93, 16.06, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911115__way_335911115: dims=(36.81, 17.24, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911116__way_335911116: dims=(23.65, 1.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911118__way_335911118: dims=(38.66, 73.45, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-335911123__way_335911123: dims=(21.14, 4.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920408__way_372920408: dims=(26.11, 2.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920411__way_372920411: dims=(2.81, 14.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920412__way_372920412: dims=(2.58, 26.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920413__way_372920413: dims=(47.09, 9.10, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920414__way_372920414: dims=(25.39, 5.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920415__way_372920415: dims=(7.45, 7.65, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920416__way_372920416: dims=(0.06, 10.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920417__way_372920417: dims=(29.97, 5.98, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920418__way_372920418: dims=(21.98, 66.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920419__way_372920419: dims=(2.07, 10.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920420__way_372920420: dims=(0.25, 10.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920421__way_372920421: dims=(59.19, 147.60, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920423__way_372920423: dims=(56.67, 335.15, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920425__way_372920425: dims=(152.84, 40.00, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920427__way_372920427: dims=(33.77, 6.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920428__way_372920428: dims=(31.69, 32.81, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920429__way_372920429: dims=(10.32, 0.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920430__way_372920430: dims=(9.03, 10.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920431__way_372920431: dims=(0.09, 4.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-372920433__way_372920433: dims=(204.00, 156.60, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743439__way_377743439: dims=(47.60, 29.25, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743440__way_377743440: dims=(29.06, 76.58, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743441__way_377743441: dims=(91.83, 34.78, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743442__way_377743442: dims=(52.59, 25.22, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743443__way_377743443: dims=(17.52, 15.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743444__way_377743444: dims=(29.45, 6.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743445__way_377743445: dims=(17.28, 1.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743446__way_377743446: dims=(27.26, 32.50, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743447__way_377743447: dims=(15.60, 2.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743449__way_377743449: dims=(146.60, 12.58, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743451__way_377743451: dims=(9.54, 17.78, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743452__way_377743452: dims=(30.62, 4.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743453__way_377743453: dims=(21.49, 12.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743454__way_377743454: dims=(372.00, 98.98, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743455__way_377743455: dims=(10.69, 1.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743456__way_377743456: dims=(46.24, 39.42, 0.00), verts=27, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743457__way_377743457: dims=(78.78, 22.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743458__way_377743458: dims=(2.63, 121.42, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-377743459__way_377743459: dims=(7.83, 21.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-378066678__way_378066678: dims=(44.16, 37.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-460139135__way_460139135: dims=(17.93, 10.87, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-544797133__way_544797133: dims=(41.08, 13.76, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-544797135__way_544797135: dims=(2.59, 16.72, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-548210639__way_548210639: dims=(4.10, 1.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-548599938__way_548599938: dims=(20.75, 148.20, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-548896480__way_548896480: dims=(5.68, 9.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-548904590__way_548904590: dims=(0.64, 12.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-584967676__way_584967676: dims=(47.58, 21.36, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-584967677__way_584967677: dims=(17.38, 3.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-584969326__way_584969326: dims=(26.03, 27.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-584971064__way_584971064: dims=(17.51, 14.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-584971068__way_584971068: dims=(36.87, 25.57, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-614563854__way_614563854: dims=(5.74, 12.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-614563855__way_614563855: dims=(55.71, 11.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190623__way_625190623: dims=(16.19, 4.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190627__way_625190627: dims=(20.72, 11.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190629__way_625190629: dims=(2.85, 5.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190634__way_625190634: dims=(16.25, 35.49, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190636__way_625190636: dims=(9.96, 1.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190638__way_625190638: dims=(20.60, 4.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190640__way_625190640: dims=(21.41, 1.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190644__way_625190644: dims=(24.92, 3.13, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190646__way_625190646: dims=(59.70, 30.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190648__way_625190648: dims=(11.64, 10.89, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190651__way_625190651: dims=(0.23, 10.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190652__way_625190652: dims=(18.71, 75.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190654__way_625190654: dims=(0.24, 19.94, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190656__way_625190656: dims=(19.16, 17.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190658__way_625190658: dims=(9.25, 3.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190659__way_625190659: dims=(3.96, 20.14, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190660__way_625190660: dims=(20.74, 8.74, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190661__way_625190661: dims=(7.50, 16.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190662__way_625190662: dims=(3.38, 19.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190663__way_625190663: dims=(29.47, 3.73, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190664__way_625190664: dims=(58.20, 21.12, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190665__way_625190665: dims=(16.62, 5.54, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190666__way_625190666: dims=(47.02, 19.81, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190667__way_625190667: dims=(19.04, 7.51, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190668__way_625190668: dims=(30.69, 73.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190669__way_625190669: dims=(14.68, 1.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190670__way_625190670: dims=(11.52, 11.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190671__way_625190671: dims=(15.77, 45.78, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190672__way_625190672: dims=(26.46, 114.60, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190673__way_625190673: dims=(78.62, 9.82, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190674__way_625190674: dims=(69.23, 62.58, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190675__way_625190675: dims=(52.87, 22.01, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625190676__way_625190676: dims=(0.11, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625346572__way_625346572: dims=(3.76, 8.62, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625346573__way_625346573: dims=(9.66, 1.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625346574__way_625346574: dims=(14.62, 9.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350094__way_625350094: dims=(24.26, 24.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350095__way_625350095: dims=(16.58, 5.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350097__way_625350097: dims=(71.26, 44.71, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350098__way_625350098: dims=(264.13, 124.30, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350099__way_625350099: dims=(19.72, 7.05, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350100__way_625350100: dims=(29.14, 62.69, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350101__way_625350101: dims=(34.43, 31.22, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350102__way_625350102: dims=(5.37, 17.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350103__way_625350103: dims=(15.85, 18.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-625350104__way_625350104: dims=(6.59, 2.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467261__way_627467261: dims=(4.70, 13.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467262__way_627467262: dims=(16.89, 2.43, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467263__way_627467263: dims=(19.93, 0.52, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467264__way_627467264: dims=(8.28, 7.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467402__way_627467402: dims=(5.52, 15.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467403__way_627467403: dims=(42.35, 15.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467404__way_627467404: dims=(30.80, 25.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467405__way_627467405: dims=(13.56, 4.82, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467406__way_627467406: dims=(28.28, 39.92, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467407__way_627467407: dims=(13.07, 41.03, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467408__way_627467408: dims=(23.65, 28.39, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467409__way_627467409: dims=(17.82, 1.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467410__way_627467410: dims=(7.86, 17.93, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467411__way_627467411: dims=(22.05, 29.05, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467413__way_627467413: dims=(7.01, 16.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467414__way_627467414: dims=(19.90, 15.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467415__way_627467415: dims=(59.85, 4.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467416__way_627467416: dims=(23.81, 18.80, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467417__way_627467417: dims=(21.85, 21.58, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627467418__way_627467418: dims=(13.15, 13.06, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627468113__way_627468113: dims=(46.02, 13.32, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627468114__way_627468114: dims=(19.42, 14.50, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627468115__way_627468115: dims=(14.38, 0.55, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627468116__way_627468116: dims=(8.73, 9.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627468117__way_627468117: dims=(65.74, 35.03, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627468118__way_627468118: dims=(1.56, 7.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638201__way_627638201: dims=(6.74, 8.44, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638202__way_627638202: dims=(1.10, 39.80, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638203__way_627638203: dims=(13.18, 4.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638205__way_627638205: dims=(9.72, 0.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638206__way_627638206: dims=(26.93, 27.15, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638207__way_627638207: dims=(14.33, 51.87, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638209__way_627638209: dims=(0.14, 15.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638210__way_627638210: dims=(1.43, 40.18, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638212__way_627638212: dims=(14.29, 39.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638213__way_627638213: dims=(9.84, 1.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638214__way_627638214: dims=(0.35, 18.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638215__way_627638215: dims=(26.84, 28.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638216__way_627638216: dims=(139.00, 83.99, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638217__way_627638217: dims=(92.74, 64.40, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638218__way_627638218: dims=(6.41, 3.67, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638219__way_627638219: dims=(19.26, 3.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-627638220__way_627638220: dims=(11.87, 2.39, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114513__way_671114513: dims=(50.18, 19.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114515__way_671114515: dims=(8.33, 30.29, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114516__way_671114516: dims=(13.58, 9.24, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114518__way_671114518: dims=(2.27, 1.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114519__way_671114519: dims=(5.76, 27.73, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114521__way_671114521: dims=(1998.94, 748.47, 0.00), verts=74, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114525__way_671114525: dims=(33.96, 32.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114526__way_671114526: dims=(15.53, 12.25, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114527__way_671114527: dims=(35.97, 30.06, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114528__way_671114528: dims=(18.55, 16.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114530__way_671114530: dims=(64.88, 60.24, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114531__way_671114531: dims=(57.08, 29.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114537__way_671114537: dims=(24.51, 59.20, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114541__way_671114541: dims=(17.90, 1.65, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114542__way_671114542: dims=(12.74, 11.97, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114543__way_671114543: dims=(34.97, 70.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114544__way_671114544: dims=(16.82, 140.76, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671114545__way_671114545: dims=(57.89, 46.39, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948624__way_671948624: dims=(11.55, 0.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948625__way_671948625: dims=(9.15, 10.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948627__way_671948627: dims=(38.32, 16.88, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948628__way_671948628: dims=(61.67, 37.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948629__way_671948629: dims=(57.90, 18.18, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948633__way_671948633: dims=(16.28, 15.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948634__way_671948634: dims=(7.90, 4.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948636__way_671948636: dims=(334.63, 103.59, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948637__way_671948637: dims=(116.87, 4.97, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948638__way_671948638: dims=(364.32, 198.50, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671948639__way_671948639: dims=(75.54, 2.70, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671949110__way_671949110: dims=(2.81, 7.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671949111__way_671949111: dims=(59.34, 350.74, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671949112__way_671949112: dims=(52.49, 66.39, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671949113__way_671949113: dims=(36.31, 16.06, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-671949114__way_671949114: dims=(50.25, 13.48, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675531029__way_675531029: dims=(52.10, 66.57, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675531030__way_675531030: dims=(22.13, 2.86, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675531031__way_675531031: dims=(13.23, 11.92, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675531032__way_675531032: dims=(3.63, 11.49, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534707__way_675534707: dims=(7.90, 1.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534708__way_675534708: dims=(25.61, 7.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534709__way_675534709: dims=(33.22, 53.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534710__way_675534710: dims=(2.59, 14.53, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534711__way_675534711: dims=(22.21, 27.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534712__way_675534712: dims=(67.61, 43.23, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534713__way_675534713: dims=(31.40, 30.08, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534714__way_675534714: dims=(10.47, 3.04, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534715__way_675534715: dims=(16.18, 20.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534716__way_675534716: dims=(130.01, 318.77, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534717__way_675534717: dims=(29.93, 53.37, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675534718__way_675534718: dims=(9.32, 25.44, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539912__way_675539912: dims=(252.95, 94.59, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539914__way_675539914: dims=(22.90, 0.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539916__way_675539916: dims=(1.68, 52.18, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539918__way_675539918: dims=(18.54, 2.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539921__way_675539921: dims=(7.90, 51.42, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539922__way_675539922: dims=(9.54, 8.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539923__way_675539923: dims=(21.18, 2.70, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539924__way_675539924: dims=(7.95, 1.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539925__way_675539925: dims=(12.38, 12.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539926__way_675539926: dims=(52.47, 15.80, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539927__way_675539927: dims=(50.57, 8.04, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539928__way_675539928: dims=(147.40, 130.79, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539929__way_675539929: dims=(5.45, 11.29, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539930__way_675539930: dims=(80.60, 447.22, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539931__way_675539931: dims=(50.19, 43.02, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539932__way_675539932: dims=(20.41, 25.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539933__way_675539933: dims=(109.07, 132.33, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539935__way_675539935: dims=(124.68, 106.32, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539938__way_675539938: dims=(36.01, 1.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675539940__way_675539940: dims=(87.30, 422.12, 0.00), verts=26, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544309__way_675544309: dims=(6.78, 2.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544310__way_675544310: dims=(8.48, 3.29, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544311__way_675544311: dims=(19.72, 44.40, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544312__way_675544312: dims=(40.04, 34.74, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544313__way_675544313: dims=(9.54, 9.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544315__way_675544315: dims=(21.48, 14.65, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544316__way_675544316: dims=(42.19, 0.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544317__way_675544317: dims=(53.84, 1.84, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544318__way_675544318: dims=(8.07, 54.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544319__way_675544319: dims=(10.76, 9.16, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544320__way_675544320: dims=(29.32, 30.48, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544321__way_675544321: dims=(60.71, 36.75, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544322__way_675544322: dims=(6.66, 3.83, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544323__way_675544323: dims=(6.01, 18.16, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544324__way_675544324: dims=(6.30, 35.80, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544325__way_675544325: dims=(320.18, 518.21, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675544326__way_675544326: dims=(57.34, 2.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548855__way_675548855: dims=(15.74, 10.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548856__way_675548856: dims=(44.58, 18.56, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548857__way_675548857: dims=(24.94, 9.56, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548859__way_675548859: dims=(14.89, 5.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548860__way_675548860: dims=(7.66, 0.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548861__way_675548861: dims=(5.62, 14.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548862__way_675548862: dims=(5.93, 16.59, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675548863__way_675548863: dims=(9.91, 19.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553449__way_675553449: dims=(0.72, 30.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553450__way_675553450: dims=(39.26, 9.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553451__way_675553451: dims=(139.99, 27.20, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553452__way_675553452: dims=(14.25, 14.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553453__way_675553453: dims=(0.18, 3.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553454__way_675553454: dims=(0.00, 3.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553455__way_675553455: dims=(3.63, 11.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553456__way_675553456: dims=(45.25, 9.73, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553457__way_675553457: dims=(4.16, 14.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553458__way_675553458: dims=(13.59, 10.84, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553459__way_675553459: dims=(14.97, 7.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-675553460__way_675553460: dims=(48.47, 1.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677111227__way_677111227: dims=(4.76, 3.33, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677111228__way_677111228: dims=(95.28, 88.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133044__way_677133044: dims=(31.93, 37.74, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133046__way_677133046: dims=(15.28, 0.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133047__way_677133047: dims=(0.54, 14.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133048__way_677133048: dims=(185.76, 142.46, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133051__way_677133051: dims=(2.50, 53.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133052__way_677133052: dims=(6.59, 83.43, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133053__way_677133053: dims=(40.92, 1.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133054__way_677133054: dims=(172.73, 1.50, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133055__way_677133055: dims=(7.00, 4.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133056__way_677133056: dims=(139.80, 219.61, 0.00), verts=21, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133057__way_677133057: dims=(13.76, 72.65, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133058__way_677133058: dims=(8.68, 18.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133059__way_677133059: dims=(0.26, 10.79, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133060__way_677133060: dims=(9.13, 9.09, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677133061__way_677133061: dims=(17.92, 10.26, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677137529__way_677137529: dims=(133.80, 221.62, 0.00), verts=44, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-677137530__way_677137530: dims=(17.08, 17.35, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-693048943__way_693048943: dims=(15.92, 17.79, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-693048944__way_693048944: dims=(45.39, 16.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694202818__way_694202818: dims=(52.90, 8.08, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694202824__way_694202824: dims=(3.63, 14.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694202830__way_694202830: dims=(20.98, 37.38, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207162__way_694207162: dims=(6.87, 16.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207163__way_694207163: dims=(12.18, 1.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207164__way_694207164: dims=(33.00, 16.31, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207165__way_694207165: dims=(7.19, 8.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207166__way_694207166: dims=(55.95, 9.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207170__way_694207170: dims=(1.20, 10.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207171__way_694207171: dims=(31.75, 12.05, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207172__way_694207172: dims=(7.26, 20.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207173__way_694207173: dims=(17.90, 19.46, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207174__way_694207174: dims=(1.95, 25.02, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207180__way_694207180: dims=(39.36, 1.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207181__way_694207181: dims=(0.77, 5.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-694207603__way_694207603: dims=(22.98, 28.88, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167406__way_702167406: dims=(26.14, 68.56, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167407__way_702167407: dims=(435.88, 36.14, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167408__way_702167408: dims=(160.88, 312.09, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167409__way_702167409: dims=(11.25, 0.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167410__way_702167410: dims=(8.72, 0.98, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167411__way_702167411: dims=(10.07, 0.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167412__way_702167412: dims=(10.67, 22.37, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167414__way_702167414: dims=(165.65, 1.73, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167415__way_702167415: dims=(26.93, 9.24, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167416__way_702167416: dims=(0.98, 20.47, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167417__way_702167417: dims=(1.09, 23.44, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167418__way_702167418: dims=(14.08, 0.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167419__way_702167419: dims=(16.13, 3.86, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167420__way_702167420: dims=(0.22, 18.44, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167421__way_702167421: dims=(14.29, 0.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167422__way_702167422: dims=(3.56, 29.22, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167423__way_702167423: dims=(1.21, 25.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167428__way_702167428: dims=(1.07, 56.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167429__way_702167429: dims=(0.31, 18.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167430__way_702167430: dims=(0.17, 18.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167431__way_702167431: dims=(8.68, 4.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167432__way_702167432: dims=(1.00, 19.89, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167433__way_702167433: dims=(16.76, 1.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167434__way_702167434: dims=(52.24, 1.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167435__way_702167435: dims=(1.24, 19.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167436__way_702167436: dims=(0.48, 13.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167437__way_702167437: dims=(15.05, 7.04, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167438__way_702167438: dims=(176.78, 45.47, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167439__way_702167439: dims=(64.54, 56.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167440__way_702167440: dims=(9.77, 1.17, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167441__way_702167441: dims=(19.61, 10.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167442__way_702167442: dims=(14.05, 29.84, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167443__way_702167443: dims=(1.70, 17.48, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167444__way_702167444: dims=(3.55, 12.34, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167449__way_702167449: dims=(14.72, 34.52, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167450__way_702167450: dims=(8.88, 1.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167451__way_702167451: dims=(9.21, 69.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167452__way_702167452: dims=(56.10, 5.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167453__way_702167453: dims=(1.01, 10.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167454__way_702167454: dims=(11.85, 59.15, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167455__way_702167455: dims=(28.34, 169.02, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167456__way_702167456: dims=(14.42, 86.69, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167457__way_702167457: dims=(97.23, 88.11, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167458__way_702167458: dims=(9.15, 1.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167459__way_702167459: dims=(10.19, 7.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167460__way_702167460: dims=(2.36, 12.32, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167461__way_702167461: dims=(11.32, 33.12, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167462__way_702167462: dims=(26.09, 4.53, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167463__way_702167463: dims=(146.30, 96.31, 0.00), verts=21, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167464__way_702167464: dims=(15.48, 0.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167465__way_702167465: dims=(15.00, 0.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167466__way_702167466: dims=(16.88, 0.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167467__way_702167467: dims=(25.42, 0.95, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167468__way_702167468: dims=(0.27, 21.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167469__way_702167469: dims=(54.89, 6.59, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167470__way_702167470: dims=(2.47, 19.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167471__way_702167471: dims=(60.40, 118.27, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167472__way_702167472: dims=(13.00, 0.88, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167473__way_702167473: dims=(12.71, 1.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167474__way_702167474: dims=(38.33, 6.89, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167475__way_702167475: dims=(42.21, 7.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167476__way_702167476: dims=(19.51, 14.02, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167477__way_702167477: dims=(7.03, 9.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167478__way_702167478: dims=(8.57, 85.38, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167479__way_702167479: dims=(14.78, 0.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167480__way_702167480: dims=(12.23, 17.15, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167481__way_702167481: dims=(437.92, 153.07, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167482__way_702167482: dims=(20.47, 56.12, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167483__way_702167483: dims=(184.32, 7.96, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167484__way_702167484: dims=(10.32, 5.39, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-702167485__way_702167485: dims=(19.50, 30.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-714798568__way_714798568: dims=(28.83, 17.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-714798569__way_714798569: dims=(15.40, 13.64, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-714798571__way_714798571: dims=(11.88, 14.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-714798574__way_714798574: dims=(22.64, 10.12, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-714798576__way_714798576: dims=(36.49, 62.36, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-714798577__way_714798577: dims=(71.11, 88.80, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901636__way_715901636: dims=(1.28, 14.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901637__way_715901637: dims=(5.03, 0.00, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901641__way_715901641: dims=(7.35, 6.63, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901643__way_715901643: dims=(2.27, 3.82, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901644__way_715901644: dims=(26.40, 13.51, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901645__way_715901645: dims=(7.34, 0.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901646__way_715901646: dims=(14.39, 6.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901647__way_715901647: dims=(45.88, 7.13, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901648__way_715901648: dims=(3.32, 7.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901649__way_715901649: dims=(13.19, 100.18, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901650__way_715901650: dims=(31.77, 2.49, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901651__way_715901651: dims=(28.63, 6.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901653__way_715901653: dims=(4.72, 4.75, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901654__way_715901654: dims=(43.37, 4.70, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901655__way_715901655: dims=(37.43, 11.26, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901656__way_715901656: dims=(4.28, 0.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901657__way_715901657: dims=(7.86, 22.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901658__way_715901658: dims=(83.50, 25.52, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901660__way_715901660: dims=(86.04, 30.13, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715901661__way_715901661: dims=(0.08, 8.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910309__way_715910309: dims=(41.42, 71.48, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910310__way_715910310: dims=(27.70, 51.37, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910311__way_715910311: dims=(4.77, 73.37, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910312__way_715910312: dims=(5.70, 28.93, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910313__way_715910313: dims=(8.90, 6.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910314__way_715910314: dims=(15.22, 16.37, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910315__way_715910315: dims=(19.85, 8.20, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910316__way_715910316: dims=(120.76, 83.51, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910317__way_715910317: dims=(14.78, 0.70, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910318__way_715910318: dims=(10.13, 1.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910319__way_715910319: dims=(4.57, 5.76, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910320__way_715910320: dims=(22.39, 6.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910321__way_715910321: dims=(44.22, 16.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910322__way_715910322: dims=(10.76, 0.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910323__way_715910323: dims=(4.45, 35.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910324__way_715910324: dims=(52.55, 71.20, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910325__way_715910325: dims=(2.07, 29.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910326__way_715910326: dims=(5.37, 7.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910327__way_715910327: dims=(0.00, 6.99, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910328__way_715910328: dims=(0.42, 2.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910330__way_715910330: dims=(14.53, 33.18, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910331__way_715910331: dims=(12.30, 2.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910332__way_715910332: dims=(44.84, 0.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910333__way_715910333: dims=(71.23, 2.97, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910334__way_715910334: dims=(60.39, 34.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910335__way_715910335: dims=(68.57, 175.19, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910336__way_715910336: dims=(13.48, 7.80, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910337__way_715910337: dims=(2.87, 8.71, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910339__way_715910339: dims=(10.03, 1.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910340__way_715910340: dims=(26.56, 159.61, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-715910341__way_715910341: dims=(133.54, 120.88, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-719086481__way_719086481: dims=(1.25, 9.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-719086482__way_719086482: dims=(6.58, 15.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-719086483__way_719086483: dims=(10.68, 2.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-719086484__way_719086484: dims=(15.53, 51.24, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-719086485__way_719086485: dims=(61.07, 345.61, 0.00), verts=40, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-719086486__way_719086486: dims=(3.16, 50.24, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722275697__way_722275697: dims=(58.15, 26.48, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354932__way_722354932: dims=(5.55, 117.47, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354933__way_722354933: dims=(20.90, 3.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354936__way_722354936: dims=(8.72, 1.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354937__way_722354937: dims=(1.15, 13.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354938__way_722354938: dims=(5.25, 6.70, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354939__way_722354939: dims=(5.46, 8.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354940__way_722354940: dims=(59.83, 6.48, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354941__way_722354941: dims=(466.70, 227.58, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354942__way_722354942: dims=(8.74, 13.48, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354943__way_722354943: dims=(7.93, 2.72, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354944__way_722354944: dims=(9.37, 10.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354945__way_722354945: dims=(4.99, 6.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354946__way_722354946: dims=(0.22, 8.36, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354947__way_722354947: dims=(0.10, 8.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-722354949__way_722354949: dims=(9.69, 0.65, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728138686__way_728138686: dims=(14.42, 85.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728162829__way_728162829: dims=(16.26, 22.10, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728162830__way_728162830: dims=(303.09, 43.40, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728162831__way_728162831: dims=(1.73, 106.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728162834__way_728162834: dims=(135.55, 22.93, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728162836__way_728162836: dims=(10.60, 29.33, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728162837__way_728162837: dims=(259.43, 34.73, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728188527__way_728188527: dims=(15.36, 6.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-728255737__way_728255737: dims=(9.36, 12.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295455__way_734295455: dims=(96.63, 158.69, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295456__way_734295456: dims=(3.97, 11.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295457__way_734295457: dims=(6.56, 1.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295458__way_734295458: dims=(0.31, 5.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295459__way_734295459: dims=(5.88, 6.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295460__way_734295460: dims=(0.33, 14.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295462__way_734295462: dims=(3.92, 10.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295463__way_734295463: dims=(24.40, 18.39, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295470__way_734295470: dims=(26.19, 5.42, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295471__way_734295471: dims=(6.39, 45.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295472__way_734295472: dims=(34.05, 0.71, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295473__way_734295473: dims=(38.40, 9.88, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295475__way_734295475: dims=(10.10, 10.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295476__way_734295476: dims=(2.24, 11.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295477__way_734295477: dims=(0.30, 10.67, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295478__way_734295478: dims=(18.11, 48.84, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295479__way_734295479: dims=(5.33, 14.46, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295480__way_734295480: dims=(8.61, 27.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295482__way_734295482: dims=(16.14, 12.86, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295483__way_734295483: dims=(1.56, 57.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295484__way_734295484: dims=(0.14, 9.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295486__way_734295486: dims=(78.95, 94.82, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295487__way_734295487: dims=(29.80, 7.94, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295488__way_734295488: dims=(24.39, 38.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295491__way_734295491: dims=(5.62, 9.61, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295492__way_734295492: dims=(13.07, 71.44, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295493__way_734295493: dims=(24.72, 42.99, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295494__way_734295494: dims=(13.74, 14.20, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295496__way_734295496: dims=(9.93, 6.13, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295497__way_734295497: dims=(6.38, 5.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295501__way_734295501: dims=(16.65, 38.94, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295502__way_734295502: dims=(21.28, 0.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295503__way_734295503: dims=(1.80, 31.25, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295504__way_734295504: dims=(49.00, 32.00, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-734295505__way_734295505: dims=(0.86, 8.42, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-736268232__way_736268232: dims=(6.61, 14.99, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-736268233__way_736268233: dims=(12.08, 2.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-736268234__way_736268234: dims=(22.17, 9.01, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-736268239__way_736268239: dims=(155.41, 219.11, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083897__way_741083897: dims=(21.31, 7.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083898__way_741083898: dims=(36.99, 4.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083899__way_741083899: dims=(139.25, 41.03, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083900__way_741083900: dims=(46.79, 7.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083901__way_741083901: dims=(0.80, 25.54, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083902__way_741083902: dims=(20.79, 1.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083903__way_741083903: dims=(14.25, 8.66, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083905__way_741083905: dims=(8.62, 7.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-741083906__way_741083906: dims=(14.20, 1.52, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-746514952__way_746514952: dims=(188.48, 108.76, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-757708035__way_757708035: dims=(11.95, 10.02, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-757708036__way_757708036: dims=(0.39, 17.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-757718100__way_757718100: dims=(101.16, 81.00, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-761287182__way_761287182: dims=(16.03, 0.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-761310169__way_761310169: dims=(16.72, 3.65, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-768312937__way_768312937: dims=(1.90, 13.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-768929262__way_768929262: dims=(63.90, 59.39, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-770926139__way_770926139: dims=(19.33, 6.35, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-770926140__way_770926140: dims=(0.65, 5.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786043__way_772786043: dims=(149.67, 6.26, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786044__way_772786044: dims=(0.65, 9.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786045__way_772786045: dims=(64.34, 26.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786046__way_772786046: dims=(40.75, 52.40, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786047__way_772786047: dims=(0.25, 11.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786049__way_772786049: dims=(3.51, 53.39, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786050__way_772786050: dims=(38.13, 33.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786051__way_772786051: dims=(28.27, 0.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786052__way_772786052: dims=(37.32, 0.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786053__way_772786053: dims=(24.97, 72.34, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-772786054__way_772786054: dims=(0.61, 26.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691413__way_783691413: dims=(23.44, 17.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691415__way_783691415: dims=(17.42, 2.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691419__way_783691419: dims=(1.62, 15.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691421__way_783691421: dims=(16.63, 12.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691423__way_783691423: dims=(18.20, 11.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691425__way_783691425: dims=(3.39, 22.88, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691426__way_783691426: dims=(1.13, 1.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691430__way_783691430: dims=(149.29, 1.82, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691444__way_783691444: dims=(174.48, 350.07, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691448__way_783691448: dims=(18.14, 2.82, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783691449__way_783691449: dims=(0.72, 11.21, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783709298__way_783709298: dims=(24.26, 31.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783717752__way_783717752: dims=(1.59, 19.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783717757__way_783717757: dims=(12.17, 1.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783717758__way_783717758: dims=(32.99, 58.61, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-783717759__way_783717759: dims=(22.44, 4.25, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-784097656__way_784097656: dims=(46.89, 45.44, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-784097657__way_784097657: dims=(5.70, 7.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-784097658__way_784097658: dims=(4.25, 12.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-784097662__way_784097662: dims=(11.51, 14.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-784097664__way_784097664: dims=(15.85, 17.11, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-785657768__way_785657768: dims=(61.93, 14.89, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-785657770__way_785657770: dims=(7.09, 46.44, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-791960370__way_791960370: dims=(29.16, 98.62, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-791961252__way_791961252: dims=(19.65, 11.69, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-800769256__way_800769256: dims=(43.35, 4.84, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-831396145__way_831396145: dims=(33.99, 21.81, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-837183233__way_837183233: dims=(19.92, 104.10, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-837183234__way_837183234: dims=(1.84, 10.70, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-837183235__way_837183235: dims=(22.43, 153.12, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-837183236__way_837183236: dims=(14.99, 2.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-837183243__way_837183243: dims=(22.83, 4.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-837183244__way_837183244: dims=(32.47, 39.24, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-837183245__way_837183245: dims=(3.98, 32.75, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-838851882__way_838851882: dims=(23.34, 22.51, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-838851883__way_838851883: dims=(22.39, 38.25, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-838868527__way_838868527: dims=(0.10, 4.36, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-873165795__way_873165795: dims=(42.58, 17.89, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-873165798__way_873165798: dims=(10.58, 0.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-873165803__way_873165803: dims=(13.68, 1.74, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-873165808__way_873165808: dims=(17.89, 12.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874487230__way_874487230: dims=(37.24, 53.52, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874487231__way_874487231: dims=(11.78, 11.78, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874487232__way_874487232: dims=(0.43, 11.20, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874487237__way_874487237: dims=(72.90, 9.58, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874487241__way_874487241: dims=(1.84, 14.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874520305__way_874520305: dims=(12.10, 1.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874809872__way_874809872: dims=(147.64, 52.56, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874809875__way_874809875: dims=(32.78, 26.04, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874809882__way_874809882: dims=(11.10, 14.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874809883__way_874809883: dims=(23.48, 20.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-874809884__way_874809884: dims=(11.76, 21.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497976__way_879497976: dims=(143.49, 19.50, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497977__way_879497977: dims=(133.81, 151.63, 0.00), verts=28, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497981__way_879497981: dims=(5.31, 2.82, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497982__way_879497982: dims=(41.17, 12.95, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497983__way_879497983: dims=(41.12, 0.59, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497984__way_879497984: dims=(0.02, 6.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497986__way_879497986: dims=(6.53, 24.59, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497987__way_879497987: dims=(4.70, 1.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497988__way_879497988: dims=(19.87, 31.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497989__way_879497989: dims=(24.35, 42.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497990__way_879497990: dims=(0.82, 0.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497991__way_879497991: dims=(13.27, 17.58, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497993__way_879497993: dims=(14.44, 14.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497994__way_879497994: dims=(7.45, 3.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497996__way_879497996: dims=(16.78, 27.54, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497997__way_879497997: dims=(49.73, 199.64, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497998__way_879497998: dims=(6.10, 48.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879497999__way_879497999: dims=(32.80, 16.11, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879498000__way_879498000: dims=(3.82, 11.48, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879498002__way_879498002: dims=(29.88, 1.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-879498003__way_879498003: dims=(2.65, 15.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-880461805__way_880461805: dims=(20.39, 3.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-880461806__way_880461806: dims=(82.48, 33.49, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706498__way_975706498: dims=(47.17, 54.83, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706499__way_975706499: dims=(40.55, 11.74, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706500__way_975706500: dims=(7.77, 37.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706501__way_975706501: dims=(148.50, 8.99, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706502__way_975706502: dims=(10.52, 12.05, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706504__way_975706504: dims=(73.16, 26.68, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706505__way_975706505: dims=(18.59, 4.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-975706506__way_975706506: dims=(2.22, 14.53, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926775__way_995926775: dims=(202.06, 252.36, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926777__way_995926777: dims=(16.26, 12.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926778__way_995926778: dims=(65.07, 91.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926779__way_995926779: dims=(37.34, 52.37, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926780__way_995926780: dims=(14.45, 93.78, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926781__way_995926781: dims=(4.54, 10.45, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926783__way_995926783: dims=(2.89, 16.37, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926784__way_995926784: dims=(12.82, 2.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926785__way_995926785: dims=(1.17, 5.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926786__way_995926786: dims=(19.21, 1.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926787__way_995926787: dims=(9.84, 2.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926788__way_995926788: dims=(37.90, 7.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926789__way_995926789: dims=(7.26, 1.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926790__way_995926790: dims=(56.79, 3.91, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926791__way_995926791: dims=(26.12, 4.20, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926794__way_995926794: dims=(10.75, 7.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926795__way_995926795: dims=(56.92, 14.66, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926796__way_995926796: dims=(47.85, 13.45, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926797__way_995926797: dims=(15.29, 2.60, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926798__way_995926798: dims=(2.97, 83.44, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926799__way_995926799: dims=(359.25, 35.54, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926800__way_995926800: dims=(4.52, 12.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926801__way_995926801: dims=(92.23, 184.95, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
+- road__footway-995926802__way_995926802: dims=(5.79, 5.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__girl-brook-trail__way_194653471: dims=(3.83, 4.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__girl-brook-trail__way_435645349: dims=(24.19, 0.42, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__gould-place__way_18841416: dims=(3.59, 13.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__hanover-track__way_1495735340: dims=(4.35, 17.48, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__hitchcock-lane__way_18836708: dims=(0.33, 18.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__hitchcock-lane__way_838851885: dims=(21.87, 53.50, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__holiday-drive__way_1415647780: dims=(47.73, 26.58, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__hovey-lane__way_714794613: dims=(41.57, 32.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__hovey-lane__way_722275678: dims=(0.14, 21.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__huntley-road__way_18846137: dims=(15.31, 50.32, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__ivy-lane__way_18836587: dims=(4.90, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__ivy-lane__way_18841918: dims=(10.48, 4.85, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__ivy-lane__way_898106879: dims=(8.58, 22.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__ivy-lane__way_963743927: dims=(2.30, 0.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__ivy-pointe-way__way_18835973: dims=(6.93, 14.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__ivy-pointe-way__way_18835974: dims=(6.99, 0.31, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_149171281: dims=(4.26, 0.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_23206514: dims=(2.91, 27.98, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_23206515: dims=(6.52, 13.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_4264511: dims=(2.73, 0.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_714794615: dims=(10.96, 21.60, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_714794616: dims=(5.78, 8.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_715901634: dims=(12.37, 68.43, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_835808294: dims=(16.38, 18.56, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_961998567: dims=(0.05, 2.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__lebanon-street__way_961998568: dims=(17.17, 45.03, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__ledyard-lane__way_18842993: dims=(19.36, 16.43, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__lewin-road__way_18848679: dims=(169.37, 113.52, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__lyme-road__way_1537984818: dims=(174.95, 21.69, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__lyme-road__way_18845837: dims=(148.72, 112.07, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
+- road__lyme-road__way_714967478: dims=(40.63, 44.42, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__maple-street__way_18846348: dims=(44.94, 18.24, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__maple-street__way_835808297: dims=(1.25, 50.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__massachusetts-row__way_1482459852: dims=(2.32, 23.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__massachusetts-row__way_18843517: dims=(12.51, 36.47, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__massachusetts-row__way_35555042: dims=(2.16, 18.34, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__massachusetts-row__way_35555043: dims=(19.74, 34.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__maynard-street__way_18847330: dims=(22.90, 13.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__maynard-street__way_736268230: dims=(42.77, 8.17, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__maynard-street__way_736268231: dims=(4.33, 13.79, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__mink-brook-trail__way_245204745: dims=(114.30, 172.82, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__north-balch-street__way_18851185: dims=(33.59, 18.84, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__north-main-street__way_23206438: dims=(2.93, 8.28, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__north-main-street__way_4806442: dims=(5.39, 22.01, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__north-main-street__way_497539288: dims=(43.96, 20.99, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__north-park-street__way_18842479: dims=(8.15, 2.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__o-leary-avenue__way_18851880: dims=(29.81, 1.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__observatory-road__way_18849161: dims=(12.08, 41.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__observatory-road__way_879391927: dims=(9.06, 1.71, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__occom-ridge__way_18844852: dims=(20.73, 34.04, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__occom-ridge__way_18849794: dims=(4.14, 26.10, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__old-nugget-alley__way_548904588: dims=(4.57, 0.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__park-way__way_18843603: dims=(0.12, 2.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__park-way__way_962056791: dims=(21.30, 13.18, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-1041711780__way_1041711780: dims=(19.79, 1.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-1304370500__way_1304370500: dims=(121.04, 275.55, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-496367021__way_496367021: dims=(28.46, 171.94, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-496367024__way_496367024: dims=(218.14, 131.50, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-544797136__way_544797136: dims=(19.78, 12.33, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-544797141__way_544797141: dims=(15.76, 2.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-627468119__way_627468119: dims=(24.45, 47.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-627468120__way_627468120: dims=(68.36, 65.88, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-783709289__way_783709289: dims=(10.37, 10.35, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-970253474__way_970253474: dims=(48.22, 1.75, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__path-970253475__way_970253475: dims=(8.95, 12.65, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__pedestrian-783709295__way_783709295: dims=(1.62, 15.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__pedestrian-874153677__way_874153677: dims=(26.01, 12.55, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__pedestrian-874487235__way_874487235: dims=(0.65, 14.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__pedestrian-879497985__way_879497985: dims=(10.20, 20.57, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__pine-point-trail__way_1304370499: dims=(22.82, 1.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__plant-drive__way_757718096: dims=(13.15, 12.28, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__plant-drive__way_757718098: dims=(7.68, 11.79, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__plant-drive__way_757718099: dims=(2.77, 8.65, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__pleasant-street__way_18849132: dims=(138.86, 49.00, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__pleasant-terrace__way_18847580: dims=(12.53, 16.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__prospect-street__way_18853001: dims=(42.58, 25.29, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__read-road__way_18844851: dims=(64.27, 2.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__residential-734295465__way_734295465: dims=(1.04, 32.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__ripley-road__way_18842810: dims=(20.43, 6.45, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__river-ridge-road__way_18850918: dims=(65.77, 29.74, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__river-ridge-road__way_18850919: dims=(11.32, 11.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__river-road__way_19752852: dims=(116.74, 169.18, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__rope-ferry-road__way_18849302: dims=(63.40, 28.17, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__sanborn-road__way_18842739: dims=(17.68, 0.44, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__sargent-place__way_18842361: dims=(37.61, 2.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__sargent-street__way_18847245: dims=(0.57, 33.17, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__school-street__way_1106607777: dims=(914.81, 623.80, 0.00), verts=52, faces=0, mats=MWRLD_roads_paths_dark
+- road__school-street__way_18848285: dims=(16.72, 2.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-1106607738__way_1106607738: dims=(11.67, 0.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-1177864688__way_1177864688: dims=(24.16, 13.46, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-1177864689__way_1177864689: dims=(14.56, 4.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-1177864690__way_1177864690: dims=(0.39, 26.12, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-1238684616__way_1238684616: dims=(68.35, 13.00, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-1239118551__way_1239118551: dims=(0.56, 24.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-1482459853__way_1482459853: dims=(7.70, 0.06, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-18836491__way_18836491: dims=(19.44, 15.88, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-18837014__way_18837014: dims=(24.39, 37.81, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-18840211__way_18840211: dims=(12.68, 11.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-18841603__way_18841603: dims=(28.66, 0.14, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-18843818__way_18843818: dims=(28.73, 15.64, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-192280772__way_192280772: dims=(2.56, 26.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-192281862__way_192281862: dims=(2.19, 16.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-231749602__way_231749602: dims=(11.30, 13.58, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-231749753__way_231749753: dims=(1.15, 11.37, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-265142414__way_265142414: dims=(19.03, 3.52, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-265142415__way_265142415: dims=(0.77, 22.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-265142416__way_265142416: dims=(13.92, 3.41, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548208303__way_548208303: dims=(15.20, 22.39, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548210638__way_548210638: dims=(0.10, 8.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548210645__way_548210645: dims=(6.14, 16.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548896477__way_548896477: dims=(12.04, 0.12, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548896481__way_548896481: dims=(5.02, 11.68, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548896484__way_548896484: dims=(3.30, 84.89, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548896485__way_548896485: dims=(22.37, 48.71, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548904594__way_548904594: dims=(18.90, 0.97, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548904595__way_548904595: dims=(0.43, 37.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-548904613__way_548904613: dims=(32.12, 35.76, 0.00), verts=38, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-625348014__way_625348014: dims=(27.03, 6.59, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-671114522__way_671114522: dims=(14.87, 4.75, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-671114523__way_671114523: dims=(18.60, 9.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-671114524__way_671114524: dims=(30.60, 15.31, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-671948626__way_671948626: dims=(152.61, 172.76, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-671948635__way_671948635: dims=(506.96, 233.68, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-671949108__way_671949108: dims=(55.44, 291.53, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-675531034__way_675531034: dims=(3.95, 4.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-675544813__way_675544813: dims=(41.61, 34.85, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-693114389__way_693114389: dims=(34.85, 9.17, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-693123243__way_693123243: dims=(7.34, 8.42, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694202819__way_694202819: dims=(43.67, 15.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694202827__way_694202827: dims=(13.43, 184.60, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694202828__way_694202828: dims=(15.30, 1.79, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694202829__way_694202829: dims=(15.07, 30.87, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694204828__way_694204828: dims=(7.19, 6.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694207161__way_694207161: dims=(42.33, 60.57, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694207178__way_694207178: dims=(18.16, 35.53, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694207179__way_694207179: dims=(18.93, 30.01, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-694207604__way_694207604: dims=(87.00, 9.68, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-702167425__way_702167425: dims=(0.45, 11.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-714794614__way_714794614: dims=(19.17, 1.37, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-715901662__way_715901662: dims=(35.63, 14.47, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-715901663__way_715901663: dims=(212.46, 319.52, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-715901664__way_715901664: dims=(29.82, 26.65, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-715910342__way_715910342: dims=(23.77, 0.42, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-722275682__way_722275682: dims=(0.18, 10.48, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-728162832__way_728162832: dims=(7.05, 65.81, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-733800316__way_733800316: dims=(322.54, 486.25, 0.00), verts=26, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-733800317__way_733800317: dims=(885.14, 1073.37, 0.00), verts=83, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-733800318__way_733800318: dims=(212.75, 131.10, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-734086518__way_734086518: dims=(15.98, 56.93, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-734086519__way_734086519: dims=(78.91, 53.71, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-734086520__way_734086520: dims=(12.86, 0.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-734086521__way_734086521: dims=(317.76, 78.10, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-734240896__way_734240896: dims=(8.62, 24.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-734240897__way_734240897: dims=(38.83, 8.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-736268213__way_736268213: dims=(100.09, 15.86, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-736268215__way_736268215: dims=(0.23, 11.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-736268219__way_736268219: dims=(12.99, 39.80, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-736268235__way_736268235: dims=(35.81, 46.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-765576564__way_765576564: dims=(4.66, 5.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-772786042__way_772786042: dims=(129.45, 4.27, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-783709281__way_783709281: dims=(107.17, 20.54, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-783709282__way_783709282: dims=(15.09, 43.58, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-783709291__way_783709291: dims=(125.93, 160.72, 0.00), verts=51, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-783709296__way_783709296: dims=(0.81, 0.88, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-783709297__way_783709297: dims=(20.16, 1.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-783709302__way_783709302: dims=(7.61, 16.97, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-783717745__way_783717745: dims=(11.58, 2.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-837183241__way_837183241: dims=(16.31, 1.51, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-837183247__way_837183247: dims=(12.88, 12.83, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874153676__way_874153676: dims=(14.61, 1.52, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874487226__way_874487226: dims=(2.15, 15.30, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874487227__way_874487227: dims=(5.35, 114.89, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874487228__way_874487228: dims=(2.82, 10.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874487229__way_874487229: dims=(13.81, 1.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874487233__way_874487233: dims=(11.30, 1.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874487234__way_874487234: dims=(6.27, 67.55, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-874487236__way_874487236: dims=(76.44, 5.76, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-879497975__way_879497975: dims=(12.46, 7.57, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-879497978__way_879497978: dims=(11.26, 11.39, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-879497979__way_879497979: dims=(60.08, 1.44, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-879498001__way_879498001: dims=(5.34, 4.85, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-880461802__way_880461802: dims=(0.75, 23.61, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-881674836__way_881674836: dims=(3.02, 11.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-881674837__way_881674837: dims=(191.40, 170.21, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-881674838__way_881674838: dims=(17.62, 21.52, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-881674839__way_881674839: dims=(39.93, 49.96, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-898106880__way_898106880: dims=(7.70, 8.46, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-898106881__way_898106881: dims=(27.34, 12.67, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-961998565__way_961998565: dims=(7.25, 17.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-975706503__way_975706503: dims=(17.52, 227.75, 0.00), verts=28, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-995926776__way_995926776: dims=(66.75, 19.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-995926792__way_995926792: dims=(38.54, 35.90, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-995926793__way_995926793: dims=(42.48, 44.34, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-alley-1130905260__way_1130905260: dims=(20.23, 10.47, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-drive-through-702167426__way_702167426: dims=(0.01, 21.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-drive-through-715901659__way_715901659: dims=(0.10, 8.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-drive-through-734086516__way_734086516: dims=(9.88, 1.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-drive-through-734086517__way_734086517: dims=(7.78, 1.63, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-drive-through-837183248__way_837183248: dims=(9.86, 7.89, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-drive-through-837183249__way_837183249: dims=(0.22, 16.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-1237319358__way_1237319358: dims=(62.90, 25.22, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-1237319364__way_1237319364: dims=(17.88, 11.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-1327127869__way_1327127869: dims=(39.44, 113.80, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-1327127870__way_1327127870: dims=(4.88, 127.28, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-18836519__way_18836519: dims=(587.20, 1072.75, 0.00), verts=44, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-18837009__way_18837009: dims=(8.35, 16.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-294234142__way_294234142: dims=(4.61, 6.52, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-548599939__way_548599939: dims=(13.11, 24.39, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-548599941__way_548599941: dims=(8404.26, 2327.39, 0.00), verts=461, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-548599945__way_548599945: dims=(5.60, 0.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-548599947__way_548599947: dims=(123.13, 41.90, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-548599948__way_548599948: dims=(78.80, 9.90, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-548599950__way_548599950: dims=(11.68, 1.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-606165141__way_606165141: dims=(946.57, 1447.63, 0.00), verts=79, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-606165142__way_606165142: dims=(35.13, 77.07, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-616919972__way_616919972: dims=(376.02, 439.26, 0.00), verts=21, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859757__way_639859757: dims=(27.09, 101.25, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859759__way_639859759: dims=(398.34, 275.54, 0.00), verts=33, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859760__way_639859760: dims=(3.59, 3.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859762__way_639859762: dims=(20.93, 13.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859763__way_639859763: dims=(14.25, 8.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859766__way_639859766: dims=(20.30, 48.33, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859769__way_639859769: dims=(2.76, 1.70, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859774__way_639859774: dims=(30.69, 27.45, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859775__way_639859775: dims=(33.33, 264.17, 0.00), verts=20, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859779__way_639859779: dims=(29.35, 18.03, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859780__way_639859780: dims=(9.30, 41.31, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859783__way_639859783: dims=(12.27, 13.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-639859784__way_639859784: dims=(132.06, 4.33, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413534__way_641413534: dims=(45.55, 20.41, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413537__way_641413537: dims=(74.51, 22.54, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413539__way_641413539: dims=(36.18, 6.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413542__way_641413542: dims=(0.43, 19.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413543__way_641413543: dims=(4.37, 15.07, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413544__way_641413544: dims=(90.50, 111.65, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413545__way_641413545: dims=(3.76, 11.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413546__way_641413546: dims=(50.78, 48.07, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413547__way_641413547: dims=(65.19, 95.89, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413548__way_641413548: dims=(37.76, 28.27, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-641413553__way_641413553: dims=(6.94, 11.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-642843754__way_642843754: dims=(62.11, 79.68, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-642843760__way_642843760: dims=(5.82, 3.61, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643091505__way_643091505: dims=(189.88, 12.95, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643091506__way_643091506: dims=(44.53, 275.69, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643091509__way_643091509: dims=(12.52, 127.28, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833266__way_643833266: dims=(1.10, 40.51, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833267__way_643833267: dims=(11.06, 156.40, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833268__way_643833268: dims=(19.02, 4.06, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833269__way_643833269: dims=(12.24, 455.79, 0.00), verts=36, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833270__way_643833270: dims=(140.64, 71.37, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833271__way_643833271: dims=(384.93, 15.63, 0.00), verts=29, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833272__way_643833272: dims=(36.79, 2.09, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833273__way_643833273: dims=(21.88, 5.96, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833274__way_643833274: dims=(16.26, 25.02, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833275__way_643833275: dims=(17.66, 24.23, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833276__way_643833276: dims=(67.02, 0.08, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833277__way_643833277: dims=(139.25, 75.92, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833278__way_643833278: dims=(6.51, 50.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833279__way_643833279: dims=(12.04, 20.21, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833280__way_643833280: dims=(21.39, 9.73, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833281__way_643833281: dims=(66.95, 15.36, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833282__way_643833282: dims=(2.14, 0.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833283__way_643833283: dims=(127.98, 1.04, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833284__way_643833284: dims=(111.51, 12.29, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833285__way_643833285: dims=(43.81, 140.95, 0.00), verts=16, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-643833286__way_643833286: dims=(44.63, 217.55, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-645101986__way_645101986: dims=(3.78, 16.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-645101987__way_645101987: dims=(36.26, 152.92, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-645506929__way_645506929: dims=(40.51, 1.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-645606286__way_645606286: dims=(24.23, 0.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-645606296__way_645606296: dims=(161.07, 15.63, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-645797716__way_645797716: dims=(107.33, 144.86, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-645797724__way_645797724: dims=(10.51, 1.47, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647089443__way_647089443: dims=(32.42, 81.16, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647089445__way_647089445: dims=(194.65, 226.77, 0.00), verts=18, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647089447__way_647089447: dims=(5.95, 118.94, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647089459__way_647089459: dims=(13.78, 34.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647089460__way_647089460: dims=(14.75, 30.16, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756204__way_647756204: dims=(115.78, 110.33, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756205__way_647756205: dims=(53.07, 103.94, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756206__way_647756206: dims=(32.40, 22.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756207__way_647756207: dims=(19.96, 28.29, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756208__way_647756208: dims=(8.05, 7.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756209__way_647756209: dims=(35.42, 34.73, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756214__way_647756214: dims=(7.58, 6.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-647756215__way_647756215: dims=(49.70, 135.20, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189936__way_648189936: dims=(67.97, 17.04, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189937__way_648189937: dims=(10.96, 10.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189938__way_648189938: dims=(57.35, 17.87, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189939__way_648189939: dims=(69.80, 9.24, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189940__way_648189940: dims=(52.68, 7.71, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189941__way_648189941: dims=(7.69, 61.59, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189942__way_648189942: dims=(13.52, 7.44, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189943__way_648189943: dims=(119.72, 102.05, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189947__way_648189947: dims=(13.31, 2.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189949__way_648189949: dims=(33.93, 118.40, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189951__way_648189951: dims=(2.74, 69.91, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189953__way_648189953: dims=(3.04, 37.60, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189954__way_648189954: dims=(8.34, 139.65, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189955__way_648189955: dims=(111.71, 74.68, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189956__way_648189956: dims=(40.82, 3.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189957__way_648189957: dims=(6.92, 56.34, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189958__way_648189958: dims=(10.00, 9.99, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648189961__way_648189961: dims=(1.21, 21.92, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280409__way_648280409: dims=(31.15, 13.58, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280411__way_648280411: dims=(7.49, 23.64, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280417__way_648280417: dims=(134.70, 81.16, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280436__way_648280436: dims=(78.72, 72.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280445__way_648280445: dims=(28.01, 79.43, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280448__way_648280448: dims=(34.27, 4.10, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280459__way_648280459: dims=(109.09, 41.44, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280460__way_648280460: dims=(5.15, 59.43, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280463__way_648280463: dims=(118.58, 11.60, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648280465__way_648280465: dims=(74.47, 437.32, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648551744__way_648551744: dims=(21.32, 16.87, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648551745__way_648551745: dims=(7.01, 0.21, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648551746__way_648551746: dims=(15.90, 9.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648551748__way_648551748: dims=(2.16, 0.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648551755__way_648551755: dims=(63.82, 37.72, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648551756__way_648551756: dims=(13.05, 41.25, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-648551758__way_648551758: dims=(6.62, 2.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347144__way_649347144: dims=(100.13, 2.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347145__way_649347145: dims=(88.78, 38.74, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347147__way_649347147: dims=(35.06, 90.20, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347148__way_649347148: dims=(11.37, 28.87, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347149__way_649347149: dims=(114.91, 22.54, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347152__way_649347152: dims=(24.06, 66.34, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347154__way_649347154: dims=(133.71, 47.80, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347155__way_649347155: dims=(43.46, 277.20, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347156__way_649347156: dims=(6.10, 40.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347157__way_649347157: dims=(4.02, 81.47, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347159__way_649347159: dims=(155.64, 52.56, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347160__way_649347160: dims=(25.62, 0.85, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-649347162__way_649347162: dims=(35.03, 23.57, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775436__way_651775436: dims=(4.64, 15.95, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775437__way_651775437: dims=(143.26, 98.95, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775438__way_651775438: dims=(79.35, 74.36, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775439__way_651775439: dims=(39.80, 230.69, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775440__way_651775440: dims=(155.01, 55.18, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775441__way_651775441: dims=(126.36, 113.82, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775442__way_651775442: dims=(94.26, 142.18, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775443__way_651775443: dims=(23.03, 155.77, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775444__way_651775444: dims=(8.54, 1.10, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775445__way_651775445: dims=(67.92, 95.90, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775446__way_651775446: dims=(118.24, 9.95, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775447__way_651775447: dims=(6.59, 22.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-651775448__way_651775448: dims=(42.27, 47.13, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-671114529__way_671114529: dims=(7.86, 8.05, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-671114532__way_671114532: dims=(11.54, 17.82, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-671114533__way_671114533: dims=(23.45, 15.31, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-671114534__way_671114534: dims=(14.63, 25.57, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-671114535__way_671114535: dims=(44.20, 22.47, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-671114536__way_671114536: dims=(31.70, 6.88, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-671114538__way_671114538: dims=(12.84, 11.89, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-675544314__way_675544314: dims=(31.09, 26.44, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-675548864__way_675548864: dims=(44.20, 27.85, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-677111224__way_677111224: dims=(5.48, 17.77, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-677111226__way_677111226: dims=(55.64, 34.69, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798548__way_714798548: dims=(23.35, 90.48, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798549__way_714798549: dims=(5.04, 6.05, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798550__way_714798550: dims=(10.52, 18.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798551__way_714798551: dims=(5.11, 14.16, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798552__way_714798552: dims=(52.53, 31.39, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798553__way_714798553: dims=(14.73, 29.95, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798554__way_714798554: dims=(81.31, 20.37, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798555__way_714798555: dims=(30.47, 134.75, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798556__way_714798556: dims=(0.28, 8.51, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798557__way_714798557: dims=(5.64, 9.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798558__way_714798558: dims=(9.20, 11.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798559__way_714798559: dims=(9.85, 5.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798562__way_714798562: dims=(52.85, 24.74, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798563__way_714798563: dims=(5.02, 15.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798564__way_714798564: dims=(161.21, 107.57, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798565__way_714798565: dims=(121.33, 117.29, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798566__way_714798566: dims=(35.77, 72.82, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798567__way_714798567: dims=(13.29, 23.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798570__way_714798570: dims=(5.04, 7.96, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798572__way_714798572: dims=(38.99, 21.17, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798573__way_714798573: dims=(99.13, 22.53, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798575__way_714798575: dims=(373.77, 104.80, 0.00), verts=30, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798578__way_714798578: dims=(7.76, 5.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798579__way_714798579: dims=(1.25, 1.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798580__way_714798580: dims=(9.97, 20.44, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798581__way_714798581: dims=(3.96, 4.33, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798582__way_714798582: dims=(2.90, 6.24, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798583__way_714798583: dims=(5.77, 3.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798584__way_714798584: dims=(11.64, 4.96, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-714798585__way_714798585: dims=(6.59, 11.89, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-715178943__way_715178943: dims=(28.19, 0.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-715178945__way_715178945: dims=(27.40, 5.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-715910329__way_715910329: dims=(57.55, 408.52, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-734295489__way_734295489: dims=(66.03, 17.40, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-734295498__way_734295498: dims=(22.29, 23.63, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-734295499__way_734295499: dims=(39.40, 8.57, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-734295500__way_734295500: dims=(10.40, 2.09, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691416__way_783691416: dims=(15.47, 2.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691418__way_783691418: dims=(18.06, 1.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691428__way_783691428: dims=(23.36, 45.22, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691431__way_783691431: dims=(15.86, 28.12, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691435__way_783691435: dims=(2.74, 18.87, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691436__way_783691436: dims=(4.69, 155.96, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691438__way_783691438: dims=(10.77, 79.85, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691440__way_783691440: dims=(44.58, 21.02, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691441__way_783691441: dims=(89.40, 51.66, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691445__way_783691445: dims=(90.60, 63.28, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691446__way_783691446: dims=(2.11, 1.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691450__way_783691450: dims=(1.53, 12.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691452__way_783691452: dims=(41.72, 3.65, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691454__way_783691454: dims=(11.06, 25.41, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691455__way_783691455: dims=(48.30, 53.88, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691456__way_783691456: dims=(11.21, 12.86, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783691457__way_783691457: dims=(134.42, 80.95, 0.00), verts=25, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783709287__way_783709287: dims=(0.68, 4.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783717753__way_783717753: dims=(12.00, 5.83, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-783717754__way_783717754: dims=(68.89, 7.48, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-784097660__way_784097660: dims=(27.12, 3.72, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-784097661__way_784097661: dims=(11.04, 55.46, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-784097663__way_784097663: dims=(20.61, 25.60, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-785657750__way_785657750: dims=(26.79, 19.30, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-785657752__way_785657752: dims=(13.05, 14.73, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-785657764__way_785657764: dims=(41.62, 23.43, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165762__way_873165762: dims=(11.06, 17.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165764__way_873165764: dims=(12.04, 7.40, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165767__way_873165767: dims=(62.04, 25.77, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165784__way_873165784: dims=(98.91, 64.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165796__way_873165796: dims=(44.44, 14.33, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165797__way_873165797: dims=(37.09, 1.71, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165799__way_873165799: dims=(1.20, 4.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165801__way_873165801: dims=(30.42, 0.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-873165804__way_873165804: dims=(32.67, 12.74, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520366__way_874520366: dims=(38.32, 27.08, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520371__way_874520371: dims=(6.58, 1.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520373__way_874520373: dims=(125.81, 44.43, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520376__way_874520376: dims=(3.12, 50.13, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520378__way_874520378: dims=(47.88, 50.95, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520380__way_874520380: dims=(6.10, 29.83, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520381__way_874520381: dims=(4.56, 4.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520383__way_874520383: dims=(10.15, 19.65, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520385__way_874520385: dims=(12.34, 5.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520389__way_874520389: dims=(7.28, 176.16, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520391__way_874520391: dims=(14.66, 8.76, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520396__way_874520396: dims=(76.65, 66.39, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520397__way_874520397: dims=(9.42, 0.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520405__way_874520405: dims=(196.01, 232.12, 0.00), verts=24, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520406__way_874520406: dims=(36.00, 54.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520413__way_874520413: dims=(1.96, 39.49, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520414__way_874520414: dims=(24.85, 25.40, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520415__way_874520415: dims=(5.19, 8.94, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520417__way_874520417: dims=(18.48, 2.26, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520419__way_874520419: dims=(5.82, 16.54, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520420__way_874520420: dims=(19.28, 2.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520421__way_874520421: dims=(13.19, 16.05, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520424__way_874520424: dims=(8.82, 22.18, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520425__way_874520425: dims=(29.19, 7.41, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520426__way_874520426: dims=(4.47, 12.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520443__way_874520443: dims=(51.06, 5.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520444__way_874520444: dims=(29.97, 13.99, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520445__way_874520445: dims=(15.01, 0.74, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520462__way_874520462: dims=(147.09, 263.75, 0.00), verts=36, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520465__way_874520465: dims=(12.96, 25.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520467__way_874520467: dims=(7.02, 0.22, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520473__way_874520473: dims=(8.86, 9.35, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520475__way_874520475: dims=(33.20, 27.15, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520476__way_874520476: dims=(26.53, 29.96, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520479__way_874520479: dims=(37.65, 32.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520483__way_874520483: dims=(13.86, 21.62, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520488__way_874520488: dims=(4.33, 0.34, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520490__way_874520490: dims=(41.65, 0.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874520491__way_874520491: dims=(86.94, 347.49, 0.00), verts=41, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770863__way_874770863: dims=(25.38, 28.60, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770865__way_874770865: dims=(85.35, 16.25, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770867__way_874770867: dims=(2.65, 5.64, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770868__way_874770868: dims=(1.88, 7.93, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770869__way_874770869: dims=(0.15, 11.72, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770872__way_874770872: dims=(46.05, 20.40, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770875__way_874770875: dims=(31.89, 8.00, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770877__way_874770877: dims=(1100.59, 608.59, 0.00), verts=70, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770880__way_874770880: dims=(94.55, 190.14, 0.00), verts=19, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770882__way_874770882: dims=(12.31, 12.32, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770884__way_874770884: dims=(5.33, 25.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770886__way_874770886: dims=(49.59, 2.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770887__way_874770887: dims=(32.58, 2.38, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770890__way_874770890: dims=(2.33, 42.42, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770892__way_874770892: dims=(13.24, 2.56, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770893__way_874770893: dims=(14.73, 11.97, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770896__way_874770896: dims=(0.14, 10.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770898__way_874770898: dims=(18.26, 7.89, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770900__way_874770900: dims=(73.91, 786.25, 0.00), verts=35, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770901__way_874770901: dims=(9.35, 33.70, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770903__way_874770903: dims=(16.22, 13.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770904__way_874770904: dims=(57.91, 51.45, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-874770908__way_874770908: dims=(37.74, 3.44, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-875253426__way_875253426: dims=(2.27, 18.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-875253427__way_875253427: dims=(10.24, 84.09, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-875253428__way_875253428: dims=(1.76, 28.59, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-879498004__way_879498004: dims=(148.98, 26.95, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-879498005__way_879498005: dims=(106.43, 84.42, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-driveway-961998566__way_961998566: dims=(12.86, 288.11, 0.00), verts=23, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-1156944618__way_1156944618: dims=(109.83, 34.49, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-1156944619__way_1156944619: dims=(21.06, 34.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-1156944620__way_1156944620: dims=(13.26, 3.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-1499349685__way_1499349685: dims=(3.62, 13.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-18837286__way_18837286: dims=(16.18, 5.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-18847972__way_18847972: dims=(10.44, 3.23, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548210640__way_548210640: dims=(7.47, 19.04, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548210641__way_548210641: dims=(85.59, 300.17, 0.00), verts=53, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548210642__way_548210642: dims=(17.37, 14.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548210643__way_548210643: dims=(57.03, 37.01, 0.00), verts=12, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548210644__way_548210644: dims=(7.79, 2.62, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548896475__way_548896475: dims=(28.84, 0.59, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548896476__way_548896476: dims=(5.60, 0.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548896478__way_548896478: dims=(1.07, 13.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548896479__way_548896479: dims=(10.57, 0.28, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548904596__way_548904596: dims=(17.63, 3.23, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548904597__way_548904597: dims=(0.70, 7.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548904602__way_548904602: dims=(0.00, 14.13, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548904603__way_548904603: dims=(3.67, 42.04, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548904608__way_548904608: dims=(11.54, 18.46, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548904609__way_548904609: dims=(0.22, 8.34, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-548904611__way_548904611: dims=(16.63, 1.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-625348018__way_625348018: dims=(97.69, 66.21, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-644376629__way_644376629: dims=(37.43, 48.84, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-671114514__way_671114514: dims=(1.96, 6.08, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-671114540__way_671114540: dims=(28.33, 17.49, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-671114620__way_671114620: dims=(35.70, 30.41, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-671114621__way_671114621: dims=(121.47, 74.24, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-671948631__way_671948631: dims=(146.04, 60.42, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-671948632__way_671948632: dims=(57.40, 2.00, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-675544814__way_675544814: dims=(9.92, 7.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-691322798__way_691322798: dims=(201.78, 7.49, 0.00), verts=17, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-691322799__way_691322799: dims=(1.65, 42.57, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-691322800__way_691322800: dims=(17.58, 61.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-693114390__way_693114390: dims=(6.59, 0.53, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-694202817__way_694202817: dims=(6.20, 15.00, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-694202820__way_694202820: dims=(9.38, 10.74, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-694202821__way_694202821: dims=(4.06, 16.15, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-694202825__way_694202825: dims=(11.99, 1.17, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-694202826__way_694202826: dims=(6.46, 6.38, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-702167413__way_702167413: dims=(15.43, 59.67, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-702167424__way_702167424: dims=(13.92, 3.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-702167427__way_702167427: dims=(22.49, 11.30, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-714798547__way_714798547: dims=(6.73, 23.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275680__way_722275680: dims=(8.46, 7.91, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275681__way_722275681: dims=(0.12, 17.77, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275684__way_722275684: dims=(18.25, 14.61, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275685__way_722275685: dims=(14.50, 5.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275686__way_722275686: dims=(149.80, 133.36, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275687__way_722275687: dims=(12.56, 11.13, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275688__way_722275688: dims=(0.97, 33.14, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275690__way_722275690: dims=(40.96, 16.78, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275691__way_722275691: dims=(20.54, 6.02, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275692__way_722275692: dims=(1.08, 14.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275693__way_722275693: dims=(0.75, 15.83, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275694__way_722275694: dims=(13.02, 1.30, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275695__way_722275695: dims=(0.23, 3.20, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275696__way_722275696: dims=(16.44, 2.01, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275698__way_722275698: dims=(16.86, 1.42, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275699__way_722275699: dims=(12.33, 13.80, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275700__way_722275700: dims=(9.37, 23.35, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275701__way_722275701: dims=(13.22, 1.29, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275702__way_722275702: dims=(15.53, 0.31, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275703__way_722275703: dims=(50.85, 1.12, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275704__way_722275704: dims=(25.68, 77.14, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275705__way_722275705: dims=(6.13, 24.36, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-722275706__way_722275706: dims=(106.15, 94.78, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268211__way_736268211: dims=(55.32, 64.54, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268212__way_736268212: dims=(33.48, 135.50, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268214__way_736268214: dims=(7.88, 51.73, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268216__way_736268216: dims=(54.26, 8.47, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268217__way_736268217: dims=(45.17, 42.08, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268218__way_736268218: dims=(27.83, 11.49, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268220__way_736268220: dims=(2.66, 1.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268221__way_736268221: dims=(250.86, 61.70, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268222__way_736268222: dims=(11.92, 12.09, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268223__way_736268223: dims=(0.04, 23.07, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268224__way_736268224: dims=(21.59, 28.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268225__way_736268225: dims=(39.33, 48.04, 0.00), verts=15, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268226__way_736268226: dims=(1.89, 0.69, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268227__way_736268227: dims=(11.52, 37.51, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-736268228__way_736268228: dims=(7.51, 3.19, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-757718097__way_757718097: dims=(13.19, 21.68, 0.00), verts=9, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-761287183__way_761287183: dims=(6.95, 6.46, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-783709283__way_783709283: dims=(8.28, 20.66, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-783709285__way_783709285: dims=(1.42, 22.16, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-783709292__way_783709292: dims=(1.57, 14.66, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-828523352__way_828523352: dims=(29.23, 8.64, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-828523353__way_828523353: dims=(25.85, 77.69, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-828523354__way_828523354: dims=(5.23, 22.66, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-837183242__way_837183242: dims=(8.47, 49.33, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-837183246__way_837183246: dims=(124.63, 77.71, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-837183250__way_837183250: dims=(17.54, 1.10, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-838851886__way_838851886: dims=(9.58, 4.03, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-838851887__way_838851887: dims=(0.96, 18.91, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-838851888__way_838851888: dims=(10.90, 6.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-871956153__way_871956153: dims=(18.36, 70.58, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-898105711__way_898105711: dims=(258.78, 237.65, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-963680987__way_963680987: dims=(0.97, 18.39, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-963680988__way_963680988: dims=(0.86, 19.56, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-963743928__way_963743928: dims=(5.31, 3.00, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-963743929__way_963743929: dims=(1.94, 0.01, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__service-parking-aisle-995926774__way_995926774: dims=(16.15, 27.96, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__smith-road__way_18844864: dims=(66.88, 62.32, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-balch-street__way_18848854: dims=(4.75, 90.62, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-main-street__way_149171313: dims=(3.11, 6.95, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-main-street__way_23152929: dims=(20.28, 11.03, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-main-street__way_548896482: dims=(34.38, 0.71, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-main-street__way_734235587: dims=(18.95, 4.48, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-park-street__way_18847848: dims=(0.39, 10.22, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-park-street__way_518697315: dims=(27.75, 1.29, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-street__way_18845567: dims=(20.29, 1.40, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-street__way_835808296: dims=(20.49, 12.10, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__south-street__way_994441118: dims=(9.04, 1.81, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1057418071__way_1057418071: dims=(140.30, 273.06, 0.00), verts=22, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1106607736__way_1106607736: dims=(4.82, 13.40, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1106607767__way_1106607767: dims=(10.81, 7.58, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1106607768__way_1106607768: dims=(18.59, 12.11, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1130905262__way_1130905262: dims=(4.48, 0.20, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1187510348__way_1187510348: dims=(139.78, 13.12, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1187741916__way_1187741916: dims=(37.67, 42.46, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-1499498241__way_1499498241: dims=(10.89, 12.00, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-627638204__way_627638204: dims=(16.26, 23.27, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-675534719__way_675534719: dims=(35.24, 13.35, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-675539934__way_675539934: dims=(106.31, 67.78, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-694202823__way_694202823: dims=(3.94, 8.92, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-722354934__way_722354934: dims=(10.84, 2.97, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-722354935__way_722354935: dims=(82.45, 81.68, 0.00), verts=11, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-722354948__way_722354948: dims=(14.32, 1.59, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-728255736__way_728255736: dims=(3.88, 10.35, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-783691422__way_783691422: dims=(0.21, 5.79, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-783691429__way_783691429: dims=(5.00, 34.64, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-872843307__way_872843307: dims=(10.31, 9.32, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-874487240__way_874487240: dims=(15.30, 40.93, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-879497992__way_879497992: dims=(65.50, 1.72, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__steps-879497995__way_879497995: dims=(17.37, 18.84, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__summer-court__way_18844403: dims=(59.79, 3.74, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__summer-street__way_18852849: dims=(14.95, 5.46, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__teagan-avenue__way_192281934: dims=(27.82, 10.88, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__tertiary-544797130__way_544797130: dims=(14.20, 16.11, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__thayer-drive__way_671948630: dims=(21.04, 0.00, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__the-goat-path__way_245204742: dims=(23.46, 23.79, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__track-1417317544__way_1417317544: dims=(0.20, 15.43, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__track-963680999__way_963680999: dims=(68.77, 24.70, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__track-963681003__way_963681003: dims=(1.26, 1.02, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__track-963681008__way_963681008: dims=(3.59, 5.73, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__tuck-drive__way_193195611: dims=(1.79, 35.56, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__tuck-mall__way_1307503831: dims=(41.86, 3.32, 0.00), verts=6, faces=0, mats=MWRLD_roads_paths_dark
+- road__tuck-mall__way_1529298331: dims=(57.03, 215.67, 0.00), verts=13, faces=0, mats=MWRLD_roads_paths_dark
+- road__tuck-mall__way_18846487: dims=(194.65, 360.27, 0.00), verts=32, faces=0, mats=MWRLD_roads_paths_dark
+- road__tyler-road__way_18844854: dims=(1.49, 0.75, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__valley-road__way_18849829: dims=(20.24, 15.55, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__valley-road__way_722550728: dims=(5.15, 0.02, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__vox-lane__way_18839618: dims=(14.71, 8.88, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__weatherby-road__way_18845011: dims=(721.79, 661.47, 0.00), verts=103, faces=0, mats=MWRLD_roads_paths_dark
+- road__weatherby-terrace__way_18847433: dims=(47.26, 69.02, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__webster-avenue__way_1106607764: dims=(201.42, 198.12, 0.00), verts=37, faces=0, mats=MWRLD_roads_paths_dark
+- road__webster-avenue__way_18853910: dims=(88.65, 130.40, 0.00), verts=8, faces=0, mats=MWRLD_roads_paths_dark
+- road__webster-terrace__way_1236637207: dims=(212.59, 252.62, 0.00), verts=26, faces=0, mats=MWRLD_roads_paths_dark
+- road__webster-terrace__way_18846427: dims=(107.70, 39.22, 0.00), verts=10, faces=0, mats=MWRLD_roads_paths_dark
+- road__wentworth-street__way_18850522: dims=(0.73, 16.77, 0.00), verts=4, faces=0, mats=MWRLD_roads_paths_dark
+- road__west-street__way_18844439: dims=(159.79, 11.10, 0.00), verts=14, faces=0, mats=MWRLD_roads_paths_dark
+- road__west-wheelock-street__way_18842999: dims=(60.72, 1.51, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__west-wheelock-street__way_23206055: dims=(34.79, 28.38, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__west-wheelock-street__way_605386872: dims=(27.45, 33.59, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__west-wheelock-street__way_835808298: dims=(24.84, 156.84, 0.00), verts=7, faces=0, mats=MWRLD_roads_paths_dark
+- road__west-wheelock-street__way_874809877: dims=(0.42, 27.24, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark
+- road__west-wheelock-street__way_963680986: dims=(115.30, 160.35, 0.00), verts=5, faces=0, mats=MWRLD_roads_paths_dark
+- road__woodrow-road__way_18851512: dims=(0.96, 2.50, 0.00), verts=2, faces=0, mats=MWRLD_roads_paths_dark
+- road__zahm-courtyard__way_874153674: dims=(0.87, 9.04, 0.00), verts=3, faces=0, mats=MWRLD_roads_paths_dark

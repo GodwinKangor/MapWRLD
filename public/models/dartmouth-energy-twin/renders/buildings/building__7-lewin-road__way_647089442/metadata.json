@@ -1,0 +1,50 @@
+{
+  "name": "building__7-lewin-road__way_647089442",
+  "displayName": "7 Lewin Road",
+  "osmId": "way/647089442",
+  "originalName": "Areas.432",
+  "type": "buildings",
+  "dimensions": {
+    "x": 22.182373,
+    "y": 19.380585,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 20,
+  "edges": 30,
+  "faces": 11,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 10,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 10,
+    "nonManifoldEdges": 10
+  },
+  "topologyByObject": [
+    {
+      "name": "building__7-lewin-road__way_647089442",
+      "kind": "base",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 11,
+      "triangles": 0,
+      "quads": 10,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 10,
+      "nonManifoldEdges": 10
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "7 Lewin Road.glb",
+  "fbx": "7 Lewin Road.fbx"
+}

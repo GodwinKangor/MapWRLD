@@ -1,0 +1,50 @@
+{
+  "name": "building__14-north-balch-street__way_873165775",
+  "displayName": "14 North Balch Street",
+  "osmId": "way/873165775",
+  "originalName": "Areas.612",
+  "type": "buildings",
+  "dimensions": {
+    "x": 7.404816,
+    "y": 5.416779,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 10,
+  "edges": 15,
+  "faces": 6,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 5,
+    "nonManifoldEdges": 5
+  },
+  "topologyByObject": [
+    {
+      "name": "building__14-north-balch-street__way_873165775",
+      "kind": "base",
+      "vertices": 10,
+      "edges": 15,
+      "faces": 6,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 5,
+      "nonManifoldEdges": 5
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "14 North Balch Street.glb",
+  "fbx": "14 North Balch Street.fbx"
+}

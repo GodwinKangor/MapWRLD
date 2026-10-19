@@ -1,0 +1,50 @@
+{
+  "name": "building__coldwell-banker__way_548904600",
+  "displayName": "Coldwell Banker",
+  "osmId": "way/548904600",
+  "originalName": "Areas.276",
+  "type": "buildings",
+  "dimensions": {
+    "x": 16.490036,
+    "y": 19.669189,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__coldwell-banker__way_548904600",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Coldwell Banker.glb",
+  "fbx": "Coldwell Banker.fbx"
+}

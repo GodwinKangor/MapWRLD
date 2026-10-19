@@ -1,0 +1,50 @@
+{
+  "name": "building__21-webster-avenue__way_641064108",
+  "displayName": "21 Webster Avenue",
+  "osmId": "way/641064108",
+  "originalName": "Areas.373",
+  "type": "buildings",
+  "dimensions": {
+    "x": 18.942261,
+    "y": 18.914368,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 8,
+  "edges": 12,
+  "faces": 5,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 4,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "building__21-webster-avenue__way_641064108",
+      "kind": "base",
+      "vertices": 8,
+      "edges": 12,
+      "faces": 5,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 0,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "21 Webster Avenue.glb",
+  "fbx": "21 Webster Avenue.fbx"
+}

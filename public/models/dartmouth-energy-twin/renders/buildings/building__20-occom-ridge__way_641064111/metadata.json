@@ -1,0 +1,50 @@
+{
+  "name": "building__20-occom-ridge__way_641064111",
+  "displayName": "20 Occom Ridge",
+  "osmId": "way/641064111",
+  "originalName": "Areas.376",
+  "type": "buildings",
+  "dimensions": {
+    "x": 21.008514,
+    "y": 21.189941,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__20-occom-ridge__way_641064111",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "20 Occom Ridge.glb",
+  "fbx": "20 Occom Ridge.fbx"
+}

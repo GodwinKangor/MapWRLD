@@ -1,0 +1,50 @@
+{
+  "name": "road__teagan-avenue__way_192281934",
+  "displayName": "Teagan Avenue",
+  "osmId": "way/192281934",
+  "originalName": "Ways.1375",
+  "type": "roads",
+  "dimensions": {
+    "x": 27.81839,
+    "y": 10.878021,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 5,
+  "edges": 4,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 5,
+    "looseEdges": 4,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "road__teagan-avenue__way_192281934",
+      "kind": "base",
+      "vertices": 5,
+      "edges": 4,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 5,
+      "looseEdges": 4,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__teagan-avenue__way_192281934.glb",
+  "fbx": "road__teagan-avenue__way_192281934.fbx"
+}

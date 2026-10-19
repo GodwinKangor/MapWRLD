@@ -1,0 +1,50 @@
+{
+  "name": "building__parkhurst-hall__way_261795166",
+  "displayName": "Parkhurst Hall",
+  "osmId": "way/261795166",
+  "originalName": "Areas.091",
+  "type": "buildings",
+  "dimensions": {
+    "x": 34.234314,
+    "y": 29.259594,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 26,
+  "edges": 39,
+  "faces": 14,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 13,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 13,
+    "nonManifoldEdges": 13
+  },
+  "topologyByObject": [
+    {
+      "name": "building__parkhurst-hall__way_261795166",
+      "kind": "base",
+      "vertices": 26,
+      "edges": 39,
+      "faces": 14,
+      "triangles": 0,
+      "quads": 13,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 13,
+      "nonManifoldEdges": 13
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Parkhurst Hall.glb",
+  "fbx": "Parkhurst Hall.fbx"
+}

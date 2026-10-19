@@ -1,0 +1,50 @@
+{
+  "name": "building__4-dorrance-place__way_783691427",
+  "displayName": "4 Dorrance Place",
+  "osmId": "way/783691427",
+  "originalName": "Areas.529",
+  "type": "buildings",
+  "dimensions": {
+    "x": 14.930283,
+    "y": 12.198914,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 22,
+  "edges": 33,
+  "faces": 12,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 11,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 11,
+    "nonManifoldEdges": 11
+  },
+  "topologyByObject": [
+    {
+      "name": "building__4-dorrance-place__way_783691427",
+      "kind": "base",
+      "vertices": 22,
+      "edges": 33,
+      "faces": 12,
+      "triangles": 0,
+      "quads": 11,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 11,
+      "nonManifoldEdges": 11
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "4 Dorrance Place.glb",
+  "fbx": "4 Dorrance Place.fbx"
+}

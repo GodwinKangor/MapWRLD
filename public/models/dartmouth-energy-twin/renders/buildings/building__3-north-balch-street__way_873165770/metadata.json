@@ -1,0 +1,50 @@
+{
+  "name": "building__3-north-balch-street__way_873165770",
+  "displayName": "3 North Balch Street",
+  "osmId": "way/873165770",
+  "originalName": "Areas.607",
+  "type": "buildings",
+  "dimensions": {
+    "x": 12.614746,
+    "y": 5.294693,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 14,
+  "edges": 21,
+  "faces": 8,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 7,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 7,
+    "nonManifoldEdges": 7
+  },
+  "topologyByObject": [
+    {
+      "name": "building__3-north-balch-street__way_873165770",
+      "kind": "base",
+      "vertices": 14,
+      "edges": 21,
+      "faces": 8,
+      "triangles": 0,
+      "quads": 7,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 7,
+      "nonManifoldEdges": 7
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "3 North Balch Street.glb",
+  "fbx": "3 North Balch Street.fbx"
+}

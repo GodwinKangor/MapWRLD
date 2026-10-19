@@ -1,0 +1,50 @@
+{
+  "name": "building__4-o-leary-avenue__way_874520392",
+  "displayName": "4 O'Leary Avenue",
+  "osmId": "way/874520392",
+  "originalName": "Areas.649",
+  "type": "buildings",
+  "dimensions": {
+    "x": 19.73822,
+    "y": 18.503662,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 22,
+  "edges": 33,
+  "faces": 12,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 11,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 11,
+    "nonManifoldEdges": 11
+  },
+  "topologyByObject": [
+    {
+      "name": "building__4-o-leary-avenue__way_874520392",
+      "kind": "base",
+      "vertices": 22,
+      "edges": 33,
+      "faces": 12,
+      "triangles": 0,
+      "quads": 11,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 11,
+      "nonManifoldEdges": 11
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "4 O'Leary Avenue.glb",
+  "fbx": "4 O'Leary Avenue.fbx"
+}

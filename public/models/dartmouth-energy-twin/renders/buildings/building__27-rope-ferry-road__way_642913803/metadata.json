@@ -1,0 +1,50 @@
+{
+  "name": "building__27-rope-ferry-road__way_642913803",
+  "displayName": "27 Rope Ferry Road",
+  "osmId": "way/642913803",
+  "originalName": "Areas.398",
+  "type": "buildings",
+  "dimensions": {
+    "x": 13.595657,
+    "y": 16.427917,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__27-rope-ferry-road__way_642913803",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "27 Rope Ferry Road.glb",
+  "fbx": "27 Rope Ferry Road.fbx"
+}

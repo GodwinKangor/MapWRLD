@@ -1,0 +1,50 @@
+{
+  "name": "building__hanover-inn-dartmouth__way_548896471",
+  "displayName": "Hanover Inn Dartmouth",
+  "osmId": "way/548896471",
+  "originalName": "Areas.271",
+  "type": "buildings",
+  "dimensions": {
+    "x": 68.709839,
+    "y": 78.266106,
+    "z": 15.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 68,
+  "edges": 102,
+  "faces": 35,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 34,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 34,
+    "nonManifoldEdges": 34
+  },
+  "topologyByObject": [
+    {
+      "name": "building__hanover-inn-dartmouth__way_548896471",
+      "kind": "base",
+      "vertices": 68,
+      "edges": 102,
+      "faces": 35,
+      "triangles": 0,
+      "quads": 34,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 34,
+      "nonManifoldEdges": 34
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Hanover Inn Dartmouth.glb",
+  "fbx": "Hanover Inn Dartmouth.fbx"
+}

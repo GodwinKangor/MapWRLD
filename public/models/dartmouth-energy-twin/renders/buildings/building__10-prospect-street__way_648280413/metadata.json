@@ -1,0 +1,50 @@
+{
+  "name": "building__10-prospect-street__way_648280413",
+  "displayName": "10 Prospect Street",
+  "osmId": "way/648280413",
+  "originalName": "Areas.464",
+  "type": "buildings",
+  "dimensions": {
+    "x": 16.104126,
+    "y": 11.222107,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__10-prospect-street__way_648280413",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "10 Prospect Street.glb",
+  "fbx": "10 Prospect Street.fbx"
+}

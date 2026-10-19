@@ -1,0 +1,50 @@
+{
+  "name": "building__73-south-main-street__way_543425011",
+  "displayName": "73 South Main Street",
+  "osmId": "way/543425011",
+  "originalName": "Areas.247",
+  "type": "buildings",
+  "dimensions": {
+    "x": 25.888779,
+    "y": 20.3685,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__73-south-main-street__way_543425011",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "73 South Main Street.glb",
+  "fbx": "73 South Main Street.fbx"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "building__reilly-pavilion__way_783709294",
+  "displayName": "Reilly Pavilion",
+  "osmId": "way/783709294",
+  "originalName": "Areas.546",
+  "type": "buildings",
+  "dimensions": {
+    "x": 34.202209,
+    "y": 51.17099,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 68,
+  "edges": 102,
+  "faces": 35,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 34,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 34,
+    "nonManifoldEdges": 34
+  },
+  "topologyByObject": [
+    {
+      "name": "building__reilly-pavilion__way_783709294",
+      "kind": "base",
+      "vertices": 68,
+      "edges": 102,
+      "faces": 35,
+      "triangles": 0,
+      "quads": 34,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 34,
+      "nonManifoldEdges": 34
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Reilly Pavilion.glb",
+  "fbx": "Reilly Pavilion.fbx"
+}

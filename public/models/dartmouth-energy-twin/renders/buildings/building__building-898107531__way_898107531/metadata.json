@@ -1,0 +1,50 @@
+{
+  "name": "building__building-898107531__way_898107531",
+  "displayName": "Building 898107531",
+  "osmId": "way/898107531",
+  "originalName": "Areas.725",
+  "type": "buildings",
+  "dimensions": {
+    "x": 14.472015,
+    "y": 21.978027,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 12,
+  "edges": 18,
+  "faces": 7,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 6,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 6,
+    "nonManifoldEdges": 6
+  },
+  "topologyByObject": [
+    {
+      "name": "building__building-898107531__way_898107531",
+      "kind": "base",
+      "vertices": 12,
+      "edges": 18,
+      "faces": 7,
+      "triangles": 0,
+      "quads": 6,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 6,
+      "nonManifoldEdges": 6
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Building 898107531.glb",
+  "fbx": "Building 898107531.fbx"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "building__goldstein-hall__way_262950849",
+  "displayName": "Goldstein Hall",
+  "osmId": "way/262950849",
+  "originalName": "Areas.172",
+  "type": "buildings",
+  "dimensions": {
+    "x": 32.561989,
+    "y": 33.932709,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 30,
+  "edges": 45,
+  "faces": 16,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 15,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 15,
+    "nonManifoldEdges": 15
+  },
+  "topologyByObject": [
+    {
+      "name": "building__goldstein-hall__way_262950849",
+      "kind": "base",
+      "vertices": 30,
+      "edges": 45,
+      "faces": 16,
+      "triangles": 0,
+      "quads": 15,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 15,
+      "nonManifoldEdges": 15
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Goldstein Hall.glb",
+  "fbx": "Goldstein Hall.fbx"
+}

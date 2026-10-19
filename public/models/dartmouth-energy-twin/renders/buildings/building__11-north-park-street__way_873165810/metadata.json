@@ -1,0 +1,50 @@
+{
+  "name": "building__11-north-park-street__way_873165810",
+  "displayName": "11 North Park Street",
+  "osmId": "way/873165810",
+  "originalName": "Areas.634",
+  "type": "buildings",
+  "dimensions": {
+    "x": 32.85144,
+    "y": 19.114197,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 34,
+  "edges": 51,
+  "faces": 18,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 17,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 17,
+    "nonManifoldEdges": 17
+  },
+  "topologyByObject": [
+    {
+      "name": "building__11-north-park-street__way_873165810",
+      "kind": "base",
+      "vertices": 34,
+      "edges": 51,
+      "faces": 18,
+      "triangles": 0,
+      "quads": 17,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 17,
+      "nonManifoldEdges": 17
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "11 North Park Street.glb",
+  "fbx": "11 North Park Street.fbx"
+}

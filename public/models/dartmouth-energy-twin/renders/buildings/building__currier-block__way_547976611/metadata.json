@@ -1,0 +1,50 @@
+{
+  "name": "building__currier-block__way_547976611",
+  "displayName": "Currier Block",
+  "osmId": "way/547976611",
+  "originalName": "Areas.252",
+  "type": "buildings",
+  "dimensions": {
+    "x": 30.423355,
+    "y": 44.400009,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 44,
+  "edges": 66,
+  "faces": 23,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 22,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 22,
+    "nonManifoldEdges": 22
+  },
+  "topologyByObject": [
+    {
+      "name": "building__currier-block__way_547976611",
+      "kind": "base",
+      "vertices": 44,
+      "edges": 66,
+      "faces": 23,
+      "triangles": 0,
+      "quads": 22,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 22,
+      "nonManifoldEdges": 22
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Currier Block.glb",
+  "fbx": "Currier Block.fbx"
+}

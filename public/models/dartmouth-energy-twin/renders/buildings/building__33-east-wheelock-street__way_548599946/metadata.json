@@ -1,0 +1,50 @@
+{
+  "name": "building__33-east-wheelock-street__way_548599946",
+  "displayName": "33 East Wheelock Street",
+  "osmId": "way/548599946",
+  "originalName": "Areas.269",
+  "type": "buildings",
+  "dimensions": {
+    "x": 22.270752,
+    "y": 19.735809,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 22,
+  "edges": 33,
+  "faces": 12,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 11,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 11,
+    "nonManifoldEdges": 11
+  },
+  "topologyByObject": [
+    {
+      "name": "building__33-east-wheelock-street__way_548599946",
+      "kind": "base",
+      "vertices": 22,
+      "edges": 33,
+      "faces": 12,
+      "triangles": 0,
+      "quads": 11,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 11,
+      "nonManifoldEdges": 11
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "33 East Wheelock Street.glb",
+  "fbx": "33 East Wheelock Street.fbx"
+}

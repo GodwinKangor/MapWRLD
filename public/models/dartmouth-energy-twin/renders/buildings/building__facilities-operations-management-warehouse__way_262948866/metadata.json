@@ -1,0 +1,50 @@
+{
+  "name": "building__facilities-operations-management-warehouse__way_262948866",
+  "displayName": "Facilities Operations & Management Warehouse",
+  "osmId": "way/262948866",
+  "originalName": "Areas.593",
+  "type": "buildings",
+  "dimensions": {
+    "x": 23.830566,
+    "y": 16.150482,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 22,
+  "edges": 33,
+  "faces": 12,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 11,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 11,
+    "nonManifoldEdges": 11
+  },
+  "topologyByObject": [
+    {
+      "name": "building__facilities-operations-management-warehouse__way_262948866",
+      "kind": "base",
+      "vertices": 22,
+      "edges": 33,
+      "faces": 12,
+      "triangles": 0,
+      "quads": 11,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 11,
+      "nonManifoldEdges": 11
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Facilities Operations & Management Warehouse.glb",
+  "fbx": "Facilities Operations & Management Warehouse.fbx"
+}

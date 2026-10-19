@@ -1,0 +1,50 @@
+{
+  "name": "road__plant-drive__way_757718096",
+  "displayName": "Plant Drive",
+  "osmId": "way/757718096",
+  "originalName": "Ways.906",
+  "type": "roads",
+  "dimensions": {
+    "x": 13.145409,
+    "y": 12.276611,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 4,
+  "edges": 3,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 4,
+    "looseEdges": 3,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 3
+  },
+  "topologyByObject": [
+    {
+      "name": "road__plant-drive__way_757718096",
+      "kind": "base",
+      "vertices": 4,
+      "edges": 3,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 4,
+      "looseEdges": 3,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 3
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__plant-drive__way_757718096.glb",
+  "fbx": "road__plant-drive__way_757718096.fbx"
+}

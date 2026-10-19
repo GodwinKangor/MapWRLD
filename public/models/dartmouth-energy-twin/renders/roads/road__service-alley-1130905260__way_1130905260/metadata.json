@@ -1,0 +1,50 @@
+{
+  "name": "road__service-alley-1130905260__way_1130905260",
+  "displayName": "Service Alley 1130905260",
+  "osmId": "way/1130905260",
+  "originalName": "Ways.492",
+  "type": "roads",
+  "dimensions": {
+    "x": 20.228638,
+    "y": 10.4673,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 5,
+  "edges": 4,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 5,
+    "looseEdges": 4,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "road__service-alley-1130905260__way_1130905260",
+      "kind": "base",
+      "vertices": 5,
+      "edges": 4,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 5,
+      "looseEdges": 4,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__service-alley-1130905260__way_1130905260.glb",
+  "fbx": "road__service-alley-1130905260__way_1130905260.fbx"
+}

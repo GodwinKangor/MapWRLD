@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-08-24T17:43:05.974Z",
+  "dryRun": true,
+  "options": {
+    "dryRun": true,
+    "force": false,
+    "skipExisting": true,
+    "stopOnFailure": false,
+    "limit": 8,
+    "offset": 0,
+    "only": [],
+    "match": []
+  },
+  "totalBuildings": 729,
+  "matchedBuildings": 729,
+  "queuedBuildings": 727,
+  "processedBuildings": 8,
+  "results": [
+    {
+      "status": "planned",
+      "building": "building__1-allen-lane__way_648280461",
+      "folder": "buildings/building__1-allen-lane__way_648280461",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-allen-lane__way_648280461/references/references-manifest.json"
+    },
+    {
+      "status": "planned",
+      "building": "building__1-austin-avenue__way_48466706",
+      "folder": "buildings/building__1-austin-avenue__way_48466706",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-austin-avenue__way_48466706/references/references-manifest.json"
+    },
+    {
+      "status": "planned",
+      "building": "building__1-barrymore-road__way_874520408",
+      "folder": "buildings/building__1-barrymore-road__way_874520408",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-barrymore-road__way_874520408/references/references-manifest.json"
+    },
+    {
+      "status": "planned",
+      "building": "building__1-brockway-road__way_874520477",
+      "folder": "buildings/building__1-brockway-road__way_874520477",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-brockway-road__way_874520477/references/references-manifest.json"
+    },
+    {
+      "status": "planned",
+      "building": "building__1-buell-street__way_874770914",
+      "folder": "buildings/building__1-buell-street__way_874770914",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770914/references/references-manifest.json"
+    },
+    {
+      "status": "planned",
+      "building": "building__1-buell-street__way_874770915",
+      "folder": "buildings/building__1-buell-street__way_874770915",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770915/references/references-manifest.json"
+    },
+    {
+      "status": "planned",
+      "building": "building__1-dana-road__way_48466712",
+      "folder": "buildings/building__1-dana-road__way_48466712",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466712/references/references-manifest.json"
+    },
+    {
+      "status": "planned",
+      "building": "building__1-dana-road__way_48466713",
+      "folder": "buildings/building__1-dana-road__way_48466713",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466713/references/references-manifest.json"
+    }
+  ]
+}

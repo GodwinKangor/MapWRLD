@@ -1,0 +1,50 @@
+{
+  "name": "building__16-west-wheelock-street__way_621646998",
+  "displayName": "16 West Wheelock Street",
+  "osmId": "way/621646998",
+  "originalName": "Areas.323",
+  "type": "buildings",
+  "dimensions": {
+    "x": 28.911835,
+    "y": 16.772102,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 32,
+  "edges": 48,
+  "faces": 17,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 16,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 16,
+    "nonManifoldEdges": 16
+  },
+  "topologyByObject": [
+    {
+      "name": "building__16-west-wheelock-street__way_621646998",
+      "kind": "base",
+      "vertices": 32,
+      "edges": 48,
+      "faces": 17,
+      "triangles": 0,
+      "quads": 16,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 16,
+      "nonManifoldEdges": 16
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "16 West Wheelock Street.glb",
+  "fbx": "16 West Wheelock Street.fbx"
+}

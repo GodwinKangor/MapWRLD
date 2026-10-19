@@ -1,0 +1,50 @@
+{
+  "name": "road__service-parking-aisle-18847972__way_18847972",
+  "displayName": "Service Parking Aisle 18847972",
+  "osmId": "way/18847972",
+  "originalName": "Ways.965",
+  "type": "roads",
+  "dimensions": {
+    "x": 10.435917,
+    "y": 3.230103,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 3,
+  "edges": 2,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 3,
+    "looseEdges": 2,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 2
+  },
+  "topologyByObject": [
+    {
+      "name": "road__service-parking-aisle-18847972__way_18847972",
+      "kind": "base",
+      "vertices": 3,
+      "edges": 2,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 3,
+      "looseEdges": 2,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 2
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__service-parking-aisle-18847972__way_18847972.glb",
+  "fbx": "road__service-parking-aisle-18847972__way_18847972.fbx"
+}

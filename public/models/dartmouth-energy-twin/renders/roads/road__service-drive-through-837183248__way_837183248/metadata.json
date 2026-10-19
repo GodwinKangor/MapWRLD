@@ -1,0 +1,50 @@
+{
+  "name": "road__service-drive-through-837183248__way_837183248",
+  "displayName": "Service Drive Through 837183248",
+  "osmId": "way/837183248",
+  "originalName": "Ways.444",
+  "type": "roads",
+  "dimensions": {
+    "x": 9.857056,
+    "y": 7.89209,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 3,
+  "edges": 2,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 3,
+    "looseEdges": 2,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 2
+  },
+  "topologyByObject": [
+    {
+      "name": "road__service-drive-through-837183248__way_837183248",
+      "kind": "base",
+      "vertices": 3,
+      "edges": 2,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 3,
+      "looseEdges": 2,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 2
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__service-drive-through-837183248__way_837183248.glb",
+  "fbx": "road__service-drive-through-837183248__way_837183248.fbx"
+}

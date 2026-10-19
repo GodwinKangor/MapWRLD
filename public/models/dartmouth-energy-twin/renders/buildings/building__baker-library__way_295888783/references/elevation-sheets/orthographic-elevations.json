@@ -1,0 +1,783 @@
+{
+  "building": "building__baker-library__way_295888783",
+  "displayName": "Baker Library",
+  "generatedKind": "orthographic-elevation-reference",
+  "pixelsPerMeter": 34,
+  "perspectiveHandling": {
+    "photoInputs": "Street View and photo references may be oblique or perspective-distorted.",
+    "modelingSurface": "Use the normalized orthographic diagrams for wall/window/door placement.",
+    "rectificationPolicy": "Do not claim a photo is perpendicular unless control points or an approved elevation drawing exist.",
+    "pixelWarpPolicy": "Perspective warping requires facade control points in modeling-rules. Without control points, the sheet uses rule-derived orthographic geometry and symmetry inference.",
+    "requiredControlPoints": [
+      "top-left",
+      "top-right",
+      "bottom-right",
+      "bottom-left"
+    ]
+  },
+  "elevations": {
+    "front": {
+      "role": "front",
+      "label": "Front",
+      "panelIds": [
+        "wall-01",
+        "wall-02",
+        "wall-11",
+        "wall-12",
+        "wall-13",
+        "wall-14"
+      ],
+      "sourceImages": [
+        "references/walls/wall-01.jpg",
+        "references/walls/wall-02.jpg",
+        "references/walls/wall-11.jpg",
+        "references/walls/wall-12.jpg",
+        "references/walls/wall-13.jpg",
+        "references/walls/wall-14.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    },
+    "rear": {
+      "role": "rear",
+      "label": "Rear",
+      "panelIds": [
+        "wall-03",
+        "wall-04",
+        "wall-05",
+        "wall-06",
+        "wall-07",
+        "wall-08",
+        "wall-09"
+      ],
+      "sourceImages": [
+        "references/walls/wall-03.jpg",
+        "references/walls/wall-04.jpg",
+        "references/walls/wall-05.jpg",
+        "references/walls/wall-06.jpg",
+        "references/walls/wall-07.jpg",
+        "references/walls/wall-08.jpg",
+        "references/walls/wall-09.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    },
+    "right-side": {
+      "role": "right-side",
+      "label": "Right Side",
+      "panelIds": [
+        "wall-10"
+      ],
+      "sourceImages": [
+        "references/walls/wall-10.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    },
+    "roof": {
+      "role": "roof",
+      "label": "Roof",
+      "panelIds": [
+        "roof"
+      ],
+      "sourceImages": [
+        "references/roof-satellite.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    }
+  },
+  "panels": [
+    {
+      "id": "wall-01",
+      "title": "southwest major exterior wall 01",
+      "wallId": "wall-01",
+      "orientation": "southwest",
+      "sourceKind": "wall-reference",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-01.jpg",
+      "imagePath": "../walls/wall-01.jpg",
+      "widthMeters": 19.05,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 19.05,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-02",
+      "title": "southwest major exterior wall 02",
+      "wallId": "wall-02",
+      "orientation": "southwest",
+      "sourceKind": "wall-reference",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-02.jpg",
+      "imagePath": "../walls/wall-02.jpg",
+      "widthMeters": 16.25,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "verified",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "approved-reference",
+      "notes": "",
+      "countInference": {
+        "method": "approved-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.96,
+          "evidence": "approved wall source",
+          "requiresReview": false,
+          "widthMeters": 16.25,
+          "referenceRequired": false
+        }
+      ]
+    },
+    {
+      "id": "wall-03",
+      "title": "east major exterior wall 03",
+      "wallId": "wall-03",
+      "orientation": "east",
+      "sourceKind": "wall-reference",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-03.jpg",
+      "imagePath": "../walls/wall-03.jpg",
+      "widthMeters": 18.16,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "verified",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "approved-reference",
+      "notes": "",
+      "countInference": {
+        "method": "approved-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.96,
+          "evidence": "approved wall source",
+          "requiresReview": false,
+          "widthMeters": 18.16,
+          "referenceRequired": false
+        }
+      ]
+    },
+    {
+      "id": "wall-04",
+      "title": "southeast major exterior wall 04",
+      "wallId": "wall-04",
+      "orientation": "southeast",
+      "sourceKind": "wall-reference",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-04.jpg",
+      "imagePath": "../walls/wall-04.jpg",
+      "widthMeters": 21.35,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 21.35,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-05",
+      "title": "southeast major exterior wall 05",
+      "wallId": "wall-05",
+      "orientation": "southeast",
+      "sourceKind": "wall-reference",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-05.jpg",
+      "imagePath": "../walls/wall-05.jpg",
+      "widthMeters": 15.78,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "rejected",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 15.78,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-06",
+      "title": "east major exterior wall 06",
+      "wallId": "wall-06",
+      "orientation": "east",
+      "sourceKind": "wall-reference",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-06.jpg",
+      "imagePath": "../walls/wall-06.jpg",
+      "widthMeters": 19.86,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 19.86,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-07",
+      "title": "northeast major exterior wall 07",
+      "wallId": "wall-07",
+      "orientation": "northeast",
+      "sourceKind": "wall-reference",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-07.jpg",
+      "imagePath": "../walls/wall-07.jpg",
+      "widthMeters": 20.43,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 20.43,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-08",
+      "title": "northeast major exterior wall 08",
+      "wallId": "wall-08",
+      "orientation": "northeast",
+      "sourceKind": "wall-reference",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-08.jpg",
+      "imagePath": "../walls/wall-08.jpg",
+      "widthMeters": 11.13,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "rejected",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 11.13,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-09",
+      "title": "northeast major exterior wall 09",
+      "wallId": "wall-09",
+      "orientation": "northeast",
+      "sourceKind": "wall-reference",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-09.jpg",
+      "imagePath": "../walls/wall-09.jpg",
+      "widthMeters": 18.61,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 18.61,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-10",
+      "title": "north major exterior wall 10",
+      "wallId": "wall-10",
+      "orientation": "north",
+      "sourceKind": "wall-reference",
+      "elevationRole": "right-side",
+      "sourceImage": "references/walls/wall-10.jpg",
+      "imagePath": "../walls/wall-10.jpg",
+      "widthMeters": 45.22,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-partial-needs-verify",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 45.22,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-11",
+      "title": "northwest major exterior wall 11",
+      "wallId": "wall-11",
+      "orientation": "northwest",
+      "sourceKind": "wall-reference",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-11.jpg",
+      "imagePath": "../walls/wall-11.jpg",
+      "widthMeters": 18.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-detail-only",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 18.4,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-12",
+      "title": "northwest major exterior wall 12",
+      "wallId": "wall-12",
+      "orientation": "northwest",
+      "sourceKind": "wall-reference",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-12.jpg",
+      "imagePath": "../walls/wall-12.jpg",
+      "widthMeters": 13.99,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "rejected",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 13.99,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-13",
+      "title": "northwest major exterior wall 13",
+      "wallId": "wall-13",
+      "orientation": "northwest",
+      "sourceKind": "wall-reference",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-13.jpg",
+      "imagePath": "../walls/wall-13.jpg",
+      "widthMeters": 20.6,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "unreviewed-reference",
+      "notes": "",
+      "countInference": {
+        "method": "unreviewed-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "needs-review",
+          "confidence": 0.45,
+          "evidence": "saved wall image pending review",
+          "requiresReview": true,
+          "widthMeters": 20.6,
+          "referenceRequired": true
+        }
+      ]
+    },
+    {
+      "id": "wall-14",
+      "title": "southwest major exterior wall 14",
+      "wallId": "wall-14",
+      "orientation": "southwest",
+      "sourceKind": "wall-reference",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-14.jpg",
+      "imagePath": "../walls/wall-14.jpg",
+      "widthMeters": 22.12,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved",
+      "qualityStatus": "linked-partial",
+      "primitiveStatus": "verified",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "approved-reference",
+      "notes": "",
+      "countInference": {
+        "method": "approved-reference",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.96,
+          "evidence": "approved wall source",
+          "requiresReview": false,
+          "widthMeters": 22.12,
+          "referenceRequired": false
+        }
+      ]
+    }
+  ],
+  "auxiliaryPanels": [
+    {
+      "id": "roof",
+      "title": "Roof Plan / Satellite",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "roof",
+      "elevationRole": "roof",
+      "sourceImage": "references/roof-satellite.jpg",
+      "imagePath": "../roof-satellite.jpg",
+      "widthMeters": 45.22,
+      "estimatedHeightMeters": 45.22,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "roof-footprint-only",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "",
+      "countInference": {
+        "method": "approved-rule-layout",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "primitiveHints": [
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "gable_prism_roof",
+          "status": "allowed",
+          "confidence": 0.62,
+          "evidence": "modeling-rules gable/prism roof type or allowed prism zone",
+          "requiresReview": true
+        },
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "flat_roof_slab",
+          "status": "allowed",
+          "confidence": 0.62,
+          "evidence": "modeling-rules flat roof type or allowed flat zone",
+          "requiresReview": true
+        },
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "split_roof_zones",
+          "status": "required",
+          "confidence": 1.0,
+          "evidence": "modeling-rules noSingleBlanketRoofSlab",
+          "requiresReview": false,
+          "required": true
+        }
+      ]
+    }
+  ]
+}

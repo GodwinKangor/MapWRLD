@@ -1,0 +1,50 @@
+{
+  "name": "building__6-hovey-lane__way_874770895",
+  "displayName": "6 Hovey Lane",
+  "osmId": "way/874770895",
+  "originalName": "Areas.698",
+  "type": "buildings",
+  "dimensions": {
+    "x": 14.311203,
+    "y": 35.786377,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 38,
+  "edges": 57,
+  "faces": 20,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 19,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 19,
+    "nonManifoldEdges": 19
+  },
+  "topologyByObject": [
+    {
+      "name": "building__6-hovey-lane__way_874770895",
+      "kind": "base",
+      "vertices": 38,
+      "edges": 57,
+      "faces": 20,
+      "triangles": 0,
+      "quads": 19,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 19,
+      "nonManifoldEdges": 19
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "6 Hovey Lane.glb",
+  "fbx": "6 Hovey Lane.fbx"
+}

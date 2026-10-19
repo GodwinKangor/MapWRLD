@@ -1,0 +1,50 @@
+{
+  "name": "road__pleasant-terrace__way_18847580",
+  "displayName": "Pleasant Terrace",
+  "osmId": "way/18847580",
+  "originalName": "Ways.126",
+  "type": "roads",
+  "dimensions": {
+    "x": 12.526337,
+    "y": 16.03949,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 4,
+  "edges": 3,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 4,
+    "looseEdges": 3,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 3
+  },
+  "topologyByObject": [
+    {
+      "name": "road__pleasant-terrace__way_18847580",
+      "kind": "base",
+      "vertices": 4,
+      "edges": 3,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 4,
+      "looseEdges": 3,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 3
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__pleasant-terrace__way_18847580.glb",
+  "fbx": "road__pleasant-terrace__way_18847580.fbx"
+}

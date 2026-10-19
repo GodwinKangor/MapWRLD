@@ -1,0 +1,50 @@
+{
+  "name": "building__8-carter-street__way_874520384",
+  "displayName": "8 Carter Street",
+  "osmId": "way/874520384",
+  "originalName": "Areas.646",
+  "type": "buildings",
+  "dimensions": {
+    "x": 20.043701,
+    "y": 17.5047,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 26,
+  "edges": 39,
+  "faces": 14,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 13,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 13,
+    "nonManifoldEdges": 13
+  },
+  "topologyByObject": [
+    {
+      "name": "building__8-carter-street__way_874520384",
+      "kind": "base",
+      "vertices": 26,
+      "edges": 39,
+      "faces": 14,
+      "triangles": 0,
+      "quads": 13,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 13,
+      "nonManifoldEdges": 13
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "8 Carter Street.glb",
+  "fbx": "8 Carter Street.fbx"
+}

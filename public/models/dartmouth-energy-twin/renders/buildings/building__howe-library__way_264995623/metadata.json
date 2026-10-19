@@ -1,0 +1,50 @@
+{
+  "name": "building__howe-library__way_264995623",
+  "displayName": "Howe Library",
+  "osmId": "way/264995623",
+  "originalName": "Areas.191",
+  "type": "buildings",
+  "dimensions": {
+    "x": 50.635921,
+    "y": 47.54129,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 32,
+  "edges": 48,
+  "faces": 17,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 16,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 16,
+    "nonManifoldEdges": 16
+  },
+  "topologyByObject": [
+    {
+      "name": "building__howe-library__way_264995623",
+      "kind": "base",
+      "vertices": 32,
+      "edges": 48,
+      "faces": 17,
+      "triangles": 0,
+      "quads": 16,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 16,
+      "nonManifoldEdges": 16
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Howe Library.glb",
+  "fbx": "Howe Library.fbx"
+}

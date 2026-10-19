@@ -1,0 +1,50 @@
+{
+  "name": "building__17-choate-road__way_641064110",
+  "displayName": "17 Choate Road",
+  "osmId": "way/641064110",
+  "originalName": "Areas.375",
+  "type": "buildings",
+  "dimensions": {
+    "x": 30.085678,
+    "y": 23.276733,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 32,
+  "edges": 48,
+  "faces": 17,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 16,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 16,
+    "nonManifoldEdges": 16
+  },
+  "topologyByObject": [
+    {
+      "name": "building__17-choate-road__way_641064110",
+      "kind": "base",
+      "vertices": 32,
+      "edges": 48,
+      "faces": 17,
+      "triangles": 0,
+      "quads": 16,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 16,
+      "nonManifoldEdges": 16
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "17 Choate Road.glb",
+  "fbx": "17 Choate Road.fbx"
+}

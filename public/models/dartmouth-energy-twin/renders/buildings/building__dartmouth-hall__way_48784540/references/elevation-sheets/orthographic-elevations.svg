@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1124" height="3416" viewBox="0 0 1124 3416">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202020}.title{font-size:18px;font-weight:700}.role{font-size:15px;font-weight:700}.meta{font-size:11px}.tiny{font-size:10px}.wall{fill:#fff;stroke:#222;stroke-width:1.4}.grid{stroke:#d8d8d8;stroke-width:.65}.window{fill:#72b8ff;stroke:#063f78;stroke-width:1.1;fill-opacity:.5}.door{fill:#f4aa42;stroke:#7a3f00;stroke-width:1.3;fill-opacity:.62}.feature{fill:#b58cff;stroke:#4a238a;stroke-width:1.25;fill-opacity:.25}.stair{fill:#77c879;stroke:#1b5e20;stroke-width:1.25;fill-opacity:.33}.roof{fill:#e6e6e6;stroke:#333;stroke-width:1.2}.openingText{font-size:9px;font-weight:700;fill:#111}
+</style>
+<rect width="100%" height="100%" fill="#f7f6f1"/>
+<text x="42" y="28" class="title">Dartmouth Hall orthographic modeling elevations</text>
+<text x="42" y="47" class="meta">Straightened diagrams generated from approved rules/counts and scaled wall dimensions. Oblique photos remain evidence, not the modeling surface.</text>
+<text x="42" y="62" class="role">Front Elevation</text>
+<rect class="wall" x="42.0" y="74.0" width="360.0" height="430.0"/>
+<line class="grid" x1="134.8" y1="74.0" x2="134.8" y2="504.0"/>
+<line class="grid" x1="227.6" y1="74.0" x2="227.6" y2="504.0"/>
+<line class="grid" x1="320.4" y1="74.0" x2="320.4" y2="504.0"/>
+<line class="grid" x1="42.0" y1="350.4" x2="402.0" y2="350.4"/>
+<line class="grid" x1="42.0" y1="196.9" x2="402.0" y2="196.9"/>
+<rect class="window" x="77.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="80.1" y="357.8">W01</text>
+<rect class="window" x="122.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="357.8">W02</text>
+<rect class="window" x="167.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="170.1" y="357.8">W03</text>
+<rect class="window" x="257.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="260.1" y="357.8">W04</text>
+<rect class="window" x="302.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="305.1" y="357.8">W05</text>
+<rect class="window" x="347.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="350.1" y="357.8">W06</text>
+<rect class="window" x="77.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="80.1" y="245.7">W07</text>
+<rect class="window" x="122.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="245.7">W08</text>
+<rect class="window" x="167.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="170.1" y="245.7">W09</text>
+<rect class="window" x="212.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="215.1" y="245.7">W10</text>
+<rect class="window" x="257.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="260.1" y="245.7">W11</text>
+<rect class="window" x="302.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="305.1" y="245.7">W12</text>
+<rect class="window" x="347.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="350.1" y="245.7">W13</text>
+<rect class="window" x="77.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="80.1" y="133.6">W14</text>
+<rect class="window" x="122.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="133.6">W15</text>
+<rect class="window" x="167.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="170.1" y="133.6">W16</text>
+<rect class="window" x="212.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="215.1" y="133.6">W17</text>
+<rect class="window" x="257.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="260.1" y="133.6">W18</text>
+<rect class="window" x="302.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="305.1" y="133.6">W19</text>
+<rect class="window" x="347.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="350.1" y="133.6">W20</text>
+<rect class="door" x="210.4" y="418.0" width="23.2" height="86.0"/>
+<text class="openingText" x="213.4" y="430.0">D01</text>
+<text x="46.0" y="499.0" class="tiny">West South Wing</text>
+<rect class="wall" x="414.0" y="74.0" width="360.0" height="430.0"/>
+<line class="grid" x1="512.1" y1="74.0" x2="512.1" y2="504.0"/>
+<line class="grid" x1="610.2" y1="74.0" x2="610.2" y2="504.0"/>
+<line class="grid" x1="708.3" y1="74.0" x2="708.3" y2="504.0"/>
+<line class="grid" x1="414.0" y1="350.4" x2="774.0" y2="350.4"/>
+<line class="grid" x1="414.0" y1="196.9" x2="774.0" y2="196.9"/>
+<rect class="window" x="524.1" y="339.7" width="19.8" height="66.0"/>
+<text class="openingText" x="527.1" y="351.7">W01</text>
+<rect class="window" x="644.1" y="339.7" width="19.8" height="66.0"/>
+<text class="openingText" x="647.1" y="351.7">W02</text>
+<rect class="window" x="524.1" y="215.0" width="19.8" height="66.0"/>
+<text class="openingText" x="527.1" y="227.0">W03</text>
+<rect class="window" x="644.1" y="215.0" width="19.8" height="66.0"/>
+<text class="openingText" x="647.1" y="227.0">W04</text>
+<rect class="window" x="524.1" y="90.9" width="19.8" height="65.5"/>
+<text class="openingText" x="527.1" y="102.9">W05</text>
+<rect class="window" x="644.1" y="90.9" width="19.8" height="65.5"/>
+<text class="openingText" x="647.1" y="102.9">W06</text>
+<rect class="door" x="516.9" y="418.0" width="24.5" height="86.0"/>
+<text class="openingText" x="519.9" y="430.0">D01</text>
+<rect class="door" x="581.7" y="418.0" width="24.5" height="86.0"/>
+<text class="openingText" x="584.7" y="430.0">D02</text>
+<rect class="door" x="646.5" y="418.0" width="24.5" height="86.0"/>
+<text class="openingText" x="649.5" y="430.0">D03</text>
+<rect class="feature" x="550.3" y="376.5" width="90.2" height="127.5"/>
+<text class="openingText" x="553.3" y="388.5">F01</text>
+<rect class="feature" x="558.2" y="378.1" width="74.6" height="16.9"/>
+<text class="openingText" x="561.2" y="390.1">F02</text>
+<rect class="feature" x="570.0" y="281.3" width="51.0" height="38.4"/>
+<text class="openingText" x="573.0" y="293.3">F03</text>
+<rect class="feature" x="414.0" y="348.3" width="360.0" height="6.8"/>
+<text class="openingText" x="417.0" y="360.3">F04</text>
+<rect class="feature" x="416.9" y="74.0" width="4.3" height="430.0"/>
+<text class="openingText" x="419.9" y="86.0">F05</text>
+<rect class="feature" x="766.7" y="74.0" width="4.3" height="430.0"/>
+<text class="openingText" x="769.7" y="86.0">F06</text>
+<rect class="stair" x="546.4" y="490.2" width="97.1" height="13.8"/>
+<text class="openingText" x="549.4" y="502.2">S01</text>
+<rect class="stair" x="540.5" y="485.6" width="108.9" height="23.0"/>
+<text class="openingText" x="543.5" y="497.6">S02</text>
+<text x="418.0" y="499.0" class="tiny">West Center Entry</text>
+<rect class="wall" x="786.0" y="74.0" width="360.0" height="430.0"/>
+<line class="grid" x1="878.8" y1="74.0" x2="878.8" y2="504.0"/>
+<line class="grid" x1="971.6" y1="74.0" x2="971.6" y2="504.0"/>
+<line class="grid" x1="1064.4" y1="74.0" x2="1064.4" y2="504.0"/>
+<line class="grid" x1="786.0" y1="350.4" x2="1146.0" y2="350.4"/>
+<line class="grid" x1="786.0" y1="196.9" x2="1146.0" y2="196.9"/>
+<rect class="window" x="821.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="824.1" y="357.8">W01</text>
+<rect class="window" x="866.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="869.1" y="357.8">W02</text>
+<rect class="window" x="911.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="914.1" y="357.8">W03</text>
+<rect class="window" x="1001.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="1004.1" y="357.8">W04</text>
+<rect class="window" x="1046.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="1049.1" y="357.8">W05</text>
+<rect class="window" x="1091.1" y="345.8" width="19.8" height="66.0"/>
+<text class="openingText" x="1094.1" y="357.8">W06</text>
+<rect class="window" x="821.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="824.1" y="245.7">W07</text>
+<rect class="window" x="866.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="869.1" y="245.7">W08</text>
+<rect class="window" x="911.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="914.1" y="245.7">W09</text>
+<rect class="window" x="956.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="959.1" y="245.7">W10</text>
+<rect class="window" x="1001.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="1004.1" y="245.7">W11</text>
+<rect class="window" x="1046.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="1049.1" y="245.7">W12</text>
+<rect class="window" x="1091.1" y="233.7" width="19.8" height="66.0"/>
+<text class="openingText" x="1094.1" y="245.7">W13</text>
+<rect class="window" x="821.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="824.1" y="133.6">W14</text>
+<rect class="window" x="866.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="869.1" y="133.6">W15</text>
+<rect class="window" x="911.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="914.1" y="133.6">W16</text>
+<rect class="window" x="956.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="959.1" y="133.6">W17</text>
+<rect class="window" x="1001.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="1004.1" y="133.6">W18</text>
+<rect class="window" x="1046.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="1049.1" y="133.6">W19</text>
+<rect class="window" x="1091.1" y="121.6" width="19.8" height="66.0"/>
+<text class="openingText" x="1094.1" y="133.6">W20</text>
+<rect class="door" x="954.4" y="418.0" width="23.2" height="86.0"/>
+<text class="openingText" x="957.4" y="430.0">D01</text>
+<text x="790.0" y="499.0" class="tiny">West North Wing</text>
+<text x="42" y="522" class="meta">counts: windows=46 doors=5</text>
+<text x="42" y="538" class="tiny">proof: west-south-wing: windows rows 6+7+7 = 20; west-south-wing: doors 1 row x 1 = 1; west-center-entry: windows 3 rows x 2 = 6; west-center-entry: doors 1 row x 3 = 3; west-north-wing: windows rows 6+7+7 = 20; west-north-wing: doors 1 row x 1 = 1</text>
+<text x="42" y="554" class="tiny">sources: references/west.jpg, references/walls/wall-05.jpg, references/west.jpg</text>
+<text x="42" y="612" class="role">Rear Elevation</text>
+<rect class="wall" x="42.0" y="624.0" width="360.0" height="430.0"/>
+<line class="grid" x1="134.8" y1="624.0" x2="134.8" y2="1054.0"/>
+<line class="grid" x1="227.6" y1="624.0" x2="227.6" y2="1054.0"/>
+<line class="grid" x1="320.4" y1="624.0" x2="320.4" y2="1054.0"/>
+<line class="grid" x1="42.0" y1="900.4" x2="402.0" y2="900.4"/>
+<line class="grid" x1="42.0" y1="746.9" x2="402.0" y2="746.9"/>
+<rect class="window" x="122.1" y="895.8" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="907.8">W01</text>
+<rect class="window" x="302.1" y="895.8" width="19.8" height="66.0"/>
+<text class="openingText" x="305.1" y="907.8">W02</text>
+<rect class="window" x="122.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="795.7">W03</text>
+<rect class="window" x="212.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="215.1" y="795.7">W04</text>
+<rect class="window" x="302.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="305.1" y="795.7">W05</text>
+<rect class="window" x="122.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="683.6">W06</text>
+<rect class="window" x="212.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="215.1" y="683.6">W07</text>
+<rect class="window" x="302.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="305.1" y="683.6">W08</text>
+<rect class="door" x="210.4" y="968.0" width="23.2" height="86.0"/>
+<text class="openingText" x="213.4" y="980.0">D01</text>
+<rect class="feature" x="122.7" y="955.7" width="40.8" height="16.9"/>
+<text class="openingText" x="125.7" y="967.7">F01</text>
+<rect class="stair" x="124.6" y="1043.2" width="37.1" height="10.7"/>
+<text class="openingText" x="127.6" y="1055.2">S01</text>
+<text x="46.0" y="1049.0" class="tiny">East South Wing</text>
+<rect class="wall" x="414.0" y="624.0" width="360.0" height="430.0"/>
+<line class="grid" x1="506.8" y1="624.0" x2="506.8" y2="1054.0"/>
+<line class="grid" x1="599.6" y1="624.0" x2="599.6" y2="1054.0"/>
+<line class="grid" x1="692.4" y1="624.0" x2="692.4" y2="1054.0"/>
+<line class="grid" x1="414.0" y1="900.4" x2="774.0" y2="900.4"/>
+<line class="grid" x1="414.0" y1="746.9" x2="774.0" y2="746.9"/>
+<rect class="window" x="524.1" y="895.8" width="19.8" height="66.0"/>
+<text class="openingText" x="527.1" y="907.8">W01</text>
+<rect class="window" x="644.1" y="895.8" width="19.8" height="66.0"/>
+<text class="openingText" x="647.1" y="907.8">W02</text>
+<rect class="window" x="524.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="527.1" y="795.7">W03</text>
+<rect class="window" x="644.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="647.1" y="795.7">W04</text>
+<rect class="window" x="524.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="527.1" y="683.6">W05</text>
+<rect class="window" x="644.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="647.1" y="683.6">W06</text>
+<rect class="feature" x="415.9" y="624.0" width="4.6" height="430.0"/>
+<text class="openingText" x="418.9" y="636.0">F01</text>
+<text x="418.0" y="1049.0" class="tiny">East Center Bay</text>
+<rect class="wall" x="786.0" y="624.0" width="360.0" height="430.0"/>
+<line class="grid" x1="878.8" y1="624.0" x2="878.8" y2="1054.0"/>
+<line class="grid" x1="971.6" y1="624.0" x2="971.6" y2="1054.0"/>
+<line class="grid" x1="1064.4" y1="624.0" x2="1064.4" y2="1054.0"/>
+<line class="grid" x1="786.0" y1="900.4" x2="1146.0" y2="900.4"/>
+<line class="grid" x1="786.0" y1="746.9" x2="1146.0" y2="746.9"/>
+<rect class="window" x="866.1" y="895.8" width="19.8" height="66.0"/>
+<text class="openingText" x="869.1" y="907.8">W01</text>
+<rect class="window" x="1046.1" y="895.8" width="19.8" height="66.0"/>
+<text class="openingText" x="1049.1" y="907.8">W02</text>
+<rect class="window" x="866.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="869.1" y="795.7">W03</text>
+<rect class="window" x="956.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="959.1" y="795.7">W04</text>
+<rect class="window" x="1046.1" y="783.7" width="19.8" height="66.0"/>
+<text class="openingText" x="1049.1" y="795.7">W05</text>
+<rect class="window" x="866.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="869.1" y="683.6">W06</text>
+<rect class="window" x="956.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="959.1" y="683.6">W07</text>
+<rect class="window" x="1046.1" y="671.6" width="19.8" height="66.0"/>
+<text class="openingText" x="1049.1" y="683.6">W08</text>
+<rect class="door" x="954.4" y="968.0" width="23.2" height="86.0"/>
+<text class="openingText" x="957.4" y="980.0">D01</text>
+<rect class="feature" x="866.7" y="955.7" width="40.8" height="16.9"/>
+<text class="openingText" x="869.7" y="967.7">F01</text>
+<rect class="stair" x="868.6" y="1043.2" width="37.1" height="10.7"/>
+<text class="openingText" x="871.6" y="1055.2">S01</text>
+<text x="790.0" y="1049.0" class="tiny">East North Wing</text>
+<text x="42" y="1072" class="meta">counts: windows=22 doors=2</text>
+<text x="42" y="1088" class="tiny">proof: east-south-wing: windows rows 2+3+3 = 8; east-south-wing: doors 1 row x 1 = 1; east-center-bay: windows 3 rows x 2 = 6; east-north-wing: windows rows 2+3+3 = 8; east-north-wing: doors 1 row x 1 = 1</text>
+<text x="42" y="1104" class="tiny">sources: references/east.jpg, references/east.jpg, references/east.jpg</text>
+<text x="42" y="1162" class="role">Left Side Elevation</text>
+<rect class="wall" x="42.0" y="1174.0" width="360.0" height="430.0"/>
+<line class="grid" x1="134.8" y1="1174.0" x2="134.8" y2="1604.0"/>
+<line class="grid" x1="227.6" y1="1174.0" x2="227.6" y2="1604.0"/>
+<line class="grid" x1="320.4" y1="1174.0" x2="320.4" y2="1604.0"/>
+<line class="grid" x1="42.0" y1="1450.4" x2="402.0" y2="1450.4"/>
+<line class="grid" x1="42.0" y1="1296.9" x2="402.0" y2="1296.9"/>
+<rect class="window" x="122.1" y="1462.7" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="1474.7">W01</text>
+<rect class="window" x="167.1" y="1462.7" width="19.8" height="66.0"/>
+<text class="openingText" x="170.1" y="1474.7">W02</text>
+<rect class="window" x="212.1" y="1462.7" width="19.8" height="66.0"/>
+<text class="openingText" x="215.1" y="1474.7">W03</text>
+<rect class="window" x="257.1" y="1462.7" width="19.8" height="66.0"/>
+<text class="openingText" x="260.1" y="1474.7">W04</text>
+<rect class="window" x="347.1" y="1462.7" width="19.8" height="66.0"/>
+<text class="openingText" x="350.1" y="1474.7">W05</text>
+<rect class="window" x="122.1" y="1350.6" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="1362.6">W06</text>
+<rect class="window" x="167.1" y="1350.6" width="19.8" height="66.0"/>
+<text class="openingText" x="170.1" y="1362.6">W07</text>
+<rect class="window" x="212.1" y="1350.6" width="19.8" height="66.0"/>
+<text class="openingText" x="215.1" y="1362.6">W08</text>
+<rect class="window" x="257.1" y="1350.6" width="19.8" height="66.0"/>
+<text class="openingText" x="260.1" y="1362.6">W09</text>
+<rect class="window" x="347.1" y="1350.6" width="19.8" height="66.0"/>
+<text class="openingText" x="350.1" y="1362.6">W10</text>
+<rect class="window" x="122.1" y="1238.5" width="19.8" height="66.0"/>
+<text class="openingText" x="125.1" y="1250.5">W11</text>
+<rect class="window" x="167.1" y="1238.5" width="19.8" height="66.0"/>
+<text class="openingText" x="170.1" y="1250.5">W12</text>
+<rect class="window" x="212.1" y="1238.5" width="19.8" height="66.0"/>
+<text class="openingText" x="215.1" y="1250.5">W13</text>
+<rect class="window" x="257.1" y="1238.5" width="19.8" height="66.0"/>
+<text class="openingText" x="260.1" y="1250.5">W14</text>
+<rect class="window" x="347.1" y="1238.5" width="19.8" height="66.0"/>
+<text class="openingText" x="350.1" y="1250.5">W15</text>
+<rect class="feature" x="83.8" y="1570.2" width="20.4" height="20.0"/>
+<text class="openingText" x="86.8" y="1582.2">F01</text>
+<rect class="feature" x="240.6" y="1570.2" width="20.4" height="20.0"/>
+<text class="openingText" x="243.6" y="1582.2">F02</text>
+<text x="46.0" y="1599.0" class="tiny">South Main</text>
+<text x="42" y="1622" class="meta">counts: windows=15 doors=0</text>
+<text x="42" y="1638" class="tiny">proof: south-main: windows 3 rows x 5 = 15</text>
+<text x="42" y="1654" class="tiny">sources: references/south.jpg</text>
+<text x="42" y="1712" class="role">Right Side Elevation</text>
+<rect class="wall" x="42.0" y="1724.0" width="360.0" height="430.0"/>
+<line class="grid" x1="134.8" y1="1724.0" x2="134.8" y2="2154.0"/>
+<line class="grid" x1="227.6" y1="1724.0" x2="227.6" y2="2154.0"/>
+<line class="grid" x1="320.4" y1="1724.0" x2="320.4" y2="2154.0"/>
+<line class="grid" x1="42.0" y1="2000.4" x2="402.0" y2="2000.4"/>
+<line class="grid" x1="42.0" y1="1846.9" x2="402.0" y2="1846.9"/>
+<rect class="window" x="72.1" y="2012.7" width="19.8" height="66.0"/>
+<text class="openingText" x="75.1" y="2024.7">W01</text>
+<rect class="window" x="152.1" y="2012.7" width="19.8" height="66.0"/>
+<text class="openingText" x="155.1" y="2024.7">W02</text>
+<rect class="window" x="192.1" y="2012.7" width="19.8" height="66.0"/>
+<text class="openingText" x="195.1" y="2024.7">W03</text>
+<rect class="window" x="232.1" y="2012.7" width="19.8" height="66.0"/>
+<text class="openingText" x="235.1" y="2024.7">W04</text>
+<rect class="window" x="272.1" y="2012.7" width="19.8" height="66.0"/>
+<text class="openingText" x="275.1" y="2024.7">W05</text>
+<rect class="window" x="352.1" y="2012.7" width="19.8" height="66.0"/>
+<text class="openingText" x="355.1" y="2024.7">W06</text>
+<rect class="window" x="72.1" y="1900.6" width="19.8" height="66.0"/>
+<text class="openingText" x="75.1" y="1912.6">W07</text>
+<rect class="window" x="152.1" y="1900.6" width="19.8" height="66.0"/>
+<text class="openingText" x="155.1" y="1912.6">W08</text>
+<rect class="window" x="192.1" y="1900.6" width="19.8" height="66.0"/>
+<text class="openingText" x="195.1" y="1912.6">W09</text>
+<rect class="window" x="232.1" y="1900.6" width="19.8" height="66.0"/>
+<text class="openingText" x="235.1" y="1912.6">W10</text>
+<rect class="window" x="272.1" y="1900.6" width="19.8" height="66.0"/>
+<text class="openingText" x="275.1" y="1912.6">W11</text>
+<rect class="window" x="352.1" y="1900.6" width="19.8" height="66.0"/>
+<text class="openingText" x="355.1" y="1912.6">W12</text>
+<rect class="window" x="72.1" y="1788.5" width="19.8" height="66.0"/>
+<text class="openingText" x="75.1" y="1800.5">W13</text>
+<rect class="window" x="152.1" y="1788.5" width="19.8" height="66.0"/>
+<text class="openingText" x="155.1" y="1800.5">W14</text>
+<rect class="window" x="192.1" y="1788.5" width="19.8" height="66.0"/>
+<text class="openingText" x="195.1" y="1800.5">W15</text>
+<rect class="window" x="232.1" y="1788.5" width="19.8" height="66.0"/>
+<text class="openingText" x="235.1" y="1800.5">W16</text>
+<rect class="window" x="272.1" y="1788.5" width="19.8" height="66.0"/>
+<text class="openingText" x="275.1" y="1800.5">W17</text>
+<rect class="window" x="352.1" y="1788.5" width="19.8" height="66.0"/>
+<text class="openingText" x="355.1" y="1800.5">W18</text>
+<rect class="feature" x="119.9" y="2120.2" width="20.4" height="20.0"/>
+<text class="openingText" x="122.9" y="2132.2">F01</text>
+<rect class="feature" x="305.5" y="2120.2" width="20.4" height="20.0"/>
+<text class="openingText" x="308.5" y="2132.2">F02</text>
+<text x="46.0" y="2149.0" class="tiny">North Main</text>
+<text x="42" y="2172" class="meta">counts: windows=18 doors=0</text>
+<text x="42" y="2188" class="tiny">proof: north-main: windows 3 rows x 6 = 18</text>
+<text x="42" y="2204" class="tiny">sources: references/north.jpg</text>
+<text x="42" y="2262" class="role">Roof Plan</text>
+<rect class="roof" x="42.0" y="2274.0" width="360.0" height="430.0"/>
+<line class="grid" x1="134.8" y1="2274.0" x2="134.8" y2="2523.4"/>
+<line class="grid" x1="227.6" y1="2274.0" x2="227.6" y2="2523.4"/>
+<line class="grid" x1="320.4" y1="2274.0" x2="320.4" y2="2523.4"/>
+<line class="grid" x1="42.0" y1="2459.1" x2="402.0" y2="2459.1"/>
+<line class="grid" x1="42.0" y1="2394.8" x2="402.0" y2="2394.8"/>
+<line class="grid" x1="42.0" y1="2330.6" x2="402.0" y2="2330.6"/>
+<line x1="85.2" y1="2398.7" x2="358.8" y2="2398.7" stroke="#555" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="48.0" y="2288.0" class="tiny">roof zones from satellite reference</text>
+<text x="46.0" y="2699.0" class="tiny">Roof Plan / Satellite | hip_prism_roof, split_roof_zones, dormer_prism, +2 more</text>
+<polygon points="142.8,2318.9 272.4,2318.9 301.2,2351.3 301.2,2446.1 265.2,2478.5 171.6,2478.5 139.2,2446.1 139.2,2351.3" fill="#8ecae6" fill-opacity="0.24" stroke="#1d3557" stroke-width="1.2" stroke-linejoin="round"/>
+<text class="openingText" x="219.6" y="2410.7">R01</text>
+<polygon points="178.8,2488.5 265.2,2488.5 222.0,2453.6" fill="#ffb703" fill-opacity="0.24" stroke="#1d3557" stroke-width="1.2" stroke-linejoin="round"/>
+<text class="openingText" x="225.0" y="2488.8">R02</text>
+<polygon points="171.6,2286.5 272.4,2286.5 290.4,2311.4 261.6,2323.9 182.4,2323.9 153.6,2311.4" fill="#90be6d" fill-opacity="0.24" stroke="#1d3557" stroke-width="1.2" stroke-linejoin="round"/>
+<text class="openingText" x="225.0" y="2319.3">R03</text>
+<polygon points="142.8,2468.5 301.2,2468.5 286.8,2510.9 157.2,2510.9" fill="#b5179e" fill-opacity="0.24" stroke="#1d3557" stroke-width="1.2" stroke-linejoin="round"/>
+<text class="openingText" x="225.0" y="2501.7">R04</text>
+<polygon points="276.0,2316.4 351.6,2323.9 351.6,2473.5 301.2,2481.0 301.2,2351.3 276.0,2336.3" fill="#c77dff" fill-opacity="0.24" stroke="#1d3557" stroke-width="1.2" stroke-linejoin="round"/>
+<text class="openingText" x="312.6" y="2392.4">R05</text>
+<polygon points="202.2,2385.0 241.8,2385.0 241.8,2412.4 202.2,2412.4" fill="#ffffff" fill-opacity="0.24" stroke="#1d3557" stroke-width="1.2" stroke-linejoin="round"/>
+<text class="openingText" x="225.0" y="2410.7">R06</text>
+<rect x="181.5" y="2329.5" width="16.2" height="8.7" fill="#e63946" fill-opacity="0.46" stroke="#1d3557" stroke-width="1.1" transform="rotate(0.0 189.6 2333.9)"/>
+<text class="openingText" x="198.3" y="2342.8">R07.1</text>
+<rect x="165.8" y="2358.8" width="18.7" height="10.0" fill="#e63946" fill-opacity="0.46" stroke="#1d3557" stroke-width="1.1" transform="rotate(-16.0 175.2 2363.8)"/>
+<text class="openingText" x="184.8" y="2372.3">R07.2</text>
+<rect x="259.4" y="2363.8" width="18.7" height="10.0" fill="#e63946" fill-opacity="0.46" stroke="#1d3557" stroke-width="1.1" transform="rotate(12.0 268.8 2368.8)"/>
+<text class="openingText" x="278.4" y="2377.3">R07.3</text>
+<rect x="176.6" y="2431.1" width="18.7" height="10.0" fill="#e63946" fill-opacity="0.46" stroke="#1d3557" stroke-width="1.1" transform="rotate(-13.0 186.0 2436.1)"/>
+<text class="openingText" x="195.6" y="2444.6">R07.4</text>
+<rect x="259.4" y="2433.6" width="18.7" height="10.0" fill="#e63946" fill-opacity="0.46" stroke="#1d3557" stroke-width="1.1" transform="rotate(13.0 268.8 2438.6)"/>
+<text class="openingText" x="278.4" y="2447.1">R07.5</text>
+<rect x="183.8" y="2476.0" width="18.7" height="10.0" fill="#e63946" fill-opacity="0.46" stroke="#1d3557" stroke-width="1.1" transform="rotate(-12.0 193.2 2481.0)"/>
+<text class="openingText" x="202.8" y="2489.5">R07.6</text>
+<rect x="237.8" y="2478.5" width="18.7" height="10.0" fill="#e63946" fill-opacity="0.46" stroke="#1d3557" stroke-width="1.1" transform="rotate(12.0 247.2 2483.5)"/>
+<text class="openingText" x="256.8" y="2492.0">R07.7</text>
+<polyline points="218.4,2323.9 218.4,2473.5" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="218.4,2398.7 142.8,2318.9 301.2,2351.3 265.2,2478.5 139.2,2446.1" fill="none" stroke="#345" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="222.0,2456.1 222.0,2488.5" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="222.0,2289.0 222.0,2321.4" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="222.0,2471.0 222.0,2508.4" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="222.0,2488.5 142.8,2468.5 301.2,2468.5 157.2,2510.9 286.8,2510.9" fill="none" stroke="#345" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="301.2,2351.3 301.2,2481.0" fill="none" stroke="#345" stroke-width="1.5" stroke-dasharray="5 4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="48.0" y="2530.4" class="tiny">3D roof elevation profiles</text>
+<rect x="48.0" y="2533.4" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="54.0" y1="2597.7" x2="212.0" y2="2597.7" stroke="#333" stroke-width="1"/>
+<text x="52.0" y="2544.4" class="tiny">front</text>
+<polygon points="56.5,2597.7 85.4,2579.9 180.6,2579.9 209.5,2597.7" fill="#8ecae6" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="59.5" y="2609.7">P-front-main-hip</text>
+<polygon points="109.2,2597.7 133.0,2567.4 156.8,2597.7" fill="#ffb703" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="112.2" y="2609.7">P-front-gable</text>
+<polygon points="122.8,2579.9 143.2,2579.9 143.2,2572.6 122.8,2572.6" fill="#ffffff" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="125.8" y="2591.9">P-front-cupola-pad</text>
+<rect x="226.0" y="2533.4" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="232.0" y1="2597.7" x2="390.0" y2="2597.7" stroke="#333" stroke-width="1"/>
+<text x="230.0" y="2544.4" class="tiny">rear</text>
+<polygon points="236.2,2597.7 263.4,2581.0 348.4,2581.0 385.8,2597.7" fill="#8ecae6" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="239.2" y="2609.7">P-rear-main-hip</text>
+<polygon points="277.0,2597.7 311.0,2575.7 345.0,2597.7" fill="#90be6d" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="280.0" y="2609.7">P-rear-hip-zone</text>
+<polygon points="345.0,2597.7 375.6,2585.1 389.2,2597.7" fill="#c77dff" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="348.0" y="2609.7">P-rear-wing-strip</text>
+<rect x="48.0" y="2615.7" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="54.0" y1="2680.0" x2="212.0" y2="2680.0" stroke="#333" stroke-width="1"/>
+<text x="52.0" y="2626.7" class="tiny">left-side</text>
+<polygon points="54.8,2680.0 75.2,2664.3 190.8,2664.3 211.2,2680.0" fill="#8ecae6" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="57.8" y="2692.0">P-left-main-hip</text>
+<polygon points="167.0,2680.0 190.8,2664.3 211.2,2680.0" fill="#b5179e" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="170.0" y="2692.0">P-left-front-cap</text>
+<rect x="226.0" y="2615.7" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="232.0" y1="2680.0" x2="390.0" y2="2680.0" stroke="#333" stroke-width="1"/>
+<text x="230.0" y="2626.7" class="tiny">right-side</text>
+<polygon points="232.8,2680.0 253.2,2664.3 362.0,2664.3 389.2,2680.0" fill="#8ecae6" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="235.8" y="2692.0">P-right-main-hip</text>
+<polygon points="324.6,2680.0 351.8,2667.4 389.2,2680.0" fill="#c77dff" fill-opacity="0.34" stroke="#1d3557" stroke-width="1.1" stroke-linejoin="round"/>
+<text class="openingText" x="327.6" y="2692.0">P-right-rear-strip</text>
+<text x="42" y="2722" class="meta">counts: windows=0 doors=0</text>
+<text x="42" y="2738" class="tiny">proof: none</text>
+<text x="42" y="2754" class="tiny">sources: references/roof-satellite.jpg</text>
+<text x="42" y="2812" class="role">Additions / Tower</text>
+<rect class="wall" x="42.0" y="2824.0" width="340.0" height="430.0"/>
+<line class="grid" x1="212.0" y1="2824.0" x2="212.0" y2="3254.0"/>
+<line class="grid" x1="42.0" y1="3164.4" x2="382.0" y2="3164.4"/>
+<line class="grid" x1="42.0" y1="3074.8" x2="382.0" y2="3074.8"/>
+<line class="grid" x1="42.0" y1="2985.2" x2="382.0" y2="2985.2"/>
+<line class="grid" x1="42.0" y1="2895.7" x2="382.0" y2="2895.7"/>
+<text x="46.0" y="3249.0" class="tiny">Tower Front Context</text>
+<rect class="wall" x="394.0" y="2824.0" width="340.0" height="430.0"/>
+<line class="grid" x1="564.0" y1="2824.0" x2="564.0" y2="3254.0"/>
+<line class="grid" x1="394.0" y1="3164.4" x2="734.0" y2="3164.4"/>
+<line class="grid" x1="394.0" y1="3074.8" x2="734.0" y2="3074.8"/>
+<line class="grid" x1="394.0" y1="2985.2" x2="734.0" y2="2985.2"/>
+<line class="grid" x1="394.0" y1="2895.7" x2="734.0" y2="2895.7"/>
+<text x="398.0" y="3249.0" class="tiny">Tower Roof Satellite Context</text>
+<rect class="wall" x="746.0" y="2824.0" width="340.0" height="430.0"/>
+<line class="grid" x1="916.0" y1="2824.0" x2="916.0" y2="3254.0"/>
+<line class="grid" x1="746.0" y1="3164.4" x2="1086.0" y2="3164.4"/>
+<line class="grid" x1="746.0" y1="3074.8" x2="1086.0" y2="3074.8"/>
+<line class="grid" x1="746.0" y1="2985.2" x2="1086.0" y2="2985.2"/>
+<line class="grid" x1="746.0" y1="2895.7" x2="1086.0" y2="2895.7"/>
+<text x="750.0" y="3249.0" class="tiny">Tower Aerial Cupola</text>
+<text x="42" y="3272" class="meta">counts: windows=0 doors=0</text>
+<text x="42" y="3288" class="tiny">proof: none</text>
+<text x="42" y="3304" class="tiny">sources: references/tower/tower-front-context.jpg, references/tower/tower-roof-satellite-context.jpg, references/tower/tower-aerial-cupola.webp</text>
+</svg>

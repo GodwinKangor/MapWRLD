@@ -1,0 +1,50 @@
+{
+  "name": "building__silsby-hall__way_262915142",
+  "displayName": "Silsby Hall",
+  "osmId": "way/262915142",
+  "originalName": "Areas.108",
+  "type": "buildings",
+  "dimensions": {
+    "x": 39.476395,
+    "y": 37.684494,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 20,
+  "edges": 30,
+  "faces": 11,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 10,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 10,
+    "nonManifoldEdges": 10
+  },
+  "topologyByObject": [
+    {
+      "name": "building__silsby-hall__way_262915142",
+      "kind": "base",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 11,
+      "triangles": 0,
+      "quads": 10,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 10,
+      "nonManifoldEdges": 10
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Silsby Hall.glb",
+  "fbx": "Silsby Hall.fbx"
+}

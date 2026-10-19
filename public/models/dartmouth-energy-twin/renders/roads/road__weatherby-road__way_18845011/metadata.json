@@ -1,0 +1,50 @@
+{
+  "name": "road__weatherby-road__way_18845011",
+  "displayName": "Weatherby Road",
+  "osmId": "way/18845011",
+  "originalName": "Ways.110",
+  "type": "roads",
+  "dimensions": {
+    "x": 721.791016,
+    "y": 661.471191,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 103,
+  "edges": 102,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 103,
+    "looseEdges": 102,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 102
+  },
+  "topologyByObject": [
+    {
+      "name": "road__weatherby-road__way_18845011",
+      "kind": "base",
+      "vertices": 103,
+      "edges": 102,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 103,
+      "looseEdges": 102,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 102
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__weatherby-road__way_18845011.glb",
+  "fbx": "road__weatherby-road__way_18845011.fbx"
+}

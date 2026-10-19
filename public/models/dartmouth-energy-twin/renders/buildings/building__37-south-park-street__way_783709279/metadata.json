@@ -1,0 +1,50 @@
+{
+  "name": "building__37-south-park-street__way_783709279",
+  "displayName": "37 South Park Street",
+  "osmId": "way/783709279",
+  "originalName": "Areas.542",
+  "type": "buildings",
+  "dimensions": {
+    "x": 10.146484,
+    "y": 17.360382,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 8,
+  "edges": 12,
+  "faces": 5,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 4,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "building__37-south-park-street__way_783709279",
+      "kind": "base",
+      "vertices": 8,
+      "edges": 12,
+      "faces": 5,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 0,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "37 South Park Street.glb",
+  "fbx": "37 South Park Street.fbx"
+}

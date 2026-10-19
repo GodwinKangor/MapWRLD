@@ -1,0 +1,50 @@
+{
+  "name": "building__chi-delta__way_548057945",
+  "displayName": "Chi Delta",
+  "osmId": "way/548057945",
+  "originalName": "Areas.260",
+  "type": "buildings",
+  "dimensions": {
+    "x": 25.502869,
+    "y": 25.296936,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 36,
+  "edges": 54,
+  "faces": 19,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 18,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 18,
+    "nonManifoldEdges": 18
+  },
+  "topologyByObject": [
+    {
+      "name": "building__chi-delta__way_548057945",
+      "kind": "base",
+      "vertices": 36,
+      "edges": 54,
+      "faces": 19,
+      "triangles": 0,
+      "quads": 18,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 18,
+      "nonManifoldEdges": 18
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Chi Delta.glb",
+  "fbx": "Chi Delta.fbx"
+}

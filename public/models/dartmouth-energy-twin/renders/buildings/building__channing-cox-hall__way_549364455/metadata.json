@@ -1,0 +1,50 @@
+{
+  "name": "building__channing-cox-hall__way_549364455",
+  "displayName": "Channing Cox Hall",
+  "osmId": "way/549364455",
+  "originalName": "Areas.283",
+  "type": "buildings",
+  "dimensions": {
+    "x": 66.67572,
+    "y": 30.191998,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 42,
+  "edges": 63,
+  "faces": 22,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 21,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 21,
+    "nonManifoldEdges": 21
+  },
+  "topologyByObject": [
+    {
+      "name": "building__channing-cox-hall__way_549364455",
+      "kind": "base",
+      "vertices": 42,
+      "edges": 63,
+      "faces": 22,
+      "triangles": 0,
+      "quads": 21,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 21,
+      "nonManifoldEdges": 21
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Channing Cox Hall.glb",
+  "fbx": "Channing Cox Hall.fbx"
+}

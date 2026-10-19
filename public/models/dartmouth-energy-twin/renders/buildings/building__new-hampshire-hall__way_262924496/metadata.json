@@ -1,0 +1,50 @@
+{
+  "name": "building__new-hampshire-hall__way_262924496",
+  "displayName": "New Hampshire Hall",
+  "osmId": "way/262924496",
+  "originalName": "Areas.134",
+  "type": "buildings",
+  "dimensions": {
+    "x": 47.637001,
+    "y": 35.708694,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 18,
+  "edges": 27,
+  "faces": 10,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 9,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 9,
+    "nonManifoldEdges": 9
+  },
+  "topologyByObject": [
+    {
+      "name": "building__new-hampshire-hall__way_262924496",
+      "kind": "base",
+      "vertices": 18,
+      "edges": 27,
+      "faces": 10,
+      "triangles": 0,
+      "quads": 9,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 9,
+      "nonManifoldEdges": 9
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "New Hampshire Hall.glb",
+  "fbx": "New Hampshire Hall.fbx"
+}

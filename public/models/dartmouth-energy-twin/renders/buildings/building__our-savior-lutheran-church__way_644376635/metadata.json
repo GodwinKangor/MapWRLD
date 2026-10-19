@@ -1,0 +1,50 @@
+{
+  "name": "building__our-savior-lutheran-church__way_644376635",
+  "displayName": "Our Savior Lutheran Church",
+  "osmId": "way/644376635",
+  "originalName": "Areas.407",
+  "type": "buildings",
+  "dimensions": {
+    "x": 62.213501,
+    "y": 51.881409,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 72,
+  "edges": 108,
+  "faces": 37,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 36,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 36,
+    "nonManifoldEdges": 36
+  },
+  "topologyByObject": [
+    {
+      "name": "building__our-savior-lutheran-church__way_644376635",
+      "kind": "base",
+      "vertices": 72,
+      "edges": 108,
+      "faces": 37,
+      "triangles": 0,
+      "quads": 36,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 36,
+      "nonManifoldEdges": 36
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Our Savior Lutheran Church.glb",
+  "fbx": "Our Savior Lutheran Church.fbx"
+}

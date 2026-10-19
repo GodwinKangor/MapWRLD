@@ -1,0 +1,50 @@
+{
+  "name": "building__hanover-town-hall__way_247325745",
+  "displayName": "Hanover Town Hall",
+  "osmId": "way/247325745",
+  "originalName": "Areas.089",
+  "type": "buildings",
+  "dimensions": {
+    "x": 24.586319,
+    "y": 13.442108,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 10,
+  "edges": 15,
+  "faces": 6,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 5,
+    "nonManifoldEdges": 5
+  },
+  "topologyByObject": [
+    {
+      "name": "building__hanover-town-hall__way_247325745",
+      "kind": "base",
+      "vertices": 10,
+      "edges": 15,
+      "faces": 6,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 5,
+      "nonManifoldEdges": 5
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Hanover Town Hall.glb",
+  "fbx": "Hanover Town Hall.fbx"
+}

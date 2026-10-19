@@ -1,0 +1,50 @@
+{
+  "name": "building__16-ledyard-lane__way_874770866",
+  "displayName": "16 Ledyard Lane",
+  "osmId": "way/874770866",
+  "originalName": "Areas.685",
+  "type": "buildings",
+  "dimensions": {
+    "x": 16.570435,
+    "y": 21.95578,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 22,
+  "edges": 33,
+  "faces": 12,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 11,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 11,
+    "nonManifoldEdges": 11
+  },
+  "topologyByObject": [
+    {
+      "name": "building__16-ledyard-lane__way_874770866",
+      "kind": "base",
+      "vertices": 22,
+      "edges": 33,
+      "faces": 12,
+      "triangles": 0,
+      "quads": 11,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 11,
+      "nonManifoldEdges": 11
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "16 Ledyard Lane.glb",
+  "fbx": "16 Ledyard Lane.fbx"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "building__39-south-park-street__way_644376630",
+  "displayName": "39 South Park Street",
+  "osmId": "way/644376630",
+  "originalName": "Areas.404",
+  "type": "buildings",
+  "dimensions": {
+    "x": 22.005493,
+    "y": 29.903412,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 8,
+  "edges": 12,
+  "faces": 5,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 4,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "building__39-south-park-street__way_644376630",
+      "kind": "base",
+      "vertices": 8,
+      "edges": 12,
+      "faces": 5,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 0,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "39 South Park Street.glb",
+  "fbx": "39 South Park Street.fbx"
+}

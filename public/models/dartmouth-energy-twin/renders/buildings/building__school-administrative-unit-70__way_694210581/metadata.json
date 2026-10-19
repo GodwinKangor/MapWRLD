@@ -1,0 +1,50 @@
+{
+  "name": "building__school-administrative-unit-70__way_694210581",
+  "displayName": "School Administrative Unit 70",
+  "osmId": "way/694210581",
+  "originalName": "Areas.507",
+  "type": "buildings",
+  "dimensions": {
+    "x": 59.624634,
+    "y": 58.152893,
+    "z": 3.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 26,
+  "edges": 39,
+  "faces": 14,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 13,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 13,
+    "nonManifoldEdges": 13
+  },
+  "topologyByObject": [
+    {
+      "name": "building__school-administrative-unit-70__way_694210581",
+      "kind": "base",
+      "vertices": 26,
+      "edges": 39,
+      "faces": 14,
+      "triangles": 0,
+      "quads": 13,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 13,
+      "nonManifoldEdges": 13
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "School Administrative Unit 70.glb",
+  "fbx": "School Administrative Unit 70.fbx"
+}

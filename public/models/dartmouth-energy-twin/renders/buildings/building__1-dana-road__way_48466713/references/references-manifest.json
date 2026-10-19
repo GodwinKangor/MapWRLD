@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-08-24T17:46:33.994Z",
+  "building": "building__1-dana-road__way_48466713",
+  "displayName": "1 Dana Road",
+  "osmId": "way/48466713",
+  "output": "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466713/references",
+  "referencePolicy": [
+    "Use Street View/Google photos for windows, doors, facade rhythm, roof edge hints, and tower details.",
+    "Use roof satellite/Cesium plan for roof footprint and massing only.",
+    "Use named major exterior wall references for procedural facade details.",
+    "Do not generate facade details for a wall unless that exact wall has an approved reference."
+  ],
+  "approvedForModeling": {
+    "north": false,
+    "east": false,
+    "south": false,
+    "west": false,
+    "roof": false,
+    "walls": {}
+  },
+  "streetView": {
+    "north": {
+      "status": "saved",
+      "path": "references/north.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "mkN4uF5b0yDy9GTtkj45Og",
+      "heading": 173,
+      "fov": 45,
+      "distanceMeters": 38,
+      "camera": {
+        "latitude": 43.704663,
+        "longitude": -72.2797583
+      }
+    },
+    "east": {
+      "status": "saved",
+      "path": "references/east.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "GopqVcxlcOcm2t5qcKf03g",
+      "heading": 265,
+      "fov": 45,
+      "distanceMeters": 36,
+      "camera": {
+        "latitude": 43.7043538,
+        "longitude": -72.2792589
+      }
+    },
+    "south": {
+      "status": "saved",
+      "path": "references/south.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "yMyyQ85l0Pcm5DpWSMtKQQ",
+      "heading": 303,
+      "fov": 45,
+      "distanceMeters": 49,
+      "camera": {
+        "latitude": 43.704081,
+        "longitude": -72.2791919
+      }
+    },
+    "west": {
+      "status": "saved",
+      "path": "references/west.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "esSPMyKw7vBJAAdqmirxlQ",
+      "heading": 118,
+      "fov": 45,
+      "distanceMeters": 46,
+      "camera": {
+        "latitude": 43.7045161,
+        "longitude": -72.2802096
+      }
+    }
+  },
+  "walls": [],
+  "roof": {
+    "status": "saved",
+    "path": "references/roof-satellite.jpg",
+    "source": "Google Maps Static API satellite",
+    "center": {
+      "latitude": 43.7043236,
+      "longitude": -72.2796996
+    },
+    "note": "Use only for roof footprint, orientation, and block/prism decision unless details are clearly visible."
+  },
+  "googlePhotos": [
+    {
+      "status": "no-place-photo",
+      "placeStatus": "REQUEST_DENIED"
+    }
+  ],
+  "cesiumCameraPlan": {
+    "note": "Use in CesiumJS for massing/roof inspection, not exact facade detail extraction.",
+    "roof": {
+      "destination": {
+        "longitude": -72.279699575,
+        "latitude": 43.704323550000005,
+        "heightMeters": 192
+      },
+      "headingDegrees": 0,
+      "pitchDegrees": -86
+    },
+    "oblique": [
+      {
+        "side": "north",
+        "camera": {
+          "latitude": 43.70518689874169,
+          "longitude": -72.27969957499998
+        },
+        "target": {
+          "latitude": 43.704323550000005,
+          "longitude": -72.279699575
+        },
+        "headingDegrees": 180,
+        "pitchDegrees": -28
+      },
+      {
+        "side": "east",
+        "camera": {
+          "latitude": 43.70432354378314,
+          "longitude": -72.27850531463744
+        },
+        "target": {
+          "latitude": 43.704323550000005,
+          "longitude": -72.279699575
+        },
+        "headingDegrees": 270,
+        "pitchDegrees": -28
+      },
+      {
+        "side": "south",
+        "camera": {
+          "latitude": 43.70346020125832,
+          "longitude": -72.27969957499998
+        },
+        "target": {
+          "latitude": 43.704323550000005,
+          "longitude": -72.279699575
+        },
+        "headingDegrees": 0,
+        "pitchDegrees": -28
+      },
+      {
+        "side": "west",
+        "camera": {
+          "latitude": 43.70432354378314,
+          "longitude": -72.28089383536253
+        },
+        "target": {
+          "latitude": 43.704323550000005,
+          "longitude": -72.279699575
+        },
+        "headingDegrees": 90,
+        "pitchDegrees": -28
+      }
+    ]
+  }
+}

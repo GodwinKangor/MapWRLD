@@ -1,0 +1,50 @@
+{
+  "name": "building__the-church-of-christ-at-dartmouth-college__way_49796197",
+  "displayName": "The Church of Christ at Dartmouth College",
+  "osmId": "way/49796197",
+  "originalName": "Areas.054",
+  "type": "buildings",
+  "dimensions": {
+    "x": 60.356281,
+    "y": 51.204285,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 24,
+  "edges": 36,
+  "faces": 13,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 12,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 12,
+    "nonManifoldEdges": 12
+  },
+  "topologyByObject": [
+    {
+      "name": "building__the-church-of-christ-at-dartmouth-college__way_49796197",
+      "kind": "base",
+      "vertices": 24,
+      "edges": 36,
+      "faces": 13,
+      "triangles": 0,
+      "quads": 12,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 12,
+      "nonManifoldEdges": 12
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "The Church of Christ at Dartmouth College.glb",
+  "fbx": "The Church of Christ at Dartmouth College.fbx"
+}

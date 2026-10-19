@@ -1,0 +1,50 @@
+{
+  "name": "building__11-ledyard-lane__way_874770894",
+  "displayName": "11 Ledyard Lane",
+  "osmId": "way/874770894",
+  "originalName": "Areas.697",
+  "type": "buildings",
+  "dimensions": {
+    "x": 30.158043,
+    "y": 32.756165,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 46,
+  "edges": 69,
+  "faces": 24,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 23,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 23,
+    "nonManifoldEdges": 23
+  },
+  "topologyByObject": [
+    {
+      "name": "building__11-ledyard-lane__way_874770894",
+      "kind": "base",
+      "vertices": 46,
+      "edges": 69,
+      "faces": 24,
+      "triangles": 0,
+      "quads": 23,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 23,
+      "nonManifoldEdges": 23
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "11 Ledyard Lane.glb",
+  "fbx": "11 Ledyard Lane.fbx"
+}

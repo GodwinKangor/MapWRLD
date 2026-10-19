@@ -1,0 +1,50 @@
+{
+  "name": "road__webster-terrace__way_1236637207",
+  "displayName": "Webster Terrace",
+  "osmId": "way/1236637207",
+  "originalName": "Ways.034",
+  "type": "roads",
+  "dimensions": {
+    "x": 212.585663,
+    "y": 252.624908,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 26,
+  "edges": 25,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 26,
+    "looseEdges": 25,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 25
+  },
+  "topologyByObject": [
+    {
+      "name": "road__webster-terrace__way_1236637207",
+      "kind": "base",
+      "vertices": 26,
+      "edges": 25,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 26,
+      "looseEdges": 25,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 25
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__webster-terrace__way_1236637207.glb",
+  "fbx": "road__webster-terrace__way_1236637207.fbx"
+}

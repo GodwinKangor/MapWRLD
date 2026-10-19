@@ -1,0 +1,50 @@
+{
+  "name": "building__burke-laboratory__way_49796547",
+  "displayName": "Burke Laboratory",
+  "osmId": "way/49796547",
+  "originalName": "Areas.058",
+  "type": "buildings",
+  "dimensions": {
+    "x": 67.013405,
+    "y": 59.973297,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 52,
+  "edges": 78,
+  "faces": 27,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 26,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 26,
+    "nonManifoldEdges": 26
+  },
+  "topologyByObject": [
+    {
+      "name": "building__burke-laboratory__way_49796547",
+      "kind": "base",
+      "vertices": 52,
+      "edges": 78,
+      "faces": 27,
+      "triangles": 0,
+      "quads": 26,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 26,
+      "nonManifoldEdges": 26
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Burke Laboratory.glb",
+  "fbx": "Burke Laboratory.fbx"
+}

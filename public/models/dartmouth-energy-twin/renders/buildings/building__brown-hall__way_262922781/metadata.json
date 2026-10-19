@@ -1,0 +1,50 @@
+{
+  "name": "building__brown-hall__way_262922781",
+  "displayName": "Brown Hall",
+  "osmId": "way/262922781",
+  "originalName": "Areas.127",
+  "type": "buildings",
+  "dimensions": {
+    "x": 28.349045,
+    "y": 29.259583,
+    "z": 9.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 20,
+  "edges": 30,
+  "faces": 11,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 10,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 10,
+    "nonManifoldEdges": 10
+  },
+  "topologyByObject": [
+    {
+      "name": "building__brown-hall__way_262922781",
+      "kind": "base",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 11,
+      "triangles": 0,
+      "quads": 10,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 10,
+      "nonManifoldEdges": 10
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Brown Hall.glb",
+  "fbx": "Brown Hall.fbx"
+}

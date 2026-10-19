@@ -1,0 +1,50 @@
+{
+  "name": "building__13-allen-street__way_621647003",
+  "displayName": "13 Allen Street",
+  "osmId": "way/621647003",
+  "originalName": "Areas.328",
+  "type": "buildings",
+  "dimensions": {
+    "x": 18.950287,
+    "y": 26.051697,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 48,
+  "edges": 72,
+  "faces": 25,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 24,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 24,
+    "nonManifoldEdges": 24
+  },
+  "topologyByObject": [
+    {
+      "name": "building__13-allen-street__way_621647003",
+      "kind": "base",
+      "vertices": 48,
+      "edges": 72,
+      "faces": 25,
+      "triangles": 0,
+      "quads": 24,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 24,
+      "nonManifoldEdges": 24
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "13 Allen Street.glb",
+  "fbx": "13 Allen Street.fbx"
+}

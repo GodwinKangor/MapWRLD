@@ -1,0 +1,50 @@
+{
+  "name": "building__zeta-psi__way_262918561",
+  "displayName": "Zeta Psi",
+  "osmId": "way/262918561",
+  "originalName": "Areas.114",
+  "type": "buildings",
+  "dimensions": {
+    "x": 26.749084,
+    "y": 20.956787,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 40,
+  "edges": 60,
+  "faces": 21,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 20,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 20,
+    "nonManifoldEdges": 20
+  },
+  "topologyByObject": [
+    {
+      "name": "building__zeta-psi__way_262918561",
+      "kind": "base",
+      "vertices": 40,
+      "edges": 60,
+      "faces": 21,
+      "triangles": 0,
+      "quads": 20,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 20,
+      "nonManifoldEdges": 20
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Zeta Psi.glb",
+  "fbx": "Zeta Psi.fbx"
+}

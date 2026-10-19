@@ -1,0 +1,50 @@
+{
+  "name": "building__12-occom-ridge__way_639042026",
+  "displayName": "12 Occom Ridge",
+  "osmId": "way/639042026",
+  "originalName": "Areas.352",
+  "type": "buildings",
+  "dimensions": {
+    "x": 18.990448,
+    "y": 19.524963,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 38,
+  "edges": 57,
+  "faces": 20,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 19,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 19,
+    "nonManifoldEdges": 19
+  },
+  "topologyByObject": [
+    {
+      "name": "building__12-occom-ridge__way_639042026",
+      "kind": "base",
+      "vertices": 38,
+      "edges": 57,
+      "faces": 20,
+      "triangles": 0,
+      "quads": 19,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 19,
+      "nonManifoldEdges": 19
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "12 Occom Ridge.glb",
+  "fbx": "12 Occom Ridge.fbx"
+}

@@ -6,7 +6,52 @@ Place the optimized campus model here as:
 dartmouth-campus.glb
 ```
 
-The app reads `model-manifest.json` for the expected path, units, and origin. Until the GLB exists, the Cesium terrain, imagery, and OSM building fallback stay active.
+The app reads `model-manifest.json` and loads the ready GLB into Cesium. OSM buildings are disabled in the campus view to prevent overlapping geometry.
+
+## Combined campus preview
+
+Run `npm run model:dartmouth:combine` after exporting updated building parts.
+Building GLB/FBX filenames use their display names (for example, `McNutt Hall.glb`).
+The [building index](../dartmouth-energy-twin/renders/buildings/README.md) lists
+all exported buildings alphabetically. Folder names, OSM IDs, and scene-node
+names remain stable; metadata and manifests contain the readable file paths.
+This combines the existing GLBs under `dartmouth-energy-twin/renders`, keeping
+one export per category/OSM ID (newest modification time wins). It preserves
+the detailed meshes within each selected export, their transforms, and materials.
+It never imports the old Blender scene or modifies source GLBs.
+`assembly-report.json` records every included source and its SHA-256 hash.
+The combiner supports the current static, untextured exports and rejects
+unsupported features such as skins, animations, and texture references.
+
+The combiner also generates `terrain-anchors.json`: each nonempty part's
+footprint center and base height, accounting for its glTF node transforms.
+Before displaying the model, the app samples Cesium's most detailed terrain
+and translates each part's parent node so that its base center rests on that
+surface. These transforms stay fixed while the camera moves. The manifest's
+origin height defines the coordinate frame, not a shared building elevation.
+The visibility checkbox remains available; the manual elevation slider was
+removed because it could lift the model off the map.
+
+The geographic origin and angular scale are calibrated from source GeoJSON
+footprints, independently of the camera's home position. `georeference-report.json`
+records the reference points and fit residuals. Recalibrate after changing the
+source coordinate frame with
+`python3 scripts/reference-tools/calibrate-campus-georeference.py /path/to/buildings.geojson`.
+The fit uses a consensus of matching footprints rather than moving each building
+to its assigned OSM ID, because some historical nearest-neighbor name assignments
+do not match the geometry. The entire source layout is preserved.
+
+Buildings remain rigid, so their edges may intersect sloping terrain; this does
+not deform them to follow every terrain point. The GLB's road objects are
+edge-only centerlines (no faces), so glTF export leaves them empty. The map
+instead drapes roads onto the terrain from `campus-roads.json`, which holds OSM
+highway lines clipped to the campus rectangle. Widths are in meters per highway
+class. Refresh it with `node scripts/reference-tools/fetch-dartmouth-osm-roads.mjs`.
+
+The campus rectangle is the whole map world. Terrain, imagery, buildings, markers
+and roads all stop at its edge, and the sky box, sun, moon, ground atmosphere
+and fog are off. Buildings whose OSM centroid lies outside the rectangle are left
+out of the data and hidden in the model.
 
 ## GeoJSON To Web Model Workflow
 

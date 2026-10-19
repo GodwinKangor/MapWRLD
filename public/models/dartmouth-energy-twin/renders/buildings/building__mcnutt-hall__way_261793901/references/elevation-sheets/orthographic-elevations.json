@@ -1,0 +1,419 @@
+{
+  "building": "building__mcnutt-hall__way_261793901",
+  "displayName": "McNutt Hall",
+  "generatedKind": "orthographic-elevation-reference",
+  "pixelsPerMeter": 34,
+  "perspectiveHandling": {
+    "photoInputs": "Street View and photo references may be oblique or perspective-distorted.",
+    "modelingSurface": "Use the normalized orthographic diagrams for wall/window/door placement.",
+    "rectificationPolicy": "Do not claim a photo is perpendicular unless control points or an approved elevation drawing exist.",
+    "pixelWarpPolicy": "Perspective warping requires facade control points in modeling-rules. Without control points, the sheet uses rule-derived orthographic geometry and symmetry inference.",
+    "requiredControlPoints": [
+      "top-left",
+      "top-right",
+      "bottom-right",
+      "bottom-left"
+    ]
+  },
+  "elevations": {
+    "front": {
+      "role": "front",
+      "label": "Front",
+      "panelIds": [
+        "south-01"
+      ],
+      "sourceImages": [
+        "references/walls/wall-02.jpg"
+      ],
+      "openingCounts": {
+        "windows": 4,
+        "doors": 1
+      },
+      "countProof": [
+        "south-01: windows 1 row x 4 = 4; south-01: doors 1 row x 1 = 1"
+      ]
+    },
+    "left-side": {
+      "role": "left-side",
+      "label": "Left Side",
+      "panelIds": [
+        "south-03"
+      ],
+      "sourceImages": [
+        "references/walls/wall-03.jpg"
+      ],
+      "openingCounts": {
+        "windows": 8,
+        "doors": 0
+      },
+      "countProof": [
+        "south-03: windows 2 rows x 4 = 8"
+      ]
+    },
+    "roof": {
+      "role": "roof",
+      "label": "Roof",
+      "panelIds": [
+        "roof"
+      ],
+      "sourceImages": [
+        "references/roof-satellite.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    }
+  },
+  "panels": [
+    {
+      "id": "south-03",
+      "title": "South 03",
+      "wallId": "wall-03",
+      "orientation": "south",
+      "sourceKind": "opening-plan",
+      "elevationRole": "left-side",
+      "sourceImage": "references/walls/wall-03.jpg",
+      "imagePath": "../walls/wall-03.jpg",
+      "widthMeters": 18.62,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "clear",
+      "primitiveStatus": "verified",
+      "windows": 10,
+      "doors": 0,
+      "countMethod": "vision-extracted",
+      "notes": "Wall shows basement-level windows (bottom row, partly below grade behind stone sill) and main floor windows above. Windows are roughly aligned in columns; rightmost window partially cropped by photo edge, and a pedestrian occludes the far-right basement window. No visible doors on this facade segment. Grid estimated as 5 columns based on window spacing across the visible width.",
+      "countInference": {
+        "method": "vision-extracted",
+        "usesSymmetry": false,
+        "windows": 8,
+        "doors": 0,
+        "proof": "south-03: windows 2 rows x 4 = 8",
+        "layoutValid": false,
+        "layoutIssues": [
+          {
+            "type": "window-count-mismatch",
+            "expected": 10,
+            "actual": 8
+          }
+        ],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [
+        {
+          "type": "window-count-mismatch",
+          "expected": 10,
+          "actual": 8
+        }
+      ],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 2.591,
+          "zMeters": 1.45,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 5.695,
+          "zMeters": 1.45,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 8.798,
+          "zMeters": 1.45,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 15.005,
+          "zMeters": 1.45,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 2.591,
+          "zMeters": 7.164,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 5.695,
+          "zMeters": 7.164,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 8.798,
+          "zMeters": 7.164,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 15.005,
+          "zMeters": 7.164,
+          "widthMeters": 1.024,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 10,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "south-01",
+      "title": "South 01",
+      "wallId": "wall-02",
+      "orientation": "southwest",
+      "sourceKind": "opening-plan",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-02.jpg",
+      "imagePath": "../walls/wall-02.jpg",
+      "widthMeters": 13.13,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "clear",
+      "primitiveStatus": "verified",
+      "windows": 4,
+      "doors": 1,
+      "countMethod": "vision-extracted",
+      "notes": "Only the upper floor's windows are fully visible in the photo (4 large double-hung windows evenly spaced). The ground floor is mostly obscured by a canopy/overhang and stone base with a recessed entrance (gated) near the left side; a sign 'The Computer Store' and a small window are visible under the canopy but not counted as full-facade windows since they are set back and partially obscured. Top of a second floor's windows are cropped at very top edge, suggesting more floors above not fully visible.",
+      "countInference": {
+        "method": "vision-extracted",
+        "usesSymmetry": false,
+        "windows": 4,
+        "doors": 1,
+        "proof": "south-01: windows 1 row x 4 = 4; south-01: doors 1 row x 1 = 1",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 2.251,
+          "zMeters": 1.45,
+          "widthMeters": 0.75,
+          "heightMeters": 2.15,
+          "centerFraction": 0.2,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 4.877,
+          "zMeters": 1.45,
+          "widthMeters": 0.75,
+          "heightMeters": 2.15,
+          "centerFraction": 0.4,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 7.503,
+          "zMeters": 1.45,
+          "widthMeters": 0.75,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 10.129,
+          "zMeters": 1.45,
+          "widthMeters": 0.75,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 0.688,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.1,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "vision-extracted",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 4,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 1,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    }
+  ],
+  "auxiliaryPanels": [
+    {
+      "id": "roof",
+      "title": "Roof Plan / Satellite",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "roof",
+      "elevationRole": "roof",
+      "sourceImage": "references/roof-satellite.jpg",
+      "imagePath": "../roof-satellite.jpg",
+      "widthMeters": 19.29,
+      "estimatedHeightMeters": 19.29,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "roof-footprint-only",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "",
+      "countInference": {
+        "method": "needs-review",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "classify_from_roof_reference",
+          "status": "unclassified",
+          "confidence": 0.0,
+          "evidence": "no roof primitive rule found",
+          "requiresReview": true
+        }
+      ]
+    }
+  ]
+}

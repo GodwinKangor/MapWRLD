@@ -1,0 +1,50 @@
+{
+  "name": "building__10-pleasant-street__way_647756217",
+  "displayName": "10 Pleasant Street",
+  "osmId": "way/647756217",
+  "originalName": "Areas.452",
+  "type": "buildings",
+  "dimensions": {
+    "x": 30.913757,
+    "y": 13.908295,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__10-pleasant-street__way_647756217",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "10 Pleasant Street.glb",
+  "fbx": "10 Pleasant Street.fbx"
+}

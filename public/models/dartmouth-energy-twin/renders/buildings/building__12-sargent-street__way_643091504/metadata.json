@@ -1,0 +1,50 @@
+{
+  "name": "building__12-sargent-street__way_643091504",
+  "displayName": "12 Sargent Street",
+  "osmId": "way/643091504",
+  "originalName": "Areas.400",
+  "type": "buildings",
+  "dimensions": {
+    "x": 16.433777,
+    "y": 10.522797,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 20,
+  "edges": 30,
+  "faces": 11,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 10,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 10,
+    "nonManifoldEdges": 10
+  },
+  "topologyByObject": [
+    {
+      "name": "building__12-sargent-street__way_643091504",
+      "kind": "base",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 11,
+      "triangles": 0,
+      "quads": 10,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 10,
+      "nonManifoldEdges": 10
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "12 Sargent Street.glb",
+  "fbx": "12 Sargent Street.fbx"
+}

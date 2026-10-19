@@ -1,0 +1,50 @@
+{
+  "name": "building__wheeler-hall__way_49796725",
+  "displayName": "Wheeler Hall",
+  "osmId": "way/49796725",
+  "originalName": "Areas.061",
+  "type": "buildings",
+  "dimensions": {
+    "x": 43.801922,
+    "y": 23.620789,
+    "z": 12.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 12,
+  "edges": 18,
+  "faces": 7,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 6,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 6,
+    "nonManifoldEdges": 6
+  },
+  "topologyByObject": [
+    {
+      "name": "building__wheeler-hall__way_49796725",
+      "kind": "base",
+      "vertices": 12,
+      "edges": 18,
+      "faces": 7,
+      "triangles": 0,
+      "quads": 6,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 6,
+      "nonManifoldEdges": 6
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Wheeler Hall.glb",
+  "fbx": "Wheeler Hall.fbx"
+}

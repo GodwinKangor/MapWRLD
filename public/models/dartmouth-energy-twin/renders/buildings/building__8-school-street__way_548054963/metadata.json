@@ -1,0 +1,50 @@
+{
+  "name": "building__8-school-street__way_548054963",
+  "displayName": "8 School Street",
+  "osmId": "way/548054963",
+  "originalName": "Areas.258",
+  "type": "buildings",
+  "dimensions": {
+    "x": 15.083008,
+    "y": 14.50769,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 20,
+  "edges": 30,
+  "faces": 11,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 10,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 10,
+    "nonManifoldEdges": 10
+  },
+  "topologyByObject": [
+    {
+      "name": "building__8-school-street__way_548054963",
+      "kind": "base",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 11,
+      "triangles": 0,
+      "quads": 10,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 10,
+      "nonManifoldEdges": 10
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "8 School Street.glb",
+  "fbx": "8 School Street.fbx"
+}

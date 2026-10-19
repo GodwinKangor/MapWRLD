@@ -1,0 +1,50 @@
+{
+  "name": "building__5-park-way__way_873165782",
+  "displayName": "5 Park Way",
+  "osmId": "way/873165782",
+  "originalName": "Areas.617",
+  "type": "buildings",
+  "dimensions": {
+    "x": 18.684937,
+    "y": 24.542114,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 26,
+  "edges": 39,
+  "faces": 14,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 13,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 13,
+    "nonManifoldEdges": 13
+  },
+  "topologyByObject": [
+    {
+      "name": "building__5-park-way__way_873165782",
+      "kind": "base",
+      "vertices": 26,
+      "edges": 39,
+      "faces": 14,
+      "triangles": 0,
+      "quads": 13,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 13,
+      "nonManifoldEdges": 13
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "5 Park Way.glb",
+  "fbx": "5 Park Way.fbx"
+}

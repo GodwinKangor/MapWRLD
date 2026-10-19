@@ -5,15 +5,91 @@
   "scope": "exterior-only",
   "sourceReset": {
     "required": true,
-    "sourceObject": "Areas.222"
+    "sourceObject": "Areas.222",
+    "sourceBlend": "/Users/godwinkangor/Downloads/dartmouth energy twin.blend"
   },
   "windowsAndDoors": {
     "mustBeIntegratedWallFaces": true,
     "mustHaveEdgeLoops": true,
     "noFloatingPanels": true,
     "noBlindOpenings": true,
-    "approvedWallSources": ["wall-02", "wall-03", "wall-14"],
-    "blockedWallSources": ["wall-05", "wall-08", "wall-10", "wall-11", "wall-12"]
+    "approvedWallSources": [
+      "wall-02",
+      "wall-03",
+      "wall-14"
+    ],
+    "blockedWallSources": [
+      "wall-05",
+      "wall-08",
+      "wall-10",
+      "wall-11",
+      "wall-12"
+    ],
+    "wallOpeningPlans": {
+      "south-04": {
+        "reference": "wall-02",
+        "windows": 15,
+        "doors": 1,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "south-06": {
+        "reference": "wall-02",
+        "windows": 15,
+        "doors": 1,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "south-10": {
+        "reference": "wall-02",
+        "windows": 15,
+        "doors": 1,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "south-11": {
+        "reference": "wall-02",
+        "windows": 15,
+        "doors": 1,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "south-12": {
+        "reference": "wall-02",
+        "windows": 15,
+        "doors": 1,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "west-01": {
+        "reference": "wall-14",
+        "windows": 12,
+        "doors": 0,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "west-06": {
+        "reference": "wall-14",
+        "windows": 12,
+        "doors": 0,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "east-01": {
+        "reference": "wall-03",
+        "windows": 12,
+        "doors": 0,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      },
+      "east-07": {
+        "reference": "wall-03",
+        "windows": 12,
+        "doors": 0,
+        "floors": 3,
+        "notes": "generic side rhythm ported from the old per-side hardcoded Baker layout; not yet reference-measured per wall"
+      }
+    }
   },
   "roof": {
     "mustUseRoofSatelliteReference": true,
@@ -24,9 +100,11 @@
     "noSingleBlanketRoofSlab": true,
     "noRoofOverlapIntoTowerShaft": true,
     "requiredMaterials": [
-      "mwrld_baker_reference_flat_roof"
+      "mwrld_baker-library_roof"
     ],
-    "referenceSource": "references/roof-satellite.jpg"
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "flat",
+    "landmarkFeaturePack": "baker_library_tower"
   },
   "tower": {
     "mustSitOnSupportedWallShaft": true,

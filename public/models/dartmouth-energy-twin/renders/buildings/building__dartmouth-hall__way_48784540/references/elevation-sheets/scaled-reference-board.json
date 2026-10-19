@@ -1,0 +1,3660 @@
+{
+  "building": "building__dartmouth-hall__way_48784540",
+  "displayName": "Dartmouth Hall",
+  "generatedKind": "scaled-reference-board",
+  "pixelsPerMeter": 34,
+  "modelingRecipe": {
+    "referenceGate": "Only use panels whose referenceStatus starts with approved. needs-review panels require inspection before modeling.",
+    "wallDetail": {
+      "module": "major_wall_detail_module",
+      "primitive": "quad_grid_wall",
+      "rules": [
+        "openings are cells in the wall mesh",
+        "windows and doors must have edge loops",
+        "do not add floating opening panels",
+        "check major wall features beyond windows, doors, and roofs"
+      ],
+      "panelIds": [
+        "west-south-wing",
+        "west-center-entry",
+        "west-north-wing",
+        "north-main",
+        "south-main",
+        "east-south-wing",
+        "east-center-bay",
+        "east-north-wing"
+      ],
+      "featureCount": 13
+    },
+    "windows": {
+      "module": "window_module",
+      "primitive": "recessed_rectangular_face_opening",
+      "totalPlanned": 101
+    },
+    "doors": {
+      "module": "door_module",
+      "primitive": "recessed_rectangular_or_arched_face_opening",
+      "totalPlanned": 7
+    },
+    "roof": {
+      "module": "roof_module",
+      "candidatePrimitives": [
+        "hip_prism_roof",
+        "split_roof_zones"
+      ],
+      "reviewPrimitives": [
+        "dormer_prism",
+        "front_gable_pediment_prism"
+      ],
+      "panelIds": [
+        "roof"
+      ],
+      "zoneCount": 7,
+      "rules": [
+        "use satellite roof zones as top-down source of truth",
+        "split roofs into named planes or masses before modeling",
+        "derive front, rear, left-side, and right-side roof plans from the same roof zones"
+      ]
+    },
+    "towerChimney": {
+      "module": "chimney_tower_module",
+      "candidatePrimitives": [
+        "supported_base_shaft",
+        "tiered_box_stack"
+      ],
+      "reviewPrimitives": [
+        "stepped_cupola_base",
+        "open_lantern_box_with_posts",
+        "thin_vertical_post_array",
+        "thin_horizontal_rail_array",
+        "small_hip_or_domed_cap",
+        "thin_spire_cylinder_or_cone",
+        "thin_crossbar_weather_vane",
+        "rectangular_chimney_shaft_with_cap"
+      ],
+      "ruleDerivedPrimitives": [],
+      "panelIds": [
+        "tower-front-context",
+        "tower-roof-satellite-context"
+      ],
+      "blockedPanelIds": [
+        "tower-aerial-cupola"
+      ]
+    },
+    "stairs": {
+      "module": "staircase_module",
+      "candidatePrimitives": [],
+      "featureCount": 4,
+      "panelIds": [
+        "west-center-entry",
+        "east-south-wing",
+        "east-north-wing"
+      ]
+    },
+    "symmetry": {
+      "module": "symmetry_module",
+      "candidatePrimitives": [
+        "mirror_opening_positions",
+        "paired_facade_counts"
+      ]
+    },
+    "inspect": {
+      "module": "inspect_module",
+      "checks": [
+        "quad_cleanliness",
+        "loose_geometry",
+        "support_overlap",
+        "reference_traceability"
+      ]
+    }
+  },
+  "sheet": {
+    "widthPx": 1140,
+    "heightPx": 2936
+  },
+  "panels": [
+    {
+      "id": "west-south-wing",
+      "title": "West South Wing",
+      "wallId": "west-south-wing",
+      "orientation": "",
+      "sourceKind": "opening-plan",
+      "elevationRole": "front",
+      "sourceImage": "references/west.jpg",
+      "imagePath": "../west.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partially occluded but usable",
+      "primitiveStatus": "needs-review",
+      "windows": 20,
+      "doors": 1,
+      "countMethod": "observed-plus-symmetry-inference",
+      "notes": "Front west left/south wing: observed repeated sash rhythm is three rows by seven column slots. The center ground slot is reserved for the middle door, giving windows 6 + 7 + 7 = 20; hidden/occluded openings inferred by symmetry.",
+      "countInference": {
+        "method": "observed-plus-symmetry-inference",
+        "usesSymmetry": true,
+        "windows": 20,
+        "doors": 1,
+        "proof": "west-south-wing: windows rows 6+7+7 = 20; west-south-wing: doors 1 row x 1 = 1",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 1.891,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 1.891,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 1.891,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W16",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W17",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W18",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W19",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W20",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 9.075,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.5,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "observed-middle-of-wing",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 20,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 1,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "symmetry",
+          "module": "symmetry_module",
+          "primitive": "paired_facade_counts",
+          "status": "inferred",
+          "confidence": 0.72,
+          "evidence": "repeated openings in modeling rules",
+          "requiresReview": true,
+          "reason": "large repeated window rhythm should be mirrored or evenly spaced from reference"
+        }
+      ]
+    },
+    {
+      "id": "west-center-entry",
+      "title": "West Center Entry",
+      "wallId": "wall-05",
+      "orientation": "southeast",
+      "sourceKind": "opening-plan",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-05.jpg",
+      "imagePath": "../walls/wall-05.jpg",
+      "widthMeters": 18.35,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "approved close facade reference",
+      "primitiveStatus": "verified",
+      "windows": 6,
+      "doors": 3,
+      "countMethod": "observed",
+      "notes": "Central entry bay: three doors and six windows counted separately from the close wall reference and front context.",
+      "countInference": {
+        "method": "observed",
+        "usesSymmetry": false,
+        "windows": 6,
+        "doors": 3,
+        "proof": "west-center-entry: windows 3 rows x 2 = 6; west-center-entry: doors 1 row x 3 = 3",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 5.612,
+          "zMeters": 3.2,
+          "widthMeters": 1.009,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 11.729,
+          "zMeters": 3.2,
+          "widthMeters": 1.009,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 5.612,
+          "zMeters": 7.258,
+          "widthMeters": 1.009,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 11.729,
+          "zMeters": 7.258,
+          "widthMeters": 1.009,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 5.612,
+          "zMeters": 11.316,
+          "widthMeters": 1.009,
+          "heightMeters": 2.134,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 11.729,
+          "zMeters": 11.316,
+          "widthMeters": 1.009,
+          "heightMeters": 2.134,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 5.247,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.32,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "observed",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D02",
+          "kind": "door",
+          "xMeters": 8.55,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "observed",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D03",
+          "kind": "door",
+          "xMeters": 11.853,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.68,
+          "sourceImage": "references/walls/wall-05.jpg",
+          "positionStatus": "observed",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [
+        {
+          "id": "F01",
+          "kind": "front_entry_surround",
+          "primitive": "raised_rectangular_trim_with_arched_transom",
+          "xMeters": 6.95,
+          "zMeters": 0.0,
+          "widthMeters": 4.6,
+          "heightMeters": 4.15,
+          "status": "observed",
+          "notes": "Large white entry surround around the central ground doors; model as wall-supported trim, not a floating panel.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        },
+        {
+          "id": "F02",
+          "kind": "entry_entablature_or_cap_trim",
+          "primitive": "raised_horizontal_entry_cap_trim",
+          "xMeters": 7.35,
+          "zMeters": 3.55,
+          "widthMeters": 3.8,
+          "heightMeters": 0.55,
+          "status": "observed",
+          "notes": "Flat/rectangular cap trim above the entry surround. Do not classify this as the roof/front gable pediment.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        },
+        {
+          "id": "F03",
+          "kind": "central_plaque_panel",
+          "primitive": "recessed_or_raised_rectangular_wall_panel",
+          "xMeters": 7.95,
+          "zMeters": 6.0,
+          "widthMeters": 2.6,
+          "heightMeters": 1.25,
+          "status": "observed",
+          "notes": "Centered rectangular wall feature above the entrance and below the upper window bay.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        },
+        {
+          "id": "F04",
+          "kind": "horizontal_belt_course",
+          "primitive": "thin_horizontal_trim_band",
+          "xMeters": 0.0,
+          "zMeters": 4.85,
+          "widthMeters": 18.35,
+          "heightMeters": 0.22,
+          "status": "observed",
+          "notes": "Horizontal trim/belt line across the central bay.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        },
+        {
+          "id": "F05",
+          "kind": "bay_edge_trim",
+          "primitive": "vertical_pilaster_or_corner_trim",
+          "xMeters": 0.15,
+          "zMeters": 0.0,
+          "widthMeters": 0.22,
+          "heightMeters": 14.0,
+          "status": "observed",
+          "notes": "Left vertical bay edge trim.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        },
+        {
+          "id": "F06",
+          "kind": "bay_edge_trim",
+          "primitive": "vertical_pilaster_or_corner_trim",
+          "xMeters": 17.98,
+          "zMeters": 0.0,
+          "widthMeters": 0.22,
+          "heightMeters": 14.0,
+          "status": "observed",
+          "notes": "Right vertical bay edge trim.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        }
+      ],
+      "stairFeatures": [
+        {
+          "id": "S01",
+          "kind": "front_entry_platform",
+          "primitive": "rectangular_landing_platform",
+          "xMeters": 6.75,
+          "zMeters": 0.0,
+          "widthMeters": 4.95,
+          "heightMeters": 0.45,
+          "status": "observed",
+          "notes": "Landing/platform at the door threshold; handled by staircase_module, not major_wall_detail_module.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "staircase_module",
+          "mustTouchGroundAndDoorThreshold": true
+        },
+        {
+          "id": "S02",
+          "kind": "front_entry_stair_run",
+          "primitive": "stacked_step_blocks",
+          "xMeters": 6.45,
+          "zMeters": -0.15,
+          "widthMeters": 5.55,
+          "heightMeters": 0.75,
+          "status": "observed",
+          "notes": "Exterior stair run in front of the entry platform; must touch ground and threshold.",
+          "sourceImage": "references/walls/wall-05.jpg",
+          "module": "staircase_module",
+          "mustTouchGroundAndDoorThreshold": true
+        }
+      ],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 6,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 3,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "west-north-wing",
+      "title": "West North Wing",
+      "wallId": "west-north-wing",
+      "orientation": "",
+      "sourceKind": "opening-plan",
+      "elevationRole": "front",
+      "sourceImage": "references/west.jpg",
+      "imagePath": "../west.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "approved broad facade reference",
+      "primitiveStatus": "needs-review",
+      "windows": 20,
+      "doors": 1,
+      "countMethod": "observed-plus-symmetry-inference",
+      "notes": "Front west right/north wing: observed repeated sash rhythm is three rows by seven column slots. The center ground slot is reserved for the middle door, giving windows 6 + 7 + 7 = 20; hidden/occluded openings inferred by symmetry.",
+      "countInference": {
+        "method": "observed-plus-symmetry-inference",
+        "usesSymmetry": true,
+        "windows": 20,
+        "doors": 1,
+        "proof": "west-north-wing: windows rows 6+7+7 = 20; west-north-wing: doors 1 row x 1 = 1",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 1.891,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 1.891,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 1.891,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W16",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W17",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W18",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W19",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W20",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 9.075,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.5,
+          "sourceImage": "references/west.jpg",
+          "positionStatus": "observed-middle-of-wing",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 20,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 1,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "symmetry",
+          "module": "symmetry_module",
+          "primitive": "paired_facade_counts",
+          "status": "inferred",
+          "confidence": 0.72,
+          "evidence": "repeated openings in modeling rules",
+          "requiresReview": true,
+          "reason": "large repeated window rhythm should be mirrored or evenly spaced from reference"
+        }
+      ]
+    },
+    {
+      "id": "north-main",
+      "title": "North Main",
+      "wallId": "north-main",
+      "orientation": "",
+      "sourceKind": "opening-plan",
+      "elevationRole": "right-side",
+      "sourceImage": "references/north.jpg",
+      "imagePath": "../north.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "approved close wall reference",
+      "primitiveStatus": "verified",
+      "windows": 18,
+      "doors": 0,
+      "countMethod": "observed-clustered-side-elevation",
+      "notes": "Right/north side is a clustered 1 + 4 + 1 window rhythm over three floors, not six evenly spaced columns. Basement vents are major wall features, not windows.",
+      "countInference": {
+        "method": "observed-clustered-side-elevation",
+        "usesSymmetry": false,
+        "windows": 18,
+        "doors": 0,
+        "proof": "north-main: windows 3 rows x 6 = 18",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 1.622,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1111,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 5.933,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 8.089,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.4444,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 10.244,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5556,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 12.4,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 16.711,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8889,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 1.622,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1111,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 5.933,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 8.089,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.4444,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 10.244,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5556,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 12.4,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 16.711,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8889,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 1.622,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1111,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 5.933,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 8.089,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.4444,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W16",
+          "kind": "window",
+          "xMeters": 10.244,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5556,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W17",
+          "kind": "window",
+          "xMeters": 12.4,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W18",
+          "kind": "window",
+          "xMeters": 16.711,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8889,
+          "sourceImage": "references/north.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [
+        {
+          "id": "F01",
+          "kind": "basement_vent",
+          "primitive": "recessed_rectangular_basement_vent",
+          "xMeters": 4.2,
+          "zMeters": 0.45,
+          "widthMeters": 1.1,
+          "heightMeters": 0.65,
+          "status": "observed",
+          "notes": "Basement vent visible on side elevation; do not count as window.",
+          "sourceImage": "references/north.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        },
+        {
+          "id": "F02",
+          "kind": "basement_vent",
+          "primitive": "recessed_rectangular_basement_vent",
+          "xMeters": 14.2,
+          "zMeters": 0.45,
+          "widthMeters": 1.1,
+          "heightMeters": 0.65,
+          "status": "observed",
+          "notes": "Basement vent visible on side elevation; do not count as window.",
+          "sourceImage": "references/north.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        }
+      ],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 18,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "south-main",
+      "title": "South Main",
+      "wallId": "south-main",
+      "orientation": "",
+      "sourceKind": "opening-plan",
+      "elevationRole": "left-side",
+      "sourceImage": "references/south.jpg",
+      "imagePath": "../south.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "approved close wall reference",
+      "primitiveStatus": "verified",
+      "windows": 15,
+      "doors": 0,
+      "countMethod": "observed-clustered-side-elevation",
+      "notes": "Left/south side is a central four-window cluster plus one separated end window over three floors. Basement vents are major wall features, not windows.",
+      "countInference": {
+        "method": "observed-clustered-side-elevation",
+        "usesSymmetry": false,
+        "windows": 15,
+        "doors": 0,
+        "proof": "south-main: windows 3 rows x 5 = 15",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 2.45,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 6.1,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 6.741,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 11.591,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 16.441,
+          "zMeters": 9.75,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/south.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [
+        {
+          "id": "F01",
+          "kind": "basement_vent",
+          "primitive": "recessed_rectangular_basement_vent",
+          "xMeters": 2.25,
+          "zMeters": 0.45,
+          "widthMeters": 1.1,
+          "heightMeters": 0.65,
+          "status": "observed",
+          "notes": "Basement vent visible on side elevation; do not count as window.",
+          "sourceImage": "references/south.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        },
+        {
+          "id": "F02",
+          "kind": "basement_vent",
+          "primitive": "recessed_rectangular_basement_vent",
+          "xMeters": 10.7,
+          "zMeters": 0.45,
+          "widthMeters": 1.1,
+          "heightMeters": 0.65,
+          "status": "observed",
+          "notes": "Basement vent visible on side elevation; do not count as window.",
+          "sourceImage": "references/south.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        }
+      ],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 15,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "east-south-wing",
+      "title": "East South Wing",
+      "wallId": "east-south-wing",
+      "orientation": "",
+      "sourceKind": "opening-plan",
+      "elevationRole": "rear",
+      "sourceImage": "references/east.jpg",
+      "imagePath": "../east.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial tree/car occlusion",
+      "primitiveStatus": "verified",
+      "windows": 8,
+      "doors": 1,
+      "countMethod": "observed-plus-occlusion-inference",
+      "notes": "Rear/east left/south wing: visible rear entry occupies the center lower slot; lower-center window is not counted. Tree/car occlusion means remaining rhythm is inferred from visible repeated columns.",
+      "countInference": {
+        "method": "observed-plus-occlusion-inference",
+        "usesSymmetry": false,
+        "windows": 8,
+        "doors": 1,
+        "proof": "east-south-wing: windows rows 2+3+3 = 8; east-south-wing: doors 1 row x 1 = 1",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 9.075,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.5,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "observed-rear-context",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [
+        {
+          "id": "F01",
+          "kind": "rear_entry_canopy",
+          "primitive": "small_supported_entry_canopy",
+          "xMeters": 4.35,
+          "zMeters": 2.65,
+          "widthMeters": 2.2,
+          "heightMeters": 0.55,
+          "status": "observed",
+          "notes": "Small rear entry canopy/hood above observed door.",
+          "sourceImage": "references/east.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        }
+      ],
+      "stairFeatures": [
+        {
+          "id": "S01",
+          "kind": "rear_entry_step",
+          "primitive": "short_entry_step_or_landing",
+          "xMeters": 4.45,
+          "zMeters": 0.0,
+          "widthMeters": 2.0,
+          "heightMeters": 0.35,
+          "status": "observed",
+          "notes": "Small rear step/landing at the rear entry.",
+          "sourceImage": "references/east.jpg",
+          "module": "staircase_module",
+          "mustTouchGroundAndDoorThreshold": true
+        }
+      ],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 8,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 1,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "east-center-bay",
+      "title": "East Center Bay",
+      "wallId": "east-center-bay",
+      "orientation": "",
+      "sourceKind": "opening-plan",
+      "elevationRole": "rear",
+      "sourceImage": "references/east.jpg",
+      "imagePath": "../east.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial tree/car occlusion",
+      "primitiveStatus": "verified",
+      "windows": 6,
+      "doors": 0,
+      "countMethod": "observed-plus-occlusion-inference",
+      "notes": "Center/recessed east bay uses a two-column, three-floor rhythm from the rear context; occlusion remains noted.",
+      "countInference": {
+        "method": "observed-plus-occlusion-inference",
+        "usesSymmetry": false,
+        "windows": 6,
+        "doors": 0,
+        "proof": "east-center-bay: windows 3 rows x 2 = 6",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 5.933,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 12.4,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 5.933,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 12.4,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 5.933,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 12.4,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [
+        {
+          "id": "F01",
+          "kind": "recessed_rear_bay_edge",
+          "primitive": "vertical_recess_or_bay_edge_trim",
+          "xMeters": 0.1,
+          "zMeters": 0.0,
+          "widthMeters": 0.25,
+          "heightMeters": 14.0,
+          "status": "observed",
+          "notes": "Rear center bay reads as a recessed/transition bay in the oblique east reference.",
+          "sourceImage": "references/east.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        }
+      ],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 6,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "east-north-wing",
+      "title": "East North Wing",
+      "wallId": "east-north-wing",
+      "orientation": "",
+      "sourceKind": "opening-plan",
+      "elevationRole": "rear",
+      "sourceImage": "references/east.jpg",
+      "imagePath": "../east.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial tree/car occlusion",
+      "primitiveStatus": "verified",
+      "windows": 8,
+      "doors": 1,
+      "countMethod": "observed-plus-occlusion-inference",
+      "notes": "Rear/east right/north wing: visible rear entry occupies the center lower slot; lower-center window is not counted. Tree/car occlusion means remaining rhythm is inferred from visible repeated columns.",
+      "countInference": {
+        "method": "observed-plus-occlusion-inference",
+        "usesSymmetry": false,
+        "windows": 8,
+        "doors": 1,
+        "proof": "east-north-wing: windows rows 2+3+3 = 8; east-north-wing: doors 1 row x 1 = 1",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 3.0,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 6.65,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 4.316,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 9.166,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 14.016,
+          "zMeters": 10.3,
+          "widthMeters": 1.067,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 9.075,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.5,
+          "sourceImage": "references/east.jpg",
+          "positionStatus": "observed-rear-context",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [
+        {
+          "id": "F01",
+          "kind": "rear_entry_canopy",
+          "primitive": "small_supported_entry_canopy",
+          "xMeters": 4.35,
+          "zMeters": 2.65,
+          "widthMeters": 2.2,
+          "heightMeters": 0.55,
+          "status": "observed",
+          "notes": "Rear/right entry canopy visible through partial tree/car occlusion.",
+          "sourceImage": "references/east.jpg",
+          "module": "major_wall_detail_module",
+          "mustBeIntegratedOrSupportedWallDetail": true
+        }
+      ],
+      "stairFeatures": [
+        {
+          "id": "S01",
+          "kind": "rear_entry_step",
+          "primitive": "short_entry_step_or_landing",
+          "xMeters": 4.45,
+          "zMeters": 0.0,
+          "widthMeters": 2.0,
+          "heightMeters": 0.35,
+          "status": "observed",
+          "notes": "Small rear step/landing at the rear entry.",
+          "sourceImage": "references/east.jpg",
+          "module": "staircase_module",
+          "mustTouchGroundAndDoorThreshold": true
+        }
+      ],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 8,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 1,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    }
+  ],
+  "auxiliaryPanels": [
+    {
+      "id": "roof",
+      "title": "Roof Plan / Satellite",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "roof",
+      "elevationRole": "roof",
+      "sourceImage": "references/roof-satellite.jpg",
+      "imagePath": "../roof-satellite.jpg",
+      "widthMeters": 19.4,
+      "estimatedHeightMeters": 19.4,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "roof-footprint-only",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "hip",
+      "countInference": {
+        "method": "approved-rule-layout",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [
+        {
+          "id": "R01",
+          "kind": "main_central_hip_roof",
+          "primitive": "large_hip_roof_zone_with_ridge",
+          "xFraction": 0.27,
+          "yFraction": 0.18,
+          "widthFraction": 0.46,
+          "heightFraction": 0.64,
+          "status": "observed",
+          "visibleElevations": [
+            "front",
+            "rear",
+            "left-side",
+            "right-side"
+          ],
+          "color": "#8ecae6",
+          "roofPlanShape": {
+            "kind": "polygon",
+            "points": [
+              [
+                0.28,
+                0.18
+              ],
+              [
+                0.64,
+                0.18
+              ],
+              [
+                0.72,
+                0.31
+              ],
+              [
+                0.72,
+                0.69
+              ],
+              [
+                0.62,
+                0.82
+              ],
+              [
+                0.36,
+                0.82
+              ],
+              [
+                0.27,
+                0.69
+              ],
+              [
+                0.27,
+                0.31
+              ]
+            ]
+          },
+          "roofLines": [
+            {
+              "kind": "ridge",
+              "points": [
+                [
+                  0.49,
+                  0.2
+                ],
+                [
+                  0.49,
+                  0.8
+                ]
+              ]
+            },
+            {
+              "kind": "hip",
+              "points": [
+                [
+                  0.49,
+                  0.5
+                ],
+                [
+                  0.28,
+                  0.18
+                ],
+                [
+                  0.72,
+                  0.31
+                ],
+                [
+                  0.62,
+                  0.82
+                ],
+                [
+                  0.27,
+                  0.69
+                ]
+              ]
+            }
+          ],
+          "notes": "Main roof mass visible in satellite; split into planes before modeling.",
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module",
+          "mustUseSatelliteReference": true
+        },
+        {
+          "id": "R02",
+          "kind": "front_gable_pediment_roof",
+          "primitive": "front_gable_pediment_prism",
+          "xFraction": 0.37,
+          "yFraction": 0.72,
+          "widthFraction": 0.26,
+          "heightFraction": 0.16,
+          "status": "observed",
+          "visibleElevations": [
+            "front"
+          ],
+          "color": "#ffb703",
+          "roofPlanShape": {
+            "kind": "polygon",
+            "points": [
+              [
+                0.38,
+                0.86
+              ],
+              [
+                0.62,
+                0.86
+              ],
+              [
+                0.5,
+                0.72
+              ]
+            ]
+          },
+          "roofLines": [
+            {
+              "kind": "ridge",
+              "points": [
+                [
+                  0.5,
+                  0.73
+                ],
+                [
+                  0.5,
+                  0.86
+                ]
+              ]
+            }
+          ],
+          "notes": "Triangular front roof/gable pediment under the cupola axis; not part of the entry stairs/platform and not part of the tower stack.",
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module",
+          "mustUseSatelliteReference": true
+        },
+        {
+          "id": "R03",
+          "kind": "rear_hip_roof_zone",
+          "primitive": "rear_hip_or_valley_roof_zone",
+          "xFraction": 0.36,
+          "yFraction": 0.04,
+          "widthFraction": 0.28,
+          "heightFraction": 0.16,
+          "status": "observed",
+          "visibleElevations": [
+            "rear",
+            "left-side",
+            "right-side"
+          ],
+          "color": "#90be6d",
+          "roofPlanShape": {
+            "kind": "polygon",
+            "points": [
+              [
+                0.36,
+                0.05
+              ],
+              [
+                0.64,
+                0.05
+              ],
+              [
+                0.69,
+                0.15
+              ],
+              [
+                0.61,
+                0.2
+              ],
+              [
+                0.39,
+                0.2
+              ],
+              [
+                0.31,
+                0.15
+              ]
+            ]
+          },
+          "roofLines": [
+            {
+              "kind": "ridge",
+              "points": [
+                [
+                  0.5,
+                  0.06
+                ],
+                [
+                  0.5,
+                  0.19
+                ]
+              ]
+            }
+          ],
+          "notes": "Rear/north top roof zone visible from satellite; model as separate roof mass tied into main roof.",
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module",
+          "mustUseSatelliteReference": true
+        },
+        {
+          "id": "R04",
+          "kind": "south_end_hip_cap",
+          "primitive": "hip_end_cap_roof_zone",
+          "xFraction": 0.28,
+          "yFraction": 0.78,
+          "widthFraction": 0.44,
+          "heightFraction": 0.17,
+          "status": "observed",
+          "visibleElevations": [
+            "front",
+            "left-side",
+            "right-side"
+          ],
+          "color": "#b5179e",
+          "roofPlanShape": {
+            "kind": "polygon",
+            "points": [
+              [
+                0.28,
+                0.78
+              ],
+              [
+                0.72,
+                0.78
+              ],
+              [
+                0.68,
+                0.95
+              ],
+              [
+                0.32,
+                0.95
+              ]
+            ]
+          },
+          "roofLines": [
+            {
+              "kind": "ridge",
+              "points": [
+                [
+                  0.5,
+                  0.79
+                ],
+                [
+                  0.5,
+                  0.94
+                ]
+              ]
+            },
+            {
+              "kind": "hip",
+              "points": [
+                [
+                  0.5,
+                  0.86
+                ],
+                [
+                  0.28,
+                  0.78
+                ],
+                [
+                  0.72,
+                  0.78
+                ],
+                [
+                  0.32,
+                  0.95
+                ],
+                [
+                  0.68,
+                  0.95
+                ]
+              ]
+            }
+          ],
+          "notes": "South/front end hip cap visible in satellite.",
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module",
+          "mustUseSatelliteReference": true
+        },
+        {
+          "id": "R05",
+          "kind": "east_rear_wing_roof_strip",
+          "primitive": "long_hip_or_shed_transition_zone",
+          "xFraction": 0.64,
+          "yFraction": 0.17,
+          "widthFraction": 0.22,
+          "heightFraction": 0.66,
+          "status": "observed",
+          "visibleElevations": [
+            "rear",
+            "right-side"
+          ],
+          "color": "#c77dff",
+          "roofPlanShape": {
+            "kind": "polygon",
+            "points": [
+              [
+                0.65,
+                0.17
+              ],
+              [
+                0.86,
+                0.2
+              ],
+              [
+                0.86,
+                0.8
+              ],
+              [
+                0.72,
+                0.83
+              ],
+              [
+                0.72,
+                0.31
+              ],
+              [
+                0.65,
+                0.25
+              ]
+            ]
+          },
+          "roofLines": [
+            {
+              "kind": "valley",
+              "points": [
+                [
+                  0.72,
+                  0.31
+                ],
+                [
+                  0.72,
+                  0.83
+                ]
+              ]
+            }
+          ],
+          "notes": "Long rear/east roof strip along the back side; keep separate from main roof blanket.",
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module",
+          "mustUseSatelliteReference": true
+        },
+        {
+          "id": "R06",
+          "kind": "cupola_roof_support_zone",
+          "primitive": "square_roof_support_pad",
+          "xFraction": 0.45,
+          "yFraction": 0.47,
+          "widthFraction": 0.11,
+          "heightFraction": 0.11,
+          "status": "observed",
+          "visibleElevations": [
+            "front",
+            "rear"
+          ],
+          "color": "#ffffff",
+          "roofPlanShape": {
+            "kind": "polygon",
+            "points": [
+              [
+                0.445,
+                0.445
+              ],
+              [
+                0.555,
+                0.445
+              ],
+              [
+                0.555,
+                0.555
+              ],
+              [
+                0.445,
+                0.555
+              ]
+            ]
+          },
+          "notes": "Square roof support pad around the cupola/tower base; tower must sit on this supported zone.",
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module",
+          "mustUseSatelliteReference": true
+        },
+        {
+          "id": "R07",
+          "kind": "roof_dormer_or_box_group",
+          "primitive": "dormer_or_roof_box_instances",
+          "xFraction": 0.29,
+          "yFraction": 0.25,
+          "widthFraction": 0.43,
+          "heightFraction": 0.58,
+          "status": "observed",
+          "visibleElevations": [
+            "front",
+            "rear",
+            "left-side",
+            "right-side"
+          ],
+          "color": "#e63946",
+          "roofPlanShape": {
+            "kind": "markers",
+            "markers": [
+              {
+                "x": 0.41,
+                "y": 0.24,
+                "width": 0.045,
+                "height": 0.035,
+                "rotate": 0
+              },
+              {
+                "x": 0.37,
+                "y": 0.36,
+                "width": 0.052,
+                "height": 0.04,
+                "rotate": -16
+              },
+              {
+                "x": 0.63,
+                "y": 0.38,
+                "width": 0.052,
+                "height": 0.04,
+                "rotate": 12
+              },
+              {
+                "x": 0.4,
+                "y": 0.65,
+                "width": 0.052,
+                "height": 0.04,
+                "rotate": -13
+              },
+              {
+                "x": 0.63,
+                "y": 0.66,
+                "width": 0.052,
+                "height": 0.04,
+                "rotate": 13
+              },
+              {
+                "x": 0.42,
+                "y": 0.83,
+                "width": 0.052,
+                "height": 0.04,
+                "rotate": -12
+              },
+              {
+                "x": 0.57,
+                "y": 0.84,
+                "width": 0.052,
+                "height": 0.04,
+                "rotate": 12
+              }
+            ]
+          },
+          "notes": "Satellite-visible small roof boxes/dormers inside this envelope; individual instances need a closer roof pass before final modeling.",
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module",
+          "mustUseSatelliteReference": true
+        }
+      ],
+      "roofElevationPlans": {
+        "front": {
+          "source": "derived-from-satellite-roof-zones",
+          "axis": "north-south",
+          "zones": [
+            {
+              "id": "R01",
+              "kind": "main_central_hip_roof",
+              "primitive": "large_hip_roof_zone_with_ridge",
+              "startFraction": 0.18,
+              "spanFraction": 0.64,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R07",
+              "kind": "roof_dormer_or_box_group",
+              "primitive": "dormer_or_roof_box_instances",
+              "startFraction": 0.25,
+              "spanFraction": 0.58,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R06",
+              "kind": "cupola_roof_support_zone",
+              "primitive": "square_roof_support_pad",
+              "startFraction": 0.47,
+              "spanFraction": 0.11,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R02",
+              "kind": "front_gable_pediment_roof",
+              "primitive": "front_gable_pediment_prism",
+              "startFraction": 0.72,
+              "spanFraction": 0.16,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R04",
+              "kind": "south_end_hip_cap",
+              "primitive": "hip_end_cap_roof_zone",
+              "startFraction": 0.78,
+              "spanFraction": 0.17,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            }
+          ]
+        },
+        "rear": {
+          "source": "derived-from-satellite-roof-zones",
+          "axis": "north-south",
+          "zones": [
+            {
+              "id": "R03",
+              "kind": "rear_hip_roof_zone",
+              "primitive": "rear_hip_or_valley_roof_zone",
+              "startFraction": 0.04,
+              "spanFraction": 0.16,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R05",
+              "kind": "east_rear_wing_roof_strip",
+              "primitive": "long_hip_or_shed_transition_zone",
+              "startFraction": 0.17,
+              "spanFraction": 0.66,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R01",
+              "kind": "main_central_hip_roof",
+              "primitive": "large_hip_roof_zone_with_ridge",
+              "startFraction": 0.18,
+              "spanFraction": 0.64,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R07",
+              "kind": "roof_dormer_or_box_group",
+              "primitive": "dormer_or_roof_box_instances",
+              "startFraction": 0.25,
+              "spanFraction": 0.58,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R06",
+              "kind": "cupola_roof_support_zone",
+              "primitive": "square_roof_support_pad",
+              "startFraction": 0.47,
+              "spanFraction": 0.11,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            }
+          ]
+        },
+        "left-side": {
+          "source": "derived-from-satellite-roof-zones",
+          "axis": "west-east",
+          "zones": [
+            {
+              "id": "R01",
+              "kind": "main_central_hip_roof",
+              "primitive": "large_hip_roof_zone_with_ridge",
+              "startFraction": 0.27,
+              "spanFraction": 0.46,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R04",
+              "kind": "south_end_hip_cap",
+              "primitive": "hip_end_cap_roof_zone",
+              "startFraction": 0.28,
+              "spanFraction": 0.44,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R07",
+              "kind": "roof_dormer_or_box_group",
+              "primitive": "dormer_or_roof_box_instances",
+              "startFraction": 0.29,
+              "spanFraction": 0.43,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R03",
+              "kind": "rear_hip_roof_zone",
+              "primitive": "rear_hip_or_valley_roof_zone",
+              "startFraction": 0.36,
+              "spanFraction": 0.28,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            }
+          ]
+        },
+        "right-side": {
+          "source": "derived-from-satellite-roof-zones",
+          "axis": "west-east",
+          "zones": [
+            {
+              "id": "R01",
+              "kind": "main_central_hip_roof",
+              "primitive": "large_hip_roof_zone_with_ridge",
+              "startFraction": 0.27,
+              "spanFraction": 0.46,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R04",
+              "kind": "south_end_hip_cap",
+              "primitive": "hip_end_cap_roof_zone",
+              "startFraction": 0.28,
+              "spanFraction": 0.44,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R07",
+              "kind": "roof_dormer_or_box_group",
+              "primitive": "dormer_or_roof_box_instances",
+              "startFraction": 0.29,
+              "spanFraction": 0.43,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R03",
+              "kind": "rear_hip_roof_zone",
+              "primitive": "rear_hip_or_valley_roof_zone",
+              "startFraction": 0.36,
+              "spanFraction": 0.28,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            },
+            {
+              "id": "R05",
+              "kind": "east_rear_wing_roof_strip",
+              "primitive": "long_hip_or_shed_transition_zone",
+              "startFraction": 0.64,
+              "spanFraction": 0.22,
+              "status": "observed",
+              "sourceImage": "references/roof-satellite.jpg"
+            }
+          ]
+        }
+      },
+      "roofElevationProfiles": {
+        "front": {
+          "status": "observed-plus-diagrammatic",
+          "notes": "West/front roof silhouette. Shows main hip roof and the central triangular front gable/pediment prism below the cupola axis.",
+          "shapes": [
+            {
+              "id": "P-front-main-hip",
+              "kind": "hip_roof_silhouette",
+              "primitive": "hip_roof_trapezoid_profile",
+              "points": [
+                [
+                  0.05,
+                  0.0
+                ],
+                [
+                  0.22,
+                  0.34
+                ],
+                [
+                  0.78,
+                  0.34
+                ],
+                [
+                  0.95,
+                  0.0
+                ]
+              ],
+              "color": "#8ecae6",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            },
+            {
+              "id": "P-front-gable",
+              "kind": "front_roof_pediment",
+              "primitive": "triangular_prism_front_profile",
+              "points": [
+                [
+                  0.36,
+                  0.0
+                ],
+                [
+                  0.5,
+                  0.58
+                ],
+                [
+                  0.64,
+                  0.0
+                ]
+              ],
+              "color": "#ffb703",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            },
+            {
+              "id": "P-front-cupola-pad",
+              "kind": "cupola_support_pad",
+              "primitive": "square_support_pad_profile",
+              "points": [
+                [
+                  0.44,
+                  0.34
+                ],
+                [
+                  0.56,
+                  0.34
+                ],
+                [
+                  0.56,
+                  0.48
+                ],
+                [
+                  0.44,
+                  0.48
+                ]
+              ],
+              "color": "#ffffff",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            }
+          ],
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module"
+        },
+        "rear": {
+          "status": "observed-plus-diagrammatic",
+          "notes": "East/rear roof silhouette. Shows rear hip mass and rear/east strip without the front gable pediment.",
+          "shapes": [
+            {
+              "id": "P-rear-main-hip",
+              "kind": "hip_roof_silhouette",
+              "primitive": "hip_roof_trapezoid_profile",
+              "points": [
+                [
+                  0.06,
+                  0.0
+                ],
+                [
+                  0.22,
+                  0.32
+                ],
+                [
+                  0.72,
+                  0.32
+                ],
+                [
+                  0.94,
+                  0.0
+                ]
+              ],
+              "color": "#8ecae6",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            },
+            {
+              "id": "P-rear-hip-zone",
+              "kind": "rear_hip_roof_zone",
+              "primitive": "rear_hip_profile",
+              "points": [
+                [
+                  0.3,
+                  0.0
+                ],
+                [
+                  0.5,
+                  0.42
+                ],
+                [
+                  0.7,
+                  0.0
+                ]
+              ],
+              "color": "#90be6d",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            },
+            {
+              "id": "P-rear-wing-strip",
+              "kind": "east_rear_wing_roof_strip",
+              "primitive": "long_shed_or_hip_transition_profile",
+              "points": [
+                [
+                  0.7,
+                  0.0
+                ],
+                [
+                  0.88,
+                  0.24
+                ],
+                [
+                  0.96,
+                  0.0
+                ]
+              ],
+              "color": "#c77dff",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            }
+          ],
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module"
+        },
+        "left-side": {
+          "status": "observed-plus-diagrammatic",
+          "notes": "South/left-side roof silhouette. Shows long hip mass and front/rear cap slopes.",
+          "shapes": [
+            {
+              "id": "P-left-main-hip",
+              "kind": "side_hip_roof_silhouette",
+              "primitive": "long_hip_roof_profile",
+              "points": [
+                [
+                  0.04,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.3
+                ],
+                [
+                  0.84,
+                  0.3
+                ],
+                [
+                  0.96,
+                  0.0
+                ]
+              ],
+              "color": "#8ecae6",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            },
+            {
+              "id": "P-left-front-cap",
+              "kind": "front_hip_cap_profile",
+              "primitive": "hip_end_cap_profile",
+              "points": [
+                [
+                  0.7,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.3
+                ],
+                [
+                  0.96,
+                  0.0
+                ]
+              ],
+              "color": "#b5179e",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            }
+          ],
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module"
+        },
+        "right-side": {
+          "status": "observed-plus-diagrammatic",
+          "notes": "North/right-side roof silhouette. Shows main hip plus the rear/east roof strip seen along the back side.",
+          "shapes": [
+            {
+              "id": "P-right-main-hip",
+              "kind": "side_hip_roof_silhouette",
+              "primitive": "long_hip_roof_profile",
+              "points": [
+                [
+                  0.04,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.3
+                ],
+                [
+                  0.8,
+                  0.3
+                ],
+                [
+                  0.96,
+                  0.0
+                ]
+              ],
+              "color": "#8ecae6",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            },
+            {
+              "id": "P-right-rear-strip",
+              "kind": "east_rear_wing_roof_strip",
+              "primitive": "long_shed_or_hip_transition_profile",
+              "points": [
+                [
+                  0.58,
+                  0.0
+                ],
+                [
+                  0.74,
+                  0.24
+                ],
+                [
+                  0.96,
+                  0.0
+                ]
+              ],
+              "color": "#c77dff",
+              "sourceImage": "references/roof-satellite.jpg",
+              "status": "observed-plus-diagrammatic"
+            }
+          ],
+          "sourceImage": "references/roof-satellite.jpg",
+          "module": "roof_module"
+        }
+      },
+      "primitiveHints": [
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "hip_prism_roof",
+          "status": "verified",
+          "confidence": 0.92,
+          "evidence": "modeling-rules hip roof type or allowed hip zone",
+          "requiresReview": false
+        },
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "split_roof_zones",
+          "status": "required",
+          "confidence": 1.0,
+          "evidence": "modeling-rules noSingleBlanketRoofSlab",
+          "requiresReview": false,
+          "required": true
+        },
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "dormer_prism",
+          "status": "required",
+          "confidence": 0.76,
+          "evidence": "modeling-rules requiredDetailKinds includes roof_dormer",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "chimney",
+          "module": "chimney_tower_module",
+          "primitive": "rectangular_chimney_shaft_with_cap",
+          "status": "required",
+          "confidence": 0.74,
+          "evidence": "modeling-rules requiredDetailKinds includes chimney",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "front_gable_pediment_prism",
+          "status": "required",
+          "confidence": 0.78,
+          "evidence": "modeling-rules requiredDetailKinds includes front_gable_pediment",
+          "requiresReview": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "tower-front-context",
+      "title": "Tower Front Context",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "tower",
+      "elevationRole": "addition",
+      "sourceImage": "references/tower/tower-front-context.jpg",
+      "imagePath": "../tower/tower-front-context.jpg",
+      "widthMeters": 10.0,
+      "estimatedHeightMeters": 24.0,
+      "referenceStatus": "approved-by-tower-manifest",
+      "qualityStatus": "tower height proportion, front face alignment, cupola placement",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "front facade tower silhouette, cupola vertical stack, tower relationship to main entry",
+      "countInference": {
+        "method": "approved-rule-layout",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "supported_base_shaft",
+          "status": "verified",
+          "confidence": 0.88,
+          "evidence": "approved tower reference and support rule",
+          "requiresReview": false
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "tiered_box_stack",
+          "status": "verified",
+          "confidence": 0.82,
+          "evidence": "approved tower reference vertical stack",
+          "requiresReview": false
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "stepped_cupola_base",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_base",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "open_lantern_box_with_posts",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_lantern",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_vertical_post_array",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_post",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_horizontal_rail_array",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_rail",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "roof_module",
+          "primitive": "small_hip_or_domed_cap",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_cap",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_spire_cylinder_or_cone",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes spire",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_crossbar_weather_vane",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes weathervane",
+          "requiresReview": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "tower-roof-satellite-context",
+      "title": "Tower Roof Satellite Context",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "tower",
+      "elevationRole": "addition",
+      "sourceImage": "references/tower/tower-roof-satellite-context.jpg",
+      "imagePath": "../tower/tower-roof-satellite-context.jpg",
+      "widthMeters": 10.0,
+      "estimatedHeightMeters": 24.0,
+      "referenceStatus": "approved-by-tower-manifest",
+      "qualityStatus": "tower footprint placement, roof/tower support check",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "roof footprint, cupola XY placement, hip roof context",
+      "countInference": {
+        "method": "approved-rule-layout",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "supported_base_shaft",
+          "status": "verified",
+          "confidence": 0.88,
+          "evidence": "approved tower reference and support rule",
+          "requiresReview": false
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "tiered_box_stack",
+          "status": "verified",
+          "confidence": 0.82,
+          "evidence": "approved tower reference vertical stack",
+          "requiresReview": false
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "stepped_cupola_base",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_base",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "open_lantern_box_with_posts",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_lantern",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_vertical_post_array",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_post",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_horizontal_rail_array",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_rail",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "roof_module",
+          "primitive": "small_hip_or_domed_cap",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes cupola_cap",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_spire_cylinder_or_cone",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes spire",
+          "requiresReview": true,
+          "required": true
+        },
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "thin_crossbar_weather_vane",
+          "status": "required",
+          "confidence": 0.8,
+          "evidence": "modeling-rules requiredDetailKinds includes weathervane",
+          "requiresReview": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "tower-aerial-cupola",
+      "title": "Tower Aerial Cupola",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "tower",
+      "elevationRole": "addition",
+      "sourceImage": "references/tower/tower-aerial-cupola.webp",
+      "imagePath": "../tower/tower-aerial-cupola.webp",
+      "widthMeters": 10.0,
+      "estimatedHeightMeters": 24.0,
+      "referenceStatus": "blocked-context-only",
+      "qualityStatus": "context only",
+      "primitiveStatus": "blocked",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "general campus cupola construction context",
+      "countInference": {
+        "method": "needs-review",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "tower",
+          "module": "chimney_tower_module",
+          "primitive": "context_only_do_not_model",
+          "status": "blocked",
+          "confidence": 1.0,
+          "evidence": "tower reference manifest notApprovedFor",
+          "requiresReview": true
+        }
+      ]
+    }
+  ],
+  "elevations": {
+    "front": {
+      "role": "front",
+      "label": "Front",
+      "panelIds": [
+        "west-south-wing",
+        "west-center-entry",
+        "west-north-wing"
+      ],
+      "sourceImages": [
+        "references/west.jpg",
+        "references/walls/wall-05.jpg",
+        "references/west.jpg"
+      ],
+      "openingCounts": {
+        "windows": 46,
+        "doors": 5
+      },
+      "countProof": [
+        "west-south-wing: windows rows 6+7+7 = 20; west-south-wing: doors 1 row x 1 = 1",
+        "west-center-entry: windows 3 rows x 2 = 6; west-center-entry: doors 1 row x 3 = 3",
+        "west-north-wing: windows rows 6+7+7 = 20; west-north-wing: doors 1 row x 1 = 1"
+      ]
+    },
+    "rear": {
+      "role": "rear",
+      "label": "Rear",
+      "panelIds": [
+        "east-south-wing",
+        "east-center-bay",
+        "east-north-wing"
+      ],
+      "sourceImages": [
+        "references/east.jpg",
+        "references/east.jpg",
+        "references/east.jpg"
+      ],
+      "openingCounts": {
+        "windows": 22,
+        "doors": 2
+      },
+      "countProof": [
+        "east-south-wing: windows rows 2+3+3 = 8; east-south-wing: doors 1 row x 1 = 1",
+        "east-center-bay: windows 3 rows x 2 = 6",
+        "east-north-wing: windows rows 2+3+3 = 8; east-north-wing: doors 1 row x 1 = 1"
+      ]
+    },
+    "left-side": {
+      "role": "left-side",
+      "label": "Left Side",
+      "panelIds": [
+        "south-main"
+      ],
+      "sourceImages": [
+        "references/south.jpg"
+      ],
+      "openingCounts": {
+        "windows": 15,
+        "doors": 0
+      },
+      "countProof": [
+        "south-main: windows 3 rows x 5 = 15"
+      ]
+    },
+    "right-side": {
+      "role": "right-side",
+      "label": "Right Side",
+      "panelIds": [
+        "north-main"
+      ],
+      "sourceImages": [
+        "references/north.jpg"
+      ],
+      "openingCounts": {
+        "windows": 18,
+        "doors": 0
+      },
+      "countProof": [
+        "north-main: windows 3 rows x 6 = 18"
+      ]
+    },
+    "roof": {
+      "role": "roof",
+      "label": "Roof",
+      "panelIds": [
+        "roof"
+      ],
+      "sourceImages": [
+        "references/roof-satellite.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    },
+    "addition": {
+      "role": "addition",
+      "label": "Addition",
+      "panelIds": [
+        "tower-front-context",
+        "tower-roof-satellite-context",
+        "tower-aerial-cupola"
+      ],
+      "sourceImages": [
+        "references/tower/tower-front-context.jpg",
+        "references/tower/tower-roof-satellite-context.jpg",
+        "references/tower/tower-aerial-cupola.webp"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    }
+  }
+}

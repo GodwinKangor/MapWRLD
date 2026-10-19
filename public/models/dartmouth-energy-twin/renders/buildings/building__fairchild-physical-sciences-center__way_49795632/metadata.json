@@ -1,0 +1,50 @@
+{
+  "name": "building__fairchild-physical-sciences-center__way_49795632",
+  "displayName": "Fairchild Physical Sciences Center",
+  "osmId": "way/49795632",
+  "originalName": "Areas.052",
+  "type": "buildings",
+  "dimensions": {
+    "x": 41.671326,
+    "y": 69.230743,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 50,
+  "edges": 75,
+  "faces": 26,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 25,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 25,
+    "nonManifoldEdges": 25
+  },
+  "topologyByObject": [
+    {
+      "name": "building__fairchild-physical-sciences-center__way_49795632",
+      "kind": "base",
+      "vertices": 50,
+      "edges": 75,
+      "faces": 26,
+      "triangles": 0,
+      "quads": 25,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 25,
+      "nonManifoldEdges": 25
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Fairchild Physical Sciences Center.glb",
+  "fbx": "Fairchild Physical Sciences Center.fbx"
+}

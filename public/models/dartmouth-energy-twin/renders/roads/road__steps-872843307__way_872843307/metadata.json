@@ -1,0 +1,50 @@
+{
+  "name": "road__steps-872843307__way_872843307",
+  "displayName": "Steps 872843307",
+  "osmId": "way/872843307",
+  "originalName": "Ways.232",
+  "type": "roads",
+  "dimensions": {
+    "x": 10.307251,
+    "y": 9.323975,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 2,
+  "edges": 1,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 2,
+    "looseEdges": 1,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 1
+  },
+  "topologyByObject": [
+    {
+      "name": "road__steps-872843307__way_872843307",
+      "kind": "base",
+      "vertices": 2,
+      "edges": 1,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 2,
+      "looseEdges": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 1
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__steps-872843307__way_872843307.glb",
+  "fbx": "road__steps-872843307__way_872843307.fbx"
+}

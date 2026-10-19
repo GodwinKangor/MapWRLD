@@ -1,0 +1,50 @@
+{
+  "name": "building__french-hall__way_549364457",
+  "displayName": "French Hall",
+  "osmId": "way/549364457",
+  "originalName": "Areas.285",
+  "type": "buildings",
+  "dimensions": {
+    "x": 40.441223,
+    "y": 43.900501,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 40,
+  "edges": 60,
+  "faces": 21,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 20,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 20,
+    "nonManifoldEdges": 20
+  },
+  "topologyByObject": [
+    {
+      "name": "building__french-hall__way_549364457",
+      "kind": "base",
+      "vertices": 40,
+      "edges": 60,
+      "faces": 21,
+      "triangles": 0,
+      "quads": 20,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 20,
+      "nonManifoldEdges": 20
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "French Hall.glb",
+  "fbx": "French Hall.fbx"
+}

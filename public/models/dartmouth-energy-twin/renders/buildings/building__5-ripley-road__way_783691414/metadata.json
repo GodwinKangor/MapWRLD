@@ -1,0 +1,50 @@
+{
+  "name": "building__5-ripley-road__way_783691414",
+  "displayName": "5 Ripley Road",
+  "osmId": "way/783691414",
+  "originalName": "Areas.525",
+  "type": "buildings",
+  "dimensions": {
+    "x": 14.029816,
+    "y": 14.241272,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 34,
+  "edges": 51,
+  "faces": 18,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 17,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 17,
+    "nonManifoldEdges": 17
+  },
+  "topologyByObject": [
+    {
+      "name": "building__5-ripley-road__way_783691414",
+      "kind": "base",
+      "vertices": 34,
+      "edges": 51,
+      "faces": 18,
+      "triangles": 0,
+      "quads": 17,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 17,
+      "nonManifoldEdges": 17
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "5 Ripley Road.glb",
+  "fbx": "5 Ripley Road.fbx"
+}

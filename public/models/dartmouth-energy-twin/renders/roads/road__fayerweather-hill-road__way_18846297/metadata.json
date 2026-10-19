@@ -1,0 +1,50 @@
+{
+  "name": "road__fayerweather-hill-road__way_18846297",
+  "displayName": "Fayerweather Hill Road",
+  "osmId": "way/18846297",
+  "originalName": "Ways.868",
+  "type": "roads",
+  "dimensions": {
+    "x": 10.644958,
+    "y": 9.501595,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 8,
+  "edges": 7,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 8,
+    "looseEdges": 7,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 7
+  },
+  "topologyByObject": [
+    {
+      "name": "road__fayerweather-hill-road__way_18846297",
+      "kind": "base",
+      "vertices": 8,
+      "edges": 7,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 8,
+      "looseEdges": 7,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 7
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__fayerweather-hill-road__way_18846297.glb",
+  "fbx": "road__fayerweather-hill-road__way_18846297.fbx"
+}

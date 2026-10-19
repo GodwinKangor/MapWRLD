@@ -1,0 +1,50 @@
+{
+  "name": "building__foley-house__way_262948891",
+  "displayName": "Foley House",
+  "osmId": "way/262948891",
+  "originalName": "Areas.154",
+  "type": "buildings",
+  "dimensions": {
+    "x": 20.518066,
+    "y": 13.708527,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 26,
+  "edges": 39,
+  "faces": 14,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 13,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 13,
+    "nonManifoldEdges": 13
+  },
+  "topologyByObject": [
+    {
+      "name": "building__foley-house__way_262948891",
+      "kind": "base",
+      "vertices": 26,
+      "edges": 39,
+      "faces": 14,
+      "triangles": 0,
+      "quads": 13,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 13,
+      "nonManifoldEdges": 13
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Foley House.glb",
+  "fbx": "Foley House.fbx"
+}

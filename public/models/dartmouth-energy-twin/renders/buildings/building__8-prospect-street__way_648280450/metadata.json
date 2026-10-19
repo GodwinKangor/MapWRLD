@@ -1,0 +1,50 @@
+{
+  "name": "building__8-prospect-street__way_648280450",
+  "displayName": "8 Prospect Street",
+  "osmId": "way/648280450",
+  "originalName": "Areas.476",
+  "type": "buildings",
+  "dimensions": {
+    "x": 12.510223,
+    "y": 19.003174,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__8-prospect-street__way_648280450",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "8 Prospect Street.glb",
+  "fbx": "8 Prospect Street.fbx"
+}

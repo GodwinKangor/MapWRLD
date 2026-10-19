@@ -1,0 +1,50 @@
+{
+  "name": "building__byrne-ii-hall__way_262950850",
+  "displayName": "Byrne II Hall",
+  "osmId": "way/262950850",
+  "originalName": "Areas.173",
+  "type": "buildings",
+  "dimensions": {
+    "x": 38.005089,
+    "y": 37.73999,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 46,
+  "edges": 69,
+  "faces": 24,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 23,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 23,
+    "nonManifoldEdges": 23
+  },
+  "topologyByObject": [
+    {
+      "name": "building__byrne-ii-hall__way_262950850",
+      "kind": "base",
+      "vertices": 46,
+      "edges": 69,
+      "faces": 24,
+      "triangles": 0,
+      "quads": 23,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 23,
+      "nonManifoldEdges": 23
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Byrne II Hall.glb",
+  "fbx": "Byrne II Hall.fbx"
+}

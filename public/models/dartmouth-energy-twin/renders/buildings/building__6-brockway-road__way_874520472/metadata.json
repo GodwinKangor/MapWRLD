@@ -1,0 +1,50 @@
+{
+  "name": "building__6-brockway-road__way_874520472",
+  "displayName": "6 Brockway Road",
+  "osmId": "way/874520472",
+  "originalName": "Areas.669",
+  "type": "buildings",
+  "dimensions": {
+    "x": 16.128235,
+    "y": 14.030396,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 12,
+  "edges": 18,
+  "faces": 7,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 6,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 6,
+    "nonManifoldEdges": 6
+  },
+  "topologyByObject": [
+    {
+      "name": "building__6-brockway-road__way_874520472",
+      "kind": "base",
+      "vertices": 12,
+      "edges": 18,
+      "faces": 7,
+      "triangles": 0,
+      "quads": 6,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 6,
+      "nonManifoldEdges": 6
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "6 Brockway Road.glb",
+  "fbx": "6 Brockway Road.fbx"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "road__fahey-path__way_35555046",
+  "displayName": "Fahey Path",
+  "osmId": "way/35555046",
+  "originalName": "Ways.313",
+  "type": "roads",
+  "dimensions": {
+    "x": 13.233833,
+    "y": 14.907318,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 3,
+  "edges": 2,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 3,
+    "looseEdges": 2,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 2
+  },
+  "topologyByObject": [
+    {
+      "name": "road__fahey-path__way_35555046",
+      "kind": "base",
+      "vertices": 3,
+      "edges": 2,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 3,
+      "looseEdges": 2,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 2
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__fahey-path__way_35555046.glb",
+  "fbx": "road__fahey-path__way_35555046.fbx"
+}

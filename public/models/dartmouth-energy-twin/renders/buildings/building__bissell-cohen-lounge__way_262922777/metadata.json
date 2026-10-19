@@ -1,0 +1,50 @@
+{
+  "name": "building__bissell-cohen-lounge__way_262922777",
+  "displayName": "Bissell/Cohen Lounge",
+  "osmId": "way/262922777",
+  "originalName": "Areas.123",
+  "type": "buildings",
+  "dimensions": {
+    "x": 39.042236,
+    "y": 29.192963,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 34,
+  "edges": 51,
+  "faces": 18,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 17,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 17,
+    "nonManifoldEdges": 17
+  },
+  "topologyByObject": [
+    {
+      "name": "building__bissell-cohen-lounge__way_262922777",
+      "kind": "base",
+      "vertices": 34,
+      "edges": 51,
+      "faces": 18,
+      "triangles": 0,
+      "quads": 17,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 17,
+      "nonManifoldEdges": 17
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Bissell-Cohen Lounge.glb",
+  "fbx": "Bissell-Cohen Lounge.fbx"
+}

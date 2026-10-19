@@ -1,0 +1,50 @@
+{
+  "name": "building__mckenzie-fuel-oil-facility__way_837183240",
+  "displayName": "McKenzie Fuel Oil Facility",
+  "osmId": "way/837183240",
+  "originalName": "Areas.592",
+  "type": "buildings",
+  "dimensions": {
+    "x": 8.11235,
+    "y": 8.091888,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 38,
+  "edges": 57,
+  "faces": 20,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 19,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 19,
+    "nonManifoldEdges": 19
+  },
+  "topologyByObject": [
+    {
+      "name": "building__mckenzie-fuel-oil-facility__way_837183240",
+      "kind": "base",
+      "vertices": 38,
+      "edges": 57,
+      "faces": 20,
+      "triangles": 0,
+      "quads": 19,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 19,
+      "nonManifoldEdges": 19
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "McKenzie Fuel Oil Facility.glb",
+  "fbx": "McKenzie Fuel Oil Facility.fbx"
+}

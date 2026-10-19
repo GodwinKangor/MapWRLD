@@ -1,0 +1,50 @@
+{
+  "name": "building__house-center-a__way_543822430",
+  "displayName": "House Center A",
+  "osmId": "way/543822430",
+  "originalName": "Areas.248",
+  "type": "buildings",
+  "dimensions": {
+    "x": 28.984177,
+    "y": 30.513893,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 8,
+  "edges": 12,
+  "faces": 5,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 4,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "building__house-center-a__way_543822430",
+      "kind": "base",
+      "vertices": 8,
+      "edges": 12,
+      "faces": 5,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 0,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "House Center A.glb",
+  "fbx": "House Center A.fbx"
+}

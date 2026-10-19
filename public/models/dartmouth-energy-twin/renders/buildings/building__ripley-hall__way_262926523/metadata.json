@@ -1,0 +1,50 @@
+{
+  "name": "building__ripley-hall__way_262926523",
+  "displayName": "Ripley Hall",
+  "osmId": "way/262926523",
+  "originalName": "Areas.141",
+  "type": "buildings",
+  "dimensions": {
+    "x": 23.13913,
+    "y": 35.031605,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__ripley-hall__way_262926523",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Ripley Hall.glb",
+  "fbx": "Ripley Hall.fbx"
+}

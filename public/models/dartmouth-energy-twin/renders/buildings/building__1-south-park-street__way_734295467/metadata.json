@@ -1,0 +1,50 @@
+{
+  "name": "building__1-south-park-street__way_734295467",
+  "displayName": "1 South Park Street",
+  "osmId": "way/734295467",
+  "originalName": "Areas.514",
+  "type": "buildings",
+  "dimensions": {
+    "x": 18.186493,
+    "y": 28.071903,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 34,
+  "edges": 51,
+  "faces": 18,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 17,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 17,
+    "nonManifoldEdges": 17
+  },
+  "topologyByObject": [
+    {
+      "name": "building__1-south-park-street__way_734295467",
+      "kind": "base",
+      "vertices": 34,
+      "edges": 51,
+      "faces": 18,
+      "triangles": 0,
+      "quads": 17,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 17,
+      "nonManifoldEdges": 17
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "1 South Park Street.glb",
+  "fbx": "1 South Park Street.fbx"
+}

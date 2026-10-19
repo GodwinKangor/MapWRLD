@@ -1,0 +1,50 @@
+{
+  "name": "road__service-694202829__way_694202829",
+  "displayName": "Service 694202829",
+  "osmId": "way/694202829",
+  "originalName": "Ways.1014",
+  "type": "roads",
+  "dimensions": {
+    "x": 15.066971,
+    "y": 30.869141,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 4,
+  "edges": 3,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 4,
+    "looseEdges": 3,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 3
+  },
+  "topologyByObject": [
+    {
+      "name": "road__service-694202829__way_694202829",
+      "kind": "base",
+      "vertices": 4,
+      "edges": 3,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 4,
+      "looseEdges": 3,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 3
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__service-694202829__way_694202829.glb",
+  "fbx": "road__service-694202829__way_694202829.fbx"
+}

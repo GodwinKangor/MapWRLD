@@ -1,0 +1,50 @@
+{
+  "name": "building__little-havana__way_265141855",
+  "displayName": "Little Havana",
+  "osmId": "way/265141855",
+  "originalName": "Areas.196",
+  "type": "buildings",
+  "dimensions": {
+    "x": 10.283159,
+    "y": 25.507782,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 12,
+  "edges": 18,
+  "faces": 7,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 6,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 6,
+    "nonManifoldEdges": 6
+  },
+  "topologyByObject": [
+    {
+      "name": "building__little-havana__way_265141855",
+      "kind": "base",
+      "vertices": 12,
+      "edges": 18,
+      "faces": 7,
+      "triangles": 0,
+      "quads": 6,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 6,
+      "nonManifoldEdges": 6
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Little Havana.glb",
+  "fbx": "Little Havana.fbx"
+}

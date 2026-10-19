@@ -1,0 +1,50 @@
+{
+  "name": "building__164-river-road__way_631418834",
+  "displayName": "164 River Road",
+  "osmId": "way/631418834",
+  "originalName": "Areas.343",
+  "type": "buildings",
+  "dimensions": {
+    "x": 13.016785,
+    "y": 13.098022,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 8,
+  "edges": 12,
+  "faces": 5,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 4,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "building__164-river-road__way_631418834",
+      "kind": "base",
+      "vertices": 8,
+      "edges": 12,
+      "faces": 5,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 0,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "164 River Road.glb",
+  "fbx": "164 River Road.fbx"
+}

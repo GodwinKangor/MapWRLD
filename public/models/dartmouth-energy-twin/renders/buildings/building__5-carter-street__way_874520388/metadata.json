@@ -1,0 +1,50 @@
+{
+  "name": "building__5-carter-street__way_874520388",
+  "displayName": "5 Carter Street",
+  "osmId": "way/874520388",
+  "originalName": "Areas.648",
+  "type": "buildings",
+  "dimensions": {
+    "x": 21.820618,
+    "y": 11.577271,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 34,
+  "edges": 51,
+  "faces": 18,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 17,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 17,
+    "nonManifoldEdges": 17
+  },
+  "topologyByObject": [
+    {
+      "name": "building__5-carter-street__way_874520388",
+      "kind": "base",
+      "vertices": 34,
+      "edges": 51,
+      "faces": 18,
+      "triangles": 0,
+      "quads": 17,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 17,
+      "nonManifoldEdges": 17
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "5 Carter Street.glb",
+  "fbx": "5 Carter Street.fbx"
+}

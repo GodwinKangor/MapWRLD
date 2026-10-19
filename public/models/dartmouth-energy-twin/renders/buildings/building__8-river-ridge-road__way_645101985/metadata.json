@@ -1,0 +1,50 @@
+{
+  "name": "building__8-river-ridge-road__way_645101985",
+  "displayName": "8 River Ridge Road",
+  "osmId": "way/645101985",
+  "originalName": "Areas.408",
+  "type": "buildings",
+  "dimensions": {
+    "x": 10.781677,
+    "y": 19.835693,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 16,
+  "edges": 24,
+  "faces": 9,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 8,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 8,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "building__8-river-ridge-road__way_645101985",
+      "kind": "base",
+      "vertices": 16,
+      "edges": 24,
+      "faces": 9,
+      "triangles": 0,
+      "quads": 8,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 8,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "8 River Ridge Road.glb",
+  "fbx": "8 River Ridge Road.fbx"
+}

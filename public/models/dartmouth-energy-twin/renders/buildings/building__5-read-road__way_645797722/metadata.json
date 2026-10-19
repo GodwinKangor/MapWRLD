@@ -1,0 +1,50 @@
+{
+  "name": "building__5-read-road__way_645797722",
+  "displayName": "5 Read Road",
+  "osmId": "way/645797722",
+  "originalName": "Areas.428",
+  "type": "buildings",
+  "dimensions": {
+    "x": 17.744324,
+    "y": 21.7005,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 24,
+  "edges": 36,
+  "faces": 13,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 12,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 12,
+    "nonManifoldEdges": 12
+  },
+  "topologyByObject": [
+    {
+      "name": "building__5-read-road__way_645797722",
+      "kind": "base",
+      "vertices": 24,
+      "edges": 36,
+      "faces": 13,
+      "triangles": 0,
+      "quads": 12,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 12,
+      "nonManifoldEdges": 12
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "5 Read Road.glb",
+  "fbx": "5 Read Road.fbx"
+}

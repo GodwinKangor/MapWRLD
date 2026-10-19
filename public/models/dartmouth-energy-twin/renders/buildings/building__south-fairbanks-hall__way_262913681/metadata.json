@@ -1,0 +1,50 @@
+{
+  "name": "building__south-fairbanks-hall__way_262913681",
+  "displayName": "South Fairbanks Hall",
+  "osmId": "way/262913681",
+  "originalName": "Areas.102",
+  "type": "buildings",
+  "dimensions": {
+    "x": 19.706024,
+    "y": 23.6208,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 34,
+  "edges": 51,
+  "faces": 18,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 17,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 17,
+    "nonManifoldEdges": 17
+  },
+  "topologyByObject": [
+    {
+      "name": "building__south-fairbanks-hall__way_262913681",
+      "kind": "base",
+      "vertices": 34,
+      "edges": 51,
+      "faces": 18,
+      "triangles": 0,
+      "quads": 17,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 17,
+      "nonManifoldEdges": 17
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "South Fairbanks Hall.glb",
+  "fbx": "South Fairbanks Hall.fbx"
+}

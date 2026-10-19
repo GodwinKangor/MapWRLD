@@ -1,0 +1,50 @@
+{
+  "name": "building__brown-little-lounge__way_262922780",
+  "displayName": "Brown/Little Lounge",
+  "osmId": "way/262922780",
+  "originalName": "Areas.126",
+  "type": "buildings",
+  "dimensions": {
+    "x": 26.821457,
+    "y": 27.483612,
+    "z": 6.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 36,
+  "edges": 54,
+  "faces": 19,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 18,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 18,
+    "nonManifoldEdges": 18
+  },
+  "topologyByObject": [
+    {
+      "name": "building__brown-little-lounge__way_262922780",
+      "kind": "base",
+      "vertices": 36,
+      "edges": 54,
+      "faces": 19,
+      "triangles": 0,
+      "quads": 18,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 18,
+      "nonManifoldEdges": 18
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Brown-Little Lounge.glb",
+  "fbx": "Brown-Little Lounge.fbx"
+}

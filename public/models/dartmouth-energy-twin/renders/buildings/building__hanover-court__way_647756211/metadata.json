@@ -1,0 +1,50 @@
+{
+  "name": "building__hanover-court__way_647756211",
+  "displayName": "Hanover Court",
+  "osmId": "way/647756211",
+  "originalName": "Areas.449",
+  "type": "buildings",
+  "dimensions": {
+    "x": 25.631531,
+    "y": 57.66452,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 56,
+  "edges": 84,
+  "faces": 29,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 28,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 28,
+    "nonManifoldEdges": 28
+  },
+  "topologyByObject": [
+    {
+      "name": "building__hanover-court__way_647756211",
+      "kind": "base",
+      "vertices": 56,
+      "edges": 84,
+      "faces": 29,
+      "triangles": 0,
+      "quads": 28,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 28,
+      "nonManifoldEdges": 28
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Hanover Court.glb",
+  "fbx": "Hanover Court.fbx"
+}

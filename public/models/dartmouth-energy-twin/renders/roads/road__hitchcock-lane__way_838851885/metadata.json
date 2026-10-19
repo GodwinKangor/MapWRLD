@@ -1,0 +1,50 @@
+{
+  "name": "road__hitchcock-lane__way_838851885",
+  "displayName": "Hitchcock Lane",
+  "osmId": "way/838851885",
+  "originalName": "Ways.036",
+  "type": "roads",
+  "dimensions": {
+    "x": 21.868774,
+    "y": 53.501999,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 9,
+  "edges": 8,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 9,
+    "looseEdges": 8,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "road__hitchcock-lane__way_838851885",
+      "kind": "base",
+      "vertices": 9,
+      "edges": 8,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 9,
+      "looseEdges": 8,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__hitchcock-lane__way_838851885.glb",
+  "fbx": "road__hitchcock-lane__way_838851885.fbx"
+}

@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-08-24T17:45:11.564Z",
+  "dryRun": false,
+  "options": {
+    "dryRun": false,
+    "force": false,
+    "skipExisting": true,
+    "stopOnFailure": false,
+    "limit": 10,
+    "offset": 0,
+    "only": [],
+    "match": []
+  },
+  "totalBuildings": 729,
+  "matchedBuildings": 729,
+  "queuedBuildings": 725,
+  "processedBuildings": 10,
+  "results": [
+    {
+      "status": "generated",
+      "building": "building__1-barrymore-road__way_874520408",
+      "folder": "buildings/building__1-barrymore-road__way_874520408",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-barrymore-road__way_874520408/references/references-manifest.json",
+      "elapsedMs": 19342,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-barrymore-road__way_874520408/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: image-failed",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 1/1 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-brockway-road__way_874520477",
+      "folder": "buildings/building__1-brockway-road__way_874520477",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-brockway-road__way_874520477/references/references-manifest.json",
+      "elapsedMs": 14354,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-brockway-road__way_874520477/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 3/3 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-buell-street__way_874770914",
+      "folder": "buildings/building__1-buell-street__way_874770914",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770914/references/references-manifest.json",
+      "elapsedMs": 7292,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770914/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 1/1 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-buell-street__way_874770915",
+      "folder": "buildings/building__1-buell-street__way_874770915",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770915/references/references-manifest.json",
+      "elapsedMs": 25074,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770915/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 3/3 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-dana-road__way_48466712",
+      "folder": "buildings/building__1-dana-road__way_48466712",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466712/references/references-manifest.json",
+      "elapsedMs": 16296,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466712/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 2/2 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-dana-road__way_48466713",
+      "folder": "buildings/building__1-dana-road__way_48466713",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466713/references/references-manifest.json",
+      "elapsedMs": 2961,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466713/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 0/0 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-holiday-drive__way_1415647781",
+      "folder": "buildings/building__1-holiday-drive__way_1415647781",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-holiday-drive__way_1415647781/references/references-manifest.json",
+      "elapsedMs": 25167,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-holiday-drive__way_1415647781/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 6/6 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-huntley-road__way_785657748",
+      "folder": "buildings/building__1-huntley-road__way_785657748",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657748/references/references-manifest.json",
+      "elapsedMs": 24399,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657748/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 3/3 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-huntley-road__way_785657749",
+      "folder": "buildings/building__1-huntley-road__way_785657749",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657749/references/references-manifest.json",
+      "elapsedMs": 19001,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657749/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 4/4 saved"
+      ]
+    },
+    {
+      "status": "generated",
+      "building": "building__1-ivy-pointe-way__way_784097654",
+      "folder": "buildings/building__1-ivy-pointe-way__way_784097654",
+      "existedBeforeRun": false,
+      "referenceManifest": "public/models/dartmouth-energy-twin/renders/buildings/building__1-ivy-pointe-way__way_784097654/references/references-manifest.json",
+      "elapsedMs": 7030,
+      "stdoutTail": [
+        "Wrote public/models/dartmouth-energy-twin/renders/buildings/building__1-ivy-pointe-way__way_784097654/references/references-manifest.json",
+        "north: saved",
+        "east: saved",
+        "south: saved",
+        "west: saved",
+        "roof: saved",
+        "googlePhotos: 0",
+        "walls: 1/1 saved"
+      ]
+    }
+  ]
+}

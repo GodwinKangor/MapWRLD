@@ -1,0 +1,50 @@
+{
+  "name": "road__park-way__way_962056791",
+  "displayName": "Park Way",
+  "osmId": "way/962056791",
+  "originalName": "Ways.1301",
+  "type": "roads",
+  "dimensions": {
+    "x": 21.297958,
+    "y": 13.175659,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 2,
+  "edges": 1,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 2,
+    "looseEdges": 1,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 1
+  },
+  "topologyByObject": [
+    {
+      "name": "road__park-way__way_962056791",
+      "kind": "base",
+      "vertices": 2,
+      "edges": 1,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 2,
+      "looseEdges": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 1
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__park-way__way_962056791.glb",
+  "fbx": "road__park-way__way_962056791.fbx"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "road__buell-street__way_966622843",
+  "displayName": "Buell Street",
+  "osmId": "way/966622843",
+  "originalName": "Ways.631",
+  "type": "roads",
+  "dimensions": {
+    "x": 46.664154,
+    "y": 46.997375,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 9,
+  "edges": 8,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 9,
+    "looseEdges": 8,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 8
+  },
+  "topologyByObject": [
+    {
+      "name": "road__buell-street__way_966622843",
+      "kind": "base",
+      "vertices": 9,
+      "edges": 8,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 9,
+      "looseEdges": 8,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 8
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__buell-street__way_966622843.glb",
+  "fbx": "road__buell-street__way_966622843.fbx"
+}

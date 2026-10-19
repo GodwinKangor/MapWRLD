@@ -1,0 +1,50 @@
+{
+  "name": "building__casque-gauntlet-senior-society__way_261796568",
+  "displayName": "Casque & Gauntlet Senior Society",
+  "osmId": "way/261796568",
+  "originalName": "Areas.093",
+  "type": "buildings",
+  "dimensions": {
+    "x": 25.768204,
+    "y": 15.628799,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 24,
+  "edges": 36,
+  "faces": 13,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 12,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 12,
+    "nonManifoldEdges": 12
+  },
+  "topologyByObject": [
+    {
+      "name": "building__casque-gauntlet-senior-society__way_261796568",
+      "kind": "base",
+      "vertices": 24,
+      "edges": 36,
+      "faces": 13,
+      "triangles": 0,
+      "quads": 12,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 12,
+      "nonManifoldEdges": 12
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Casque & Gauntlet Senior Society.glb",
+  "fbx": "Casque & Gauntlet Senior Society.fbx"
+}

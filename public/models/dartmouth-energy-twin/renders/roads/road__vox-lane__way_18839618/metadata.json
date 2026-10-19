@@ -1,0 +1,50 @@
+{
+  "name": "road__vox-lane__way_18839618",
+  "displayName": "Vox Lane",
+  "osmId": "way/18839618",
+  "originalName": "Ways.918",
+  "type": "roads",
+  "dimensions": {
+    "x": 14.70517,
+    "y": 8.879999,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 3,
+  "edges": 2,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 3,
+    "looseEdges": 2,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 2
+  },
+  "topologyByObject": [
+    {
+      "name": "road__vox-lane__way_18839618",
+      "kind": "base",
+      "vertices": 3,
+      "edges": 2,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 3,
+      "looseEdges": 2,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 2
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__vox-lane__way_18839618.glb",
+  "fbx": "road__vox-lane__way_18839618.fbx"
+}

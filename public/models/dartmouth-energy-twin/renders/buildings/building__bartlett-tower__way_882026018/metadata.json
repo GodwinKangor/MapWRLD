@@ -1,0 +1,50 @@
+{
+  "name": "building__bartlett-tower__way_882026018",
+  "displayName": "Bartlett Tower",
+  "osmId": "way/882026018",
+  "originalName": "Areas.635",
+  "type": "buildings",
+  "dimensions": {
+    "x": 18.628693,
+    "y": 10.989014,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 14,
+  "edges": 21,
+  "faces": 8,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 7,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 7,
+    "nonManifoldEdges": 7
+  },
+  "topologyByObject": [
+    {
+      "name": "building__bartlett-tower__way_882026018",
+      "kind": "base",
+      "vertices": 14,
+      "edges": 21,
+      "faces": 8,
+      "triangles": 0,
+      "quads": 7,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 7,
+      "nonManifoldEdges": 7
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Bartlett Tower.glb",
+  "fbx": "Bartlett Tower.fbx"
+}

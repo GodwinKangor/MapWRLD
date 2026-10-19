@@ -1,0 +1,50 @@
+{
+  "name": "building__aquinas-house-catholic-student-center__way_262922773",
+  "displayName": "Aquinas House Catholic Student Center",
+  "osmId": "way/262922773",
+  "originalName": "Areas.120",
+  "type": "buildings",
+  "dimensions": {
+    "x": 64.633545,
+    "y": 48.329407,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 70,
+  "edges": 105,
+  "faces": 36,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 35,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 35,
+    "nonManifoldEdges": 35
+  },
+  "topologyByObject": [
+    {
+      "name": "building__aquinas-house-catholic-student-center__way_262922773",
+      "kind": "base",
+      "vertices": 70,
+      "edges": 105,
+      "faces": 36,
+      "triangles": 0,
+      "quads": 35,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 35,
+      "nonManifoldEdges": 35
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Aquinas House Catholic Student Center.glb",
+  "fbx": "Aquinas House Catholic Student Center.fbx"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "building__upper-valley-esthetic-dentistry__way_783709280",
+  "displayName": "Upper Valley Esthetic Dentistry",
+  "osmId": "way/783709280",
+  "originalName": "Areas.543",
+  "type": "buildings",
+  "dimensions": {
+    "x": 21.973328,
+    "y": 27.394806,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 20,
+  "edges": 30,
+  "faces": 11,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 10,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 10,
+    "nonManifoldEdges": 10
+  },
+  "topologyByObject": [
+    {
+      "name": "building__upper-valley-esthetic-dentistry__way_783709280",
+      "kind": "base",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 11,
+      "triangles": 0,
+      "quads": 10,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 10,
+      "nonManifoldEdges": 10
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Upper Valley Esthetic Dentistry.glb",
+  "fbx": "Upper Valley Esthetic Dentistry.fbx"
+}

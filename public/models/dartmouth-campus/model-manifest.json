@@ -1,11 +1,11 @@
 {
   "campusModel": "/models/dartmouth-campus/dartmouth-campus.glb",
-  "status": "pending",
+  "status": "ready",
   "units": "meters",
   "origin": {
-    "longitude": -72.2884,
-    "latitude": 43.7037,
-    "heightMeters": 0
+    "longitude": -72.28761824817417,
+    "latitude": 43.70342049977081,
+    "heightMeters": 168
   },
   "recommendedExport": {
     "format": "glb",
@@ -13,5 +13,10 @@
     "scale": 1,
     "notes": "Export from Maya in meters, with the campus centered around the manifest origin."
   },
-  "fallback": "Cesium terrain, imagery, and OSM buildings remain active until the GLB is available."
+  "fallback": "Cesium terrain, imagery, and OSM buildings remain active until the GLB is available.",
+  "terrainAnchors": "/models/dartmouth-campus/terrain-anchors.json",
+  "georeference": {
+    "longitudePerMeter": 1.2437812605066111e-05,
+    "latitudePerMeter": 9.00900885562946e-06
+  }
 }

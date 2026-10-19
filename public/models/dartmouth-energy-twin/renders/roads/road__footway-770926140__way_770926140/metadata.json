@@ -1,0 +1,50 @@
+{
+  "name": "road__footway-770926140__way_770926140",
+  "displayName": "Footway 770926140",
+  "osmId": "way/770926140",
+  "originalName": "Ways.1461",
+  "type": "roads",
+  "dimensions": {
+    "x": 0.651306,
+    "y": 5.083801,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 2,
+  "edges": 1,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 2,
+    "looseEdges": 1,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 1
+  },
+  "topologyByObject": [
+    {
+      "name": "road__footway-770926140__way_770926140",
+      "kind": "base",
+      "vertices": 2,
+      "edges": 1,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 2,
+      "looseEdges": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 1
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__footway-770926140__way_770926140.glb",
+  "fbx": "road__footway-770926140__way_770926140.fbx"
+}

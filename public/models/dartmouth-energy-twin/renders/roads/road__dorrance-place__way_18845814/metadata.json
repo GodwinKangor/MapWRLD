@@ -1,0 +1,50 @@
+{
+  "name": "road__dorrance-place__way_18845814",
+  "displayName": "Dorrance Place",
+  "osmId": "way/18845814",
+  "originalName": "Ways.649",
+  "type": "roads",
+  "dimensions": {
+    "x": 53.787628,
+    "y": 60.450562,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 14,
+  "edges": 13,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 14,
+    "looseEdges": 13,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 13
+  },
+  "topologyByObject": [
+    {
+      "name": "road__dorrance-place__way_18845814",
+      "kind": "base",
+      "vertices": 14,
+      "edges": 13,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 14,
+      "looseEdges": 13,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 13
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__dorrance-place__way_18845814.glb",
+  "fbx": "road__dorrance-place__way_18845814.fbx"
+}

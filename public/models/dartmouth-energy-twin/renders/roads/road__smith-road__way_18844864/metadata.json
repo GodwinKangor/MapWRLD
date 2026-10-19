@@ -1,0 +1,50 @@
+{
+  "name": "road__smith-road__way_18844864",
+  "displayName": "Smith Road",
+  "osmId": "way/18844864",
+  "originalName": "Ways.1449",
+  "type": "roads",
+  "dimensions": {
+    "x": 66.884766,
+    "y": 62.315399,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 22,
+  "edges": 21,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 22,
+    "looseEdges": 21,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 21
+  },
+  "topologyByObject": [
+    {
+      "name": "road__smith-road__way_18844864",
+      "kind": "base",
+      "vertices": 22,
+      "edges": 21,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 22,
+      "looseEdges": 21,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 21
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__smith-road__way_18844864.glb",
+  "fbx": "road__smith-road__way_18844864.fbx"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "road__weatherby-terrace__way_18847433",
+  "displayName": "Weatherby Terrace",
+  "osmId": "way/18847433",
+  "originalName": "Ways.262",
+  "type": "roads",
+  "dimensions": {
+    "x": 47.259125,
+    "y": 69.019798,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 5,
+  "edges": 4,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 5,
+    "looseEdges": 4,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "road__weatherby-terrace__way_18847433",
+      "kind": "base",
+      "vertices": 5,
+      "edges": 4,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 5,
+      "looseEdges": 4,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__weatherby-terrace__way_18847433.glb",
+  "fbx": "road__weatherby-terrace__way_18847433.fbx"
+}

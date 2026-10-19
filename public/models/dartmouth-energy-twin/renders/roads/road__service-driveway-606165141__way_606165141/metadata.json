@@ -1,0 +1,50 @@
+{
+  "name": "road__service-driveway-606165141__way_606165141",
+  "displayName": "Service Driveway 606165141",
+  "osmId": "way/606165141",
+  "originalName": "Ways.082",
+  "type": "roads",
+  "dimensions": {
+    "x": 946.565247,
+    "y": 1447.628784,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 79,
+  "edges": 78,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 79,
+    "looseEdges": 78,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 78
+  },
+  "topologyByObject": [
+    {
+      "name": "road__service-driveway-606165141__way_606165141",
+      "kind": "base",
+      "vertices": 79,
+      "edges": 78,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 79,
+      "looseEdges": 78,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 78
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__service-driveway-606165141__way_606165141.glb",
+  "fbx": "road__service-driveway-606165141__way_606165141.fbx"
+}

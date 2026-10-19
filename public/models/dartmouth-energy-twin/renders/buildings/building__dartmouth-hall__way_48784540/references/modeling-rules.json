@@ -5,7 +5,26 @@
   "scope": "exterior-only",
   "sourceReset": {
     "required": true,
-    "sourceObject": "Areas.046"
+    "sourceObject": "Areas.046",
+    "sourceBlend": "/Users/godwinkangor/Downloads/dartmouth energy twin.blend"
+  },
+  "elevationRoles": {
+    "front": [
+      "west-south-wing",
+      "west-center-entry",
+      "west-north-wing"
+    ],
+    "rear": [
+      "east-south-wing",
+      "east-center-bay",
+      "east-north-wing"
+    ],
+    "left-side": [
+      "south-main"
+    ],
+    "right-side": [
+      "north-main"
+    ]
   },
   "windowsAndDoors": {
     "mustBeIntegratedWallFaces": true,
@@ -13,67 +32,493 @@
     "noFloatingPanels": true,
     "noBlindOpenings": true,
     "countsMustMatchReferencePerWall": true,
-    "approvedWallSources": ["wall-04", "wall-05", "wall-08", "north", "east", "south", "west"],
+    "approvedWallSources": [
+      "wall-04",
+      "wall-05",
+      "wall-08",
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
     "blockedWallSources": [],
     "wallOpeningPlans": {
       "west-south-wing": {
         "reference": "references/west.jpg",
         "quality": "partially occluded but usable",
-        "windows": 9,
+        "countMethod": "observed-plus-symmetry-inference",
+        "windows": 20,
         "doors": 1,
-        "doorPositions": [0.9],
-        "notes": "Front west left/south wing visible through tree; three floors of sash windows plus side entry."
+        "floors": 3,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "windowSillMeters": 3.0,
+        "floorHeightMeters": 3.65,
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "observed-middle-of-wing",
+        "notes": "Front west left/south wing: observed repeated sash rhythm is three rows by seven column slots. The center ground slot is reserved for the middle door, giving windows 6 + 7 + 7 = 20; hidden/occluded openings inferred by symmetry."
       },
       "west-center-entry": {
         "reference": "references/walls/wall-05.jpg",
         "quality": "approved close facade reference",
+        "countMethod": "observed",
         "windows": 6,
-        "doors": 1,
-        "doorPositions": [0.5],
-        "notes": "Central entry bay: main door, flanking/upper window rhythm from close reference and west context."
+        "doors": 3,
+        "floors": 3,
+        "windowRows": [
+          2,
+          2,
+          2
+        ],
+        "windowSillMeters": 3.2,
+        "doorPositions": [
+          0.32,
+          0.5,
+          0.68
+        ],
+        "doorPositionStatus": "observed",
+        "notes": "Central entry bay: three doors and six windows counted separately from the close wall reference and front context.",
+        "majorWallFeatures": [
+          {
+            "id": "F01",
+            "kind": "front_entry_surround",
+            "primitive": "raised_rectangular_trim_with_arched_transom",
+            "xMeters": 6.95,
+            "zMeters": 0.0,
+            "widthMeters": 4.6,
+            "heightMeters": 4.15,
+            "status": "observed",
+            "notes": "Large white entry surround around the central ground doors; model as wall-supported trim, not a floating panel."
+          },
+          {
+            "id": "F02",
+            "kind": "entry_entablature_or_cap_trim",
+            "primitive": "raised_horizontal_entry_cap_trim",
+            "xMeters": 7.35,
+            "zMeters": 3.55,
+            "widthMeters": 3.8,
+            "heightMeters": 0.55,
+            "status": "observed",
+            "notes": "Flat/rectangular cap trim above the entry surround. Do not classify this as the roof/front gable pediment."
+          },
+          {
+            "id": "F03",
+            "kind": "central_plaque_panel",
+            "primitive": "recessed_or_raised_rectangular_wall_panel",
+            "xMeters": 7.95,
+            "zMeters": 6.0,
+            "widthMeters": 2.6,
+            "heightMeters": 1.25,
+            "status": "observed",
+            "notes": "Centered rectangular wall feature above the entrance and below the upper window bay."
+          },
+          {
+            "id": "F04",
+            "kind": "horizontal_belt_course",
+            "primitive": "thin_horizontal_trim_band",
+            "xMeters": 0.0,
+            "zMeters": 4.85,
+            "widthMeters": 18.35,
+            "heightMeters": 0.22,
+            "status": "observed",
+            "notes": "Horizontal trim/belt line across the central bay."
+          },
+          {
+            "id": "F05",
+            "kind": "bay_edge_trim",
+            "primitive": "vertical_pilaster_or_corner_trim",
+            "xMeters": 0.15,
+            "zMeters": 0.0,
+            "widthMeters": 0.22,
+            "heightMeters": 14.0,
+            "status": "observed",
+            "notes": "Left vertical bay edge trim."
+          },
+          {
+            "id": "F06",
+            "kind": "bay_edge_trim",
+            "primitive": "vertical_pilaster_or_corner_trim",
+            "xMeters": 17.98,
+            "zMeters": 0.0,
+            "widthMeters": 0.22,
+            "heightMeters": 14.0,
+            "status": "observed",
+            "notes": "Right vertical bay edge trim."
+          }
+        ],
+        "stairFeatures": [
+          {
+            "id": "S01",
+            "kind": "front_entry_platform",
+            "primitive": "rectangular_landing_platform",
+            "xMeters": 6.75,
+            "zMeters": 0.0,
+            "widthMeters": 4.95,
+            "heightMeters": 0.45,
+            "status": "observed",
+            "notes": "Landing/platform at the door threshold; handled by staircase_module, not major_wall_detail_module."
+          },
+          {
+            "id": "S02",
+            "kind": "front_entry_stair_run",
+            "primitive": "stacked_step_blocks",
+            "xMeters": 6.45,
+            "zMeters": -0.15,
+            "widthMeters": 5.55,
+            "heightMeters": 0.75,
+            "status": "observed",
+            "notes": "Exterior stair run in front of the entry platform; must touch ground and threshold."
+          }
+        ]
       },
       "west-north-wing": {
         "reference": "references/west.jpg",
         "quality": "approved broad facade reference",
-        "windows": 12,
+        "countMethod": "observed-plus-symmetry-inference",
+        "windows": 20,
         "doors": 1,
-        "doorPositions": [0.9],
-        "notes": "Front west right/north wing: four columns over three floors plus visible side entry/ramp zone."
+        "floors": 3,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "windowSillMeters": 3.0,
+        "floorHeightMeters": 3.65,
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "observed-middle-of-wing",
+        "notes": "Front west right/north wing: observed repeated sash rhythm is three rows by seven column slots. The center ground slot is reserved for the middle door, giving windows 6 + 7 + 7 = 20; hidden/occluded openings inferred by symmetry."
       },
       "north-main": {
         "reference": "references/north.jpg",
         "quality": "approved close wall reference",
+        "countMethod": "observed-clustered-side-elevation",
         "windows": 18,
         "doors": 0,
-        "notes": "Six visible window columns over three floors; basement vents are not modeled as doors/windows."
+        "floors": 3,
+        "windowGridColumns": 8,
+        "windowRows": [
+          [
+            1,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          [
+            1,
+            3,
+            4,
+            5,
+            6,
+            8
+          ],
+          [
+            1,
+            3,
+            4,
+            5,
+            6,
+            8
+          ]
+        ],
+        "windowSillMeters": 2.45,
+        "floorHeightMeters": 3.65,
+        "majorWallFeatures": [
+          {
+            "id": "F01",
+            "kind": "basement_vent",
+            "primitive": "recessed_rectangular_basement_vent",
+            "xMeters": 4.2,
+            "zMeters": 0.45,
+            "widthMeters": 1.1,
+            "heightMeters": 0.65,
+            "status": "observed",
+            "notes": "Basement vent visible on side elevation; do not count as window."
+          },
+          {
+            "id": "F02",
+            "kind": "basement_vent",
+            "primitive": "recessed_rectangular_basement_vent",
+            "xMeters": 14.2,
+            "zMeters": 0.45,
+            "widthMeters": 1.1,
+            "heightMeters": 0.65,
+            "status": "observed",
+            "notes": "Basement vent visible on side elevation; do not count as window."
+          }
+        ],
+        "notes": "Right/north side is a clustered 1 + 4 + 1 window rhythm over three floors, not six evenly spaced columns. Basement vents are major wall features, not windows."
       },
       "south-main": {
         "reference": "references/south.jpg",
         "quality": "approved close wall reference",
+        "countMethod": "observed-clustered-side-elevation",
         "windows": 15,
         "doors": 0,
-        "notes": "Five visible window columns over three floors; basement vents are not modeled as doors/windows."
+        "floors": 3,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          [
+            2,
+            3,
+            4,
+            5,
+            7
+          ],
+          [
+            2,
+            3,
+            4,
+            5,
+            7
+          ]
+        ],
+        "windowSillMeters": 2.45,
+        "floorHeightMeters": 3.65,
+        "majorWallFeatures": [
+          {
+            "id": "F01",
+            "kind": "basement_vent",
+            "primitive": "recessed_rectangular_basement_vent",
+            "xMeters": 2.25,
+            "zMeters": 0.45,
+            "widthMeters": 1.1,
+            "heightMeters": 0.65,
+            "status": "observed",
+            "notes": "Basement vent visible on side elevation; do not count as window."
+          },
+          {
+            "id": "F02",
+            "kind": "basement_vent",
+            "primitive": "recessed_rectangular_basement_vent",
+            "xMeters": 10.7,
+            "zMeters": 0.45,
+            "widthMeters": 1.1,
+            "heightMeters": 0.65,
+            "status": "observed",
+            "notes": "Basement vent visible on side elevation; do not count as window."
+          }
+        ],
+        "notes": "Left/south side is a central four-window cluster plus one separated end window over three floors. Basement vents are major wall features, not windows."
       },
       "east-south-wing": {
         "reference": "references/east.jpg",
         "quality": "partial tree/car occlusion",
-        "windows": 9,
-        "doors": 0,
-        "notes": "Visible side wing rhythm from east context; keep conservative until a cleaner wall-specific image is approved."
+        "countMethod": "observed-plus-occlusion-inference",
+        "windows": 8,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "windowSillMeters": 3.0,
+        "floorHeightMeters": 3.65,
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "observed-rear-context",
+        "majorWallFeatures": [
+          {
+            "id": "F01",
+            "kind": "rear_entry_canopy",
+            "primitive": "small_supported_entry_canopy",
+            "xMeters": 4.35,
+            "zMeters": 2.65,
+            "widthMeters": 2.2,
+            "heightMeters": 0.55,
+            "status": "observed",
+            "notes": "Small rear entry canopy/hood above observed door."
+          }
+        ],
+        "stairFeatures": [
+          {
+            "id": "S01",
+            "kind": "rear_entry_step",
+            "primitive": "short_entry_step_or_landing",
+            "xMeters": 4.45,
+            "zMeters": 0.0,
+            "widthMeters": 2.0,
+            "heightMeters": 0.35,
+            "status": "observed",
+            "notes": "Small rear step/landing at the rear entry."
+          }
+        ],
+        "notes": "Rear/east left/south wing: visible rear entry occupies the center lower slot; lower-center window is not counted. Tree/car occlusion means remaining rhythm is inferred from visible repeated columns."
       },
       "east-center-bay": {
         "reference": "references/east.jpg",
         "quality": "partial tree/car occlusion",
+        "countMethod": "observed-plus-occlusion-inference",
         "windows": 6,
         "doors": 0,
-        "notes": "Center/recessed east bay uses conservative two-column, three-floor rhythm."
+        "floors": 3,
+        "windowGridColumns": 2,
+        "windowRows": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "windowSillMeters": 3.0,
+        "floorHeightMeters": 3.65,
+        "majorWallFeatures": [
+          {
+            "id": "F01",
+            "kind": "recessed_rear_bay_edge",
+            "primitive": "vertical_recess_or_bay_edge_trim",
+            "xMeters": 0.1,
+            "zMeters": 0.0,
+            "widthMeters": 0.25,
+            "heightMeters": 14.0,
+            "status": "observed",
+            "notes": "Rear center bay reads as a recessed/transition bay in the oblique east reference."
+          }
+        ],
+        "notes": "Center/recessed east bay uses a two-column, three-floor rhythm from the rear context; occlusion remains noted."
       },
       "east-north-wing": {
         "reference": "references/east.jpg",
         "quality": "partial tree/car occlusion",
-        "windows": 9,
-        "doors": 0,
-        "notes": "Visible side wing rhythm from east context; no door modeled without a cleaner door reference."
+        "countMethod": "observed-plus-occlusion-inference",
+        "windows": 8,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "windowSillMeters": 3.0,
+        "floorHeightMeters": 3.65,
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "observed-rear-context",
+        "majorWallFeatures": [
+          {
+            "id": "F01",
+            "kind": "rear_entry_canopy",
+            "primitive": "small_supported_entry_canopy",
+            "xMeters": 4.35,
+            "zMeters": 2.65,
+            "widthMeters": 2.2,
+            "heightMeters": 0.55,
+            "status": "observed",
+            "notes": "Rear/right entry canopy visible through partial tree/car occlusion."
+          }
+        ],
+        "stairFeatures": [
+          {
+            "id": "S01",
+            "kind": "rear_entry_step",
+            "primitive": "short_entry_step_or_landing",
+            "xMeters": 4.45,
+            "zMeters": 0.0,
+            "widthMeters": 2.0,
+            "heightMeters": 0.35,
+            "status": "observed",
+            "notes": "Small rear step/landing at the rear entry."
+          }
+        ],
+        "notes": "Rear/east right/north wing: visible rear entry occupies the center lower slot; lower-center window is not counted. Tree/car occlusion means remaining rhythm is inferred from visible repeated columns."
       }
     }
   },
@@ -85,10 +530,723 @@
     "allowHipRoofZones": true,
     "noSingleBlanketRoofSlab": true,
     "noRoofOverlapIntoUnsupportedSpace": true,
-    "requiredDetailKinds": ["roof", "roof_dormer", "chimney"],
+    "requiredDetailKinds": [
+      "roof",
+      "roof_dormer",
+      "chimney",
+      "front_gable_pediment"
+    ],
     "dormersRequireApprovedRoofPlane": true,
     "approvedDormerZones": [],
-    "referenceSource": "references/roof-satellite.jpg"
+    "referenceSource": "references/roof-satellite.jpg",
+    "roofPlanSource": "satellite",
+    "roofPlanCoordinateSystem": "normalized satellite image bounds: x left/west to right/east, y top/north to bottom/south; Dartmouth Hall front is west, rear is east",
+    "mustGenerateElevationPlans": [
+      "front",
+      "rear",
+      "left-side",
+      "right-side"
+    ],
+    "roofElevationProfiles": {
+      "front": {
+        "status": "observed-plus-diagrammatic",
+        "notes": "West/front roof silhouette. Shows main hip roof and the central triangular front gable/pediment prism below the cupola axis.",
+        "shapes": [
+          {
+            "id": "P-front-main-hip",
+            "kind": "hip_roof_silhouette",
+            "primitive": "hip_roof_trapezoid_profile",
+            "points": [
+              [
+                0.05,
+                0.0
+              ],
+              [
+                0.22,
+                0.34
+              ],
+              [
+                0.78,
+                0.34
+              ],
+              [
+                0.95,
+                0.0
+              ]
+            ],
+            "color": "#8ecae6"
+          },
+          {
+            "id": "P-front-gable",
+            "kind": "front_roof_pediment",
+            "primitive": "triangular_prism_front_profile",
+            "points": [
+              [
+                0.36,
+                0.0
+              ],
+              [
+                0.5,
+                0.58
+              ],
+              [
+                0.64,
+                0.0
+              ]
+            ],
+            "color": "#ffb703"
+          },
+          {
+            "id": "P-front-cupola-pad",
+            "kind": "cupola_support_pad",
+            "primitive": "square_support_pad_profile",
+            "points": [
+              [
+                0.44,
+                0.34
+              ],
+              [
+                0.56,
+                0.34
+              ],
+              [
+                0.56,
+                0.48
+              ],
+              [
+                0.44,
+                0.48
+              ]
+            ],
+            "color": "#ffffff"
+          }
+        ]
+      },
+      "rear": {
+        "status": "observed-plus-diagrammatic",
+        "notes": "East/rear roof silhouette. Shows rear hip mass and rear/east strip without the front gable pediment.",
+        "shapes": [
+          {
+            "id": "P-rear-main-hip",
+            "kind": "hip_roof_silhouette",
+            "primitive": "hip_roof_trapezoid_profile",
+            "points": [
+              [
+                0.06,
+                0.0
+              ],
+              [
+                0.22,
+                0.32
+              ],
+              [
+                0.72,
+                0.32
+              ],
+              [
+                0.94,
+                0.0
+              ]
+            ],
+            "color": "#8ecae6"
+          },
+          {
+            "id": "P-rear-hip-zone",
+            "kind": "rear_hip_roof_zone",
+            "primitive": "rear_hip_profile",
+            "points": [
+              [
+                0.3,
+                0.0
+              ],
+              [
+                0.5,
+                0.42
+              ],
+              [
+                0.7,
+                0.0
+              ]
+            ],
+            "color": "#90be6d"
+          },
+          {
+            "id": "P-rear-wing-strip",
+            "kind": "east_rear_wing_roof_strip",
+            "primitive": "long_shed_or_hip_transition_profile",
+            "points": [
+              [
+                0.7,
+                0.0
+              ],
+              [
+                0.88,
+                0.24
+              ],
+              [
+                0.96,
+                0.0
+              ]
+            ],
+            "color": "#c77dff"
+          }
+        ]
+      },
+      "left-side": {
+        "status": "observed-plus-diagrammatic",
+        "notes": "South/left-side roof silhouette. Shows long hip mass and front/rear cap slopes.",
+        "shapes": [
+          {
+            "id": "P-left-main-hip",
+            "kind": "side_hip_roof_silhouette",
+            "primitive": "long_hip_roof_profile",
+            "points": [
+              [
+                0.04,
+                0.0
+              ],
+              [
+                0.16,
+                0.3
+              ],
+              [
+                0.84,
+                0.3
+              ],
+              [
+                0.96,
+                0.0
+              ]
+            ],
+            "color": "#8ecae6"
+          },
+          {
+            "id": "P-left-front-cap",
+            "kind": "front_hip_cap_profile",
+            "primitive": "hip_end_cap_profile",
+            "points": [
+              [
+                0.7,
+                0.0
+              ],
+              [
+                0.84,
+                0.3
+              ],
+              [
+                0.96,
+                0.0
+              ]
+            ],
+            "color": "#b5179e"
+          }
+        ]
+      },
+      "right-side": {
+        "status": "observed-plus-diagrammatic",
+        "notes": "North/right-side roof silhouette. Shows main hip plus the rear/east roof strip seen along the back side.",
+        "shapes": [
+          {
+            "id": "P-right-main-hip",
+            "kind": "side_hip_roof_silhouette",
+            "primitive": "long_hip_roof_profile",
+            "points": [
+              [
+                0.04,
+                0.0
+              ],
+              [
+                0.16,
+                0.3
+              ],
+              [
+                0.8,
+                0.3
+              ],
+              [
+                0.96,
+                0.0
+              ]
+            ],
+            "color": "#8ecae6"
+          },
+          {
+            "id": "P-right-rear-strip",
+            "kind": "east_rear_wing_roof_strip",
+            "primitive": "long_shed_or_hip_transition_profile",
+            "points": [
+              [
+                0.58,
+                0.0
+              ],
+              [
+                0.74,
+                0.24
+              ],
+              [
+                0.96,
+                0.0
+              ]
+            ],
+            "color": "#c77dff"
+          }
+        ]
+      }
+    },
+    "roofZones": [
+      {
+        "id": "R01",
+        "kind": "main_central_hip_roof",
+        "primitive": "large_hip_roof_zone_with_ridge",
+        "xFraction": 0.27,
+        "yFraction": 0.18,
+        "widthFraction": 0.46,
+        "heightFraction": 0.64,
+        "status": "observed",
+        "visibleElevations": [
+          "front",
+          "rear",
+          "left-side",
+          "right-side"
+        ],
+        "color": "#8ecae6",
+        "roofPlanShape": {
+          "kind": "polygon",
+          "points": [
+            [
+              0.28,
+              0.18
+            ],
+            [
+              0.64,
+              0.18
+            ],
+            [
+              0.72,
+              0.31
+            ],
+            [
+              0.72,
+              0.69
+            ],
+            [
+              0.62,
+              0.82
+            ],
+            [
+              0.36,
+              0.82
+            ],
+            [
+              0.27,
+              0.69
+            ],
+            [
+              0.27,
+              0.31
+            ]
+          ]
+        },
+        "roofLines": [
+          {
+            "kind": "ridge",
+            "points": [
+              [
+                0.49,
+                0.2
+              ],
+              [
+                0.49,
+                0.8
+              ]
+            ]
+          },
+          {
+            "kind": "hip",
+            "points": [
+              [
+                0.49,
+                0.5
+              ],
+              [
+                0.28,
+                0.18
+              ],
+              [
+                0.72,
+                0.31
+              ],
+              [
+                0.62,
+                0.82
+              ],
+              [
+                0.27,
+                0.69
+              ]
+            ]
+          }
+        ],
+        "notes": "Main roof mass visible in satellite; split into planes before modeling."
+      },
+      {
+        "id": "R02",
+        "kind": "front_gable_pediment_roof",
+        "primitive": "front_gable_pediment_prism",
+        "xFraction": 0.37,
+        "yFraction": 0.72,
+        "widthFraction": 0.26,
+        "heightFraction": 0.16,
+        "status": "observed",
+        "visibleElevations": [
+          "front"
+        ],
+        "color": "#ffb703",
+        "roofPlanShape": {
+          "kind": "polygon",
+          "points": [
+            [
+              0.38,
+              0.86
+            ],
+            [
+              0.62,
+              0.86
+            ],
+            [
+              0.5,
+              0.72
+            ]
+          ]
+        },
+        "roofLines": [
+          {
+            "kind": "ridge",
+            "points": [
+              [
+                0.5,
+                0.73
+              ],
+              [
+                0.5,
+                0.86
+              ]
+            ]
+          }
+        ],
+        "notes": "Triangular front roof/gable pediment under the cupola axis; not part of the entry stairs/platform and not part of the tower stack."
+      },
+      {
+        "id": "R03",
+        "kind": "rear_hip_roof_zone",
+        "primitive": "rear_hip_or_valley_roof_zone",
+        "xFraction": 0.36,
+        "yFraction": 0.04,
+        "widthFraction": 0.28,
+        "heightFraction": 0.16,
+        "status": "observed",
+        "visibleElevations": [
+          "rear",
+          "left-side",
+          "right-side"
+        ],
+        "color": "#90be6d",
+        "roofPlanShape": {
+          "kind": "polygon",
+          "points": [
+            [
+              0.36,
+              0.05
+            ],
+            [
+              0.64,
+              0.05
+            ],
+            [
+              0.69,
+              0.15
+            ],
+            [
+              0.61,
+              0.2
+            ],
+            [
+              0.39,
+              0.2
+            ],
+            [
+              0.31,
+              0.15
+            ]
+          ]
+        },
+        "roofLines": [
+          {
+            "kind": "ridge",
+            "points": [
+              [
+                0.5,
+                0.06
+              ],
+              [
+                0.5,
+                0.19
+              ]
+            ]
+          }
+        ],
+        "notes": "Rear/north top roof zone visible from satellite; model as separate roof mass tied into main roof."
+      },
+      {
+        "id": "R04",
+        "kind": "south_end_hip_cap",
+        "primitive": "hip_end_cap_roof_zone",
+        "xFraction": 0.28,
+        "yFraction": 0.78,
+        "widthFraction": 0.44,
+        "heightFraction": 0.17,
+        "status": "observed",
+        "visibleElevations": [
+          "front",
+          "left-side",
+          "right-side"
+        ],
+        "color": "#b5179e",
+        "roofPlanShape": {
+          "kind": "polygon",
+          "points": [
+            [
+              0.28,
+              0.78
+            ],
+            [
+              0.72,
+              0.78
+            ],
+            [
+              0.68,
+              0.95
+            ],
+            [
+              0.32,
+              0.95
+            ]
+          ]
+        },
+        "roofLines": [
+          {
+            "kind": "ridge",
+            "points": [
+              [
+                0.5,
+                0.79
+              ],
+              [
+                0.5,
+                0.94
+              ]
+            ]
+          },
+          {
+            "kind": "hip",
+            "points": [
+              [
+                0.5,
+                0.86
+              ],
+              [
+                0.28,
+                0.78
+              ],
+              [
+                0.72,
+                0.78
+              ],
+              [
+                0.32,
+                0.95
+              ],
+              [
+                0.68,
+                0.95
+              ]
+            ]
+          }
+        ],
+        "notes": "South/front end hip cap visible in satellite."
+      },
+      {
+        "id": "R05",
+        "kind": "east_rear_wing_roof_strip",
+        "primitive": "long_hip_or_shed_transition_zone",
+        "xFraction": 0.64,
+        "yFraction": 0.17,
+        "widthFraction": 0.22,
+        "heightFraction": 0.66,
+        "status": "observed",
+        "visibleElevations": [
+          "rear",
+          "right-side"
+        ],
+        "color": "#c77dff",
+        "roofPlanShape": {
+          "kind": "polygon",
+          "points": [
+            [
+              0.65,
+              0.17
+            ],
+            [
+              0.86,
+              0.2
+            ],
+            [
+              0.86,
+              0.8
+            ],
+            [
+              0.72,
+              0.83
+            ],
+            [
+              0.72,
+              0.31
+            ],
+            [
+              0.65,
+              0.25
+            ]
+          ]
+        },
+        "roofLines": [
+          {
+            "kind": "valley",
+            "points": [
+              [
+                0.72,
+                0.31
+              ],
+              [
+                0.72,
+                0.83
+              ]
+            ]
+          }
+        ],
+        "notes": "Long rear/east roof strip along the back side; keep separate from main roof blanket."
+      },
+      {
+        "id": "R06",
+        "kind": "cupola_roof_support_zone",
+        "primitive": "square_roof_support_pad",
+        "xFraction": 0.45,
+        "yFraction": 0.47,
+        "widthFraction": 0.11,
+        "heightFraction": 0.11,
+        "status": "observed",
+        "visibleElevations": [
+          "front",
+          "rear"
+        ],
+        "color": "#ffffff",
+        "roofPlanShape": {
+          "kind": "polygon",
+          "points": [
+            [
+              0.445,
+              0.445
+            ],
+            [
+              0.555,
+              0.445
+            ],
+            [
+              0.555,
+              0.555
+            ],
+            [
+              0.445,
+              0.555
+            ]
+          ]
+        },
+        "notes": "Square roof support pad around the cupola/tower base; tower must sit on this supported zone."
+      },
+      {
+        "id": "R07",
+        "kind": "roof_dormer_or_box_group",
+        "primitive": "dormer_or_roof_box_instances",
+        "xFraction": 0.29,
+        "yFraction": 0.25,
+        "widthFraction": 0.43,
+        "heightFraction": 0.58,
+        "status": "observed",
+        "visibleElevations": [
+          "front",
+          "rear",
+          "left-side",
+          "right-side"
+        ],
+        "color": "#e63946",
+        "roofPlanShape": {
+          "kind": "markers",
+          "markers": [
+            {
+              "x": 0.41,
+              "y": 0.24,
+              "width": 0.045,
+              "height": 0.035,
+              "rotate": 0
+            },
+            {
+              "x": 0.37,
+              "y": 0.36,
+              "width": 0.052,
+              "height": 0.04,
+              "rotate": -16
+            },
+            {
+              "x": 0.63,
+              "y": 0.38,
+              "width": 0.052,
+              "height": 0.04,
+              "rotate": 12
+            },
+            {
+              "x": 0.4,
+              "y": 0.65,
+              "width": 0.052,
+              "height": 0.04,
+              "rotate": -13
+            },
+            {
+              "x": 0.63,
+              "y": 0.66,
+              "width": 0.052,
+              "height": 0.04,
+              "rotate": 13
+            },
+            {
+              "x": 0.42,
+              "y": 0.83,
+              "width": 0.052,
+              "height": 0.04,
+              "rotate": -12
+            },
+            {
+              "x": 0.57,
+              "y": 0.84,
+              "width": 0.052,
+              "height": 0.04,
+              "rotate": 12
+            }
+          ]
+        },
+        "notes": "Satellite-visible small roof boxes/dormers inside this envelope; individual instances need a closer roof pass before final modeling."
+      }
+    ],
+    "landmarkFeaturePack": "dartmouth_hall_cupola",
+    "riseMeters": 3.3
   },
   "tower": {
     "mustHaveProperTowerReferences": true,
@@ -100,7 +1258,16 @@
     "mustSitOnSupportedRoofOrWall": true,
     "mustBeCenteredFromRoofReference": true,
     "noGenericStackedBoxes": true,
-    "requiredDetailKinds": ["front_pediment", "cupola_base", "cupola_lantern", "cupola_post", "cupola_rail", "cupola_cap", "spire", "weathervane"],
+    "requiredDetailKinds": [
+      "cupola_base",
+      "cupola_lantern",
+      "cupola_post",
+      "cupola_rail",
+      "cupola_cap",
+      "spire",
+      "weathervane"
+    ],
     "clockAndFineOrnamentBlockedUntilFaceReference": true
-  }
+  },
+  "wallNaming": "dartmouth_hall_wings"
 }

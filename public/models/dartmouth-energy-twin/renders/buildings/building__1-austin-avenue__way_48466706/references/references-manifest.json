@@ -1,0 +1,404 @@
+{
+  "generatedAt": "2026-08-24T17:43:55.845Z",
+  "building": "building__1-austin-avenue__way_48466706",
+  "displayName": "1 Austin Avenue",
+  "osmId": "way/48466706",
+  "output": "public/models/dartmouth-energy-twin/renders/buildings/building__1-austin-avenue__way_48466706/references",
+  "referencePolicy": [
+    "Use Street View/Google photos for windows, doors, facade rhythm, roof edge hints, and tower details.",
+    "Use roof satellite/Cesium plan for roof footprint and massing only.",
+    "Use named major exterior wall references for procedural facade details.",
+    "Do not generate facade details for a wall unless that exact wall has an approved reference."
+  ],
+  "approvedForModeling": {
+    "north": false,
+    "east": false,
+    "south": false,
+    "west": false,
+    "roof": false,
+    "walls": {
+      "wall-01": false,
+      "wall-02": false
+    }
+  },
+  "streetView": {
+    "north": {
+      "status": "saved",
+      "path": "references/north.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "yPd_uEoqVKmkaEpno4JyJQ",
+      "heading": 221,
+      "fov": 46,
+      "distanceMeters": 34,
+      "camera": {
+        "latitude": 43.7021538,
+        "longitude": -72.2809377
+      }
+    },
+    "east": {
+      "status": "saved",
+      "path": "references/east.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "-1EgRnnds9prX7CJM0jHZQ",
+      "heading": 251,
+      "fov": 65,
+      "distanceMeters": 18,
+      "camera": {
+        "latitude": 43.7019735,
+        "longitude": -72.2810035
+      }
+    },
+    "south": {
+      "status": "saved",
+      "path": "references/south.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "zEM8KrpWKXC2neWYZ-oYLA",
+      "heading": 12,
+      "fov": 61,
+      "distanceMeters": 20,
+      "camera": {
+        "latitude": 43.70175,
+        "longitude": -72.2812602
+      }
+    },
+    "west": {
+      "status": "saved",
+      "path": "references/west.jpg",
+      "source": "Google Street View Static API",
+      "panoId": "Fme0d8Hb_WXLKjHqLF1BYQ",
+      "heading": 91,
+      "fov": 45,
+      "distanceMeters": 51,
+      "camera": {
+        "latitude": 43.7019334,
+        "longitude": -72.2818501
+      }
+    }
+  },
+  "walls": [
+    {
+      "id": "wall-01",
+      "name": "south major exterior wall 01",
+      "sourceEdgeIndex": 2,
+      "orientation": "south",
+      "approvedForModeling": false,
+      "lengthMeters": 11.94,
+      "bearing": 79,
+      "outwardBearing": 169,
+      "endpoints": {
+        "start": {
+          "latitude": 43.7018825,
+          "longitude": -72.2812753
+        },
+        "end": {
+          "latitude": 43.7019028,
+          "longitude": -72.2811295
+        }
+      },
+      "midpoint": {
+        "latitude": 43.7018927,
+        "longitude": -72.2812024
+      },
+      "reference": {
+        "status": "saved",
+        "path": "references/walls/wall-01.jpg",
+        "source": "Google Street View Static API",
+        "panoId": "uTkVImw_TOUn2Kd9vZbl_Q",
+        "heading": 333,
+        "fov": 70,
+        "distanceMeters": 14,
+        "camera": {
+          "latitude": 43.7017793,
+          "longitude": -72.2811229
+        },
+        "qualityStatus": "needs-review",
+        "flags": [
+          "Approve only if this named wall segment is visible enough to model.",
+          "Reject or mark partial if trees, neighboring walls, or perspective hide the segment.",
+          "Do not use this image to infer a different wall."
+        ]
+      },
+      "candidateCameras": [
+        {
+          "score": 71,
+          "panoId": "uTkVImw_TOUn2Kd9vZbl_Q",
+          "heading": 333,
+          "fov": 70,
+          "distanceMeters": 14,
+          "faceNormalDelta": 16,
+          "camera": {
+            "latitude": 43.7017793,
+            "longitude": -72.2811229
+          },
+          "lookup": {
+            "latitude": 43.701769,
+            "longitude": -72.2811695,
+            "offsetMeters": 14,
+            "wallFraction": 0.5,
+            "normal": 169
+          }
+        },
+        {
+          "score": 65,
+          "panoId": "MY5THxcAUmZ6JRJVgev5oQ",
+          "heading": 170,
+          "fov": 45,
+          "distanceMeters": 121,
+          "faceNormalDelta": 1,
+          "camera": {
+            "latitude": 43.7029646,
+            "longitude": -72.2814655
+          },
+          "lookup": {
+            "latitude": 43.7026168,
+            "longitude": -72.2813953,
+            "offsetMeters": 82,
+            "wallFraction": 0.5,
+            "normal": 349
+          }
+        },
+        {
+          "score": 62,
+          "panoId": "yPd_uEoqVKmkaEpno4JyJQ",
+          "heading": 216,
+          "fov": 45,
+          "distanceMeters": 36,
+          "faceNormalDelta": 47,
+          "camera": {
+            "latitude": 43.7021538,
+            "longitude": -72.2809377
+          },
+          "lookup": {
+            "latitude": 43.7022282,
+            "longitude": -72.2812918,
+            "offsetMeters": 38,
+            "wallFraction": 0.5,
+            "normal": 349
+          }
+        },
+        {
+          "score": 61,
+          "panoId": "zEM8KrpWKXC2neWYZ-oYLA",
+          "heading": 16,
+          "fov": 64,
+          "distanceMeters": 17,
+          "faceNormalDelta": 27,
+          "camera": {
+            "latitude": 43.70175,
+            "longitude": -72.2812602
+          },
+          "lookup": {
+            "latitude": 43.7015571,
+            "longitude": -72.281113,
+            "offsetMeters": 38,
+            "wallFraction": 0.5,
+            "normal": 169
+          }
+        }
+      ]
+    },
+    {
+      "id": "wall-02",
+      "name": "north major exterior wall 02",
+      "sourceEdgeIndex": 4,
+      "orientation": "north",
+      "approvedForModeling": false,
+      "lengthMeters": 11.94,
+      "bearing": 259,
+      "outwardBearing": 349,
+      "endpoints": {
+        "start": {
+          "latitude": 43.7019637,
+          "longitude": -72.2811457
+        },
+        "end": {
+          "latitude": 43.7019434,
+          "longitude": -72.2812915
+        }
+      },
+      "midpoint": {
+        "latitude": 43.7019535,
+        "longitude": -72.2812186
+      },
+      "reference": {
+        "status": "saved",
+        "path": "references/walls/wall-02.jpg",
+        "source": "Google Street View Static API",
+        "panoId": "uTkVImw_TOUn2Kd9vZbl_Q",
+        "heading": 338,
+        "fov": 56,
+        "distanceMeters": 21,
+        "camera": {
+          "latitude": 43.7017793,
+          "longitude": -72.2811229
+        },
+        "qualityStatus": "needs-review",
+        "flags": [
+          "Approve only if this named wall segment is visible enough to model.",
+          "Reject or mark partial if trees, neighboring walls, or perspective hide the segment.",
+          "Do not use this image to infer a different wall."
+        ]
+      },
+      "candidateCameras": [
+        {
+          "score": 81,
+          "panoId": "uTkVImw_TOUn2Kd9vZbl_Q",
+          "heading": 338,
+          "fov": 56,
+          "distanceMeters": 21,
+          "faceNormalDelta": 11,
+          "camera": {
+            "latitude": 43.7017793,
+            "longitude": -72.2811229
+          },
+          "lookup": {
+            "latitude": 43.7018299,
+            "longitude": -72.2811857,
+            "offsetMeters": 14,
+            "wallFraction": 0.5,
+            "normal": 169
+          }
+        },
+        {
+          "score": 74,
+          "panoId": "zEM8KrpWKXC2neWYZ-oYLA",
+          "heading": 8,
+          "fov": 53,
+          "distanceMeters": 23,
+          "faceNormalDelta": 19,
+          "camera": {
+            "latitude": 43.70175,
+            "longitude": -72.2812602
+          },
+          "lookup": {
+            "latitude": 43.7014414,
+            "longitude": -72.2810822,
+            "offsetMeters": 58,
+            "wallFraction": 0.5,
+            "normal": 169
+          }
+        },
+        {
+          "score": 65,
+          "panoId": "MY5THxcAUmZ6JRJVgev5oQ",
+          "heading": 170,
+          "fov": 45,
+          "distanceMeters": 114,
+          "faceNormalDelta": 1,
+          "camera": {
+            "latitude": 43.7029646,
+            "longitude": -72.2814655
+          },
+          "lookup": {
+            "latitude": 43.7026777,
+            "longitude": -72.2814115,
+            "offsetMeters": 82,
+            "wallFraction": 0.5,
+            "normal": 349
+          }
+        },
+        {
+          "score": 65,
+          "panoId": "yPd_uEoqVKmkaEpno4JyJQ",
+          "heading": 225,
+          "fov": 45,
+          "distanceMeters": 32,
+          "faceNormalDelta": 56,
+          "camera": {
+            "latitude": 43.7021538,
+            "longitude": -72.2809377
+          },
+          "lookup": {
+            "latitude": 43.7021706,
+            "longitude": -72.2812386,
+            "offsetMeters": 24,
+            "wallFraction": 0.25,
+            "normal": 349
+          }
+        }
+      ]
+    }
+  ],
+  "roof": {
+    "status": "saved",
+    "path": "references/roof-satellite.jpg",
+    "source": "Google Maps Static API satellite",
+    "center": {
+      "latitude": 43.7019231,
+      "longitude": -72.2812105
+    },
+    "note": "Use only for roof footprint, orientation, and block/prism decision unless details are clearly visible."
+  },
+  "googlePhotos": [
+    {
+      "status": "no-place-photo",
+      "placeStatus": "REQUEST_DENIED"
+    }
+  ],
+  "cesiumCameraPlan": {
+    "note": "Use in CesiumJS for massing/roof inspection, not exact facade detail extraction.",
+    "roof": {
+      "destination": {
+        "longitude": -72.28121050000001,
+        "latitude": 43.701923099999995,
+        "heightMeters": 192
+      },
+      "headingDegrees": 0,
+      "pitchDegrees": -86
+    },
+    "oblique": [
+      {
+        "side": "north",
+        "camera": {
+          "latitude": 43.702786448741676,
+          "longitude": -72.28121050000001
+        },
+        "target": {
+          "latitude": 43.701923099999995,
+          "longitude": -72.28121050000001
+        },
+        "headingDegrees": 180,
+        "pitchDegrees": -28
+      },
+      {
+        "side": "east",
+        "camera": {
+          "latitude": 43.701923093783655,
+          "longitude": -72.28001628745568
+        },
+        "target": {
+          "latitude": 43.701923099999995,
+          "longitude": -72.28121050000001
+        },
+        "headingDegrees": 270,
+        "pitchDegrees": -28
+      },
+      {
+        "side": "south",
+        "camera": {
+          "latitude": 43.70105975125832,
+          "longitude": -72.28121050000001
+        },
+        "target": {
+          "latitude": 43.701923099999995,
+          "longitude": -72.28121050000001
+        },
+        "headingDegrees": 0,
+        "pitchDegrees": -28
+      },
+      {
+        "side": "west",
+        "camera": {
+          "latitude": 43.701923093783655,
+          "longitude": -72.28240471254435
+        },
+        "target": {
+          "latitude": 43.701923099999995,
+          "longitude": -72.28121050000001
+        },
+        "headingDegrees": 90,
+        "pitchDegrees": -28
+      }
+    ]
+  }
+}

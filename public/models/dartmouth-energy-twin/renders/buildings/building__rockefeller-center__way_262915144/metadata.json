@@ -1,0 +1,50 @@
+{
+  "name": "building__rockefeller-center__way_262915144",
+  "displayName": "Rockefeller Center",
+  "osmId": "way/262915144",
+  "originalName": "Areas.109",
+  "type": "buildings",
+  "dimensions": {
+    "x": 61.546204,
+    "y": 22.766113,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 56,
+  "edges": 84,
+  "faces": 29,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 28,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 28,
+    "nonManifoldEdges": 28
+  },
+  "topologyByObject": [
+    {
+      "name": "building__rockefeller-center__way_262915144",
+      "kind": "base",
+      "vertices": 56,
+      "edges": 84,
+      "faces": 29,
+      "triangles": 0,
+      "quads": 28,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 28,
+      "nonManifoldEdges": 28
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Rockefeller Center.glb",
+  "fbx": "Rockefeller Center.fbx"
+}

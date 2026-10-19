@@ -1,0 +1,50 @@
+{
+  "name": "road__huntley-road__way_18846137",
+  "displayName": "Huntley Road",
+  "osmId": "way/18846137",
+  "originalName": "Ways.430",
+  "type": "roads",
+  "dimensions": {
+    "x": 15.308167,
+    "y": 50.316284,
+    "z": 0.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 7,
+  "edges": 6,
+  "faces": 0,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 0,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 7,
+    "looseEdges": 6,
+    "boundaryEdges": 0,
+    "nonManifoldEdges": 6
+  },
+  "topologyByObject": [
+    {
+      "name": "road__huntley-road__way_18846137",
+      "kind": "base",
+      "vertices": 7,
+      "edges": 6,
+      "faces": 0,
+      "triangles": 0,
+      "quads": 0,
+      "ngons": 0,
+      "looseVertices": 7,
+      "looseEdges": 6,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 6
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "road__huntley-road__way_18846137.glb",
+  "fbx": "road__huntley-road__way_18846137.fbx"
+}

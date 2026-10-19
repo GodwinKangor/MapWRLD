@@ -1,0 +1,50 @@
+{
+  "name": "building__kemeny-hall__way_49797072",
+  "displayName": "Kemeny Hall",
+  "osmId": "way/49797072",
+  "originalName": "Areas.063",
+  "type": "buildings",
+  "dimensions": {
+    "x": 77.248322,
+    "y": 28.26059,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 42,
+  "edges": 63,
+  "faces": 22,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 21,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 21,
+    "nonManifoldEdges": 21
+  },
+  "topologyByObject": [
+    {
+      "name": "building__kemeny-hall__way_49797072",
+      "kind": "base",
+      "vertices": 42,
+      "edges": 63,
+      "faces": 22,
+      "triangles": 0,
+      "quads": 21,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 21,
+      "nonManifoldEdges": 21
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Kemeny Hall.glb",
+  "fbx": "Kemeny Hall.fbx"
+}

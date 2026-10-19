@@ -1,0 +1,50 @@
+{
+  "name": "building__bissell-hall__way_262922778",
+  "displayName": "Bissell Hall",
+  "osmId": "way/262922778",
+  "originalName": "Areas.124",
+  "type": "buildings",
+  "dimensions": {
+    "x": 28.324921,
+    "y": 29.703613,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 20,
+  "edges": 30,
+  "faces": 11,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 10,
+    "ngons": 1
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 10,
+    "nonManifoldEdges": 10
+  },
+  "topologyByObject": [
+    {
+      "name": "building__bissell-hall__way_262922778",
+      "kind": "base",
+      "vertices": 20,
+      "edges": 30,
+      "faces": 11,
+      "triangles": 0,
+      "quads": 10,
+      "ngons": 1,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 10,
+      "nonManifoldEdges": 10
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Bissell Hall.glb",
+  "fbx": "Bissell Hall.fbx"
+}

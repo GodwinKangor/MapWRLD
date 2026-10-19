@@ -1,0 +1,50 @@
+{
+  "name": "building__sphinx-secret-society__way_49791104",
+  "displayName": "Sphinx Secret Society",
+  "osmId": "way/49791104",
+  "originalName": "Areas.048",
+  "type": "buildings",
+  "dimensions": {
+    "x": 12.703201,
+    "y": 15.562201,
+    "z": 20.0
+  },
+  "location": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "vertices": 8,
+  "edges": 12,
+  "faces": 5,
+  "shapeCounts": {
+    "triangles": 0,
+    "quads": 5,
+    "ngons": 0
+  },
+  "topology": {
+    "looseVertices": 0,
+    "looseEdges": 0,
+    "boundaryEdges": 4,
+    "nonManifoldEdges": 4
+  },
+  "topologyByObject": [
+    {
+      "name": "building__sphinx-secret-society__way_49791104",
+      "kind": "base",
+      "vertices": 8,
+      "edges": 12,
+      "faces": 5,
+      "triangles": 0,
+      "quads": 5,
+      "ngons": 0,
+      "looseVertices": 0,
+      "looseEdges": 0,
+      "boundaryEdges": 4,
+      "nonManifoldEdges": 4
+    }
+  ],
+  "generatedDetails": 0,
+  "glb": "Sphinx Secret Society.glb",
+  "fbx": "Sphinx Secret Society.fbx"
+}
