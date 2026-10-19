@@ -1,7 +1,7 @@
 import type { DetailedHTMLProps, HTMLAttributes } from "react";
 
-// The model-viewer custom element (loaded via CDN <Script>, same pattern as
-// Cesium in components/campus-map.tsx) has no React/TS types of its own.
+// The model-viewer custom element (loaded via CDN <Script>) has no React/TS
+// types of its own.
 // React 19's JSX namespace lives under React.JSX, not the bare global JSX
 // namespace, so the augmentation target is "react", not `declare global`.
 declare module "react" {

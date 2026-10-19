@@ -8,12 +8,10 @@ import { CheckCircle2, Compass, Cuboid, Menu, Search, SlidersHorizontal, Sparkle
 import { buildings, categories, type Building } from "@/data/buildings";
 import { technologyColors, technologyLabels, type EnergyTechnology } from "@/data/energy-evidence";
 
-// The Cesium globe view stays the default until the standalone Three.js scene passes validation;
-// /preview renders the standalone scene. Each renderer is loaded only on the route that uses it.
-const CampusMap = dynamic(() => import("@/components/campus-map").then((module) => module.CampusMap), { ssr: false });
+// The 3D scene is WebGL-only and loads its own data, so it renders on the client.
 const CampusScene = dynamic(() => import("@/components/campus-scene").then((module) => module.CampusScene), { ssr: false });
 
-export function CampusApp({ renderer }: { renderer: "cesium" | "three" }) {
+export function CampusApp() {
   const [buildingData, setBuildingData] = useState<Building[]>(buildings);
   const [selected, setSelected] = useState<Building | null>(null);
   const [query, setQuery] = useState("");
@@ -93,9 +91,7 @@ export function CampusApp({ renderer }: { renderer: "cesium" | "three" }) {
         </div>
       </header>
 
-      {renderer === "three"
-        ? <CampusScene buildings={filtered} allBuildings={buildingData} selected={selected} onSelect={selectBuilding} layers={layers} evidenceTechnology={evidenceTechnology} time={time} season={season} />
-        : <CampusMap buildings={filtered} selected={selected} onSelect={selectBuilding} layers={layers} evidenceTechnology={evidenceTechnology} time={time} />}
+      <CampusScene buildings={filtered} allBuildings={buildingData} selected={selected} onSelect={selectBuilding} layers={layers} evidenceTechnology={evidenceTechnology} time={time} season={season} />
 
       <div className="place-label">
         <span>Dartmouth College</span>

@@ -1,4 +1,6 @@
 // Compare the Cesium view and the standalone Three.js scene under identical conditions.
+// The Cesium view was removed after this comparison: to re-run it, check out commit 52622c4
+// (Cesium at /, standalone scene at /preview), build, and point --base at that server.
 // Each run uses a fresh browser context (empty HTTP cache), the default layers, and the same
 // two camera views. Draw calls and triangles are counted at the WebGL API for both renderers.
 //
