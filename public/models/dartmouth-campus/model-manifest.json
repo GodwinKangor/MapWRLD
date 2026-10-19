@@ -1,5 +1,5 @@
 {
-  "campusModel": "/models/dartmouth-campus/dartmouth-campus.glb",
+  "campusModel": "/models/dartmouth-campus/dartmouth-campus-styled.glb",
   "status": "ready",
   "units": "meters",
   "origin": {
@@ -18,5 +18,6 @@
   "georeference": {
     "longitudePerMeter": 1.2437812605066111e-05,
     "latitudePerMeter": 9.00900885562946e-06
-  }
+  },
+  "evidenceModel": "/models/dartmouth-campus/dartmouth-evidence-styled.glb"
 }

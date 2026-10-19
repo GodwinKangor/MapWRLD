@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "method": "Visual review of existing exterior and satellite reference images. Approximate sRGB material colors, not calibrated paint measurements.",
+  "unreviewedPalette": {
+    "wall": "#D5D3CD",
+    "roof": "#717371"
+  },
+  "policy": "Apply observed colors only to model roots aligned with the referenced footprint; leave ambiguous identities and obstructed views unreviewed. Trim colors require an existing named material.",
+  "excludedAtlasCandidates": [
+    "Church search candidates depict buildings in other cities.",
+    "Engineering candidates are not reliably identified as the labeled model; no automatic transfer between MacLean and the Class of 1982 center."
+  ],
+  "buildings": {
+    "way/48466712": {
+      "name": "1 Dana Road",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466712/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466712/references/roof-satellite.jpg"
+      ]
+    },
+    "way/48466713": {
+      "name": "1 Dana Road",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466713/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-dana-road__way_48466713/references/roof-satellite.jpg"
+      ]
+    },
+    "way/48466706": {
+      "name": "1 Austin Avenue",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-austin-avenue__way_48466706/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-austin-avenue__way_48466706/references/roof-satellite.jpg"
+      ]
+    },
+    "way/261793901": {
+      "name": "McNutt Hall",
+      "status": "observed",
+      "reason": "Muted red-brown brick with pale stone trim; satellite view shows a dark gray roof.",
+      "wall": "#9C7063",
+      "roof": "#656266",
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__mcnutt-hall__way_261793901/references/north.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__mcnutt-hall__way_261793901/references/roof-satellite.jpg"
+      ],
+      "confidence": "visual_estimate"
+    },
+    "way/874770915": {
+      "name": "1 Buell Street",
+      "status": "observed",
+      "reason": "Light gray/off-white garage siding with a gray roof; east and south show the garage clearly.",
+      "wall": "#DCDFDB",
+      "roof": "#777C77",
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770915/references/east.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770915/references/roof-satellite.jpg"
+      ],
+      "confidence": "visual_estimate"
+    },
+    "way/784097654": {
+      "name": "1 Ivy Pointe Way",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-ivy-pointe-way__way_784097654/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-ivy-pointe-way__way_784097654/references/roof-satellite.jpg"
+      ]
+    },
+    "way/874520477": {
+      "name": "1 Brockway Road",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-brockway-road__way_874520477/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-brockway-road__way_874520477/references/roof-satellite.jpg"
+      ]
+    },
+    "way/874770914": {
+      "name": "1 Buell Street",
+      "status": "observed",
+      "reason": "Off-white house siding and a weathered gray-brown roof; the north view exposes the facade.",
+      "wall": "#E4E3D9",
+      "roof": "#777363",
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770914/references/north.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-buell-street__way_874770914/references/roof-satellite.jpg"
+      ],
+      "confidence": "visual_estimate"
+    },
+    "way/48784540": {
+      "name": "Dartmouth Hall",
+      "status": "observed",
+      "reason": "Off-white walls, very dark green shutters, pale stone base and dark gray slate roof; checked west/south views and satellite roof.",
+      "wall": "#E8E8E0",
+      "roof": "#57565C",
+      "materialColors": {
+        "white_brick": "#E8E8E0",
+        "white_trim": "#E9E8E1",
+        "limestone": "#DEDACB",
+        "granite_base": "#A6A49A",
+        "slate_hip_roof": "#57565C",
+        "dark_window": "#293A31",
+        "black_door": "#28352E",
+        "green_cupola_cap": "#73816F",
+        "brick": "#9A6858"
+      },
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__dartmouth-hall__way_48784540/references/west.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__dartmouth-hall__way_48784540/references/roof-satellite.jpg"
+      ],
+      "confidence": "visual_estimate"
+    },
+    "way/874520408": {
+      "name": "1 Barrymore Road",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-barrymore-road__way_874520408/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-barrymore-road__way_874520408/references/roof-satellite.jpg"
+      ]
+    },
+    "way/785657748": {
+      "name": "1 Huntley Road",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657748/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657748/references/roof-satellite.jpg"
+      ]
+    },
+    "way/1415647781": {
+      "name": "1 Holiday Drive",
+      "status": "withheld",
+      "reason": "Facade is obstructed or the model-to-footprint identity needs review.",
+      "wall": null,
+      "roof": null,
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-holiday-drive__way_1415647781/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-holiday-drive__way_1415647781/references/roof-satellite.jpg"
+      ]
+    },
+    "way/785657749": {
+      "name": "1 Huntley Road",
+      "status": "observed",
+      "reason": "Natural warm timber siding and a gray-brown pitched roof; south view shows this detached garage.",
+      "wall": "#A17F54",
+      "roof": "#77756C",
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657749/references/south.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-huntley-road__way_785657749/references/roof-satellite.jpg"
+      ],
+      "confidence": "visual_estimate"
+    },
+    "way/295888783": {
+      "name": "Baker Library",
+      "status": "observed",
+      "reason": "Red-brown brick, pale limestone trim, gray roofs and oxidized green roof details are visible across east, west, south and satellite views.",
+      "wall": "#A17768",
+      "roof": "#626160",
+      "materialColors": {
+        "brick": "#A17768",
+        "limestone": "#DDD6C5",
+        "white_trim": "#E7E4D9",
+        "flat_roof": "#626160",
+        "green_roof": "#738B78",
+        "green_cupola_cap": "#738B78",
+        "clock_face": "#E9E7DA"
+      },
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__baker-library__way_295888783/references/east.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__baker-library__way_295888783/references/roof-satellite.jpg"
+      ],
+      "confidence": "visual_estimate"
+    },
+    "way/648280461": {
+      "name": "1 Allen Lane",
+      "status": "observed",
+      "reason": "White clapboard walls and a light gray roof; north view is clear.",
+      "wall": "#E4E7DF",
+      "roof": "#ADB1AA",
+      "materialColors": {},
+      "references": [
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-allen-lane__way_648280461/references/north.jpg",
+        "public/models/dartmouth-energy-twin/renders/buildings/building__1-allen-lane__way_648280461/references/roof-satellite.jpg"
+      ],
+      "confidence": "visual_estimate"
+    }
+  }
+}

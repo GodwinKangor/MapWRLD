@@ -1,0 +1,29 @@
+{
+  "href": "https://nhgeodata.unh.edu/image/rest/directories/arcgisoutput/ImageServices/nDSM_NW_HS_NH_ImageServer/_ags_c3cabde9_6ed3_4db1_84da_4f61e0b65ecd.tif",
+  "width": 1000,
+  "height": 1000,
+  "extent": {
+    "xmin": -72.29752100000002,
+    "ymin": 43.69351775,
+    "xmax": -72.27771550000001,
+    "ymax": 43.71332325,
+    "spatialReference": {
+      "wkid": 4326,
+      "latestWkid": 4326
+    }
+  },
+  "scale": 0,
+  "service": "https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer",
+  "request": {
+    "f": "json",
+    "bbox": "-72.297521,43.6958803,-72.2777155,43.7109607",
+    "bboxSR": 4326,
+    "imageSR": 4326,
+    "size": "1000,1000",
+    "format": "tiff",
+    "pixelType": "F32",
+    "interpolation": "RSP_NearestNeighbor"
+  },
+  "retrievedAt": "2026-10-19T16:03:48.930534+00:00",
+  "sha256": "d2666b0d6e464d461de70af8a4740ea7d26139a2e4bbb979ec6305e9b34439af"
+}

@@ -20,8 +20,58 @@ one export per category/OSM ID (newest modification time wins). It preserves
 the detailed meshes within each selected export, their transforms, and materials.
 It never imports the old Blender scene or modifies source GLBs.
 `assembly-report.json` records every included source and its SHA-256 hash.
+The same command builds `dartmouth-evidence.glb`, containing only the buildings
+referenced by `data/energy-evidence.json`. The highlight layer loads this compact
+asset rather than duplicating the entire campus. Mesh buffers, materials, height
+adjustments and terrain parent names are preserved. Rebuild after regenerating
+the evidence index so newly matched buildings can be highlighted.
+
+### Reference-based building colors
+
+Run `python3 scripts/blender/style-campus-glb.py` after assembling the campus.
+This writes styled versions of both the campus and compact evidence GLBs and
+updates the manifest. `data/building-reference-colors.json` stores approximate
+sRGB wall, roof and existing trim-material colors selected by visual review of
+the saved reference images. Only observed colors with aligned footprint identities
+are applied. Obstructed views, uncertain building identities and unrelated search
+results are withheld; other massing models use a neutral illustrative fallback.
+`building-color-report.json` records each decision and source-image checksum.
+Styling adds vertex colors or material overrides without changing geometry,
+height corrections, terrain placement, or the original part exports.
+The Public records layer applies a separate evidence tint; switch it off when
+comparing the base material colors with the photos.
 The combiner supports the current static, untextured exports and rejects
 unsupported features such as skins, animations, and texture references.
+
+### Sourced placeholder heights
+
+`building-heights.json` records height candidates, provenance, raster statistics,
+footprint alignment, and review flags for each OSM building. Regenerate it with:
+
+```bash
+python3 -m pip install requests numpy Pillow
+python3 scripts/reference-tools/collect-building-heights.py --footprints assets/height-data/building-footprints.geojson
+npm run model:dartmouth:combine
+python3 -m unittest discover -s scripts/tests -p 'test_building_heights.py'
+```
+
+Sources are OSM-reported height, or NH GRANIT's 2-meter LiDAR-derived normalized
+surface model from collections available January 2020. Missing usable measurements
+can fall back to OSM floor counts at an explicitly estimated 3.2 meters per floor.
+The collector takes median raster heights at least one meter inside footprints,
+excludes courtyards, and rejects sparse, implausible or highly variable surfaces.
+Trees, rooftop equipment and construction since the LiDAR survey remain reasons
+for manual review. NH GRANIT / University of New Hampshire must be credited.
+The input footprints, raster, request metadata and checksum are cached in
+`assets/height-data/`; the raster is fetched only if the cache is missing.
+
+The combiner changes only simple 20-meter fallback models whose source footprints
+align within two meters. Detailed geometry and existing nondefault heights are
+preserved. Heights are applied on separate child nodes so terrain placement cannot
+overwrite them, with the base and all horizontal coordinates held fixed.
+`assembly-report.json` records applied heights and the reason for each skipped
+building. Source GLB/FBX exports and the Blender scene remain unchanged; rebuild
+the combined web model to reproduce the adjusted campus preview.
 
 The combiner also generates `terrain-anchors.json`: each nonempty part's
 footprint center and base height, accounting for its glTF node transforms.
@@ -52,6 +102,25 @@ The campus rectangle is the whole map world. Terrain, imagery, buildings, marker
 and roads all stop at its edge, and the sky box, sun, moon, ground atmosphere
 and fog are off. Buildings whose OSM centroid lies outside the rectangle are left
 out of the data and hidden in the model.
+
+## Building Colors And Trees
+
+The map loads `dartmouth-campus-styled.glb`, a recoloured copy of the assembled
+`dartmouth-campus.glb`. `scripts/blender/style-campus-glb.py` gives every bare
+building mesh vertex colours. Faces pointing up become roof and the rest
+become wall, using a palette chosen by OSM building type (academic, residential,
+athletic, civic, commercial, utility) with ±5% variation per building. The
+named materials on Baker Library and Dartmouth Hall get real colours. Re-run it
+after re-assembling the campus GLB; it also points `campusModel` in the manifest
+at the styled copy.
+
+Trees come from `campus-trees.json`. `scripts/reference-tools/fetch-campus-trees.py`
+reads the campus window of Meta & WRI's 1 m High Resolution Canopy Height Map
+(CC BY 4.0) over HTTP and finds treetops of at least 3 m. It drops any that fall
+inside a building (footprints projected from the campus GLB) or on a vehicle road,
+and records each tree's height and crown size. It needs `pip install rasterio numpy scipy`.
+The map draws all trees as one GPU-instanced model of three low-poly forms
+(`components/campus-trees.ts`).
 
 ## GeoJSON To Web Model Workflow
 
