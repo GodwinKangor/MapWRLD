@@ -1,8 +1,9 @@
 "use client";
 
-import { Activity, ArrowLeft, ArrowRight, Building2, ClipboardList, Clock3, Database, DoorOpen, Flame, Gauge, MapPin, Route, Share2, Sparkles, X, Zap } from "lucide-react";
+import { Activity, ArrowLeft, ArrowRight, Building2, ClipboardList, Clock3, Database, DoorOpen, ExternalLink, FileText, Flame, Gauge, MapPin, Route, Share2, Sparkles, X, Zap } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { Building } from "@/data/buildings";
+import { technologyLabels, type EnergyEvidence } from "@/data/energy-evidence";
 
 export function BuildingPanel({ building, onClose }: { building: Building | null; onClose: () => void }) {
   const [slide, setSlide] = useState(0);
@@ -74,6 +75,7 @@ export function BuildingPanel({ building, onClose }: { building: Building | null
             <p><strong>{building.energy.useType}</strong> · {building.energy.retrofit}</p>
           </section>
         )}
+        {tab === "energy" && building.evidence && <EvidenceSection evidence={building.evidence} />}
 
         {tab === "infrastructure" && (
           <section className="asset-section">
@@ -118,5 +120,42 @@ export function BuildingPanel({ building, onClose }: { building: Building | null
         <p className="preview-note">Planning estimates until live energy data is connected</p>
       </div>
     </aside>
+  );
+}
+
+const statusLabels = { completed: "Completed", in_progress: "In progress", planned: "Planned" } as const;
+
+function EvidenceSection({ evidence }: { evidence: EnergyEvidence }) {
+  const status = (Object.keys(statusLabels) as (keyof typeof statusLabels)[])
+    .sort((a, b) => (evidence.statusHints[b] ?? 0) - (evidence.statusHints[a] ?? 0))
+    .find((key) => evidence.statusHints[key]);
+  return (
+    <section className="evidence-section">
+      <div className="evidence-head">
+        <span className="eyebrow"><FileText size={12} /> PUBLIC RECORDS</span>
+        <small>{evidence.sourceCount} {evidence.sourceCount === 1 ? "source" : "sources"} · unreviewed</small>
+      </div>
+      {(evidence.technologies.length > 0 || status) && (
+        <div className="feature-list">
+          {status && <span className="evidence-status">{statusLabels[status]}</span>}
+          {evidence.technologies.map((technology) => <span key={technology.id}>{technologyLabels[technology.id] ?? technology.id}</span>)}
+        </div>
+      )}
+      {evidence.projects.length > 0 && (
+        <div className="evidence-projects">{evidence.projects.map((project) => <span key={project.id}><ClipboardList size={12} /> {project.name}</span>)}</div>
+      )}
+      <ul className="evidence-list">
+        {evidence.evidence.map((item, index) => (
+          <li key={`${item.url}-${index}`}>
+            <p>{item.text}</p>
+            <a href={item.url} target="_blank" rel="noreferrer">
+              {new URL(item.url).hostname.replace(/\.dartmouth\.edu$/, "")}{item.published ? ` · ${item.published}` : ""}
+              {item.confidence === "high" && <b>direct mention</b>}
+              <ExternalLink size={11} />
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

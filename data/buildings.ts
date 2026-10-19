@@ -1,3 +1,5 @@
+import type { EnergyEvidence } from "@/data/energy-evidence";
+
 export type Entrance = {
   id: string;
   coordinates: [number, number];
@@ -39,9 +41,10 @@ export type Building = {
     lastInspection: string;
     nextStep: string;
   };
+  evidence?: EnergyEvidence;
 };
 
-export const categories = ["All places", "Study", "Arts", "Dining", "Campus life", "History"];
+export const categories = ["All places", "Study", "Arts", "Dining", "Campus life", "History", "Residential", "Campus building"];
 
 export const buildings: Building[] = [
   {

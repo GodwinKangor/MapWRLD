@@ -1,6 +1,8 @@
 "use client";
 
+import { applyCampusGround, sampleCampusGround, type GroundedModel, type TerrainCesiumApi } from "./campus-terrain";
 import type { Building } from "@/data/buildings";
+import { primaryTechnology, technologyColors, type EnergyTechnology } from "@/data/energy-evidence";
 import { DoorOpen, LocateFixed, Minus, Plus } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -16,12 +18,17 @@ type Props = {
     energyNetwork: boolean;
     futureWork: boolean;
     heating: boolean;
+    evidence: boolean;
+    roads: boolean;
   };
+  evidenceTechnology: EnergyTechnology | "all";
   time: number;
 };
 
 type CampusModelManifest = {
   campusModel: string;
+  terrainAnchors: string;
+  georeference: { longitudePerMeter: number; latitudePerMeter: number };
   status: "pending" | "ready";
   units: string;
   origin: {
@@ -31,6 +38,17 @@ type CampusModelManifest = {
   };
   fallback: string;
 };
+
+type CampusModel = Omit<GroundedModel, "getNode"> & {
+  getNode: (name: string) => { matrix: unknown; show: boolean } | undefined;
+  color?: unknown;
+  colorBlendMode?: unknown;
+  colorBlendAmount?: number;
+};
+type CampusPlacement = { modelMatrix: unknown; placements: Awaited<ReturnType<typeof sampleCampusGround>>; url: string };
+type RoadPrimitive = { show: boolean };
+type CampusRoad = { osmId: string; part: number; name: string; highway: string; coordinates: [number, number][] };
+type TwinOverlay = { model: CampusModel; roots: string[]; highlighted: Set<string> };
 
 type CesiumViewer = {
   camera: {
@@ -50,14 +68,16 @@ type CesiumViewer = {
   };
   clock: { currentTime: unknown };
   entities: { add: (options: unknown) => { energyTwinId?: string }; removeAll: () => void };
-  imageryLayers: { addImageryProvider: (provider: unknown) => unknown; remove: (layer: unknown) => boolean };
+  imageryLayers: { add: (layer: unknown) => void; remove: (layer: unknown) => boolean };
+  terrainProvider: unknown;
   resolutionScale: number;
   scene: {
     canvas: HTMLCanvasElement;
-    globe: { cartographicLimitRectangle?: unknown; enableLighting: boolean; show: boolean };
+    globe: { cartographicLimitRectangle?: unknown; enableLighting: boolean; depthTestAgainstTerrain: boolean; show: boolean };
     maximumRenderTimeChange?: number;
     primitives: { add: (primitive: unknown) => unknown; remove: (primitive: unknown) => boolean };
     requestRenderMode?: boolean;
+    requestRender: () => void;
     screenSpaceCameraController: {
       maximumZoomDistance: number;
       minimumZoomDistance: number;
@@ -67,11 +87,21 @@ type CesiumViewer = {
   destroy: () => void;
 };
 
-type CesiumApi = {
+type CesiumApi = TerrainCesiumApi & {
+  Model: { fromGltfAsync: (options: unknown) => Promise<CampusModel> };
+  Transforms: { eastNorthUpToFixedFrame: (origin: unknown) => unknown };
+  Axis: { X: unknown; Y: unknown };
   Ion: { defaultAccessToken: string };
   Viewer: new (element: HTMLElement, options: unknown) => CesiumViewer;
-  Terrain: { fromWorldTerrain: (options?: unknown) => unknown };
-  ImageryLayer: new (provider: unknown) => unknown;
+  createWorldTerrainAsync: (options?: unknown) => Promise<unknown>;
+  ImageryLayer: new (provider: unknown, options?: { rectangle?: unknown }) => unknown;
+  GroundPrimitive: new (options: unknown) => RoadPrimitive;
+  GeometryInstance: new (options: unknown) => unknown;
+  CorridorGeometry: new (options: unknown) => unknown;
+  ColorGeometryInstanceAttribute: { fromColor: (color: unknown) => unknown };
+  PerInstanceColorAppearance: new (options: unknown) => unknown;
+  ClassificationType: { TERRAIN: unknown };
+  CornerType: { ROUNDED: unknown };
   IonImageryProvider: { fromAssetId: (assetId: number) => Promise<unknown> };
   OpenStreetMapImageryProvider: new (options: { url: string }) => unknown;
   createOsmBuildingsAsync: () => Promise<unknown>;
@@ -81,9 +111,10 @@ type CesiumApi = {
   };
   BoundingSphere: new (center: unknown, radius: number) => unknown;
   HeadingPitchRange: new (heading: number, pitch: number, range: number) => unknown;
-  Color: { new (red: number, green: number, blue: number, alpha?: number): unknown; WHITE: unknown; BLACK: unknown };
+  Color: { new (red: number, green: number, blue: number, alpha?: number): unknown; WHITE: unknown; BLACK: unknown; fromCssColorString: (color: string) => unknown };
+  ColorBlendMode: { MIX: unknown };
   Rectangle: { fromDegrees: (west: number, south: number, east: number, north: number) => unknown };
-  VerticalOrigin: { BOTTOM: unknown };
+  VerticalOrigin: { BOTTOM: unknown; CENTER: unknown };
   HorizontalOrigin: { CENTER: unknown };
   HeightReference: { CLAMP_TO_GROUND: unknown; CLAMP_TO_3D_TILE: unknown };
   Math: { toDegrees: (radians: number) => number; toRadians: (degrees: number) => number };
@@ -161,19 +192,48 @@ const FUTURE_WORK = [
   { label: "Dining heat recovery review", coordinates: [-72.29044, 43.70456] as [number, number] },
 ];
 const CAMPUS_MODEL_MANIFEST = "/models/dartmouth-campus/model-manifest.json";
+const CAMPUS_ROADS = "/models/dartmouth-campus/campus-roads.json";
+// width in meters and fill color per OSM highway class; anything unlisted is drawn as a service road
+const ROAD_STYLES: Record<string, { width: number; color: [number, number, number]; path?: boolean }> = {
+  primary: { width: 12, color: [0.18, 0.2, 0.22] },
+  secondary: { width: 10, color: [0.2, 0.22, 0.24] },
+  tertiary: { width: 9, color: [0.21, 0.23, 0.25] },
+  residential: { width: 7, color: [0.25, 0.27, 0.29] },
+  unclassified: { width: 7, color: [0.25, 0.27, 0.29] },
+  service: { width: 4.5, color: [0.3, 0.32, 0.33] },
+  track: { width: 3, color: [0.48, 0.42, 0.33], path: true },
+  footway: { width: 2.2, color: [0.86, 0.82, 0.72], path: true },
+  path: { width: 2, color: [0.8, 0.74, 0.6], path: true },
+  pedestrian: { width: 4, color: [0.88, 0.84, 0.74], path: true },
+  cycleway: { width: 2.2, color: [0.62, 0.78, 0.66], path: true },
+  steps: { width: 2, color: [0.74, 0.7, 0.62], path: true },
+};
 
-export function CampusMap({ buildings, selected, onSelect, layers, time }: Props) {
+export function CampusMap({ buildings, selected, onSelect, layers, evidenceTechnology, time }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<CesiumViewer | null>(null);
+  const campusModelRef = useRef<CampusModel | null>(null);
+  const campusPlacementRef = useRef<CampusPlacement | null>(null);
+  const overlayRef = useRef<Promise<TwinOverlay | null> | null>(null);
+  const roadsRef = useRef<RoadPrimitive[]>([]);
+  const [modelReady, setModelReady] = useState(false);
+  const [modelStatus, setModelStatus] = useState("Loading campus model…");
+  const [modelVisible, setModelVisible] = useState(true);
   const clickHandlerRef = useRef<{ destroy: () => void } | null>(null);
   const cameraLimitsCleanupRef = useRef<(() => void) | null>(null);
   const flightRef = useRef(0);
   const onSelectRef = useRef(onSelect);
   const buildingsRef = useRef(buildings);
+  const layersRef = useRef(layers);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
 
   useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
   useEffect(() => { buildingsRef.current = buildings; }, [buildings]);
+  useEffect(() => {
+    layersRef.current = layers;
+    roadsRef.current.forEach((primitive) => { primitive.show = layers.roads; });
+    viewerRef.current?.scene.requestRender();
+  }, [layers]);
 
   useEffect(() => {
     let cancelled = false;
@@ -185,7 +245,10 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
       Cesium.Ion.defaultAccessToken = token;
       const visibleBaseLayer = new Cesium.ImageryLayer(
         new Cesium.OpenStreetMapImageryProvider({ url: "https://tile.openstreetmap.org/" }),
+        { rectangle: campusRectangle(Cesium) },
       );
+      const terrainProvider = await Cesium.createWorldTerrainAsync({ requestVertexNormals: true });
+      if (cancelled || !containerRef.current) return;
       const viewer = new Cesium.Viewer(containerRef.current, {
         animation: false,
         baseLayer: visibleBaseLayer,
@@ -198,7 +261,7 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
         sceneModePicker: false,
         selectionIndicator: false,
         timeline: false,
-        terrain: Cesium.Terrain.fromWorldTerrain({ requestVertexNormals: true }),
+        terrainProvider,
         requestRenderMode: true,
         maximumRenderTimeChange: 0.5,
         useBrowserRecommendedResolution: true,
@@ -210,10 +273,16 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
       // Keep satellite imagery legible. The app's atmosphere layer handles
       // day/night; Cesium globe lighting can black out imagery at local night.
       viewer.scene.globe.enableLighting = false;
+      viewer.scene.globe.depthTestAgainstTerrain = true;
       restrictGlobeToCampus(viewer, Cesium);
       cameraLimitsCleanupRef.current = installCampusCameraLimits(viewer, Cesium);
 
-      addBuildingMarkers(viewer, Cesium, buildingsRef.current, undefined, layers);
+      addBuildingMarkers(viewer, Cesium, buildingsRef.current, undefined, layers, evidenceTechnology);
+      void loadCampusRoads(viewer, Cesium, () => cancelled).then((primitives) => {
+        roadsRef.current = primitives;
+        primitives.forEach((primitive) => { primitive.show = layersRef.current.roads; });
+        viewer.scene.requestRender();
+      });
       flyHome(viewer, Cesium);
 
       const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -233,7 +302,17 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
       // Keep the working scene physically constrained to the Dartmouth tile.
       // Global OSM building tiles are intentionally off in this mode because
       // they keep rendering buildings outside the campus rectangle.
-      void prepareCampusModelSlot(viewer, Cesium, () => cancelled);
+      void prepareCampusModelSlot(viewer, Cesium, () => cancelled).then((loaded) => {
+        if (cancelled) return;
+        if (!loaded) { setModelStatus("Campus model unavailable"); return; }
+        campusModelRef.current = loaded.model;
+        campusPlacementRef.current = loaded.placement;
+        setModelReady(true);
+        setModelStatus("Campus model grounded");
+      }).catch((error) => {
+        console.error("Campus model failed to load", error);
+        if (!cancelled) setModelStatus("Campus model failed to load");
+      });
     }).catch((error) => {
       console.error("Cesium failed to initialize", error);
       if (!cancelled) setStatus("error");
@@ -247,6 +326,10 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
       clickHandlerRef.current = null;
       viewerRef.current?.destroy();
       viewerRef.current = null;
+      campusModelRef.current = null;
+      campusPlacementRef.current = null;
+      overlayRef.current = null;
+      roadsRef.current = [];
     };
   }, []);
 
@@ -255,8 +338,39 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
     const Cesium = window.Cesium;
     if (!viewer || !Cesium) return;
     viewer.entities.removeAll();
-    addBuildingMarkers(viewer, Cesium, buildings, selected?.id, layers);
-  }, [buildings, layers, selected?.id]);
+    addBuildingMarkers(viewer, Cesium, buildings, selected?.id, layers, evidenceTechnology);
+  }, [buildings, layers, selected?.id, evidenceTechnology]);
+
+  // Tint the campus model's buildings that have public-record evidence for the chosen technology.
+  useEffect(() => {
+    const viewer = viewerRef.current;
+    const Cesium = window.Cesium;
+    const main = campusModelRef.current;
+    const placement = campusPlacementRef.current;
+    if (!viewer || !Cesium || !main || !placement || !modelReady) return;
+    const roots = new Set(layers.evidence ? evidenceTwinRoots(buildings, evidenceTechnology) : []);
+    if (!roots.size && !overlayRef.current) return;
+    let stale = false;
+    overlayRef.current ??= createTwinOverlay(viewer, Cesium, placement);
+    void overlayRef.current.then((overlay) => {
+      if (stale || !overlay) return;
+      for (const root of overlay.highlighted) if (!roots.has(root)) {
+        main.getNode(root)!.show = true;
+        overlay.model.getNode(root)!.show = false;
+      }
+      for (const root of roots) if (!overlay.highlighted.has(root)) {
+        const node = main.getNode(root);
+        if (!node) { roots.delete(root); continue; }
+        node.show = false;
+        overlay.model.getNode(root)!.show = true;
+      }
+      overlay.highlighted = roots;
+      overlay.model.color = Cesium.Color.fromCssColorString(evidenceTechnology === "all" ? "#f2a33a" : technologyColors[evidenceTechnology]);
+      overlay.model.show = modelVisible && roots.size > 0;
+      viewer.scene.requestRender();
+    }).catch((error) => console.warn("Evidence highlight unavailable", error));
+    return () => { stale = true; };
+  }, [buildings, layers.evidence, evidenceTechnology, modelReady, modelVisible]);
 
   useEffect(() => {
     const viewer = viewerRef.current;
@@ -290,12 +404,24 @@ export function CampusMap({ buildings, selected, onSelect, layers, time }: Props
     if (viewerRef.current && window.Cesium) flyGroundView(viewerRef.current, window.Cesium);
   };
 
+  const updateModelPreview = (visible: boolean) => {
+    setModelVisible(visible);
+    if (campusModelRef.current) campusModelRef.current.show = visible;
+    viewerRef.current?.scene.requestRender();
+  };
+
   return (
     <section className={`campus-map cesium-campus ${selected ? "has-selection" : ""}`} aria-label="Interactive 3D map of Dartmouth College">
       <div ref={containerRef} className="cesium-container" />
       {status === "loading" && <div className="map-loading"><span /><strong>Building Dartmouth in 3D</strong><small>Loading terrain and campus geometry…</small></div>}
       {status === "error" && <div className="map-loading map-error"><DoorOpen size={26} /><strong>The 3D map couldn’t load</strong><small>Check NEXT_PUBLIC_CESIUM_ION_TOKEN and restart the dev server.</small></div>}
       <div className="map-vignette" />
+      {status === "ready" && <div className="campus-model-preview">
+        <small role="status">{modelStatus}</small>
+        <label><input type="checkbox" checked={modelVisible} disabled={modelStatus !== "Campus model grounded"}
+          onChange={(event) => updateModelPreview(event.target.checked)} /> Show campus model</label>
+
+      </div>}
       <div className="map-controls">
         <button onClick={() => zoom("in")} aria-label="Zoom in"><Plus size={18} /></button>
         <button onClick={() => zoom("out")} aria-label="Zoom out"><Minus size={18} /></button>
@@ -378,6 +504,63 @@ function restrictGlobeToCampus(viewer: CesiumViewer, Cesium: CesiumApi) {
   };
   scene.backgroundColor = new Cesium.Color(0.06, 0.075, 0.065, 1);
   if (scene.skyAtmosphere) scene.skyAtmosphere.show = false;
+  // The campus rectangle is the whole world: no sky, celestial bodies, haze, or horizon fog to draw.
+  const world = viewer.scene as unknown as {
+    skyBox?: { show: boolean };
+    sun?: { show: boolean };
+    moon?: { show: boolean };
+    fog?: { enabled: boolean };
+    globe: { showGroundAtmosphere?: boolean };
+  };
+  if (world.skyBox) world.skyBox.show = false;
+  if (world.sun) world.sun.show = false;
+  if (world.moon) world.moon.show = false;
+  if (world.fog) world.fog.enabled = false;
+  world.globe.showGroundAtmosphere = false;
+}
+
+function campusRectangle(Cesium: CesiumApi) {
+  return Cesium.Rectangle.fromDegrees(CAMPUS_BOUNDS.west, CAMPUS_BOUNDS.south, CAMPUS_BOUNDS.east, CAMPUS_BOUNDS.north);
+}
+
+function insideCampus(longitude: number, latitude: number) {
+  return longitude >= CAMPUS_BOUNDS.west && longitude <= CAMPUS_BOUNDS.east && latitude >= CAMPUS_BOUNDS.south && latitude <= CAMPUS_BOUNDS.north;
+}
+
+// Roads are draped on the terrain (the GLB's road objects are edge-only centerlines with no
+// faces). Two batched primitives: paths first so vehicle roads draw over crossings.
+async function loadCampusRoads(viewer: CesiumViewer, Cesium: CesiumApi, isCancelled: () => boolean): Promise<RoadPrimitive[]> {
+  try {
+    const response = await fetch(CAMPUS_ROADS);
+    if (!response.ok || isCancelled()) return [];
+    const { roads } = await response.json() as { roads: CampusRoad[] };
+    const batches: Record<"paths" | "roads", unknown[]> = { paths: [], roads: [] };
+    for (const road of roads) {
+      const coordinates = road.coordinates.filter((point, index, all) => index === 0 || point[0] !== all[index - 1][0] || point[1] !== all[index - 1][1]);
+      if (coordinates.length < 2) continue;
+      const style = ROAD_STYLES[road.highway] ?? ROAD_STYLES.service;
+      batches[style.path ? "paths" : "roads"].push(new Cesium.GeometryInstance({
+        id: `${road.osmId}#${road.part}`,
+        geometry: new Cesium.CorridorGeometry({
+          positions: Cesium.Cartesian3.fromDegreesArray(coordinates.flat()),
+          width: style.width,
+          cornerType: Cesium.CornerType.ROUNDED,
+        }),
+        attributes: { color: Cesium.ColorGeometryInstanceAttribute.fromColor(new Cesium.Color(...style.color, 1)) },
+      }));
+    }
+    if (isCancelled()) return [];
+    return (["paths", "roads"] as const).filter((key) => batches[key].length).map((key) => viewer.scene.primitives.add(new Cesium.GroundPrimitive({
+      geometryInstances: batches[key],
+      appearance: new Cesium.PerInstanceColorAppearance({ flat: true, translucent: false }),
+      classificationType: Cesium.ClassificationType.TERRAIN,
+      allowPicking: false,
+      asynchronous: true,
+    })) as RoadPrimitive);
+  } catch (error) {
+    console.warn("Campus roads unavailable", error);
+    return [];
+  }
 }
 
 function clamp(value: number, min: number, max: number) {
@@ -425,28 +608,127 @@ async function loadEnhancedGeometry(viewer: CesiumViewer, Cesium: CesiumApi, isC
 }
 
 async function prepareCampusModelSlot(viewer: CesiumViewer, Cesium: CesiumApi, isCancelled: () => boolean) {
-  try {
-    const response = await fetch(CAMPUS_MODEL_MANIFEST, { cache: "no-store" });
-    if (!response.ok || isCancelled()) return;
-    const manifest = await response.json() as CampusModelManifest;
-    if (manifest.status !== "ready") {
-      console.info("Campus model placeholder active:", manifest.fallback);
-      return;
-    }
-    // Future drop-in point: load manifest.campusModel as a Cesium model once the
-    // optimized GLB is exported from Maya and the manifest status is set ready.
-    console.info("Campus model ready for loading", {
-      model: manifest.campusModel,
-      origin: Cesium.Cartesian3.fromDegrees(
-        manifest.origin.longitude,
-        manifest.origin.latitude,
-        manifest.origin.heightMeters,
-      ),
-      viewerReady: Boolean(viewer.scene),
-    });
-  } catch (error) {
-    console.warn("Campus model manifest unavailable; keeping fallback geometry.", error);
+  const response = await fetch(CAMPUS_MODEL_MANIFEST, { cache: "no-store" });
+  if (!response.ok || isCancelled()) return;
+  const manifest = await response.json() as CampusModelManifest;
+  if (manifest.status !== "ready") {
+    console.info("Campus model placeholder active:", manifest.fallback);
+    return;
   }
+  if (isCancelled()) return;
+  const modelMatrix = Cesium.Transforms.eastNorthUpToFixedFrame(Cesium.Cartesian3.fromDegrees(
+    manifest.origin.longitude, manifest.origin.latitude, manifest.origin.heightMeters,
+  ));
+  const placements = await sampleCampusGround(
+    Cesium, viewer.terrainProvider, modelMatrix, manifest.terrainAnchors,
+    { ...manifest.origin, ...manifest.georeference }, isCancelled,
+  );
+  if (isCancelled()) return;
+  const model = await Cesium.Model.fromGltfAsync({
+    url: manifest.campusModel,
+    modelMatrix,
+    show: false,
+    // Blender exports east/up/south; preserve east when rotating Y-up to Z-up.
+    upAxis: Cesium.Axis.Y,
+    forwardAxis: Cesium.Axis.X,
+    minimumPixelSize: 0,
+  });
+  if (isCancelled()) { model.destroy(); return; }
+  const placement: CampusPlacement = { modelMatrix, placements, url: manifest.campusModel };
+  return await new Promise<{ model: CampusModel; placement: CampusPlacement }>((resolve, reject) => {
+    const ground = () => {
+      if (isCancelled()) { resolve({ model, placement }); return; }
+      try {
+        applyCampusGround(model, placements);
+        for (const anchor of placements) {
+          if (insideCampus(Cesium.Math.toDegrees(anchor.longitude), Cesium.Math.toDegrees(anchor.latitude))) continue;
+          const node = model.getNode(anchor.node);
+          if (node) node.show = false;
+        }
+        model.show = true;
+        viewer.scene.requestRender();
+        resolve({ model, placement });
+      } catch (error) {
+        viewer.scene.primitives.remove(model);
+        reject(error);
+      }
+    };
+    if (!model.ready) {
+      const removeListener = model.readyEvent.addEventListener(() => { removeListener(); ground(); });
+    }
+    viewer.scene.primitives.add(model);
+    if (model.ready) ground();
+    viewer.scene.requestRender();
+  });
+}
+
+function evidenceTwinRoots(buildings: Building[], technology: EnergyTechnology | "all") {
+  return buildings
+    .filter((building) => building.evidence && (technology === "all" || building.evidence.technologies.some(({ id }) => id === technology)))
+    .flatMap((building) => building.evidence!.twinObjects.map((name) => `part::${name}`));
+}
+
+// A second, tinted copy of the campus GLB that only shows highlighted buildings; the same
+// buildings are hidden in the main model, so the two never overlap or z-fight.
+async function createTwinOverlay(viewer: CesiumViewer, Cesium: CesiumApi, placement: CampusPlacement): Promise<TwinOverlay | null> {
+  const response = await fetch(placement.url);
+  if (!response.ok) return null;
+  const bytes = new Uint8Array(await response.arrayBuffer());
+  const roots = glbSceneRoots(bytes);
+  const model = await Cesium.Model.fromGltfAsync({
+    gltf: bytes,
+    modelMatrix: placement.modelMatrix,
+    show: false,
+    upAxis: Cesium.Axis.Y,
+    forwardAxis: Cesium.Axis.X,
+    minimumPixelSize: 0,
+    colorBlendMode: Cesium.ColorBlendMode.MIX,
+    colorBlendAmount: 0.72,
+  });
+  viewer.scene.primitives.add(model);
+  if (!model.ready) await new Promise<void>((resolve) => { const remove = model.readyEvent.addEventListener(() => { remove(); resolve(); }); });
+  applyCampusGround(model, placement.placements);
+  for (const root of roots) { const node = model.getNode(root); if (node) node.show = false; }
+  return { model, roots, highlighted: new Set() };
+}
+
+// Cesium can't enumerate model nodes, so read the scene's root node names from the GLB JSON chunk.
+function glbSceneRoots(bytes: Uint8Array) {
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  const jsonLength = view.getUint32(12, true);
+  const gltf = JSON.parse(new TextDecoder().decode(bytes.subarray(20, 20 + jsonLength))) as { nodes: { name?: string }[]; scenes: { nodes: number[] }[]; scene?: number };
+  return gltf.scenes[gltf.scene ?? 0].nodes.map((index) => gltf.nodes[index].name).filter((name): name is string => Boolean(name));
+}
+
+function addEvidenceMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], technology: EnergyTechnology | "all", selectedId?: string) {
+  buildings.forEach((building) => {
+    const evidence = building.evidence;
+    if (!evidence) return;
+    const matches = technology === "all" || evidence.technologies.some(({ id }) => id === technology);
+    if (!matches) return;
+    const lead = technology === "all" ? primaryTechnology(evidence) : technology;
+    const size = Math.round(Math.max(24, Math.min(38, 18 + Math.sqrt(evidence.candidateCount) * 3)));
+    const entity = viewer.entities.add({
+      position: Cesium.Cartesian3.fromDegrees(building.entrance.coordinates[0], building.entrance.coordinates[1], 8),
+      billboard: {
+        image: createEvidenceIcon(lead ? technologyColors[lead] : "#f2a33a", building.id === selectedId),
+        width: size,
+        height: size,
+        verticalOrigin: Cesium.VerticalOrigin.CENTER,
+        horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
+        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+        // sit at the top-right of the door pin so both stay clickable
+        pixelOffset: { x: 17, y: -42 },
+        disableDepthTestDistance: 900,
+      },
+    });
+    entity.energyTwinId = building.id;
+  });
+}
+
+function createEvidenceIcon(color: string, selected: boolean) {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><circle cx="24" cy="24" r="19" fill="${color}" stroke="${selected ? "#d9ff77" : "white"}" stroke-width="${selected ? 7 : 5}"/><path d="M17 15h10l5 5v13H17Z M27 15v5h5 M20 25h9 M20 29h7" fill="none" stroke="white" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
 }
 
 async function loadAerialImagery(
@@ -458,14 +740,14 @@ async function loadAerialImagery(
   try {
     const provider = await Cesium.IonImageryProvider.fromAssetId(2);
     if (isCancelled()) return;
-    viewer.imageryLayers.addImageryProvider(provider);
+    viewer.imageryLayers.add(new Cesium.ImageryLayer(provider, { rectangle: campusRectangle(Cesium) }));
     viewer.imageryLayers.remove(fallbackLayer);
   } catch (error) {
     console.warn("Satellite imagery unavailable; keeping the OpenStreetMap base layer.", error);
   }
 }
 
-function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], selectedId?: string, layers?: Props["layers"]) {
+function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], selectedId?: string, layers?: Props["layers"], evidenceTechnology: EnergyTechnology | "all" = "all") {
   if (layers?.boundary ?? true) addCampusMask(viewer, Cesium);
   if (layers?.energyNetwork ?? true) {
     if (layers?.heating ?? true) addHeatingGraph(viewer, Cesium);
@@ -508,6 +790,7 @@ function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: 
     entity.energyTwinId = building.id;
     });
   });
+  if (layers?.evidence ?? true) addEvidenceMarkers(viewer, Cesium, buildings, evidenceTechnology, selectedId);
 }
 
 function addHeatingGraph(viewer: CesiumViewer, Cesium: CesiumApi) {

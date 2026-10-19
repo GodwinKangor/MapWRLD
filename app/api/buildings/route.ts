@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
-import { buildings as staticBuildings, type Building, type Entrance } from "@/data/buildings";
+import { type Building, type Entrance } from "@/data/buildings";
+import { getAllBuildings } from "@/data/campus-buildings";
+import { attachEnergyEvidence } from "@/data/attach-energy-evidence";
 
 export const revalidate = 300;
 
@@ -43,7 +45,7 @@ type DatabaseBuilding = {
 export async function GET() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!url || !key) return response(staticBuildings, "static");
+  if (!url || !key) return response(await getAllBuildings(), "static+generated");
 
   try {
     const result = await fetch(
@@ -56,10 +58,11 @@ export async function GET() {
     if (!result.ok) throw new Error(`Supabase returned ${result.status}`);
     const rows = await result.json() as DatabaseBuilding[];
     const mapped = rows.map(mapBuilding).filter((item): item is Building => item !== null);
-    return response(mapped.length ? mapped : staticBuildings, mapped.length ? "supabase" : "static");
+    if (mapped.length) return response(mapped, "supabase");
+    return response(await getAllBuildings(), "static+generated");
   } catch (error) {
-    console.error("Building database unavailable; using static data.", error);
-    return response(staticBuildings, "static");
+    console.error("Building database unavailable; using static + generated data.", error);
+    return response(await getAllBuildings(), "static+generated");
   }
 }
 
@@ -111,8 +114,8 @@ function mapBuilding(row: DatabaseBuilding): Building | null {
   };
 }
 
-function response(buildings: Building[], source: "supabase" | "static") {
-  return NextResponse.json({ buildings, source }, {
+function response(buildings: Building[], source: "supabase" | "static+generated") {
+  return NextResponse.json({ buildings: attachEnergyEvidence(buildings), source }, {
     headers: { "Cache-Control": "public, s-maxage=300, stale-while-revalidate=86400" },
   });
 }

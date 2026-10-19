@@ -6,6 +6,7 @@ import { BuildingPanel } from "@/components/building-panel";
 import { CampusMap } from "@/components/campus-map";
 import { CheckCircle2, Compass, Cuboid, Menu, Search, SlidersHorizontal, Sparkles, X } from "lucide-react";
 import { buildings, categories, type Building } from "@/data/buildings";
+import { technologyColors, technologyLabels, type EnergyTechnology } from "@/data/energy-evidence";
 
 export default function Home() {
   const [buildingData, setBuildingData] = useState<Building[]>(buildings);
@@ -22,7 +23,10 @@ export default function Home() {
     energyNetwork: true,
     futureWork: false,
     heating: true,
+    evidence: true,
+    roads: true,
   });
+  const [evidenceTechnology, setEvidenceTechnology] = useState<EnergyTechnology | "all">("all");
   const [browseOpen, setBrowseOpen] = useState(false);
   const [controlsOpen, setControlsOpen] = useState(false);
 
@@ -49,6 +53,11 @@ export default function Home() {
     const active = buildingData.filter((building) => building.assetStatus.modelStatus === "In progress").length;
     const highPriority = buildingData.filter((building) => building.assetStatus.priority === "High").length;
     return { total, ready, active, highPriority, percent: Math.round((ready / total) * 100) };
+  }, [buildingData]);
+  const evidenceTechnologies = useMemo(() => {
+    const counts = new Map<EnergyTechnology, number>();
+    buildingData.forEach((building) => building.evidence?.technologies.forEach(({ id }) => counts.set(id, (counts.get(id) ?? 0) + 1)));
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]);
   }, [buildingData]);
 
   const selectBuilding = (building: Building) => {
@@ -77,7 +86,7 @@ export default function Home() {
         </div>
       </header>
 
-      <CampusMap buildings={filtered} selected={selected} onSelect={selectBuilding} layers={layers} time={time} />
+      <CampusMap buildings={filtered} selected={selected} onSelect={selectBuilding} layers={layers} evidenceTechnology={evidenceTechnology} time={time} />
 
       <div className="place-label">
         <span>Dartmouth College</span>
@@ -119,7 +128,23 @@ export default function Home() {
           <label><span>Carbon intensity</span><input type="checkbox" checked={layers.carbon} onChange={(e) => setLayers((current) => ({ ...current, carbon: e.target.checked }))} /></label>
           <label><span>Accessibility</span><input type="checkbox" checked={layers.accessibility} onChange={(e) => setLayers((current) => ({ ...current, accessibility: e.target.checked }))} /></label>
           <label><span>Future work</span><input type="checkbox" checked={layers.futureWork} onChange={(e) => setLayers((current) => ({ ...current, futureWork: e.target.checked }))} /></label>
+          <label><span>Roads & paths</span><input type="checkbox" checked={layers.roads} onChange={(e) => setLayers((current) => ({ ...current, roads: e.target.checked }))} /></label>
+          <label><span>Public records</span><input type="checkbox" checked={layers.evidence} onChange={(e) => setLayers((current) => ({ ...current, evidence: e.target.checked }))} /></label>
         </div>
+        {layers.evidence && evidenceTechnologies.length > 0 && (
+          <div className="evidence-filter">
+            <span className="eyebrow">RECORDED TECHNOLOGY</span>
+            <div>
+              <button className={evidenceTechnology === "all" ? "active" : ""} onClick={() => setEvidenceTechnology("all")}>All</button>
+              {evidenceTechnologies.map(([id, count]) => (
+                <button key={id} className={evidenceTechnology === id ? "active" : ""} onClick={() => setEvidenceTechnology(id)}>
+                  <i style={{ background: technologyColors[id] }} />{technologyLabels[id]} <small>{count}</small>
+                </button>
+              ))}
+            </div>
+            <small>Matches from public Dartmouth sources, not yet reviewed. Matching buildings are tinted in the campus model.</small>
+          </div>
+        )}
         <div className="readiness-card">
           <div>
             <span className="eyebrow">MODEL READINESS</span>

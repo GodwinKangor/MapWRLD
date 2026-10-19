@@ -1,11 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { buildings } from "@/data/buildings";
+import { getAllBuildings } from "@/data/campus-buildings";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
   const id = request.nextUrl.searchParams.get("building");
   const view = request.nextUrl.searchParams.get("view") ?? "front";
+  const buildings = await getAllBuildings();
   const building = buildings.find((item) => item.id === id);
   const apiKey = process.env.GOOGLE_MAPPLATFORM_APIKEY ?? process.env.GOOGLE_MAPS_API_KEY;
 
