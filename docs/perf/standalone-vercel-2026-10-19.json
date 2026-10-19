@@ -1,0 +1,16 @@
+{
+  "three": {
+    "runs": 3,
+    "loadMs": 1615,
+    "requests": 31,
+    "megabytes": 4.12,
+    "overviewCalls": 7,
+    "overviewTriangles": 564260,
+    "groundCalls": 7,
+    "groundTriangles": 564260,
+    "dragFrameP50": 16.7,
+    "dragFrameP95": 16.8,
+    "dragFramesOver33ms": 0,
+    "heapMB": 43.8
+  }
+}

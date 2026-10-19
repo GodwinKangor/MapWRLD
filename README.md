@@ -218,19 +218,23 @@ public/models/dartmouth-campus/README.md
 
 ## Deployment (Vercel)
 
+Production: https://dartmouth-energy-twin.vercel.app (Vercel project `dartmouth-energy-twin`, connected to this GitHub repository; `vercel.json` pins the Next.js framework preset).
+
 1. Generate and commit scene assets (see Scene Assets). Vercel only runs `next build`.
 2. `npm run check:assets` (exact-case paths, nothing needed is in `.vercelignore`), then `npm run build && npm start`, and check http://localhost:3000, `/api/buildings`, and a building's Street View photo.
-3. `vercel deploy` creates a preview URL; verify the map, assets, `/api/buildings`, `/api/streetview`, navigation and the mobile layout there.
-4. `vercel deploy --prod` (or "Promote to Production" in the Vercel dashboard) after the preview passes.
-5. Set optional environment variables in the Vercel project (Settings → Environment Variables) for Preview and Production, then redeploy.
+3. Push a branch: every push to a branch other than `main` creates a Preview deployment (shown in the Vercel dashboard and on GitHub). Previews are behind Vercel Authentication; sign in, or use `vercel curl <preview-url>/api/buildings` for quick checks. Verify the map, assets, `/api/buildings`, `/api/streetview`, navigation and the mobile layout.
+4. Promote the verified preview: `vercel promote <preview-url>` (or "Promote to Production" in the dashboard). Merging to `main` also deploys production.
+5. Optional environment variables live in the Vercel project (Settings → Environment Variables). `GOOGLE_MAPPLATFORM_APIKEY` is set as a sensitive variable for Preview and Production; add the Supabase pair there if you use it, then redeploy.
+
+Deploy through Git rather than `vercel deploy` from a laptop: the deployment has about 6,900 files (mostly the per-building renders used by `/design-space`), and the Hobby plan caps CLI uploads at 5,000 files per day.
 
 Deployment details:
 
-- `.vercelignore` keeps secrets, Blender sources, offline pipelines, raw rasters, and model intermediates out of the upload; the per-building renders used by `/design-space` and the reference images used by `/reference-atlas` stay.
+- `.vercelignore` keeps secrets, Blender sources, offline pipelines, raw rasters, and model intermediates out of the deployment; the per-building renders used by `/design-space` stay. `/reference-atlas` images are generated locally and gitignored, so Git deployments show that page's empty state.
 - `next.config.ts` traces `osm-campus-names.json` into the `/api/buildings` function, marks hashed terrain/imagery files as immutable, and gives other scene data a one-hour cache with background revalidation.
-- Static assets are served from Vercel's CDN. Total scene download is about 5 MB; object storage is not needed at this size.
+- Static assets are served from Vercel's CDN. The scene downloads about 4 MB; object storage is not needed at this size.
 
-Rollback: in the Vercel dashboard, open Deployments and "Promote to Production" (instant rollback) on the previous deployment. In Git, the last Cesium version is commit `52622c4` (Cesium at `/`, the standalone scene at `/preview`); `git revert` the migration commits on a branch to restore it, and re-add `NEXT_PUBLIC_CESIUM_ION_TOKEN`.
+Rollback: in the Vercel dashboard, open Deployments and "Promote to Production" (instant rollback) on an earlier deployment, or `vercel rollback`. In Git, the last Cesium version is commit `52622c4` (Cesium at `/`, the standalone scene at `/preview`); `git revert` the migration commits on a branch to restore it, and re-add `NEXT_PUBLIC_CESIUM_ION_TOKEN`.
 
 ## Roadmap
 

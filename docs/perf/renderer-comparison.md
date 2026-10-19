@@ -42,3 +42,16 @@ Measured 2026-10-19 with `scripts/perf/compare-renderers.mjs` against a local pr
 - Memory is the JS heap only (`performance.memory`); GPU memory is not exposed to the page. The
   standalone scene reports its GPU resources in `window.__campusScene.metrics` (7 geometries,
   3 textures at medium quality).
+
+## Deployed (Vercel CDN)
+
+Standalone scene at https://dartmouth-energy-twin.vercel.app, same harness and machine, 3 cold runs
+(`--targets three --three-path /`; raw: `standalone-vercel-2026-10-19.json`):
+
+| Metric | Value |
+|---|---|
+| Load to ready | 1,615 ms |
+| Requests / transferred | 31 / 4.1 MB (CDN compression) |
+| Draw calls, triangles per frame | 7, 0.56 M (overview and ground) |
+| Drag frame interval p50 / p95, frames over 33 ms | 16.7 / 16.8 ms, 0 |
+| JS heap | 44 MB |

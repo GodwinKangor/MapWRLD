@@ -13,10 +13,11 @@ import { chromium } from "playwright";
 const args = Object.fromEntries(process.argv.slice(2).reduce((pairs, value, index, all) => (value.startsWith("--") ? [...pairs, [value.slice(2), all[index + 1]]] : pairs), []));
 const base = args.base ?? "http://localhost:3000";
 const runs = Number(args.runs ?? 3);
+// --targets three --three-path / measures only the standalone scene (e.g. a deployment)
 const targets = [
   { name: "cesium", path: "/", ready: () => document.querySelector(".campus-model-preview small")?.textContent?.includes("grounded") },
-  { name: "three", path: "/preview", ready: () => Boolean(window.__campusScene?.metrics?.readyMs) },
-];
+  { name: "three", path: args["three-path"] ?? "/preview", ready: () => Boolean(window.__campusScene?.metrics?.readyMs) },
+].filter((target) => !args.targets || args.targets.split(",").includes(target.name));
 
 // counts draws and primitives between animation frames, for whichever WebGL context is used
 const INSTRUMENT = () => {
