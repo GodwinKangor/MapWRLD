@@ -236,6 +236,42 @@ Deployment details:
 
 Rollback: in the Vercel dashboard, open Deployments and "Promote to Production" (instant rollback) on an earlier deployment, or `vercel rollback`. In Git, the last Cesium version is commit `52622c4` (Cesium at `/`, the standalone scene at `/preview`); `git revert` the migration commits on a branch to restore it, and re-add `NEXT_PUBLIC_CESIUM_ION_TOKEN`.
 
+## Known Limitations
+
+The map is a planning and storytelling tool, not a survey. Known approximations and gaps:
+
+### Terrain and imagery
+- Ground is the USGS 3DEP bare-earth DEM resampled to a ~2 m grid; small features (curbs, steps, retaining walls) are smoothed out.
+- The aerial imagery is the USGS National Map's 2024 autumn capture at ~0.38 m per pixel, so it blurs at street level and shows roofs and tree crowns that the 3D layers also draw.
+- Seasons are approximate: winter is a light snow wash over the autumn imagery, and the other seasons only recolor trees.
+- Day and night use a simple sun arc for lighting; there are no shadows, street lights, or weather.
+
+### Buildings
+- Buildings are rigid and sit on the lowest ground under their footprint, so on slopes the uphill side is partly embedded (up to ~10 m on the river slope).
+- Heights come from a January 2020 NH GRANIT nDSM (median of interior lidar pixels) or OSM tags; many are flagged for review in `building-heights.json`.
+- Most buildings are footprint massing with reference-based colors; only Baker Library and Dartmouth Hall have detailed models.
+- Buildings whose OSM center falls outside the campus rectangle are left out.
+- Supabase-only buildings without OSM ids can be selected from markers and search but not by clicking their 3D geometry.
+
+### Layers and data
+- Roads, paths and fields come from OpenStreetMap and are only as complete as OSM; baseball diamonds and beach volleyball courts have no line markings, and running tracks show their edges but not individual lanes.
+- Trees are detected treetops from Meta & WRI's canopy-height map; positions are approximate and the broadleaf/conifer split is random, not real species.
+- The district-heat and electric networks are schematic links between hubs, not surveyed pipe or cable routes.
+- Building energy figures (demand, annual use, emissions, scores) on hand-authored buildings are planning estimates; generated buildings show "TBD" until real metering is connected.
+- Public-record energy evidence comes from keyword and name matching of public Dartmouth pages and is unreviewed.
+
+### Interface and rendering
+- Markers draw on top of buildings rather than being hidden behind them.
+- The whole terrain and every tree are drawn in every frame (no level-of-detail), about 0.56 M triangles at medium quality; low quality reduces the terrain mesh for phones.
+- Changing the quality setting reloads the scene.
+- There is no keyboard or first-person navigation yet; ground view is a low orbit.
+
+### Deployment
+- `/reference-atlas` and `/reference-compositor` use locally generated, gitignored images, so Git-based Vercel deployments show their empty state.
+- Preview deployments sit behind Vercel Authentication.
+- The Hobby plan allows 5,000 CLI file uploads per day, so deploy through Git rather than `vercel deploy`.
+- Performance figures in `docs/perf/` come from one Apple M2 machine in a headless browser; other hardware will differ.
+
 ## Roadmap
 
 ### Phase 1: Campus Foundation
