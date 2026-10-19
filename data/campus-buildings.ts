@@ -14,15 +14,18 @@ const OSM_NAMES_PATH = path.join(
 // These OSM ways are the same physical buildings as the 6 hand-authored
 // entries in data/buildings.ts (Baker-Berry is two connected buildings) --
 // excluded so the generated placeholders don't duplicate them on the map.
-const CURATED_OSM_IDS = new Set([
-  "way/295888783", // Baker Library (part of baker-berry)
-  "way/295888784", // Berry Library (part of baker-berry)
-  "way/262924499", // Hopkins Center for the Arts
-  "way/261796580", // Collis Student Center
-  "way/262912597", // Class of 1953 Commons
-  "way/48784540", // Dartmouth Hall
-  "way/262950856", // Class of 1978 Life Sciences Center
-]);
+const CURATED_OSM_IDS: Record<string, string> = {
+  "way/295888783": "baker-berry", // Baker Library
+  "way/295888784": "baker-berry", // Berry Library
+  "way/262924499": "hopkins", // Hopkins Center for the Arts
+  "way/261796580": "collis", // Collis Student Center
+  "way/262912597": "foco", // Class of 1953 Commons
+  "way/48784540": "dartmouth-hall", // Dartmouth Hall
+  "way/262950856": "life-sciences", // Class of 1978 Life Sciences Center
+};
+
+// the OSM ways (and campus-model buildings) behind each hand-authored entry, for 3D picking
+const curatedOsmIds = (id: string) => Object.entries(CURATED_OSM_IDS).filter(([, curated]) => curated === id).map(([osmId]) => osmId);
 
 const CATEGORY_BY_BUILDING_TAG: Record<string, string> = {
   university: "Study",
@@ -55,7 +58,7 @@ type CampusBounds = { west: number; south: number; east: number; north: number }
 let cachedPlaceholders: Building[] | null = null;
 
 export async function getAllBuildings(): Promise<Building[]> {
-  return [...staticBuildings, ...(await getPlaceholderBuildings())];
+  return [...staticBuildings.map((building) => ({ ...building, osmIds: curatedOsmIds(building.id) })), ...(await getPlaceholderBuildings())];
 }
 
 async function getPlaceholderBuildings(): Promise<Building[]> {
@@ -69,7 +72,7 @@ async function getPlaceholderBuildings(): Promise<Building[]> {
       record.centroid!.latitude >= parsed.bounds.south && record.centroid!.latitude <= parsed.bounds.north
     );
     cachedPlaceholders = (parsed.buildings ?? [])
-      .filter((record) => !CURATED_OSM_IDS.has(record.osmId) && record.centroid && inside(record))
+      .filter((record) => !CURATED_OSM_IDS[record.osmId] && record.centroid && inside(record))
       .map(toPlaceholderBuilding);
   } catch (error) {
     console.error("Could not load osm-campus-names.json for placeholder buildings.", error);
@@ -93,6 +96,7 @@ function toPlaceholderBuilding(record: OsmBuildingRecord): Building {
 
   return {
     id: `${slugify(record.name)}-${record.wayId}`,
+    osmIds: [record.osmId],
     name: record.name,
     shortCode: shortCodeFor(record.name),
     category,

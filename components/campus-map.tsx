@@ -1,7 +1,9 @@
 "use client";
 
+import { installCampusControls, type CameraCesiumApi } from "./campus-camera";
+import { loadCampusTrees, type TreeCesiumApi, type TreeModel } from "./campus-trees";
 import { applyCampusGround, sampleCampusGround, type GroundedModel, type TerrainCesiumApi } from "./campus-terrain";
-import type { Building } from "@/data/buildings";
+import type { Building, Entrance } from "@/data/buildings";
 import { primaryTechnology, technologyColors, type EnergyTechnology } from "@/data/energy-evidence";
 import { DoorOpen, LocateFixed, Minus, Plus } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
@@ -20,6 +22,8 @@ type Props = {
     heating: boolean;
     evidence: boolean;
     roads: boolean;
+    fields: boolean;
+    trees: boolean;
   };
   evidenceTechnology: EnergyTechnology | "all";
   time: number;
@@ -27,6 +31,7 @@ type Props = {
 
 type CampusModelManifest = {
   campusModel: string;
+  evidenceModel?: string;
   terrainAnchors: string;
   georeference: { longitudePerMeter: number; latitudePerMeter: number };
   status: "pending" | "ready";
@@ -45,10 +50,21 @@ type CampusModel = Omit<GroundedModel, "getNode"> & {
   colorBlendMode?: unknown;
   colorBlendAmount?: number;
 };
-type CampusPlacement = { modelMatrix: unknown; placements: Awaited<ReturnType<typeof sampleCampusGround>>; url: string };
+type CampusPlacement = { modelMatrix: unknown; placements: Awaited<ReturnType<typeof sampleCampusGround>>; evidenceUrl?: string };
 type RoadPrimitive = { show: boolean };
+type CampusField = {
+  osmId: string;
+  name: string;
+  kind: string;
+  axisRadians: number;
+  lengthMeters: number;
+  outer: [number, number][];
+  holes: [number, number][][];
+  markings: [number, number][][];
+};
 type CampusRoad = { osmId: string; part: number; name: string; highway: string; coordinates: [number, number][] };
 type TwinOverlay = { model: CampusModel; roots: string[]; highlighted: Set<string> };
+type MarkerEntity = { energyTwinId?: string; billboard?: { image: unknown }; label?: unknown };
 
 type CesiumViewer = {
   camera: {
@@ -66,8 +82,8 @@ type CesiumViewer = {
     zoomIn: (amount: number) => void;
     zoomOut: (amount: number) => void;
   };
-  clock: { currentTime: unknown };
-  entities: { add: (options: unknown) => { energyTwinId?: string }; removeAll: () => void };
+  clock: { currentTime: unknown; shouldAnimate: boolean };
+  entities: { add: (options: unknown) => MarkerEntity; getById: (id: string) => MarkerEntity | undefined; removeAll: () => void; suspendEvents: () => void; resumeEvents: () => void };
   imageryLayers: { add: (layer: unknown) => void; remove: (layer: unknown) => boolean };
   terrainProvider: unknown;
   resolutionScale: number;
@@ -98,10 +114,14 @@ type CesiumApi = TerrainCesiumApi & {
   GroundPrimitive: new (options: unknown) => RoadPrimitive;
   GeometryInstance: new (options: unknown) => unknown;
   CorridorGeometry: new (options: unknown) => unknown;
+  PolygonGeometry: new (options: unknown) => unknown;
+  PolygonHierarchy: new (positions: unknown[], holes?: unknown[]) => unknown;
+  MaterialAppearance: new (options: unknown) => unknown;
+  Material: { fromType: (type: string, uniforms?: Record<string, unknown>) => unknown };
   ColorGeometryInstanceAttribute: { fromColor: (color: unknown) => unknown };
   PerInstanceColorAppearance: new (options: unknown) => unknown;
   ClassificationType: { TERRAIN: unknown };
-  CornerType: { ROUNDED: unknown };
+  CornerType: { ROUNDED: unknown; MITERED: unknown };
   IonImageryProvider: { fromAssetId: (assetId: number) => Promise<unknown> };
   OpenStreetMapImageryProvider: new (options: { url: string }) => unknown;
   createOsmBuildingsAsync: () => Promise<unknown>;
@@ -116,7 +136,8 @@ type CesiumApi = TerrainCesiumApi & {
   Rectangle: { fromDegrees: (west: number, south: number, east: number, north: number) => unknown };
   VerticalOrigin: { BOTTOM: unknown; CENTER: unknown };
   HorizontalOrigin: { CENTER: unknown };
-  HeightReference: { CLAMP_TO_GROUND: unknown; CLAMP_TO_3D_TILE: unknown };
+  HeightReference: { NONE: unknown; CLAMP_TO_GROUND: unknown; CLAMP_TO_3D_TILE: unknown };
+  DistanceDisplayCondition: new (near: number, far: number) => unknown;
   Math: { toDegrees: (radians: number) => number; toRadians: (degrees: number) => number };
   JulianDate: { fromDate: (date: Date) => unknown };
   ScreenSpaceEventHandler: new (canvas: HTMLCanvasElement) => { setInputAction: (action: (event: { position: unknown }) => void, type: unknown) => void; destroy: () => void };
@@ -160,8 +181,9 @@ const CAMERA_LIMITS = {
   minHeight: 58,
   maxHeight: 3200,
   shallowestPitch: -8,
-  steepestPitch: -70,
 };
+// typical campus ground (ellipsoid height, m), used when the cursor is over the void outside the campus
+const CAMPUS_GROUND_HEIGHT = 168;
 const ENERGY_GRAPH = {
   hub: [-72.2873, 43.7006],
   westHub: [-72.2902, 43.7027],
@@ -193,6 +215,26 @@ const FUTURE_WORK = [
 ];
 const CAMPUS_MODEL_MANIFEST = "/models/dartmouth-campus/model-manifest.json";
 const CAMPUS_ROADS = "/models/dartmouth-campus/campus-roads.json";
+const CAMPUS_FIELDS = "/models/dartmouth-campus/campus-fields.json";
+// Mowing stripes (light, dark) and the stripe width they aim for. Lawns and turf pitches get
+// stripes aligned to each area's long axis; other surfaces are flat fills.
+const MOWING = {
+  lawn: { even: "#86B85F", odd: "#78A853", stripeMeters: 8 },
+  pitch: { even: "#55A84A", odd: "#46923D", stripeMeters: 5.5 },
+};
+// stylized ground fills; "base" areas (lawns, parks) draw first so sports surfaces on them stay visible
+const FIELD_STYLES: Record<string, { color: [number, number, number]; layer: "base" | "sport" }> = {
+  lawn: { color: [0.5, 0.7, 0.35], layer: "base" },
+  park: { color: [0.44, 0.65, 0.31], layer: "base" },
+  pitch: { color: [0.31, 0.62, 0.27], layer: "sport" },
+  diamond: { color: [0.36, 0.63, 0.29], layer: "sport" },
+  court: { color: [0.24, 0.55, 0.49], layer: "sport" },
+  hardcourt: { color: [0.61, 0.56, 0.52], layer: "sport" },
+  track: { color: [0.73, 0.33, 0.25], layer: "sport" },
+  playground: { color: [0.79, 0.66, 0.42], layer: "sport" },
+};
+// Generated placeholder buildings only show their pin once the camera is this close (meters), like map icons in a game.
+const PLACEHOLDER_PIN_MAX_DISTANCE = 1400;
 // width in meters and fill color per OSM highway class; anything unlisted is drawn as a service road
 const ROAD_STYLES: Record<string, { width: number; color: [number, number, number]; path?: boolean }> = {
   primary: { width: 12, color: [0.18, 0.2, 0.22] },
@@ -216,6 +258,11 @@ export function CampusMap({ buildings, selected, onSelect, layers, evidenceTechn
   const campusPlacementRef = useRef<CampusPlacement | null>(null);
   const overlayRef = useRef<Promise<TwinOverlay | null> | null>(null);
   const roadsRef = useRef<RoadPrimitive[]>([]);
+  const fieldsRef = useRef<RoadPrimitive[]>([]);
+  const treesRef = useRef<TreeModel | null>(null);
+  // Terrain height under each marker, sampled once so pins don't re-clamp to the ground on every tile load.
+  const groundRef = useRef<Map<string, number>>(new Map());
+  const [groundVersion, setGroundVersion] = useState(0);
   const [modelReady, setModelReady] = useState(false);
   const [modelStatus, setModelStatus] = useState("Loading campus model…");
   const [modelVisible, setModelVisible] = useState(true);
@@ -224,14 +271,19 @@ export function CampusMap({ buildings, selected, onSelect, layers, evidenceTechn
   const flightRef = useRef(0);
   const onSelectRef = useRef(onSelect);
   const buildingsRef = useRef(buildings);
+  const selectedRef = useRef(selected);
+  const previousSelectionRef = useRef<Building | null>(null);
   const layersRef = useRef(layers);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
 
   useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
   useEffect(() => { buildingsRef.current = buildings; }, [buildings]);
+  useEffect(() => { selectedRef.current = selected; }, [selected]);
   useEffect(() => {
     layersRef.current = layers;
     roadsRef.current.forEach((primitive) => { primitive.show = layers.roads; });
+    fieldsRef.current.forEach((primitive) => { primitive.show = layers.fields; });
+    if (treesRef.current) treesRef.current.show = layers.trees;
     viewerRef.current?.scene.requestRender();
   }, [layers]);
 
@@ -263,26 +315,40 @@ export function CampusMap({ buildings, selected, onSelect, layers, evidenceTechn
         timeline: false,
         terrainProvider,
         requestRenderMode: true,
-        maximumRenderTimeChange: 0.5,
+        maximumRenderTimeChange: Infinity,
+        scene3DOnly: true,
         useBrowserRecommendedResolution: true,
       });
       viewerRef.current = viewer;
       viewer.resolutionScale = 0.88;
       viewer.scene.requestRenderMode = true;
-      viewer.scene.maximumRenderTimeChange = 0.5;
+      viewer.scene.maximumRenderTimeChange = Infinity;
+      viewer.clock.shouldAnimate = false;
       // Keep satellite imagery legible. The app's atmosphere layer handles
       // day/night; Cesium globe lighting can black out imagery at local night.
       viewer.scene.globe.enableLighting = false;
       viewer.scene.globe.depthTestAgainstTerrain = true;
       restrictGlobeToCampus(viewer, Cesium);
-      cameraLimitsCleanupRef.current = installCampusCameraLimits(viewer, Cesium);
+      cameraLimitsCleanupRef.current = installCampusControls(viewer as unknown as Parameters<typeof installCampusControls>[0], Cesium as unknown as CameraCesiumApi, {
+        bounds: CAMPUS_BOUNDS,
+        groundHeight: CAMPUS_GROUND_HEIGHT,
+        minZoom: CAMERA_LIMITS.minHeight,
+        maxZoom: CAMERA_LIMITS.maxHeight,
+        shallowestPitch: CAMERA_LIMITS.shallowestPitch,
+      });
 
-      addBuildingMarkers(viewer, Cesium, buildingsRef.current, undefined, layers, evidenceTechnology);
-      void loadCampusRoads(viewer, Cesium, () => cancelled).then((primitives) => {
-        roadsRef.current = primitives;
-        primitives.forEach((primitive) => { primitive.show = layersRef.current.roads; });
+      void loadCampusGround(viewer, Cesium, () => cancelled).then(({ fields, roads }) => {
+        fieldsRef.current = fields;
+        roadsRef.current = roads;
+        fields.forEach((primitive) => { primitive.show = layersRef.current.fields; });
+        roads.forEach((primitive) => { primitive.show = layersRef.current.roads; });
         viewer.scene.requestRender();
       });
+      void loadCampusTrees(viewer, Cesium as unknown as TreeCesiumApi, () => cancelled).then((trees) => {
+        treesRef.current = trees;
+        if (trees) trees.show = layersRef.current.trees;
+        viewer.scene.requestRender();
+      }).catch((error) => console.warn("Campus trees unavailable", error));
       flyHome(viewer, Cesium);
 
       const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -330,16 +396,66 @@ export function CampusMap({ buildings, selected, onSelect, layers, evidenceTechn
       campusPlacementRef.current = null;
       overlayRef.current = null;
       roadsRef.current = [];
+      fieldsRef.current = [];
+      treesRef.current = null;
+      previousSelectionRef.current = null;
     };
   }, []);
 
   useEffect(() => {
     const viewer = viewerRef.current;
     const Cesium = window.Cesium;
-    if (!viewer || !Cesium) return;
+    if (!viewer || !Cesium || status !== "ready") return;
+    viewer.entities.suspendEvents();
     viewer.entities.removeAll();
-    addBuildingMarkers(viewer, Cesium, buildings, selected?.id, layers, evidenceTechnology);
-  }, [buildings, layers, selected?.id, evidenceTechnology]);
+    addBuildingMarkers(viewer, Cesium, buildings, groundRef.current, selectedRef.current?.id, layers, evidenceTechnology);
+    viewer.entities.resumeEvents();
+    viewer.scene.requestRender();
+    // Roads use their own primitive visibility toggle; selection is updated below.
+  }, [buildings, layers.accessibility, layers.boundary, layers.carbon, layers.electric, layers.energyNetwork, layers.futureWork, layers.heating, layers.evidence, evidenceTechnology, groundVersion, status]);
+
+  useEffect(() => {
+    const viewer = viewerRef.current;
+    const Cesium = window.Cesium;
+    if (!viewer || !Cesium || status !== "ready") return;
+    viewer.entities.suspendEvents();
+    for (const building of [previousSelectionRef.current, selected]) {
+      if (!building) continue;
+      const isSelected = building.id === selected?.id;
+      for (const entrance of building.entrances ?? [building.entrance]) {
+        const entity = viewer.entities.getById(`building:${building.id}:${entrance.id}`);
+        if (!entity) continue;
+        const appearance = buildingMarkerAppearance(Cesium, building, entrance, groundRef.current, isSelected);
+        entity.billboard = appearance.billboard;
+        entity.label = appearance.label;
+      }
+      const evidenceEntity = viewer.entities.getById(`evidence:${building.id}`);
+      if (evidenceEntity?.billboard && building.evidence) {
+        const lead = evidenceTechnology === "all" ? primaryTechnology(building.evidence) : evidenceTechnology;
+        evidenceEntity.billboard.image = createEvidenceIcon(lead ? technologyColors[lead] : "#f2a33a", isSelected);
+      }
+    }
+    previousSelectionRef.current = selected;
+    viewer.entities.resumeEvents();
+    viewer.scene.requestRender();
+  }, [selected?.id, status]);
+
+  useEffect(() => {
+    const viewer = viewerRef.current;
+    const Cesium = window.Cesium;
+    if (!viewer || !Cesium || status !== "ready") return;
+    const missing = [...new Set(buildings.flatMap((building) => (building.entrances ?? [building.entrance]).map((entrance) => groundKey(entrance.coordinates))))]
+      .filter((key) => !groundRef.current.has(key));
+    if (!missing.length) return;
+    let cancelled = false;
+    const positions = missing.map((key) => { const [longitude, latitude] = key.split(",").map(Number); return Cesium.Cartographic.fromDegrees(longitude, latitude); });
+    Cesium.sampleTerrainMostDetailed(viewer.terrainProvider, positions).then((sampled) => {
+      if (cancelled) return;
+      sampled.forEach((position, index) => { if (Number.isFinite(position.height)) groundRef.current.set(missing[index], position.height); });
+      setGroundVersion((version) => version + 1);
+    }).catch((error) => console.warn("Marker ground heights unavailable; pins stay clamped to terrain", error));
+    return () => { cancelled = true; };
+  }, [buildings, status]);
 
   // Tint the campus model's buildings that have public-record evidence for the chosen technology.
   useEffect(() => {
@@ -360,7 +476,7 @@ export function CampusMap({ buildings, selected, onSelect, layers, evidenceTechn
       }
       for (const root of roots) if (!overlay.highlighted.has(root)) {
         const node = main.getNode(root);
-        if (!node) { roots.delete(root); continue; }
+        if (!node || !overlay.model.getNode(root)) { roots.delete(root); continue; }
         node.show = false;
         overlay.model.getNode(root)!.show = true;
       }
@@ -388,6 +504,7 @@ export function CampusMap({ buildings, selected, onSelect, layers, evidenceTechn
     const date = new Date();
     date.setHours(time, 0, 0, 0);
     viewer.clock.currentTime = Cesium.JulianDate.fromDate(date);
+    viewer.scene.requestRender();
   }, [time]);
 
   const zoom = (direction: "in" | "out") => {
@@ -449,48 +566,6 @@ function flyGroundView(viewer: CesiumViewer, Cesium: CesiumApi) {
   });
 }
 
-function installCampusCameraLimits(viewer: CesiumViewer, Cesium: CesiumApi) {
-  viewer.scene.screenSpaceCameraController.minimumZoomDistance = CAMERA_LIMITS.minHeight;
-  viewer.scene.screenSpaceCameraController.maximumZoomDistance = CAMERA_LIMITS.maxHeight;
-  viewer.camera.percentageChanged = 0.01;
-  (viewer.scene as unknown as { cameraEventWaitTime?: number }).cameraEventWaitTime = 75;
-
-  let clamping = false;
-  const clampCamera = () => {
-    if (clamping) return;
-    const position = viewer.camera.positionCartographic;
-    const longitude = Cesium.Math.toDegrees(position.longitude);
-    const latitude = Cesium.Math.toDegrees(position.latitude);
-    const height = position.height;
-    const pitch = Cesium.Math.toDegrees(viewer.camera.pitch);
-    const clampedLongitude = clamp(longitude, CAMPUS_BOUNDS.west, CAMPUS_BOUNDS.east);
-    const clampedLatitude = clamp(latitude, CAMPUS_BOUNDS.south, CAMPUS_BOUNDS.north);
-    const clampedHeight = clamp(height, CAMERA_LIMITS.minHeight, CAMERA_LIMITS.maxHeight);
-    const clampedPitch = clamp(pitch, CAMERA_LIMITS.steepestPitch, CAMERA_LIMITS.shallowestPitch);
-
-    if (
-      clampedLongitude === longitude &&
-      clampedLatitude === latitude &&
-      clampedHeight === height &&
-      clampedPitch === pitch
-    ) return;
-
-    clamping = true;
-    viewer.camera.setView({
-      destination: Cesium.Cartesian3.fromDegrees(clampedLongitude, clampedLatitude, clampedHeight),
-      orientation: {
-        heading: viewer.camera.heading,
-        pitch: Cesium.Math.toRadians(clampedPitch),
-        roll: 0,
-      },
-    });
-    window.setTimeout(() => { clamping = false; }, 0);
-  };
-
-  viewer.camera.moveEnd?.addEventListener(clampCamera);
-  return () => viewer.camera.moveEnd?.removeEventListener(clampCamera);
-}
-
 function restrictGlobeToCampus(viewer: CesiumViewer, Cesium: CesiumApi) {
   viewer.scene.globe.cartographicLimitRectangle = Cesium.Rectangle.fromDegrees(
     CAMPUS_BOUNDS.west,
@@ -527,44 +602,97 @@ function insideCampus(longitude: number, latitude: number) {
   return longitude >= CAMPUS_BOUNDS.west && longitude <= CAMPUS_BOUNDS.east && latitude >= CAMPUS_BOUNDS.south && latitude <= CAMPUS_BOUNDS.north;
 }
 
-// Roads are draped on the terrain (the GLB's road objects are edge-only centerlines with no
-// faces). Two batched primitives: paths first so vehicle roads draw over crossings.
-async function loadCampusRoads(viewer: CesiumViewer, Cesium: CesiumApi, isCancelled: () => boolean): Promise<RoadPrimitive[]> {
-  try {
-    const response = await fetch(CAMPUS_ROADS);
-    if (!response.ok || isCancelled()) return [];
-    const { roads } = await response.json() as { roads: CampusRoad[] };
-    const batches: Record<"paths" | "roads", unknown[]> = { paths: [], roads: [] };
-    for (const road of roads) {
-      const coordinates = road.coordinates.filter((point, index, all) => index === 0 || point[0] !== all[index - 1][0] || point[1] !== all[index - 1][1]);
-      if (coordinates.length < 2) continue;
-      const style = ROAD_STYLES[road.highway] ?? ROAD_STYLES.service;
-      batches[style.path ? "paths" : "roads"].push(new Cesium.GeometryInstance({
-        id: `${road.osmId}#${road.part}`,
-        geometry: new Cesium.CorridorGeometry({
-          positions: Cesium.Cartesian3.fromDegreesArray(coordinates.flat()),
-          width: style.width,
-          cornerType: Cesium.CornerType.ROUNDED,
-        }),
-        attributes: { color: Cesium.ColorGeometryInstanceAttribute.fromColor(new Cesium.Color(...style.color, 1)) },
-      }));
+// Fields and roads are draped on the terrain (the GLB's road objects are edge-only centerlines
+// with no faces). Ground primitives draw in the order they are added: lawns/parks, sports
+// surfaces, paths, then vehicle roads, so crossings and courts on lawns read correctly.
+async function loadCampusGround(viewer: CesiumViewer, Cesium: CesiumApi, isCancelled: () => boolean): Promise<{ fields: RoadPrimitive[]; roads: RoadPrimitive[] }> {
+  const load = async <T,>(url: string, key: string): Promise<T[]> => {
+    try {
+      const response = await fetch(url);
+      return response.ok ? ((await response.json()) as Record<string, T[]>)[key] ?? [] : [];
+    } catch (error) {
+      console.warn(`Campus ${key} unavailable`, error);
+      return [];
     }
-    if (isCancelled()) return [];
-    return (["paths", "roads"] as const).filter((key) => batches[key].length).map((key) => viewer.scene.primitives.add(new Cesium.GroundPrimitive({
-      geometryInstances: batches[key],
-      appearance: new Cesium.PerInstanceColorAppearance({ flat: true, translucent: false }),
-      classificationType: Cesium.ClassificationType.TERRAIN,
-      allowPicking: false,
-      asynchronous: true,
-    })) as RoadPrimitive);
-  } catch (error) {
-    console.warn("Campus roads unavailable", error);
-    return [];
-  }
-}
+  };
+  const [fields, roads] = await Promise.all([load<CampusField>(CAMPUS_FIELDS, "fields"), load<CampusRoad>(CAMPUS_ROADS, "roads")]);
+  if (isCancelled()) return { fields: [], roads: [] };
+  const color = (rgb: [number, number, number]) => ({ color: Cesium.ColorGeometryInstanceAttribute.fromColor(new Cesium.Color(...rgb, 1)) });
+  const ring = (points: [number, number][]) => Cesium.Cartesian3.fromDegreesArray(points.flat());
 
-function clamp(value: number, min: number, max: number) {
-  return Math.min(Math.max(value, min), max);
+  // Striped areas share one material per stripe count, so stripe counts are bucketed (powers of two)
+  // to keep stripes near their target width without a primitive per field.
+  const striped = new Map<string, { mowing: typeof MOWING.lawn; repeat: number; instances: unknown[] }>();
+  const sportFills: unknown[] = [];
+  const markings: unknown[] = [];
+  for (const field of fields) {
+    const style = FIELD_STYLES[field.kind];
+    if (!style || field.outer.length < 3) continue;
+    const mowingKind = field.kind === "pitch" ? "pitch" : style.layer === "base" ? "lawn" : null;
+    const geometry = new Cesium.PolygonGeometry({
+      polygonHierarchy: new Cesium.PolygonHierarchy(ring(field.outer), field.holes.map((hole) => new Cesium.PolygonHierarchy(ring(hole)))),
+      ...(mowingKind ? { stRotation: field.axisRadians } : {}),
+    });
+    if (mowingKind) {
+      const mowing = MOWING[mowingKind];
+      const ideal = Math.max(1, field.lengthMeters / (2 * mowing.stripeMeters));
+      const repeat = 2 ** Math.round(Math.log2(ideal));
+      const key = `${mowingKind}:${repeat}`;
+      if (!striped.has(key)) striped.set(key, { mowing, repeat, instances: [] });
+      striped.get(key)!.instances.push(new Cesium.GeometryInstance({ id: field.osmId, geometry }));
+    } else {
+      sportFills.push(new Cesium.GeometryInstance({ id: field.osmId, geometry, attributes: color(style.color) }));
+    }
+    field.markings.forEach((line, index) => {
+      if (line.length < 2) return;
+      markings.push(new Cesium.GeometryInstance({
+        id: `${field.osmId}#line${index}`,
+        geometry: new Cesium.CorridorGeometry({ positions: ring(line), width: 0.5, cornerType: Cesium.CornerType.MITERED }),
+        attributes: color([0.97, 0.97, 0.93]),
+      }));
+    });
+  }
+
+  const roadBatches: Record<"paths" | "roads", unknown[]> = { paths: [], roads: [] };
+  for (const road of roads) {
+    const coordinates = road.coordinates.filter((point, index, all) => index === 0 || point[0] !== all[index - 1][0] || point[1] !== all[index - 1][1]);
+    if (coordinates.length < 2) continue;
+    const style = ROAD_STYLES[road.highway] ?? ROAD_STYLES.service;
+    roadBatches[style.path ? "paths" : "roads"].push(new Cesium.GeometryInstance({
+      id: `${road.osmId}#${road.part}`,
+      geometry: new Cesium.CorridorGeometry({ positions: ring(coordinates), width: style.width, cornerType: Cesium.CornerType.ROUNDED }),
+      attributes: color(style.color),
+    }));
+  }
+
+  const add = (instances: unknown[], appearance?: unknown) => viewer.scene.primitives.add(new Cesium.GroundPrimitive({
+    geometryInstances: instances,
+    appearance: appearance ?? new Cesium.PerInstanceColorAppearance({ flat: true, translucent: false }),
+    classificationType: Cesium.ClassificationType.TERRAIN,
+    allowPicking: false,
+    asynchronous: true,
+  })) as RoadPrimitive;
+  const stripes = ({ mowing, repeat }: { mowing: typeof MOWING.lawn; repeat: number }) => new Cesium.MaterialAppearance({
+    flat: true,
+    translucent: false,
+    // vertical stripes alternate along s, which stRotation turns onto the field's long axis
+    material: Cesium.Material.fromType("Stripe", {
+      evenColor: Cesium.Color.fromCssColorString(mowing.even),
+      oddColor: Cesium.Color.fromCssColorString(mowing.odd),
+      repeat,
+      horizontal: false,
+    }),
+  });
+  const stripeGroups = [...striped.values()].sort((a, b) => (a.mowing === b.mowing ? 0 : a.mowing === MOWING.lawn ? -1 : 1));
+  return {
+    // lawns, then pitches, then other sports surfaces, then the white lines on top
+    fields: [
+      ...stripeGroups.map((group) => add(group.instances, stripes(group))),
+      ...(sportFills.length ? [add(sportFills)] : []),
+      ...(markings.length ? [add(markings)] : []),
+    ],
+    roads: [roadBatches.paths, roadBatches.roads].filter((batch) => batch.length).map((batch) => add(batch)),
+  };
 }
 
 async function flyToEntrance(
@@ -634,7 +762,7 @@ async function prepareCampusModelSlot(viewer: CesiumViewer, Cesium: CesiumApi, i
     minimumPixelSize: 0,
   });
   if (isCancelled()) { model.destroy(); return; }
-  const placement: CampusPlacement = { modelMatrix, placements, url: manifest.campusModel };
+  const placement: CampusPlacement = { modelMatrix, placements, evidenceUrl: manifest.evidenceModel };
   return await new Promise<{ model: CampusModel; placement: CampusPlacement }>((resolve, reject) => {
     const ground = () => {
       if (isCancelled()) { resolve({ model, placement }); return; }
@@ -668,10 +796,11 @@ function evidenceTwinRoots(buildings: Building[], technology: EnergyTechnology |
     .flatMap((building) => building.evidence!.twinObjects.map((name) => `part::${name}`));
 }
 
-// A second, tinted copy of the campus GLB that only shows highlighted buildings; the same
-// buildings are hidden in the main model, so the two never overlap or z-fight.
+// This compact GLB contains only the buildings in the evidence index, preserving
+// their terrain and height transforms. No full-campus duplicate is instantiated.
 async function createTwinOverlay(viewer: CesiumViewer, Cesium: CesiumApi, placement: CampusPlacement): Promise<TwinOverlay | null> {
-  const response = await fetch(placement.url);
+  if (!placement.evidenceUrl) return null;
+  const response = await fetch(placement.evidenceUrl);
   if (!response.ok) return null;
   const bytes = new Uint8Array(await response.arrayBuffer());
   const roots = glbSceneRoots(bytes);
@@ -687,7 +816,8 @@ async function createTwinOverlay(viewer: CesiumViewer, Cesium: CesiumApi, placem
   });
   viewer.scene.primitives.add(model);
   if (!model.ready) await new Promise<void>((resolve) => { const remove = model.readyEvent.addEventListener(() => { remove(); resolve(); }); });
-  applyCampusGround(model, placement.placements);
+  const rootSet = new Set(roots);
+  applyCampusGround(model, placement.placements.filter((position) => rootSet.has(position.node)));
   for (const root of roots) { const node = model.getNode(root); if (node) node.show = false; }
   return { model, roots, highlighted: new Set() };
 }
@@ -700,7 +830,7 @@ function glbSceneRoots(bytes: Uint8Array) {
   return gltf.scenes[gltf.scene ?? 0].nodes.map((index) => gltf.nodes[index].name).filter((name): name is string => Boolean(name));
 }
 
-function addEvidenceMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], technology: EnergyTechnology | "all", selectedId?: string) {
+function addEvidenceMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], ground: Map<string, number>, technology: EnergyTechnology | "all", selectedId?: string) {
   buildings.forEach((building) => {
     const evidence = building.evidence;
     if (!evidence) return;
@@ -708,17 +838,19 @@ function addEvidenceMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: 
     if (!matches) return;
     const lead = technology === "all" ? primaryTechnology(evidence) : technology;
     const size = Math.round(Math.max(24, Math.min(38, 18 + Math.sqrt(evidence.candidateCount) * 3)));
+    const small = isPlaceholder(building);
     const entity = viewer.entities.add({
-      position: Cesium.Cartesian3.fromDegrees(building.entrance.coordinates[0], building.entrance.coordinates[1], 8),
+      id: `evidence:${building.id}`,
+      ...markerPosition(Cesium, ground, building.entrance.coordinates),
       billboard: {
         image: createEvidenceIcon(lead ? technologyColors[lead] : "#f2a33a", building.id === selectedId),
         width: size,
         height: size,
         verticalOrigin: Cesium.VerticalOrigin.CENTER,
         horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
-        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
+        heightReference: groundReference(Cesium, ground, building.entrance.coordinates),
         // sit at the top-right of the door pin so both stay clickable
-        pixelOffset: { x: 17, y: -42 },
+        pixelOffset: small ? { x: 11, y: -24 } : { x: 17, y: -42 },
         disableDepthTestDistance: 900,
       },
     });
@@ -747,7 +879,7 @@ async function loadAerialImagery(
   }
 }
 
-function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], selectedId?: string, layers?: Props["layers"], evidenceTechnology: EnergyTechnology | "all" = "all") {
+function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: Building[], ground: Map<string, number>, selectedId?: string, layers?: Props["layers"], evidenceTechnology: EnergyTechnology | "all" = "all") {
   if (layers?.boundary ?? true) addCampusMask(viewer, Cesium);
   if (layers?.energyNetwork ?? true) {
     if (layers?.heating ?? true) addHeatingGraph(viewer, Cesium);
@@ -756,41 +888,70 @@ function addBuildingMarkers(viewer: CesiumViewer, Cesium: CesiumApi, buildings: 
   if (layers?.carbon ?? false) addCarbonLayer(viewer, Cesium, buildings);
   if (layers?.futureWork ?? false) addFutureWorkLayer(viewer, Cesium);
   buildings.forEach((building) => {
+    const isSelected = building.id === selectedId;
+    // generated placeholders get a small pin that only appears up close; curated buildings keep the full pin
     const entrances = building.entrances ?? [building.entrance];
     entrances.forEach((entrance) => {
       if (entrance.kind === "accessible" && layers?.accessibility === false) return;
-      const isPrimary = entrance.kind === "main";
-      const isSelected = building.id === selectedId;
       const entity = viewer.entities.add({
-      position: Cesium.Cartesian3.fromDegrees(entrance.coordinates[0], entrance.coordinates[1], 8),
-      billboard: {
-        image: createDoorIcon(entrance.kind),
-        width: isPrimary ? (isSelected ? 42 : 34) : (isSelected ? 31 : 24),
-        height: isPrimary ? (isSelected ? 50 : 41) : (isSelected ? 37 : 29),
-        verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-        horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
-        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-        disableDepthTestDistance: 900,
-      },
-      label: {
-        show: isSelected,
-        text: isPrimary ? building.name : entrance.label,
-        font: isPrimary ? "600 13px Manrope, sans-serif" : "600 10px Manrope, sans-serif",
-        heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-        fillColor: Cesium.Color.WHITE,
-        outlineColor: Cesium.Color.BLACK,
-        outlineWidth: 4,
-        pixelOffset: { x: 0, y: -62 },
-        showBackground: true,
-        backgroundColor: { red: 0.05, green: 0.14, blue: 0.09, alpha: 0.82 },
-        backgroundPadding: { x: 9, y: 6 },
-        disableDepthTestDistance: 900,
-      },
-    });
-    entity.energyTwinId = building.id;
+        id: `building:${building.id}:${entrance.id}`,
+        ...markerPosition(Cesium, ground, entrance.coordinates),
+        ...buildingMarkerAppearance(Cesium, building, entrance, ground, isSelected),
+      });
+      entity.energyTwinId = building.id;
     });
   });
-  if (layers?.evidence ?? true) addEvidenceMarkers(viewer, Cesium, buildings, evidenceTechnology, selectedId);
+  if (layers?.evidence ?? true) addEvidenceMarkers(viewer, Cesium, buildings, ground, evidenceTechnology, selectedId);
+}
+
+function buildingMarkerAppearance(Cesium: CesiumApi, building: Building, entrance: Entrance, ground: Map<string, number>, isSelected: boolean) {
+  const small = isPlaceholder(building) && !isSelected;
+  const isPrimary = entrance.kind === "main";
+  const [width, height] = small ? [18, 22] : isPrimary ? (isSelected ? [42, 50] : [34, 41]) : (isSelected ? [31, 37] : [24, 29]);
+  return {
+        billboard: {
+          image: doorIcon(entrance.kind),
+          width,
+          height,
+          verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+          horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
+          heightReference: groundReference(Cesium, ground, entrance.coordinates),
+          disableDepthTestDistance: 900,
+          distanceDisplayCondition: small ? new Cesium.DistanceDisplayCondition(0, PLACEHOLDER_PIN_MAX_DISTANCE) : undefined,
+        },
+        // only the selected building carries labels; hidden labels still cost layout and texture space
+        label: isSelected ? {
+          text: isPrimary ? building.name : entrance.label,
+          font: isPrimary ? "600 13px Manrope, sans-serif" : "600 10px Manrope, sans-serif",
+          heightReference: groundReference(Cesium, ground, entrance.coordinates),
+          fillColor: Cesium.Color.WHITE,
+          outlineColor: Cesium.Color.BLACK,
+          outlineWidth: 4,
+          pixelOffset: { x: 0, y: -62 },
+          showBackground: true,
+          backgroundColor: { red: 0.05, green: 0.14, blue: 0.09, alpha: 0.82 },
+          backgroundPadding: { x: 9, y: 6 },
+          disableDepthTestDistance: 900,
+        } : undefined,
+  };
+}
+
+function isPlaceholder(building: Building) {
+  return building.imageClass === "placeholder";
+}
+
+function groundKey([longitude, latitude]: [number, number]) {
+  return `${longitude.toFixed(6)},${latitude.toFixed(6)}`;
+}
+
+// Fixed absolute height when the terrain has been sampled; otherwise fall back to per-frame clamping.
+function markerPosition(Cesium: CesiumApi, ground: Map<string, number>, coordinates: [number, number]) {
+  const height = ground.get(groundKey(coordinates));
+  return { position: Cesium.Cartesian3.fromDegrees(coordinates[0], coordinates[1], height === undefined ? 8 : height + 1) };
+}
+
+function groundReference(Cesium: CesiumApi, ground: Map<string, number>, coordinates: [number, number]) {
+  return ground.has(groundKey(coordinates)) ? Cesium.HeightReference.NONE : Cesium.HeightReference.CLAMP_TO_GROUND;
 }
 
 function addHeatingGraph(viewer: CesiumViewer, Cesium: CesiumApi) {
@@ -930,6 +1091,12 @@ function addCampusMask(viewer: CesiumViewer, Cesium: CesiumApi) {
       clampToGround: true,
     },
   });
+}
+
+const doorIcons = new Map<string, string>();
+function doorIcon(kind: "main" | "accessible" | "exit") {
+  if (!doorIcons.has(kind)) doorIcons.set(kind, createDoorIcon(kind));
+  return doorIcons.get(kind)!;
 }
 
 function createDoorIcon(kind: "main" | "accessible" | "exit") {

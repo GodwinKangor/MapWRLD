@@ -42,6 +42,8 @@ export type Building = {
     nextStep: string;
   };
   evidence?: EnergyEvidence;
+  // OSM ways (= campus-model buildings) this entry covers; used to pick buildings in 3D
+  osmIds?: string[];
 };
 
 export const categories = ["All places", "Study", "Arts", "Dining", "Campus life", "History", "Residential", "Campus building"];
