@@ -14,3 +14,6 @@ dartmouth_energy_scrape.zip
 *.bad-edits-*.blend
 *.before-download-blend-*.blend
 public/models/dartmouth-energy-twin/renders/parts-manifest.partial.json
+.vercel
+.env*
+!.env.example
