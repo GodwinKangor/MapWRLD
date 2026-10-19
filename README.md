@@ -140,7 +140,7 @@ The guide sheets are written to `public/reference-atlas/guides/` and ignored by 
 If an OSM building name is wrong or incomplete, add the correction in:
 
 ```text
-scripts/campus-building-names.mjs
+scripts/reference-tools/campus-building-names.mjs
 ```
 
 The open-source, Wikimedia, and Street View facade generators all use this shared naming helper before writing atlas manifests.

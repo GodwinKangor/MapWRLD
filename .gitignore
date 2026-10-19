@@ -5,7 +5,11 @@ node_modules
 npm-debug.log*
 public/reference-atlas/images/
 public/reference-atlas/guides/
-scripts/__pycache__/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+*.log
+dartmouth_energy_scrape.zip
 *.blend1
 *.bad-edits-*.blend
 *.before-download-blend-*.blend
