@@ -57,6 +57,25 @@ def args_after_double_dash():
     return sys.argv[sys.argv.index("--") + 1 :]
 
 
+def apply_wall_height(parent, rules):
+    """Scale the reset shell to the measured wall height before openings and roofs are
+    generated, so storeys and windows come out at real scale. The campus combiner only
+    rescales plain 20 m fallback extrusions, never detailed buildings, so this is the
+    only place a detailed building gets its measured height."""
+    target = rules.get("wallHeightMeters")
+    if not target:
+        return
+    zs = [vertex.co.z for vertex in parent.data.vertices]
+    base, top = min(zs), max(zs)
+    if top - base < 0.5:
+        return
+    scale = float(target) / (top - base)
+    for vertex in parent.data.vertices:
+        vertex.co.z = base + (vertex.co.z - base) * scale
+    parent.data.update()
+    parent["mwrld_wall_height_m"] = float(target)
+
+
 def build_one(parent, require_rules):
     rules_path = rules_path_for(MODEL_DIR, parent)
     rules = load_rules(rules_path)
@@ -71,6 +90,7 @@ def build_one(parent, require_rules):
     mats = ensure_materials(slug, rules)
     remove_old_details(parent, detail_prefix)
     reset_parent_to_source_mesh(parent, rules)
+    apply_wall_height(parent, rules)
 
     wall_id_fn = WALL_NAMING_STRATEGIES.get(rules.get("wallNaming"))
     min_v, max_v, wall_edges = rebuild_shell(parent, mats, rules, elevation_panels, detail_prefix, wall_id_fn)

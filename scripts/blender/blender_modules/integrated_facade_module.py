@@ -17,6 +17,7 @@ have curated reference data.
 import json
 from pathlib import Path
 
+import bmesh
 import bpy
 from mathutils import Vector
 
@@ -586,26 +587,152 @@ def gable_mesh(x0, x1, y0, y1, z, rise):
     return verts, faces
 
 
+def footprint_rectangle(parent, min_z):
+    """Minimum-area rectangle around the footprint (rotating calipers over the base
+    hull), so pitched roofs follow buildings that are not aligned to the scene axes.
+    Returns center, long-axis unit vector, half length, half width, and how much of
+    the rectangle the footprint fills (1.0 = a true rectangle)."""
+    points = sorted({(round(v.co.x, 4), round(v.co.y, 4)) for v in parent.data.vertices if abs(v.co.z - min_z) < 0.05})
+    if len(points) < 3:
+        return None
+
+    def cross(o, a, b):
+        return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0])
+
+    def half(seq):
+        out = []
+        for p in seq:
+            while len(out) >= 2 and cross(out[-2], out[-1], p) <= 0:
+                out.pop()
+            out.append(p)
+        return out[:-1]
+
+    hull = half(points) + half(points[::-1])
+    hull_area = abs(sum(hull[i][0] * hull[i - 1][1] - hull[i - 1][0] * hull[i][1] for i in range(len(hull)))) / 2
+    best = None
+    for i in range(len(hull)):
+        (x1, y1), (x2, y2) = hull[i - 1], hull[i]
+        length = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
+        if length < 1e-6:
+            continue
+        ux, uy = (x2 - x1) / length, (y2 - y1) / length
+        us = [x * ux + y * uy for x, y in hull]
+        vs = [-x * uy + y * ux for x, y in hull]
+        area = (max(us) - min(us)) * (max(vs) - min(vs))
+        if best is None or area < best[0]:
+            best = (area, ux, uy, min(us), max(us), min(vs), max(vs))
+    area, ux, uy, u0, u1, v0, v1 = best
+    if (u1 - u0) < (v1 - v0):  # make u the long axis
+        ux, uy, u0, u1, v0, v1 = -uy, ux, v0, v1, -u1, -u0
+    cu, cv = (u0 + u1) / 2, (v0 + v1) / 2
+    center = Vector((cu * ux - cv * uy, cu * uy + cv * ux, 0.0))
+    # polygon area of the actual footprint (not the hull) for the fill ratio
+    footprint_area = sum(poly.area for poly in parent.data.polygons if abs(poly.normal.z) > 0.9 and abs(poly.center.z - min_z) < 0.05)
+    fill = min(footprint_area or hull_area, area) / area if area else 0
+    return center, Vector((ux, uy, 0.0)), (u1 - u0) / 2, (v1 - v0) / 2, fill
+
+
 def build_pitched_roof(parent, collection, mats, min_v, max_v, rules, detail_prefix):
-    """Generic gable/hip primitive for buildings without a landmark feature
-    pack. Flat roofs are handled inside rebuild_shell via the source
-    footprint cap, so there is nothing to add here for those."""
+    """Generic gable/hip primitive for buildings without a landmark feature pack,
+    fitted to the footprint's oriented rectangle. Flat roofs are handled inside
+    rebuild_shell via the source footprint cap, so there is nothing to add for those.
+
+    modeling-rules.json roof options: type ("gable" | "hip" | "footprint-hip"), riseMeters or heightRatio,
+    overhangMeters (eaves, default 0.35), ridgeAxis ("long" | "short", default "long"),
+    hipInsetRatio (hip end inset as a share of the length, default 0.5 x width)."""
     roof_rules = rules.get("roof", {})
     roof_type = roof_rules.get("type", "flat")
+    if roof_type == "footprint-hip":
+        return build_footprint_hip_roof(parent, collection, mats, min_v, max_v, roof_rules, detail_prefix)
     if roof_type not in {"gable", "hip"}:
         return None
+    rect = footprint_rectangle(parent, min_v.z)
+    if rect is None:
+        return None
+    center, axis, half_length, half_width, fill = rect
+    parent["mwrld_roof_footprint_fill"] = round(fill, 3)
+    if fill < 0.8:
+        print(f"warning: {parent.name} footprint fills {fill:.0%} of its roof rectangle; the {roof_type} roof will overhang notches")
+    if roof_rules.get("ridgeAxis") == "short":
+        axis = Vector((-axis.y, axis.x, 0.0))
+        half_length, half_width = half_width, half_length
+    eave = float(roof_rules.get("overhangMeters", 0.35))
+    hl, hw = half_length + eave, half_width + eave
     if "riseMeters" in roof_rules:
         rise = float(roof_rules["riseMeters"])
     else:
         rise = max((max_v.z - min_v.z) * float(roof_rules.get("heightRatio", 0.16)), 1.2)
-    x0, x1, y0, y1, z = min_v.x, max_v.x, min_v.y, max_v.y, max_v.z
-    source = roof_rules.get("referenceSource", "")
+    z = max_v.z
+    across = Vector((-axis.y, axis.x, 0.0))
+
+    def at(u, v, height):
+        p = center + axis * u + across * v
+        return (p.x, p.y, height)
+
     if roof_type == "hip":
-        hip_inset = min((y1 - y0) * 0.16, 8.0)
-        verts, faces = roof_rect_mesh(x0, x1, y0, y1, z, z + rise, hip_inset)
+        inset = min(hl * 0.95, float(roof_rules.get("hipInsetRatio", 0)) * hl * 2 or hw)
+        verts = [at(-hl, -hw, z), at(hl, -hw, z), at(hl, hw, z), at(-hl, hw, z), at(-hl + inset, 0, z + rise), at(hl - inset, 0, z + rise)]
+        faces = [(0, 1, 5, 4), (2, 3, 4, 5), (3, 0, 4), (1, 2, 5)]
     else:
-        verts, faces = gable_mesh(x0, x1, y0, y1, z, rise)
+        verts = [at(-hl, -hw, z), at(hl, -hw, z), at(hl, hw, z), at(-hl, hw, z), at(-hl, 0, z + rise), at(hl, 0, z + rise)]
+        faces = [(0, 1, 5, 4), (2, 3, 4, 5), (3, 0, 4), (1, 2, 5)]
+    source = roof_rules.get("referenceSource", "")
     return add_mesh_detail(f"{detail_prefix}roof", parent, collection, verts, faces, mats["roof"], "roof", source)
+
+
+def build_footprint_hip_roof(parent, collection, mats, min_v, max_v, roof_rules, detail_prefix):
+    """Hip-style roof that follows any footprint (cross plans, L shapes, apses): the
+    building's own top cap is inset and lifted, so every wall gets a sloped roof face
+    and a short flat crest remains along the middle. Options: riseMeters/heightRatio,
+    insetMeters (horizontal run of the slopes, default 40% of the narrowest half-width,
+    capped at 6 m), overhangMeters (eaves, default 0.35)."""
+    top_z = max_v.z
+    bm = bmesh.new()
+    source = bmesh.new()
+    source.from_mesh(parent.data)
+    caps = [face for face in source.faces if face.normal.z > 0.9 and abs(face.calc_center_median().z - top_z) < 0.05]
+    if not caps:
+        source.free()
+        bm.free()
+        return None
+    vert_map = {}
+    for face in caps:
+        new_verts = []
+        for vert in face.verts:
+            key = vert.index
+            if key not in vert_map:
+                vert_map[key] = bm.verts.new(vert.co)
+            new_verts.append(vert_map[key])
+        bm.faces.new(new_verts)
+    source.free()
+    bmesh.ops.remove_doubles(bm, verts=bm.verts, dist=0.01)
+    region = list(bm.faces)
+    eave = float(roof_rules.get("overhangMeters", 0.35))
+    if eave > 0:
+        # push the outline outward first so the slopes overhang the walls slightly
+        bmesh.ops.inset_region(bm, faces=region, thickness=-eave, depth=0, use_even_offset=True, use_outset=True, use_boundary=True)
+    rect = footprint_rectangle(parent, min_v.z)
+    narrow = rect[3] if rect else 4.0
+    inset = float(roof_rules.get("insetMeters", min(6.0, max(1.0, narrow * 0.8))))
+    if "riseMeters" in roof_rules:
+        rise = float(roof_rules["riseMeters"])
+    else:
+        rise = max((max_v.z - min_v.z) * float(roof_rules.get("heightRatio", 0.16)), 1.2)
+    # the cap is all mesh boundary, so boundary edges must be inset too
+    bmesh.ops.inset_region(bm, faces=region, thickness=inset, depth=rise, use_even_offset=True, use_boundary=True)
+    bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+    mesh = bpy.data.meshes.new(f"{detail_prefix}roof")
+    bm.to_mesh(mesh)
+    bm.free()
+    mesh.materials.append(mats["roof"])
+    obj = bpy.data.objects.new(f"{detail_prefix}roof", mesh)
+    collection.objects.link(obj)
+    obj.parent = parent
+    obj["mwrld_generated_detail"] = True
+    obj["mwrld_detail_for"] = parent.get("mwrld_osm_id", parent.name)
+    obj["mwrld_detail_kind"] = "roof"
+    obj["mwrld_reference_source"] = roof_rules.get("referenceSource", "")
+    return obj
 
 
 def validate_rules(parent, rules, rules_dir=None):
