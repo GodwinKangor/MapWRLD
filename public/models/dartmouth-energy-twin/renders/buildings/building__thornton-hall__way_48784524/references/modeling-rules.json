@@ -1,0 +1,206 @@
+{
+  "building": "building__thornton-hall__way_48784524",
+  "displayName": "Thornton Hall",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "west-01": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 14,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.6,
+        "quality": "partial",
+        "notes": "West front facing the Green, through trees: centered entrance with granite surround and steps, two shuttered windows each side; five bays on the upper floors (third storey hidden by foliage, assumed).",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:00.061Z"
+      },
+      "south-01": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 21,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.3,
+        "quality": "partial",
+        "notes": "South side hidden by a hedge in the photo; assumed to mirror the seven-bay north side.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:00.061Z"
+      },
+      "east-01": {
+        "reference": "references/walls/wall-03.jpg",
+        "windows": 6,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 2,
+        "windowRows": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.5,
+        "quality": "partial",
+        "notes": "East wall segment (southern half): shuttered windows stacked in two bays over a granite base; no door.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:00.061Z"
+      },
+      "east-02": {
+        "reference": "references/walls/wall-04.jpg",
+        "windows": 5,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 2,
+        "windowRows": [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "doorPositions": [
+          0.85
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.5,
+        "quality": "partial",
+        "notes": "East wall segment (northern half): close-up of a shuttered twelve-over-twelve window and a side entrance with sidelights, transom and steps at the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:00.061Z"
+      },
+      "north-01": {
+        "reference": "references/walls/wall-05.jpg",
+        "windows": 21,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.65,
+        "quality": "clear",
+        "notes": "North long side: seven shuttered bays on three storeys with small basement lights; the west end is behind a tree.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:00.061Z"
+      }
+    }
+  },
+  "roof": {
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "gable",
+    "heightRatio": 0.3,
+    "overhangMeters": 0.3,
+    "notes": "Dartmouth Row: pitched gable roof, ridge along the long axis."
+  },
+  "heightMeters": 11.48,
+  "wallHeightMeters": 9.98,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

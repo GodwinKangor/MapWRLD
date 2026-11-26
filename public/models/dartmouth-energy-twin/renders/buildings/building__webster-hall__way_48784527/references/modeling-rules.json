@@ -1,0 +1,93 @@
+{
+  "building": "building__webster-hall__way_48784527",
+  "displayName": "Webster Hall",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "south-03": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 3,
+        "doors": 2,
+        "floors": 2,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "doorPositions": [
+          0.4,
+          0.6
+        ],
+        "windowSillMeters": 5.2,
+        "windowHeightMeters": 1.4,
+        "doorWidthMeters": 1.8,
+        "doorHeightMeters": 3.6,
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "South front facing the Green. The wall-01 photo is an interior view, so this is read from the street views: a four-column temple portico over steps with two tall paneled double doors, small attic windows above the entablature.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:41.848Z"
+      },
+      "east-02": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 3,
+        "doors": 0,
+        "floors": 1,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [],
+        "windowSillMeters": 3.4,
+        "windowWidthMeters": 2.4,
+        "windowHeightMeters": 6.2,
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.6,
+        "quality": "clear",
+        "notes": "East side: three very tall round-arched windows over a granite basement with small basement windows (not modeled), a side pavilion with a single window at the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:41.848Z"
+      },
+      "west-03": {
+        "reference": "references/walls/wall-03.jpg",
+        "windows": 3,
+        "doors": 0,
+        "floors": 1,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [],
+        "windowSillMeters": 3.4,
+        "windowWidthMeters": 2.4,
+        "windowHeightMeters": 6.2,
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.4,
+        "quality": "partial",
+        "notes": "West side close-up: the bottom of a tall window with a carved stone sill on brackets above granite-framed basement windows; assumed to mirror the east side's three arched windows.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:41.848Z"
+      }
+    }
+  },
+  "heightMeters": 15.95,
+  "wallHeightMeters": 15.95,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

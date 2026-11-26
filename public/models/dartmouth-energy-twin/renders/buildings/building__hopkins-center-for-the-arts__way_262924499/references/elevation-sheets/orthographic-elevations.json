@@ -1,0 +1,568 @@
+{
+  "building": "building__hopkins-center-for-the-arts__way_262924499",
+  "displayName": "Hopkins Center for the Arts",
+  "generatedKind": "orthographic-elevation-reference",
+  "pixelsPerMeter": 34,
+  "perspectiveHandling": {
+    "photoInputs": "Street View and photo references may be oblique or perspective-distorted.",
+    "modelingSurface": "Use the normalized orthographic diagrams for wall/window/door placement.",
+    "rectificationPolicy": "Do not claim a photo is perpendicular unless control points or an approved elevation drawing exist.",
+    "pixelWarpPolicy": "Perspective warping requires facade control points in modeling-rules. Without control points, the sheet uses rule-derived orthographic geometry and symmetry inference.",
+    "requiredControlPoints": [
+      "top-left",
+      "top-right",
+      "bottom-right",
+      "bottom-left"
+    ]
+  },
+  "elevations": {
+    "front": {
+      "role": "front",
+      "label": "Front",
+      "panelIds": [
+        "north-18"
+      ],
+      "sourceImages": [
+        "references/walls/wall-03.jpg"
+      ],
+      "openingCounts": {
+        "windows": 5,
+        "doors": 3
+      },
+      "countProof": [
+        "north-18: windows 1 row x 5 = 5; north-18: doors 1 row x 3 = 3"
+      ]
+    },
+    "rear": {
+      "role": "rear",
+      "label": "Rear",
+      "panelIds": [
+        "west-02",
+        "south-02",
+        "south-05"
+      ],
+      "sourceImages": [
+        "references/walls/wall-08.jpg",
+        "references/walls/wall-09.jpg",
+        "references/walls/wall-10.jpg"
+      ],
+      "openingCounts": {
+        "windows": 8,
+        "doors": 1
+      },
+      "countProof": [
+        "west-02: windows 1 row x 8 = 8",
+        "south-05: doors 1 row x 1 = 1"
+      ]
+    },
+    "roof": {
+      "role": "roof",
+      "label": "Roof",
+      "panelIds": [
+        "roof"
+      ],
+      "sourceImages": [
+        "references/roof-satellite.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    }
+  },
+  "panels": [
+    {
+      "id": "north-18",
+      "title": "North 18",
+      "wallId": "wall-03",
+      "orientation": "north",
+      "sourceKind": "opening-plan",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-03.jpg",
+      "imagePath": "../walls/wall-03.jpg",
+      "widthMeters": 20.47,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "clear",
+      "primitiveStatus": "verified",
+      "windows": 5,
+      "doors": 3,
+      "countMethod": "visual-inspection",
+      "notes": "North front facing the Green: five tall round-arched glass bays under a projecting flat canopy, a fully glazed ground-floor storefront with glass doors across the plaza.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 5,
+        "doors": 3,
+        "proof": "north-18: windows 1 row x 5 = 5; north-18: doors 1 row x 3 = 3",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 1.912,
+          "zMeters": 4.6,
+          "widthMeters": 3.0,
+          "heightMeters": 6.2,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 5.323,
+          "zMeters": 4.6,
+          "widthMeters": 3.0,
+          "heightMeters": 6.2,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 8.735,
+          "zMeters": 4.6,
+          "widthMeters": 3.0,
+          "heightMeters": 6.2,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 12.147,
+          "zMeters": 4.6,
+          "widthMeters": 3.0,
+          "heightMeters": 6.2,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 15.558,
+          "zMeters": 4.6,
+          "widthMeters": 3.0,
+          "heightMeters": 6.2,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 5.041,
+          "zMeters": 0.0,
+          "widthMeters": 2.2,
+          "heightMeters": 3.0,
+          "centerFraction": 0.3,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "visually-read",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D02",
+          "kind": "door",
+          "xMeters": 9.135,
+          "zMeters": 0.0,
+          "widthMeters": 2.2,
+          "heightMeters": 3.0,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "visually-read",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D03",
+          "kind": "door",
+          "xMeters": 13.229,
+          "zMeters": 0.0,
+          "widthMeters": 2.2,
+          "heightMeters": 3.0,
+          "centerFraction": 0.7,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "visually-read",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 5,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 3,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "west-02",
+      "title": "West 02",
+      "wallId": "wall-08",
+      "orientation": "southwest",
+      "sourceKind": "opening-plan",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-08.jpg",
+      "imagePath": "../walls/wall-08.jpg",
+      "widthMeters": 31.24,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial",
+      "primitiveStatus": "verified",
+      "windows": 8,
+      "doors": 0,
+      "countMethod": "visual-inspection",
+      "notes": "Southwest courtyard cafe close-up: brick piers between tall green-framed glass panels; rhythm extended across the 31 m wall.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 8,
+        "doors": 0,
+        "proof": "west-02: windows 1 row x 8 = 8",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 2.171,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.1111,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 5.642,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.2222,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 9.113,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 12.584,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.4444,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 16.056,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.5556,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 19.527,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 22.998,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.7778,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 26.469,
+          "zMeters": 0.4,
+          "widthMeters": 2.6,
+          "heightMeters": 3.4,
+          "centerFraction": 0.8889,
+          "sourceImage": "references/walls/wall-08.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 8,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "south-02",
+      "title": "South 02",
+      "wallId": "wall-09",
+      "orientation": "south",
+      "sourceKind": "opening-plan",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-09.jpg",
+      "imagePath": "../walls/wall-09.jpg",
+      "widthMeters": 22.95,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "clear",
+      "primitiveStatus": "verified",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "visual-inspection",
+      "notes": "South fly-tower wall: five tall brick bays with arched tops between concrete piers, no openings.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        }
+      ]
+    },
+    {
+      "id": "south-05",
+      "title": "South 05",
+      "wallId": "wall-10",
+      "orientation": "south",
+      "sourceKind": "opening-plan",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-10.jpg",
+      "imagePath": "../walls/wall-10.jpg",
+      "widthMeters": 38.76,
+      "estimatedHeightMeters": 14.0,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial",
+      "primitiveStatus": "verified",
+      "windows": 0,
+      "doors": 1,
+      "countMethod": "visual-inspection",
+      "notes": "South brick wall behind birches: plain brick with a single teal service door.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 1,
+        "proof": "south-05: doors 1 row x 1 = 1",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 21.468,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.57,
+          "sourceImage": "references/walls/wall-10.jpg",
+          "positionStatus": "visually-read",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 1,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    }
+  ],
+  "auxiliaryPanels": [
+    {
+      "id": "roof",
+      "title": "Roof Plan / Satellite",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "roof",
+      "elevationRole": "roof",
+      "sourceImage": "references/roof-satellite.jpg",
+      "imagePath": "../roof-satellite.jpg",
+      "widthMeters": 38.76,
+      "estimatedHeightMeters": 38.76,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "roof-footprint-only",
+      "primitiveStatus": "needs-review",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "",
+      "countInference": {
+        "method": "needs-review",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "classify_from_roof_reference",
+          "status": "unclassified",
+          "confidence": 0.0,
+          "evidence": "no roof primitive rule found",
+          "requiresReview": true
+        }
+      ]
+    }
+  ]
+}

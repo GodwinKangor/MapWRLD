@@ -1,0 +1,1265 @@
+{
+  "building": "building__wentworth-hall__way_48784528",
+  "displayName": "Wentworth Hall",
+  "generatedKind": "scaled-reference-board",
+  "pixelsPerMeter": 34,
+  "modelingRecipe": {
+    "referenceGate": "Only use panels whose referenceStatus starts with approved. needs-review panels require inspection before modeling.",
+    "wallDetail": {
+      "module": "major_wall_detail_module",
+      "primitive": "quad_grid_wall",
+      "rules": [
+        "openings are cells in the wall mesh",
+        "windows and doors must have edge loops",
+        "do not add floating opening panels",
+        "check major wall features beyond windows, doors, and roofs"
+      ],
+      "panelIds": [
+        "west-01",
+        "south-01",
+        "east-01",
+        "north-01"
+      ],
+      "featureCount": 0
+    },
+    "windows": {
+      "module": "window_module",
+      "primitive": "recessed_rectangular_face_opening",
+      "totalPlanned": 65
+    },
+    "doors": {
+      "module": "door_module",
+      "primitive": "recessed_rectangular_or_arched_face_opening",
+      "totalPlanned": 1
+    },
+    "roof": {
+      "module": "roof_module",
+      "candidatePrimitives": [
+        "gable_prism_roof"
+      ],
+      "reviewPrimitives": [],
+      "panelIds": [
+        "roof"
+      ],
+      "zoneCount": 0,
+      "rules": [
+        "use satellite roof zones as top-down source of truth",
+        "split roofs into named planes or masses before modeling",
+        "derive front, rear, left-side, and right-side roof plans from the same roof zones"
+      ]
+    },
+    "towerChimney": {
+      "module": "chimney_tower_module",
+      "candidatePrimitives": [],
+      "reviewPrimitives": [],
+      "ruleDerivedPrimitives": [],
+      "panelIds": [],
+      "blockedPanelIds": []
+    },
+    "stairs": {
+      "module": "staircase_module",
+      "candidatePrimitives": [],
+      "featureCount": 0,
+      "panelIds": []
+    },
+    "symmetry": {
+      "module": "symmetry_module",
+      "candidatePrimitives": [
+        "mirror_opening_positions",
+        "paired_facade_counts"
+      ]
+    },
+    "inspect": {
+      "module": "inspect_module",
+      "checks": [
+        "quad_cleanliness",
+        "loose_geometry",
+        "support_overlap",
+        "reference_traceability"
+      ]
+    }
+  },
+  "sheet": {
+    "widthPx": 1140,
+    "heightPx": 1457.48
+  },
+  "panels": [
+    {
+      "id": "west-01",
+      "title": "West 01",
+      "wallId": "wall-01",
+      "orientation": "west",
+      "sourceKind": "opening-plan",
+      "elevationRole": "front",
+      "sourceImage": "references/walls/wall-01.jpg",
+      "imagePath": "../walls/wall-01.jpg",
+      "widthMeters": 17.36,
+      "estimatedHeightMeters": 10.11,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "clear",
+      "primitiveStatus": "verified",
+      "windows": 15,
+      "doors": 0,
+      "countMethod": "visual-inspection",
+      "notes": "West end, painted brick, three storeys of shuttered six-over-six windows in five bays; the ground floor has an extra narrow pair near the center (counted as the regular five). No door. Cars block the base.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 15,
+        "doors": 0,
+        "proof": "west-01: windows 3 rows x 5 = 15",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 2.416,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 5.309,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 8.203,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 11.096,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 13.989,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 2.416,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 5.309,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 8.203,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 11.096,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 13.989,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 2.416,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 5.309,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 8.203,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 11.096,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 13.989,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-01.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 15,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "south-01",
+      "title": "South 01",
+      "wallId": "wall-02",
+      "orientation": "south",
+      "sourceKind": "opening-plan",
+      "elevationRole": "left-side",
+      "sourceImage": "references/walls/wall-02.jpg",
+      "imagePath": "../walls/wall-02.jpg",
+      "widthMeters": 23.0,
+      "estimatedHeightMeters": 10.11,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial",
+      "primitiveStatus": "verified",
+      "windows": 16,
+      "doors": 0,
+      "countMethod": "visual-inspection",
+      "notes": "South long side, partly behind a tree and a lamp post: regular shuttered bays with a stair window offset half a storey in the center bay; no door visible in the photographed section.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 16,
+        "doors": 0,
+        "proof": "south-01: windows rows 6+5+5 = 16",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 2.25,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 5.125,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 8.0,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 13.75,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 16.625,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 19.5,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 2.25,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 5.125,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 10.875,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 16.625,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 19.5,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 2.25,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.125,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 5.125,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.25,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 10.875,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 16.625,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.75,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W16",
+          "kind": "window",
+          "xMeters": 19.5,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.875,
+          "sourceImage": "references/walls/wall-02.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 16,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "east-01",
+      "title": "East 01",
+      "wallId": "wall-03",
+      "orientation": "east",
+      "sourceKind": "opening-plan",
+      "elevationRole": "rear",
+      "sourceImage": "references/walls/wall-03.jpg",
+      "imagePath": "../walls/wall-03.jpg",
+      "widthMeters": 17.36,
+      "estimatedHeightMeters": 10.11,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial",
+      "primitiveStatus": "verified",
+      "windows": 15,
+      "doors": 0,
+      "countMethod": "visual-inspection",
+      "notes": "East end, close-up shows only two ground-floor windows over the granite base; assumed to mirror the five-bay west end.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 15,
+        "doors": 0,
+        "proof": "east-01: windows 3 rows x 5 = 15",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 2.416,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 5.309,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 8.203,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 11.096,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 13.989,
+          "zMeters": 1.45,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 2.416,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 5.309,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 8.203,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 11.096,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 13.989,
+          "zMeters": 4.65,
+          "widthMeters": 0.955,
+          "heightMeters": 2.15,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 2.416,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.1667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 5.309,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.3333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 8.203,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 11.096,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.6667,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 13.989,
+          "zMeters": 7.85,
+          "widthMeters": 0.955,
+          "heightMeters": 1.71,
+          "centerFraction": 0.8333,
+          "sourceImage": "references/walls/wall-03.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 15,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    },
+    {
+      "id": "north-01",
+      "title": "North 01",
+      "wallId": "wall-04",
+      "orientation": "north",
+      "sourceKind": "opening-plan",
+      "elevationRole": "right-side",
+      "sourceImage": "references/walls/wall-04.jpg",
+      "imagePath": "../walls/wall-04.jpg",
+      "widthMeters": 23.0,
+      "estimatedHeightMeters": 10.11,
+      "referenceStatus": "approved-by-modeling-rules",
+      "qualityStatus": "partial",
+      "primitiveStatus": "verified",
+      "windows": 19,
+      "doors": 1,
+      "countMethod": "visual-inspection",
+      "notes": "North long side: granite-framed entrance with sidelights and transom toward the west end, shuttered windows in a regular rhythm across three storeys.",
+      "countInference": {
+        "method": "visual-inspection",
+        "usesSymmetry": false,
+        "windows": 19,
+        "doors": 1,
+        "proof": "north-01: windows rows 5+7+7 = 19; north-01: doors 1 row x 1 = 1",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [
+        {
+          "id": "W01",
+          "kind": "window",
+          "xMeters": 8.0,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W02",
+          "kind": "window",
+          "xMeters": 10.875,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W03",
+          "kind": "window",
+          "xMeters": 13.75,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W04",
+          "kind": "window",
+          "xMeters": 16.625,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W05",
+          "kind": "window",
+          "xMeters": 19.5,
+          "zMeters": 1.45,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W06",
+          "kind": "window",
+          "xMeters": 2.25,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.125,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W07",
+          "kind": "window",
+          "xMeters": 5.125,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.25,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W08",
+          "kind": "window",
+          "xMeters": 8.0,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.375,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W09",
+          "kind": "window",
+          "xMeters": 10.875,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W10",
+          "kind": "window",
+          "xMeters": 13.75,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.625,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W11",
+          "kind": "window",
+          "xMeters": 16.625,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.75,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W12",
+          "kind": "window",
+          "xMeters": 19.5,
+          "zMeters": 4.65,
+          "widthMeters": 1.25,
+          "heightMeters": 2.15,
+          "centerFraction": 0.875,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W13",
+          "kind": "window",
+          "xMeters": 2.25,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.125,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W14",
+          "kind": "window",
+          "xMeters": 5.125,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.25,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W15",
+          "kind": "window",
+          "xMeters": 8.0,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.375,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W16",
+          "kind": "window",
+          "xMeters": 10.875,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.5,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W17",
+          "kind": "window",
+          "xMeters": 13.75,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.625,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W18",
+          "kind": "window",
+          "xMeters": 16.625,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.75,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "W19",
+          "kind": "window",
+          "xMeters": 19.5,
+          "zMeters": 7.85,
+          "widthMeters": 1.25,
+          "heightMeters": 1.71,
+          "centerFraction": 0.875,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "row-derived",
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "id": "D01",
+          "kind": "door",
+          "xMeters": 2.825,
+          "zMeters": 0.0,
+          "widthMeters": 1.25,
+          "heightMeters": 2.8,
+          "centerFraction": 0.15,
+          "sourceImage": "references/walls/wall-04.jpg",
+          "positionStatus": "visually-read",
+          "mustBeIntegratedWallFace": true
+        }
+      ],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "wall",
+          "module": "major_wall_detail_module",
+          "primitive": "quad_grid_wall",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence": "modeling-rules wallOpeningPlans",
+          "requiresReview": false,
+          "reason": "reference-backed exterior facade with integrated openings"
+        },
+        {
+          "target": "window",
+          "module": "window_module",
+          "primitive": "recessed_rectangular_face_opening",
+          "status": "verified",
+          "confidence": 0.9,
+          "evidence": "modeling-rules window count and approved wall source",
+          "requiresReview": false,
+          "count": 19,
+          "mustBeIntegratedWallFace": true
+        },
+        {
+          "target": "door",
+          "module": "door_module",
+          "primitive": "recessed_rectangular_or_arched_face_opening",
+          "status": "verified",
+          "confidence": 0.84,
+          "evidence": "modeling-rules door count and approved wall source",
+          "requiresReview": false,
+          "count": 1,
+          "mustBeIntegratedWallFace": true
+        }
+      ]
+    }
+  ],
+  "auxiliaryPanels": [
+    {
+      "id": "roof",
+      "title": "Roof Plan / Satellite",
+      "wallId": "",
+      "orientation": "",
+      "sourceKind": "roof",
+      "elevationRole": "roof",
+      "sourceImage": "references/roof-satellite.jpg",
+      "imagePath": "../roof-satellite.jpg",
+      "widthMeters": 23.0,
+      "estimatedHeightMeters": 23.0,
+      "referenceStatus": "needs-review",
+      "qualityStatus": "roof-footprint-only",
+      "primitiveStatus": "verified",
+      "windows": 0,
+      "doors": 0,
+      "countMethod": "",
+      "notes": "gable",
+      "countInference": {
+        "method": "needs-review",
+        "usesSymmetry": false,
+        "windows": 0,
+        "doors": 0,
+        "proof": "",
+        "layoutValid": true,
+        "layoutIssues": [],
+        "warning": "Doors and windows are counted separately; multiplication proofs never combine them."
+      },
+      "layoutIssues": [],
+      "openingLayout": [],
+      "majorWallFeatures": [],
+      "stairFeatures": [],
+      "roofZones": [],
+      "roofElevationPlans": {},
+      "roofElevationProfiles": {},
+      "primitiveHints": [
+        {
+          "target": "roof",
+          "module": "roof_module",
+          "primitive": "gable_prism_roof",
+          "status": "verified",
+          "confidence": 0.92,
+          "evidence": "modeling-rules gable/prism roof type or allowed prism zone",
+          "requiresReview": false
+        }
+      ]
+    }
+  ],
+  "elevations": {
+    "front": {
+      "role": "front",
+      "label": "Front",
+      "panelIds": [
+        "west-01"
+      ],
+      "sourceImages": [
+        "references/walls/wall-01.jpg"
+      ],
+      "openingCounts": {
+        "windows": 15,
+        "doors": 0
+      },
+      "countProof": [
+        "west-01: windows 3 rows x 5 = 15"
+      ]
+    },
+    "rear": {
+      "role": "rear",
+      "label": "Rear",
+      "panelIds": [
+        "east-01"
+      ],
+      "sourceImages": [
+        "references/walls/wall-03.jpg"
+      ],
+      "openingCounts": {
+        "windows": 15,
+        "doors": 0
+      },
+      "countProof": [
+        "east-01: windows 3 rows x 5 = 15"
+      ]
+    },
+    "left-side": {
+      "role": "left-side",
+      "label": "Left Side",
+      "panelIds": [
+        "south-01"
+      ],
+      "sourceImages": [
+        "references/walls/wall-02.jpg"
+      ],
+      "openingCounts": {
+        "windows": 16,
+        "doors": 0
+      },
+      "countProof": [
+        "south-01: windows rows 6+5+5 = 16"
+      ]
+    },
+    "right-side": {
+      "role": "right-side",
+      "label": "Right Side",
+      "panelIds": [
+        "north-01"
+      ],
+      "sourceImages": [
+        "references/walls/wall-04.jpg"
+      ],
+      "openingCounts": {
+        "windows": 19,
+        "doors": 1
+      },
+      "countProof": [
+        "north-01: windows rows 5+7+7 = 19; north-01: doors 1 row x 1 = 1"
+      ]
+    },
+    "roof": {
+      "role": "roof",
+      "label": "Roof",
+      "panelIds": [
+        "roof"
+      ],
+      "sourceImages": [
+        "references/roof-satellite.jpg"
+      ],
+      "openingCounts": {
+        "windows": 0,
+        "doors": 0
+      },
+      "countProof": []
+    }
+  }
+}

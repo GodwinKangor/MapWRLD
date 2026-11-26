@@ -1,0 +1,37 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": {
+      "quality": "partial", "confidence": 0.5, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [0.5],
+      "notes": "West front: carved oak double doors with a lattice transom in a limestone surround over granite steps (close-up); limestone-faced pavilion with windows either side, rhythm from the side elevations."
+    },
+    "wall-02": {
+      "quality": "clear", "confidence": 0.6, "floors": 3, "windowGridColumns": 4,
+      "windowRows": [[1], [1, 2, 3, 4], [1, 2, 3, 4]], "doorPositions": [0.15],
+      "notes": "Southwest wing: four tall windows with keystone lintels on the main floor above a canopy over the Computer Store entrance and ramp at street level; replaces the earlier vision-extracted plan."
+    },
+    "wall-03": {
+      "quality": "clear", "confidence": 0.65, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 3, 5], [1, 2, 3, 5], [1, 2, 3, 5]], "doorPositions": [],
+      "notes": "South side: brick with limestone quoined corner, basement lights in a granite base, main-floor windows with keystone lintels, upper windows; a pier interrupts the fourth bay."
+    },
+    "wall-04": {
+      "quality": "partial", "confidence": 0.45, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 4, 5], [1, 2, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [0.5],
+      "notes": "East front behind a tree: limestone center with an oak entrance over steps, windows either side, basement lights; a chimney at the roof edge."
+    },
+    "wall-05": {
+      "quality": "partial", "confidence": 0.35, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 3, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [],
+      "notes": "Northeast side across the street behind trees: basement lights and regular windows."
+    },
+    "wall-06": {
+      "quality": "partial", "confidence": 0.45, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [0.5],
+      "notes": "North entrance close-up: carved oak double doors in a limestone surround over granite steps; windows either side assumed from the north wing rhythm."
+    },
+    "wall-07": { "quality": "unusable", "notes": "No matching model wall." }
+  },
+  "roof": { "type": "footprint-hip", "heightRatio": 0.16, "insetMeters": 3.0, "overhangMeters": 0.3, "notes": "Low hipped roof behind a cornice with chimneys (east view); modeled as a low footprint-following hip." }
+}

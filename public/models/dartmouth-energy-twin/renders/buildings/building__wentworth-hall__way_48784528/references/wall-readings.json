@@ -1,0 +1,26 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": {
+      "quality": "clear", "confidence": 0.7, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 3, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [],
+      "notes": "West end, painted brick, three storeys of shuttered six-over-six windows in five bays; the ground floor has an extra narrow pair near the center (counted as the regular five). No door. Cars block the base."
+    },
+    "wall-02": {
+      "quality": "partial", "confidence": 0.5, "floors": 3, "windowGridColumns": 7,
+      "windowRows": [[1, 2, 3, 5, 6, 7], [1, 2, 4, 6, 7], [1, 2, 4, 6, 7]], "doorPositions": [],
+      "notes": "South long side, partly behind a tree and a lamp post: regular shuttered bays with a stair window offset half a storey in the center bay; no door visible in the photographed section."
+    },
+    "wall-03": {
+      "quality": "partial", "confidence": 0.35, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 3, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [],
+      "notes": "East end, close-up shows only two ground-floor windows over the granite base; assumed to mirror the five-bay west end."
+    },
+    "wall-04": {
+      "quality": "partial", "confidence": 0.55, "floors": 3, "windowGridColumns": 7,
+      "windowRows": [[3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7]], "doorPositions": [0.15],
+      "notes": "North long side: granite-framed entrance with sidelights and transom toward the west end, shuttered windows in a regular rhythm across three storeys."
+    }
+  },
+  "roof": { "type": "gable", "heightRatio": 0.3, "overhangMeters": 0.3, "notes": "Dartmouth Row: pitched gable roof, ridge along the long axis." }
+}

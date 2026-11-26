@@ -1,0 +1,27 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": {
+      "quality": "partial", "confidence": 0.4, "floors": 3, "windowGridColumns": 11,
+      "windowRows": [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]], "doorPositions": [],
+      "notes": "West front, mostly behind trees: about eleven shuttered bays visible on the ground floor with a basement-level entry at the left; upper floors assumed to repeat the rhythm."
+    },
+    "wall-02": {
+      "quality": "partial", "confidence": 0.3, "floors": 3, "windowGridColumns": 4,
+      "windowRows": [[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]], "doorPositions": [0.5],
+      "notes": "South end hidden by trees; assumed to mirror the north end (center entrance, four bays)."
+    },
+    "wall-03": { "quality": "unusable", "notes": "No matching model wall." },
+    "wall-04": {
+      "quality": "partial", "confidence": 0.55, "floors": 3, "windowGridColumns": 7,
+      "windowRows": [[1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7]], "doorPositions": [],
+      "notes": "East long side close-up: regular shuttered twelve-over-twelve windows with granite lintels on a granite base; rhythm extended across the 22.7 m wall."
+    },
+    "wall-05": {
+      "quality": "partial", "confidence": 0.55, "floors": 3, "windowGridColumns": 4,
+      "windowRows": [[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]], "doorPositions": [0.5],
+      "notes": "North end behind trees: centered entrance with sidelights, transom and steps; two shuttered windows each side, four bays on the floors above."
+    }
+  },
+  "roof": { "type": "gable", "heightRatio": 0.3, "overhangMeters": 0.3, "notes": "Dartmouth Row: pitched gable roof, ridge along the long axis." }
+}

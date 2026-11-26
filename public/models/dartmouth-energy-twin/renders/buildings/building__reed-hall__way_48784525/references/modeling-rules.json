@@ -1,0 +1,194 @@
+{
+  "building": "building__reed-hall__way_48784525",
+  "displayName": "Reed Hall",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "west-01": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 33,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 11,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.4,
+        "quality": "partial",
+        "notes": "West front, mostly behind trees: about eleven shuttered bays visible on the ground floor with a basement-level entry at the left; upper floors assumed to repeat the rhythm.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:26.593Z"
+      },
+      "south-02": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 12,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 4,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.3,
+        "quality": "partial",
+        "notes": "South end hidden by trees; assumed to mirror the north end (center entrance, four bays).",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:26.593Z"
+      },
+      "east-02": {
+        "reference": "references/walls/wall-04.jpg",
+        "windows": 21,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.55,
+        "quality": "partial",
+        "notes": "East long side close-up: regular shuttered twelve-over-twelve windows with granite lintels on a granite base; rhythm extended across the 22.7 m wall.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:26.593Z"
+      },
+      "north-02": {
+        "reference": "references/walls/wall-05.jpg",
+        "windows": 12,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 4,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.55,
+        "quality": "partial",
+        "notes": "North end behind trees: centered entrance with sidelights, transom and steps; two shuttered windows each side, four bays on the floors above.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:51:26.593Z"
+      }
+    }
+  },
+  "roof": {
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "gable",
+    "heightRatio": 0.3,
+    "overhangMeters": 0.3,
+    "notes": "Dartmouth Row: pitched gable roof, ridge along the long axis."
+  },
+  "heightMeters": 13.16,
+  "wallHeightMeters": 11.44,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

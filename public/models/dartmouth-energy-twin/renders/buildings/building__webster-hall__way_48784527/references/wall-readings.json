@@ -1,0 +1,24 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": {
+      "quality": "partial", "confidence": 0.45, "floors": 2, "windowGridColumns": 3,
+      "windowRows": [[], [1, 2, 3]], "doorPositions": [0.4, 0.6],
+      "doorWidthMeters": 1.8, "doorHeightMeters": 3.6, "windowSillMeters": 5.2, "windowHeightMeters": 1.4,
+      "notes": "South front facing the Green. The wall-01 photo is an interior view, so this is read from the street views: a four-column temple portico over steps with two tall paneled double doors, small attic windows above the entablature."
+    },
+    "wall-02": {
+      "quality": "clear", "confidence": 0.6, "floors": 1, "windowGridColumns": 5,
+      "windowRows": [[2, 3, 4]], "doorPositions": [],
+      "windowSillMeters": 3.4, "windowWidthMeters": 2.4, "windowHeightMeters": 6.2,
+      "notes": "East side: three very tall round-arched windows over a granite basement with small basement windows (not modeled), a side pavilion with a single window at the right."
+    },
+    "wall-03": {
+      "quality": "partial", "confidence": 0.4, "floors": 1, "windowGridColumns": 5,
+      "windowRows": [[2, 3, 4]], "doorPositions": [],
+      "windowSillMeters": 3.4, "windowWidthMeters": 2.4, "windowHeightMeters": 6.2,
+      "notes": "West side close-up: the bottom of a tall window with a carved stone sill on brackets above granite-framed basement windows; assumed to mirror the east side's three arched windows."
+    }
+  },
+  "notes": "Flat roof behind the cornice (satellite shows a flat roof with skylights and a rounded north apse); kept flat."
+}

@@ -1,0 +1,142 @@
+{
+  "building": "building__sanborn-house__way_262950521",
+  "displayName": "Sanborn House",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "south-01": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 32,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 11,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        ],
+        "doorPositions": [
+          0.42
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.6,
+        "quality": "clear",
+        "notes": "South front: Georgian Revival brick, pedimented center pavilion with an oculus and a pedimented entrance; about eleven bays over three storeys, round-arched windows on the ground floor of the east half.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:53:44.151Z"
+      },
+      "east-01": {
+        "reference": "references/walls/wall-03.jpg",
+        "windows": 10,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 4,
+        "windowRows": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [
+          0.4
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.35,
+        "quality": "partial",
+        "notes": "Southeast end through trees: white entrance door, an arched loggia continues to the right (separate structure).",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:53:44.151Z"
+      },
+      "east-03": {
+        "reference": "references/walls/wall-05.jpg",
+        "windows": 6,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 2,
+        "windowRows": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "Northeast close-up: two twelve-over-twelve windows per floor in white frames; top floor assumed.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:53:44.151Z"
+      }
+    }
+  },
+  "roof": {
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "footprint-hip",
+    "heightRatio": 0.3,
+    "insetMeters": 3,
+    "overhangMeters": 0.4,
+    "notes": "Slate gable roofs with a pedimented center gable and chimneys; modeled as a footprint-following hip."
+  },
+  "heightMeters": 13.06,
+  "wallHeightMeters": 11.36,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

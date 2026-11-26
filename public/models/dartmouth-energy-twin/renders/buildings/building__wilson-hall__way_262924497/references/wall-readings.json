@@ -1,0 +1,26 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "heightMeters": 13,
+  "walls": {
+    "wall-01": {
+      "quality": "clear", "confidence": 0.65, "floors": 2, "windowGridColumns": 4,
+      "windowRows": [[4], [1, 2, 3, 4]], "doorPositions": [0.32],
+      "notes": "West front: deep round-arched sandstone entrance with paired doors over steps; four small round-arched windows across the upper floor; small stacked windows right of the arch."
+    },
+    "wall-02": {
+      "quality": "partial", "confidence": 0.45, "floors": 2, "windowGridColumns": 5,
+      "windowRows": [[3, 4, 5], [1, 2, 3]], "doorPositions": [0.1],
+      "notes": "Southwest side behind a construction fence: arched doorway at the left, three small arched upper windows, three large round-arched ground-floor windows to the right."
+    },
+    "wall-03": { "quality": "unusable", "notes": "No matching model wall." },
+    "wall-04": { "quality": "unusable", "notes": "Photo taken through glass of a neighboring building; construction equipment hides the wall." },
+    "wall-05": { "quality": "unusable", "notes": "Pine tree blocks the wall." },
+    "wall-06": {
+      "quality": "partial", "confidence": 0.5, "floors": 2, "windowGridColumns": 3,
+      "windowRows": [[], [1, 2]], "doorPositions": [0.95],
+      "notes": "Round corner tower: two round-arched upper windows with carved sandstone, decorative brick lattice at the base; the entrance arch begins at the far right."
+    },
+    "wall-07": { "quality": "unusable", "notes": "No matching model wall." }
+  },
+  "roof": { "type": "footprint-hip", "heightRatio": 0.45, "insetMeters": 2.5, "overhangMeters": 0.4, "notes": "Steep slate hip roofs with turret caps (satellite + street views); turrets not modeled separately." }
+}

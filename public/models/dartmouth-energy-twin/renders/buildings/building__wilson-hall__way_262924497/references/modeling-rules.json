@@ -1,0 +1,102 @@
+{
+  "building": "building__wilson-hall__way_262924497",
+  "displayName": "Wilson Hall",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "west-07": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 5,
+        "doors": 1,
+        "floors": 2,
+        "windowGridColumns": 4,
+        "windowRows": [
+          [
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [
+          0.32
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.65,
+        "quality": "clear",
+        "notes": "West front: deep round-arched sandstone entrance with paired doors over steps; four small round-arched windows across the upper floor; small stacked windows right of the arch.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:53:12.856Z"
+      },
+      "south-03": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 6,
+        "doors": 1,
+        "floors": 2,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "doorPositions": [
+          0.1
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "Southwest side behind a construction fence: arched doorway at the left, three small arched upper windows, three large round-arched ground-floor windows to the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:53:12.856Z"
+      },
+      "east-03": {
+        "reference": "references/walls/wall-06.jpg",
+        "windows": 2,
+        "doors": 1,
+        "floors": 2,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [],
+          [
+            1,
+            2
+          ]
+        ],
+        "doorPositions": [
+          0.95
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.5,
+        "quality": "partial",
+        "notes": "Round corner tower: two round-arched upper windows with carved sandstone, decorative brick lattice at the base; the entrance arch begins at the far right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:53:12.856Z"
+      }
+    }
+  },
+  "roof": {
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "footprint-hip",
+    "heightRatio": 0.45,
+    "insetMeters": 2.5,
+    "overhangMeters": 0.4,
+    "notes": "Steep slate hip roofs with turret caps (satellite + street views); turrets not modeled separately."
+  },
+  "heightMeters": 13,
+  "wallHeightMeters": 10.61,
+  "heightSource": "reading override"
+}

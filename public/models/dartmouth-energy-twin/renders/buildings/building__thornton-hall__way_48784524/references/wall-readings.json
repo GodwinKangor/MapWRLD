@@ -1,0 +1,31 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": {
+      "quality": "partial", "confidence": 0.6, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [0.5],
+      "notes": "West front facing the Green, through trees: centered entrance with granite surround and steps, two shuttered windows each side; five bays on the upper floors (third storey hidden by foliage, assumed)."
+    },
+    "wall-02": {
+      "quality": "partial", "confidence": 0.3, "floors": 3, "windowGridColumns": 7,
+      "windowRows": [[1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7]], "doorPositions": [],
+      "notes": "South side hidden by a hedge in the photo; assumed to mirror the seven-bay north side."
+    },
+    "wall-03": {
+      "quality": "partial", "confidence": 0.5, "floors": 3, "windowGridColumns": 2,
+      "windowRows": [[1, 2], [1, 2], [1, 2]], "doorPositions": [],
+      "notes": "East wall segment (southern half): shuttered windows stacked in two bays over a granite base; no door."
+    },
+    "wall-04": {
+      "quality": "partial", "confidence": 0.5, "floors": 3, "windowGridColumns": 2,
+      "windowRows": [[1], [1, 2], [1, 2]], "doorPositions": [0.85],
+      "notes": "East wall segment (northern half): close-up of a shuttered twelve-over-twelve window and a side entrance with sidelights, transom and steps at the right."
+    },
+    "wall-05": {
+      "quality": "clear", "confidence": 0.65, "floors": 3, "windowGridColumns": 7,
+      "windowRows": [[1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7]], "doorPositions": [],
+      "notes": "North long side: seven shuttered bays on three storeys with small basement lights; the west end is behind a tree."
+    }
+  },
+  "roof": { "type": "gable", "heightRatio": 0.3, "overhangMeters": 0.3, "notes": "Dartmouth Row: pitched gable roof, ridge along the long axis." }
+}

@@ -1,0 +1,248 @@
+{
+  "building": "building__robinson-hall__way_262912562",
+  "displayName": "Robinson Hall",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "north-01": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 7,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "North patio close-up: three upper windows with iron balconies, main-floor windows with stone keystones, a basement light behind the patio; a kiosk and umbrellas in front.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:14.323Z"
+      },
+      "west-02": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 6,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.4,
+        "quality": "partial",
+        "notes": "West close-up: a wide tripartite window with an iron balconette over a granite water table, basement lights below.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:14.323Z"
+      },
+      "west-01": {
+        "reference": "references/walls/wall-03.jpg",
+        "windows": 12,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            5
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.6,
+        "quality": "clear",
+        "notes": "West side: basement lights, five main-floor windows with stone lintels, three tall fan-arched upper windows and a small window at the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:14.323Z"
+      },
+      "south-04": {
+        "reference": "references/walls/wall-04.jpg",
+        "windows": 6,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.4,
+        "quality": "partial",
+        "notes": "Southeast close-up: plain brick at the left, windows with keystone lintels and basement lights at the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:14.323Z"
+      },
+      "east-01": {
+        "reference": "references/walls/wall-05.jpg",
+        "windows": 9,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.35,
+        "quality": "partial",
+        "notes": "East front, south part, behind a tree and fence.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:14.323Z"
+      },
+      "east-02": {
+        "reference": "references/walls/wall-06.jpg",
+        "windows": 14,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "East front behind trees: limestone entrance surround with a deep doorway over steps at the center, windows either side on three levels.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:14.323Z"
+      },
+      "north-03": {
+        "reference": "references/walls/wall-07.jpg",
+        "windows": 18,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 6,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "North side close-up: three windows per floor with stone keystone lintels over basement lights; rhythm extended across the 19 m wall.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:14.323Z"
+      }
+    }
+  },
+  "heightMeters": 13.9,
+  "wallHeightMeters": 13.9,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

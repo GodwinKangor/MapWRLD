@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1124" height="1806" viewBox="0 0 1124 1806">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202020}.title{font-size:18px;font-weight:700}.role{font-size:15px;font-weight:700}.meta{font-size:11px}.tiny{font-size:10px}.wall{fill:#fff;stroke:#222;stroke-width:1.4}.grid{stroke:#d8d8d8;stroke-width:.65}.window{fill:#72b8ff;stroke:#063f78;stroke-width:1.1;fill-opacity:.5}.door{fill:#f4aa42;stroke:#7a3f00;stroke-width:1.3;fill-opacity:.62}.feature{fill:#b58cff;stroke:#4a238a;stroke-width:1.25;fill-opacity:.25}.stair{fill:#77c879;stroke:#1b5e20;stroke-width:1.25;fill-opacity:.33}.roof{fill:#e6e6e6;stroke:#333;stroke-width:1.2}.openingText{font-size:9px;font-weight:700;fill:#111}
+</style>
+<rect width="100%" height="100%" fill="#f7f6f1"/>
+<text x="42" y="28" class="title">Rollins Chapel orthographic modeling elevations</text>
+<text x="42" y="47" class="meta">Straightened diagrams generated from approved rules/counts and scaled wall dimensions. Oblique photos remain evidence, not the modeling surface.</text>
+<text x="42" y="62" class="role">Front Elevation</text>
+<rect class="wall" x="42.0" y="74.0" width="360.0" height="260.0"/>
+<line class="grid" x1="142.2" y1="74.0" x2="142.2" y2="334.0"/>
+<line class="grid" x1="242.3" y1="74.0" x2="242.3" y2="334.0"/>
+<line class="grid" x1="342.5" y1="74.0" x2="342.5" y2="334.0"/>
+<line class="grid" x1="42.0" y1="124.0" x2="402.0" y2="124.0"/>
+<rect class="window" x="77.1" y="182.8" width="19.8" height="90.3"/>
+<text class="openingText" x="80.1" y="194.8">W01</text>
+<rect class="window" x="347.1" y="182.8" width="19.8" height="90.3"/>
+<text class="openingText" x="350.1" y="194.8">W02</text>
+<rect class="window" x="212.1" y="97.1" width="19.8" height="41.6"/>
+<text class="openingText" x="215.1" y="109.1">W03</text>
+<rect class="door" x="144.7" y="216.4" width="25.0" height="117.6"/>
+<text class="openingText" x="147.7" y="228.4">D01</text>
+<rect class="door" x="191.5" y="216.4" width="25.0" height="117.6"/>
+<text class="openingText" x="194.5" y="228.4">D02</text>
+<rect class="door" x="238.3" y="216.4" width="25.0" height="117.6"/>
+<text class="openingText" x="241.3" y="228.4">D03</text>
+<text x="46.0" y="329.0" class="tiny">West 02</text>
+<rect class="wall" x="414.0" y="74.0" width="295.5" height="260.0"/>
+<line class="grid" x1="584.0" y1="74.0" x2="584.0" y2="334.0"/>
+<line class="grid" x1="414.0" y1="124.0" x2="709.5" y2="124.0"/>
+<rect class="window" x="549.0" y="182.8" width="25.5" height="90.3"/>
+<text class="openingText" x="552.0" y="194.8">W01</text>
+<rect class="door" x="505.0" y="216.4" width="42.5" height="117.6"/>
+<text class="openingText" x="508.0" y="228.4">D01</text>
+<rect class="door" x="652.7" y="216.4" width="42.5" height="117.6"/>
+<text class="openingText" x="655.7" y="228.4">D02</text>
+<text x="418.0" y="329.0" class="tiny">West 01</text>
+<rect class="wall" x="721.5" y="74.0" width="360.0" height="260.0"/>
+<line class="grid" x1="841.9" y1="74.0" x2="841.9" y2="334.0"/>
+<line class="grid" x1="962.3" y1="74.0" x2="962.3" y2="334.0"/>
+<line class="grid" x1="721.5" y1="124.0" x2="1081.5" y2="124.0"/>
+<rect class="window" x="831.6" y="182.8" width="19.8" height="90.3"/>
+<text class="openingText" x="834.6" y="194.8">W01</text>
+<rect class="window" x="891.6" y="182.8" width="19.8" height="90.3"/>
+<text class="openingText" x="894.6" y="194.8">W02</text>
+<rect class="window" x="951.6" y="182.8" width="19.8" height="90.3"/>
+<text class="openingText" x="954.6" y="194.8">W03</text>
+<rect class="window" x="891.6" y="97.1" width="19.8" height="41.6"/>
+<text class="openingText" x="894.6" y="109.1">W04</text>
+<rect class="door" x="1019.6" y="216.4" width="30.1" height="117.6"/>
+<text class="openingText" x="1022.6" y="228.4">D01</text>
+<text x="725.5" y="329.0" class="tiny">South 02</text>
+<text x="42" y="352" class="meta">counts: windows=8 doors=6</text>
+<text x="42" y="368" class="tiny">proof: west-02: windows rows 2+1 = 3; west-02: doors 1 row x 3 = 3; west-01: windows 1 row x 1 = 1; west-01: doors 1 row x 2 = 2; south-02: windows rows 3+1 = 4; south-02: doors 1 row x 1 = 1</text>
+<text x="42" y="384" class="tiny">sources: references/walls/wall-01.jpg, references/walls/wall-02.jpg, references/walls/wall-04.jpg</text>
+<text x="42" y="442" class="role">Rear Elevation</text>
+<rect class="wall" x="42.0" y="454.0" width="360.0" height="260.0"/>
+<line class="grid" x1="176.7" y1="454.0" x2="176.7" y2="714.0"/>
+<line class="grid" x1="311.5" y1="454.0" x2="311.5" y2="714.0"/>
+<line class="grid" x1="42.0" y1="504.0" x2="402.0" y2="504.0"/>
+<rect class="window" x="91.9" y="562.8" width="20.2" height="90.3"/>
+<text class="openingText" x="94.9" y="574.8">W01</text>
+<rect class="window" x="211.9" y="562.8" width="20.2" height="90.3"/>
+<text class="openingText" x="214.9" y="574.8">W02</text>
+<rect class="window" x="271.9" y="562.8" width="20.2" height="90.3"/>
+<text class="openingText" x="274.9" y="574.8">W03</text>
+<rect class="window" x="331.9" y="562.8" width="20.2" height="90.3"/>
+<text class="openingText" x="334.9" y="574.8">W04</text>
+<text x="46.0" y="709.0" class="tiny">South 05</text>
+<rect class="wall" x="414.0" y="454.0" width="360.0" height="260.0"/>
+<line class="grid" x1="557.2" y1="454.0" x2="557.2" y2="714.0"/>
+<line class="grid" x1="700.4" y1="454.0" x2="700.4" y2="714.0"/>
+<line class="grid" x1="414.0" y1="504.0" x2="774.0" y2="504.0"/>
+<rect class="window" x="506.1" y="562.8" width="21.5" height="90.3"/>
+<text class="openingText" x="509.1" y="574.8">W01</text>
+<rect class="window" x="609.0" y="562.8" width="21.5" height="90.3"/>
+<text class="openingText" x="612.0" y="574.8">W02</text>
+<rect class="window" x="711.8" y="562.8" width="21.5" height="90.3"/>
+<text class="openingText" x="714.8" y="574.8">W03</text>
+<rect class="door" x="684.1" y="596.4" width="35.8" height="117.6"/>
+<text class="openingText" x="687.1" y="608.4">D01</text>
+<text x="418.0" y="709.0" class="tiny">North 05</text>
+<text x="42" y="732" class="meta">counts: windows=7 doors=1</text>
+<text x="42" y="748" class="tiny">proof: south-05: windows 1 row x 4 = 4; north-05: windows 1 row x 3 = 3; north-05: doors 1 row x 1 = 1</text>
+<text x="42" y="764" class="tiny">sources: references/walls/wall-05.jpg, references/walls/wall-06.jpg</text>
+<text x="42" y="822" class="role">Right Side Elevation</text>
+<rect class="wall" x="42.0" y="834.0" width="360.0" height="260.0"/>
+<line class="grid" x1="161.1" y1="834.0" x2="161.1" y2="1094.0"/>
+<line class="grid" x1="280.3" y1="834.0" x2="280.3" y2="1094.0"/>
+<line class="grid" x1="42.0" y1="884.0" x2="402.0" y2="884.0"/>
+<rect class="window" x="152.1" y="942.8" width="19.8" height="90.3"/>
+<text class="openingText" x="155.1" y="954.8">W01</text>
+<rect class="window" x="212.1" y="942.8" width="19.8" height="90.3"/>
+<text class="openingText" x="215.1" y="954.8">W02</text>
+<rect class="window" x="272.1" y="942.8" width="19.8" height="90.3"/>
+<text class="openingText" x="275.1" y="954.8">W03</text>
+<rect class="window" x="212.1" y="857.1" width="19.8" height="41.6"/>
+<text class="openingText" x="215.1" y="869.1">W04</text>
+<rect class="door" x="127.9" y="976.4" width="29.8" height="117.6"/>
+<text class="openingText" x="130.9" y="988.4">D01</text>
+<rect class="door" x="300.7" y="976.4" width="29.8" height="117.6"/>
+<text class="openingText" x="303.7" y="988.4">D02</text>
+<text x="46.0" y="1089.0" class="tiny">North 03</text>
+<text x="42" y="1112" class="meta">counts: windows=4 doors=2</text>
+<text x="42" y="1128" class="tiny">proof: north-03: windows rows 3+1 = 4; north-03: doors 1 row x 2 = 2</text>
+<text x="42" y="1144" class="tiny">sources: references/walls/wall-07.jpg</text>
+<text x="42" y="1202" class="role">Roof Plan</text>
+<rect class="roof" x="42.0" y="1214.0" width="360.0" height="430.0"/>
+<line class="grid" x1="142.2" y1="1214.0" x2="142.2" y2="1463.4"/>
+<line class="grid" x1="242.3" y1="1214.0" x2="242.3" y2="1463.4"/>
+<line class="grid" x1="342.5" y1="1214.0" x2="342.5" y2="1463.4"/>
+<line class="grid" x1="42.0" y1="1394.0" x2="402.0" y2="1394.0"/>
+<line class="grid" x1="42.0" y1="1324.6" x2="402.0" y2="1324.6"/>
+<line class="grid" x1="42.0" y1="1255.2" x2="402.0" y2="1255.2"/>
+<line x1="85.2" y1="1338.7" x2="358.8" y2="1338.7" stroke="#555" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="48.0" y="1228.0" class="tiny">roof zones from satellite reference</text>
+<text x="46.0" y="1639.0" class="tiny">Roof Plan / Satellite | classify_from_roof_reference</text>
+<text x="48.0" y="1470.4" class="tiny">3D roof elevation profiles</text>
+<rect x="48.0" y="1473.4" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="54.0" y1="1537.7" x2="212.0" y2="1537.7" stroke="#333" stroke-width="1"/>
+<text x="52.0" y="1484.4" class="tiny">front</text>
+<rect x="226.0" y="1473.4" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="232.0" y1="1537.7" x2="390.0" y2="1537.7" stroke="#333" stroke-width="1"/>
+<text x="230.0" y="1484.4" class="tiny">rear</text>
+<rect x="48.0" y="1555.7" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="54.0" y1="1620.0" x2="212.0" y2="1620.0" stroke="#333" stroke-width="1"/>
+<text x="52.0" y="1566.7" class="tiny">left-side</text>
+<rect x="226.0" y="1555.7" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="232.0" y1="1620.0" x2="390.0" y2="1620.0" stroke="#333" stroke-width="1"/>
+<text x="230.0" y="1566.7" class="tiny">right-side</text>
+<text x="42" y="1662" class="meta">counts: windows=0 doors=0</text>
+<text x="42" y="1678" class="tiny">proof: none</text>
+<text x="42" y="1694" class="tiny">sources: references/roof-satellite.jpg</text>
+</svg>

@@ -1,0 +1,196 @@
+{
+  "building": "building__hanover-inn-dartmouth__way_548896471",
+  "displayName": "Hanover Inn Dartmouth",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "west-04": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 16,
+        "doors": 0,
+        "floors": 4,
+        "windowGridColumns": 4,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "West terrace close-up: brick arcade with white pilasters and multi-pane windows behind the arches; the upper floors are assumed to follow the four-bay rhythm seen from the street.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:04.857Z"
+      },
+      "south-06": {
+        "reference": "references/walls/wall-03.jpg",
+        "windows": 10,
+        "doors": 2,
+        "floors": 3,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [
+          0.08,
+          0.4
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.55,
+        "quality": "clear",
+        "notes": "South (Main Street) wing: storefronts with arched display windows and fanlit doors at street level, shuttered brick floors above and slate roof with dormers; a tree hides the center.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:04.857Z"
+      },
+      "north-08": {
+        "reference": "references/walls/wall-10.jpg",
+        "windows": 28,
+        "doors": 1,
+        "floors": 4,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "doorPositions": [
+          0.85
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.5,
+        "quality": "clear",
+        "notes": "North side facing the Green across the street: glazed ground-floor restaurant terrace, three brick floors of regular windows, dormered slate roof; the porte-cochere entrance at the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:04.857Z"
+      },
+      "west-01": {
+        "reference": "references/walls/wall-11.jpg",
+        "windows": 16,
+        "doors": 1,
+        "floors": 4,
+        "windowGridColumns": 4,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.55,
+        "quality": "clear",
+        "notes": "Northwest corner block at Main and Wheelock: four-bay brick facade over a white-columned arcade with arched openings, dormers in the slate roof.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:04.857Z"
+      }
+    }
+  },
+  "roof": {
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "footprint-hip",
+    "heightRatio": 0.22,
+    "insetMeters": 3.5,
+    "overhangMeters": 0.4,
+    "notes": "Slate roof with rows of gabled dormers; modeled as a footprint-following hip without dormers."
+  },
+  "heightMeters": 16,
+  "wallHeightMeters": 14.41,
+  "heightSource": "floor_estimate (https://www.openstreetmap.org/way/548896471)"
+}

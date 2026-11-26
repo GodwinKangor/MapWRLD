@@ -1,0 +1,263 @@
+{
+  "building": "building__berry-library__way_295888784",
+  "displayName": "Berry Library",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "south-03": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 56,
+        "doors": 0,
+        "floors": 4,
+        "windowGridColumns": 14,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.3,
+        "quality": "partial",
+        "notes": "South side close-up of the glazed ground-floor curtain wall under a soffit; upper floors assumed to follow the north side's brick window grid.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:37.621Z"
+      },
+      "east-02": {
+        "reference": "references/walls/wall-04.jpg",
+        "windows": 10,
+        "doors": 1,
+        "floors": 4,
+        "windowGridColumns": 3,
+        "windowRows": [
+          [
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            2,
+            3
+          ]
+        ],
+        "doorPositions": [
+          0.55
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.55,
+        "quality": "clear",
+        "notes": "East entrance: limestone portal frame with roundel carvings around glass double doors over wide steps, brick window grid above, glazed ground floor at the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:37.621Z"
+      },
+      "north-03": {
+        "reference": "references/walls/wall-06.jpg",
+        "windows": 72,
+        "doors": 1,
+        "floors": 4,
+        "windowGridColumns": 18,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        ],
+        "doorPositions": [
+          0.62
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.55,
+        "quality": "clear",
+        "notes": "North side facing the lawn: limestone ground-floor colonnade with glazing and an entrance right of center, three brick floors of evenly spaced square windows, limestone-faced end pavilion at the right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:37.621Z"
+      },
+      "west-04": {
+        "reference": "references/walls/wall-07.jpg",
+        "windows": 8,
+        "doors": 0,
+        "floors": 4,
+        "windowGridColumns": 2,
+        "windowRows": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.35,
+        "quality": "partial",
+        "notes": "Northwest corner close-up: limestone pier on a granite base beside a glazed ground floor and brick upper windows.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:57:37.621Z"
+      }
+    }
+  },
+  "heightMeters": 22.85,
+  "wallHeightMeters": 22.85,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

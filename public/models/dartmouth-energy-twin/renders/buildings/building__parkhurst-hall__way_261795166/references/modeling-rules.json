@@ -1,0 +1,266 @@
+{
+  "building": "building__parkhurst-hall__way_261795166",
+  "displayName": "Parkhurst Hall",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "west-01": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 8,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 4,
+        "windowRows": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "West wing end seen through a portico: basement windows either side of a basement door, four main-floor windows, upper floor partly hidden by trees.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:04.935Z"
+      },
+      "south-03": {
+        "reference": "references/walls/wall-03.jpg",
+        "windows": 14,
+        "doors": 1,
+        "floors": 3,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [
+          0.5
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.5,
+        "quality": "partial",
+        "notes": "South front. The wall-03 photo is blocked by a tree; read from the south.jpg street view instead: centered entrance portico with paired columns and steps, two tall windows each side on the main floor, five bays above, basement lights below.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:04.935Z"
+      },
+      "south-04": {
+        "reference": "references/walls/wall-04.jpg",
+        "windows": 6,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 2,
+        "windowRows": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.6,
+        "quality": "clear",
+        "notes": "Southeast corner pavilion: two window bays per floor over basement lights, quoined corners, dormer above.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:04.935Z"
+      },
+      "east-01": {
+        "reference": "references/walls/wall-05.jpg",
+        "windows": 3,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 2,
+        "windowRows": [
+          [
+            2
+          ],
+          [
+            2
+          ],
+          [
+            2
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.4,
+        "quality": "partial",
+        "notes": "East corner close-up: one window bay per floor at the right, the portico steps at the far left belong to the front.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:04.935Z"
+      },
+      "east-03": {
+        "reference": "references/walls/wall-06.jpg",
+        "windows": 13,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            4,
+            5
+          ],
+          [
+            1,
+            2,
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.35,
+        "quality": "partial",
+        "notes": "East side through trees: basement lights across the base, paired windows either side of a central pier on the floors above.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:04.935Z"
+      },
+      "north-04": {
+        "reference": "references/walls/wall-07.jpg",
+        "windows": 18,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 6,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.35,
+        "quality": "partial",
+        "notes": "North side mostly behind a tree; six basement lights visible, upper rhythm assumed to match.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:04.935Z"
+      },
+      "west-02": {
+        "reference": "references/walls/wall-08.jpg",
+        "windows": 18,
+        "doors": 0,
+        "floors": 3,
+        "windowGridColumns": 6,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.6,
+        "quality": "clear",
+        "notes": "Northwest wing: six basement lights and six main-floor windows with stone lintels; upper floor partly behind leaves.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:52:04.935Z"
+      }
+    }
+  },
+  "roof": {
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "footprint-hip",
+    "heightRatio": 0.25,
+    "insetMeters": 3,
+    "overhangMeters": 0.4,
+    "notes": "Hipped slate/metal roof with dormers and a raised central pavilion roof (satellite + south view); modeled as a footprint-following hip without dormers."
+  },
+  "heightMeters": 15.14,
+  "wallHeightMeters": 13.46,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

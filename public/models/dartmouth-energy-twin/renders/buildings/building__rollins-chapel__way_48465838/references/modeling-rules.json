@@ -1,0 +1,174 @@
+{
+  "building": "building__rollins-chapel__way_48465838",
+  "displayName": "Rollins Chapel",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "west-02": {
+        "reference": "references/walls/wall-01.jpg",
+        "windows": 3,
+        "doors": 3,
+        "floors": 2,
+        "windowGridColumns": 7,
+        "windowRows": [
+          [
+            1,
+            7
+          ],
+          [
+            4
+          ]
+        ],
+        "doorPositions": [
+          0.32,
+          0.45,
+          0.58
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.65,
+        "quality": "clear",
+        "notes": "West front gable. Ground level: three round-arched porch openings (modeled as doors) flanked by a small round-arched window each side; upper: large semicircular lunette window in the gable. The round bell tower at the right of the photo is a separate mass.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:41:06.388Z"
+      },
+      "west-01": {
+        "reference": "references/walls/wall-02.jpg",
+        "windows": 1,
+        "doors": 2,
+        "floors": 1,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            3
+          ]
+        ],
+        "doorPositions": [
+          0.38,
+          0.88
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.5,
+        "quality": "partial",
+        "notes": "Southwest porch return: a large round-arched porch opening at left-center and a second smaller arched porch at the far right; one narrow window between. Narrow arched windows at the far left belong to the adjacent nave wall.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:41:06.388Z"
+      },
+      "south-02": {
+        "reference": "references/walls/wall-04.jpg",
+        "windows": 4,
+        "doors": 1,
+        "floors": 2,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "doorPositions": [
+          0.87
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.65,
+        "quality": "clear",
+        "notes": "South transept gable: tripartite window group at center with a round rose window above in the gable; a small side door at the right where the lower wing meets the transept.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:41:06.388Z"
+      },
+      "south-05": {
+        "reference": "references/walls/wall-05.jpg",
+        "windows": 4,
+        "doors": 0,
+        "floors": 1,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            1,
+            3,
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.5,
+        "quality": "partial",
+        "notes": "Southeast wing toward the apse, partly hidden by a tree: one round-arched window at left, three rectangular stained-glass windows to the right. No door visible.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:41:06.388Z"
+      },
+      "north-05": {
+        "reference": "references/walls/wall-06.jpg",
+        "windows": 3,
+        "doors": 1,
+        "floors": 1,
+        "windowGridColumns": 6,
+        "windowRows": [
+          [
+            2,
+            4,
+            6
+          ]
+        ],
+        "doorPositions": [
+          0.8
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "Northeast wing beside the apse, a tree in front: arched apse window at left, small windows center, a door with side steps at about 0.8, arched windows at the far right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:41:06.388Z"
+      },
+      "north-03": {
+        "reference": "references/walls/wall-07.jpg",
+        "windows": 4,
+        "doors": 2,
+        "floors": 2,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            3
+          ]
+        ],
+        "doorPositions": [
+          0.28,
+          0.76
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.65,
+        "quality": "clear",
+        "notes": "North transept gable mirroring the south: tripartite window group under a round rose window; a door with steps in the lower wing at left and a small arched opening at right.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:41:06.388Z"
+      }
+    }
+  },
+  "roof": {
+    "referenceSource": "references/roof-satellite.jpg",
+    "type": "footprint-hip",
+    "heightRatio": 0.55,
+    "overhangMeters": 0.45,
+    "notes": "Steep red slate roofs over a cross plan with a rounded apse (satellite + side views); modeled as a footprint-following hip. The round bell tower and the two transept gables are not separate masses yet.",
+    "insetMeters": 3.5
+  },
+  "heightMeters": 7.89,
+  "wallHeightMeters": 6.19,
+  "heightSource": "lidar_estimate (https://nhgeodata.unh.edu/image/rest/services/ImageServices/nDSM_NW_HS_NH/ImageServer)"
+}

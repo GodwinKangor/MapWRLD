@@ -1,0 +1,114 @@
+{
+  "building": "building__hopkins-center-for-the-arts__way_262924499",
+  "displayName": "Hopkins Center for the Arts",
+  "rulesVersion": 1,
+  "scope": "exterior-only",
+  "windowsAndDoors": {
+    "wallOpeningPlans": {
+      "north-18": {
+        "reference": "references/walls/wall-03.jpg",
+        "windows": 5,
+        "doors": 3,
+        "floors": 1,
+        "windowGridColumns": 5,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "doorPositions": [
+          0.3,
+          0.5,
+          0.7
+        ],
+        "windowSillMeters": 4.6,
+        "windowWidthMeters": 3,
+        "windowHeightMeters": 6.2,
+        "doorWidthMeters": 2.2,
+        "doorHeightMeters": 3,
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.65,
+        "quality": "clear",
+        "notes": "North front facing the Green: five tall round-arched glass bays under a projecting flat canopy, a fully glazed ground-floor storefront with glass doors across the plaza.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:45.911Z"
+      },
+      "west-02": {
+        "reference": "references/walls/wall-08.jpg",
+        "windows": 8,
+        "doors": 0,
+        "floors": 1,
+        "windowGridColumns": 8,
+        "windowRows": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        ],
+        "doorPositions": [],
+        "windowSillMeters": 0.4,
+        "windowWidthMeters": 2.6,
+        "windowHeightMeters": 3.4,
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.45,
+        "quality": "partial",
+        "notes": "Southwest courtyard cafe close-up: brick piers between tall green-framed glass panels; rhythm extended across the 31 m wall.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:45.911Z"
+      },
+      "south-02": {
+        "reference": "references/walls/wall-09.jpg",
+        "windows": 0,
+        "doors": 0,
+        "floors": 1,
+        "windowGridColumns": 5,
+        "windowRows": [
+          []
+        ],
+        "doorPositions": [],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.7,
+        "quality": "clear",
+        "notes": "South fly-tower wall: five tall brick bays with arched tops between concrete piers, no openings.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:45.911Z"
+      },
+      "south-05": {
+        "reference": "references/walls/wall-10.jpg",
+        "windows": 0,
+        "doors": 1,
+        "floors": 1,
+        "windowGridColumns": 1,
+        "windowRows": [
+          []
+        ],
+        "doorPositions": [
+          0.57
+        ],
+        "doorPositionStatus": "visually-read",
+        "countMethod": "visual-inspection",
+        "confidence": 0.4,
+        "quality": "partial",
+        "notes": "South brick wall behind birches: plain brick with a single teal service door.",
+        "reader": "manual photo reading, Claude Code session 2026-10-19",
+        "readAt": "2026-10-19T21:54:45.911Z"
+      }
+    }
+  },
+  "heightMeters": 14,
+  "wallHeightMeters": 14,
+  "heightSource": "reading override"
+}

@@ -1,0 +1,33 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": { "quality": "unusable", "notes": "Interior corridor photo." },
+    "wall-02": {
+      "quality": "partial", "confidence": 0.45, "floors": 4, "windowGridColumns": 4,
+      "windowRows": [[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]], "doorPositions": [],
+      "notes": "West terrace close-up: brick arcade with white pilasters and multi-pane windows behind the arches; the upper floors are assumed to follow the four-bay rhythm seen from the street."
+    },
+    "wall-03": {
+      "quality": "clear", "confidence": 0.55, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[2, 4], [1, 2, 4, 5], [1, 2, 4, 5]], "doorPositions": [0.08, 0.4],
+      "notes": "South (Main Street) wing: storefronts with arched display windows and fanlit doors at street level, shuttered brick floors above and slate roof with dormers; a tree hides the center."
+    },
+    "wall-04": { "quality": "unusable", "notes": "Interior photo." },
+    "wall-05": { "quality": "unusable", "notes": "Interior workshop photo." },
+    "wall-06": { "quality": "unusable", "notes": "No matching model wall; interior." },
+    "wall-07": { "quality": "unusable", "notes": "No matching model wall; interior." },
+    "wall-08": { "quality": "unusable", "notes": "Interior photo." },
+    "wall-09": { "quality": "unusable", "notes": "Interior lounge photo." },
+    "wall-10": {
+      "quality": "clear", "confidence": 0.5, "floors": 4, "windowGridColumns": 7,
+      "windowRows": [[1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7], [1, 2, 3, 4, 5, 6, 7]], "doorPositions": [0.85],
+      "notes": "North side facing the Green across the street: glazed ground-floor restaurant terrace, three brick floors of regular windows, dormered slate roof; the porte-cochere entrance at the right."
+    },
+    "wall-11": {
+      "quality": "clear", "confidence": 0.55, "floors": 4, "windowGridColumns": 4,
+      "windowRows": [[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]], "doorPositions": [0.5],
+      "notes": "Northwest corner block at Main and Wheelock: four-bay brick facade over a white-columned arcade with arched openings, dormers in the slate roof."
+    }
+  },
+  "roof": { "type": "footprint-hip", "heightRatio": 0.22, "insetMeters": 3.5, "overhangMeters": 0.4, "notes": "Slate roof with rows of gabled dormers; modeled as a footprint-following hip without dormers." }
+}

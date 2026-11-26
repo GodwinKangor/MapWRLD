@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1124" height="1216" viewBox="0 0 1124 1216">
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202020}.title{font-size:18px;font-weight:700}.role{font-size:15px;font-weight:700}.meta{font-size:11px}.tiny{font-size:10px}.wall{fill:#fff;stroke:#222;stroke-width:1.4}.grid{stroke:#d8d8d8;stroke-width:.65}.window{fill:#72b8ff;stroke:#063f78;stroke-width:1.1;fill-opacity:.5}.door{fill:#f4aa42;stroke:#7a3f00;stroke-width:1.3;fill-opacity:.62}.feature{fill:#b58cff;stroke:#4a238a;stroke-width:1.25;fill-opacity:.25}.stair{fill:#77c879;stroke:#1b5e20;stroke-width:1.25;fill-opacity:.33}.roof{fill:#e6e6e6;stroke:#333;stroke-width:1.2}.openingText{font-size:9px;font-weight:700;fill:#111}
+</style>
+<rect width="100%" height="100%" fill="#f7f6f1"/>
+<text x="42" y="28" class="title">Webster Hall orthographic modeling elevations</text>
+<text x="42" y="47" class="meta">Straightened diagrams generated from approved rules/counts and scaled wall dimensions. Oblique photos remain evidence, not the modeling surface.</text>
+<text x="42" y="62" class="role">Front Elevation</text>
+<rect class="wall" x="42.0" y="74.0" width="360.0" height="430.0"/>
+<line class="grid" x1="145.0" y1="74.0" x2="145.0" y2="504.0"/>
+<line class="grid" x1="247.9" y1="74.0" x2="247.9" y2="504.0"/>
+<line class="grid" x1="350.9" y1="74.0" x2="350.9" y2="504.0"/>
+<line class="grid" x1="42.0" y1="369.2" x2="402.0" y2="369.2"/>
+<line class="grid" x1="42.0" y1="234.4" x2="402.0" y2="234.4"/>
+<rect class="window" x="122.1" y="150.6" width="19.8" height="37.7"/>
+<text class="openingText" x="125.1" y="162.6">W01</text>
+<rect class="window" x="212.1" y="150.6" width="19.8" height="37.7"/>
+<text class="openingText" x="215.1" y="162.6">W02</text>
+<rect class="window" x="302.1" y="150.6" width="19.8" height="37.7"/>
+<text class="openingText" x="305.1" y="162.6">W03</text>
+<rect class="door" x="167.5" y="406.9" width="37.1" height="97.1"/>
+<text class="openingText" x="170.5" y="418.9">D01</text>
+<rect class="door" x="239.5" y="406.9" width="37.1" height="97.1"/>
+<text class="openingText" x="242.5" y="418.9">D02</text>
+<text x="46.0" y="499.0" class="tiny">South 03</text>
+<rect class="wall" x="414.0" y="74.0" width="360.0" height="430.0"/>
+<line class="grid" x1="484.6" y1="74.0" x2="484.6" y2="504.0"/>
+<line class="grid" x1="555.1" y1="74.0" x2="555.1" y2="504.0"/>
+<line class="grid" x1="625.7" y1="74.0" x2="625.7" y2="504.0"/>
+<line class="grid" x1="696.2" y1="74.0" x2="696.2" y2="504.0"/>
+<line class="grid" x1="414.0" y1="369.2" x2="774.0" y2="369.2"/>
+<line class="grid" x1="414.0" y1="234.4" x2="774.0" y2="234.4"/>
+<rect class="window" x="517.1" y="245.2" width="33.9" height="167.1"/>
+<text class="openingText" x="520.1" y="257.2">W01</text>
+<rect class="window" x="577.1" y="245.2" width="33.9" height="167.1"/>
+<text class="openingText" x="580.1" y="257.2">W02</text>
+<rect class="window" x="637.1" y="245.2" width="33.9" height="167.1"/>
+<text class="openingText" x="640.1" y="257.2">W03</text>
+<text x="418.0" y="499.0" class="tiny">East 02</text>
+<rect class="wall" x="786.0" y="74.0" width="360.0" height="430.0"/>
+<line class="grid" x1="871.1" y1="74.0" x2="871.1" y2="504.0"/>
+<line class="grid" x1="956.2" y1="74.0" x2="956.2" y2="504.0"/>
+<line class="grid" x1="1041.3" y1="74.0" x2="1041.3" y2="504.0"/>
+<line class="grid" x1="1126.4" y1="74.0" x2="1126.4" y2="504.0"/>
+<line class="grid" x1="786.0" y1="369.2" x2="1146.0" y2="369.2"/>
+<line class="grid" x1="786.0" y1="234.4" x2="1146.0" y2="234.4"/>
+<rect class="window" x="885.6" y="245.2" width="40.9" height="167.1"/>
+<text class="openingText" x="888.6" y="257.2">W01</text>
+<rect class="window" x="945.6" y="245.2" width="40.9" height="167.1"/>
+<text class="openingText" x="948.6" y="257.2">W02</text>
+<rect class="window" x="1005.6" y="245.2" width="40.9" height="167.1"/>
+<text class="openingText" x="1008.6" y="257.2">W03</text>
+<text x="790.0" y="499.0" class="tiny">West 03</text>
+<text x="42" y="522" class="meta">counts: windows=9 doors=2</text>
+<text x="42" y="538" class="tiny">proof: south-03: windows 1 row x 3 = 3; south-03: doors 1 row x 2 = 2; east-02: windows 1 row x 3 = 3; west-03: windows 1 row x 3 = 3</text>
+<text x="42" y="554" class="tiny">sources: references/walls/wall-01.jpg, references/walls/wall-02.jpg, references/walls/wall-03.jpg</text>
+<text x="42" y="612" class="role">Roof Plan</text>
+<rect class="roof" x="42.0" y="624.0" width="360.0" height="430.0"/>
+<line class="grid" x1="112.6" y1="624.0" x2="112.6" y2="873.4"/>
+<line class="grid" x1="183.1" y1="624.0" x2="183.1" y2="873.4"/>
+<line class="grid" x1="253.7" y1="624.0" x2="253.7" y2="873.4"/>
+<line class="grid" x1="324.2" y1="624.0" x2="324.2" y2="873.4"/>
+<line class="grid" x1="42.0" y1="824.5" x2="402.0" y2="824.5"/>
+<line class="grid" x1="42.0" y1="775.6" x2="402.0" y2="775.6"/>
+<line class="grid" x1="42.0" y1="726.8" x2="402.0" y2="726.8"/>
+<line class="grid" x1="42.0" y1="677.9" x2="402.0" y2="677.9"/>
+<line x1="85.2" y1="748.7" x2="358.8" y2="748.7" stroke="#555" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="48.0" y="638.0" class="tiny">roof zones from satellite reference</text>
+<text x="46.0" y="1049.0" class="tiny">Roof Plan / Satellite | classify_from_roof_reference</text>
+<text x="48.0" y="880.4" class="tiny">3D roof elevation profiles</text>
+<rect x="48.0" y="883.4" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="54.0" y1="947.7" x2="212.0" y2="947.7" stroke="#333" stroke-width="1"/>
+<text x="52.0" y="894.4" class="tiny">front</text>
+<rect x="226.0" y="883.4" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="232.0" y1="947.7" x2="390.0" y2="947.7" stroke="#333" stroke-width="1"/>
+<text x="230.0" y="894.4" class="tiny">rear</text>
+<rect x="48.0" y="965.7" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="54.0" y1="1030.0" x2="212.0" y2="1030.0" stroke="#333" stroke-width="1"/>
+<text x="52.0" y="976.7" class="tiny">left-side</text>
+<rect x="226.0" y="965.7" width="170.0" height="74.3" fill="#fff" fill-opacity="0.52" stroke="#777" stroke-width=".7"/>
+<line x1="232.0" y1="1030.0" x2="390.0" y2="1030.0" stroke="#333" stroke-width="1"/>
+<text x="230.0" y="976.7" class="tiny">right-side</text>
+<text x="42" y="1072" class="meta">counts: windows=0 doors=0</text>
+<text x="42" y="1088" class="tiny">proof: none</text>
+<text x="42" y="1104" class="tiny">sources: references/roof-satellite.jpg</text>
+</svg>

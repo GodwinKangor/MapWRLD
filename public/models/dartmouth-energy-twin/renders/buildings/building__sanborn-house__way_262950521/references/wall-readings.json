@@ -1,0 +1,26 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": { "quality": "unusable", "notes": "Shrubs cover the wall; only the French doors of the west entrance are visible at the far left." },
+    "wall-02": {
+      "quality": "clear", "confidence": 0.6, "floors": 3, "windowGridColumns": 11,
+      "windowRows": [[1, 2, 3, 4, 6, 7, 8, 9, 10, 11], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]], "doorPositions": [0.42],
+      "notes": "South front: Georgian Revival brick, pedimented center pavilion with an oculus and a pedimented entrance; about eleven bays over three storeys, round-arched windows on the ground floor of the east half."
+    },
+    "wall-03": {
+      "quality": "partial", "confidence": 0.35, "floors": 3, "windowGridColumns": 4,
+      "windowRows": [[1, 4], [1, 2, 3, 4], [1, 2, 3, 4]], "doorPositions": [0.4],
+      "notes": "Southeast end through trees: white entrance door, an arched loggia continues to the right (separate structure)."
+    },
+    "wall-04": { "quality": "unusable", "notes": "No matching model wall." },
+    "wall-05": {
+      "quality": "partial", "confidence": 0.45, "floors": 3, "windowGridColumns": 2,
+      "windowRows": [[1, 2], [1, 2], [1, 2]], "doorPositions": [],
+      "notes": "Northeast close-up: two twelve-over-twelve windows per floor in white frames; top floor assumed."
+    },
+    "wall-06": { "quality": "unusable", "notes": "Interior photo." },
+    "wall-07": { "quality": "unusable", "notes": "No matching model wall." },
+    "wall-08": { "quality": "unusable", "notes": "No matching model wall." }
+  },
+  "roof": { "type": "footprint-hip", "heightRatio": 0.3, "insetMeters": 3.0, "overhangMeters": 0.4, "notes": "Slate gable roofs with a pedimented center gable and chimneys; modeled as a footprint-following hip." }
+}

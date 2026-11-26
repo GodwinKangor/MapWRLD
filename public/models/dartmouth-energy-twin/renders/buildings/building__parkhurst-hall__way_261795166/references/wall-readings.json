@@ -1,0 +1,42 @@
+{
+  "reader": "manual photo reading, Claude Code session 2026-10-19",
+  "walls": {
+    "wall-01": {
+      "quality": "partial", "confidence": 0.45, "floors": 3, "windowGridColumns": 4,
+      "windowRows": [[1, 4], [1, 2, 3, 4], [2, 3]], "doorPositions": [0.5],
+      "notes": "West wing end seen through a portico: basement windows either side of a basement door, four main-floor windows, upper floor partly hidden by trees."
+    },
+    "wall-02": { "quality": "unusable", "notes": "No matching model wall." },
+    "wall-03": {
+      "quality": "partial", "confidence": 0.5, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 4, 5], [1, 2, 3, 4, 5], [1, 2, 3, 4, 5]], "doorPositions": [0.5],
+      "notes": "South front. The wall-03 photo is blocked by a tree; read from the south.jpg street view instead: centered entrance portico with paired columns and steps, two tall windows each side on the main floor, five bays above, basement lights below."
+    },
+    "wall-04": {
+      "quality": "clear", "confidence": 0.6, "floors": 3, "windowGridColumns": 2,
+      "windowRows": [[1, 2], [1, 2], [1, 2]], "doorPositions": [],
+      "notes": "Southeast corner pavilion: two window bays per floor over basement lights, quoined corners, dormer above."
+    },
+    "wall-05": {
+      "quality": "partial", "confidence": 0.4, "floors": 3, "windowGridColumns": 2,
+      "windowRows": [[2], [2], [2]], "doorPositions": [],
+      "notes": "East corner close-up: one window bay per floor at the right, the portico steps at the far left belong to the front."
+    },
+    "wall-06": {
+      "quality": "partial", "confidence": 0.35, "floors": 3, "windowGridColumns": 5,
+      "windowRows": [[1, 2, 3, 4, 5], [1, 2, 4, 5], [1, 2, 4, 5]], "doorPositions": [],
+      "notes": "East side through trees: basement lights across the base, paired windows either side of a central pier on the floors above."
+    },
+    "wall-07": {
+      "quality": "partial", "confidence": 0.35, "floors": 3, "windowGridColumns": 6,
+      "windowRows": [[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6]], "doorPositions": [],
+      "notes": "North side mostly behind a tree; six basement lights visible, upper rhythm assumed to match."
+    },
+    "wall-08": {
+      "quality": "clear", "confidence": 0.6, "floors": 3, "windowGridColumns": 6,
+      "windowRows": [[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 5, 6]], "doorPositions": [],
+      "notes": "Northwest wing: six basement lights and six main-floor windows with stone lintels; upper floor partly behind leaves."
+    }
+  },
+  "roof": { "type": "footprint-hip", "heightRatio": 0.25, "insetMeters": 3.0, "overhangMeters": 0.4, "notes": "Hipped slate/metal roof with dormers and a raised central pavilion roof (satellite + south view); modeled as a footprint-following hip without dormers." }
+}
