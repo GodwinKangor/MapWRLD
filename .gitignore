@@ -17,3 +17,7 @@ public/models/dartmouth-energy-twin/renders/parts-manifest.partial.json
 .vercel
 .env*
 !.env.example
+
+# field-capture local store (dev/demo): tokens hashes, photos, results
+.field-data/
+field-worker/.worker-data/
