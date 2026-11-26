@@ -5,7 +5,9 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import type { Building } from "@/data/buildings";
 import type { EnergyTechnology } from "@/data/energy-evidence";
 import { CampusEngine, type CameraState, type Quality, type SceneLayers, type SceneStatus } from "./campus3d/engine";
+import { LOOKS, type Look } from "./campus3d/looks";
 import type { Season } from "./campus3d/trees";
+import { worldCredentials, type WorldStatus } from "./campus3d/world-tiles";
 
 type Props = {
   buildings: Building[];        // what search/filters show as markers
@@ -19,6 +21,9 @@ type Props = {
 };
 
 const QUALITY_KEY = "campus-scene-quality";
+const LOOK_KEY = "campus-scene-look";
+const WORLD_KEY = "campus-scene-world";
+const WORLD_AVAILABLE = worldCredentials() !== null;
 const MINIMAP_IMAGE = "/models/dartmouth-campus/terrain/campus-imagery-2048.jpg";
 const ATTRIBUTION = [
   "Imagery: USGS The National Map / USDA NAIP",
@@ -41,14 +46,23 @@ export function CampusScene({ buildings, allBuildings, selected, onSelect, layer
   const [quality, setQuality] = useState<Quality | "auto">("auto");
   const [attempt, setAttempt] = useState(0);
   const [showCredits, setShowCredits] = useState(false);
+  const [look, setLook] = useState<Look>("standard");
+  const [worldOn, setWorldOn] = useState(false);
+  const [worldStatus, setWorldStatus] = useState<WorldStatus | null>(null);
   // latest props for the engine's initial state without re-creating it on every change
-  const latest = useRef({ buildings, allBuildings, layers, evidenceTechnology, time, season, selected, modelVisible });
-  latest.current = { buildings, allBuildings, layers, evidenceTechnology, time, season, selected, modelVisible };
+  const latest = useRef({ buildings, allBuildings, layers, evidenceTechnology, time, season, selected, modelVisible, look, worldOn });
+  latest.current = { buildings, allBuildings, layers, evidenceTechnology, time, season, selected, modelVisible, look, worldOn };
 
   useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
   useEffect(() => { allRef.current = allBuildings; }, [allBuildings]);
   useEffect(() => {
-    try { const saved = window.localStorage.getItem(QUALITY_KEY) as Quality | "auto" | null; if (saved) setQuality(saved); } catch { /* storage unavailable */ }
+    try {
+      const saved = window.localStorage.getItem(QUALITY_KEY) as Quality | "auto" | null;
+      if (saved) setQuality(saved);
+      const savedLook = window.localStorage.getItem(LOOK_KEY) as Look | null;
+      if (savedLook && LOOKS.some(({ id }) => id === savedLook)) setLook(savedLook);
+      if (WORLD_AVAILABLE && window.localStorage.getItem(WORLD_KEY) === "on") setWorldOn(true);
+    } catch { /* storage unavailable */ }
   }, []);
 
   const drawMinimap = useCallback((camera: CameraState | null) => {
@@ -100,6 +114,7 @@ export function CampusScene({ buildings, allBuildings, selected, onSelect, layer
       },
       onStatus: setStatus,
       onCamera: (camera) => { lastCamera.current = camera; drawMinimap(camera); },
+      onWorldStatus: setWorldStatus,
     }, initial.layers, resolved);
     engineRef.current = engine;
     engine.setBuildings(initial.buildings, initial.allBuildings);
@@ -107,12 +122,15 @@ export function CampusScene({ buildings, allBuildings, selected, onSelect, layer
     engine.setTime(initial.time);
     engine.setSeason(toSeason(initial.season));
     engine.setModelVisible(initial.modelVisible);
+    engine.setLook(initial.look);
+    engine.setWorldContext(initial.worldOn);
     void engine.load().then(() => { if (latest.current.selected) engine.setSelected(latest.current.selected.id); });
     (window as unknown as { __campusScene?: CampusEngine }).__campusScene = engine;
     return () => {
       engine.dispose();
       engineRef.current = null;
       setStatus({ phase: "loading", message: "Preparing the campus", progress: 0 });
+      setWorldStatus(null);
     };
   }, [quality, attempt, drawMinimap]);
 
@@ -123,10 +141,22 @@ export function CampusScene({ buildings, allBuildings, selected, onSelect, layer
   useEffect(() => { engineRef.current?.setTime(time); }, [time]);
   useEffect(() => { engineRef.current?.setSeason(toSeason(season)); }, [season]);
   useEffect(() => { engineRef.current?.setModelVisible(modelVisible); }, [modelVisible]);
+  useEffect(() => { engineRef.current?.setLook(look); }, [look]);
+  useEffect(() => { engineRef.current?.setWorldContext(worldOn); }, [worldOn]);
 
   const changeQuality = (next: Quality | "auto") => {
     setQuality(next);
     try { window.localStorage.setItem(QUALITY_KEY, next); } catch { /* storage unavailable */ }
+  };
+
+  const changeLook = (next: Look) => {
+    setLook(next);
+    try { window.localStorage.setItem(LOOK_KEY, next); } catch { /* storage unavailable */ }
+  };
+
+  const changeWorld = (next: boolean) => {
+    setWorldOn(next);
+    try { window.localStorage.setItem(WORLD_KEY, next ? "on" : "off"); } catch { /* storage unavailable */ }
   };
 
   const onMinimapClick = (event: React.MouseEvent<HTMLCanvasElement>) => {
@@ -171,7 +201,22 @@ export function CampusScene({ buildings, allBuildings, selected, onSelect, layer
               <option value="high">High</option>
             </select>
           </label>
+          <label className="quality-select">Look
+            <select value={look} onChange={(event) => changeLook(event.target.value as Look)}>
+              {LOOKS.map(({ id, label }) => <option key={id} value={id}>{label}</option>)}
+            </select>
+          </label>
+          {WORLD_AVAILABLE && (
+            <label title="Google photorealistic 3D around the campus. Context only: it can't be selected, and each view loads billed map tiles.">
+              <input type="checkbox" checked={worldOn} onChange={(event) => changeWorld(event.target.checked)} /> Real-world surroundings
+            </label>
+          )}
+          {worldOn && worldStatus?.state === "loading" && <small role="status">Loading surroundings…</small>}
+          {worldOn && worldStatus?.state === "error" && <small role="alert">Surroundings unavailable: {worldStatus.message}</small>}
         </div>
+      )}
+      {worldOn && worldStatus && worldStatus.state !== "error" && (
+        <p className="world-attribution">{["Google", ...worldStatus.attributions.filter((text) => text !== "Google")].join(" · ")}</p>
       )}
       <canvas ref={minimapRef} className="campus-minimap" width={150} height={118} onClick={onMinimapClick} aria-label="Campus overview map; click to move the view" />
       <div className="map-controls">

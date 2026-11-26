@@ -10,9 +10,11 @@ import { primaryTechnology, technologyColors, type EnergyTechnology } from "@/da
 import { CampusBuildings, type BuildingGround } from "./buildings";
 import { ASSET_ROOT, clamp, fetchJson, loadFrame, versioned, type CampusFrame } from "./frame";
 import { GroundPainter, type CampusField, type CampusRoad } from "./ground-texture";
+import { LookPipeline, type Look } from "./looks";
 import { MarkerLayer, type MarkerSpec } from "./markers";
 import { buildTerrain } from "./terrain";
 import { CampusTrees, type Season } from "./trees";
+import { WorldContext, worldCredentials, type TileBudget, type WorldStatus } from "./world-tiles";
 
 export type SceneLayers = {
   accessibility: boolean; boundary: boolean; carbon: boolean; electric: boolean; energyNetwork: boolean;
@@ -27,12 +29,16 @@ type Callbacks = {
   onSelect: (buildingId: string) => void;
   onStatus: (status: SceneStatus) => void;
   onCamera?: (camera: CameraState) => void;
+  onWorldStatus?: (status: WorldStatus | null) => void;
 };
 
-const QUALITY: Record<Quality, { pixelRatio: number; terrainStride: number; mobileImagery: boolean; anisotropy: number }> = {
-  low: { pixelRatio: 1, terrainStride: 3, mobileImagery: true, anisotropy: 2 },
-  medium: { pixelRatio: 1.5, terrainStride: 2, mobileImagery: false, anisotropy: 8 },
-  high: { pixelRatio: 2, terrainStride: 1, mobileImagery: false, anisotropy: 16 },
+// One budget per device tier. "low" is what auto picks for phones, tablets, and <= 4 GB devices
+// (see autoQuality in campus-scene.tsx); its tile cache stays well under the ~0.5-1.5 GB at which
+// iOS Safari closes a tab, the limit gods-eye-view sizes its own Google tiles cache for.
+const QUALITY: Record<Quality, { pixelRatio: number; terrainStride: number; mobileImagery: boolean; anisotropy: number; lookSamples: number; tiles: TileBudget }> = {
+  low: { pixelRatio: 1, terrainStride: 3, mobileImagery: true, anisotropy: 2, lookSamples: 0, tiles: { errorTarget: 24, cacheMB: 160, downloads: 4 } },
+  medium: { pixelRatio: 1.5, terrainStride: 2, mobileImagery: false, anisotropy: 8, lookSamples: 4, tiles: { errorTarget: 16, cacheMB: 384, downloads: 8 } },
+  high: { pixelRatio: 2, terrainStride: 1, mobileImagery: false, anisotropy: 16, lookSamples: 4, tiles: { errorTarget: 10, cacheMB: 768, downloads: 12 } },
 };
 const HIGHLIGHT_ALL = "#f2a33a";
 const SELECTED = "#d9ff77";
@@ -68,6 +74,10 @@ export class CampusEngine {
   private season: Season = "Fall";
   private hour = 14;
   private modelVisible = true;
+  private currentLook: Look = "standard";
+  private lookPipeline?: LookPipeline;
+  private worldWanted = false;
+  private world?: WorldContext;
   private frameRequested = 0;
   private flight?: { from: [THREE.Vector3, THREE.Vector3]; to: [THREE.Vector3, THREE.Vector3]; start: number; duration: number };
   private width = 1;
@@ -83,7 +93,7 @@ export class CampusEngine {
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
     this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
     this.renderer.toneMappingExposure = 1.05;
-    this.renderer.info.autoReset = true;
+    this.renderer.info.autoReset = false; // reset per frame: a look draws in several passes
     this.renderer.domElement.className = "campus-canvas";
     container.appendChild(this.renderer.domElement);
     this.labels = document.createElement("div");
@@ -139,6 +149,7 @@ export class CampusEngine {
       const terrain = buildTerrain(frame, settings.terrainStride, this.groundTexture);
       this.terrainGroup = terrain.group;
       this.scene.add(terrain.group);
+      this.syncWorld();
       this.invalidate();
 
       status("Loading trees", 0.45);
@@ -229,6 +240,36 @@ export class CampusEngine {
     this.modelVisible = visible;
     if (this.buildings) this.buildings.mesh.visible = visible;
     this.invalidate();
+  }
+
+  setLook(look: Look) {
+    if (look === this.currentLook) return;
+    this.currentLook = look;
+    this.lookPipeline?.dispose();
+    this.lookPipeline = look === "standard" ? undefined : new LookPipeline(this.renderer, this.scene, this.camera, look, QUALITY[this.quality].lookSamples);
+    this.lookPipeline?.setSize(this.width, this.height, this.renderer.getPixelRatio());
+    this.invalidate();
+  }
+
+  /** Google photoreal tiles around the campus; created when wanted, disposed (cache freed) when not */
+  setWorldContext(wanted: boolean) {
+    this.worldWanted = wanted;
+    this.syncWorld();
+    this.invalidate();
+  }
+
+  private syncWorld() {
+    const credentials = worldCredentials();
+    const want = this.worldWanted && Boolean(credentials) && Boolean(this.frame) && !this.disposed;
+    if (want && !this.world) {
+      this.world = new WorldContext(this.frame!, credentials!, QUALITY[this.quality].tiles, this.invalidate, (status) => this.callbacks.onWorldStatus?.(status));
+      this.scene.add(this.world.group);
+      this.applyTime();
+    } else if (!want && this.world) {
+      this.world.dispose();
+      this.world = undefined;
+      this.callbacks.onWorldStatus?.(null);
+    }
   }
 
   // ---- camera
@@ -337,7 +378,20 @@ export class CampusEngine {
     }
     const moved = this.controls.update(); // damping keeps moving after the pointer is released
     this.constrainCamera();
-    this.renderer.render(this.scene, this.camera);
+    this.camera.updateMatrixWorld();
+    this.world?.update(this.camera, this.renderer); // asks for another frame itself while tiles stream in
+    this.renderer.info.reset();
+    if (this.lookPipeline) {
+      // the look styles the scene; markers then draw on top, unstyled (they never depth-test anyway)
+      this.markers.mesh.visible = false;
+      this.lookPipeline.render();
+      this.markers.mesh.visible = true;
+      this.renderer.autoClear = false;
+      this.renderer.render(this.markers.mesh, this.camera);
+      this.renderer.autoClear = true;
+    } else {
+      this.renderer.render(this.scene, this.camera);
+    }
     this.placeLabels();
     const info = this.renderer.info;
     Object.assign(this.metrics, {
@@ -359,6 +413,7 @@ export class CampusEngine {
     this.camera.aspect = this.width / this.height;
     this.camera.updateProjectionMatrix();
     this.markers.setResolution(this.width, this.height);
+    this.lookPipeline?.setSize(this.width, this.height, this.renderer.getPixelRatio());
     this.invalidate();
   }
 
@@ -375,6 +430,8 @@ export class CampusEngine {
     this.sky.intensity = isDay ? 1.05 + 0.4 * Math.sin(angle) : 0.85;
     this.sky.color.set(isDay ? "#dfe9f2" : "#7f93c4");
     (this.scene.background as THREE.Color).set(isDay ? "#13251c" : "#070d12");
+    // photo tiles carry baked daylight: dim and cool them at night instead of relighting
+    this.world?.setLight(new THREE.Color(isDay ? "#ffffff" : "#8fa3d6"), isDay ? clamp(0.75 + 0.35 * Math.sin(angle), 0.75, 1) : 0.38);
   }
 
   private paintGround() {
@@ -532,6 +589,8 @@ export class CampusEngine {
     this.buildings?.dispose();
     this.trees?.dispose();
     this.markers.dispose();
+    this.lookPipeline?.dispose();
+    this.world?.dispose();
     this.groundTexture?.dispose();
     this.terrainGroup?.traverse((object) => {
       const mesh = object as THREE.Mesh;
