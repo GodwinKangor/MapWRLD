@@ -1,0 +1,91 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-26T19:37:53Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 261793901,
+  "nodes": [
+    2674282718,
+    2674282719,
+    2674282720,
+    2674282721,
+    5904706505,
+    2674282722,
+    2674282723,
+    2674282724,
+    2674282725,
+    2674282718
+  ],
+  "tags": {
+    "addr:city": "Hanover",
+    "addr:housenumber": "10",
+    "addr:postcode": "03755",
+    "addr:state": "NH",
+    "addr:street": "North Main Street",
+    "building": "university",
+    "name": "McNutt Hall"
+  }
+},
+{
+  "type": "node",
+  "id": 2674282718,
+  "lat": 43.7036390,
+  "lon": -72.2901205
+},
+{
+  "type": "node",
+  "id": 2674282719,
+  "lat": 43.7036470,
+  "lon": -72.2899280
+},
+{
+  "type": "node",
+  "id": 2674282720,
+  "lat": 43.7037043,
+  "lon": -72.2899326
+},
+{
+  "type": "node",
+  "id": 2674282721,
+  "lat": 43.7037127,
+  "lon": -72.2897307
+},
+{
+  "type": "node",
+  "id": 2674282722,
+  "lat": 43.7034263,
+  "lon": -72.2897079
+},
+{
+  "type": "node",
+  "id": 2674282723,
+  "lat": 43.7034167,
+  "lon": -72.2899391
+},
+{
+  "type": "node",
+  "id": 2674282724,
+  "lat": 43.7034725,
+  "lon": -72.2899436
+},
+{
+  "type": "node",
+  "id": 2674282725,
+  "lat": 43.7034658,
+  "lon": -72.2901067
+},
+{
+  "type": "node",
+  "id": 5904706505,
+  "lat": 43.7035678,
+  "lon": -72.2897192
+}
+
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "schema": "mwrld.surfaces/v1",
+  "buildingId": "mcnutt-hall-261793901",
+  "osmId": "way/261793901",
+  "displayName": "McNutt Hall",
+  "frame": {
+    "name": "campus",
+    "axes": "x east, y north, z up (metres); GLB/Three.js uses (x, z, -y)",
+    "zOrigin": "building base (Blender mwrld_source_min_z), not terrain elevation",
+    "georeference": {
+      "originLongitude": -72.28761824817417,
+      "originLatitude": 43.70342049977081,
+      "longitudePerMeter": 1.2437812605066111e-05,
+      "latitudePerMeter": 9.00900885562946e-06
+    }
+  },
+  "sources": {
+    "osm": {
+      "file": "data/field-surfaces/osm/way-261793901.json",
+      "timestamp": "2026-11-26T19:37:53Z",
+      "license": "\u00a9 OpenStreetMap contributors (ODbL)"
+    },
+    "blend": "dartmouth-energy-twin.blend",
+    "heightM": {
+      "value": 14.98,
+      "from": "mwrld_wall_height_m"
+    }
+  },
+  "surfaces": [
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282725-2674282724",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282725,
+        2674282724
+      ],
+      "facing": "south",
+      "frame": {
+        "origin": [
+          -200.07150009741648,
+          5.028325525602214,
+          0.0
+        ],
+        "uAxis": [
+          0.9983956483781291,
+          0.05662269244406613,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          0.05662269244406613,
+          -0.9983956483781291,
+          0.0
+        ]
+      },
+      "widthM": 13.1343,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          13.134310301677472,
+          0.0
+        ],
+        "top-right": [
+          13.134310301677472,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "south-01"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282725-2674282724"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282724-2674282723",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282724,
+        2674282723
+      ],
+      "facing": "west",
+      "frame": {
+        "origin": [
+          -186.95826184777366,
+          5.772025538279027,
+          0.0
+        ],
+        "uAxis": [
+          0.0583138413982282,
+          -0.9982983000593472,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          -0.9982983000593472,
+          -0.0583138413982282,
+          0.0
+        ]
+      },
+      "widthM": 6.2044,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          6.204358061015196,
+          0.0
+        ],
+        "top-right": [
+          6.204358061015196,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "south-02"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282724-2674282723"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282723-2674282722",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282723,
+        2674282722
+      ],
+      "facing": "south",
+      "frame": {
+        "origin": [
+          -186.5964618958258,
+          -0.42177456699195004,
+          0.0
+        ],
+        "uAxis": [
+          0.998360912985106,
+          0.05723187419214363,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          0.05723187419214363,
+          -0.998360912985106,
+          0.0
+        ]
+      },
+      "widthM": 18.619,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          18.61899567359831,
+          0.0
+        ],
+        "top-right": [
+          18.61899567359831,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "south-03"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282723-2674282722"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282722-2674282721",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282722,
+        5904706505,
+        2674282721
+      ],
+      "facing": "east",
+      "frame": {
+        "origin": [
+          -168.00798437626645,
+          0.6438254509834951,
+          0.0
+        ],
+        "uAxis": [
+          -0.05756705659933923,
+          0.9983416419214859,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          0.9983416419214859,
+          0.05756705659933923,
+          0.0
+        ]
+      },
+      "widthM": 31.8432,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          31.843207982466087,
+          0.0
+        ],
+        "top-right": [
+          31.843207982466087,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "east-02",
+          "east-01"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282722-2674282721"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282721-2674282720",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282721,
+        2674282720
+      ],
+      "facing": "north",
+      "frame": {
+        "origin": [
+          -169.8411041324976,
+          32.434225992246056,
+          0.0
+        ],
+        "uAxis": [
+          -0.9983544279407615,
+          -0.05734488827327846,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          -0.05734488827327846,
+          0.9983544279407615,
+          0.0
+        ]
+      },
+      "widthM": 16.2595,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          16.259514035237803,
+          0.0
+        ],
+        "top-right": [
+          16.259514035237803,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "north-03"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282721-2674282720"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282720-2674282719",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282720,
+        2674282719
+      ],
+      "facing": "west",
+      "frame": {
+        "origin": [
+          -186.07386196574222,
+          31.50182597651754,
+          0.0
+        ],
+        "uAxis": [
+          0.05805013467218625,
+          -0.9983136690762784,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          -0.9983136690762784,
+          -0.05805013467218625,
+          0.0
+        ]
+      },
+      "widthM": 6.371,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          6.371043796644656,
+          0.0
+        ],
+        "top-right": [
+          6.371043796644656,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "north-02"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282720-2674282719"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282719-2674282718",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282719,
+        2674282718
+      ],
+      "facing": "north",
+      "frame": {
+        "origin": [
+          -185.7040220153446,
+          25.14152586804355,
+          0.0
+        ],
+        "uAxis": [
+          -0.99835808050184,
+          -0.057281263050681534,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          -0.057281263050681534,
+          0.99835808050184,
+          0.0
+        ]
+      },
+      "widthM": 15.5025,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          15.502451712142758,
+          0.0
+        ],
+        "top-right": [
+          15.502451712142758,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "north-01"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282719-2674282718"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/wall/2674282718-2674282725",
+      "kind": "wall",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "nodeChain": [
+        2674282718,
+        2674282725
+      ],
+      "facing": "west",
+      "frame": {
+        "origin": [
+          -201.1810199497519,
+          24.253525853589814,
+          0.0
+        ],
+        "uAxis": [
+          0.05761587539144843,
+          -0.9983388257014134,
+          0.0
+        ],
+        "vAxis": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "normal": [
+          -0.9983388257014134,
+          -0.05761587539144843,
+          0.0
+        ]
+      },
+      "widthM": 19.2572,
+      "heightM": 14.98,
+      "corners": {
+        "bottom-left": [
+          0.0,
+          0.0
+        ],
+        "bottom-right": [
+          19.257189876874065,
+          0.0
+        ],
+        "top-right": [
+          19.257189876874065,
+          14.98
+        ],
+        "top-left": [
+          0.0,
+          14.98
+        ]
+      },
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "panelIds": [
+          "west-01"
+        ],
+        "cornerMatchErrorM": [
+          0.0,
+          0.0
+        ],
+        "meshNormals": "inward",
+        "mappingStatus": "matched",
+        "facadeObject": "mwrld_facade__way_261793901_wall_2674282718-2674282725"
+      }
+    },
+    {
+      "surfaceId": "osm:way/261793901/roof/main",
+      "kind": "roof",
+      "buildingId": "mcnutt-hall-261793901",
+      "osmId": "way/261793901",
+      "roofType": "footprint-hip",
+      "frame": {
+        "origin": [
+          -201.1810199497519,
+          -0.42177456699195004,
+          14.98
+        ],
+        "uAxis": [
+          1,
+          0,
+          0
+        ],
+        "vAxis": [
+          0,
+          1,
+          0
+        ],
+        "normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      "widthM": 33.173,
+      "heightM": 32.856,
+      "footprint": [
+        [
+          -201.181,
+          24.2535
+        ],
+        [
+          -185.704,
+          25.1415
+        ],
+        [
+          -186.0739,
+          31.5018
+        ],
+        [
+          -169.8411,
+          32.4342
+        ],
+        [
+          -168.9165,
+          16.3503
+        ],
+        [
+          -168.008,
+          0.6438
+        ],
+        [
+          -186.5965,
+          -0.4218
+        ],
+        [
+          -186.9583,
+          5.772
+        ],
+        [
+          -200.0715,
+          5.0283
+        ]
+      ],
+      "note": "Horizontal plane at eave height over the footprint bounding box; pitched roof planes are not yet separate surfaces.",
+      "blender": {
+        "object": "building__mcnutt-hall__way_261793901",
+        "mappingStatus": "approximate"
+      }
+    }
+  ],
+  "digest": "8a92c3a1ff513562"
+}
